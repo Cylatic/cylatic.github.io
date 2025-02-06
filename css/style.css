@@ -1,0 +1,139 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Container */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Header */
+.site-header {
+  background: #222;
+  color: #fff;
+  padding: 1rem 0;
+}
+.site-header .logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+}
+.main-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+.main-nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+}
+.main-nav a.active,
+.main-nav a:hover {
+  text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+  background: url('../assets/hero.jpg') no-repeat center center/cover;
+  color: #fff;
+  text-align: center;
+  padding: 4rem 0;
+}
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+}
+.primary-btn {
+  background: #007BFF;
+  color: #fff;
+}
+
+/* Page Header */
+.page-header {
+  background: #f4f4f4;
+  padding: 2rem 0;
+  text-align: center;
+}
+.page-header h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Content Sections */
+.intro, .content, .services-list, .contact-form,
+.overview, .why-choose-us, .testimonials, .latest-news {
+  padding: 2rem 0;
+}
+.intro h2,
+.content h2,
+.overview h2,
+.why-choose-us h2,
+.testimonials h2,
+.latest-news h2 {
+  margin-bottom: 1rem;
+}
+
+/* Services List */
+.services-list .service-item {
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 1rem;
+}
+.services-list .service-item h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+.services-list .service-item ul {
+  list-style: disc inside;
+  margin: 1rem 0;
+}
+.services-list .service-item img {
+  width: 100%;
+  max-width: 600px;
+  margin: 1rem 0;
+}
+
+/* Contact Form */
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.contact-form label {
+  font-weight: bold;
+}
+.contact-form input,
+.contact-form textarea {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Footer */
+.site-footer {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 0.9rem;
+}
