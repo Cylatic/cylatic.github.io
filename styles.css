@@ -57,7 +57,7 @@ body {
 
 /* Hero Section */
 .hero {
-  background: url('assets/images/hero-bg.jpg') no-repeat center center/cover;
+  background: url('assets/images/bg.jpg') no-repeat center center/cover;
   color: #fff;
   text-align: center;
   padding: 10rem 0;
