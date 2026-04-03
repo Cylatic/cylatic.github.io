@@ -1,6 +1,6 @@
 <?php
 
-  $receiving_email_address = 'ami.lad@cylatic.com';
+  $receiving_email_address = 'contact@cylatic.com';
 
   if( file_exists($php_email_form = '../assets/php-email-form/php-email-form.php' )) {
     include( $php_email_form );
