@@ -3,29 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cylatic - Cybersecurity & IT Infrastructure Services</title>
-    <meta name="description" content="Expert cybersecurity and IT infrastructure services including SIEM integration, PAM implementation, and comprehensive security solutions.">
+    <meta name="theme-color" content="#05070d">
+    <title>Cylatic — Cybersecurity & IT Infrastructure</title>
+    <meta name="description" content="Cylatic delivers cybersecurity, SIEM, privileged access management and IT infrastructure solutions for modern businesses.">
+    <link rel="icon" href="assets/img/favicon.png">
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="navbar">
+    <nav class="navbar" id="navbar">
         <div class="container">
             <div class="nav-wrapper">
-                <div class="logo">
-                    <a href="#">Cylatic</a>
-                </div>
-                <button class="mobile-menu-toggle" id="mobileMenuToggle">
-                    <span></span>
-                    <span></span>
-                    <span></span>
+                <div class="logo"><a href="#home" aria-label="Cylatic home">Cylatic</a></div>
+                <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle navigation" aria-expanded="false">
+                    <span></span><span></span><span></span>
                 </button>
                 <ul class="nav-menu" id="navMenu">
-                    <li><a href="#home">Home</a></li>
+                    <li><a class="active" href="#home">Home</a></li>
                     <li><a href="#services">Services</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#contact">Contact</a></li>
@@ -34,201 +28,149 @@
         </div>
     </nav>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="container">
-            <div class="hero-content">
-                <h1 class="hero-title">Cybersecurity & IT Infrastructure Excellence</h1>
-                <p class="hero-subtitle">Comprehensive security solutions and IT infrastructure services to protect and optimize your business operations.</p>
-                <div class="hero-buttons">
-                    <a href="#contact" class="btn btn-primary">Get Started</a>
-                    <a href="#services" class="btn btn-secondary">Explore Services</a>
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="eyebrow"><i></i> Security engineering · infrastructure · resilience</div>
+                    <h1 class="hero-title">Secure the <span class="gradient-text">systems</span> that power your business.</h1>
+                    <p class="hero-subtitle">Cylatic helps modern organizations build stronger security operations and resilient IT infrastructure — from SIEM and privileged access to network architecture and secure deployments.</p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary">Start a conversation <i class="fa-solid fa-arrow-right" style="margin-left:9px"></i></a>
+                        <a href="#services" class="btn btn-secondary">Explore capabilities</a>
+                    </div>
+                    <div class="hero-metrics">
+                        <div class="metric"><strong>SIEM</strong><span>Integration & operations</span></div>
+                        <div class="metric"><strong>PAM</strong><span>Privileged access control</span></div>
+                        <div class="metric"><strong>IT</strong><span>Infrastructure engineering</span></div>
+                    </div>
+                </div>
+                <div class="hero-visual" aria-hidden="true">
+                    <div class="orbit"></div><div class="orbit"></div><div class="orbit"></div><div class="core"></div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Services Section -->
-    <section id="services" class="services">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Our Services</h2>
-                <p class="section-subtitle">Comprehensive IT and cybersecurity solutions for modern businesses</p>
-            </div>
-            <div class="services-grid">
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-shield-alt"></i>
-                    </div>
-                    <h3 class="service-title">SIEM Integration</h3>
-                    <p class="service-description">Expert implementation and management of Security Information and Event Management systems including Splunk, Netwrix, and SentinelOne.</p>
-                    <ul class="service-features">
-                        <li>Log source identification and correlation</li>
-                        <li>Custom connector development</li>
-                        <li>Security monitoring setup</li>
-                        <li>Threat detection optimization</li>
-                    </ul>
+        <section id="services" class="services">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-kicker">What we do</div>
+                    <h2 class="section-title">Security built for the real world.</h2>
+                    <p class="section-subtitle">Practical engineering across the security and infrastructure layers that keep your organization running.</p>
                 </div>
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-key"></i>
-                    </div>
-                    <h3 class="service-title">Privileged Access Management</h3>
-                    <p class="service-description">PAM360 implementation and configuration for secure privileged account management and access control.</p>
-                    <ul class="service-features">
-                        <li>Account discovery and onboarding</li>
-                        <li>Access policy configuration</li>
-                        <li>Session monitoring setup</li>
-                        <li>Compliance reporting</li>
-                    </ul>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-network-wired"></i>
-                    </div>
-                    <h3 class="service-title">Network Infrastructure</h3>
-                    <p class="service-description">Complete network asset inventory, management, and security infrastructure design and implementation.</p>
-                    <ul class="service-features">
-                        <li>Asset discovery and mapping</li>
-                        <li>Network security architecture</li>
-                        <li>Infrastructure monitoring</li>
-                        <li>Compliance documentation</li>
-                    </ul>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-docker"></i>
-                    </div>
-                    <h3 class="service-title">Docker & Deployment</h3>
-                    <p class="service-description">Container-based application deployment, configuration, and management for secure, scalable infrastructure.</p>
-                    <ul class="service-features">
-                        <li>Container orchestration</li>
-                        <li>Application deployment</li>
-                        <li>Configuration management</li>
-                        <li>Production environment setup</li>
-                    </ul>
+                <div class="services-grid">
+                    <article class="service-card">
+                        <div class="service-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                        <h3 class="service-title">SIEM Integration</h3>
+                        <p class="service-description">Connect your security ecosystem, normalize telemetry and build an operational monitoring foundation.</p>
+                        <ul class="service-features">
+                            <li>Log source identification & correlation</li>
+                            <li>Custom connector development</li>
+                            <li>Security monitoring setup</li>
+                            <li>Threat detection optimization</li>
+                        </ul>
+                    </article>
+                    <article class="service-card">
+                        <div class="service-icon"><i class="fa-solid fa-key"></i></div>
+                        <h3 class="service-title">Privileged Access Management</h3>
+                        <p class="service-description">Design and implement controlled privileged access with strong governance and visibility.</p>
+                        <ul class="service-features">
+                            <li>Account discovery & onboarding</li>
+                            <li>Access policy configuration</li>
+                            <li>Session monitoring setup</li>
+                            <li>Compliance reporting</li>
+                        </ul>
+                    </article>
+                    <article class="service-card">
+                        <div class="service-icon"><i class="fa-solid fa-network-wired"></i></div>
+                        <h3 class="service-title">Network Infrastructure</h3>
+                        <p class="service-description">Build a clearer, more secure infrastructure layer with asset visibility and practical architecture.</p>
+                        <ul class="service-features">
+                            <li>Asset discovery & mapping</li>
+                            <li>Network security architecture</li>
+                            <li>Infrastructure monitoring</li>
+                            <li>Compliance documentation</li>
+                        </ul>
+                    </article>
+                    <article class="service-card">
+                        <div class="service-icon"><i class="fa-brands fa-docker"></i></div>
+                        <h3 class="service-title">Docker & Deployment</h3>
+                        <p class="service-description">Deploy containerized workloads with repeatable configuration and production-focused practices.</p>
+                        <ul class="service-features">
+                            <li>Container orchestration</li>
+                            <li>Application deployment</li>
+                            <li>Configuration management</li>
+                            <li>Production environment setup</li>
+                        </ul>
+                    </article>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- About Section -->
-    <section id="about" class="about">
-        <div class="container">
-            <div class="about-content">
-                <div class="about-text">
-                    <h2 class="section-title">Why Choose Cylatic?</h2>
-                    <p class="about-description">We combine deep technical expertise with practical business understanding to deliver security and infrastructure solutions that protect and enable your business.</p>
-                    <div class="about-features">
-                        <div class="feature">
-                            <i class="fas fa-check-circle"></i>
-                            <div>
-                                <h4>Expert Implementation</h4>
-                                <p>Hands-on experience with enterprise security platforms and infrastructure management.</p>
-                            </div>
+        <section id="about" class="about">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-text">
+                        <div class="section-kicker">The Cylatic approach</div>
+                        <h2 class="section-title">Engineering first. Security always.</h2>
+                        <p class="about-description">We combine deep technical implementation experience with practical business understanding to deliver solutions that protect systems without making them harder to operate.</p>
+                        <div class="about-features">
+                            <div class="feature"><i class="fa-solid fa-circle-check"></i><div><h4>Expert Implementation</h4><p>Hands-on delivery across enterprise security platforms and infrastructure environments.</p></div></div>
+                            <div class="feature"><i class="fa-solid fa-circle-check"></i><div><h4>Security-First Architecture</h4><p>Solutions designed around visibility, access control, resilience and operational security.</p></div></div>
+                            <div class="feature"><i class="fa-solid fa-circle-check"></i><div><h4>End-to-End Delivery</h4><p>From assessment and architecture through deployment, tuning and operational handover.</p></div></div>
                         </div>
-                        <div class="feature">
-                            <i class="fas fa-check-circle"></i>
-                            <div>
-                                <h4>Security-First Approach</h4>
-                                <p>All solutions designed with security best practices and compliance requirements in mind.</p>
-                            </div>
-                        </div>
-                        <div class="feature">
-                            <i class="fas fa-check-circle"></i>
-                            <div>
-                                <h4>End-to-End Solutions</h4>
-                                <p>From initial assessment to deployment and ongoing management, we handle it all.</p>
+                    </div>
+                    <div class="about-visual" aria-hidden="true">
+                        <div class="dashboard">
+                            <div class="dashboard-top"><span>CYLATIC / SECURITY OPERATIONS</span><span class="status">SYSTEMS ONLINE</span></div>
+                            <div class="signal"><div class="wave"></div><div class="wave"></div></div>
+                            <div class="dashboard-stats">
+                                <div><strong>24/7</strong><span>Visibility</span></div>
+                                <div><strong>360°</strong><span>Coverage</span></div>
+                                <div><strong>∞</strong><span>Scalability</span></div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Get in Touch</h2>
-                <p class="section-subtitle">Ready to enhance your security and infrastructure? Let's talk.</p>
-            </div>
-            <div class="contact-wrapper">
-                <div class="contact-info">
-                    <div class="contact-item">
-                        <i class="fas fa-envelope"></i>
-                        <div>
-                            <h4>Email</h4>
-                            <p>contact@cylatic.com</p>
-                        </div>
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-kicker">Let's connect</div>
+                    <h2 class="section-title">Have a security or infrastructure challenge?</h2>
+                    <p class="section-subtitle">Tell us what you're building, securing or trying to improve.</p>
+                </div>
+                <div class="contact-wrapper">
+                    <div class="contact-info">
+                        <div class="contact-item"><i class="fa-solid fa-envelope"></i><div><h4>Email</h4><p>contact@cylatic.com</p></div></div>
+                        <div class="contact-item"><i class="fa-solid fa-location-dot"></i><div><h4>Location</h4><p>Ahmedabad, Gujarat, India</p></div></div>
+                        <div class="contact-item"><i class="fa-regular fa-clock"></i><div><h4>Response time</h4><p>Within 24 hours</p></div></div>
                     </div>
-                    <div class="contact-item">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <div>
-                            <h4>Location</h4>
-                            <p>Ahmedabad, Gujarat, India</p>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-clock"></i>
-                        <div>
-                            <h4>Response Time</h4>
-                            <p>Within 24 hours</p>
-                        </div>
+                    <div class="contact-form-wrapper">
+                        <form class="contact-form" action="https://formspree.io/your-form-id" method="POST">
+                            <div class="form-group"><label for="name">Name</label><input type="text" id="name" name="name" placeholder="Your name" required></div>
+                            <div class="form-group"><label for="email">Email</label><input type="email" id="email" name="email" placeholder="you@company.com" required></div>
+                            <div class="form-group"><label for="message">Message</label><textarea id="message" name="message" rows="5" placeholder="Tell us a little about your requirement..." required></textarea></div>
+                            <button type="submit" class="btn btn-primary btn-block">Send message <i class="fa-solid fa-arrow-right" style="margin-left:9px"></i></button>
+                        </form>
                     </div>
                 </div>
-                <div class="contact-form-wrapper">
-                    <form class="contact-form" action="https://formspree.io/your-form-id" method="POST">
-                        <div class="form-group">
-                            <label for="name">Name</label>
-                            <input type="text" id="name" name="name" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Email</label>
-                            <input type="email" id="email" name="email" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="message">Message</label>
-                            <textarea id="message" name="message" rows="5" required></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary btn-block">Send Message</button>
-                    </form>
-                </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
-    <!-- Footer -->
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
-                <div class="footer-brand">
-                    <h3>Cylatic</h3>
-                    <p>Cybersecurity & IT Infrastructure Services</p>
-                </div>
+                <div class="footer-brand"><h3>Cylatic</h3><p>Cybersecurity & IT Infrastructure Services</p></div>
                 <div class="footer-links">
-                    <div class="footer-column">
-                        <h4>Services</h4>
-                        <ul>
-                            <li><a href="#services">SIEM Integration</a></li>
-                            <li><a href="#services">PAM Solutions</a></li>
-                            <li><a href="#services">Network Security</a></li>
-                            <li><a href="#services">Docker Deployment</a></li>
-                        </ul>
-                    </div>
-                    <div class="footer-column">
-                        <h4>Company</h4>
-                        <ul>
-                            <li><a href="#about">About Us</a></li>
-                            <li><a href="#contact">Contact</a></li>
-                        </ul>
-                    </div>
+                    <div class="footer-column"><h4>Services</h4><ul><li><a href="#services">SIEM Integration</a></li><li><a href="#services">PAM Solutions</a></li><li><a href="#services">Network Security</a></li><li><a href="#services">Docker Deployment</a></li></ul></div>
+                    <div class="footer-column"><h4>Company</h4><ul><li><a href="#about">About</a></li><li><a href="#contact">Contact</a></li></ul></div>
                 </div>
             </div>
-            <div class="footer-bottom">
-                <p>&copy; 2026 Cylatic. All rights reserved.</p>
-            </div>
+            <div class="footer-bottom"><p>&copy; 2026 Cylatic. All rights reserved.</p></div>
         </div>
     </footer>
 
