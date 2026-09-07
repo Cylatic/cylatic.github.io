@@ -68,7 +68,7 @@ def parse_feed(name, url, weight):
                 "source": name,
                 "title": title,
                 "link": link,
-                "summary": re.sub(r"\\s+", " ", summary)[:1800],
+                "summary": re.sub(r"\s+", " ", summary)[:1800],
                 "published": published,
                 "weight": weight,
             })
@@ -139,10 +139,7 @@ Rules:
 '''
     payload = json.dumps({
         "contents": [{"parts": [{"text": prompt}]}],
-        "generationConfig": {
-            "temperature": 0.25,
-            "responseMimeType": "application/json",
-        },
+        "generationConfig": {"temperature": 0.25, "responseMimeType": "application/json"},
     }).encode()
     endpoint = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=" + urllib.parse.quote(key)
     request = urllib.request.Request(endpoint, data=payload, headers={"Content-Type": "application/json"}, method="POST")
@@ -150,11 +147,7 @@ Rules:
         try:
             with urllib.request.urlopen(request, timeout=180) as response:
                 data = json.loads(response.read())
-            text = "".join(
-                part.get("text", "")
-                for candidate in data.get("candidates", [])
-                for part in candidate.get("content", {}).get("parts", [])
-            )
+            text = "".join(part.get("text", "") for candidate in data.get("candidates", []) for part in candidate.get("content", {}).get("parts", []))
             if not text:
                 raise RuntimeError("Gemini returned no generated content")
             return json.loads(text.strip().removeprefix("```json").removesuffix("```").strip())
@@ -176,11 +169,7 @@ def article_page(post, date):
     slug = safe_slug(post["slug"])
     url = f"{BASE}/blog/{date:%Y/%m/%d}/{slug}.html"
     keywords = ", ".join(post.get("keywords", []))
-    sources = "".join(
-        f'<li class="source"><a href="{esc(source["url"])}" rel="noopener noreferrer">{esc(source["title"])}</a></li>'
-        for source in post.get("sources", [])
-        if source.get("url")
-    )
+    sources = "".join(f'<li class="source"><a href="{esc(source["url"])}" rel="noopener noreferrer">{esc(source["title"])}</a></li>' for source in post.get("sources", []) if source.get("url"))
     return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#11120f"><meta name="robots" content="index,follow,max-image-preview:large"><link rel="canonical" href="{url}"><title>{esc(post["title"])} | Cylatic Research</title><meta name="description" content="{esc(post["excerpt"])}"><meta name="keywords" content="{esc(keywords)}"><meta property="og:type" content="article"><meta property="og:title" content="{esc(post["title"])}"><meta property="og:description" content="{esc(post["excerpt"])}"><meta property="og:url" content="{url}"><meta name="twitter:card" content="summary_large_image"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9788655168653957" crossorigin="anonymous"></script><link rel="stylesheet" href="../../../../assets/css/blog.css"><style>.article-wrap{{max-width:920px;margin:auto;padding:110px 32px 120px}}.article-kicker{{font-size:10px;letter-spacing:.18em;font-weight:700;color:#70736a}}.article-title{{font:700 clamp(50px,7vw,92px)/.91 'Space Grotesk';letter-spacing:-.075em;margin:24px 0 30px;max-width:1000px}}.article-dek{{font-size:20px;line-height:1.7;color:#5b5e56;max-width:780px;border-bottom:1px solid var(--line);padding-bottom:42px}}.article{{margin-top:55px}.article h2{{font:600 36px/1.08 'Space Grotesk';letter-spacing:-.045em;margin:58px 0 18px}.article h3{{font:600 23px/1.2 'Space Grotesk';margin:38px 0 12px}.article p,.article li{{font-size:16px;line-height:1.9;color:#393c36}.article ul,.article ol{{padding-left:28px}}.article pre{{background:#171914;color:#e7e9df;padding:22px;border-radius:2px;overflow:auto;font:13px/1.7 ui-monospace,SFMono-Regular,Menlo,monospace}.article code{{background:#e6e7df;padding:2px 6px;font-family:ui-monospace,monospace}.article .source{{font-size:13px!important;line-height:1.6}.article .source a{{text-decoration:underline}}.article-note{{margin-top:55px;padding:24px;background:var(--soft);font-size:12px;line-height:1.7;color:#565951}}@media(max-width:700px){{.article-wrap{{padding:75px 20px 90px}}.article-title{{font-size:49px}}.article h2{{font-size:30px}}}}</style></head><body><header><a class="brand" href="../../../../">CYLATIC</a><nav><a href="../../../../tools/">Tools</a><a class="active" href="../../../../blog/">Research</a><a href="../../../../#contact">Contact</a></nav></header><main class="article-wrap"><div class="article-kicker">{date:%d %b %Y} · {esc(post["category"]).upper()} · {esc(post["read_time"])}</div><h1 class="article-title">{esc(post["title"])}</h1><p class="article-dek">{esc(post["excerpt"])}</p><article class="article">{post["body_html"]}<h2>Sources &amp; further reading</h2><ul>{sources}</ul><div class="article-note"><strong>CYLATIC RESEARCH</strong><br>Defensive analysis for security engineers. Validate vendor-specific indicators and detection logic against your own telemetry before production use.</div></article></main><footer>© 2026 CYLATIC · <a href="../../../../">Cybersecurity &amp; IT Infrastructure</a> · <a href="../../../../privacy-policy.html">Privacy</a></footer></body></html>'''
 
 
