@@ -1,19 +1,20 @@
-name: Daily Cybersecurity Research
+name: Cylatic Hourly Cybersecurity Research
 
 on:
-  push:
-    paths:
-      - '.github/scripts/generate_blog.py'
   schedule:
-    # 12:15 IST every day (06:45 UTC). GitHub may delay scheduled runs slightly.
-    - cron: '45 6 * * *'
+    # Hourly monitoring. GitHub may delay scheduled runs slightly.
+    - cron: '0 * * * *'
   workflow_dispatch:
 
 permissions:
   contents: write
 
+concurrency:
+  group: cylatic-cybersecurity-research
+  cancel-in-progress: false
+
 jobs:
-  publish:
+  research:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -21,7 +22,7 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Generate three technical research articles
+      - name: Generate one research article when a high-value story is found
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python3 .github/scripts/generate_blog.py
@@ -32,8 +33,8 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add blog sitemap.xml
           if git diff --cached --quiet; then
-            echo "No new articles generated."
+            echo "No publication this hour."
             exit 0
           fi
-          git commit -m "Publish daily cybersecurity research"
+          git commit -m "Publish cybersecurity research"
           git push
