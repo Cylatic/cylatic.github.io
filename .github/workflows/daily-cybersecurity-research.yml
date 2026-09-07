@@ -1,6 +1,9 @@
 name: Daily Cybersecurity Research
 
 on:
+  push:
+    paths:
+      - '.github/scripts/generate_blog.py'
   schedule:
     # 12:15 IST every day (06:45 UTC). GitHub may delay scheduled runs slightly.
     - cron: '45 6 * * *'
