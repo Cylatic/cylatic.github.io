@@ -2,8 +2,8 @@ name: Cylatic Hourly Cybersecurity Research
 
 on:
   schedule:
-    # Hourly monitoring. GitHub may delay scheduled runs slightly.
-    - cron: '0 * * * *'
+    # Run hourly, but GitHub may delay scheduled jobs during high load.
+    - cron: '17 * * * *'
   workflow_dispatch:
 
 permissions:
@@ -16,15 +16,20 @@ concurrency:
 jobs:
   research:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v6
+        uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          fetch-depth: 1
 
-      - name: Generate one research article when a high-value story is found
+      - name: Validate research generator
+        run: python3 -m py_compile .github/scripts/generate_blog.py
+
+      - name: Generate research article when a high-value story is found
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          PYTHONUNBUFFERED: '1'
         run: python3 .github/scripts/generate_blog.py
 
       - name: Commit generated research
@@ -37,4 +42,4 @@ jobs:
             exit 0
           fi
           git commit -m "Publish cybersecurity research"
-          git push
+          git push origin HEAD:main
