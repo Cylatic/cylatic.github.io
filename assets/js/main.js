@@ -9,6 +9,26 @@
     document.head.appendChild(favicon);
   }
 
+  document.querySelectorAll('form[action*="your-form-id"]').forEach(function (form) {
+    form.action = 'https://formsubmit.co/contact@cylatic.com';
+    form.method = 'POST';
+    const fields = [
+      ['_subject', 'New Cylatic website enquiry'],
+      ['_captcha', 'true'],
+      ['_template', 'table'],
+      ['_next', 'https://cylatic.com/contact/?sent=1']
+    ];
+    fields.forEach(function (item) {
+      if (!form.querySelector('input[name="' + item[0] + '"]')) {
+        const input = document.createElement('input');
+        input.type = 'hidden';
+        input.name = item[0];
+        input.value = item[1];
+        form.appendChild(input);
+      }
+    });
+  });
+
   const navbar = document.getElementById('navbar');
   const menuToggle = document.getElementById('mobileMenuToggle');
   const navMenu = document.getElementById('navMenu');
