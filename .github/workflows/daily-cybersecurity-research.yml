@@ -4,6 +4,10 @@ on:
   schedule:
     # Run hourly, but GitHub may delay scheduled jobs during high load.
     - cron: '17 * * * *'
+  push:
+    paths:
+      - '.github/scripts/generate_blog.py'
+      - '.github/workflows/daily-cybersecurity-research.yml'
   workflow_dispatch:
 
 permissions:
