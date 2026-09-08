@@ -290,7 +290,43 @@ def validate_post(post, candidate):
 
 
 ARTICLE_CSS = '''<style>
-.article-wrap{max-width:920px;margin:auto;padding:110px 32px 120px}.article-kicker{font-size:10px;letter-spacing:.18em;font-weight:700;color:#70736a}.article-title{font:700 clamp(50px,7vw,92px)/.91 'Space Grotesk';letter-spacing:-.075em;margin:24px 0 30px;max-width:1000px}.article-dek{font-size:20px;line-height:1.7;color:#5b5e56;max-width:780px;border-bottom:1px solid var(--line);padding-bottom:42px}.article{margin-top:55px}.article h2{font:600 36px/1.08 'Space Grotesk';letter-spacing:-.045em;margin:58px 0 18px}.article h3{font:600 23px/1.2 'Space Grotesk';margin:38px 0 12px}.article p,.article li{font-size:16px;line-height:1.9;color:#393c36}.article ul,.article ol{padding-left:28px}.article pre{background:#171914;color:#e7e9df;padding:22px;border-radius:2px;overflow:auto;font:13px/1.7 ui-monospace,SFMono-Regular,Menlo,monospace}.article code{background:#e6e7df;padding:2px 6px;font-family:ui-monospace,monospace}.article .source{font-size:13px!important;line-height:1.6}.article .source a{text-decoration:underline}.article-note{margin-top:55px;padding:24px;background:var(--soft);font-size:12px;line-height:1.7;color:#565951}@media(max-width:700px){.article-wrap{padding:75px 20px 90px}.article-title{font-size:49px}.article h2{font-size:30px}}
+.article-page{background:var(--paper)}
+.article-hero{padding:150px 0 90px;position:relative;overflow:hidden;border-bottom:1px solid var(--line)}
+.article-hero:before{content:'RESEARCH';position:absolute;right:-25px;top:100px;font:700 120px/.8 'Space Grotesk';letter-spacing:-.09em;color:#e5e5dd;z-index:0}
+.article-hero:after{content:'';position:absolute;width:520px;height:520px;right:-180px;bottom:-300px;border:1px solid #cccac1;border-radius:50%;box-shadow:0 0 0 80px rgba(201,200,192,.10),0 0 0 160px rgba(201,200,192,.06)}
+.article-hero .container{position:relative;z-index:1}
+.article-kicker{display:flex;align-items:center;gap:12px;font-size:10px;font-weight:700;letter-spacing:.17em;text-transform:uppercase;color:#70726a}
+.article-kicker:before{content:'';width:8px;height:8px;border-radius:50%;background:#a8bd00;box-shadow:0 0 0 5px rgba(168,189,0,.12)}
+.article-title{max-width:1050px;margin:30px 0 32px;font:700 clamp(55px,8vw,108px)/.88 'Space Grotesk';letter-spacing:-.08em}
+.article-dek{max-width:790px;margin:0;color:#5e6059;font-size:19px;line-height:1.75}
+.article-meta-row{display:flex;flex-wrap:wrap;gap:12px 28px;margin-top:48px;padding-top:18px;border-top:1px solid var(--line);font-size:10px;font-weight:700;letter-spacing:.12em;color:#777970}
+.article-body-wrap{padding:95px 0 125px;background:var(--paper)}
+.article-layout{display:grid;grid-template-columns:minmax(0,820px) 250px;gap:80px;align-items:start}
+.article{font-family:'DM Sans',sans-serif}
+.article p,.article li{font-size:16px;line-height:1.9;color:#3f413c}
+.article p{margin:0 0 25px}
+.article strong{color:var(--ink)}
+.article h2{font:600 clamp(32px,4vw,48px)/1.02 'Space Grotesk';letter-spacing:-.055em;margin:70px 0 22px}
+.article h3{font:600 23px/1.1 'Space Grotesk';letter-spacing:-.03em;margin:40px 0 15px}
+.article ul,.article ol{margin:0 0 30px;padding-left:28px}
+.article li{padding:5px 0}
+.article a{text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px}
+.callout{background:var(--ink);color:#e9ebe2;padding:28px 30px;margin:38px 0;border-left:4px solid var(--lime);font-size:15px;line-height:1.8}
+.callout strong{color:var(--lime)}
+.article pre{background:#e7e8e1;border:1px solid #d0d1c9;padding:24px;overflow:auto;font:13px/1.8 ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#292b26;margin:35px 0}
+.article code{background:#e4e5dd;padding:2px 6px;font:13px ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace}
+.article-sources{margin-top:75px;padding-top:30px;border-top:1px solid var(--line)}
+.article-sources h2{margin-top:0}
+.source{font-size:12px!important;color:#6b6d65!important}
+.source a{text-decoration:underline}
+.article-side{position:sticky;top:110px;border-top:1px solid var(--line);padding-top:20px}
+.article-side-label{font-size:10px;font-weight:700;letter-spacing:.15em;text-transform:uppercase;color:#777970;margin-bottom:16px}
+.article-side a{display:block;padding:12px 0;border-bottom:1px solid var(--line);font-size:12px;font-weight:600;line-height:1.4}
+.article-side a:hover{color:#687400}
+.article-back{display:inline-flex;align-items:center;gap:9px;margin-top:30px;font-size:10px;font-weight:700;letter-spacing:.13em;text-transform:uppercase;border-bottom:1px solid var(--ink);padding-bottom:6px}
+.article-back:hover{color:#687400;border-color:#687400}
+@media(max-width:1000px){.article-layout{grid-template-columns:1fr}.article-side{display:none}.article-hero:before{font-size:85px}.article-title{font-size:clamp(52px,9vw,88px)}}
+@media(max-width:700px){.article-hero{padding:120px 0 65px}.article-hero:before{font-size:55px;top:95px;right:-10px}.article-title{font-size:clamp(47px,14vw,68px);margin:25px 0}.article-dek{font-size:16px;line-height:1.7}.article-meta-row{margin-top:35px;line-height:1.7}.article-body-wrap{padding:65px 0 90px}.article p,.article li{font-size:15px;line-height:1.8}.article h2{font-size:34px;margin-top:55px}.article h3{font-size:21px}.article pre{padding:18px;font-size:11px}}
 </style>'''
 
 
@@ -302,7 +338,89 @@ def article_page(post, date):
         for source in post.get("sources", [])
     )
     keywords = ", ".join(post.get("keywords", []))
-    return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#11120f"><meta name="robots" content="index,follow,max-image-preview:large"><link rel="canonical" href="{url}"><title>{esc(post["title"])} | Cylatic Research</title><meta name="description" content="{esc(post["excerpt"])}"><meta name="keywords" content="{esc(keywords)}"><meta property="og:type" content="article"><meta property="og:title" content="{esc(post["title"])}"><meta property="og:description" content="{esc(post["excerpt"])}"><meta property="og:url" content="{url}"><meta name="twitter:card" content="summary_large_image"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9788655168653957" crossorigin="anonymous"></script><link rel="stylesheet" href="../../../../assets/css/blog.css">{ARTICLE_CSS}</head><body><header><a class="brand" href="../../../../">CYLATIC</a><nav><a href="../../../../tools/">Tools</a><a class="active" href="../../../../blog/">Research</a><a href="../../../../#contact">Contact</a></nav></header><main class="article-wrap"><div class="article-kicker">{date:%d %b %Y} · {esc(post["category"]).upper()} · {esc(post["read_time"])}</div><h1 class="article-title">{esc(post["title"])}</h1><p class="article-dek">{esc(post["excerpt"])}</p><article class="article">{post["body_html"]}<h2>Sources &amp; further reading</h2><ul>{sources}</ul><div class="article-note"><strong>CYLATIC RESEARCH</strong><br>Defensive analysis for security engineers. Validate vendor-specific indicators and detection logic against your own telemetry before production use.</div></article></main><footer>© 2026 CYLATIC · <a href="../../../../">Cybersecurity &amp; IT Infrastructure</a> · <a href="../../../../privacy-policy.html">Privacy</a></footer></body></html>'''
+    return f'''<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="theme-color" content="#f5f4ef">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="author" content="Cylatic Research">
+<link rel="canonical" href="{url}">
+<title>{esc(post["title"])} | Cylatic Research</title>
+<meta name="description" content="{esc(post["excerpt"])}">
+<meta name="keywords" content="{esc(keywords)}">
+<meta property="og:type" content="article">
+<meta property="og:title" content="{esc(post["title"])}">
+<meta property="og:description" content="{esc(post["excerpt"])}">
+<meta property="og:url" content="{url}">
+<meta property="og:site_name" content="Cylatic">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{esc(post["title"])}">
+<meta name="twitter:description" content="{esc(post["excerpt"])}">
+<link rel="icon" href="../../../../assets/img/favicon.png">
+<link rel="stylesheet" href="../../../../assets/css/style.css">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9788655168653957" crossorigin="anonymous"></script>
+{ARTICLE_CSS}
+</head>
+<body class="article-page">
+<nav class="navbar" id="navbar">
+  <div class="container">
+    <div class="nav-wrapper">
+      <div class="logo"><a href="../../../../" aria-label="Cylatic home">Cylatic</a></div>
+      <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="../../../../">Home</a></li>
+        <li><a href="../../../../#services">Capabilities</a></li>
+        <li><a href="../../../../tools/">Tools</a></li>
+        <li><a class="active" href="../../../../blog/">Research</a></li>
+        <li><a href="../../../../#about">Approach</a></li>
+        <li><a href="../../../../#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<main>
+<section class="article-hero">
+  <div class="container">
+    <div class="article-kicker">Cylatic Research · {esc(post["category"]).upper()}</div>
+    <h1 class="article-title">{esc(post["title"])}</h1>
+    <p class="article-dek">{esc(post["excerpt"])}</p>
+    <div class="article-meta-row"><span>{date:%d %b %Y}</span><span>{esc(post["category"]).upper()}</span><span>{esc(post["read_time"])}</span><span>{esc(" · ".join(post.get("keywords", [])[:4]).upper())}</span></div>
+    <a class="article-back" href="../../../../blog/">← Back to Research</a>
+  </div>
+</section>
+<section class="article-body-wrap">
+  <div class="container article-layout">
+    <article class="article">
+      {post["body_html"]}
+      <div class="article-sources"><h2>Sources &amp; further reading</h2><ul>{sources}</ul></div>
+      <div class="article-note"><strong>CYLATIC RESEARCH</strong><br>Defensive analysis for security engineers. Validate vendor-specific indicators and detection logic against your own telemetry before production use.</div>
+    </article>
+    <aside class="article-side">
+      <div class="article-side-label">Research</div>
+      <a href="../../../../blog/">All research ↗</a>
+      <a href="../../../../tools/">Cybersecurity tools ↗</a>
+      <a href="../../../../#contact">Talk to Cylatic ↗</a>
+    </aside>
+  </div>
+</section>
+</main>
+<footer class="footer">
+  <div class="container">
+    <div class="footer-content">
+      <div class="footer-brand"><h3>Cylatic</h3><p>Cybersecurity &amp; IT Infrastructure Services</p></div>
+      <div class="footer-links">
+        <div class="footer-column"><h4>Capabilities</h4><ul><li><a href="../../../../#services">SIEM Integration</a></li><li><a href="../../../../#services">Privileged Access</a></li><li><a href="../../../../#services">Network Infrastructure</a></li><li><a href="../../../../#services">Secure Deployment</a></li></ul></div>
+        <div class="footer-column"><h4>Resources</h4><ul><li><a href="../../../../tools/">Cybersecurity Tools</a></li><li><a href="../../../../blog/">Security Research</a></li><li><a href="../../../../privacy-policy.html">Privacy Policy</a></li><li><a href="../../../../#contact">Contact</a></li></ul></div>
+      </div>
+    </div>
+    <div class="footer-bottom"><p>© 2026 Cylatic. All rights reserved.</p></div>
+  </div>
+</footer>
+<script src="../../../../assets/js/main.js"></script>
+</body>
+</html>'''
 
 
 def render_card(post, date):
