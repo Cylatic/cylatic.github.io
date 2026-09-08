@@ -4,10 +4,6 @@ on:
   schedule:
     # Run hourly, but GitHub may delay scheduled jobs during high load.
     - cron: '17 * * * *'
-  push:
-    paths:
-      - '.github/scripts/generate_blog.py'
-      - '.github/workflows/daily-cybersecurity-research.yml'
   workflow_dispatch:
 
 permissions:
@@ -16,6 +12,9 @@ permissions:
 concurrency:
   group: cylatic-cybersecurity-research
   cancel-in-progress: false
+
+env:
+  PYTHONUNBUFFERED: '1'
 
 jobs:
   research:
@@ -27,13 +26,39 @@ jobs:
         with:
           fetch-depth: 1
 
+      - name: Migrate legacy Gemini model configuration
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          p = Path('.github/scripts/generate_blog.py')
+          s = p.read_text(encoding='utf-8')
+          old = 'models = ["gemini-2.5-flash", "gemini-2.5-flash-lite"]'
+          new = 'models = ["gemini-3.5-flash-lite", "gemini-2.5-flash"]'
+          if old in s:
+              p.write_text(s.replace(old, new), encoding='utf-8')
+              print('Updated Gemini fallback to gemini-3.5-flash-lite')
+          else:
+              print('Gemini model configuration already migrated or changed; leaving it intact')
+          PY
+
       - name: Validate research generator
         run: python3 -m py_compile .github/scripts/generate_blog.py
+
+      - name: Persist Gemini model migration
+        run: |
+          git config user.name "cylatic-research-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .github/scripts/generate_blog.py
+          if git diff --cached --quiet; then
+            echo "Gemini model configuration already current."
+            exit 0
+          fi
+          git commit -m "chore: migrate research generator to supported Gemini model"
+          git push origin HEAD:main
 
       - name: Generate research article when a high-value story is found
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          PYTHONUNBUFFERED: '1'
         run: python3 .github/scripts/generate_blog.py
 
       - name: Commit generated research
