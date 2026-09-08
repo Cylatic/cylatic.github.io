@@ -1,6 +1,14 @@
 (function () {
   'use strict';
 
+  if (!document.querySelector('link[rel~="icon"]')) {
+    const favicon = document.createElement('link');
+    favicon.rel = 'icon';
+    favicon.type = 'image/png';
+    favicon.href = '/assets/img/favicon.png';
+    document.head.appendChild(favicon);
+  }
+
   const navbar = document.getElementById('navbar');
   const menuToggle = document.getElementById('mobileMenuToggle');
   const navMenu = document.getElementById('navMenu');
