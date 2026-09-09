@@ -26,34 +26,51 @@ jobs:
         with:
           fetch-depth: 1
 
-      - name: Migrate legacy Gemini model configuration
+      - name: Normalize Gemini model configuration
         run: |
           python3 - <<'PY'
           from pathlib import Path
+          import re
+
           p = Path('.github/scripts/generate_blog.py')
           s = p.read_text(encoding='utf-8')
-          old = 'models = ["gemini-2.5-flash", "gemini-2.5-flash-lite"]'
-          new = 'models = ["gemini-3.5-flash-lite", "gemini-2.5-flash"]'
-          if old in s:
-              p.write_text(s.replace(old, new), encoding='utf-8')
-              print('Updated Gemini fallback to gemini-3.5-flash-lite')
-          else:
-              print('Gemini model configuration already migrated or changed; leaving it intact')
+
+          # Keep the generator on currently supported stable Gemini 3 models.
+          s, model_changes = re.subn(
+              r'models\s*=\s*\[[^\]]*\]',
+              'models = ["gemini-3.6-flash", "gemini-3.5-flash-lite"]',
+              s,
+              count=1,
+          )
+
+          # Gemini 3 documentation deprecates legacy sampling controls such as
+          # temperature. Remove it rather than allowing a future API validation
+          # failure after the model migration.
+          s, temperature_changes = re.subn(
+              r'\n\s*"temperature":\s*0\.2,',
+              '',
+              s,
+              count=1,
+          )
+
+          p.write_text(s, encoding='utf-8')
+          print(f'Model configuration normalized: {model_changes}')
+          print(f'Deprecated temperature setting removed: {temperature_changes}')
           PY
 
       - name: Validate research generator
         run: python3 -m py_compile .github/scripts/generate_blog.py
 
-      - name: Persist Gemini model migration
+      - name: Persist Gemini configuration
         run: |
           git config user.name "cylatic-research-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add .github/scripts/generate_blog.py
           if git diff --cached --quiet; then
-            echo "Gemini model configuration already current."
+            echo "Gemini configuration already current."
             exit 0
           fi
-          git commit -m "chore: migrate research generator to supported Gemini model"
+          git commit -m "chore: use supported Gemini 3 models for research"
           git push origin HEAD:main
 
       - name: Generate research article when a high-value story is found
