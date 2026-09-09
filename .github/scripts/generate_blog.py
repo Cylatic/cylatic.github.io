@@ -214,13 +214,12 @@ Requirements:
     payload = json.dumps({
         "contents": [{"parts": [{"text": prompt}]}],
         "generationConfig": {
-            "temperature": 0.2,
             "responseMimeType": "application/json",
             "maxOutputTokens": 7000,
         },
     }).encode("utf-8")
 
-    models = ["gemini-3.5-flash-lite", "gemini-2.5-flash"]
+    models = ["gemini-3.6-flash", "gemini-3.5-flash-lite"]
     last_error = None
     for model in models:
         endpoint = "https://generativelanguage.googleapis.com/v1beta/models/" + model + ":generateContent?key=" + urllib.parse.quote(key)
