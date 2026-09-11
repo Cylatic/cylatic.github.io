@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="theme-color" content="#f5f4ef">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="author" content="Cylatic Research">
+<link rel="canonical" href="https://cylatic.com/blog/2026/09/12/defending-m365-against-passkey-sso-social-engineering.html">
+<title>Defending Microsoft 365 Against Passkey and Single Sign-On Social Engineering | Cylatic Research</title>
+<meta name="description" content="Technical defensive analysis of passkey-themed phishing campaigns targeting enterprise Microsoft 365 environments, focusing on cloud identity telemetry, detection engineering, and architectural hardening.">
+<meta name="keywords" content="Microsoft 365, Passkey phishing, Single Sign-On, Identity security, Threat hunting, SIEM detection, Cloud telemetry, ShinyHunters, Helix, Extortion gangs">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Defending Microsoft 365 Against Passkey and Single Sign-On Social Engineering">
+<meta property="og:description" content="Technical defensive analysis of passkey-themed phishing campaigns targeting enterprise Microsoft 365 environments, focusing on cloud identity telemetry, detection engineering, and architectural hardening.">
+<meta property="og:url" content="https://cylatic.com/blog/2026/09/12/defending-m365-against-passkey-sso-social-engineering.html">
+<meta property="og:site_name" content="Cylatic">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Defending Microsoft 365 Against Passkey and Single Sign-On Social Engineering">
+<meta name="twitter:description" content="Technical defensive analysis of passkey-themed phishing campaigns targeting enterprise Microsoft 365 environments, focusing on cloud identity telemetry, detection engineering, and architectural hardening.">
+<link rel="icon" href="../../../../assets/img/favicon.png">
+<link rel="stylesheet" href="../../../../assets/css/style.css">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9788655168653957" crossorigin="anonymous"></script>
+<style>
+.article-page{background:var(--paper)}
+.article-hero{padding:150px 0 90px;position:relative;overflow:hidden;border-bottom:1px solid var(--line)}
+.article-hero:before{content:'RESEARCH';position:absolute;right:-25px;top:100px;font:700 120px/.8 'Space Grotesk';letter-spacing:-.09em;color:#e5e5dd;z-index:0}
+.article-hero:after{content:'';position:absolute;width:520px;height:520px;right:-180px;bottom:-300px;border:1px solid #cccac1;border-radius:50%;box-shadow:0 0 0 80px rgba(201,200,192,.10),0 0 0 160px rgba(201,200,192,.06)}
+.article-hero .container{position:relative;z-index:1}
+.article-kicker{display:flex;align-items:center;gap:12px;font-size:10px;font-weight:700;letter-spacing:.17em;text-transform:uppercase;color:#70726a}
+.article-kicker:before{content:'';width:8px;height:8px;border-radius:50%;background:#a8bd00;box-shadow:0 0 0 5px rgba(168,189,0,.12)}
+.article-title{max-width:1050px;margin:30px 0 32px;font:700 clamp(55px,8vw,108px)/.88 'Space Grotesk';letter-spacing:-.08em}
+.article-dek{max-width:790px;margin:0;color:#5e6059;font-size:19px;line-height:1.75}
+.article-meta-row{display:flex;flex-wrap:wrap;gap:12px 28px;margin-top:48px;padding-top:18px;border-top:1px solid var(--line);font-size:10px;font-weight:700;letter-spacing:.12em;color:#777970}
+.article-body-wrap{padding:95px 0 125px;background:var(--paper)}
+.article-layout{display:grid;grid-template-columns:minmax(0,820px) 250px;gap:80px;align-items:start}
+.article{font-family:'DM Sans',sans-serif}
+.article p,.article li{font-size:16px;line-height:1.9;color:#3f413c}
+.article p{margin:0 0 25px}
+.article strong{color:var(--ink)}
+.article h2{font:600 clamp(32px,4vw,48px)/1.02 'Space Grotesk';letter-spacing:-.055em;margin:70px 0 22px}
+.article h3{font:600 23px/1.1 'Space Grotesk';letter-spacing:-.03em;margin:40px 0 15px}
+.article ul,.article ol{margin:0 0 30px;padding-left:28px}
+.article li{padding:5px 0}
+.article a{text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px}
+.callout{background:var(--ink);color:#e9ebe2;padding:28px 30px;margin:38px 0;border-left:4px solid var(--lime);font-size:15px;line-height:1.8}
+.callout strong{color:var(--lime)}
+.article pre{background:#e7e8e1;border:1px solid #d0d1c9;padding:24px;overflow:auto;font:13px/1.8 ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#292b26;margin:35px 0}
+.article code{background:#e4e5dd;padding:2px 6px;font:13px ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace}
+.article-sources{margin-top:75px;padding-top:30px;border-top:1px solid var(--line)}
+.article-sources h2{margin-top:0}
+.source{font-size:12px!important;color:#6b6d65!important}
+.source a{text-decoration:underline}
+.article-side{position:sticky;top:110px;border-top:1px solid var(--line);padding-top:20px}
+.article-side-label{font-size:10px;font-weight:700;letter-spacing:.15em;text-transform:uppercase;color:#777970;margin-bottom:16px}
+.article-side a{display:block;padding:12px 0;border-bottom:1px solid var(--line);font-size:12px;font-weight:600;line-height:1.4}
+.article-side a:hover{color:#687400}
+.article-back{display:inline-flex;align-items:center;gap:9px;margin-top:30px;font-size:10px;font-weight:700;letter-spacing:.13em;text-transform:uppercase;border-bottom:1px solid var(--ink);padding-bottom:6px}
+.article-back:hover{color:#687400;border-color:#687400}
+@media(max-width:1000px){.article-layout{grid-template-columns:1fr}.article-side{display:none}.article-hero:before{font-size:85px}.article-title{font-size:clamp(52px,9vw,88px)}}
+@media(max-width:700px){.article-hero{padding:120px 0 65px}.article-hero:before{font-size:55px;top:95px;right:-10px}.article-title{font-size:clamp(47px,14vw,68px);margin:25px 0}.article-dek{font-size:16px;line-height:1.7}.article-meta-row{margin-top:35px;line-height:1.7}.article-body-wrap{padding:65px 0 90px}.article p,.article li{font-size:15px;line-height:1.8}.article h2{font-size:34px;margin-top:55px}.article h3{font-size:21px}.article pre{padding:18px;font-size:11px}}
+</style>
+</head>
+<body class="article-page">
+<nav class="navbar" id="navbar">
+  <div class="container">
+    <div class="nav-wrapper">
+      <div class="logo"><a href="../../../../" aria-label="Cylatic home">Cylatic</a></div>
+      <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="../../../../">Home</a></li>
+        <li><a href="../../../../#services">Capabilities</a></li>
+        <li><a href="../../../../tools/">Tools</a></li>
+        <li><a class="active" href="../../../../blog/">Research</a></li>
+        <li><a href="../../../../#about">Approach</a></li>
+        <li><a href="../../../../#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<main>
+<section class="article-hero">
+  <div class="container">
+    <div class="article-kicker">Cylatic Research · CLOUD SECURITY</div>
+    <h1 class="article-title">Defending Microsoft 365 Against Passkey and Single Sign-On Social Engineering</h1>
+    <p class="article-dek">Technical defensive analysis of passkey-themed phishing campaigns targeting enterprise Microsoft 365 environments, focusing on cloud identity telemetry, detection engineering, and architectural hardening.</p>
+    <div class="article-meta-row"><span>12 Sep 2026</span><span>CLOUD SECURITY</span><span>9 minutes</span><span>MICROSOFT 365 · PASSKEY PHISHING · SINGLE SIGN-ON · IDENTITY SECURITY</span></div>
+    <a class="article-back" href="../../../../blog/">← Back to Research</a>
+  </div>
+</section>
+<section class="article-body-wrap">
+  <div class="container article-layout">
+    <article class="article">
+      <h2>Technical Significance</h2>
+<p>Recent threat intelligence highlights a strategic shift in enterprise targeting, with extortion collectives—specifically groups tracked in connection with operations attributed to entities like ShinyHunters and Helix—leveraging sophisticated social engineering campaigns. These campaigns center around passkeys and single sign-on (SSO) themes to compromise corporate Microsoft accounts. As enterprises accelerate the adoption of passwordless authentication models, adversaries are weaponizing user unfamiliarity and trust in modern authentication mechanisms. By exploiting the psychological comfort associated with passkey prompts, attackers bypass traditional credential hurdles and gain initial access to cloud infrastructure.</p>
+<p>The operational impact of these campaigns extends directly to data exfiltration from Microsoft 365 services. Once an adversary establishes a foothold via compromised session tokens or rogue authentication methods, they exploit native cloud collaboration and storage platforms to harvest sensitive corporate assets. For security operations centers (SOCs) and cloud security architects, this vector underscores the urgent need to expand monitoring beyond traditional credential stuffing patterns to include granular analysis of identity federation, passkey registration events, and anomalous session activity.</p>
+
+<h2>Attack Surface and Methodology</h2>
+<p>The primary attack surface targeted in these campaigns comprises corporate cloud identities managed within Microsoft Entra ID and associated Microsoft 365 productivity suites. The attack methodology relies heavily on human-centric manipulation rather than software vulnerabilities. Adversaries deploy tailored phishing infrastructure designed to mimic legitimate organizational login portals, specifically prompting targets to register or utilize passkeys, QR codes, or secondary SSO providers.</p>
+<p>Unlike conventional credential harvesting where a user inputs a static password into a fake portal, passkey-themed attacks frequently aim to manipulate the browser or authenticator app into establishing a malicious cryptographic binding or granting unauthorized session consent. If successful, the attacker obtains session persistence without necessarily capturing a long-term secret, relying instead on legitimate token lifetimes and malicious device registration.</p>
+
+<h2>High-Level Attack Chain</h2>
+<ol>
+<li><strong>Reconnaissance and Targeting:</strong> Threat actors identify corporate targets using Microsoft 365 via open-source intelligence, corporate directories, or compromised secondary networks.</li>
+<li><strong>Social Engineering Delivery:</strong> Victims receive highly contextualized communications—often disguised as IT support notices or mandatory security updates—urging immediate action to configure or verify passkey/SSO authentication.</li>
+<li><strong>Authentication Interception/Hijacking:</strong> The target is redirected to an adversary-in-the-middle (AitM) phishing proxy or a lookalike authentication interface. The victim interacts with the prompt, inadvertently registering an attacker-controlled authenticator or granting unauthorized application permissions.</li>
+<li><strong>Initial Access and Persistence:</strong> The threat actor acquires valid session cookies or registers a rogue authentication method against the victim's cloud account, establishing persistent access.</li>
+<li>Discovery and Exfiltration: Utilizing the compromised Microsoft 365 identity, actors navigate SharePoint, OneDrive, and Exchange Online to locate, stage, and exfiltrate proprietary corporate data for downstream extortion demands.</li>
+</ol>
+
+<h2>Relevant Telemetry and Visibility Sources</h2>
+<p>Detecting passkey and SSO-themed social engineering requires collecting and analyzing deep identity telemetry from cloud directory services and endpoint security solutions. Key log sources include:</p>
+<ul>
+<li><strong>Microsoft Entra ID Audit Logs:</strong> Tracking modifications to user authentication methods, specifically additions or deletions of FIDO2 security keys, passkeys, and multi-factor authentication (MFA) devices.</li>
+<li><strong>Microsoft Entra ID Sign-in Logs:</strong> Analyzing sign-in telemetry for anomalous IP addresses, unfamiliar user-agent strings, impossible travel indicators, and specific authentication protocol usages (e.g., OAuth token grants).</li>
+<li><strong>Cloud App Security / Microsoft Defender for Cloud Apps:</strong> Monitoring for mass file downloads, unusual sharing links, and administrative modifications made immediately following anomalous sign-in events.</li>
+<li><strong>Endpoint Browser Telemetry:</strong> Capturing network requests to known phishing domains and monitoring browser interactions with unfamiliar authentication endpoints.</li>
+</ul>
+
+<h2>SIEM Detection Engineering</h2>
+<p>Security engineering teams must build correlation rules to identify suspicious registration of authentication methods followed closely by abnormal data access. Below is an example detection query designed for a SIEM to identify the sudden registration of a new strong authentication method from an unusual location or IP reputation tier.</p>
+<pre><code>// SIEM Detection Rule: Suspicious FIDO2 or Passkey Registration followed by Cloud Access
+let TimeWindow = 1h;
+let NewPasskeyEvents = EntraIDAuditLogs
+    | where OperationName == "User registered a new authentication method"
+    | where TargetResources has ("FIDO2" or "Passkey")
+    | extend UserPrincipalName = tostring(TargetResources[0].userPrincipalName)
+    | project RegistrationTime = TimeStamp, UserPrincipalName, IPAddress, Actor = InitiatedBy;
+let CloudAccess = EntraIDSignInLogs
+    | where TimeGenerated > ago(24h)
+    | project SignInTime = TimeGenerated, UserPrincipalName, ClientAppUsed, IPAddress;
+NewPasskeyEvents
+| join kind=inner CloudAccess on UserPrincipalName
+| where SignInTime between (RegistrationTime .. (RegistrationTime + TimeWindow))
+| summarize RegistrationCount = count() by UserPrincipalName, IPAddress, Actor
+| where RegistrationCount > 0
+</code></pre>
+
+<h2>Threat-Hunting Strategies</h2>
+<p>Proactive threat hunting in Microsoft 365 environments should focus on anomalies in user behavior and device posture:</p>
+<ul>
+<li><strong>Authentication Method Auditing:</strong> Periodically baseline all registered FIDO2 keys and passkeys across high-privilege and sensitive user accounts, cross-referencing hardware identifiers against corporate inventory databases where applicable.</li>
+<li><strong>Consent Grant Analysis:</strong> Hunt for recently consented OAuth applications that request broad permissions to read mail, files, or user directories, especially those registered by non-administrator accounts.</li>
+<li><strong>Session Token Anomalies:</strong> Review concurrent sessions originating from disparate geographic locations for the same user identity, focusing on sessions utilizing modern authentication tokens that bypass traditional MFA prompts.</li>
+</ul>
+
+<h2>Containment and Remediation</h2>
+<p>When an active passkey or SSO phishing compromise is identified in a Microsoft 365 environment, incident responders should execute the following containment playbook:</p>
+<ol>
+<li><strong>Revoke All Active Sessions:</strong> Immediately force a revocation of all refresh and access tokens for the compromised user account across Entra ID to terminate ongoing attacker sessions.</li>
+<li><strong>Purge Unauthorized Authentication Methods:</strong> Audit and remove any recently added FIDO2 keys, passkeys, phone numbers, or authenticator app registrations not explicitly authorized by the user.</li>
+<li><strong>Reset Credentials and Enforce Re-authentication:</strong> Reset the user's password and require re-registration of verified, enterprise-managed multi-factor authentication devices.</li>
+<li><strong>Audit Data Access:</strong> Review audit logs for Microsoft Defender for Cloud Apps, SharePoint, and Exchange Online to determine the extent of data exposure and potential exfiltration.</li>
+</ol>
+
+<h2>What defenders should do now</h2>
+<p>To mitigate the risks posed by passkey and single sign-on social engineering campaigns targeting Microsoft 365, security teams must implement proactive hardening measures:</p>
+<ul>
+<li><strong>Enforce Phishing-Resistant MFA:</strong> Mandate the exclusive use of hardware-backed FIDO2 security keys or managed passkeys for high-risk and administrative roles, while strictly limiting legacy authentication fallbacks.</li>
+<li><strong>Implement Conditional Access Policies:</strong> Design strict Microsoft Entra Conditional Access policies that evaluate device compliance, location risk, and sign-in risk before granting access to sensitive cloud workloads.</li>
+<li><strong>Enhance User Awareness Training:</strong> Educate employees specifically on the mechanics of passkey prompts and SSO redirection attacks, ensuring users understand how to recognize unauthorized authentication requests.</li>
+<li><strong>Monitor Registration Workflows:</strong> Establish real-time alerts for any self-service registration changes regarding authentication methods, ensuring security teams are immediately notified of profile alterations.</li>
+</ul>
+
+<h2>Architecture Implications</h2>
+<p>Defending against advanced social engineering targeting cloud identities requires a shift in enterprise security architecture. Relying solely on perimeter defenses or traditional static password policies is insufficient when threat actors actively exploit modern authentication user experiences. Organizations must transition toward a zero-trust architecture where identity is the primary perimeter. This involves decoupling trust from network location, enforcing continuous risk-based session evaluation, and tightly controlling the lifecycle of all authentication credentials and cryptographic tokens within cloud directory services.</p>
+      <div class="article-sources"><h2>Sources &amp; further reading</h2><ul><li class="source"><a href="https://www.bleepingcomputer.com/news/security/passkey-themed-phishing-attacks-lead-to-microsoft-365-data-theft/" rel="noopener noreferrer">Passkey-themed phishing attacks lead to Microsoft 365 data theft</a></li></ul></div>
+      <div class="article-note"><strong>CYLATIC RESEARCH</strong><br>Defensive analysis for security engineers. Validate vendor-specific indicators and detection logic against your own telemetry before production use.</div>
+    </article>
+    <aside class="article-side">
+      <div class="article-side-label">Research</div>
+      <a href="../../../../blog/">All research ↗</a>
+      <a href="../../../../tools/">Cybersecurity tools ↗</a>
+      <a href="../../../../#contact">Talk to Cylatic ↗</a>
+    </aside>
+  </div>
+</section>
+</main>
+<footer class="footer">
+  <div class="container">
+    <div class="footer-content">
+      <div class="footer-brand"><h3>Cylatic</h3><p>Cybersecurity &amp; IT Infrastructure Services</p></div>
+      <div class="footer-links">
+        <div class="footer-column"><h4>Capabilities</h4><ul><li><a href="../../../../#services">SIEM Integration</a></li><li><a href="../../../../#services">Privileged Access</a></li><li><a href="../../../../#services">Network Infrastructure</a></li><li><a href="../../../../#services">Secure Deployment</a></li></ul></div>
+        <div class="footer-column"><h4>Resources</h4><ul><li><a href="../../../../tools/">Cybersecurity Tools</a></li><li><a href="../../../../blog/">Security Research</a></li><li><a href="../../../../privacy-policy.html">Privacy Policy</a></li><li><a href="../../../../#contact">Contact</a></li></ul></div>
+      </div>
+    </div>
+    <div class="footer-bottom"><p>© 2026 Cylatic. All rights reserved.</p></div>
+  </div>
+</footer>
+<script src="../../../../assets/js/main.js"></script>
+</body>
+</html>
