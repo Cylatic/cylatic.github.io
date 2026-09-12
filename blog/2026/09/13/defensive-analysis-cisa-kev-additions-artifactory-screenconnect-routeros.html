@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="theme-color" content="#f5f4ef">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="author" content="Cylatic Research">
+<link rel="canonical" href="https://cylatic.com/blog/2026/09/13/defensive-analysis-cisa-kev-additions-artifactory-screenconnect-routeros.html">
+<title>Defensive Analysis of Recent Additions to CISA KEV: Artifactory, ScreenConnect, and RouterOS Exploitations | Cylatic Research</title>
+<meta name="description" content="A rigorous technical evaluation of five actively exploited vulnerabilities added to the CISA Known Exploited Vulnerabilities catalog, covering detection engineering, telemetry requirements, and architectural hardening.">
+<meta name="keywords" content="CISA KEV, Artifactory, ScreenConnect, RouterOS, threat intelligence, detection engineering, vulnerability management, incident response, SIEM correlation, network security">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Defensive Analysis of Recent Additions to CISA KEV: Artifactory, ScreenConnect, and RouterOS Exploitations">
+<meta property="og:description" content="A rigorous technical evaluation of five actively exploited vulnerabilities added to the CISA Known Exploited Vulnerabilities catalog, covering detection engineering, telemetry requirements, and architectural hardening.">
+<meta property="og:url" content="https://cylatic.com/blog/2026/09/13/defensive-analysis-cisa-kev-additions-artifactory-screenconnect-routeros.html">
+<meta property="og:site_name" content="Cylatic">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Defensive Analysis of Recent Additions to CISA KEV: Artifactory, ScreenConnect, and RouterOS Exploitations">
+<meta name="twitter:description" content="A rigorous technical evaluation of five actively exploited vulnerabilities added to the CISA Known Exploited Vulnerabilities catalog, covering detection engineering, telemetry requirements, and architectural hardening.">
+<link rel="icon" href="../../../../assets/img/favicon.png">
+<link rel="stylesheet" href="../../../../assets/css/style.css">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9788655168653957" crossorigin="anonymous"></script>
+<style>
+.article-page{background:var(--paper)}
+.article-hero{padding:150px 0 90px;position:relative;overflow:hidden;border-bottom:1px solid var(--line)}
+.article-hero:before{content:'RESEARCH';position:absolute;right:-25px;top:100px;font:700 120px/.8 'Space Grotesk';letter-spacing:-.09em;color:#e5e5dd;z-index:0}
+.article-hero:after{content:'';position:absolute;width:520px;height:520px;right:-180px;bottom:-300px;border:1px solid #cccac1;border-radius:50%;box-shadow:0 0 0 80px rgba(201,200,192,.10),0 0 0 160px rgba(201,200,192,.06)}
+.article-hero .container{position:relative;z-index:1}
+.article-kicker{display:flex;align-items:center;gap:12px;font-size:10px;font-weight:700;letter-spacing:.17em;text-transform:uppercase;color:#70726a}
+.article-kicker:before{content:'';width:8px;height:8px;border-radius:50%;background:#a8bd00;box-shadow:0 0 0 5px rgba(168,189,0,.12)}
+.article-title{max-width:1050px;margin:30px 0 32px;font:700 clamp(55px,8vw,108px)/.88 'Space Grotesk';letter-spacing:-.08em}
+.article-dek{max-width:790px;margin:0;color:#5e6059;font-size:19px;line-height:1.75}
+.article-meta-row{display:flex;flex-wrap:wrap;gap:12px 28px;margin-top:48px;padding-top:18px;border-top:1px solid var(--line);font-size:10px;font-weight:700;letter-spacing:.12em;color:#777970}
+.article-body-wrap{padding:95px 0 125px;background:var(--paper)}
+.article-layout{display:grid;grid-template-columns:minmax(0,820px) 250px;gap:80px;align-items:start}
+.article{font-family:'DM Sans',sans-serif}
+.article p,.article li{font-size:16px;line-height:1.9;color:#3f413c}
+.article p{margin:0 0 25px}
+.article strong{color:var(--ink)}
+.article h2{font:600 clamp(32px,4vw,48px)/1.02 'Space Grotesk';letter-spacing:-.055em;margin:70px 0 22px}
+.article h3{font:600 23px/1.1 'Space Grotesk';letter-spacing:-.03em;margin:40px 0 15px}
+.article ul,.article ol{margin:0 0 30px;padding-left:28px}
+.article li{padding:5px 0}
+.article a{text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px}
+.callout{background:var(--ink);color:#e9ebe2;padding:28px 30px;margin:38px 0;border-left:4px solid var(--lime);font-size:15px;line-height:1.8}
+.callout strong{color:var(--lime)}
+.article pre{background:#e7e8e1;border:1px solid #d0d1c9;padding:24px;overflow:auto;font:13px/1.8 ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;color:#292b26;margin:35px 0}
+.article code{background:#e4e5dd;padding:2px 6px;font:13px ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace}
+.article-sources{margin-top:75px;padding-top:30px;border-top:1px solid var(--line)}
+.article-sources h2{margin-top:0}
+.source{font-size:12px!important;color:#6b6d65!important}
+.source a{text-decoration:underline}
+.article-side{position:sticky;top:110px;border-top:1px solid var(--line);padding-top:20px}
+.article-side-label{font-size:10px;font-weight:700;letter-spacing:.15em;text-transform:uppercase;color:#777970;margin-bottom:16px}
+.article-side a{display:block;padding:12px 0;border-bottom:1px solid var(--line);font-size:12px;font-weight:600;line-height:1.4}
+.article-side a:hover{color:#687400}
+.article-back{display:inline-flex;align-items:center;gap:9px;margin-top:30px;font-size:10px;font-weight:700;letter-spacing:.13em;text-transform:uppercase;border-bottom:1px solid var(--ink);padding-bottom:6px}
+.article-back:hover{color:#687400;border-color:#687400}
+@media(max-width:1000px){.article-layout{grid-template-columns:1fr}.article-side{display:none}.article-hero:before{font-size:85px}.article-title{font-size:clamp(52px,9vw,88px)}}
+@media(max-width:700px){.article-hero{padding:120px 0 65px}.article-hero:before{font-size:55px;top:95px;right:-10px}.article-title{font-size:clamp(47px,14vw,68px);margin:25px 0}.article-dek{font-size:16px;line-height:1.7}.article-meta-row{margin-top:35px;line-height:1.7}.article-body-wrap{padding:65px 0 90px}.article p,.article li{font-size:15px;line-height:1.8}.article h2{font-size:34px;margin-top:55px}.article h3{font-size:21px}.article pre{padding:18px;font-size:11px}}
+</style>
+</head>
+<body class="article-page">
+<nav class="navbar" id="navbar">
+  <div class="container">
+    <div class="nav-wrapper">
+      <div class="logo"><a href="../../../../" aria-label="Cylatic home">Cylatic</a></div>
+      <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="../../../../">Home</a></li>
+        <li><a href="../../../../#services">Capabilities</a></li>
+        <li><a href="../../../../tools/">Tools</a></li>
+        <li><a class="active" href="../../../../blog/">Research</a></li>
+        <li><a href="../../../../#about">Approach</a></li>
+        <li><a href="../../../../#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<main>
+<section class="article-hero">
+  <div class="container">
+    <div class="article-kicker">Cylatic Research · THREAT INTELLIGENCE</div>
+    <h1 class="article-title">Defensive Analysis of Recent Additions to CISA KEV: Artifactory, ScreenConnect, and RouterOS Exploitations</h1>
+    <p class="article-dek">A rigorous technical evaluation of five actively exploited vulnerabilities added to the CISA Known Exploited Vulnerabilities catalog, covering detection engineering, telemetry requirements, and architectural hardening.</p>
+    <div class="article-meta-row"><span>13 Sep 2026</span><span>THREAT INTELLIGENCE</span><span>7 minutes</span><span>CISA KEV · ARTIFACTORY · SCREENCONNECT · ROUTEROS</span></div>
+    <a class="article-back" href="../../../../blog/">← Back to Research</a>
+  </div>
+</section>
+<section class="article-body-wrap">
+  <div class="container article-layout">
+    <article class="article">
+      <p>Recent updates to the Cybersecurity and Infrastructure Security Agency (CISA) Known Exploited Vulnerabilities (KEV) catalog have incorporated five actively exploited flaws impacting JFrog Artifactory, ConnectWise ScreenConnect, and MikroTik RouterOS platforms. For security operations centers (SOCs), threat-hunting teams, and infrastructure engineers, these additions signify an urgent transition from passive vulnerability awareness to active remediation and heuristic monitoring. This analysis explores the technical attack surface, telemetry requirements, SIEM correlation strategies, and architectural imperatives necessary to protect enterprise environments against weaponization of these vectors.</p>
+<p>Integrating these updates into routine prioritization models is critical. Because exploitation in the wild has been confirmed by authorities, environments hosting these assets face elevated risk profiles. Security teams must evaluate not only patch levels but also runtime telemetry and boundary defenses to identify post-exploitation activities or initial intrusion attempts.</p>
+<h2>Technical Significance and Attack Surface</h2>
+<p>The inclusion of Artifactory, ScreenConnect, and RouterOS vulnerabilities highlights a diverse attack surface spanning enterprise artifact repositories, remote management gateways, and core network routing infrastructure. Each of these components occupies a high-privilege or high-visibility position within enterprise topologies.</p>
+<ul>
+  <li><strong>JFrog Artifactory:</strong> Serving as a centralized repository for binary packages, build artifacts, and software dependencies, Artifactory is a cornerstone of modern software supply chains. Compromise of this component can lead to unauthorized code injection, repository tampering, or credential harvesting from connected build pipelines.</li>
+  <li><strong>ConnectWise ScreenConnect:</strong> Designed for remote desktop administration and support, ScreenConnect gateways maintain persistent listening ports and facilitate high-privilege interactive sessions. Vulnerabilities in this software provide threat actors with direct pathways to endpoints within internal networks, effectively bypassing traditional perimeter controls.</li>
+  <li><strong>MikroTik RouterOS:</strong> Operating at the network edge, RouterOS devices manage routing tables, virtual private network (VPN) terminations, and firewall policies. Flaws in RouterOS threaten the foundational integrity of network transit, enabling man-in-the-middle operations, traffic redirection, or pivoting deeper into the internal enterprise network.</li>
+</ul>
+<p>The convergence of these technologies on the KEV catalog demonstrates that adversaries are targeting both internal software delivery mechanisms and external perimeter access points to achieve operational persistence and lateral movement.</p>
+<h2>Attack Chain and Telemetry Requirements</h2>
+<p>While specific technical exploit payloads vary across these disparate products, the general attack chain involves perimeter reconnaissance, exploitation of unpatched software interfaces, execution of malicious commands or code with elevated privileges, and establishment of persistent access or data exfiltration.</p>
+<p>Defenders must collect and analyze multi-layered telemetry to capture indicators across this chain:</p>
+<ul>
+  <li><strong>Network Telemetry:</strong> Capture perimeter firewall logs, NetFlow/IPFIX data, and deep packet inspection (DPI) streams focusing on anomalous inbound connections to ScreenConnect ports and administrative interfaces on RouterOS devices.</li>
+  <li><strong>Endpoint Telemetry:</strong> Monitor process execution lineages originating from web server or management daemons on Artifactory and ScreenConnect hosts. Spawning of shell interpreters (e.g., bash, cmd.exe, powershell.exe) from these processes is a high-fidelity indicator of compromise.</li>
+  <li><strong>Application Logs:</strong> Audit authentication attempts, administrative session creations, and repository modification logs within Artifactory and ScreenConnect application event logs.</li>
+</ul>
+<h2>SIEM Correlation and Detection Engineering</h2>
+<p>To detect potential exploitation attempts and post-exploitation activities associated with these KEV entries, security engineering teams must deploy targeted correlation rules within their SIEM platforms. Detection strategies should focus on anomalous process execution, unexpected administrative activities, and network connection irregularities.</p>
+<p>Below is an example Sigma-compatible detection rule designed to identify suspicious child process generation from remote management or repository services:</p>
+<pre><code>title: Suspicious Child Process Spawned by Service Daemons
+id: a1b2c3d4-e5f6-7890-abcd-ef1234567890
+status: experimental
+description: Detects web or management daemons spawning command-line shells, indicating potential remote code execution.
+references:
+  - https://www.cisa.gov/known-exploited-vulnerabilities-catalog
+author: Cylatic Threat Intelligence
+date: 2026/09/13
+tags:
+  - attack.execution
+  - attack.t1203
+logsource:
+  category: process_creation
+  product: windows
+detection:
+  selection_parent:
+    ParentImage|endswith:
+      - '\ScreenConnect.Service.exe'
+      - '\artifactory.exe'
+  selection_child:
+    Image|endswith:
+      - '\cmd.exe'
+      - '\powershell.exe'
+      - '\sh'
+      - '\bash'
+  condition: selection_parent and selection_child
+falsepositives:
+  - Legitimate administrative maintenance scripts running during scheduled update windows.
+level: high</code></pre>
+<p>SOC analysts should correlate alerts generated by this rule with upstream web proxy logs, authentication success metrics, and subsequent outbound network connections to ensure comprehensive incident triage.</p>
+<h2>Threat-Hunting Methodologies</h2>
+<p>Proactive threat hunting in environments utilizing Artifactory, ScreenConnect, or RouterOS should center on historical log analysis and artifact verification. Because these additions represent actively exploited vulnerabilities, hunting queries should look back across the maximum available retention window.</p>
+<ul>
+  <li><strong>Artifactory Environments:</strong> Search for unexpected modifications to system configurations, newly created user accounts with administrative privileges, and unauthorized file writes to sensitive installation directories.</li>
+  <li><strong>ScreenConnect Gateways:</strong> Review active extension installations, inspect connection logs for sessions originating from unfamiliar geographic regions or IP ranges, and verify the integrity of application binaries.</li>
+  <li><strong>RouterOS Devices:</strong> Audit firewall rule configurations, inspect running scripts and scheduled tasks for unauthorized entries, and check for unexpected user account additions or SSH key modifications.</li>
+</ul>
+<h2>What defenders should do now</h2>
+<p>Organizations operating any of the affected software packages must execute immediate remediation and hardening protocols to mitigate active exploitation risks.</p>
+<ol>
+  <li><strong>Prioritize Patching:</strong> Immediately apply vendor-supplied security updates for JFrog Artifactory, ConnectWise ScreenConnect, and MikroTik RouterOS in accordance with the CISA KEV remediation timeline.</li>
+  <li><strong>Isolate Management Interfaces:</strong> Ensure that administrative panels and management ports for ScreenConnect and RouterOS are not exposed directly to the public internet; restrict access to trusted internal jump hosts or secure VPN tunnels.</li>
+  <li><strong>Verify Endpoint Telemetry:</strong> Confirm that EDR agents or advanced logging tools are actively monitoring the hosts running these applications, ensuring visibility into child process generation and file system modifications.</li>
+  <li><strong>Review Network Access Controls:</strong> Implement strict egress and ingress filtering around artifact repositories and edge routing devices to limit potential lateral movement or data exfiltration channels.</li>
+</ol>
+<h2>Hardening and Architecture Implications</h2>
+<p>From an architectural standpoint, the exploitation of edge devices and internal repositories reinforces the need for zero-trust principles. Network segmentation must be enforced to isolate management planes from standard user traffic. Furthermore, software supply chain components like Artifactory require rigorous access controls, multi-factor authentication for administrative functions, and continuous integrity monitoring.</p>
+<p>By treating these KEV catalog additions not merely as items on a patch checklist, but as active indicators of adversary focus areas, security teams can significantly improve their operational posture and resilience against sophisticated threat campaigns.</p>
+      <div class="article-sources"><h2>Sources &amp; further reading</h2><ul><li class="source"><a href="https://news.google.com/rss/articles/CBMieEFVX3lxTFBNeXNtbzRjazZCd3hhUDNUSllpMHFrcmZOMHR3NzczWXJ3WEY2QjFmZzZ6MWRqZDRFLXVPVG5jcS1zSEkwSjVNQ013LTk3MmE0ckpyeDRWa25ScmFXaTdTdHdyTFFxVUdNemI0SDJWenNadmpoRnlVWQ?oc=5" rel="noopener noreferrer">CISA Adds 5 Actively Exploited Artifactory, ScreenConnect, and RouterOS Flaws to KEV - The Hacker News</a></li></ul></div>
+      <div class="article-note"><strong>CYLATIC RESEARCH</strong><br>Defensive analysis for security engineers. Validate vendor-specific indicators and detection logic against your own telemetry before production use.</div>
+    </article>
+    <aside class="article-side">
+      <div class="article-side-label">Research</div>
+      <a href="../../../../blog/">All research ↗</a>
+      <a href="../../../../tools/">Cybersecurity tools ↗</a>
+      <a href="../../../../#contact">Talk to Cylatic ↗</a>
+    </aside>
+  </div>
+</section>
+</main>
+<footer class="footer">
+  <div class="container">
+    <div class="footer-content">
+      <div class="footer-brand"><h3>Cylatic</h3><p>Cybersecurity &amp; IT Infrastructure Services</p></div>
+      <div class="footer-links">
+        <div class="footer-column"><h4>Capabilities</h4><ul><li><a href="../../../../#services">SIEM Integration</a></li><li><a href="../../../../#services">Privileged Access</a></li><li><a href="../../../../#services">Network Infrastructure</a></li><li><a href="../../../../#services">Secure Deployment</a></li></ul></div>
+        <div class="footer-column"><h4>Resources</h4><ul><li><a href="../../../../tools/">Cybersecurity Tools</a></li><li><a href="../../../../blog/">Security Research</a></li><li><a href="../../../../privacy-policy.html">Privacy Policy</a></li><li><a href="../../../../#contact">Contact</a></li></ul></div>
+      </div>
+    </div>
+    <div class="footer-bottom"><p>© 2026 Cylatic. All rights reserved.</p></div>
+  </div>
+</footer>
+<script src="../../../../assets/js/main.js"></script>
+</body>
+</html>
