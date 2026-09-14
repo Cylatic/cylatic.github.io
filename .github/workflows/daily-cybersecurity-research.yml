@@ -15,6 +15,7 @@ concurrency:
 
 env:
   PYTHONUNBUFFERED: '1'
+  NOTIFICATION_TO: 'jigarlad786@gmail.com'
 
 jobs:
   research:
@@ -79,13 +80,98 @@ jobs:
         run: python3 .github/scripts/generate_blog.py
 
       - name: Commit generated research
+        id: publish
         run: |
           git config user.name "cylatic-research-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add blog sitemap.xml
           if git diff --cached --quiet; then
             echo "No publication this hour."
+            echo "published=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
           git commit -m "Publish cybersecurity research"
           git push origin HEAD:main
+          echo "published=true" >> "$GITHUB_OUTPUT"
+
+      - name: Send publication email
+        if: success() && steps.publish.outputs.published == 'true'
+        env:
+          SMTP_USERNAME: ${{ secrets.GMAIL_USERNAME }}
+          SMTP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          NOTIFICATION_TO: ${{ env.NOTIFICATION_TO }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          COMMIT_SHA: ${{ github.sha }}
+        run: |
+          python3 - <<'PY'
+          import os
+          import smtplib
+          from email.message import EmailMessage
+
+          username = os.environ.get('SMTP_USERNAME')
+          password = os.environ.get('SMTP_PASSWORD')
+          recipient = os.environ['NOTIFICATION_TO']
+          if not username or not password:
+              raise RuntimeError('GMAIL_USERNAME and GMAIL_APP_PASSWORD secrets are required for email notifications')
+
+          msg = EmailMessage()
+          msg['Subject'] = 'Cylatic: New cybersecurity research article published'
+          msg['From'] = username
+          msg['To'] = recipient
+          msg.set_content(
+              'A new Cylatic cybersecurity research article was published successfully.\n\n'
+              f'Git commit: {os.environ["COMMIT_SHA"]}\n'
+              f'GitHub Actions run: {os.environ["RUN_URL"]}\n\n'
+              'The article is now available on cylatic.com.'
+          )
+
+          with smtplib.SMTP('smtp.gmail.com', 587, timeout=30) as smtp:
+              smtp.starttls()
+              smtp.login(username, password)
+              smtp.send_message(msg)
+          print(f'Publication notification sent to {recipient}')
+          PY
+
+      - name: Send failure email
+        if: failure()
+        continue-on-error: true
+        env:
+          SMTP_USERNAME: ${{ secrets.GMAIL_USERNAME }}
+          SMTP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          NOTIFICATION_TO: ${{ env.NOTIFICATION_TO }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          REPOSITORY: ${{ github.repository }}
+          BRANCH: ${{ github.ref_name }}
+          SHA: ${{ github.sha }}
+        run: |
+          python3 - <<'PY'
+          import os
+          import smtplib
+          from email.message import EmailMessage
+
+          username = os.environ.get('SMTP_USERNAME')
+          password = os.environ.get('SMTP_PASSWORD')
+          recipient = os.environ['NOTIFICATION_TO']
+          if not username or not password:
+              print('Email notification skipped: GMAIL_USERNAME/GMAIL_APP_PASSWORD secrets are not configured.')
+              raise SystemExit(0)
+
+          msg = EmailMessage()
+          msg['Subject'] = 'Cylatic ALERT: Research workflow failed'
+          msg['From'] = username
+          msg['To'] = recipient
+          msg.set_content(
+              'The Cylatic cybersecurity research GitHub Actions workflow failed.\n\n'
+              f'Repository: {os.environ["REPOSITORY"]}\n'
+              f'Branch: {os.environ["BRANCH"]}\n'
+              f'Commit: {os.environ["SHA"]}\n'
+              f'GitHub Actions run: {os.environ["RUN_URL"]}\n\n'
+              'Open the run URL above to see the failed step and logs.'
+          )
+
+          with smtplib.SMTP('smtp.gmail.com', 587, timeout=30) as smtp:
+              smtp.starttls()
+              smtp.login(username, password)
+              smtp.send_message(msg)
+          print(f'Failure notification sent to {recipient}')
+          PY
