@@ -1,135 +1,54 @@
-name: Cylatic Hourly Cybersecurity Research
+name: Cylatic Research Quality Pipeline
 
 on:
-  schedule:
-    # Run hourly, but GitHub may delay scheduled jobs during high load.
-    - cron: '17 * * * *'
   workflow_dispatch:
+  schedule:
+    # Monitoring is intentionally limited to once per day. Publication is NOT automatic.
+    - cron: '23 4 * * *'
 
 permissions:
   contents: write
 
 concurrency:
-  group: cylatic-cybersecurity-research
+  group: cylatic-research-quality
   cancel-in-progress: false
 
 env:
   PYTHONUNBUFFERED: '1'
+  PYTHONDONTWRITEBYTECODE: '1'
   NOTIFICATION_TO: 'jigarlad786@gmail.com'
 
 jobs:
-  research:
+  quality:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 12
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 1
 
-      - name: Normalize Gemini model configuration
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - name: Compile research generator
+        run: python -m py_compile .github/scripts/generate_blog.py
+
+      - name: Run site quality audit
+        run: python .github/scripts/site_quality_audit.py
+
+      - name: Check generated-output policy
         run: |
-          python3 - <<'PY'
+          python - <<'PY'
           from pathlib import Path
-          import re
-
-          p = Path('.github/scripts/generate_blog.py')
-          s = p.read_text(encoding='utf-8')
-
-          # Keep the generator on currently supported stable Gemini 3 models.
-          s, model_changes = re.subn(
-              r'models\s*=\s*\[[^\]]*\]',
-              'models = ["gemini-3.6-flash", "gemini-3.5-flash-lite"]',
-              s,
-              count=1,
-          )
-
-          # Gemini 3 documentation deprecates legacy sampling controls such as
-          # temperature. Remove it rather than allowing a future API validation
-          # failure after the model migration.
-          s, temperature_changes = re.subn(
-              r'\n\s*"temperature":\s*0\.2,',
-              '',
-              s,
-              count=1,
-          )
-
-          p.write_text(s, encoding='utf-8')
-          print(f'Model configuration normalized: {model_changes}')
-          print(f'Deprecated temperature setting removed: {temperature_changes}')
-          PY
-
-      - name: Validate research generator
-        run: python3 -m py_compile .github/scripts/generate_blog.py
-
-      - name: Persist Gemini configuration
-        run: |
-          git config user.name "cylatic-research-bot"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add .github/scripts/generate_blog.py
-          if git diff --cached --quiet; then
-            echo "Gemini configuration already current."
-            exit 0
-          fi
-          git commit -m "chore: use supported Gemini 3 models for research"
-          git push origin HEAD:main
-
-      - name: Generate research article when a high-value story is found
-        env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        run: python3 .github/scripts/generate_blog.py
-
-      - name: Commit generated research
-        id: publish
-        run: |
-          git config user.name "cylatic-research-bot"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add blog sitemap.xml
-          if git diff --cached --quiet; then
-            echo "No publication this hour."
-            echo "published=false" >> "$GITHUB_OUTPUT"
-            exit 0
-          fi
-          git commit -m "Publish cybersecurity research"
-          git push origin HEAD:main
-          echo "published=true" >> "$GITHUB_OUTPUT"
-
-      - name: Send publication email
-        if: success() && steps.publish.outputs.published == 'true'
-        env:
-          SMTP_USERNAME: ${{ secrets.GMAIL_USERNAME }}
-          SMTP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
-          NOTIFICATION_TO: ${{ env.NOTIFICATION_TO }}
-          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
-          COMMIT_SHA: ${{ github.sha }}
-        run: |
-          python3 - <<'PY'
-          import os
-          import smtplib
-          from email.message import EmailMessage
-
-          username = os.environ.get('SMTP_USERNAME')
-          password = os.environ.get('SMTP_PASSWORD')
-          recipient = os.environ['NOTIFICATION_TO']
-          if not username or not password:
-              raise RuntimeError('GMAIL_USERNAME and GMAIL_APP_PASSWORD secrets are required for email notifications')
-
-          msg = EmailMessage()
-          msg['Subject'] = 'Cylatic: New cybersecurity research article published'
-          msg['From'] = username
-          msg['To'] = recipient
-          msg.set_content(
-              'A new Cylatic cybersecurity research article was published successfully.\n\n'
-              f'Git commit: {os.environ["COMMIT_SHA"]}\n'
-              f'GitHub Actions run: {os.environ["RUN_URL"]}\n\n'
-              'The article is now available on cylatic.com.'
-          )
-
-          with smtplib.SMTP('smtp.gmail.com', 587, timeout=30) as smtp:
-              smtp.starttls()
-              smtp.login(username, password)
-              smtp.send_message(msg)
-          print(f'Publication notification sent to {recipient}')
+          blog = Path('blog')
+          html_files = list(blog.rglob('*.html')) if blog.exists() else []
+          print(f'Indexed blog HTML files currently in repository: {len(html_files)}')
+          print('Automatic publication is disabled by design.')
+          print('News monitoring must not directly create public pages.')
           PY
 
       - name: Send failure email
@@ -144,34 +63,29 @@ jobs:
           BRANCH: ${{ github.ref_name }}
           SHA: ${{ github.sha }}
         run: |
-          python3 - <<'PY'
-          import os
-          import smtplib
+          python - <<'PY'
+          import os, smtplib
           from email.message import EmailMessage
-
           username = os.environ.get('SMTP_USERNAME')
           password = os.environ.get('SMTP_PASSWORD')
           recipient = os.environ['NOTIFICATION_TO']
           if not username or not password:
-              print('Email notification skipped: GMAIL_USERNAME/GMAIL_APP_PASSWORD secrets are not configured.')
+              print('Failure email skipped: Gmail notification secrets are not configured.')
               raise SystemExit(0)
-
           msg = EmailMessage()
-          msg['Subject'] = 'Cylatic ALERT: Research workflow failed'
+          msg['Subject'] = 'Cylatic ALERT: research quality pipeline failed'
           msg['From'] = username
           msg['To'] = recipient
           msg.set_content(
-              'The Cylatic cybersecurity research GitHub Actions workflow failed.\n\n'
+              'The Cylatic research quality pipeline failed.\n\n'
               f'Repository: {os.environ["REPOSITORY"]}\n'
               f'Branch: {os.environ["BRANCH"]}\n'
               f'Commit: {os.environ["SHA"]}\n'
-              f'GitHub Actions run: {os.environ["RUN_URL"]}\n\n'
-              'Open the run URL above to see the failed step and logs.'
+              f'Run: {os.environ["RUN_URL"]}\n\n'
+              'No public research article was automatically published.'
           )
-
           with smtplib.SMTP('smtp.gmail.com', 587, timeout=30) as smtp:
               smtp.starttls()
               smtp.login(username, password)
               smtp.send_message(msg)
-          print(f'Failure notification sent to {recipient}')
           PY
