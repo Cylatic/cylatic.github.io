@@ -3,7 +3,7 @@ name: Cylatic Research Quality Pipeline
 on:
   workflow_dispatch:
   schedule:
-    # Monitoring is intentionally limited to once per day. Publication is NOT automatic.
+    # Monitoring is limited to once daily. It never publishes directly.
     - cron: '23 4 * * *'
 
 permissions:
@@ -32,24 +32,30 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-          cache: pip
 
-      - name: Compile research generator
-        run: python -m py_compile .github/scripts/generate_blog.py
+      - name: Validate research scripts
+        run: |
+          python -m py_compile .github/scripts/generate_blog.py
+          python -m py_compile .github/scripts/research_monitor.py
+          python -m py_compile .github/scripts/site_quality_audit.py
+
+      - name: Collect research leads safely
+        run: python .github/scripts/research_monitor.py
 
       - name: Run site quality audit
         run: python .github/scripts/site_quality_audit.py
 
-      - name: Check generated-output policy
+      - name: Persist internal research queue
         run: |
-          python - <<'PY'
-          from pathlib import Path
-          blog = Path('blog')
-          html_files = list(blog.rglob('*.html')) if blog.exists() else []
-          print(f'Indexed blog HTML files currently in repository: {len(html_files)}')
-          print('Automatic publication is disabled by design.')
-          print('News monitoring must not directly create public pages.')
-          PY
+          git config user.name "cylatic-research-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .github/research/latest-candidates.json
+          if git diff --cached --quiet; then
+            echo "Research queue unchanged."
+            exit 0
+          fi
+          git commit -m "chore: refresh internal cybersecurity research queue"
+          git push origin HEAD:main
 
       - name: Send failure email
         if: failure()
