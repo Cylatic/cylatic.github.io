@@ -3,7 +3,7 @@ name: Cylatic Research Quality Pipeline
 on:
   workflow_dispatch:
   schedule:
-    # Monitoring is limited to once daily. It never publishes directly.
+    # Monitoring is limited to once daily. It never publishes research articles.
     - cron: '23 4 * * *'
 
 permissions:
@@ -21,7 +21,7 @@ env:
 jobs:
   quality:
     runs-on: ubuntu-latest
-    timeout-minutes: 12
+    timeout-minutes: 15
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -33,11 +33,15 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Validate research scripts
+      - name: Validate maintenance and research scripts
         run: |
           python -m py_compile .github/scripts/generate_blog.py
           python -m py_compile .github/scripts/research_monitor.py
+          python -m py_compile .github/scripts/site_migration.py
           python -m py_compile .github/scripts/site_quality_audit.py
+
+      - name: Apply idempotent AdSense quality rebuild
+        run: python .github/scripts/site_migration.py
 
       - name: Collect research leads safely
         run: python .github/scripts/research_monitor.py
@@ -45,16 +49,16 @@ jobs:
       - name: Run site quality audit
         run: python .github/scripts/site_quality_audit.py
 
-      - name: Persist internal research queue
+      - name: Persist maintenance and internal research queue
         run: |
           git config user.name "cylatic-research-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add .github/research/latest-candidates.json
+          git add .github/research/latest-candidates.json blog sitemap.xml
           if git diff --cached --quiet; then
-            echo "Research queue unchanged."
+            echo "No maintenance or research-queue changes."
             exit 0
           fi
-          git commit -m "chore: refresh internal cybersecurity research queue"
+          git commit -m "chore: maintain AdSense-ready content architecture"
           git push origin HEAD:main
 
       - name: Send failure email
