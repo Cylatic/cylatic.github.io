@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-19T08:51:39.816314+00:00",
+  "generated_at_utc": "2026-09-20T09:21:02.852027+00:00",
   "publication_enabled": false,
   "editorial_note": "Candidates require human/editorial review and original technical work before publication.",
   "feed_errors": [
@@ -34,14 +34,6 @@
       "score": 29.0
     },
     {
-      "source": "SecurityWeek",
-      "title": "Check Point, Kaspersky, Tanium Patch Product Vulnerabilities",
-      "url": "https://www.securityweek.com/check-point-kaspersky-tanium-patch-product-vulnerabilities/",
-      "summary": "<p>Check Point Security Management and Log Servers are affected by a critical vulnerability that can allow remote code execution with root privileges.</p> <p>The post <a href=\"https://www.securityweek.com/check-point-kaspersky-tanium-patch-product-vulnerabilities/\">Check Point, Kaspersky, Tanium Patch Product Vulnerabilities</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "published": "Fri, 18 Sep 2026 07:14:04 +0000",
-      "score": 29.0
-    },
-    {
       "source": "The Hacker News",
       "title": "CrowdSec Says TanStack npm Attack Led to Copy of 170 Private GitHub Repositories",
       "url": "https://thehackernews.com/2026/09/crowdsec-says-tanstack-npm-attack-led.html",
@@ -59,11 +51,11 @@
     },
     {
       "source": "The Hacker News",
-      "title": "Critical Check Point Management Flaw Lets Unauthenticated Attackers Run Code as Root",
-      "url": "https://thehackernews.com/2026/09/critical-check-point-management-server.html",
-      "summary": "A critical vulnerability in Check Point's Security Management and Log Servers could allow an attacker without login credentials to run code as root on those servers over the network. The Security Management Server is the system that controls firewall policy and administrator access. Check Point has released a fix through its LivePatch update channel and says it has no indication that the flaw",
-      "published": "Thu, 17 Sep 2026 23:38:28 +0530",
-      "score": 25.0
+      "title": "Identity Visibility in 2026: The Foundation of Identity Security",
+      "url": "https://thehackernews.com/2026/09/identity-visibility-in-2026-foundation.html",
+      "summary": "Identity visibility is a starting point for modern identity security, because stolen and misused credentials are among the most frequently reported initial access vectors in breach research, including Verizon's annual Data Breach Investigations Report. This article explains what identity visibility means in IAM, why cloud and multicloud environments complicate it, which capabilities matter in",
+      "published": "Sat, 19 Sep 2026 18:58:41 +0530",
+      "score": 23.0
     },
     {
       "source": "SecurityWeek",
@@ -75,10 +67,10 @@
     },
     {
       "source": "The Hacker News",
-      "title": "Critical Unbound DNSSEC Validator Flaw Could Allow RCE via a Malicious DNS Zone",
-      "url": "https://thehackernews.com/2026/09/critical-unbound-dnssec-validator-flaw.html",
-      "summary": "Every release of the Unbound DNS resolver before 1.26.1 has a critical heap overflow in its DNSSEC validator, maintainer NLnet Labs said in an&nbsp;advisory&nbsp;on Wednesday. An attacker who controls a malicious zone and queries a vulnerable resolver can trigger it, enabling remote code execution. Unbound 1.26.1, released the same day, fixes the bug, tracked as&nbsp;CVE-2026-81642, along with",
-      "published": "Thu, 17 Sep 2026 18:00:00 +0530",
+      "title": "SolarWinds Patches ARM Hard-Coded Key Flaw Enabling Unauthenticated RCE",
+      "url": "https://thehackernews.com/2026/09/solarwinds-patches-arm-hard-coded-key.html",
+      "summary": "SolarWinds has released security updates to address a high-severity flaw in Access Rights Manager (ARM) that, if successfully exploited, could lead to an unauthenticated remote code execution vulnerability. The vulnerability, tracked as CVE-2026-28326, is rated 8.8 out of 10.0 on the CVSS scoring system. The issue affects all versions of Access Rights Manager 2026.2 and prior. \"SolarWinds",
+      "published": "Sat, 19 Sep 2026 15:01:17 +0530",
       "score": 21.0
     },
     {
@@ -91,18 +83,10 @@
     },
     {
       "source": "BleepingComputer",
-      "title": "What Recent AI-Powered Attacks Mean for Your Identity Security",
-      "url": "https://www.bleepingcomputer.com/news/security/what-recent-ai-powered-attacks-mean-for-your-identity-security/",
-      "summary": "AI is making credential theft faster and easier to scale, giving attackers more opportunities to abuse valid identities. Specops explains why identity security must go beyond successful authentication by verifying that both the user and the device requesting access can be trusted. [...]",
-      "published": "Thu, 17 Sep 2026 10:01:11 -0400",
-      "score": 20.0
-    },
-    {
-      "source": "SecurityWeek",
-      "title": "Critical Orkes Conductor Vulnerability Exploited in Attacks",
-      "url": "https://www.securityweek.com/critical-orkes-conductor-vulnerability-exploited-in-attacks/",
-      "summary": "<p>CVE-2026-58138 is an unauthenticated remote code execution vulnerability that attackers can exploit via inline workflow definitions.</p> <p>The post <a href=\"https://www.securityweek.com/critical-orkes-conductor-vulnerability-exploited-in-attacks/\">Critical Orkes Conductor Vulnerability Exploited in Attacks</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "published": "Fri, 18 Sep 2026 08:42:18 +0000",
+      "title": "ShinyHunters hacks Clop leak site, threatens to extort ransomware gang",
+      "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacks-clop-leak-site-threatens-to-extort-ransomware-gang/",
+      "summary": "The ShinyHunters extortion gang breached the Clop (aka Cl0p) ransomware operation's data leak site, defacing the Tor site and allegedly stealing server data and the private keys for its onion service. [...]",
+      "published": "Sat, 19 Sep 2026 09:48:32 -0400",
       "score": 20.0
     },
     {
@@ -122,20 +106,12 @@
       "score": 18.0
     },
     {
-      "source": "Google News Cybersecurity",
-      "title": "Satellites: The Next Cyber Frontier in Critical Infrastructure Security - ESET",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOY25sWjBpZ29GU1RrN0pTVGZycVN3YVZJTlNyTHpDRTFWcFBLZVdUT185MzMyS0k2TDJLQnUzYnFFN19MME9DVjNMSnhydXV2dGFvTXVkZUgtZ1cyM09RdnhhNFRFNXk4cERrVWIweHppYnVmQ1FRWjJtYnZUZHVDLUFfTk1QWnhuSEJnbGlUc2JKWGowNy1wNU0tVm8?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxOY25sWjBpZ29GU1RrN0pTVGZycVN3YVZJTlNyTHpDRTFWcFBLZVdUT185MzMyS0k2TDJLQnUzYnFFN19MME9DVjNMSnhydXV2dGFvTXVkZUgtZ1cyM09RdnhhNFRFNXk4cERrVWIweHppYnVmQ1FRWjJtYnZUZHVDLUFfTk1QWnhuSEJnbGlUc2JKWGowNy1wNU0tVm8?oc=5\" target=\"_blank\">Satellites: The Next Cyber Frontier in Critical Infrastructure Security</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ESET</font>",
-      "published": "Sat, 19 Sep 2026 00:51:45 GMT",
-      "score": 18.0
-    },
-    {
-      "source": "Google News Cybersecurity",
-      "title": "Settra ransomware variant deployed in recent attacks - Cybersecurity Dive",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQc3NITFZMXzhfcVJoYnU4amIwR2lnemFucVFqTlB2ZGpBVDNRd1hOQjg3WTJLMnhpOGpqTzAyYmttTnB2VE96MmlkSDFBSjl6S1RlSktHN21wRlhOTTNmUTlVSGxUTTF3X3NqTXI5X3dfZEJaWFlnVmQzdXA4LUVIZnZqMnZJckhGWHZRR2ZyQnc?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxQc3NITFZMXzhfcVJoYnU4amIwR2lnemFucVFqTlB2ZGpBVDNRd1hOQjg3WTJLMnhpOGpqTzAyYmttTnB2VE96MmlkSDFBSjl6S1RlSktHN21wRlhOTTNmUTlVSGxUTTF3X3NqTXI5X3dfZEJaWFlnVmQzdXA4LUVIZnZqMnZJckhGWHZRR2ZyQnc?oc=5\" target=\"_blank\">Settra ransomware variant deployed in recent attacks</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Cybersecurity Dive</font>",
-      "published": "Fri, 18 Sep 2026 16:29:24 GMT",
-      "score": 18.0
+      "source": "The Hacker News",
+      "title": "Claude Opus 5 Helped Researchers Take Over OpenAI Staff Accounts via Chained Flaws",
+      "url": "https://thehackernews.com/2026/09/claude-opus-5-helped-researchers-take.html",
+      "summary": "Three researchers at the security firm&nbsp;Hacktron&nbsp;used Anthropic's Claude Opus 5 to chain two flaws and take over the ChatGPT and Codex accounts of several OpenAI employees, then reach an internal OpenAI code repository. The chain began with a bug in the software that runs OpenAI's public help forum and moved through a weakness in OpenAI's own login system. This was security research,",
+      "published": "Sun, 20 Sep 2026 00:06:53 +0530",
+      "score": 15.0
     },
     {
       "source": "The Hacker News",
@@ -143,22 +119,6 @@
       "url": "https://thehackernews.com/2026/09/public-exploits-released-for-four-linux.html",
       "summary": "A security researcher has released working exploit code for four Linux kernel flaws that each let a local user gain root, the highest level of access on a machine. Kernel maintainers have fixed all four over the past few weeks, so a system running an up-to-date kernel is not affected. But the exploit code is now public, and any machine still running an older kernel should be updated. The flaws",
       "published": "Fri, 18 Sep 2026 23:32:24 +0530",
-      "score": 15.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "ThreatsDay: Self-Rewriting Agents, 800+ Flaws Patched, Insider SIM Swaps and 22 More New Stories",
-      "url": "https://thehackernews.com/2026/09/threatsday-self-rewriting-agents-800.html",
-      "summary": "Attackers keep finding new keys. The funny part is that defenders keep inventing where to store them. This week, those keys sit in AI tools, exposed services, old bugs, weak logins, and software sold like a monthly subscription. Some attacks use new tricks. Others just reuse what was already lying around. Both work often enough. So the threat landscape is not getting cleaner. It is just",
-      "published": "Thu, 17 Sep 2026 23:02:22 +0530",
-      "score": 15.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "CISO's Expert Guide to Agentic Pentesting for Websites",
-      "url": "https://thehackernews.com/2026/09/cisos-expert-guide-to-agentic.html",
-      "summary": "Attackers now weaponize new vulnerabilities in about five days (Mandiant, part of Google Cloud). The median organization takes 43 days to patch one (Verizon DBIR 2026). A new free guide explains how autonomous AI agents are closing that gap, and what security leaders must demand before pointing one at production. TL;DR Exploitation is now the front door. It starts 31% of breaches (Verizon DBIR",
-      "published": "Thu, 17 Sep 2026 16:20:53 +0530",
       "score": 15.0
     },
     {
@@ -186,28 +146,68 @@
       "score": 15.0
     },
     {
-      "source": "BleepingComputer",
-      "title": "Microsoft fixes broken copy and paste for Excel 2016 users",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-broken-copy-and-paste-for-excel-2016-users/",
-      "summary": "Microsoft has fixed a known issue that causes copy-and-paste failures for some Excel users after installing the September 2026 KB5002914 security update. [...]",
-      "published": "Fri, 18 Sep 2026 03:35:31 -0400",
-      "score": 15.0
+      "source": "Google News Cybersecurity",
+      "title": "AI voice cloning attacks are redefining cybersecurity: Why Canadian organisations need to rethink identity verification - Digital Journal",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNRWRqa0Nuc28xOThteHVidGtDa0JmNDJLWk8yRTMtNkx6TlUwVmhPaFJsUW5rZXYyZnI5Z1pPWjJucElJSkNXN05CTmtkMXlxck9jcGgxTVlMVm5hTXV0cVRvczhPTTJwX2IybHFlVWhIaWJuWDZyandxQUt3bG5MRXpaRlBuR0JJU3ZBcHpLWmx1VXFsekY4aXZTYnhDT3JBWkZWUmZIcjZrVV9EUWNLb3U0MnllM1V1cHFiaGFscHhNRDVZY1R4WUotbWN6Y0xSbGh5TTZmWkprbVE4dWRHZkxSaEppSUtTWTVhRU5Pdw?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi7wFBVV95cUxNRWRqa0Nuc28xOThteHVidGtDa0JmNDJLWk8yRTMtNkx6TlUwVmhPaFJsUW5rZXYyZnI5Z1pPWjJucElJSkNXN05CTmtkMXlxck9jcGgxTVlMVm5hTXV0cVRvczhPTTJwX2IybHFlVWhIaWJuWDZyandxQUt3bG5MRXpaRlBuR0JJU3ZBcHpLWmx1VXFsekY4aXZTYnhDT3JBWkZWUmZIcjZrVV9EUWNLb3U0MnllM1V1cHFiaGFscHhNRDVZY1R4WUotbWN6Y0xSbGh5TTZmWkprbVE4dWRHZkxSaEppSUtTWTVhRU5Pdw?oc=5\" target=\"_blank\">AI voice cloning attacks are redefining cybersecurity: Why Canadian organisations need to rethink identity verification</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Digital Journal</font>",
+      "published": "Sat, 19 Sep 2026 17:46:00 GMT",
+      "score": 14.0
     },
     {
-      "source": "BleepingComputer",
-      "title": "Brevo supply-chain attack injected ClickFix scripts on customer sites",
-      "url": "https://www.bleepingcomputer.com/news/security/brevo-supply-chain-attack-injected-clickfix-scripts-on-customer-sites/",
-      "summary": "Brevo confirmed that attackers stole a Cloudflare API key and used it to inject malicious ClickFix scripts into its websites and JavaScript files embedded on customer sites to distribute malware. [...]",
-      "published": "Thu, 17 Sep 2026 13:11:34 -0400",
-      "score": 15.0
+      "source": "The Hacker News",
+      "title": "Can You Prove a New CVE Is Exploitable Before Attackers Do? Learn How in This Webinar",
+      "url": "https://thehackernews.com/2026/09/can-you-prove-new-cve-is-exploitable.html",
+      "summary": "A new CVE drops. Your scanner finds it. The severity score looks ugly. But that still does not answer the question that matters: Can it actually be exploited in your environment? Mythos-class AI is compressing the time between disclosure and working exploitation, while many security programs still validate risk on weekly or quarterly cycles. The dangerous gap is no longer just technical. It is",
+      "published": "Sat, 19 Sep 2026 18:58:48 +0530",
+      "score": 12.0
     },
     {
-      "source": "BleepingComputer",
-      "title": "Windows 11 24H2 Home and Pro reach end of support in October",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-24h2-home-and-pro-reach-end-of-support-in-october/",
-      "summary": "Microsoft reminded customers this week that devices running Windows 11 24H2 Home and Pro editions will stop receiving updates next month. [...]",
-      "published": "Thu, 17 Sep 2026 09:09:09 -0400",
-      "score": 15.0
+      "source": "The Hacker News",
+      "title": "Google Gemini Broke Into Real Company Systems After Security Test Domain Mix-Up",
+      "url": "https://thehackernews.com/2026/09/google-gemini-broke-into-real-company.html",
+      "summary": "Google's Gemini model has become the latest artificial intelligence (AI) system to access the internet and break into other companies during a cybersecurity evaluation. The development was first reported by The Wall Street Journal. The incidents occurred in May 2026 as part of a test run conducted by Israeli company Irregular. The evaluation partner was also involved in similar hacks disclosed",
+      "published": "Sat, 19 Sep 2026 13:21:34 +0530",
+      "score": 12.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "New WordPress Click2Shell Flaw Forces Theme Installs, Can Chain to Code Execution",
+      "url": "https://thehackernews.com/2026/09/new-wordpress-click2shell-flaw-forces.html",
+      "summary": "WordPress today released patches to fix a new set of vulnerabilities in its core software, one of which could allow a crafted web link, opened by a logged-in administrator, to install a theme from the official WordPress.org directory without anyone clicking Install. The security firm pwn.ai, whose researchers reported the flaw, calls the attack chain Click2Shell. On its own the flaw only",
+      "published": "Fri, 18 Sep 2026 22:26:19 +0530",
+      "score": 12.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "Transparent Tribe Deploys New Rust Backdoor Using Private GitHub Repositories for C2",
+      "url": "https://thehackernews.com/2026/09/transparent-tribe-deploys-new-rust.html",
+      "summary": "The Pakistan-aligned threat group tracked as Transparent Tribe (aka APT36 and Earth Karkaddan) has been attributed to a fresh set of cyber attacks targeting government and defense entities in India and Afghanistan. The attacks, per Zscaler ThreatLabz, involve the use of previously undocumented tools called RUSTYSHADE, RUSTYMOVE, PSNATCH, and BASHNATCH. The activity has been codenamed Operation",
+      "published": "Fri, 18 Sep 2026 20:54:16 +0530",
+      "score": 12.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "An Abandoned CDN Domain Was Re-Registered. Thousands of Sites Still Call It.",
+      "url": "https://thehackernews.com/2026/09/an-abandoned-cdn-domain-was-re.html",
+      "summary": "In July 2025, someone registered a domain that used to belong to a content delivery network.&nbsp; The CDN had been wound down years earlier, and the domain it served assets from was allowed to expire. What it had not lost were its callers. Thousands of websites, code repositories, and documentation pages still carry hard-coded references to hostnames beneath it.&nbsp; The new owner holds",
+      "published": "Fri, 18 Sep 2026 16:31:16 +0530",
+      "score": 12.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "Plugin4Shell Lets Repository Owners Swap Pinned Plugin Code Across Four AI Coding Agents",
+      "url": "https://thehackernews.com/2026/09/plugin4shell-lets-repository-owners.html",
+      "summary": "A flaw in four widely used AI coding agents lets someone who controls a plugin's code repository swap the plugin an agent installs for a malicious one, even when the agent locked that plugin to a specific reviewed version, security firm&nbsp;Air Security said on Thursday. The firm said Anthropic has patched the flaw in Claude Code 2.1.179 and OpenAI in Codex 0.146.0, that GitHub Copilot has no",
+      "published": "Fri, 18 Sep 2026 16:31:01 +0530",
+      "score": 12.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "WeaselBiscuit Stealer Spreads via 13 npm Packages to Harvest Chrome Extension Storage",
+      "url": "https://thehackernews.com/2026/09/weaselbiscuit-stealer-spreads-via-13.html",
+      "summary": "Cybersecurity researchers have discovered a cluster of 13 npm packages that have been found to deliver a previously undocumented JavaScript stealer codenamed WeaselBiscuit. The new malware family, per OpenSourceMalware, exhibits functional overlaps with two malware strains associated with the Democratic People's Republic of Korea's (DPRK) Contagious Interview campaign: BeaverTail and",
+      "published": "Fri, 18 Sep 2026 16:10:06 +0530",
+      "score": 12.0
     }
   ]
 }
