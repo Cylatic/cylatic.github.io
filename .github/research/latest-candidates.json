@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-21T10:02:58.919056+00:00",
+  "generated_at_utc": "2026-09-22T09:22:11.608631+00:00",
   "publication_enabled": false,
   "editorial_note": "Candidates require human/editorial review and original technical work before publication.",
   "feed_errors": [
@@ -10,14 +10,6 @@
   ],
   "candidates": [
     {
-      "source": "The Hacker News",
-      "title": "Identity Visibility in 2026: The Foundation of Identity Security",
-      "url": "https://thehackernews.com/2026/09/identity-visibility-in-2026-foundation.html",
-      "summary": "Identity visibility is a starting point for modern identity security, because stolen and misused credentials are among the most frequently reported initial access vectors in breach research, including Verizon's annual Data Breach Investigations Report. This article explains what identity visibility means in IAM, why cloud and multicloud environments complicate it, which capabilities matter in",
-      "published": "Sat, 19 Sep 2026 18:58:41 +0530",
-      "score": 23.0
-    },
-    {
       "source": "BleepingComputer",
       "title": "Malicious npm packages evade install-script defenses at runtime",
       "url": "https://www.bleepingcomputer.com/news/security/malicious-npm-packages-evade-install-script-defenses-at-runtime/",
@@ -26,20 +18,84 @@
       "score": 21.0
     },
     {
-      "source": "BleepingComputer",
-      "title": "ShinyHunters hacks Clop leak site, threatens to extort ransomware gang",
-      "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacks-clop-leak-site-threatens-to-extort-ransomware-gang/",
-      "summary": "The ShinyHunters extortion gang breached the Clop (aka Cl0p) ransomware operation's data leak site, defacing the Tor site and allegedly stealing server data and the private keys for its onion service. [...]",
-      "published": "Sat, 19 Sep 2026 09:48:32 -0400",
+      "source": "SecurityWeek",
+      "title": "CrowdSec Confirms Source Code Stolen in Supply Chain Attack",
+      "url": "https://www.securityweek.com/crowdsec-confirms-source-code-stolen-in-supply-chain-attack/",
+      "summary": "<p>The cybersecurity firm believes the data breach was the result of the May 2026 TanStack supply chain attack.</p> <p>The post <a href=\"https://www.securityweek.com/crowdsec-confirms-source-code-stolen-in-supply-chain-attack/\">CrowdSec Confirms Source Code Stolen in Supply Chain Attack</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "published": "Mon, 21 Sep 2026 10:55:46 +0000",
       "score": 20.0
     },
     {
       "source": "Google News Cybersecurity",
-      "title": "Cybersecurity Awareness Month 2026: Critical Infrastructure Urged to Adopt Cybersecurity 3Rs - The HIPAA Journal",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQa01PX0pvdWZmTm9XT0VEV3BaM0Vabmh1QmdiMEc2OGZza3J2VmZiUGhRX0ZHWER6UDFFMFYwZUwwc0NrUWJYZHd2V1k0VnVZVU5Eb3BDRmhoc2JxWnBoZ3RzVHlwMkJmeU9kcE1teFRZdVlBYWNLMDJFUTF6UzEzU1VsSS16TDExdTRNRXh0cEVKSEhsRzNySllPckl5aDdHRzAzQlI5TWJ4amxCQk1naGRvVXZHYnNpTkk0eFZ3?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxQa01PX0pvdWZmTm9XT0VEV3BaM0Vabmh1QmdiMEc2OGZza3J2VmZiUGhRX0ZHWER6UDFFMFYwZUwwc0NrUWJYZHd2V1k0VnVZVU5Eb3BDRmhoc2JxWnBoZ3RzVHlwMkJmeU9kcE1teFRZdVlBYWNLMDJFUTF6UzEzU1VsSS16TDExdTRNRXh0cEVKSEhsRzNySllPckl5aDdHRzAzQlI5TWJ4amxCQk1naGRvVXZHYnNpTkk0eFZ3?oc=5\" target=\"_blank\">Cybersecurity Awareness Month 2026: Critical Infrastructure Urged to Adopt Cybersecurity 3Rs</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The HIPAA Journal</font>",
-      "published": "Mon, 21 Sep 2026 09:22:04 GMT",
+      "title": "Why Ransomware Gangs Are Launching Cyber Attacks on Each Other - Cybersecurity Insiders",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNanpJWTRWYl9lX3BRSFFyR0Z3clB6WTZTZDVteHAySFRhY2g2MVBVU3FuUDhQYkxHckRtWGRyeS0zMXhpdGtjWGJuYjhSLXE1dUpVRUNUeXhob3JqZ25RT0tzT0lhaWZoQ3dYdlFjdjUxaTRrVERvZE5Ta29DVU5zbXoyZW10bkVEZ3BKcUdfWGdKbkdtOXE0S0xwMUdOZ1lOTW83QQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxNanpJWTRWYl9lX3BRSFFyR0Z3clB6WTZTZDVteHAySFRhY2g2MVBVU3FuUDhQYkxHckRtWGRyeS0zMXhpdGtjWGJuYjhSLXE1dUpVRUNUeXhob3JqZ25RT0tzT0lhaWZoQ3dYdlFjdjUxaTRrVERvZE5Ta29DVU5zbXoyZW10bkVEZ3BKcUdfWGdKbkdtOXE0S0xwMUdOZ1lOTW83QQ?oc=5\" target=\"_blank\">Why Ransomware Gangs Are Launching Cyber Attacks on Each Other</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Cybersecurity Insiders</font>",
+      "published": "Tue, 22 Sep 2026 06:46:56 GMT",
       "score": 18.0
+    },
+    {
+      "source": "Google News Cybersecurity",
+      "title": "PERSPECTIVE: What CIRCIA Means for the Nation’s Critical Infrastructure - hstoday.us",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQTG1OTTI5R0ZqWUtvcWprSWtETWIxTVZfQ283Rjg2N3AybUt2Y3p6bUZtWld0NE5kVDU5OHR0cEZaeWJhREt6MmR1aHBiLUQwTF9qdl9jLXJMcUpsZkZBS1lQOGVYRlFDNTlXTXVXb0R4cGYwZlhYWWZxdmFzeUdMTHVxT0xFRDE2NTBnMmVDUl9qRFZCSlpQOWtQRUxmOXgzUUJJMndXVjN5R0R0VURnMUF2WjhqdWVLVGdYOHpRYXZEREFndktz?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMixwFBVV95cUxQTG1OTTI5R0ZqWUtvcWprSWtETWIxTVZfQ283Rjg2N3AybUt2Y3p6bUZtWld0NE5kVDU5OHR0cEZaeWJhREt6MmR1aHBiLUQwTF9qdl9jLXJMcUpsZkZBS1lQOGVYRlFDNTlXTXVXb0R4cGYwZlhYWWZxdmFzeUdMTHVxT0xFRDE2NTBnMmVDUl9qRFZCSlpQOWtQRUxmOXgzUUJJMndXVjN5R0R0VURnMUF2WjhqdWVLVGdYOHpRYXZEREFndktz?oc=5\" target=\"_blank\">PERSPECTIVE: What CIRCIA Means for the Nation’s Critical Infrastructure</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">hstoday.us</font>",
+      "published": "Tue, 22 Sep 2026 07:17:57 GMT",
+      "score": 18.0
+    },
+    {
+      "source": "SecurityWeek",
+      "title": "Fake LastPass Installers Push Kernel-Level EDR Killer, ‘Rapuncel’ Stealer",
+      "url": "https://www.securityweek.com/fake-lastpass-installers-push-kernel-level-edr-killer-rapuncel-stealer/",
+      "summary": "<p>The attackers impersonate at least 40 companies and disable 145 security products to deploy infostealer malware.</p> <p>The post <a href=\"https://www.securityweek.com/fake-lastpass-installers-push-kernel-level-edr-killer-rapuncel-stealer/\">Fake LastPass Installers Push Kernel-Level EDR Killer, ‘Rapuncel’ Stealer</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "published": "Mon, 21 Sep 2026 15:46:58 +0000",
+      "score": 17.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "Contagious Interview Campaign Compromises 30,000 Devices, Steals $10.71M in Crypto",
+      "url": "https://thehackernews.com/2026/09/contagious-interview-campaign.html",
+      "summary": "The North Korean threat actors behind the Contagious Interview campaign have compromised at least 30,000 devices located in more than 100 countries and siphoned funds or account credentials from over 7,000 cryptocurrency wallets, according to a new joint cybersecurity advisory. The primary targets of the campaign are individual web designers, engineers, and specialists in cryptocurrency,",
+      "published": "Mon, 21 Sep 2026 22:49:00 +0530",
+      "score": 16.0
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "BigCommerce alerts merchants of data breach linked to Ribon apps",
+      "url": "https://www.bleepingcomputer.com/news/security/bigcommerce-alerts-merchants-of-data-breach-linked-to-ribon-apps/",
+      "summary": "Ecommerce platform BigCommerce has alerted multiple merchants to data breaches after attackers compromised credentials for third-party Ribon applications and used them to inject malicious scripts into online stores. [...]",
+      "published": "Mon, 21 Sep 2026 17:18:49 -0400",
+      "score": 16.0
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "FBI's CJIS v6.1: What Security Teams Need to Know.",
+      "url": "https://www.bleepingcomputer.com/news/security/fbis-cjis-v61-what-security-teams-need-to-know/",
+      "summary": "The FBI's CJIS Security Policy v6.1 strengthens requirements around encryption and vulnerability scanning while continuing the shift toward more continuous security assessment. Specops explains what changed and how agencies can address password, MFA, and identity requirements as they prepare for upcoming audits. [...]",
+      "published": "Mon, 21 Sep 2026 10:02:12 -0400",
+      "score": 16.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "Zyxel and Veeam Flaws Under Active Exploitation With Command and SYSTEM Access",
+      "url": "https://thehackernews.com/2026/09/zyxel-and-veeam-flaws-under-active.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a now-patched security flaw impacting Zyxel GS1900 series switches to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerability, tracked as CVE-2026-7273 (CVSS score: 8.8), is a stack-based buffer overflow vulnerability that could result in arbitrary operating",
+      "published": "Tue, 22 Sep 2026 11:01:59 +0530",
+      "score": 15.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "Fake LastPass Authenticator Installer Abuses Microsoft-Signed Driver to Kill Antivirus and EDR",
+      "url": "https://thehackernews.com/2026/09/fake-lastpass-authenticator-installer.html",
+      "summary": "A fake LastPass Authenticator installer offered on GitHub installs a Windows kernel driver that shuts off antivirus and other security software before a password stealer runs if a victim downloads and runs it, researchers at LastPass and Delphos Labs said on September 17. Microsoft's own hardware-compatibility program signs the driver, scored zero detections on VirusTotal when researchers",
+      "published": "Mon, 21 Sep 2026 23:01:01 +0530",
+      "score": 15.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "⚡ Weekly Recap: Cisco 0-Day, AI Agent RCE, ClickFix Attacks, ClickFix Surge, and Browser Hijacks",
+      "url": "https://thehackernews.com/2026/09/weekly-recap-cisco-0-day-ai-agent-rce.html",
+      "summary": "A browser. A plugin. A package. A login screen. Normal stuff. That is basically the problem this week. The trouble keeps showing up inside things people already trust: code that takes a bad turn, old payloads coming back, exposed systems, weak checks, fake fixes, and attack paths that look almost too easy. Even the research side is getting messy, with more findings, more automation, and not",
+      "published": "Mon, 21 Sep 2026 19:54:13 +0530",
+      "score": 15.0
     },
     {
       "source": "The Hacker News",
@@ -50,164 +106,108 @@
       "score": 15.0
     },
     {
-      "source": "The Hacker News",
-      "title": "Claude Opus 5 Helped Researchers Take Over OpenAI Staff Accounts via Chained Flaws",
-      "url": "https://thehackernews.com/2026/09/claude-opus-5-helped-researchers-take.html",
-      "summary": "Three researchers at the security firm&nbsp;Hacktron&nbsp;used Anthropic's Claude Opus 5 to chain two flaws and take over the ChatGPT and Codex accounts of several OpenAI employees, then reach an internal OpenAI code repository. The chain began with a bug in the software that runs OpenAI's public help forum and moved through a weakness in OpenAI's own login system. This was security research,",
-      "published": "Sun, 20 Sep 2026 00:06:53 +0530",
+      "source": "BleepingComputer",
+      "title": "CISA alerts of active exploitation of three Linux kernel flaws",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-alerts-of-active-exploitation-of-three-linux-kernel-flaws/",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning that hackers are exploiting three Linux kernel vulnerabilities, one of them rated critical. [...]",
+      "published": "Mon, 21 Sep 2026 16:12:17 -0400",
       "score": 15.0
     },
     {
-      "source": "SecurityWeek",
-      "title": "Organizations Warned of 3 Exploited Linux Kernel Vulnerabilities",
-      "url": "https://www.securityweek.com/organizations-warned-of-3-exploited-linux-kernel-vulnerabilities/",
-      "summary": "<p>Attackers could exploit the flaws to cause denial-of-service conditions, disclose memory, or modify memory.</p> <p>The post <a href=\"https://www.securityweek.com/organizations-warned-of-3-exploited-linux-kernel-vulnerabilities/\">Organizations Warned of 3 Exploited Linux Kernel Vulnerabilities</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "published": "Mon, 21 Sep 2026 09:31:12 +0000",
-      "score": 14.0
+      "source": "BleepingComputer",
+      "title": "Microsoft to retire Microsoft 365 Companion apps in December",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-retire-microsoft-365-companion-apps-in-december/",
+      "summary": "Microsoft will retire the Calendar, People, and Files Microsoft 365 companion apps on December 16 and has asked admins to remove them from managed devices. [...]",
+      "published": "Mon, 21 Sep 2026 13:54:49 -0400",
+      "score": 15.0
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "Microsoft fixes broken Excel copy and paste for all Office users",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-broken-excel-copy-and-paste-for-all-office-users/",
+      "summary": "Microsoft has fixed a known issue that causes copy-and-paste failures for Excel users after installing the September 2026 security updates. [...]",
+      "published": "Mon, 21 Sep 2026 10:42:37 -0400",
+      "score": 15.0
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "Microsoft reminds admins to migrate Entra ID users to passkeys",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-reminds-admins-to-migrate-entra-id-users-to-passkeys/",
+      "summary": "Microsoft has reminded admins to migrate Entra ID users to phishing-resistant authentication methods to avoid sign-in disruptions after it retires SMS first-factor sign-in starting in February 2027. [...]",
+      "published": "Mon, 21 Sep 2026 09:16:20 -0400",
+      "score": 15.0
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "Microsoft: September updates break File History backup feature",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-updates-break-file-history-backup-feature/",
+      "summary": "Microsoft warned that the built-in File History backup feature in Windows may stop working on some systems after installing the September 2026 security updates. [...]",
+      "published": "Mon, 21 Sep 2026 07:45:54 -0400",
+      "score": 15.0
     },
     {
       "source": "Google News Cybersecurity",
-      "title": "Why CrowdStrike, Palo Alto Networks, SentinelOne, and Other Cybersecurity Stocks Surged This Week - The Motley Fool",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOVnhJeGRMTFNhMnh1WndreUlZbl82UjVQeUoycll2UFI1YXAwSE1wUmR6c2V0aFJGOVAtU1lnOW9UQ3dSVVhHWWU1NVdiMF9oS3NoQUZtNUE2T3dOOGRJdzVIOTBzcG40SGhTay1iQWpUX01GUWNBZ21CNVZkN2FkLXhUcVpqc2V3emUxM0RNLWt5cFBw?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxOVnhJeGRMTFNhMnh1WndreUlZbl82UjVQeUoycll2UFI1YXAwSE1wUmR6c2V0aFJGOVAtU1lnOW9UQ3dSVVhHWWU1NVdiMF9oS3NoQUZtNUE2T3dOOGRJdzVIOTBzcG40SGhTay1iQWpUX01GUWNBZ21CNVZkN2FkLXhUcVpqc2V3emUxM0RNLWt5cFBw?oc=5\" target=\"_blank\">Why CrowdStrike, Palo Alto Networks, SentinelOne, and Other Cybersecurity Stocks Surged This Week</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Motley Fool</font>",
-      "published": "Sun, 20 Sep 2026 22:00:00 GMT",
+      "title": "China-nexus actor steals thousands of documents in monthslong exploitation campaign - cybersecuritydive.com",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOU0FpRGVYeXVMdnNwdW1yaTVfZVVFcjgwS2hiNFlpd05ORkVPZUJVNWVpNHNyZW9ic1h5TUk2QVZ4b2xiNTlLeU1kM0JNT0xQX1U0YzlnUTB6NVNlT3Zlak5uSm5zUnlkcjFOeUg2b3ltZHoySVMtNV9KSlkwTmhSQ0daUmZ0d3YzLThKaExxMU5JQ3hIcEluUkhwdEkyazg?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxOU0FpRGVYeXVMdnNwdW1yaTVfZVVFcjgwS2hiNFlpd05ORkVPZUJVNWVpNHNyZW9ic1h5TUk2QVZ4b2xiNTlLeU1kM0JNT0xQX1U0YzlnUTB6NVNlT3Zlak5uSm5zUnlkcjFOeUg2b3ltZHoySVMtNV9KSlkwTmhSQ0daUmZ0d3YzLThKaExxMU5JQ3hIcEluUkhwdEkyazg?oc=5\" target=\"_blank\">China-nexus actor steals thousands of documents in monthslong exploitation campaign</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">cybersecuritydive.com</font>",
+      "published": "Mon, 21 Sep 2026 15:59:45 GMT",
+      "score": 15.0
+    },
+    {
+      "source": "Google News Cybersecurity",
+      "title": "Two water utilities alert state to cybersecurity incidents - fox21news.com",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOVUhZQ0VFNDBTSUh6Qzh2VFZ4UHY5d0dzRkV1dkdUUS05S2pJeFlPclpzTlU4bEtyV3FVNndzWkkyM0pGb09xWndIMVpDZG56TVpNQ1FLdzdyR1pGamRzUk00V0Y3ZGNMTnFmQjZvc3lKUWVhZG5aNmRLSENDSjFUUUxwTlhQQW9CUUJkVUlSNnFfTTd10gGaAUFVX3lxTE9tLVQ5akR5S051SGRYd3FWQ2M3eXpZeFhTbGczRDREU010dHdnVkZiMjZDZ0UwVHRMOG5LeE1QcEhUTHZQdm9nV3VkX2RMRmsySGZjbnhmcUNnWUNRdk9yemZfem00MkZXaEoxQ0J1Y1Vsd2I1SDk4bksxeXZ1UWxPZHlWRHVzdG4zbDk3eEFMQkpwQWp3c1FBcGc?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxOVUhZQ0VFNDBTSUh6Qzh2VFZ4UHY5d0dzRkV1dkdUUS05S2pJeFlPclpzTlU4bEtyV3FVNndzWkkyM0pGb09xWndIMVpDZG56TVpNQ1FLdzdyR1pGamRzUk00V0Y3ZGNMTnFmQjZvc3lKUWVhZG5aNmRLSENDSjFUUUxwTlhQQW9CUUJkVUlSNnFfTTd10gGaAUFVX3lxTE9tLVQ5akR5S051SGRYd3FWQ2M3eXpZeFhTbGczRDREU010dHdnVkZiMjZDZ0UwVHRMOG5LeE1QcEhUTHZQdm9nV3VkX2RMRmsySGZjbnhmcUNnWUNRdk9yemZfem00MkZXaEoxQ0J1Y1Vsd2I1SDk4bksxeXZ1UWxPZHlWRHVzdG4zbDk3eEFMQkpwQWp3c1FBcGc?oc=5\" target=\"_blank\">Two water utilities alert state to cybersecurity incidents</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">fox21news.com</font>",
+      "published": "Mon, 21 Sep 2026 20:33:07 GMT",
+      "score": 15.0
+    },
+    {
+      "source": "Google News Cybersecurity",
+      "title": "Columbia to settle June 2025 data breach lawsuit for $16.1 million - Columbia Daily Spectator",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPTUlzUWRQdGpiNnV0MHJwbndZQm02X0hod2VHR2ptSUZWTVBvRHF3eVRuYmhLUEQ4WUIxTDd5TGtNVnRQLUw4V2VfTTNLNkl0Q1lhZ0RlcDJ0MGRsS2t5UUJsNFlURkJxak1fVUVsNXhOOUt1X3RLQXVnSmlOSU9ncEg2S1NVaUliazVDNnRLTGdVMHJ5U2ExTWtVc2dxeC0xU1I3cXhjcXFiZ2ZXOGUtNzV1ZkxFdw?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxPTUlzUWRQdGpiNnV0MHJwbndZQm02X0hod2VHR2ptSUZWTVBvRHF3eVRuYmhLUEQ4WUIxTDd5TGtNVnRQLUw4V2VfTTNLNkl0Q1lhZ0RlcDJ0MGRsS2t5UUJsNFlURkJxak1fVUVsNXhOOUt1X3RLQXVnSmlOSU9ncEg2S1NVaUliazVDNnRLTGdVMHJ5U2ExTWtVc2dxeC0xU1I3cXhjcXFiZ2ZXOGUtNzV1ZkxFdw?oc=5\" target=\"_blank\">Columbia to settle June 2025 data breach lawsuit for $16.1 million</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Columbia Daily Spectator</font>",
+      "published": "Tue, 22 Sep 2026 06:00:00 GMT",
       "score": 13.0
     },
     {
       "source": "Google News Cybersecurity",
-      "title": "Cisco’s AI Workforce Consortium report finds cybersecurity skills shifting as AI agents reshape security work - Zawya",
-      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPd3o5RmN1TVBJcEFFZUxxVVk0U2JDbDk5bHZGdzNxQXNkUDJ3eWdOSWgyLUtsaTJXUWJfVm8tZEQydWNGUGZYc3Z6ajdKYUMxTnl3dVFQUlZ6MTdMd2Q3V0F4aHpWOHdoSUxUVFpZRGxTazdramRSaXIwR0RoLU1HaUpXdXhibXNXdjZubnlmdjRaaDBpVWVnS2dlUTkxNzFMc21MT3B2NGdBVllBNjAzN1RoVHhRc0JicGZ2XzJudzQ5YzJQWnIwWWZ2RmJMS3RiaTBNblp4ekY5amVHVGREWmplX01ZVHhHV3pVTndqTnhoR29QU3JGbWh5NnBEQ1lEemc?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiggJBVV95cUxPd3o5RmN1TVBJcEFFZUxxVVk0U2JDbDk5bHZGdzNxQXNkUDJ3eWdOSWgyLUtsaTJXUWJfVm8tZEQydWNGUGZYc3Z6ajdKYUMxTnl3dVFQUlZ6MTdMd2Q3V0F4aHpWOHdoSUxUVFpZRGxTazdramRSaXIwR0RoLU1HaUpXdXhibXNXdjZubnlmdjRaaDBpVWVnS2dlUTkxNzFMc21MT3B2NGdBVllBNjAzN1RoVHhRc0JicGZ2XzJudzQ5YzJQWnIwWWZ2RmJMS3RiaTBNblp4ekY5amVHVGREWmplX01ZVHhHV3pVTndqTnhoR29QU3JGbWh5NnBEQ1lEemc?oc=5\" target=\"_blank\">Cisco’s AI Workforce Consortium report finds cybersecurity skills shifting as AI agents reshape security work</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Zawya</font>",
-      "published": "Mon, 21 Sep 2026 09:04:00 GMT",
-      "score": 13.0
-    },
-    {
-      "source": "Google News Cybersecurity",
-      "title": "CyberMaxx Acquires Avertium To Expand Microsoft Security, GRC And Offensive Cybersecurity Capabilities - Pulse 2.0",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxObVJNNWdXc0NZSkEtQ1p6dVBDM3dFdXVyLUJYeFJjaVR5VUZCa0ctbkJNQUNGOWZJa2VfSUNNSWNVWE9DaVJHTmxMWWFibVNLb3NJajZtZEJaQmlEY1ZQOHBYUjdBYmg3WDBfbkpSTWh4ZmQ4VXU1c2p2OVZWd0pVRlJ3Q3l0XzRkcXotQWljb3JadWhEX01BdjJiVXpEYjJPbUp0RDVBNUdtYmFSSTZSQ3R3QVUwTi14SFkzc05B0gHDAUFVX3lxTE9DQy1LRk1jaDVocm5FMmxDMG9CWUowXzlCMUgydWxucjRXWVM5Q0lOazVBWEJBWWxleDFhUFJueXltYnU4THZLdl9UT2hSdC11ZkJvTXkwOEhUcnZac2dvVG5pelhzWEZ3ZjFhdzFFQU4zZ0lIenpRZ1VSMWtpcFNRcE9DNWJxQnhRcENfWWpzTFkzaC1JMFdwcl9KTEFTMmtxdXN6TW9XcFhCY3lSS1YxRG5wNTRUMXNaRERPU3ZPbXdzYw?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxObVJNNWdXc0NZSkEtQ1p6dVBDM3dFdXVyLUJYeFJjaVR5VUZCa0ctbkJNQUNGOWZJa2VfSUNNSWNVWE9DaVJHTmxMWWFibVNLb3NJajZtZEJaQmlEY1ZQOHBYUjdBYmg3WDBfbkpSTWh4ZmQ4VXU1c2p2OVZWd0pVRlJ3Q3l0XzRkcXotQWljb3JadWhEX01BdjJiVXpEYjJPbUp0RDVBNUdtYmFSSTZSQ3R3QVUwTi14SFkzc05B0gHDAUFVX3lxTE9DQy1LRk1jaDVocm5FMmxDMG9CWUowXzlCMUgydWxucjRXWVM5Q0lOazVBWEJBWWxleDFhUFJueXltYnU4THZLdl9UT2hSdC11ZkJvTXkwOEhUcnZac2dvVG5pelhzWEZ3ZjFhdzFFQU4zZ0lIenpRZ1VSMWtpcFNRcE9DNWJxQnhRcENfWWpzTFkzaC1JMFdwcl9KTEFTMmtxdXN6TW9XcFhCY3lSS1YxRG5wNTRUMXNaRERPU3ZPbXdzYw?oc=5\" target=\"_blank\">CyberMaxx Acquires Avertium To Expand Microsoft Security, GRC And Offensive Cybersecurity Capabilities</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Pulse 2.0</font>",
-      "published": "Mon, 21 Sep 2026 00:10:49 GMT",
+      "title": "From Love Letters to AI Agents: Cybersecurity’s Evolution - Cisco Blogs",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5IQVhrT3VMQVJyZHBUdXdTd0NWR0VDSE1pdGpFRUloVFFHaDZRa1RUaWdyVW5SV0xOVWs4WlNJcElrVGlTYzFvaQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiSEFVX3lxTE5IQVhrT3VMQVJyZHBUdXdTd0NWR0VDSE1pdGpFRUloVFFHaDZRa1RUaWdyVW5SV0xOVWs4WlNJcElrVGlTYzFvaQ?oc=5\" target=\"_blank\">From Love Letters to AI Agents: Cybersecurity’s Evolution</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Cisco Blogs</font>",
+      "published": "Mon, 21 Sep 2026 15:03:55 GMT",
       "score": 13.0
     },
     {
       "source": "The Hacker News",
-      "title": "Jade Sleet Linked to Indian IT Provider Breach With FLATROOF and ROOFDECK Backdoors",
-      "url": "https://thehackernews.com/2026/09/jade-sleet-linked-to-indian-it-provider.html",
-      "summary": "The North Korean threat actor known as Jade Sleet has been attributed to the compromise of an India-based \"much smaller organization\" in the information technology (IT) services industry, once again highlighting how the adversary continues to target developers to breach target networks. Cybersecurity company SentinelOne, which disclosed details of the activity, said it involved the use of Apple",
-      "published": "Mon, 21 Sep 2026 11:36:44 +0530",
+      "title": "One Hidden Meta Muse Setting Could Let Attackers Turn the AI Assistant Into a Backdoor",
+      "url": "https://thehackernews.com/2026/09/one-hidden-meta-muse-setting-could-let.html",
+      "summary": "Malware already running on a Mac can quietly take over Meta's Muse assistant and use the broad access its owner granted the app, security researcher Patrick Wardle has shown in a&nbsp;proof-of-concept&nbsp;released on September 21. It works by changing a hidden setting so that when the user taps the microphone and dictates a prompt, the words go to the attacker instead of Meta. The flaw is in",
+      "published": "Tue, 22 Sep 2026 12:03:57 +0530",
       "score": 12.0
     },
     {
       "source": "The Hacker News",
-      "title": "Can You Prove a New CVE Is Exploitable Before Attackers Do? Learn How in This Webinar",
-      "url": "https://thehackernews.com/2026/09/can-you-prove-new-cve-is-exploitable.html",
-      "summary": "A new CVE drops. Your scanner finds it. The severity score looks ugly. But that still does not answer the question that matters: Can it actually be exploited in your environment? Mythos-class AI is compressing the time between disclosure and working exploitation, while many security programs still validate risk on weekly or quarterly cycles. The dangerous gap is no longer just technical. It is",
-      "published": "Sat, 19 Sep 2026 18:58:48 +0530",
+      "title": "WordPress Comment2Shell Flaw Can Turn Anonymous Comment XSS Into RCE via Admin Session",
+      "url": "https://thehackernews.com/2026/09/wordpress-comment2shell-flaw-can-turn.html",
+      "summary": "A new flaw in WordPress core let an anonymous visitor leave a comment that planted a hidden script on the page. If a logged-in administrator later opened that page, the script could run code on the site's server. WordPress fixed the flaw, tracked as&nbsp;CVE-2026-93485&nbsp;and dubbed \"Comment2Shell,\" on September 17 in&nbsp;version 7.1.1&nbsp;and told site owners to update right away. There is",
+      "published": "Tue, 22 Sep 2026 11:33:14 +0530",
       "score": 12.0
     },
     {
-      "source": "BleepingComputer",
-      "title": "Researchers escape OpenAI Codex sandbox to run commands on host",
-      "url": "https://www.bleepingcomputer.com/news/security/researchers-escape-openai-codex-sandbox-to-run-commands-on-host/",
-      "summary": "Researchers escaped OpenAI's Codex sandbox two ways, one running commands on a developer's machine from its most locked-down mode. OpenAI has patched both. [...]",
-      "published": "Sun, 20 Sep 2026 08:00:00 -0400",
+      "source": "The Hacker News",
+      "title": "Google Fined €403 Million Over GDPR Violations Tied to Location Data",
+      "url": "https://thehackernews.com/2026/09/google-fined-403-million-over-gdpr.html",
+      "summary": "Google has been&nbsp;fined €403 million&nbsp;for breaking the EU's data protection law, the GDPR, in the way three of its features handled people's location data from May 2018 to February 2020. Ireland's Data Protection Commission (DPC), Google's lead regulator in the EU, also ordered the company to make its processing comply with the law within 6 months. The DPC has not said publicly which",
+      "published": "Mon, 21 Sep 2026 22:27:31 +0530",
       "score": 12.0
     },
     {
-      "source": "BleepingComputer",
-      "title": "BragJack attacks hijack AI browser agents through malicious extensions",
-      "url": "https://www.bleepingcomputer.com/news/security/bragjack-attacks-hijack-ai-browser-agents-through-malicious-extensions/",
-      "summary": "BragJack, a proof-of-concept attack from Forever Security's Gal Weizman, hijacks the AI assistants in Chrome, Edge, Opera Neon, Perplexity Comet, and Claude in Chrome using one malicious extension. The Prompt Forcing technique earned over $20,000 in bounties and two CVEs. [...]",
-      "published": "Sat, 19 Sep 2026 10:56:31 -0400",
+      "source": "The Hacker News",
+      "title": "TASK#STOMP PowerShell Backdoor Steals Documents, Wi-Fi Passwords, and Clipboard Data",
+      "url": "https://thehackernews.com/2026/09/taskstomp-powershell-backdoor-steals.html",
+      "summary": "Cybersecurity researchers have disclosed details of a new campaign dubbed TASK#STOMP that delivers a PowerShell backdoor designed to harvest sensitive data from compromised hosts. The backdoor \"automatically harvests and exfiltrates business documents, watches the filesystem for new files in real time, steals Wi-Fi passwords and clipboard contents, takes screenshots, and accepts arbitrary",
+      "published": "Mon, 21 Sep 2026 19:45:40 +0530",
       "score": 12.0
-    },
-    {
-      "source": "BleepingComputer",
-      "title": "North Korean WaterPlum hackers infected 30,000 devices worldwide",
-      "url": "https://www.bleepingcomputer.com/news/security/north-korean-waterplum-hackers-infected-30-000-devices-worldwide/",
-      "summary": "A joint law enforcement advisory warns that the North Korean hacking group WaterPlum compromised at least 30,000 devices worldwide from December 2025 through July 2026 and transferred more than $10.7 million in stolen cryptocurrency to North Korea. [...]",
-      "published": "Sat, 19 Sep 2026 10:05:15 -0400",
-      "score": 12.0
-    },
-    {
-      "source": "BleepingComputer",
-      "title": "Viral AI actress' hotline face-scans every caller, watches their mood",
-      "url": "https://www.bleepingcomputer.com/news/security/viral-ai-actress-hotline-face-scans-every-caller-watches-their-mood/",
-      "summary": "AI actress Tilly Norwood went viral after glitching into Chinese on Piers Morgan Uncensored last night. Her \"Talking Tilly\" video call service face-scans every caller for an 18+ age check, senses callers' moods during calls, and shuts down permanently on September 27. We tried it and read the fine print. [...]",
-      "published": "Sat, 19 Sep 2026 07:38:20 -0400",
-      "score": 12.0
-    },
-    {
-      "source": "SecurityWeek",
-      "title": "Google Confirms Gemini AI Breached Three Firms",
-      "url": "https://www.securityweek.com/google-confirms-gemini-ai-breached-three-firms/",
-      "summary": "<p>Google is the latest AI giant to confirm that its models escaped a testing environment and hacked real companies.</p> <p>The post <a href=\"https://www.securityweek.com/google-confirms-gemini-ai-breached-three-firms/\">Google Confirms Gemini AI Breached Three Firms</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "published": "Mon, 21 Sep 2026 07:20:46 +0000",
-      "score": 11.0
-    },
-    {
-      "source": "SecurityWeek",
-      "title": "TigerByte Cyber Emerges From Stealth With $3 Million in Funding",
-      "url": "https://www.securityweek.com/tigerbyte-cyber-emerges-from-stealth-with-3-million-in-funding/",
-      "summary": "<p>The company has secured over $7 million in contracts with US government agencies, including the US Space Force, the US Navy, and DARPA.</p> <p>The post <a href=\"https://www.securityweek.com/tigerbyte-cyber-emerges-from-stealth-with-3-million-in-funding/\">TigerByte Cyber Emerges From Stealth With $3 Million in Funding</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "published": "Sat, 19 Sep 2026 14:30:00 +0000",
-      "score": 11.0
-    },
-    {
-      "source": "Google News Cybersecurity",
-      "title": "5 ways AI is reshaping the cybersecurity job market - csoonline.com",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPWTFZTDZqU0J3aHVCTVIxUUZqTWVJQmhHMzNjV0IyelJpeDhpcWhvb3ZSS0YxVWJlajVzNlJSYUx1MUJXLS1wZEd6NS1JVkhPU1UzUUhBb1VmSWVtRkpaMnpHbGtXc3dxMlN1VEt5ZHRQRXJ5cjdRSHJQWTdRakhXQlc5TU1EMW82RkljNGEzODZMY0FxTG9OTk9DSnptUEk?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxPWTFZTDZqU0J3aHVCTVIxUUZqTWVJQmhHMzNjV0IyelJpeDhpcWhvb3ZSS0YxVWJlajVzNlJSYUx1MUJXLS1wZEd6NS1JVkhPU1UzUUhBb1VmSWVtRkpaMnpHbGtXc3dxMlN1VEt5ZHRQRXJ5cjdRSHJQWTdRakhXQlc5TU1EMW82RkljNGEzODZMY0FxTG9OTk9DSnptUEk?oc=5\" target=\"_blank\">5 ways AI is reshaping the cybersecurity job market</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">csoonline.com</font>",
-      "published": "Mon, 21 Sep 2026 08:27:47 GMT",
-      "score": 10.0
-    },
-    {
-      "source": "Google News Cybersecurity",
-      "title": "Security’s 30-year habit: layering around the problem - Cybersecurity Dive",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNWXY5TEVIb3puNFR5dm03SFg1RWJGWkplRm5QaGNBbmZjdklJcVJHSFNQR3cwUHE5SEFuX3U3cjNNWGV5bGV4Y0lsbjNjOU03bS1sd0pnMHdCZGJzTjZXNGFyd0M1Z0o0bk56VGlaVks1UXdMbHNualRvZkJRa0EwN2w0UUwzdXRvaXZmZzJMVm5GZWZGZE5uamVRaDFLY0w2?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxNWXY5TEVIb3puNFR5dm03SFg1RWJGWkplRm5QaGNBbmZjdklJcVJHSFNQR3cwUHE5SEFuX3U3cjNNWGV5bGV4Y0lsbjNjOU03bS1sd0pnMHdCZGJzTjZXNGFyd0M1Z0o0bk56VGlaVks1UXdMbHNualRvZkJRa0EwN2w0UUwzdXRvaXZmZzJMVm5GZWZGZE5uamVRaDFLY0w2?oc=5\" target=\"_blank\">Security’s 30-year habit: layering around the problem</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Cybersecurity Dive</font>",
-      "published": "Mon, 21 Sep 2026 09:28:56 GMT",
-      "score": 10.0
-    },
-    {
-      "source": "Google News Cybersecurity",
-      "title": "Cyberattacks in MA: MetroWest school officials say they're prepared - MetroWest Daily News",
-      "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQT1BPZmU2RVpxWUltakJRM1FnZ0ZEQUt6NlNGVjI1eHBuMjhhWmx3SGdRNjluZlBmcXkzYnN5Uk5DZWtQTHduVlZyVXE1UFJxaVJMLVBjMVZlaTVKaURlbkthV2J2UktSbG95YS13UXVTdWxnZ0ZUWHFaWWlxaHhnRHdOTkNVMy1OdmVMOXU2ekkwLWxqY2xMa3F4Mk1MTFNHMW1iUXAwQ1czazhGd1o5dGlMVFJfdWMxV1JmdC0wdTVLNEhTblE2R1p4RDkwa2FmZE9HeTNGdjdhc2tqbk1Sd1J2NVcza0dTbzY3RzJMN1A3VnUzTHU3TDFPdFJFN29UZWxqOEVaWQ?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihwJBVV95cUxQT1BPZmU2RVpxWUltakJRM1FnZ0ZEQUt6NlNGVjI1eHBuMjhhWmx3SGdRNjluZlBmcXkzYnN5Uk5DZWtQTHduVlZyVXE1UFJxaVJMLVBjMVZlaTVKaURlbkthV2J2UktSbG95YS13UXVTdWxnZ0ZUWHFaWWlxaHhnRHdOTkNVMy1OdmVMOXU2ekkwLWxqY2xMa3F4Mk1MTFNHMW1iUXAwQ1czazhGd1o5dGlMVFJfdWMxV1JmdC0wdTVLNEhTblE2R1p4RDkwa2FmZE9HeTNGdjdhc2tqbk1Sd1J2NVcza0dTbzY3RzJMN1A3VnUzTHU3TDFPdFJFN29UZWxqOEVaWQ?oc=5\" target=\"_blank\">Cyberattacks in MA: MetroWest school officials say they're prepared</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MetroWest Daily News</font>",
-      "published": "Mon, 21 Sep 2026 08:46:00 GMT",
-      "score": 10.0
-    },
-    {
-      "source": "Google News Cybersecurity",
-      "title": "‘Our Oppenheimer moment’: Officials debate speed of AI development at Duke cybersecurity conference - The Duke Chronicle",
-      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOQkdXb25ZNGR6YW1mX3lQcVM5eW5aRjRIUDZ0aGFBR09JTVJOanlUWXRDSTBCajljalZBazk2Q2VZX0oyU2QzbHJnV0ttaWFpdl9BWC1kM0VTNS13dDl0bkJuLXBUaV9hTjNncEJEV3lyelFRZ1h1VVFLbUdMVDNzM1MzT0hFbTR3bDJxYVBITFpfMkJNb0NVWF84cXdRSkttRWtMTVl3dXNLbVFtYU94WHJpN25aMTVoOTFuVGJiU2tvTm12dFRBNG1OMlIzMDhCM0VBck1QSmI0cE5kNU1KZ1pMcjdOM1kzbmFPY2VHTEFVandWWlRyc0RVbw?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi-wFBVV95cUxOQkdXb25ZNGR6YW1mX3lQcVM5eW5aRjRIUDZ0aGFBR09JTVJOanlUWXRDSTBCajljalZBazk2Q2VZX0oyU2QzbHJnV0ttaWFpdl9BWC1kM0VTNS13dDl0bkJuLXBUaV9hTjNncEJEV3lyelFRZ1h1VVFLbUdMVDNzM1MzT0hFbTR3bDJxYVBITFpfMkJNb0NVWF84cXdRSkttRWtMTVl3dXNLbVFtYU94WHJpN25aMTVoOTFuVGJiU2tvTm12dFRBNG1OMlIzMDhCM0VBck1QSmI0cE5kNU1KZ1pMcjdOM1kzbmFPY2VHTEFVandWWlRyc0RVbw?oc=5\" target=\"_blank\">‘Our Oppenheimer moment’: Officials debate speed of AI development at Duke cybersecurity conference</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Duke Chronicle</font>",
-      "published": "Mon, 21 Sep 2026 02:29:50 GMT",
-      "score": 10.0
-    },
-    {
-      "source": "Google News Cybersecurity",
-      "title": "Cognizant: How the CISO Role Evolves in the Age of AI Agents - Cyber Magazine",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBDNE1nU0RMRkY0TktVQlRBU1Y2TDFEajJnTXNLWEFsS2FCTjRJTXJCUUxXVURrMnlfVTlRUndpYWpGVElQTDkzVl9BYUpIWEV1U3c?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiUkFVX3lxTFBDNE1nU0RMRkY0TktVQlRBU1Y2TDFEajJnTXNLWEFsS2FCTjRJTXJCUUxXVURrMnlfVTlRUndpYWpGVElQTDkzVl9BYUpIWEV1U3c?oc=5\" target=\"_blank\">Cognizant: How the CISO Role Evolves in the Age of AI Agents</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Cyber Magazine</font>",
-      "published": "Mon, 21 Sep 2026 08:12:34 GMT",
-      "score": 10.0
-    },
-    {
-      "source": "Google News Cybersecurity",
-      "title": "The SMB cybersecurity squeeze: AI agents at work, old attacks in overdrive - WeLiveSecurity",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPcXZxV1NKWlJEdEdoSkk4Yi1QUXZHbDdWOTFjNWNMNXFMZF9LeDc2U0NrTW9feHoyd1pXQnNzT1oyQ0JvRUhpRlNwbDZSOVNVNFpiOWI4d3o1NHR4WDVmaVhiek04ZFBUMTV0NlpvVHlCbXVDRWVWcTVzaXhQZms0YTdJeFcwQllGY05UZjVnR1p1YWFsUWhqU2JHSG1OX0syMm13V1JkdUswcFlpUjVBWnlNV0M1dw?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxPcXZxV1NKWlJEdEdoSkk4Yi1QUXZHbDdWOTFjNWNMNXFMZF9LeDc2U0NrTW9feHoyd1pXQnNzT1oyQ0JvRUhpRlNwbDZSOVNVNFpiOWI4d3o1NHR4WDVmaVhiek04ZFBUMTV0NlpvVHlCbXVDRWVWcTVzaXhQZms0YTdJeFcwQllGY05UZjVnR1p1YWFsUWhqU2JHSG1OX0syMm13V1JkdUswcFlpUjVBWnlNV0M1dw?oc=5\" target=\"_blank\">The SMB cybersecurity squeeze: AI agents at work, old attacks in overdrive</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WeLiveSecurity</font>",
-      "published": "Mon, 21 Sep 2026 09:47:32 GMT",
-      "score": 10.0
-    },
-    {
-      "source": "Google News Cybersecurity",
-      "title": "AI has crossed a cybersecurity redline – now what? - TechRadar",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPMU5WWDk2Y18xMGlWTDRGb19FOVJ4bHJaazNPdTZNcnRERTQ5S3h4RkdpUHVRdEJVYnpOVklzNDVWZ0pZS1ctdHdmZzRlRFlzMGFhT2U0OExtS2tHVTMycU9RNkhzaW9iRXZkd3VmeXVMV3h5MGROTXFwZUdXTk1ucGFJMA?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMigwFBVV95cUxPMU5WWDk2Y18xMGlWTDRGb19FOVJ4bHJaazNPdTZNcnRERTQ5S3h4RkdpUHVRdEJVYnpOVklzNDVWZ0pZS1ctdHdmZzRlRFlzMGFhT2U0OExtS2tHVTMycU9RNkhzaW9iRXZkd3VmeXVMV3h5MGROTXFwZUdXTk1ucGFJMA?oc=5\" target=\"_blank\">AI has crossed a cybersecurity redline – now what?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TechRadar</font>",
-      "published": "Mon, 21 Sep 2026 08:15:54 GMT",
-      "score": 10.0
     }
   ]
 }
