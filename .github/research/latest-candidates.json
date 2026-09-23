@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-22T09:22:11.608631+00:00",
+  "generated_at_utc": "2026-09-23T09:22:51.071091+00:00",
   "publication_enabled": false,
   "editorial_note": "Candidates require human/editorial review and original technical work before publication.",
   "feed_errors": [
@@ -11,43 +11,163 @@
   "candidates": [
     {
       "source": "BleepingComputer",
-      "title": "Malicious npm packages evade install-script defenses at runtime",
-      "url": "https://www.bleepingcomputer.com/news/security/malicious-npm-packages-evade-install-script-defenses-at-runtime/",
-      "summary": "An ongoing npm malware campaign involving the 'indexed-btree' package shows how threat actors bypass supply chain defenses by hiding malicious code in a package's normal runtime behavior rather than in installation scripts. [...]",
-      "published": "Sun, 20 Sep 2026 10:11:21 -0400",
-      "score": 21.0
+      "title": "F5 patches BIG-IP APM zero-day flaw exploited in RCE attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/f5-warns-of-big-ip-apm-remote-code-execution-zero-day-exploited-in-attacks/",
+      "summary": "F5 has released security updates to address a critical BIG-IP APM zero-day vulnerability being exploited in remote code execution attacks. [...]",
+      "published": "Wed, 23 Sep 2026 03:17:23 -0400",
+      "score": 33.0
     },
     {
       "source": "SecurityWeek",
-      "title": "CrowdSec Confirms Source Code Stolen in Supply Chain Attack",
-      "url": "https://www.securityweek.com/crowdsec-confirms-source-code-stolen-in-supply-chain-attack/",
-      "summary": "<p>The cybersecurity firm believes the data breach was the result of the May 2026 TanStack supply chain attack.</p> <p>The post <a href=\"https://www.securityweek.com/crowdsec-confirms-source-code-stolen-in-supply-chain-attack/\">CrowdSec Confirms Source Code Stolen in Supply Chain Attack</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "published": "Mon, 21 Sep 2026 10:55:46 +0000",
+      "title": "Critical F5 BIG-IP Vulnerability Exploited as Zero-Day",
+      "url": "https://www.securityweek.com/critical-f5-big-ip-vulnerability-exploited-as-zero-day/",
+      "summary": "<p>Unauthenticated attackers could send malicious traffic to BIG-IP to achieve remote code execution.</p> <p>The post <a href=\"https://www.securityweek.com/critical-f5-big-ip-vulnerability-exploited-as-zero-day/\">Critical F5 BIG-IP Vulnerability Exploited as Zero-Day</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "published": "Wed, 23 Sep 2026 07:34:18 +0000",
+      "score": 32.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "New CVSS 10.0 VeloCloud Orchestrator Flaw Actively Exploited in Certificate-Based Setups",
+      "url": "https://thehackernews.com/2026/09/new-cvss-100-velocloud-orchestrator.html",
+      "summary": "Attackers are exploiting a new flaw in on-premises VeloCloud Orchestrator (VCO), the server that manages the Edge devices in a VeloCloud SD-WAN, Arista said on September 22. The flaw, tracked as CVE-2026-93952, may allow a remote attacker with no login access to privilege internal functions and affect the VCO host. Only orchestrators set up to authenticate their Edges with certificates are",
+      "published": "Tue, 22 Sep 2026 17:59:00 +0530",
+      "score": 29.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "Chinese Hackers Exploit Chrome-Windows Zero-Day Chain to Deploy CLEANGULP Malware",
+      "url": "https://thehackernews.com/2026/09/chinese-hackers-exploit-chrome-windows.html",
+      "summary": "A Chinese threat actor codenamed UTA0565 has been observed exploiting the recently disclosed Google Chrome-Microsoft Windows exploit chain as zero-days through fake websites. The attacks, detected on September 3 and 4, 2026, involved the chaining of two vulnerabilities in Chrome (CVE-2026-85046, CVE-2026-87491) and one impacting Windows Advanced Local Procedure Call (CVE-2026-85880) to break",
+      "published": "Wed, 23 Sep 2026 13:59:24 +0530",
+      "score": 27.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "Researcher Drops BigDiskBuster Zero-Day PoC That Blocks Microsoft Defender Updates",
+      "url": "https://thehackernews.com/2026/09/researcher-drops-bigdiskbuster-zero-day.html",
+      "summary": "A zero-day proof-of-concept tool that stops Microsoft Defender from installing platform and signature updates by filling all available disk space was&nbsp;published on GitHub&nbsp;on September 19. The tool, called BigDiskBuster, has no patch, no CVE, and no Microsoft advisory. Its author, Abdelhamid Naceri, is a former Microsoft security researcher whose earlier Defender exploits were used in",
+      "published": "Tue, 22 Sep 2026 21:44:04 +0530",
+      "score": 27.0
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "New Windows Defender zero-day blocks Microsoft antivirus updates",
+      "url": "https://www.bleepingcomputer.com/news/security/new-windows-defender-zero-day-blocks-microsoft-antivirus-updates/",
+      "summary": "Over the weekend, security researcher Abdelhamid Naceri (also known as Nightmare Eclipse) released another Microsoft Defender zero-day exploit that blocks antivirus updates. [...]",
+      "published": "Tue, 22 Sep 2026 05:55:11 -0400",
+      "score": 27.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "Critical Bifrost AI Gateway Flaw Lets Attackers Run Commands Without Credentials",
+      "url": "https://thehackernews.com/2026/09/critical-bifrost-ai-gateway-flaw-lets.html",
+      "summary": "A critical vulnerability in&nbsp;Bifrost, an open-source AI gateway that routes requests to more than 20 LLM providers, allows an unauthenticated attacker to run arbitrary commands on the gateway server with a single HTTP request. The flaw, tracked as&nbsp;CVE-2026-90898&nbsp;(CVSS score: 9.8), affects all versions of the Bifrost HTTP transport before 2.1.0 when management authentication is",
+      "published": "Tue, 22 Sep 2026 22:11:12 +0530",
+      "score": 25.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "F5 Patches Critical BIG-IP APM Zero-Day Exploited for Unauthenticated RCE on OAuth Servers",
+      "url": "https://thehackernews.com/2026/09/f5-patches-critical-big-ip-apm-zero-day.html",
+      "summary": "Attackers are exploiting a critical flaw in F5 BIG-IP Access Policy Manager (APM) that lets them run code on a BIG-IP system without logging in, F5 says. The flaw,&nbsp;CVE-2026-94127, affects only systems in which APM serves as an OAuth authorization server, issuing access tokens to applications. F5 disclosed it in&nbsp;an advisory&nbsp;on September 22 and has released engineering hotfixes.",
+      "published": "Wed, 23 Sep 2026 13:59:48 +0530",
+      "score": 24.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "Check Point Warns of Management Server Zero-Day Exploited in Targeted Attacks",
+      "url": "https://thehackernews.com/2026/09/check-point-warns-of-management-server.html",
+      "summary": "Attackers exploited a previously unknown flaw in Check Point's Security Management Server in a handful of targeted attacks on July 23,&nbsp;the company said. The flaw, CVE-2026-93616, allows an attacker who can access the server's web service to run scripts on it without logging in. Check Point released a fix on September 22 for the server that controls firewall policies for the Check Point",
+      "published": "Tue, 22 Sep 2026 23:59:39 +0530",
+      "score": 24.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "SharePoint Flaw Initially Listed as Spoofing by Microsoft Enables Authenticated RCE",
+      "url": "https://thehackernews.com/2026/09/sharepoint-flaw-initially-listed-as.html",
+      "summary": "A SharePoint Server vulnerability that Microsoft initially classified as a spoofing flaw with a CVSS score of 6.5 actually enables authenticated remote code execution, according to&nbsp;full technical details&nbsp;published today by Viettel Cyber Security researcher Dinh Ho Anh Khoa. The flaw, CVE-2026-65660, affects SharePoint Server 2016, 2019, and Subscription Edition. Patches have been",
+      "published": "Tue, 22 Sep 2026 16:47:41 +0530",
+      "score": 24.0
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "ShinyHunters claims FBI hack, data theft in PeopleSoft zero-day breach",
+      "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-claims-fbi-hack-data-theft-in-peoplesoft-zero-day-breach/",
+      "summary": "The ShinyHunters extortion gang claims it breached FBI systems using a new Oracle PeopleSoft zero-day vulnerability, gaining access to internal services and stealing sensitive data on employees and job applicants. [...]",
+      "published": "Tue, 22 Sep 2026 15:13:29 -0400",
+      "score": 24.0
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "Check Point warns of Management Server zero-day exploited in attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/check-point-patches-management-server-zero-day-exploited-in-attacks/",
+      "summary": "Check Point Software released emergency hotfixes to address a critical Security Management Server vulnerability that could let attackers run arbitrary scripts. [...]",
+      "published": "Tue, 22 Sep 2026 12:32:47 -0400",
+      "score": 24.0
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "D-Link warns of max severity zero-day bug in DIR-822A routers",
+      "url": "https://www.bleepingcomputer.com/news/security/d-link-warns-of-max-severity-zero-day-bug-in-dir-822a-routers/",
+      "summary": "D-Link warned customers of a maximum-severity vulnerability (CVE-2026-86296) with public proof-of-concept (PoC) exploit code and no patch, affecting legacy DIR-822A dual-band Wi-Fi routers. [...]",
+      "published": "Tue, 22 Sep 2026 08:48:06 -0400",
+      "score": 24.0
+    },
+    {
+      "source": "SecurityWeek",
+      "title": "Arista Urges Immediate Patching of Exploited VCO Zero-Day",
+      "url": "https://www.securityweek.com/arista-urges-immediate-patching-of-exploited-vco-zero-day/",
+      "summary": "<p>Remote attackers could trigger the critical-severity flaw to access privileged internal functionality.</p> <p>The post <a href=\"https://www.securityweek.com/arista-urges-immediate-patching-of-exploited-vco-zero-day/\">Arista Urges Immediate Patching of Exploited VCO Zero-Day</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "published": "Wed, 23 Sep 2026 08:33:06 +0000",
+      "score": 23.0
+    },
+    {
+      "source": "SecurityWeek",
+      "title": "Check Point Patches Exploited Management Server Zero-Day",
+      "url": "https://www.securityweek.com/check-point-patches-exploited-management-server-zero-day/",
+      "summary": "<p>The critical-severity flaw could allow unauthenticated attackers to upload and execute arbitrary scripts.</p> <p>The post <a href=\"https://www.securityweek.com/check-point-patches-exploited-management-server-zero-day/\">Check Point Patches Exploited Management Server Zero-Day</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "published": "Wed, 23 Sep 2026 06:14:03 +0000",
+      "score": 23.0
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "Ryuk ransomware member sentenced to 24 months in prison",
+      "url": "https://www.bleepingcomputer.com/news/security/ryuk-ransomware-member-sentenced-to-24-months-in-prison/",
+      "summary": "An Armenian man was sentenced to 24 months in prison and 3 years of supervised release for hacking U.S. companies and encrypting their systems in Ryuk ransomware attacks. [...]",
+      "published": "Wed, 23 Sep 2026 04:20:05 -0400",
       "score": 20.0
     },
     {
-      "source": "Google News Cybersecurity",
-      "title": "Why Ransomware Gangs Are Launching Cyber Attacks on Each Other - Cybersecurity Insiders",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNanpJWTRWYl9lX3BRSFFyR0Z3clB6WTZTZDVteHAySFRhY2g2MVBVU3FuUDhQYkxHckRtWGRyeS0zMXhpdGtjWGJuYjhSLXE1dUpVRUNUeXhob3JqZ25RT0tzT0lhaWZoQ3dYdlFjdjUxaTRrVERvZE5Ta29DVU5zbXoyZW10bkVEZ3BKcUdfWGdKbkdtOXE0S0xwMUdOZ1lOTW83QQ?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxNanpJWTRWYl9lX3BRSFFyR0Z3clB6WTZTZDVteHAySFRhY2g2MVBVU3FuUDhQYkxHckRtWGRyeS0zMXhpdGtjWGJuYjhSLXE1dUpVRUNUeXhob3JqZ25RT0tzT0lhaWZoQ3dYdlFjdjUxaTRrVERvZE5Ta29DVU5zbXoyZW10bkVEZ3BKcUdfWGdKbkdtOXE0S0xwMUdOZ1lOTW83QQ?oc=5\" target=\"_blank\">Why Ransomware Gangs Are Launching Cyber Attacks on Each Other</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Cybersecurity Insiders</font>",
-      "published": "Tue, 22 Sep 2026 06:46:56 GMT",
-      "score": 18.0
-    },
-    {
-      "source": "Google News Cybersecurity",
-      "title": "PERSPECTIVE: What CIRCIA Means for the Nation’s Critical Infrastructure - hstoday.us",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQTG1OTTI5R0ZqWUtvcWprSWtETWIxTVZfQ283Rjg2N3AybUt2Y3p6bUZtWld0NE5kVDU5OHR0cEZaeWJhREt6MmR1aHBiLUQwTF9qdl9jLXJMcUpsZkZBS1lQOGVYRlFDNTlXTXVXb0R4cGYwZlhYWWZxdmFzeUdMTHVxT0xFRDE2NTBnMmVDUl9qRFZCSlpQOWtQRUxmOXgzUUJJMndXVjN5R0R0VURnMUF2WjhqdWVLVGdYOHpRYXZEREFndktz?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMixwFBVV95cUxQTG1OTTI5R0ZqWUtvcWprSWtETWIxTVZfQ283Rjg2N3AybUt2Y3p6bUZtWld0NE5kVDU5OHR0cEZaeWJhREt6MmR1aHBiLUQwTF9qdl9jLXJMcUpsZkZBS1lQOGVYRlFDNTlXTXVXb0R4cGYwZlhYWWZxdmFzeUdMTHVxT0xFRDE2NTBnMmVDUl9qRFZCSlpQOWtQRUxmOXgzUUJJMndXVjN5R0R0VURnMUF2WjhqdWVLVGdYOHpRYXZEREFndktz?oc=5\" target=\"_blank\">PERSPECTIVE: What CIRCIA Means for the Nation’s Critical Infrastructure</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">hstoday.us</font>",
-      "published": "Tue, 22 Sep 2026 07:17:57 GMT",
+      "source": "The Hacker News",
+      "title": "Microsoft Takes Down EvilTokens Device-Code Phishing Service Tied to 12,000 Inbox Compromises",
+      "url": "https://thehackernews.com/2026/09/microsoft-takes-down-eviltokens-device.html",
+      "summary": "Microsoft on Tuesday announced the takedown of the EvilTokens device code phishing service that it said used artificial intelligence (AI) \"at every step of the attack chain.\" The action, carried out with authorization from the U.S. District Court for the Eastern District of Virginia, involved the efforts of Health-ISAC, alongside Cloudflare, Coinbase, OpenAI, Railway, SpyCloud, The Shadowserver",
+      "published": "Tue, 22 Sep 2026 22:33:31 +0530",
       "score": 18.0
     },
     {
       "source": "SecurityWeek",
-      "title": "Fake LastPass Installers Push Kernel-Level EDR Killer, ‘Rapuncel’ Stealer",
-      "url": "https://www.securityweek.com/fake-lastpass-installers-push-kernel-level-edr-killer-rapuncel-stealer/",
-      "summary": "<p>The attackers impersonate at least 40 companies and disable 145 security products to deploy infostealer malware.</p> <p>The post <a href=\"https://www.securityweek.com/fake-lastpass-installers-push-kernel-level-edr-killer-rapuncel-stealer/\">Fake LastPass Installers Push Kernel-Level EDR Killer, ‘Rapuncel’ Stealer</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "published": "Mon, 21 Sep 2026 15:46:58 +0000",
-      "score": 17.0
+      "title": "Nightmare Eclipse Drops New Microsoft Defender Exploit After Revealing Identity",
+      "url": "https://www.securityweek.com/nightmare-eclipse-drops-new-microsoft-defender-exploit-after-revealing-identity/",
+      "summary": "<p>Abdelhamid Naceri, a former Microsoft Germany employee, is the exploit leaker Nightmare Eclipse, aka Chaotic Eclipse. </p> <p>The post <a href=\"https://www.securityweek.com/nightmare-eclipse-drops-new-microsoft-defender-exploit-after-revealing-identity/\">Nightmare Eclipse Drops New Microsoft Defender Exploit After Revealing Identity</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "published": "Tue, 22 Sep 2026 13:26:51 +0000",
+      "score": 18.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "Malicious npm Package Poses as Twilio Bug-Bounty Probe, Can Exfiltrate Credentials",
+      "url": "https://thehackernews.com/2026/09/malicious-npm-package-poses-as-twilio.html",
+      "summary": "Cybersecurity researchers have disclosed details of a malicious npm package named \"tw-pkgprobe-7731\" that masquerades as a security tool targeting developers integrating Twilio into their applications, while stealthily attempting to harvest sensitive data. The package, named \"tw-pkgprobe-7731,\" was first uploaded to the npm registry in mid-August 2026 by an npm account named \"twdepprobe7731.\"",
+      "published": "Tue, 22 Sep 2026 23:28:15 +0530",
+      "score": 16.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "AI Agents Are Rewriting the Rules of Lateral Movement",
+      "url": "https://thehackernews.com/2026/09/ai-agents-are-rewriting-rules-of.html",
+      "summary": "Security teams have spent decades asking whether an identity has too much access. AI agents raise a harder question: how can we determine which paths an autonomous system can discover, given the access it already has? A person may try several ways to complete a task. A deterministic application follows the flow its developer wrote. But an AI agent is relentless in its pursuit of done. In May",
+      "published": "Tue, 22 Sep 2026 18:00:00 +0530",
+      "score": 16.0
     },
     {
       "source": "The Hacker News",
@@ -63,14 +183,6 @@
       "url": "https://www.bleepingcomputer.com/news/security/bigcommerce-alerts-merchants-of-data-breach-linked-to-ribon-apps/",
       "summary": "Ecommerce platform BigCommerce has alerted multiple merchants to data breaches after attackers compromised credentials for third-party Ribon applications and used them to inject malicious scripts into online stores. [...]",
       "published": "Mon, 21 Sep 2026 17:18:49 -0400",
-      "score": 16.0
-    },
-    {
-      "source": "BleepingComputer",
-      "title": "FBI's CJIS v6.1: What Security Teams Need to Know.",
-      "url": "https://www.bleepingcomputer.com/news/security/fbis-cjis-v61-what-security-teams-need-to-know/",
-      "summary": "The FBI's CJIS Security Policy v6.1 strengthens requirements around encryption and vulnerability scanning while continuing the shift toward more continuous security assessment. Specops explains what changed and how agencies can address password, MFA, and identity requirements as they prepare for upcoming audits. [...]",
-      "published": "Mon, 21 Sep 2026 10:02:12 -0400",
       "score": 16.0
     },
     {
@@ -96,118 +208,6 @@
       "summary": "A browser. A plugin. A package. A login screen. Normal stuff. That is basically the problem this week. The trouble keeps showing up inside things people already trust: code that takes a bad turn, old payloads coming back, exposed systems, weak checks, fake fixes, and attack paths that look almost too easy. Even the research side is getting messy, with more findings, more automation, and not",
       "published": "Mon, 21 Sep 2026 19:54:13 +0530",
       "score": 15.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "ClickFix Lures Deploy ChainScript RAT Using Polygon to Rotate C2 Infrastructure",
-      "url": "https://thehackernews.com/2026/09/clickfix-lures-deploy-chainscript-rat.html",
-      "summary": "Threat actors are leveraging ClickFix-like lures to deliver a previously undocumented remote access trojan (RAT) called ChainScript. \"ChainScript has appeared under multiple build names, including ComponentTask33, UpdateDigital, HostShared, and OrchidViolet66, while presenting itself as Spotify, Zoom Workplace, and Microsoft Teams software,\" Blackpoint Adversary Pursuit Group (APG)",
-      "published": "Mon, 21 Sep 2026 14:09:38 +0530",
-      "score": 15.0
-    },
-    {
-      "source": "BleepingComputer",
-      "title": "CISA alerts of active exploitation of three Linux kernel flaws",
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-alerts-of-active-exploitation-of-three-linux-kernel-flaws/",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning that hackers are exploiting three Linux kernel vulnerabilities, one of them rated critical. [...]",
-      "published": "Mon, 21 Sep 2026 16:12:17 -0400",
-      "score": 15.0
-    },
-    {
-      "source": "BleepingComputer",
-      "title": "Microsoft to retire Microsoft 365 Companion apps in December",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-retire-microsoft-365-companion-apps-in-december/",
-      "summary": "Microsoft will retire the Calendar, People, and Files Microsoft 365 companion apps on December 16 and has asked admins to remove them from managed devices. [...]",
-      "published": "Mon, 21 Sep 2026 13:54:49 -0400",
-      "score": 15.0
-    },
-    {
-      "source": "BleepingComputer",
-      "title": "Microsoft fixes broken Excel copy and paste for all Office users",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-broken-excel-copy-and-paste-for-all-office-users/",
-      "summary": "Microsoft has fixed a known issue that causes copy-and-paste failures for Excel users after installing the September 2026 security updates. [...]",
-      "published": "Mon, 21 Sep 2026 10:42:37 -0400",
-      "score": 15.0
-    },
-    {
-      "source": "BleepingComputer",
-      "title": "Microsoft reminds admins to migrate Entra ID users to passkeys",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-reminds-admins-to-migrate-entra-id-users-to-passkeys/",
-      "summary": "Microsoft has reminded admins to migrate Entra ID users to phishing-resistant authentication methods to avoid sign-in disruptions after it retires SMS first-factor sign-in starting in February 2027. [...]",
-      "published": "Mon, 21 Sep 2026 09:16:20 -0400",
-      "score": 15.0
-    },
-    {
-      "source": "BleepingComputer",
-      "title": "Microsoft: September updates break File History backup feature",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-updates-break-file-history-backup-feature/",
-      "summary": "Microsoft warned that the built-in File History backup feature in Windows may stop working on some systems after installing the September 2026 security updates. [...]",
-      "published": "Mon, 21 Sep 2026 07:45:54 -0400",
-      "score": 15.0
-    },
-    {
-      "source": "Google News Cybersecurity",
-      "title": "China-nexus actor steals thousands of documents in monthslong exploitation campaign - cybersecuritydive.com",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOU0FpRGVYeXVMdnNwdW1yaTVfZVVFcjgwS2hiNFlpd05ORkVPZUJVNWVpNHNyZW9ic1h5TUk2QVZ4b2xiNTlLeU1kM0JNT0xQX1U0YzlnUTB6NVNlT3Zlak5uSm5zUnlkcjFOeUg2b3ltZHoySVMtNV9KSlkwTmhSQ0daUmZ0d3YzLThKaExxMU5JQ3hIcEluUkhwdEkyazg?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxOU0FpRGVYeXVMdnNwdW1yaTVfZVVFcjgwS2hiNFlpd05ORkVPZUJVNWVpNHNyZW9ic1h5TUk2QVZ4b2xiNTlLeU1kM0JNT0xQX1U0YzlnUTB6NVNlT3Zlak5uSm5zUnlkcjFOeUg2b3ltZHoySVMtNV9KSlkwTmhSQ0daUmZ0d3YzLThKaExxMU5JQ3hIcEluUkhwdEkyazg?oc=5\" target=\"_blank\">China-nexus actor steals thousands of documents in monthslong exploitation campaign</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">cybersecuritydive.com</font>",
-      "published": "Mon, 21 Sep 2026 15:59:45 GMT",
-      "score": 15.0
-    },
-    {
-      "source": "Google News Cybersecurity",
-      "title": "Two water utilities alert state to cybersecurity incidents - fox21news.com",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOVUhZQ0VFNDBTSUh6Qzh2VFZ4UHY5d0dzRkV1dkdUUS05S2pJeFlPclpzTlU4bEtyV3FVNndzWkkyM0pGb09xWndIMVpDZG56TVpNQ1FLdzdyR1pGamRzUk00V0Y3ZGNMTnFmQjZvc3lKUWVhZG5aNmRLSENDSjFUUUxwTlhQQW9CUUJkVUlSNnFfTTd10gGaAUFVX3lxTE9tLVQ5akR5S051SGRYd3FWQ2M3eXpZeFhTbGczRDREU010dHdnVkZiMjZDZ0UwVHRMOG5LeE1QcEhUTHZQdm9nV3VkX2RMRmsySGZjbnhmcUNnWUNRdk9yemZfem00MkZXaEoxQ0J1Y1Vsd2I1SDk4bksxeXZ1UWxPZHlWRHVzdG4zbDk3eEFMQkpwQWp3c1FBcGc?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxOVUhZQ0VFNDBTSUh6Qzh2VFZ4UHY5d0dzRkV1dkdUUS05S2pJeFlPclpzTlU4bEtyV3FVNndzWkkyM0pGb09xWndIMVpDZG56TVpNQ1FLdzdyR1pGamRzUk00V0Y3ZGNMTnFmQjZvc3lKUWVhZG5aNmRLSENDSjFUUUxwTlhQQW9CUUJkVUlSNnFfTTd10gGaAUFVX3lxTE9tLVQ5akR5S051SGRYd3FWQ2M3eXpZeFhTbGczRDREU010dHdnVkZiMjZDZ0UwVHRMOG5LeE1QcEhUTHZQdm9nV3VkX2RMRmsySGZjbnhmcUNnWUNRdk9yemZfem00MkZXaEoxQ0J1Y1Vsd2I1SDk4bksxeXZ1UWxPZHlWRHVzdG4zbDk3eEFMQkpwQWp3c1FBcGc?oc=5\" target=\"_blank\">Two water utilities alert state to cybersecurity incidents</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">fox21news.com</font>",
-      "published": "Mon, 21 Sep 2026 20:33:07 GMT",
-      "score": 15.0
-    },
-    {
-      "source": "Google News Cybersecurity",
-      "title": "Columbia to settle June 2025 data breach lawsuit for $16.1 million - Columbia Daily Spectator",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPTUlzUWRQdGpiNnV0MHJwbndZQm02X0hod2VHR2ptSUZWTVBvRHF3eVRuYmhLUEQ4WUIxTDd5TGtNVnRQLUw4V2VfTTNLNkl0Q1lhZ0RlcDJ0MGRsS2t5UUJsNFlURkJxak1fVUVsNXhOOUt1X3RLQXVnSmlOSU9ncEg2S1NVaUliazVDNnRLTGdVMHJ5U2ExTWtVc2dxeC0xU1I3cXhjcXFiZ2ZXOGUtNzV1ZkxFdw?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxPTUlzUWRQdGpiNnV0MHJwbndZQm02X0hod2VHR2ptSUZWTVBvRHF3eVRuYmhLUEQ4WUIxTDd5TGtNVnRQLUw4V2VfTTNLNkl0Q1lhZ0RlcDJ0MGRsS2t5UUJsNFlURkJxak1fVUVsNXhOOUt1X3RLQXVnSmlOSU9ncEg2S1NVaUliazVDNnRLTGdVMHJ5U2ExTWtVc2dxeC0xU1I3cXhjcXFiZ2ZXOGUtNzV1ZkxFdw?oc=5\" target=\"_blank\">Columbia to settle June 2025 data breach lawsuit for $16.1 million</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Columbia Daily Spectator</font>",
-      "published": "Tue, 22 Sep 2026 06:00:00 GMT",
-      "score": 13.0
-    },
-    {
-      "source": "Google News Cybersecurity",
-      "title": "From Love Letters to AI Agents: Cybersecurity’s Evolution - Cisco Blogs",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5IQVhrT3VMQVJyZHBUdXdTd0NWR0VDSE1pdGpFRUloVFFHaDZRa1RUaWdyVW5SV0xOVWs4WlNJcElrVGlTYzFvaQ?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiSEFVX3lxTE5IQVhrT3VMQVJyZHBUdXdTd0NWR0VDSE1pdGpFRUloVFFHaDZRa1RUaWdyVW5SV0xOVWs4WlNJcElrVGlTYzFvaQ?oc=5\" target=\"_blank\">From Love Letters to AI Agents: Cybersecurity’s Evolution</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Cisco Blogs</font>",
-      "published": "Mon, 21 Sep 2026 15:03:55 GMT",
-      "score": 13.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "One Hidden Meta Muse Setting Could Let Attackers Turn the AI Assistant Into a Backdoor",
-      "url": "https://thehackernews.com/2026/09/one-hidden-meta-muse-setting-could-let.html",
-      "summary": "Malware already running on a Mac can quietly take over Meta's Muse assistant and use the broad access its owner granted the app, security researcher Patrick Wardle has shown in a&nbsp;proof-of-concept&nbsp;released on September 21. It works by changing a hidden setting so that when the user taps the microphone and dictates a prompt, the words go to the attacker instead of Meta. The flaw is in",
-      "published": "Tue, 22 Sep 2026 12:03:57 +0530",
-      "score": 12.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "WordPress Comment2Shell Flaw Can Turn Anonymous Comment XSS Into RCE via Admin Session",
-      "url": "https://thehackernews.com/2026/09/wordpress-comment2shell-flaw-can-turn.html",
-      "summary": "A new flaw in WordPress core let an anonymous visitor leave a comment that planted a hidden script on the page. If a logged-in administrator later opened that page, the script could run code on the site's server. WordPress fixed the flaw, tracked as&nbsp;CVE-2026-93485&nbsp;and dubbed \"Comment2Shell,\" on September 17 in&nbsp;version 7.1.1&nbsp;and told site owners to update right away. There is",
-      "published": "Tue, 22 Sep 2026 11:33:14 +0530",
-      "score": 12.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "Google Fined €403 Million Over GDPR Violations Tied to Location Data",
-      "url": "https://thehackernews.com/2026/09/google-fined-403-million-over-gdpr.html",
-      "summary": "Google has been&nbsp;fined €403 million&nbsp;for breaking the EU's data protection law, the GDPR, in the way three of its features handled people's location data from May 2018 to February 2020. Ireland's Data Protection Commission (DPC), Google's lead regulator in the EU, also ordered the company to make its processing comply with the law within 6 months. The DPC has not said publicly which",
-      "published": "Mon, 21 Sep 2026 22:27:31 +0530",
-      "score": 12.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "TASK#STOMP PowerShell Backdoor Steals Documents, Wi-Fi Passwords, and Clipboard Data",
-      "url": "https://thehackernews.com/2026/09/taskstomp-powershell-backdoor-steals.html",
-      "summary": "Cybersecurity researchers have disclosed details of a new campaign dubbed TASK#STOMP that delivers a PowerShell backdoor designed to harvest sensitive data from compromised hosts. The backdoor \"automatically harvests and exfiltrates business documents, watches the filesystem for new files in real time, steals Wi-Fi passwords and clipboard contents, takes screenshots, and accepts arbitrary",
-      "published": "Mon, 21 Sep 2026 19:45:40 +0530",
-      "score": 12.0
     }
   ]
 }
