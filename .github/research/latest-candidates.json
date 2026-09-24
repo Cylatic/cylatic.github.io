@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-23T09:22:51.071091+00:00",
+  "generated_at_utc": "2026-09-24T09:23:00.555436+00:00",
   "publication_enabled": false,
   "editorial_note": "Candidates require human/editorial review and original technical work before publication.",
   "feed_errors": [
@@ -11,19 +11,19 @@
   "candidates": [
     {
       "source": "BleepingComputer",
+      "title": "Arista patches actively exploited VeloCloud Orchestrator zero-day",
+      "url": "https://www.bleepingcomputer.com/news/security/arista-patches-actively-exploited-velocloud-orchestrator-zero-day/",
+      "summary": "Arista Networks has released security patches for a zero-day flaw that is being actively exploited and affects VeloCloud Orchestrator (VCO) On-Prem deployments. [...]",
+      "published": "Wed, 23 Sep 2026 08:29:53 -0400",
+      "score": 41.0
+    },
+    {
+      "source": "BleepingComputer",
       "title": "F5 patches BIG-IP APM zero-day flaw exploited in RCE attacks",
       "url": "https://www.bleepingcomputer.com/news/security/f5-warns-of-big-ip-apm-remote-code-execution-zero-day-exploited-in-attacks/",
       "summary": "F5 has released security updates to address a critical BIG-IP APM zero-day vulnerability being exploited in remote code execution attacks. [...]",
       "published": "Wed, 23 Sep 2026 03:17:23 -0400",
       "score": 33.0
-    },
-    {
-      "source": "SecurityWeek",
-      "title": "Critical F5 BIG-IP Vulnerability Exploited as Zero-Day",
-      "url": "https://www.securityweek.com/critical-f5-big-ip-vulnerability-exploited-as-zero-day/",
-      "summary": "<p>Unauthenticated attackers could send malicious traffic to BIG-IP to achieve remote code execution.</p> <p>The post <a href=\"https://www.securityweek.com/critical-f5-big-ip-vulnerability-exploited-as-zero-day/\">Critical F5 BIG-IP Vulnerability Exploited as Zero-Day</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "published": "Wed, 23 Sep 2026 07:34:18 +0000",
-      "score": 32.0
     },
     {
       "source": "The Hacker News",
@@ -51,11 +51,27 @@
     },
     {
       "source": "BleepingComputer",
-      "title": "New Windows Defender zero-day blocks Microsoft antivirus updates",
-      "url": "https://www.bleepingcomputer.com/news/security/new-windows-defender-zero-day-blocks-microsoft-antivirus-updates/",
-      "summary": "Over the weekend, security researcher Abdelhamid Naceri (also known as Nightmare Eclipse) released another Microsoft Defender zero-day exploit that blocks antivirus updates. [...]",
-      "published": "Tue, 22 Sep 2026 05:55:11 -0400",
-      "score": 27.0
+      "title": "Check Point warns of hackers exploiting Security Gateway VPN RCE flaw",
+      "url": "https://www.bleepingcomputer.com/news/security/check-point-warns-of-hackers-exploiting-security-gateway-vpn-rce-flaw/",
+      "summary": "Cybersecurity company Check Point has confirmed active exploitation of CVE-2026-85102, a pre-authentication remote code execution (RCE) vulnerability in the VPN certificate-handling functionality of its Security Gateway product. [...]",
+      "published": "Wed, 23 Sep 2026 15:53:54 -0400",
+      "score": 26.0
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "InfraTrust report warns network management systems under attack",
+      "url": "https://www.bleepingcomputer.com/news/security/infratrust-report-warns-network-management-systems-under-attack/",
+      "summary": "Attackers are increasingly targeting the management systems used to control enterprise infrastructure, with several critical vulnerabilities actively exploited before or shortly after vendors disclosed them. [...]",
+      "published": "Wed, 23 Sep 2026 10:35:26 -0400",
+      "score": 26.0
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "How One Kubernetes YAML Can Hand Over a GCP Organization",
+      "url": "https://www.bleepingcomputer.com/news/security/how-one-kubernetes-yaml-can-hand-over-a-gcp-organization/",
+      "summary": "A Kubernetes user with limited permissions can potentially gain control of an entire Google Cloud organization by exploiting the authority granted to Google Kubernetes Config Connector. Varonis explains how this confused deputy problem can turn a single Kubernetes YAML file into a path to organization-wide privilege escalation. [...]",
+      "published": "Wed, 23 Sep 2026 10:01:11 -0400",
+      "score": 26.0
     },
     {
       "source": "The Hacker News",
@@ -90,44 +106,28 @@
       "score": 24.0
     },
     {
-      "source": "BleepingComputer",
-      "title": "ShinyHunters claims FBI hack, data theft in PeopleSoft zero-day breach",
-      "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-claims-fbi-hack-data-theft-in-peoplesoft-zero-day-breach/",
-      "summary": "The ShinyHunters extortion gang claims it breached FBI systems using a new Oracle PeopleSoft zero-day vulnerability, gaining access to internal services and stealing sensitive data on employees and job applicants. [...]",
-      "published": "Tue, 22 Sep 2026 15:13:29 -0400",
-      "score": 24.0
-    },
-    {
-      "source": "BleepingComputer",
-      "title": "Check Point warns of Management Server zero-day exploited in attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/check-point-patches-management-server-zero-day-exploited-in-attacks/",
-      "summary": "Check Point Software released emergency hotfixes to address a critical Security Management Server vulnerability that could let attackers run arbitrary scripts. [...]",
-      "published": "Tue, 22 Sep 2026 12:32:47 -0400",
-      "score": 24.0
-    },
-    {
-      "source": "BleepingComputer",
-      "title": "D-Link warns of max severity zero-day bug in DIR-822A routers",
-      "url": "https://www.bleepingcomputer.com/news/security/d-link-warns-of-max-severity-zero-day-bug-in-dir-822a-routers/",
-      "summary": "D-Link warned customers of a maximum-severity vulnerability (CVE-2026-86296) with public proof-of-concept (PoC) exploit code and no patch, affecting legacy DIR-822A dual-band Wi-Fi routers. [...]",
-      "published": "Tue, 22 Sep 2026 08:48:06 -0400",
-      "score": 24.0
+      "source": "The Hacker News",
+      "title": "Attackers Exploit WordPress CVE-2026-87902 Within Hours of Disclosure",
+      "url": "https://thehackernews.com/2026/09/attackers-exploit-wordpress-cve-2026.html",
+      "summary": "Threat actors have begun to actively exploit a critical security flaw in WordPress within hours of public disclosure. The vulnerability in question is CVE-2026-87902 (CVSS score: 9.2), which could allow an unauthenticated attacker to obtain remote code execution (RCE). \"An unauthenticated attacker can make get_page_template() page-template resolution include a chosen readable local .php file",
+      "published": "Thu, 24 Sep 2026 11:06:18 +0530",
+      "score": 21.0
     },
     {
       "source": "SecurityWeek",
-      "title": "Arista Urges Immediate Patching of Exploited VCO Zero-Day",
-      "url": "https://www.securityweek.com/arista-urges-immediate-patching-of-exploited-vco-zero-day/",
-      "summary": "<p>Remote attackers could trigger the critical-severity flaw to access privileged internal functionality.</p> <p>The post <a href=\"https://www.securityweek.com/arista-urges-immediate-patching-of-exploited-vco-zero-day/\">Arista Urges Immediate Patching of Exploited VCO Zero-Day</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "published": "Wed, 23 Sep 2026 08:33:06 +0000",
-      "score": 23.0
+      "title": "Adobe Patches Critical Flaws in Connect, AEM Forms",
+      "url": "https://www.securityweek.com/adobe-patches-critical-flaws-in-connect-aem-forms/",
+      "summary": "<p>The nine critical security defects could be exploited for arbitrary code execution and privilege escalation.</p> <p>The post <a href=\"https://www.securityweek.com/adobe-patches-critical-flaws-in-connect-aem-forms/\">Adobe Patches Critical Flaws in Connect, AEM Forms</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "published": "Wed, 23 Sep 2026 11:40:59 +0000",
+      "score": 21.0
     },
     {
-      "source": "SecurityWeek",
-      "title": "Check Point Patches Exploited Management Server Zero-Day",
-      "url": "https://www.securityweek.com/check-point-patches-exploited-management-server-zero-day/",
-      "summary": "<p>The critical-severity flaw could allow unauthenticated attackers to upload and execute arbitrary scripts.</p> <p>The post <a href=\"https://www.securityweek.com/check-point-patches-exploited-management-server-zero-day/\">Check Point Patches Exploited Management Server Zero-Day</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "published": "Wed, 23 Sep 2026 06:14:03 +0000",
-      "score": 23.0
+      "source": "BleepingComputer",
+      "title": "Microsoft: September Windows updates break Always On VPN connections",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-2026-windows-updates-break-always-on-vpn-connections/",
+      "summary": "Microsoft warned that the September 2026 security updates may also break Always On VPN connections on some Windows 11 systems. [...]",
+      "published": "Wed, 23 Sep 2026 07:18:13 -0400",
+      "score": 20.0
     },
     {
       "source": "BleepingComputer",
@@ -139,6 +139,46 @@
     },
     {
       "source": "The Hacker News",
+      "title": "This Windows Malware is Built to Let Up to Four AI Models Vote on Its Next Move",
+      "url": "https://thehackernews.com/2026/09/windows-malware-is-built-to-let-up-to.html",
+      "summary": "A Windows malware called CLOSEDQUORUM is built to take orders from a vote of up to four AI models instead of an attacker's server,&nbsp;Cisco Talos said&nbsp;on September 22. The models can choose to steal Windows credentials, saved browser passwords, and crypto wallet data. Talos has not seen this setup work from start to finish, and the public version of the malware does not work as it is.",
+      "published": "Wed, 23 Sep 2026 19:47:58 +0530",
+      "score": 19.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "Compromised MemTensor Packages Deliver sckit Credential Stealer via npm and PyPI",
+      "url": "https://thehackernews.com/2026/09/compromised-memtensor-packages-deliver.html",
+      "summary": "Unknown threat actors have managed to compromise two legitimate MemTensor packages across the npm and Python Package Index (PyPI) repositories to push a platform-specific Go-based implant dubbed sckit designed for Windows, Linux, and macOS. According to reports from Aikido, SafeDep, Socket, and StepSecurity, the libraries in question below - @memtensor/memos-cloud-openclaw-plugin versions",
+      "published": "Wed, 23 Sep 2026 19:22:46 +0530",
+      "score": 19.0
+    },
+    {
+      "source": "SecurityWeek",
+      "title": "US Court Sentences Armenian Man to Prison for Ryuk Ransomware Attacks",
+      "url": "https://www.securityweek.com/us-court-sentences-armenian-man-to-prison-for-ryuk-ransomware-attacks/",
+      "summary": "<p>Karen Vardanyan has also been ordered to pay over $1.2 million in restitution to victims.</p> <p>The post <a href=\"https://www.securityweek.com/us-court-sentences-armenian-man-to-prison-for-ryuk-ransomware-attacks/\">US Court Sentences Armenian Man to Prison for Ryuk Ransomware Attacks</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "published": "Thu, 24 Sep 2026 08:38:29 +0000",
+      "score": 19.0
+    },
+    {
+      "source": "Google News Cybersecurity",
+      "title": "Businesses fear cyberattacks more than anything else, driven by AI and supply chain worries - Cybersecurity Dive",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOeUxQWFVWbXpoemhMV1UzZ3ZDc19qYlpkQVhIQlJEZHgtZWlWUVVSaHQtQU9kMDNaUE9uek1lTE82b056dTlKQ0pTTUMtSzN2bXYtM1dPdzFOX2xOWFZocVJldzhiQjE0WUFxMU1rRk4zWFY5cG0xSG9pSjBHaFN1cVdSanhkekVWMEUxb244M0JOYTdKYVVVbW1mZ1NrWkZ6WUE?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxOeUxQWFVWbXpoemhMV1UzZ3ZDc19qYlpkQVhIQlJEZHgtZWlWUVVSaHQtQU9kMDNaUE9uek1lTE82b056dTlKQ0pTTUMtSzN2bXYtM1dPdzFOX2xOWFZocVJldzhiQjE0WUFxMU1rRk4zWFY5cG0xSG9pSjBHaFN1cVdSanhkekVWMEUxb244M0JOYTdKYVVVbW1mZ1NrWkZ6WUE?oc=5\" target=\"_blank\">Businesses fear cyberattacks more than anything else, driven by AI and supply chain worries</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Cybersecurity Dive</font>",
+      "published": "Wed, 23 Sep 2026 15:24:30 GMT",
+      "score": 19.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "TeamFiltration Campaign Compromises Seven Microsoft 365 Accounts Using Default Passwords",
+      "url": "https://thehackernews.com/2026/09/teamfiltration-compromises-seven.html",
+      "summary": "Cybersecurity researchers have disclosed details of an active TeamFiltration campaign codenamed UNK_CondorFiltration that has targeted over 5,700 accounts across 28 Microsoft 365 tenants. According to Proofpoint, the activity has primarily focused on Chilean retail and financial institutions. It originated from 1,487 unique AWS EC2 source IP addresses. \"The campaign compromised 7 accounts –",
+      "published": "Thu, 24 Sep 2026 12:02:03 +0530",
+      "score": 18.0
+    },
+    {
+      "source": "The Hacker News",
       "title": "Microsoft Takes Down EvilTokens Device-Code Phishing Service Tied to 12,000 Inbox Compromises",
       "url": "https://thehackernews.com/2026/09/microsoft-takes-down-eviltokens-device.html",
       "summary": "Microsoft on Tuesday announced the takedown of the EvilTokens device code phishing service that it said used artificial intelligence (AI) \"at every step of the attack chain.\" The action, carried out with authorization from the U.S. District Court for the Eastern District of Virginia, involved the efforts of Health-ISAC, alongside Cloudflare, Coinbase, OpenAI, Railway, SpyCloud, The Shadowserver",
@@ -146,12 +186,20 @@
       "score": 18.0
     },
     {
-      "source": "SecurityWeek",
-      "title": "Nightmare Eclipse Drops New Microsoft Defender Exploit After Revealing Identity",
-      "url": "https://www.securityweek.com/nightmare-eclipse-drops-new-microsoft-defender-exploit-after-revealing-identity/",
-      "summary": "<p>Abdelhamid Naceri, a former Microsoft Germany employee, is the exploit leaker Nightmare Eclipse, aka Chaotic Eclipse. </p> <p>The post <a href=\"https://www.securityweek.com/nightmare-eclipse-drops-new-microsoft-defender-exploit-after-revealing-identity/\">Nightmare Eclipse Drops New Microsoft Defender Exploit After Revealing Identity</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "published": "Tue, 22 Sep 2026 13:26:51 +0000",
+      "source": "Google News Cybersecurity",
+      "title": "Over 77 Percent of Ransomware Groups are targeting the Healthcare Sector - Cybersecurity Insiders",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOaXdjWDVzMnlYQ1ZrTDByZ3IzNG1SUTBLV20wMUl1dGIzUzhTRjNya0lPUUZ1QlFQRWdmSHo1LXVCYzlUdTZ6Z2hIME5TbVJRZU5zUGVzS244T1hqTWF0OXYwV1RCQnpaQWFOcEFlVDFIemtybElGbWxncGRyMHBUNlJSbHE0NXJGTmR3ZUpQUm82aWZoeDM2WjdTNFN5b2dqY2xoN3hEck9va0dJZDhmMm1n?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxOaXdjWDVzMnlYQ1ZrTDByZ3IzNG1SUTBLV20wMUl1dGIzUzhTRjNya0lPUUZ1QlFQRWdmSHo1LXVCYzlUdTZ6Z2hIME5TbVJRZU5zUGVzS244T1hqTWF0OXYwV1RCQnpaQWFOcEFlVDFIemtybElGbWxncGRyMHBUNlJSbHE0NXJGTmR3ZUpQUm82aWZoeDM2WjdTNFN5b2dqY2xoN3hEck9va0dJZDhmMm1n?oc=5\" target=\"_blank\">Over 77 Percent of Ransomware Groups are targeting the Healthcare Sector</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Cybersecurity Insiders</font>",
+      "published": "Thu, 24 Sep 2026 05:44:30 GMT",
       "score": 18.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "A Leaked GitLab Issue Email Address Lets Anyone Push Code and Run CI Jobs as You",
+      "url": "https://thehackernews.com/2026/09/a-leaked-gitlab-issue-email-address.html",
+      "summary": "The private email address GitLab gives you for filing issues by email is a credential. Anyone who gets it can email a patch that GitLab commits in your name, to any branch you can push to, including main, and can start CI/CD jobs that run as you. GitLab shows each user this address behind a button labeled \"Email work item to this project.\" Mail sent to it opens an issue in that project, authored",
+      "published": "Wed, 23 Sep 2026 22:23:10 +0530",
+      "score": 16.0
     },
     {
       "source": "The Hacker News",
@@ -160,54 +208,6 @@
       "summary": "Cybersecurity researchers have disclosed details of a malicious npm package named \"tw-pkgprobe-7731\" that masquerades as a security tool targeting developers integrating Twilio into their applications, while stealthily attempting to harvest sensitive data. The package, named \"tw-pkgprobe-7731,\" was first uploaded to the npm registry in mid-August 2026 by an npm account named \"twdepprobe7731.\"",
       "published": "Tue, 22 Sep 2026 23:28:15 +0530",
       "score": 16.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "AI Agents Are Rewriting the Rules of Lateral Movement",
-      "url": "https://thehackernews.com/2026/09/ai-agents-are-rewriting-rules-of.html",
-      "summary": "Security teams have spent decades asking whether an identity has too much access. AI agents raise a harder question: how can we determine which paths an autonomous system can discover, given the access it already has? A person may try several ways to complete a task. A deterministic application follows the flow its developer wrote. But an AI agent is relentless in its pursuit of done. In May",
-      "published": "Tue, 22 Sep 2026 18:00:00 +0530",
-      "score": 16.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "Contagious Interview Campaign Compromises 30,000 Devices, Steals $10.71M in Crypto",
-      "url": "https://thehackernews.com/2026/09/contagious-interview-campaign.html",
-      "summary": "The North Korean threat actors behind the Contagious Interview campaign have compromised at least 30,000 devices located in more than 100 countries and siphoned funds or account credentials from over 7,000 cryptocurrency wallets, according to a new joint cybersecurity advisory. The primary targets of the campaign are individual web designers, engineers, and specialists in cryptocurrency,",
-      "published": "Mon, 21 Sep 2026 22:49:00 +0530",
-      "score": 16.0
-    },
-    {
-      "source": "BleepingComputer",
-      "title": "BigCommerce alerts merchants of data breach linked to Ribon apps",
-      "url": "https://www.bleepingcomputer.com/news/security/bigcommerce-alerts-merchants-of-data-breach-linked-to-ribon-apps/",
-      "summary": "Ecommerce platform BigCommerce has alerted multiple merchants to data breaches after attackers compromised credentials for third-party Ribon applications and used them to inject malicious scripts into online stores. [...]",
-      "published": "Mon, 21 Sep 2026 17:18:49 -0400",
-      "score": 16.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "Zyxel and Veeam Flaws Under Active Exploitation With Command and SYSTEM Access",
-      "url": "https://thehackernews.com/2026/09/zyxel-and-veeam-flaws-under-active.html",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a now-patched security flaw impacting Zyxel GS1900 series switches to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerability, tracked as CVE-2026-7273 (CVSS score: 8.8), is a stack-based buffer overflow vulnerability that could result in arbitrary operating",
-      "published": "Tue, 22 Sep 2026 11:01:59 +0530",
-      "score": 15.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "Fake LastPass Authenticator Installer Abuses Microsoft-Signed Driver to Kill Antivirus and EDR",
-      "url": "https://thehackernews.com/2026/09/fake-lastpass-authenticator-installer.html",
-      "summary": "A fake LastPass Authenticator installer offered on GitHub installs a Windows kernel driver that shuts off antivirus and other security software before a password stealer runs if a victim downloads and runs it, researchers at LastPass and Delphos Labs said on September 17. Microsoft's own hardware-compatibility program signs the driver, scored zero detections on VirusTotal when researchers",
-      "published": "Mon, 21 Sep 2026 23:01:01 +0530",
-      "score": 15.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "⚡ Weekly Recap: Cisco 0-Day, AI Agent RCE, ClickFix Attacks, ClickFix Surge, and Browser Hijacks",
-      "url": "https://thehackernews.com/2026/09/weekly-recap-cisco-0-day-ai-agent-rce.html",
-      "summary": "A browser. A plugin. A package. A login screen. Normal stuff. That is basically the problem this week. The trouble keeps showing up inside things people already trust: code that takes a bad turn, old payloads coming back, exposed systems, weak checks, fake fixes, and attack paths that look almost too easy. Even the research side is getting messy, with more findings, more automation, and not",
-      "published": "Mon, 21 Sep 2026 19:54:13 +0530",
-      "score": 15.0
     }
   ]
 }
