@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-24T09:23:00.555436+00:00",
+  "generated_at_utc": "2026-09-25T09:40:44.786553+00:00",
   "publication_enabled": false,
   "editorial_note": "Candidates require human/editorial review and original technical work before publication.",
   "feed_errors": [
@@ -11,43 +11,11 @@
   "candidates": [
     {
       "source": "BleepingComputer",
-      "title": "Arista patches actively exploited VeloCloud Orchestrator zero-day",
-      "url": "https://www.bleepingcomputer.com/news/security/arista-patches-actively-exploited-velocloud-orchestrator-zero-day/",
-      "summary": "Arista Networks has released security patches for a zero-day flaw that is being actively exploited and affects VeloCloud Orchestrator (VCO) On-Prem deployments. [...]",
-      "published": "Wed, 23 Sep 2026 08:29:53 -0400",
-      "score": 41.0
-    },
-    {
-      "source": "BleepingComputer",
-      "title": "F5 patches BIG-IP APM zero-day flaw exploited in RCE attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/f5-warns-of-big-ip-apm-remote-code-execution-zero-day-exploited-in-attacks/",
-      "summary": "F5 has released security updates to address a critical BIG-IP APM zero-day vulnerability being exploited in remote code execution attacks. [...]",
-      "published": "Wed, 23 Sep 2026 03:17:23 -0400",
-      "score": 33.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "New CVSS 10.0 VeloCloud Orchestrator Flaw Actively Exploited in Certificate-Based Setups",
-      "url": "https://thehackernews.com/2026/09/new-cvss-100-velocloud-orchestrator.html",
-      "summary": "Attackers are exploiting a new flaw in on-premises VeloCloud Orchestrator (VCO), the server that manages the Edge devices in a VeloCloud SD-WAN, Arista said on September 22. The flaw, tracked as CVE-2026-93952, may allow a remote attacker with no login access to privilege internal functions and affect the VCO host. Only orchestrators set up to authenticate their Edges with certificates are",
-      "published": "Tue, 22 Sep 2026 17:59:00 +0530",
-      "score": 29.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "Chinese Hackers Exploit Chrome-Windows Zero-Day Chain to Deploy CLEANGULP Malware",
-      "url": "https://thehackernews.com/2026/09/chinese-hackers-exploit-chrome-windows.html",
-      "summary": "A Chinese threat actor codenamed UTA0565 has been observed exploiting the recently disclosed Google Chrome-Microsoft Windows exploit chain as zero-days through fake websites. The attacks, detected on September 3 and 4, 2026, involved the chaining of two vulnerabilities in Chrome (CVE-2026-85046, CVE-2026-87491) and one impacting Windows Advanced Local Procedure Call (CVE-2026-85880) to break",
-      "published": "Wed, 23 Sep 2026 13:59:24 +0530",
-      "score": 27.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "Researcher Drops BigDiskBuster Zero-Day PoC That Blocks Microsoft Defender Updates",
-      "url": "https://thehackernews.com/2026/09/researcher-drops-bigdiskbuster-zero-day.html",
-      "summary": "A zero-day proof-of-concept tool that stops Microsoft Defender from installing platform and signature updates by filling all available disk space was&nbsp;published on GitHub&nbsp;on September 19. The tool, called BigDiskBuster, has no patch, no CVE, and no Microsoft advisory. Its author, Abdelhamid Naceri, is a former Microsoft security researcher whose earlier Defender exploits were used in",
-      "published": "Tue, 22 Sep 2026 21:44:04 +0530",
-      "score": 27.0
+      "title": "Hackers now exploit critical Roundcube flaw in code injection attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/critical-roundcube-flaw-now-actively-exploited-in-code-injection-attacks/",
+      "summary": "A high-severity Roundcube Webmail vulnerability patched in May is now being actively exploited in attacks, according to the Canadian Centre for Cyber Security. [...]",
+      "published": "Thu, 24 Sep 2026 09:27:57 -0400",
+      "score": 26.0
     },
     {
       "source": "BleepingComputer",
@@ -58,54 +26,6 @@
       "score": 26.0
     },
     {
-      "source": "BleepingComputer",
-      "title": "InfraTrust report warns network management systems under attack",
-      "url": "https://www.bleepingcomputer.com/news/security/infratrust-report-warns-network-management-systems-under-attack/",
-      "summary": "Attackers are increasingly targeting the management systems used to control enterprise infrastructure, with several critical vulnerabilities actively exploited before or shortly after vendors disclosed them. [...]",
-      "published": "Wed, 23 Sep 2026 10:35:26 -0400",
-      "score": 26.0
-    },
-    {
-      "source": "BleepingComputer",
-      "title": "How One Kubernetes YAML Can Hand Over a GCP Organization",
-      "url": "https://www.bleepingcomputer.com/news/security/how-one-kubernetes-yaml-can-hand-over-a-gcp-organization/",
-      "summary": "A Kubernetes user with limited permissions can potentially gain control of an entire Google Cloud organization by exploiting the authority granted to Google Kubernetes Config Connector. Varonis explains how this confused deputy problem can turn a single Kubernetes YAML file into a path to organization-wide privilege escalation. [...]",
-      "published": "Wed, 23 Sep 2026 10:01:11 -0400",
-      "score": 26.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "Critical Bifrost AI Gateway Flaw Lets Attackers Run Commands Without Credentials",
-      "url": "https://thehackernews.com/2026/09/critical-bifrost-ai-gateway-flaw-lets.html",
-      "summary": "A critical vulnerability in&nbsp;Bifrost, an open-source AI gateway that routes requests to more than 20 LLM providers, allows an unauthenticated attacker to run arbitrary commands on the gateway server with a single HTTP request. The flaw, tracked as&nbsp;CVE-2026-90898&nbsp;(CVSS score: 9.8), affects all versions of the Bifrost HTTP transport before 2.1.0 when management authentication is",
-      "published": "Tue, 22 Sep 2026 22:11:12 +0530",
-      "score": 25.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "F5 Patches Critical BIG-IP APM Zero-Day Exploited for Unauthenticated RCE on OAuth Servers",
-      "url": "https://thehackernews.com/2026/09/f5-patches-critical-big-ip-apm-zero-day.html",
-      "summary": "Attackers are exploiting a critical flaw in F5 BIG-IP Access Policy Manager (APM) that lets them run code on a BIG-IP system without logging in, F5 says. The flaw,&nbsp;CVE-2026-94127, affects only systems in which APM serves as an OAuth authorization server, issuing access tokens to applications. F5 disclosed it in&nbsp;an advisory&nbsp;on September 22 and has released engineering hotfixes.",
-      "published": "Wed, 23 Sep 2026 13:59:48 +0530",
-      "score": 24.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "Check Point Warns of Management Server Zero-Day Exploited in Targeted Attacks",
-      "url": "https://thehackernews.com/2026/09/check-point-warns-of-management-server.html",
-      "summary": "Attackers exploited a previously unknown flaw in Check Point's Security Management Server in a handful of targeted attacks on July 23,&nbsp;the company said. The flaw, CVE-2026-93616, allows an attacker who can access the server's web service to run scripts on it without logging in. Check Point released a fix on September 22 for the server that controls firewall policies for the Check Point",
-      "published": "Tue, 22 Sep 2026 23:59:39 +0530",
-      "score": 24.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "SharePoint Flaw Initially Listed as Spoofing by Microsoft Enables Authenticated RCE",
-      "url": "https://thehackernews.com/2026/09/sharepoint-flaw-initially-listed-as.html",
-      "summary": "A SharePoint Server vulnerability that Microsoft initially classified as a spoofing flaw with a CVSS score of 6.5 actually enables authenticated remote code execution, according to&nbsp;full technical details&nbsp;published today by Viettel Cyber Security researcher Dinh Ho Anh Khoa. The flaw, CVE-2026-65660, affects SharePoint Server 2016, 2019, and Subscription Edition. Patches have been",
-      "published": "Tue, 22 Sep 2026 16:47:41 +0530",
-      "score": 24.0
-    },
-    {
       "source": "The Hacker News",
       "title": "Attackers Exploit WordPress CVE-2026-87902 Within Hours of Disclosure",
       "url": "https://thehackernews.com/2026/09/attackers-exploit-wordpress-cve-2026.html",
@@ -114,27 +34,19 @@
       "score": 21.0
     },
     {
-      "source": "SecurityWeek",
-      "title": "Adobe Patches Critical Flaws in Connect, AEM Forms",
-      "url": "https://www.securityweek.com/adobe-patches-critical-flaws-in-connect-aem-forms/",
-      "summary": "<p>The nine critical security defects could be exploited for arbitrary code execution and privilege escalation.</p> <p>The post <a href=\"https://www.securityweek.com/adobe-patches-critical-flaws-in-connect-aem-forms/\">Adobe Patches Critical Flaws in Connect, AEM Forms</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "published": "Wed, 23 Sep 2026 11:40:59 +0000",
-      "score": 21.0
-    },
-    {
-      "source": "BleepingComputer",
-      "title": "Microsoft: September Windows updates break Always On VPN connections",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-2026-windows-updates-break-always-on-vpn-connections/",
-      "summary": "Microsoft warned that the September 2026 security updates may also break Always On VPN connections on some Windows 11 systems. [...]",
-      "published": "Wed, 23 Sep 2026 07:18:13 -0400",
+      "source": "The Hacker News",
+      "title": "Secrets Sprawl Is an Identity Problem That AI Just Made Impossible to Ignore",
+      "url": "https://thehackernews.com/2026/09/secrets-sprawl-is-identity-problem-that.html",
+      "summary": "AI coding agents are changing how quickly developers can build and ship software as well as how quickly credentials can become exposed. According to GitGuardian’s 2026 State of Secrets Sprawl Report, commits identified as AI-assisted are leaking secrets at approximately twice the rate of human-written ones. Most of the fastest-growing categories of leaked credentials are now connected to AI",
+      "published": "Thu, 24 Sep 2026 16:30:00 +0530",
       "score": 20.0
     },
     {
       "source": "BleepingComputer",
-      "title": "Ryuk ransomware member sentenced to 24 months in prison",
-      "url": "https://www.bleepingcomputer.com/news/security/ryuk-ransomware-member-sentenced-to-24-months-in-prison/",
-      "summary": "An Armenian man was sentenced to 24 months in prison and 3 years of supervised release for hacking U.S. companies and encrypting their systems in Ryuk ransomware attacks. [...]",
-      "published": "Wed, 23 Sep 2026 04:20:05 -0400",
+      "title": "CISA: Ransomware gangs now exploiting critical TeamCity flaw",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-ransomware-gangs-now-exploiting-critical-teamcity-flaw/",
+      "summary": "​The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies on Wednesday that ransomware gangs are now also exploiting a critical JetBrains TeamCity vulnerability patched in July. [...]",
+      "published": "Thu, 24 Sep 2026 06:42:37 -0400",
       "score": 20.0
     },
     {
@@ -154,22 +66,6 @@
       "score": 19.0
     },
     {
-      "source": "SecurityWeek",
-      "title": "US Court Sentences Armenian Man to Prison for Ryuk Ransomware Attacks",
-      "url": "https://www.securityweek.com/us-court-sentences-armenian-man-to-prison-for-ryuk-ransomware-attacks/",
-      "summary": "<p>Karen Vardanyan has also been ordered to pay over $1.2 million in restitution to victims.</p> <p>The post <a href=\"https://www.securityweek.com/us-court-sentences-armenian-man-to-prison-for-ryuk-ransomware-attacks/\">US Court Sentences Armenian Man to Prison for Ryuk Ransomware Attacks</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "published": "Thu, 24 Sep 2026 08:38:29 +0000",
-      "score": 19.0
-    },
-    {
-      "source": "Google News Cybersecurity",
-      "title": "Businesses fear cyberattacks more than anything else, driven by AI and supply chain worries - Cybersecurity Dive",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOeUxQWFVWbXpoemhMV1UzZ3ZDc19qYlpkQVhIQlJEZHgtZWlWUVVSaHQtQU9kMDNaUE9uek1lTE82b056dTlKQ0pTTUMtSzN2bXYtM1dPdzFOX2xOWFZocVJldzhiQjE0WUFxMU1rRk4zWFY5cG0xSG9pSjBHaFN1cVdSanhkekVWMEUxb244M0JOYTdKYVVVbW1mZ1NrWkZ6WUE?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxOeUxQWFVWbXpoemhMV1UzZ3ZDc19qYlpkQVhIQlJEZHgtZWlWUVVSaHQtQU9kMDNaUE9uek1lTE82b056dTlKQ0pTTUMtSzN2bXYtM1dPdzFOX2xOWFZocVJldzhiQjE0WUFxMU1rRk4zWFY5cG0xSG9pSjBHaFN1cVdSanhkekVWMEUxb244M0JOYTdKYVVVbW1mZ1NrWkZ6WUE?oc=5\" target=\"_blank\">Businesses fear cyberattacks more than anything else, driven by AI and supply chain worries</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Cybersecurity Dive</font>",
-      "published": "Wed, 23 Sep 2026 15:24:30 GMT",
-      "score": 19.0
-    },
-    {
       "source": "The Hacker News",
       "title": "TeamFiltration Campaign Compromises Seven Microsoft 365 Accounts Using Default Passwords",
       "url": "https://thehackernews.com/2026/09/teamfiltration-compromises-seven.html",
@@ -178,19 +74,19 @@
       "score": 18.0
     },
     {
-      "source": "The Hacker News",
-      "title": "Microsoft Takes Down EvilTokens Device-Code Phishing Service Tied to 12,000 Inbox Compromises",
-      "url": "https://thehackernews.com/2026/09/microsoft-takes-down-eviltokens-device.html",
-      "summary": "Microsoft on Tuesday announced the takedown of the EvilTokens device code phishing service that it said used artificial intelligence (AI) \"at every step of the attack chain.\" The action, carried out with authorization from the U.S. District Court for the Eastern District of Virginia, involved the efforts of Health-ISAC, alongside Cloudflare, Coinbase, OpenAI, Railway, SpyCloud, The Shadowserver",
-      "published": "Tue, 22 Sep 2026 22:33:31 +0530",
+      "source": "BleepingComputer",
+      "title": "New Carbonato malware uses AI agents to hijack exposed Docker hosts",
+      "url": "https://www.bleepingcomputer.com/news/security/new-carbonato-malware-uses-ai-agents-to-hijack-exposed-docker-hosts/",
+      "summary": "A new botnet malware called Carbonato is targeting insecure hosts running Docker daemons to install the Hermes Agent AI framework and take control. [...]",
+      "published": "Thu, 24 Sep 2026 16:10:48 -0400",
       "score": 18.0
     },
     {
       "source": "Google News Cybersecurity",
-      "title": "Over 77 Percent of Ransomware Groups are targeting the Healthcare Sector - Cybersecurity Insiders",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOaXdjWDVzMnlYQ1ZrTDByZ3IzNG1SUTBLV20wMUl1dGIzUzhTRjNya0lPUUZ1QlFQRWdmSHo1LXVCYzlUdTZ6Z2hIME5TbVJRZU5zUGVzS244T1hqTWF0OXYwV1RCQnpaQWFOcEFlVDFIemtybElGbWxncGRyMHBUNlJSbHE0NXJGTmR3ZUpQUm82aWZoeDM2WjdTNFN5b2dqY2xoN3hEck9va0dJZDhmMm1n?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxOaXdjWDVzMnlYQ1ZrTDByZ3IzNG1SUTBLV20wMUl1dGIzUzhTRjNya0lPUUZ1QlFQRWdmSHo1LXVCYzlUdTZ6Z2hIME5TbVJRZU5zUGVzS244T1hqTWF0OXYwV1RCQnpaQWFOcEFlVDFIemtybElGbWxncGRyMHBUNlJSbHE0NXJGTmR3ZUpQUm82aWZoeDM2WjdTNFN5b2dqY2xoN3hEck9va0dJZDhmMm1n?oc=5\" target=\"_blank\">Over 77 Percent of Ransomware Groups are targeting the Healthcare Sector</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Cybersecurity Insiders</font>",
-      "published": "Thu, 24 Sep 2026 05:44:30 GMT",
+      "title": "Wiz uses AI to find vulnerabilities in critical infrastructure - cybersecuritydive.com",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOQ2hJZjh1OTUxcm1TNXpaeXBvVFNIekp5OW9XeWVWQVRldWFCWWFIOEJFTmFxejJNTW5IVHJjZVFYbmtKS2hPX3NEaDBhclFXTzRjVTVrSnduOTdnZVRCdjBRb2RwRHo1OW1aWnpWVk01OVhac1djQS1SZjN1WUFjMUk5OWthWGd5U3plc1pmQV81d0Q0NlE?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxOQ2hJZjh1OTUxcm1TNXpaeXBvVFNIekp5OW9XeWVWQVRldWFCWWFIOEJFTmFxejJNTW5IVHJjZVFYbmtKS2hPX3NEaDBhclFXTzRjVTVrSnduOTdnZVRCdjBRb2RwRHo1OW1aWnpWVk01OVhac1djQS1SZjN1WUFjMUk5OWthWGd5U3plc1pmQV81d0Q0NlE?oc=5\" target=\"_blank\">Wiz uses AI to find vulnerabilities in critical infrastructure</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">cybersecuritydive.com</font>",
+      "published": "Thu, 24 Sep 2026 19:56:41 GMT",
       "score": 18.0
     },
     {
@@ -203,11 +99,115 @@
     },
     {
       "source": "The Hacker News",
-      "title": "Malicious npm Package Poses as Twilio Bug-Bounty Probe, Can Exfiltrate Credentials",
-      "url": "https://thehackernews.com/2026/09/malicious-npm-package-poses-as-twilio.html",
-      "summary": "Cybersecurity researchers have disclosed details of a malicious npm package named \"tw-pkgprobe-7731\" that masquerades as a security tool targeting developers integrating Twilio into their applications, while stealthily attempting to harvest sensitive data. The package, named \"tw-pkgprobe-7731,\" was first uploaded to the npm registry in mid-August 2026 by an npm account named \"twdepprobe7731.\"",
-      "published": "Tue, 22 Sep 2026 23:28:15 +0530",
-      "score": 16.0
+      "title": "Cloudflare Fixes Flaw That Let One Container Read Another Customer's Leftover Disk Data",
+      "url": "https://thehackernews.com/2026/09/cloudflare-fixes-flaw-that-let-one.html",
+      "summary": "A flaw in Cloudflare Containers let a paying customer read data that other customers' containers had left behind on the same server, Cloudflare and the researchers who found it said on Thursday. The data came from disk space that earlier containers had used and given up, not from any live workload, and an attacker could not choose whose data they got,&nbsp;according to Cloudflare. The company",
+      "published": "Fri, 25 Sep 2026 10:19:22 +0530",
+      "score": 15.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "WSO2 and Adobe Commerce Flaws Exploited in Attacks, Added to CISA KEV",
+      "url": "https://thehackernews.com/2026/09/wso2-and-adobe-commerce-flaws-exploited.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA), on Thursday, added two critical security flaws impacting WSO2 and Adobe Commerce and Magento to its Known Exploited Vulnerabilities (KEV) catalog, based on evidence of active exploitation. The vulnerabilities are listed below - CVE-2026-5430 (CVS score: 9.8) - A path traversal vulnerability in&nbsp; WSO2 API Control Plane,",
+      "published": "Fri, 25 Sep 2026 10:16:34 +0530",
+      "score": 15.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "Unpatched OnePlus Flaws Let Installed Android Apps Gain Root Without Permissions",
+      "url": "https://thehackernews.com/2026/09/unpatched-oneplus-flaws-let-installed.html",
+      "summary": "A OnePlus 15 running the latest OxygenOS can be rooted by a malicious app the owner installs, one that asks for no special permissions. A researcher, Rasmus Moorats,&nbsp;chained two flaws in OnePlus's own software&nbsp;to gain root access, the highest level of control over an Android phone. OnePlus told him the same flaws affect many more of its own devices and those of OPPO, though it has not",
+      "published": "Thu, 24 Sep 2026 23:40:18 +0530",
+      "score": 15.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "Hacked Ukrainian Sites Serve Fake Cloudflare ClickFix Lures for Psychedelic Stealer",
+      "url": "https://thehackernews.com/2026/09/hacked-ukrainian-sites-serve-fake.html",
+      "summary": "An active ClickFix campaign has been observed compromising legitimate Ukrainian business websites to inject bogus Cloudflare verification pages and trick victims into downloading a previously undocumented information stealer called Psychedelic. \"When a visitor interacts with the page, the lure copies a Windows Installer command to the clipboard and instructs the visitor to paste it into the",
+      "published": "Thu, 24 Sep 2026 19:59:06 +0530",
+      "score": 15.0
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "MacSync malware uses public iCloud calendars to deliver new payloads",
+      "url": "https://www.bleepingcomputer.com/news/security/macsync-malware-uses-public-icloud-calendars-to-deliver-new-payloads/",
+      "summary": "A new variant of the MacSync malware targeting macOS systems now uses public iCloud calendar events to deliver new native payloads. [...]",
+      "published": "Thu, 24 Sep 2026 16:53:35 -0400",
+      "score": 15.0
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "Windows 11 KB5124010 update released with 46 changes and fixes",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5124010-update-released-with-46-changes-and-fixes/",
+      "summary": "Microsoft released the KB5124010 September 2026 non-security preview update for Windows 11 24H2 and 25H2, with 46 changes including Bluetooth improvements and the ability to remap the Copilot key. [...]",
+      "published": "Thu, 24 Sep 2026 08:16:32 -0400",
+      "score": 15.0
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "Microsoft fixes bug that broke Windows File History backup feature",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-backup-feature-broken-by-september-updates/",
+      "summary": "Microsoft has fixed a known issue that breaks the built-in File History backup feature on some Windows systems after installing the September 2026 security updates. [...]",
+      "published": "Thu, 24 Sep 2026 04:14:47 -0400",
+      "score": 15.0
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "Placeholder domain used in dev docs now serves ClickFix attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/placeholder-domain-used-in-dev-docs-now-serves-clickfix-attacks/",
+      "summary": "The \"third-party.com\" domain, commonly used as a placeholder in developer documentation and code examples, is serving a fake Cloudflare verification page that attempts to trick Windows users into executing PowerShell commands. [...]",
+      "published": "Wed, 23 Sep 2026 18:46:01 -0400",
+      "score": 15.0
+    },
+    {
+      "source": "SecurityWeek",
+      "title": "‘SalesBleed’ Flaws in Salesforce Agentforce Enabled Zero-Click Data Exfiltration",
+      "url": "https://www.securityweek.com/salesbleed-flaws-in-salesforce-agentforce-enabled-zero-click-data-exfiltration/",
+      "summary": "<p>Three vulnerabilities in Salesforce Agentforce allowed hackers to hijack trusted agents, steal data, and launch phishing attacks.</p> <p>The post <a href=\"https://www.securityweek.com/salesbleed-flaws-in-salesforce-agentforce-enabled-zero-click-data-exfiltration/\">&#8216;SalesBleed&#8217; Flaws in Salesforce Agentforce Enabled Zero-Click Data Exfiltration</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "published": "Fri, 25 Sep 2026 09:27:51 +0000",
+      "score": 14.0
+    },
+    {
+      "source": "SecurityWeek",
+      "title": "Autonomous AI Hacks Raise Thorny Questions of Legal Accountability",
+      "url": "https://www.securityweek.com/autonomous-ai-hacks-raise-thorny-questions-of-legal-accountability/",
+      "summary": "<p>The prospect of legal accountability is unclear. Lawsuits are a possibility, but some legal experts believe any criminal investigations would face an extremely high burden.</p> <p>The post <a href=\"https://www.securityweek.com/autonomous-ai-hacks-raise-thorny-questions-of-legal-accountability/\">Autonomous AI Hacks Raise Thorny Questions of Legal Accountability</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "published": "Thu, 24 Sep 2026 20:35:21 +0000",
+      "score": 14.0
+    },
+    {
+      "source": "SecurityWeek",
+      "title": "SolarWinds Patches Critical RCE Flaws in Observability Self-Hosted",
+      "url": "https://www.securityweek.com/solarwinds-patches-critical-rce-flaws-in-observability-self-hosted/",
+      "summary": "<p>The vulnerabilities, tracked as CVE-2026-28324 and CVE-2026-28325, can be exploited without authentication.</p> <p>The post <a href=\"https://www.securityweek.com/solarwinds-patches-critical-rce-flaws-in-observability-self-hosted/\">SolarWinds Patches Critical RCE Flaws in Observability Self-Hosted</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "published": "Thu, 24 Sep 2026 10:40:40 +0000",
+      "score": 14.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "ThreatsDay: AI Search Poisoning, AI Coding Tool Leaking Repos, One-Click Code Execution and 13 More Stories",
+      "url": "https://thehackernews.com/2026/09/threatsday-ai-search-poisoning-ai.html",
+      "summary": "This week, the dangerous stuff keeps arriving dressed as something boring. An update. A login box. A search answer. A coding tool. A link you have clicked a hundred times before. That is the thread running through the pile. Trusted paths get poisoned. Old bugs find new jobs. AI tools leak more than expected. Fake prompts look real enough. And some attacks barely need an exploit at all — just",
+      "published": "Thu, 24 Sep 2026 23:22:43 +0530",
+      "score": 12.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "Placeholder third-party[.]com Referenced Across 1,700+ Repositories Now Serves Malicious Content",
+      "url": "https://thehackernews.com/2026/09/placeholder-third-partycom-referenced.html",
+      "summary": "The \"third-party[.]com\" domain, commonly used as a documentation placeholder, has been observed serving a ClickFix lure to Windows browsers while displaying a harmless decoy to other users. \"third-party[.]com has been a generic documentation placeholder for years, the same role example.com plays,\" Manifold Security's Head of Research, Ax Sharma, said. \"Unlike 'example[.]com,' third-party[.]com",
+      "published": "Thu, 24 Sep 2026 20:57:32 +0530",
+      "score": 12.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "Corp MDM Spyware Targets Logistics Firms, Steals New SMS and Redirects Calls",
+      "url": "https://thehackernews.com/2026/09/corp-mdm-spyware-targets-logistics.html",
+      "summary": "The logistics sector has become the target of a new malicious cyber campaign that distributes an Android spyware codenamed Corp MDM. According to Have I Been Squatted, the campaign uses fake Google Play pages branded as CEVA and TKW Logistics to distribute an Android Package Kit (APK) file that's dressed up as a system service. The delivered app has the package name \"com.corp.mdm\" Corp MDM",
+      "published": "Thu, 24 Sep 2026 17:35:27 +0530",
+      "score": 12.0
     }
   ]
 }
