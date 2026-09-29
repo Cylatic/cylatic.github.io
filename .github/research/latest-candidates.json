@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-28T11:02:34.522961+00:00",
+  "generated_at_utc": "2026-09-29T10:46:22.424400+00:00",
   "publication_enabled": false,
   "editorial_note": "Candidates require human/editorial review and original technical work before publication.",
   "feed_errors": [
@@ -10,14 +10,6 @@
   ],
   "candidates": [
     {
-      "source": "The Hacker News",
-      "title": "Warning: Two Unpatched Citrix NetScaler RCE Zero-Days Under Active Exploitation",
-      "url": "https://thehackernews.com/2026/09/warning-two-unpatched-citrix-netscaler.html",
-      "summary": "Two critical vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway that allow remote code execution have been exploited in the wild, Citrix confirmed on September 27. It released fixes for both, along with six other flaws. One of the two affects every deployment on an affected version, including those in the default configuration. The bulletin came a day after security firm watchTowr",
-      "published": "Sun, 27 Sep 2026 13:17:57 +0530",
-      "score": 50.0
-    },
-    {
       "source": "BleepingComputer",
       "title": "Citrix confirms two NetScaler RCE zero-days exploited in attacks",
       "url": "https://www.bleepingcomputer.com/news/security/citrix-admins-warned-to-shut-down-netscalers-over-2-exploited-zero-days/",
@@ -26,28 +18,60 @@
       "score": 36.0
     },
     {
-      "source": "The Hacker News",
-      "title": "Attackers Bypass WAFs to Exploit Oracle PeopleSoft Flaw and Deploy Web Shells",
-      "url": "https://thehackernews.com/2026/09/attackers-bypass-wafs-to-exploit-oracle.html",
-      "summary": "Google is warning of renewed mass exploitation of a known security vulnerability in Oracle PeopleSoft as part of a campaign targeting multiple sectors globally. The ShinyHunters-linked activity involves the weaponization of CVE-2026-35273 (CVSS score: 9.8), a critical security flaw that could result in unauthenticated remote code execution. The vulnerability was first exploited as a zero-day",
-      "published": "Sat, 26 Sep 2026 17:16:40 +0530",
-      "score": 33.0
+      "source": "BleepingComputer",
+      "title": "JadePuffer agentic AI attacks target Azure, destroy cloud resources",
+      "url": "https://www.bleepingcomputer.com/news/security/jadepuffer-agentic-ai-attacks-target-azure-destroy-cloud-resources/",
+      "summary": "The JadePuffer ransomware operator is targeting Azure tenants with agent-driven attacks that conduct reconnaissance, steal credentials, and destroy core components. [...]",
+      "published": "Mon, 28 Sep 2026 11:49:27 -0400",
+      "score": 30.0
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "Apple patches CoreGraphics zero-day flaw exploited in attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/apple-patches-coregraphics-zero-day-flaw-exploited-in-attacks/",
+      "summary": "Apple released security updates to fix a zero-day vulnerability exploited in \"extremely sophisticated\" targeted attacks on iOS devices. [...]",
+      "published": "Tue, 29 Sep 2026 03:33:12 -0400",
+      "score": 24.0
     },
     {
       "source": "SecurityWeek",
-      "title": "Citrix Confirms 2 NetScaler Zero-Days After Admins Pulled the Plug",
-      "url": "https://www.securityweek.com/citrix-confirms-2-netscaler-zero-days-after-admins-pulled-the-plug/",
-      "summary": "<p>Citrix has released patches for the critical NetScaler vulnerabilities tracked as CVE-2026-88771 and CVE-2026-88772.</p> <p>The post <a href=\"https://www.securityweek.com/citrix-confirms-2-netscaler-zero-days-after-admins-pulled-the-plug/\">Citrix Confirms 2 NetScaler Zero-Days After Admins Pulled the Plug</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "published": "Mon, 28 Sep 2026 07:29:51 +0000",
+      "title": "Apple Patches Meta-Reported Zero-Day Linked to ‘Extremely Sophisticated Attack’",
+      "url": "https://www.securityweek.com/apple-patches-meta-reported-zero-day-linked-to-extremely-sophisticated-attack/",
+      "summary": "<p>Apple has released iOS and macOS updates to patch the zero-day vulnerability tracked as CVE-2026-86950.</p> <p>The post <a href=\"https://www.securityweek.com/apple-patches-meta-reported-zero-day-linked-to-extremely-sophisticated-attack/\">Apple Patches Meta-Reported Zero-Day Linked to &#8216;Extremely Sophisticated Attack&#8217; </a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "published": "Tue, 29 Sep 2026 06:18:27 +0000",
       "score": 23.0
     },
     {
+      "source": "BleepingComputer",
+      "title": "80,000+ Organizations Had AI Logins Stolen: From Shadow AI to LLMjacking",
+      "url": "https://www.bleepingcomputer.com/news/security/80-000-plus-organizations-had-ai-logins-stolen-from-shadow-ai-to-llmjacking/",
+      "summary": "Infostealer logs exposed AI account credentials and sessions tied to more than 80,000 corporate domains, creating risks ranging from stolen conversations to LLMjacking. SOCRadar examines the growing market for stolen AI logins and how organizations can identify their exposure. [...]",
+      "published": "Mon, 28 Sep 2026 10:00:10 -0400",
+      "score": 22.0
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "Kiteworks patches critical flaw, brings customer systems online",
+      "url": "https://www.bleepingcomputer.com/news/security/kiteworks-lifts-shutdown-warning-after-patching-critical-flaw/",
+      "summary": "American tech company Kiteworks has lifted a precautionary advisory asking customers to shut down systems after patching a critical vulnerability. [...]",
+      "published": "Tue, 29 Sep 2026 05:04:06 -0400",
+      "score": 21.0
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "Japan's Keio confirms ransomware attack disrupted business systems",
+      "url": "https://www.bleepingcomputer.com/news/security/japans-keio-confirms-ransomware-attack-disrupted-business-systems/",
+      "summary": "Keio Corporation (Keio), a major private railway operator in Japan, said its network was hit by a ransomware attack over the weekend, disrupting some of its business systems. [...]",
+      "published": "Mon, 28 Sep 2026 16:56:47 -0400",
+      "score": 20.0
+    },
+    {
       "source": "The Hacker News",
-      "title": "Lunex Stealer Abuses AMD Driver to Disable Security Monitoring and Steal Browser Credentials",
-      "url": "https://thehackernews.com/2026/09/lunex-stealer-abuses-amd-driver-to.html",
-      "summary": "The Psychedelic Stealer malware distributed via compromised Ukrainian websites using ClickFix-style Cloudflare verification checks is part of a wider malware-as-a-service (MaaS) platform called Lunex. The new findings come from Ontinue, which described the activity as a four-stage attack chain aimed at targeting Ukrainian-speaking users. \"The attack chain begins with a fake CAPTCHA page and",
-      "published": "Sat, 26 Sep 2026 23:52:52 +0530",
-      "score": 19.0
+      "title": "Carbonato Botnet Compromises Docker Hosts to Deploy Telegram-Controlled Hermes AI Agent",
+      "url": "https://thehackernews.com/2026/09/carbonato-botnet-compromises-docker.html",
+      "summary": "Cybersecurity researchers have disclosed details of a new botnet malware called Carbonato that's targeting exposed Docker daemons to deploy an open-source artificial intelligence (AI) agent framework called Hermes Agent. \"The implant installs the framework unchanged, then overwrites its SOUL.md persona file,\" ThreatDown said. \"The 39-line prompt directs it to execute tasks received through",
+      "published": "Mon, 28 Sep 2026 17:16:00 +0530",
+      "score": 18.0
     },
     {
       "source": "The Hacker News",
@@ -59,19 +83,43 @@
     },
     {
       "source": "Google News Cybersecurity",
-      "title": "Satellite communications growth expands cybersecurity attack surface across IoT, utilities, critical infrastructure - Industrial Cyber",
-      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPTkNrcWphOG83Q2ViWmU1eGhBNWYwYkxfcHRweUN6NjJRSC1VT1E3RXJOOGJETmd4bWdfSTNkZ1Bjb0g5dGVQSkFiTEo3ZEQ4LVVaQ0V3SDVEMHlfcDZrYUdWZW9vR0xMS0U3ZTc4RmVHaVlqWVRYYmRBakFrdlpDYXRPdllPcHA1STNjQXVicEQ5WHU5ZjVtalJYcmVtMEtWV0g0VjBhQjdJV0Rqai1KR2xXc1Y5eHNZcFlHVWNBdlc2UUxwNUJBbzdIVmZheUNZUEpvUnVtYjJDTFFGa281eXNGZDI0SXh4a2VVR29BeUhXWnNIa1BHY1lB?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi-gFBVV95cUxPTkNrcWphOG83Q2ViWmU1eGhBNWYwYkxfcHRweUN6NjJRSC1VT1E3RXJOOGJETmd4bWdfSTNkZ1Bjb0g5dGVQSkFiTEo3ZEQ4LVVaQ0V3SDVEMHlfcDZrYUdWZW9vR0xMS0U3ZTc4RmVHaVlqWVRYYmRBakFrdlpDYXRPdllPcHA1STNjQXVicEQ5WHU5ZjVtalJYcmVtMEtWV0g0VjBhQjdJV0Rqai1KR2xXc1Y5eHNZcFlHVWNBdlc2UUxwNUJBbzdIVmZheUNZUEpvUnVtYjJDTFFGa281eXNGZDI0SXh4a2VVR29BeUhXWnNIa1BHY1lB?oc=5\" target=\"_blank\">Satellite communications growth expands cybersecurity attack surface across IoT, utilities, critical infrastructure</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Industrial Cyber</font>",
-      "published": "Mon, 28 Sep 2026 09:18:53 GMT",
+      "title": "Clop Ransomware Group changes Server and vows Not to Pay ShinyHunters - Cybersecurity Insiders",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQRjU1VkFUVmo1cHVidlZzV01haHZjeEx1VkZGZ2R6T3BvRGkwWkIyM05PZlFkbHlUNUFTQS1iMjRXSEN5cEtqd1R3TUhjSVdMSGR1YXFZenN2T2NKV3hjV1JQUENvTmFXTmpVbGVFQnJjd2ZFdGlVRF90UFEyT3Zzb1ZJemNIR0ZsUTMxWmUzNkliTUppNFRmSXBTTUE0dFZmZkVydVRzMmpLbkNlZWc?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxQRjU1VkFUVmo1cHVidlZzV01haHZjeEx1VkZGZ2R6T3BvRGkwWkIyM05PZlFkbHlUNUFTQS1iMjRXSEN5cEtqd1R3TUhjSVdMSGR1YXFZenN2T2NKV3hjV1JQUENvTmFXTmpVbGVFQnJjd2ZFdGlVRF90UFEyT3Zzb1ZJemNIR0ZsUTMxWmUzNkliTUppNFRmSXBTTUE0dFZmZkVydVRzMmpLbkNlZWc?oc=5\" target=\"_blank\">Clop Ransomware Group changes Server and vows Not to Pay ShinyHunters</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Cybersecurity Insiders</font>",
+      "published": "Tue, 29 Sep 2026 05:47:34 GMT",
       "score": 18.0
     },
     {
-      "source": "SecurityWeek",
-      "title": "New x47.c Windows Botnet Weaponizes xAI Grok, AI API Draining",
-      "url": "https://www.securityweek.com/new-x47-c-windows-botnet-weaponizes-xai-grok-ai-api-draining/",
-      "summary": "<p>The Windows botnet relies on AI to maintain persistence, using xAI Grok to choose from predefined actions.</p> <p>The post <a href=\"https://www.securityweek.com/new-x47-c-windows-botnet-weaponizes-xai-grok-ai-api-draining/\">New x47.c Windows Botnet Weaponizes xAI Grok, AI API Draining</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "published": "Sat, 26 Sep 2026 12:00:00 +0000",
-      "score": 17.0
+      "source": "The Hacker News",
+      "title": "Official MCP Python SDK Flaw Can Let Malicious Servers Steal OAuth Credentials",
+      "url": "https://thehackernews.com/2026/09/official-mcp-python-sdk-flaw-can-let.html",
+      "summary": "A malicious MCP server could trick an application built on the official&nbsp;MCP Python SDK&nbsp;into handing over the OAuth credentials it uses to log in to a real service, the SDK's maintainers said in a security advisory. Affected versions sent the client secret, the authorization code, and the PKCE proof key to a token endpoint the attacker controlled. The fix is in versions 1.30.0 and",
+      "published": "Tue, 29 Sep 2026 11:38:25 +0530",
+      "score": 16.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "IAM for AI agents: A Practical Enterprise Framework",
+      "url": "https://thehackernews.com/2026/09/iam-for-ai-agent.html",
+      "summary": "What is IAM for AI agents? AI agents authenticate, invoke tools, and act across enterprise systems with delegated authority. IAM for AI Agents is the identity-control architecture that governs those actors. This guide covers the limits of conventional provisioning, the components that matter, how to evaluate framework choices, and what runtime evidence proves an agent behaved as intended.",
+      "published": "Mon, 28 Sep 2026 23:50:38 +0530",
+      "score": 16.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "Bitget Says Attacker Exploited Third-Party Security Product Flaw to Steal $388M",
+      "url": "https://thehackernews.com/2026/09/bitget-says-attacker-exploited-third.html",
+      "summary": "The attacker who stole about $388 million from the cryptocurrency exchange Bitget gained access through a vulnerability in a third-party security product the exchange used, Bitget said on Monday. The attacker exploited the flaw to obtain high-level internal credentials and then, on September 24, used them to send fraudulent withdrawal commands to Bitget's wallet system. Exchanges keep most",
+      "published": "Mon, 28 Sep 2026 23:12:18 +0530",
+      "score": 16.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "Hackers Use NeedyMantis to Maintain Long-Term Access in Breached Networks",
+      "url": "https://thehackernews.com/2026/09/hackers-use-needymantis-to-maintain.html",
+      "summary": "Hackers have used a malware family called NeedyMantis to maintain long-term access to networks they had already breached, Microsoft said in&nbsp;a technical analysis. The malware has been seen in a small number of targeted intrusions at telecommunications organizations, universities, medical nonprofits, intergovernmental organizations, and government contractors. Its use goes back to at least",
+      "published": "Tue, 29 Sep 2026 00:05:42 +0530",
+      "score": 15.0
     },
     {
       "source": "The Hacker News",
@@ -98,115 +146,67 @@
       "score": 15.0
     },
     {
-      "source": "BleepingComputer",
-      "title": "Microsoft pauses KB5002907 update after Office license deactivations",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-365-kb5002907-update-paused-after-office-license-deactivations/",
-      "summary": "Microsoft has paused the rollout of the KB5002907 Microsoft 365 update after users report that it deactivated, or in some cases completely removed, perpetual Office 2016 and Office 2019 installations. [...]",
-      "published": "Sat, 26 Sep 2026 11:50:38 -0400",
+      "source": "Google News Cybersecurity",
+      "title": "AI May Be Dominating Cybersecurity, But Quantum Preparations Can’t Wait: Analysis - crn.com",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPY1FabFhzXzA1eWxUb0s5dFBRakJfai1FdWs5ZEtMcDhFZU4yUl92bEoyNXBPa0NFYkJwa0F4REdfaXJTVkYzRGlxLVV3c2c5TUlJbTI5YkhmN1hPN1JxZUN6N0l1MTFGRlN0WlBTbHpjSXJCSVA0ZGN5TGx3QVIyQjJ2T2lZQllkTjluY29OOEZoU25lWWVlRVVpNm9kMkhwUjM0cGVicEEyUkhydVlPdFNZU2x5dUVkU0E?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxPY1FabFhzXzA1eWxUb0s5dFBRakJfai1FdWs5ZEtMcDhFZU4yUl92bEoyNXBPa0NFYkJwa0F4REdfaXJTVkYzRGlxLVV3c2c5TUlJbTI5YkhmN1hPN1JxZUN6N0l1MTFGRlN0WlBTbHpjSXJCSVA0ZGN5TGx3QVIyQjJ2T2lZQllkTjluY29OOEZoU25lWWVlRVVpNm9kMkhwUjM0cGVicEEyUkhydVlPdFNZU2x5dUVkU0E?oc=5\" target=\"_blank\">AI May Be Dominating Cybersecurity, But Quantum Preparations Can’t Wait: Analysis</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">crn.com</font>",
+      "published": "Mon, 28 Sep 2026 18:00:00 GMT",
+      "score": 15.0
+    },
+    {
+      "source": "Google News Cybersecurity",
+      "title": "Cybersecurity hiring in New Hampshire: talent, pipelines, and the impact of AI - NH Business Review",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOTGNqajRlZlpDVUVva1VBbk5mYWJsdVU0S0FDSGR2ZWZQLXFEcHZBb1ZuRzBYcTliYmNnTl9GQVZtWW94NHBreE5PX2cwUnFwUzREWWJsMEhfSjZSeVpNVE4wV0YxdEJRZUxhb3hZUzJkQVU3cVB5RDhCVTNXejFseGRTSkhLUkFNWUJ1VHJTeFhMSzZjSTBPNWZtdndnQQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxOTGNqajRlZlpDVUVva1VBbk5mYWJsdVU0S0FDSGR2ZWZQLXFEcHZBb1ZuRzBYcTliYmNnTl9GQVZtWW94NHBreE5PX2cwUnFwUzREWWJsMEhfSjZSeVpNVE4wV0YxdEJRZUxhb3hZUzJkQVU3cVB5RDhCVTNXejFseGRTSkhLUkFNWUJ1VHJTeFhMSzZjSTBPNWZtdndnQQ?oc=5\" target=\"_blank\">Cybersecurity hiring in New Hampshire: talent, pipelines, and the impact of AI</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NH Business Review</font>",
+      "published": "Mon, 28 Sep 2026 15:43:28 GMT",
+      "score": 15.0
+    },
+    {
+      "source": "Google News Cybersecurity",
+      "title": "PANW, CRWD, ZS Lead Nasdaq-100 Gains As Nvidia's AI Agent Safety Push, Security Scares Lift Cybersecurity Stocks - Stocktwits",
+      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOLXhwMzA4d1d4c3RJTXdVUGxYQjhQV2xHUXh2SklkSXpGdmwxYnA5dDE3MTA4Ymh1RVpnQnpqQXZ4Mmk2LUxYaVdmb3N2NDlObFpNQ1NvdFBGYm1Fa3h2cDJVTVNESUk3M2JFWWQwRjNMYk92SUZOWV8tRHhybUNBeV9PUnlSb21pcm5jYmMtYXZCaFZNNkhWYmRDRGdGUm14dHdZajJPY3hoTktvTVJNVDlnMDhlMXQwUTc1djR6OXhmVU5Gb0Y4YWRWU0lDRTFvV1l3TEptSWFYX1RfeHBxeVByTF9iV2Y4R2M1cWtOMzdFcmdmZzVvcEtRV2pFTm9zd2ww?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMigwJBVV95cUxOLXhwMzA4d1d4c3RJTXdVUGxYQjhQV2xHUXh2SklkSXpGdmwxYnA5dDE3MTA4Ymh1RVpnQnpqQXZ4Mmk2LUxYaVdmb3N2NDlObFpNQ1NvdFBGYm1Fa3h2cDJVTVNESUk3M2JFWWQwRjNMYk92SUZOWV8tRHhybUNBeV9PUnlSb21pcm5jYmMtYXZCaFZNNkhWYmRDRGdGUm14dHdZajJPY3hoTktvTVJNVDlnMDhlMXQwUTc1djR6OXhmVU5Gb0Y4YWRWU0lDRTFvV1l3TEptSWFYX1RfeHBxeVByTF9iV2Y4R2M1cWtOMzdFcmdmZzVvcEtRV2pFTm9zd2ww?oc=5\" target=\"_blank\">PANW, CRWD, ZS Lead Nasdaq-100 Gains As Nvidia's AI Agent Safety Push, Security Scares Lift Cybersecurity Stocks</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Stocktwits</font>",
+      "published": "Tue, 29 Sep 2026 03:38:00 GMT",
       "score": 15.0
     },
     {
       "source": "SecurityWeek",
-      "title": "Microsoft SharePoint Flaw CVE-2026-65660 Now Exploited in Attacks",
-      "url": "https://www.securityweek.com/microsoft-sharepoint-flaw-cve-2026-65660-now-exploited-in-attacks/",
-      "summary": "<p>CISA added CVE-2026-65660 to its KEV catalog, giving federal agencies a patching deadline of September 28.</p> <p>The post <a href=\"https://www.securityweek.com/microsoft-sharepoint-flaw-cve-2026-65660-now-exploited-in-attacks/\">Microsoft SharePoint Flaw CVE-2026-65660 Now Exploited in Attacks</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "published": "Sun, 27 Sep 2026 09:23:09 +0000",
+      "title": "Daemon Tools Hackers’ NeedyMantis Malware Dissected by Microsoft",
+      "url": "https://www.securityweek.com/daemon-tools-hackers-needymantis-malware-dissected-by-microsoft/",
+      "summary": "<p>The malware framework uses a modular architecture and a custom executable file format for long-term persistence.</p> <p>The post <a href=\"https://www.securityweek.com/daemon-tools-hackers-needymantis-malware-dissected-by-microsoft/\">Daemon Tools Hackers&#8217; NeedyMantis Malware Dissected by Microsoft</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "published": "Tue, 29 Sep 2026 09:46:13 +0000",
       "score": 14.0
     },
     {
-      "source": "Google News Cybersecurity",
-      "title": "With AI Putting Cybersecurity in the Spotlight, Fortinet Stock Looks Hot at New All-Time Highs - Barchart.com",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPVDJEZmM3RVBVTklNY2VrNzd0LWdneHNHOFFvbl90cUltRmswR2ZTRGJPbTVyVUIzSlFxQ2FpTXdpM1VTS29qVW15YUE0WnFEek9GdTAtVFFONU9yWXVxT0NRaW9ya2R0NXZPQzdqYUxSckQwZzVBaXpvSUZwNTRSY0VaRnRlQmtYN3VrYkpNQkFWWDBvRks5TEhDb21wT1ROR2d0R1ZDdEQ2Y1ZDRi1lenptVHVGTC0xaWltZHlkeXBxZllMdDJ4eUJmaVoydW4xS3Rj?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi0wFBVV95cUxPVDJEZmM3RVBVTklNY2VrNzd0LWdneHNHOFFvbl90cUltRmswR2ZTRGJPbTVyVUIzSlFxQ2FpTXdpM1VTS29qVW15YUE0WnFEek9GdTAtVFFONU9yWXVxT0NRaW9ya2R0NXZPQzdqYUxSckQwZzVBaXpvSUZwNTRSY0VaRnRlQmtYN3VrYkpNQkFWWDBvRks5TEhDb21wT1ROR2d0R1ZDdEQ2Y1ZDRi1lenptVHVGTC0xaWltZHlkeXBxZllMdDJ4eUJmaVoydW4xS3Rj?oc=5\" target=\"_blank\">With AI Putting Cybersecurity in the Spotlight, Fortinet Stock Looks Hot at New All-Time Highs</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Barchart.com</font>",
-      "published": "Mon, 28 Sep 2026 05:00:02 GMT",
-      "score": 14.0
-    },
-    {
-      "source": "Google News Cybersecurity",
-      "title": "The CFO Won’t Fund What You Can’t Price: Why Identity Risk Needs a Dollar Sign - Cybersecurity Insiders",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPYk9TYWRxSEJjMXU4Q1V2YXh1NWtsclZRSWEyU2lJalhyUXBLWTY2UGprN09zdXNqc053Y24ybkdxck9rR1F6N0RDMFpoV0E3Y2Z0a3VMaERTdllTQWliYXpCLVdxeTJGVEdlUHMzUHNWOWRuVFZDWmQ2VmRmN1F5ODJoY3FFaEdQRjVtT202YkFOTERKMzBMaXkzWDZMUkJVOGVPbVFQUE00NDBHeExLSnh3Z3VYQQ?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxPYk9TYWRxSEJjMXU4Q1V2YXh1NWtsclZRSWEyU2lJalhyUXBLWTY2UGprN09zdXNqc053Y24ybkdxck9rR1F6N0RDMFpoV0E3Y2Z0a3VMaERTdllTQWliYXpCLVdxeTJGVEdlUHMzUHNWOWRuVFZDWmQ2VmRmN1F5ODJoY3FFaEdQRjVtT202YkFOTERKMzBMaXkzWDZMUkJVOGVPbVFQUE00NDBHeExLSnh3Z3VYQQ?oc=5\" target=\"_blank\">The CFO Won’t Fund What You Can’t Price: Why Identity Risk Needs a Dollar Sign</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Cybersecurity Insiders</font>",
-      "published": "Mon, 28 Sep 2026 08:07:08 GMT",
-      "score": 14.0
-    },
-    {
-      "source": "Google News Cybersecurity",
-      "title": "AI vs AI: Speed of cyberthreats draws dealmakers to cybersecurity companies - pehub.com",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPMkUtMFNLZ25IckdCeWdRRVhFalkxRkFnM3lkREwwbmZiamdQMEh2VnBiTnVOQ2tPTGZERnlsWVZ6MmJyN252ejA3d1lLV3h5SVVHX2E0eEkyT1JLZ1hzc3p4ZG5fVFloRnZVb3hfNEZKUmVYWFFkeFd1c0tIak5lOXBhZUNJZTVhdlVRNm9IVDBDR1FXOXQzRzFVeWVBUQ?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxPMkUtMFNLZ25IckdCeWdRRVhFalkxRkFnM3lkREwwbmZiamdQMEh2VnBiTnVOQ2tPTGZERnlsWVZ6MmJyN252ejA3d1lLV3h5SVVHX2E0eEkyT1JLZ1hzc3p4ZG5fVFloRnZVb3hfNEZKUmVYWFFkeFd1c0tIak5lOXBhZUNJZTVhdlVRNm9IVDBDR1FXOXQzRzFVeWVBUQ?oc=5\" target=\"_blank\">AI vs AI: Speed of cyberthreats draws dealmakers to cybersecurity companies</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">pehub.com</font>",
-      "published": "Mon, 28 Sep 2026 02:00:52 GMT",
-      "score": 13.0
-    },
-    {
-      "source": "Google News Cybersecurity",
-      "title": "CISA Says Attackers Are Exploiting Two Critical Citrix NetScaler Flaws Globally - The Hacker News",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNekdwSDJ1ZE9xN0p2NnVUTllGckdROVcwYUVCMHZYQ2xnQlR2NFdwT2RNeVVEZ2xzdXduMmE2ZmVuUUtucXgyUXdjZDNsQ19NcDIwVUZ2SEdQOGV2R2Q2YWtfLUZQQlIzdlhvUHROY3psdFJNR3NTYUZzM3A1S2ZGRFh4Zw?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMigwFBVV95cUxNekdwSDJ1ZE9xN0p2NnVUTllGckdROVcwYUVCMHZYQ2xnQlR2NFdwT2RNeVVEZ2xzdXduMmE2ZmVuUUtucXgyUXdjZDNsQ19NcDIwVUZ2SEdQOGV2R2Q2YWtfLUZQQlIzdlhvUHROY3psdFJNR3NTYUZzM3A1S2ZGRFh4Zw?oc=5\" target=\"_blank\">CISA Says Attackers Are Exploiting Two Critical Citrix NetScaler Flaws Globally</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Hacker News</font>",
-      "published": "Mon, 28 Sep 2026 07:21:00 GMT",
-      "score": 13.0
-    },
-    {
-      "source": "Google News Cybersecurity",
-      "title": "U.S. CISA adds Citrix NetScaler flaws to its Known Exploited Vulnerabilities catalog - Security Affairs",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPN2l0TmN4Z1JnSkdNU0tidGk0LUNYelE0VGJzZUhZZi1nMGxiLXVtS1haZUR1TUUzRFV2WS1ET2FIakhncFVpR0xJVktUVzhNQUNhM0VuZjU1NWpxZ3hwNmJLQWdxY3lHTHVtTktPMmpNT0R3TkctOFhSVEtZd1MwWFhJelloNVR4MTE1S3M0NXJOZ2YzNDhGbTRzbUZmTWw5MU5OTW91TnJPQjlyZEExRzlmcUpHVHV0R1pNR0tkZy1kcW5tczRDU2JoRWU3RDVL0gHQAUFVX3lxTE83aXROY3hnUmdKR01TS2J0aTQtQ1h6UTRUYnNlSFlmLWcwbGItdW1LWFplRHVNRTNEVXZZLURPYUhqSGdwVWlHTElWS1RXOE1BQ2EzRW5mNTU1anFneHA2YktBZ3FjeUdMdW1OS08yak1PRHdORy04WFJUS1l3UzBYWEl6WWg1VHgxMTVLczQ1ck5nZjM0OEZtNHNtRmZNbDkxTk5Nb3VOck9COXJkQTFHOWZxSkdUdXRHWk1HS2RnLWRxbm1zNENTYmhFZTdENUs?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi0AFBVV95cUxPN2l0TmN4Z1JnSkdNU0tidGk0LUNYelE0VGJzZUhZZi1nMGxiLXVtS1haZUR1TUUzRFV2WS1ET2FIakhncFVpR0xJVktUVzhNQUNhM0VuZjU1NWpxZ3hwNmJLQWdxY3lHTHVtTktPMmpNT0R3TkctOFhSVEtZd1MwWFhJelloNVR4MTE1S3M0NXJOZ2YzNDhGbTRzbUZmTWw5MU5OTW91TnJPQjlyZEExRzlmcUpHVHV0R1pNR0tkZy1kcW5tczRDU2JoRWU3RDVL0gHQAUFVX3lxTE83aXROY3hnUmdKR01TS2J0aTQtQ1h6UTRUYnNlSFlmLWcwbGItdW1LWFplRHVNRTNEVXZZLURPYUhqSGdwVWlHTElWS1RXOE1BQ2EzRW5mNTU1anFneHA2YktBZ3FjeUdMdW1OS08yak1PRHdORy04WFJUS1l3UzBYWEl6WWg1VHgxMTVLczQ1ck5nZjM0OEZtNHNtRmZNbDkxTk5Nb3VOck9COXJkQTFHOWZxSkdUdXRHWk1HS2RnLWRxbm1zNENTYmhFZTdENUs?oc=5\" target=\"_blank\">U.S. CISA adds Citrix NetScaler flaws to its Known Exploited Vulnerabilities catalog</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Security Affairs</font>",
-      "published": "Mon, 28 Sep 2026 09:05:03 GMT",
-      "score": 13.0
-    },
-    {
-      "source": "Google News Cybersecurity",
-      "title": "Techie Tonic: Citrix NetScaler security flaws and what businesses should know - Gulf News",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQallZLTRKcE11OUFMSVU3RzUxVXl4eTRQeU5CQVFWZmhUR2NGV3F2bXJIcVJYNXRxVGJvSldmWFhUYkJUcm1xU2NQUENUVmJQSGN0NUJTUnZ2d2dOOE1jc1RjekNRNV8xUTdNZGVtZjdGQVh4Q2R4NHV1QmFCdl9FUnNtWnJMVkRoT3JEZ2NiSDNNcWp3N2FjLThHVEdJWGZPRy0weWNDTlg2WlF1dVHSAb4BQVVfeXFMTXllbXFUQ3RBZlNQV1RXWm1Za3VnQTI4dm1CYVl3WERYcDBfdkRKOEliNlAyYXlUZ0ZfQzBiM1M4aEdGdUZKOU05TXowQzJwS3VuREZsZDRsTlhlZExtTUZpdDlHR2k4VktFSlYwdTZHb0J2VnRCM0NRU0prVmtpQS11TGhQY1pROTN1Zl93RWxGQ2FBWm9DSmlUU2ZZWFh1bktYYmdJMlFhZDZoZ0RrOXdRNGhxMmhYbUR2ZF9udw?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxQallZLTRKcE11OUFMSVU3RzUxVXl4eTRQeU5CQVFWZmhUR2NGV3F2bXJIcVJYNXRxVGJvSldmWFhUYkJUcm1xU2NQUENUVmJQSGN0NUJTUnZ2d2dOOE1jc1RjekNRNV8xUTdNZGVtZjdGQVh4Q2R4NHV1QmFCdl9FUnNtWnJMVkRoT3JEZ2NiSDNNcWp3N2FjLThHVEdJWGZPRy0weWNDTlg2WlF1dVHSAb4BQVVfeXFMTXllbXFUQ3RBZlNQV1RXWm1Za3VnQTI4dm1CYVl3WERYcDBfdkRKOEliNlAyYXlUZ0ZfQzBiM1M4aEdGdUZKOU05TXowQzJwS3VuREZsZDRsTlhlZExtTUZpdDlHR2k4VktFSlYwdTZHb0J2VnRCM0NRU0prVmtpQS11TGhQY1pROTN1Zl93RWxGQ2FBWm9DSmlUU2ZZWFh1bktYYmdJMlFhZDZoZ0RrOXdRNGhxMmhYbUR2ZF9udw?oc=5\" target=\"_blank\">Techie Tonic: Citrix NetScaler security flaws and what businesses should know</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Gulf News</font>",
-      "published": "Mon, 28 Sep 2026 08:53:44 GMT",
-      "score": 13.0
-    },
-    {
-      "source": "BleepingComputer",
-      "title": "Bitget resumes Bitcoin withdrawals after $387.5 million crypto heist",
-      "url": "https://www.bleepingcomputer.com/news/security/bitget-resumes-bitcoin-withdrawals-after-3875-million-crypto-heist/",
-      "summary": "Cryptocurrency exchange Bitget has resumed Bitcoin withdrawals suspended after suspected North Korean hackers breached its systems last week and stole over $350 million. [...]",
-      "published": "Mon, 28 Sep 2026 05:25:29 -0400",
+      "source": "The Hacker News",
+      "title": "Dutch Police Arrest 24-Year-Old Amsterdam Man in ShinyHunters Investigation",
+      "url": "https://thehackernews.com/2026/09/dutch-police-arrest-24-year-old.html",
+      "summary": "Dutch authorities have confirmed that they arrested a 24-year-old man from Amsterdam in connection with the ShinyHunters group. \"It is true that this month a 24-year-old man from Amsterdam was arrested in an investigation into the hacker group ShinyHunters,\" the Politie Landelijke Opsporing en Interventies said in an X post Monday. Police said the individual is expected to appear before the",
+      "published": "Tue, 29 Sep 2026 14:05:10 +0530",
       "score": 12.0
     },
     {
-      "source": "BleepingComputer",
-      "title": "US soldier gets 70 months in prison for extorting 10 tech, telecom firms",
-      "url": "https://www.bleepingcomputer.com/news/security/us-soldier-gets-70-months-in-prison-for-extorting-10-tech-telecom-firms/",
-      "summary": "A former U.S. Army soldier has been sentenced to 70 months in prison for hacking and extorting at least 10 U.S. technology and telecommunications companies between April 2023 and December 2024. [...]",
-      "published": "Mon, 28 Sep 2026 03:30:15 -0400",
+      "source": "The Hacker News",
+      "title": "OpenAI Shelves GPT-6.1 Astra After Tests Find Deception and Unauthorized Actions",
+      "url": "https://thehackernews.com/2026/09/openai-shelves-gpt-61-astra-after-tests.html",
+      "summary": "OpenAI on Monday shelved plans to release GPT-6.1 Astra, a next-generation artificial intelligence (AI) model that was planned for an October launch, after it failed internal safety and alignment audits. The development was first reported by The Wall Street Journal. The move \"marks a rare case of a major AI developer ditching a new release because of safety concerns,\" the news publication said.",
+      "published": "Tue, 29 Sep 2026 10:42:32 +0530",
       "score": 12.0
     },
     {
-      "source": "BleepingComputer",
-      "title": "OpenAI is preparing “o,” an always-on ChatGPT assistant that could handle email",
-      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-preparing-o-an-always-on-chatgpt-assistant-that-could-handle-email/",
-      "summary": "OpenAI is testing a new always-on assistant called \"o\", and references to the unannounced feature briefly showed up on the company's website. [...]",
-      "published": "Sun, 27 Sep 2026 19:40:39 -0400",
+      "source": "The Hacker News",
+      "title": "OpenAI Pauses Tool Use After Agent Bypasses Internet Controls to Reach External Chatbot",
+      "url": "https://thehackernews.com/2026/09/openai-pauses-tool-use-after-agent.html",
+      "summary": "OpenAI said it has made the decision to pause training of its most powerful models after one of its agents during reinforcement learning (RL) training contacted an external chatbot by exploiting a loophole in its internet-access restrictions. \"An agent attempting to complete a search-based training task queried a public chatbot service through a gap in our internet-access restrictions:",
+      "published": "Tue, 29 Sep 2026 10:15:20 +0530",
       "score": 12.0
     },
     {
-      "source": "BleepingComputer",
-      "title": "Anthropic turns Claude into an AI marketplace with 2,000+ plugins and connectors",
-      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-turns-claude-into-an-ai-marketplace-with-2-000-plus-plugins-and-connectors/",
-      "summary": "Anthropic has just announced a new Claude Marketplace, and it brings all AI-related tools into one place, including plugins, connectors, agents, and more. [...]",
-      "published": "Sun, 27 Sep 2026 09:38:40 -0400",
-      "score": 12.0
-    },
-    {
-      "source": "BleepingComputer",
-      "title": "ShinyHunters uses WAF bypass trick in Oracle PeopleSoft attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-uses-waf-bypass-trick-in-oracle-peoplesoft-attacks/",
-      "summary": "The ShinyHunters extortion gang is using a URL-encoding trick to bypass web application firewall rules that mitigate the Oracle PeopleSoft CVE-2026-35273 flaw, allowing the threat actors to resume widespread exploitation of a flaw on vulnerable servers. [...]",
-      "published": "Sat, 26 Sep 2026 15:03:34 -0400",
-      "score": 12.0
-    },
-    {
-      "source": "BleepingComputer",
-      "title": "Claude Opus 5.5 uses 95% fewer em dashes, but its answers are getting longer",
-      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/claude-opus-55-uses-95-percent-fewer-em-dashes-but-its-answers-are-getting-longer/",
-      "summary": "Anthropic's Claude Opus 5.5 appears to be changing how it writes, with new analysis showing fewer obvious AI writing patterns, shorter sentences, and simpler wording compared with Opus 5. [...]",
-      "published": "Sat, 26 Sep 2026 12:26:58 -0400",
+      "source": "The Hacker News",
+      "title": "Apple Patches CoreGraphics Flaw Possibly Exploited in Targeted Attacks",
+      "url": "https://thehackernews.com/2026/09/apple-patches-coregraphics-flaw.html",
+      "summary": "Apple has released security updates to address a vulnerability in older versions of iOS, iPadOS, and macOS that it said may have been exploited in targeted attacks. The vulnerability, tracked as CVE-2026-86950, refers to an out-of-bounds write impacting the CoreGraphics component that could lead to arbitrary code execution when processing a maliciously crafted file. The iPhone maker said the",
+      "published": "Tue, 29 Sep 2026 00:48:01 +0530",
       "score": 12.0
     }
   ]
