@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-30T10:34:15.611628+00:00",
+  "generated_at_utc": "2026-10-01T11:02:14.184137+00:00",
   "publication_enabled": false,
   "editorial_note": "Candidates require human/editorial review and original technical work before publication.",
   "feed_errors": [
@@ -10,20 +10,92 @@
   ],
   "candidates": [
     {
-      "source": "BleepingComputer",
-      "title": "Hackers exploit Citrix NetScaler zero-day to deploy web shells",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-citrix-netscaler-zero-day-to-deploy-web-shells/",
-      "summary": "Cybersecurity firms say attackers exploited the Citrix NetScaler CVE-2026-88772 zero-day to deploy custom web shells and tunneling malware, gain root access, steal credentials, and spread into internal networks. [...]",
-      "published": "Tue, 29 Sep 2026 14:37:12 -0400",
-      "score": 28.0
+      "source": "The Hacker News",
+      "title": "Cisco Warns of Attackers Exploiting Critical Authentication Bypass in SD-WAN Manager",
+      "url": "https://thehackernews.com/2026/09/cisco-warns-of-attackers-exploiting.html",
+      "summary": "Attackers are exploiting a new critical zero-day flaw in Cisco Catalyst SD-WAN Manager, the system companies use to manage their Cisco SD-WAN networks, Cisco said in an&nbsp;advisory&nbsp;on September 30. The flaw, CVE-2026-76504, could allow a remote attacker with no login access to use the Manager's API as the admin user. Fixed releases are available, and there is no workaround. It carries a",
+      "published": "Wed, 30 Sep 2026 20:54:54 +0530",
+      "score": 36.0
+    },
+    {
+      "source": "SecurityWeek",
+      "title": "Zammad Zero-Days Exploited in AI-Powered DIVD Hack",
+      "url": "https://www.securityweek.com/zammad-zero-days-exploited-in-ai-powered-divd-hack/",
+      "summary": "<p>The flaws were chained to hijack sessions, achieve remote code execution, and elevate privileges to root.</p> <p>The post <a href=\"https://www.securityweek.com/zammad-zero-days-exploited-in-ai-powered-divd-hack/\">Zammad Zero-Days Exploited in AI-Powered DIVD Hack</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "published": "Thu, 01 Oct 2026 10:42:49 +0000",
+      "score": 35.0
     },
     {
       "source": "BleepingComputer",
-      "title": "Apple patches CoreGraphics zero-day flaw exploited in attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/apple-patches-coregraphics-zero-day-flaw-exploited-in-attacks/",
-      "summary": "Apple released security updates to fix a zero-day vulnerability exploited in \"extremely sophisticated\" targeted attacks on iOS devices. [...]",
-      "published": "Tue, 29 Sep 2026 03:33:12 -0400",
+      "title": "CISA warns of critical pre-auth RCE flaw in MikroTik RouterOS",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-pre-auth-rce-flaw-in-mikrotik-routeros/",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning of a new critical vulnerability in MikroTik RouterOS that could lead to remote code execution or cause a denial-of-service condition. [...]",
+      "published": "Wed, 30 Sep 2026 11:49:29 -0400",
+      "score": 30.0
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "Cisco warns of new SD-WAN zero-day exploited in attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-new-sd-wan-authentication-bypass-zero-day-exploited-in-attacks/",
+      "summary": "Cisco released security updates to address a critical zero-day in the Catalyst SD-WAN Manager (tracked as CVE-2026-76504) that attackers are actively exploiting to escalate to admin privileges. [...]",
+      "published": "Wed, 30 Sep 2026 10:46:40 -0400",
+      "score": 27.0
+    },
+    {
+      "source": "SecurityWeek",
+      "title": "Cisco Patches Exploited Catalyst SD-WAN Zero-Day Vulnerability",
+      "url": "https://www.securityweek.com/cisco-patches-exploited-catalyst-sd-wan-zero-day-vulnerability/",
+      "summary": "<p>The flaw could allow remote, unauthenticated attackers to access vulnerable appliances with administrative privileges.</p> <p>The post <a href=\"https://www.securityweek.com/cisco-patches-exploited-catalyst-sd-wan-zero-day-vulnerability/\">Cisco Patches Exploited Catalyst SD-WAN Zero-Day Vulnerability</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "published": "Thu, 01 Oct 2026 08:26:03 +0000",
+      "score": 26.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "CISA Adds Exploited Cisco Catalyst SD-WAN Manager Auth Bypass to KEV",
+      "url": "https://thehackernews.com/2026/10/cisa-adds-exploited-cisco-catalyst-sd.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a critical authentication bypass flaw impacting Cisco Catalyst SD-WAN Manager to its Known Exploited Vulnerabilities (KEV), following reports of active exploitation. The vulnerability, tracked as CVE-2026-76504 (CVSS score: 9.8), could allow an unauthenticated, remote attacker to access an affected system with",
+      "published": "Thu, 01 Oct 2026 16:03:16 +0530",
       "score": 24.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "Bitget Confirms Third-Party Zero-Day Behind $387.5 Million Cryptocurrency Theft",
+      "url": "https://thehackernews.com/2026/10/bitget-confirms-third-party-zero-day.html",
+      "summary": "Cryptocurrency exchange Bitget on Wednesday confirmed that attackers who stole $387.5 million last week exploited a zero-day flaw in third-party security products, citing ongoing investigation findings from SlowMist. \"Their investigation identified malicious activity involving third-party security products, including a zero-day vulnerability, and recovered a customized tool used by the attacker",
+      "published": "Thu, 01 Oct 2026 10:51:10 +0530",
+      "score": 24.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "Attackers Exploit Zimbra Flaw to Deploy Web Shells and Harvest Authentication Secrets",
+      "url": "https://thehackernews.com/2026/09/attackers-exploit-zimbra-flaw-to-deploy.html",
+      "summary": "Threat actors have weaponized a now-patched security flaw in Zimbra Collaboration Suite (ZCS) to deploy web shells and access mailbox data, according to findings from the Microsoft Security Research team. The attack exploits CVE-2026-73570 (CVSS score: 8.9), an unauthenticated operating system command injection flaw that can lead to remote code execution when Simple Network Management Protocol",
+      "published": "Wed, 30 Sep 2026 22:16:29 +0530",
+      "score": 24.0
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "DIVD says Zammad zero-days enabled AI-driven network breach",
+      "url": "https://www.bleepingcomputer.com/news/security/divd-says-zammad-zero-days-enabled-ai-driven-network-breach/",
+      "summary": "The Dutch Institute for Vulnerability Disclosure (DIVD) says that the breach of its network was possible by exploiting a chain of two zero-day vulnerabilities in the open-source Zammad ticketing system. [...]",
+      "published": "Wed, 30 Sep 2026 15:49:15 -0400",
+      "score": 24.0
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "Bitget hacked via zero-day in third-party security products",
+      "url": "https://www.bleepingcomputer.com/news/security/bitget-hacked-via-zero-day-in-third-party-security-products/",
+      "summary": "Cryptocurrency exchange Bitget revealed today that attackers who stole $387.5 million last week breached its systems after exploiting a zero-day flaw in third-party security products. [...]",
+      "published": "Wed, 30 Sep 2026 07:11:46 -0400",
+      "score": 24.0
+    },
+    {
+      "source": "SecurityWeek",
+      "title": "Government, Finance Orgs Targeted in Weeks-Long NetScaler Zero-Day Attacks",
+      "url": "https://www.securityweek.com/government-finance-orgs-targeted-in-weeks-long-netscaler-zero-day-attacks/",
+      "summary": "<p>Several security firms have confirmed seeing exploitation of the NetScaler vulnerabilities CVE-2026-88771 and CVE-2026-88772.</p> <p>The post <a href=\"https://www.securityweek.com/government-finance-orgs-targeted-in-weeks-long-netscaler-zero-day-attacks/\">Government, Finance Orgs Targeted in Weeks-Long NetScaler Zero-Day Attacks</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "published": "Wed, 30 Sep 2026 12:48:20 +0000",
+      "score": 23.0
     },
     {
       "source": "The Hacker News",
@@ -34,76 +106,84 @@
       "score": 21.0
     },
     {
-      "source": "BleepingComputer",
-      "title": "Kiteworks patches critical flaw, brings customer systems online",
-      "url": "https://www.bleepingcomputer.com/news/security/kiteworks-lifts-shutdown-warning-after-patching-critical-flaw/",
-      "summary": "American tech company Kiteworks has lifted a precautionary advisory asking customers to shut down systems after patching a critical vulnerability. [...]",
-      "published": "Tue, 29 Sep 2026 05:04:06 -0400",
-      "score": 21.0
-    },
-    {
-      "source": "Google News Cybersecurity",
-      "title": "Ransomware Attack on Financial Lender triggers customer lawsuit within 48 Hours - Cybersecurity Insiders",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOYmVkZU0zNkJfUWdmcTUzbEdDWk13czlhU3JkQTIxbFVQbG84UzRJVHR2RHNxTDJkVTJFNGxvbzZMZ1djYVNyaUh0dGhtVDhpTV9SVVRQenBYajlvYlE0S3FiWWpLaVprdWdwdWdiQ2xWNm9OTEZOQURwUzF6aUc0MVF6QjZWdFRveVNWUmNIUGxlWnBsZ3BMc2FGcGRTYTNwUkhFNnBrM3hZazN5TXFXMS1UelhjUVI4QWFz?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxOYmVkZU0zNkJfUWdmcTUzbEdDWk13czlhU3JkQTIxbFVQbG84UzRJVHR2RHNxTDJkVTJFNGxvbzZMZ1djYVNyaUh0dGhtVDhpTV9SVVRQenBYajlvYlE0S3FiWWpLaVprdWdwdWdiQ2xWNm9OTEZOQURwUzF6aUc0MVF6QjZWdFRveVNWUmNIUGxlWnBsZ3BMc2FGcGRTYTNwUkhFNnBrM3hZazN5TXFXMS1UelhjUVI4QWFz?oc=5\" target=\"_blank\">Ransomware Attack on Financial Lender triggers customer lawsuit within 48 Hours</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Cybersecurity Insiders</font>",
-      "published": "Wed, 30 Sep 2026 06:28:48 GMT",
-      "score": 21.0
-    },
-    {
-      "source": "BleepingComputer",
-      "title": "Japan's Keio confirms ransomware attack disrupted business systems",
-      "url": "https://www.bleepingcomputer.com/news/security/japans-keio-confirms-ransomware-attack-disrupted-business-systems/",
-      "summary": "Keio Corporation (Keio), a major private railway operator in Japan, said its network was hit by a ransomware attack over the weekend, disrupting some of its business systems. [...]",
-      "published": "Mon, 28 Sep 2026 16:56:47 -0400",
+      "source": "SecurityWeek",
+      "title": "Google Launches Gemini 4 Argon With Guardrail-Free Access for Vetted Defenders",
+      "url": "https://www.securityweek.com/google-launches-gemini-4-argon-with-guardrail-free-access-for-vetted-defenders/",
+      "summary": "<p>The company says its new frontier AI model found a critical vulnerability in software used by hospitals worldwide.</p> <p>The post <a href=\"https://www.securityweek.com/google-launches-gemini-4-argon-with-guardrail-free-access-for-vetted-defenders/\">Google Launches Gemini 4 Argon With Guardrail-Free Access for Vetted Defenders</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "published": "Thu, 01 Oct 2026 07:52:26 +0000",
       "score": 20.0
     },
     {
-      "source": "The Hacker News",
-      "title": "Carbonato Botnet Compromises Docker Hosts to Deploy Telegram-Controlled Hermes AI Agent",
-      "url": "https://thehackernews.com/2026/09/carbonato-botnet-compromises-docker.html",
-      "summary": "Cybersecurity researchers have disclosed details of a new botnet malware called Carbonato that's targeting exposed Docker daemons to deploy an open-source artificial intelligence (AI) agent framework called Hermes Agent. \"The implant installs the framework unchanged, then overwrites its SOUL.md persona file,\" ThreatDown said. \"The 39-line prompt directs it to execute tasks received through",
-      "published": "Mon, 28 Sep 2026 17:16:00 +0530",
+      "source": "SecurityWeek",
+      "title": "Google: AI Is Changing the Pace and Profile of Vulnerability Discovery",
+      "url": "https://www.securityweek.com/google-ai-is-changing-the-pace-and-profile-of-vulnerability-discovery/",
+      "summary": "<p>Google’s analysis found that AI-discovered vulnerabilities are more likely to enable remote code execution.</p> <p>The post <a href=\"https://www.securityweek.com/google-ai-is-changing-the-pace-and-profile-of-vulnerability-discovery/\">Google: AI Is Changing the Pace and Profile of Vulnerability Discovery</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "published": "Wed, 30 Sep 2026 14:05:58 +0000",
+      "score": 20.0
+    },
+    {
+      "source": "Google News Cybersecurity",
+      "title": "Bitdefender, Aruba bring sovereign cybersecurity to critical infrastructure, energy and other regulated sectors - Industrial Cyber",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQb0VXYmoyTzZFV2JCbjFadF8tQnpSbmpiSURvaTRwY3RLcTlDNXQyLWpJZFIzdUZSZm1qUmxhRkNnTmk2Y3NwQnpvQ1ZKSjBzY0s3Q0hOMzlWTGZvaTNZSmRtaWMwQmhlNkhYNHBWUjlRV0lyWUNKcDNPb1BlTVF6STBYU0RwT0lKME1fakRneU5aMk1NQmdqcjJ5NU84dmVaTXVaS05UWnAwU3NJbHVZcmJJVkRPN2JMUHpXeFlfa2YwMmlRMHBuTXhlckdLVmJUM0lLaGNfUXNWQQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi2gFBVV95cUxQb0VXYmoyTzZFV2JCbjFadF8tQnpSbmpiSURvaTRwY3RLcTlDNXQyLWpJZFIzdUZSZm1qUmxhRkNnTmk2Y3NwQnpvQ1ZKSjBzY0s3Q0hOMzlWTGZvaTNZSmRtaWMwQmhlNkhYNHBWUjlRV0lyWUNKcDNPb1BlTVF6STBYU0RwT0lKME1fakRneU5aMk1NQmdqcjJ5NU84dmVaTXVaS05UWnAwU3NJbHVZcmJJVkRPN2JMUHpXeFlfa2YwMmlRMHBuTXhlckdLVmJUM0lLaGNfUXNWQQ?oc=5\" target=\"_blank\">Bitdefender, Aruba bring sovereign cybersecurity to critical infrastructure, energy and other regulated sectors</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Industrial Cyber</font>",
+      "published": "Thu, 01 Oct 2026 10:39:20 GMT",
       "score": 18.0
     },
     {
       "source": "Google News Cybersecurity",
-      "title": "US is looking to weave AI into critical infrastructure for cybersecurity, national cyber director says - CyberScoop",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQcndTR2l3dGlWZlk2dXRiejE0WjllVjUyY1FUYW5pR1llSGYyTjNhcGc2ZGF3ZEs2Y1pUZ2JUSDVmNWx6RjQ1NHprN0xHNHJEWVV0RS1oM3dEOVNPd1ktLXhfSDNLaURHdEViRGF6MDBqQWlVUURxZkNqV1ZIWm1yXzRYakl5ck1kX0Z2dlRtRGRIUQ?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxQcndTR2l3dGlWZlk2dXRiejE0WjllVjUyY1FUYW5pR1llSGYyTjNhcGc2ZGF3ZEs2Y1pUZ2JUSDVmNWx6RjQ1NHprN0xHNHJEWVV0RS1oM3dEOVNPd1ktLXhfSDNLaURHdEViRGF6MDBqQWlVUURxZkNqV1ZIWm1yXzRYakl5ck1kX0Z2dlRtRGRIUQ?oc=5\" target=\"_blank\">US is looking to weave AI into critical infrastructure for cybersecurity, national cyber director says</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CyberScoop</font>",
-      "published": "Tue, 29 Sep 2026 19:37:44 GMT",
+      "title": "GAO finds overlapping federal cyber regulations create reporting challenges for critical infrastructure - Industrial Cyber",
+      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOQ2MyU25YZjJ6bFJWdWlJWTZGc0M2RHJLVFYwWG5MdXVkQzJkdXRodFIzZWFpZDhmVGxhYktEVjhMV1hiODlGQVNyUjMxTTk4akNLaXF4VmtjclYyV0gxdFJrTDJDdEdKaHN1SzBFVmhfbFRlM0RNRXBIUktLSkNZQk56VG5EdTZQbDNvZ2hPWEhGWHg2LVJEalZTMFI4cHBNRUlualVLTy11MW1JaUNDQ0NNU1dhMXNOblJDcS1scmxySk1hUEdTc1E1aElFRTJ3NzQzMEZpQzZUMVBEZFg1WjFZQWdOZGtaaEJuNWNNYjZxR2pVMFZQZHp0VQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi-wFBVV95cUxOQ2MyU25YZjJ6bFJWdWlJWTZGc0M2RHJLVFYwWG5MdXVkQzJkdXRodFIzZWFpZDhmVGxhYktEVjhMV1hiODlGQVNyUjMxTTk4akNLaXF4VmtjclYyV0gxdFJrTDJDdEdKaHN1SzBFVmhfbFRlM0RNRXBIUktLSkNZQk56VG5EdTZQbDNvZ2hPWEhGWHg2LVJEalZTMFI4cHBNRUlualVLTy11MW1JaUNDQ0NNU1dhMXNOblJDcS1scmxySk1hUEdTc1E1aElFRTJ3NzQzMEZpQzZUMVBEZFg1WjFZQWdOZGtaaEJuNWNNYjZxR2pVMFZQZHp0VQ?oc=5\" target=\"_blank\">GAO finds overlapping federal cyber regulations create reporting challenges for critical infrastructure</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Industrial Cyber</font>",
+      "published": "Thu, 01 Oct 2026 10:49:38 GMT",
       "score": 18.0
     },
     {
-      "source": "The Hacker News",
-      "title": "Official MCP Python SDK Flaw Can Let Malicious Servers Steal OAuth Credentials",
-      "url": "https://thehackernews.com/2026/09/official-mcp-python-sdk-flaw-can-let.html",
-      "summary": "A malicious MCP server could trick an application built on the official&nbsp;MCP Python SDK&nbsp;into handing over the OAuth credentials it uses to log in to a real service, the SDK's maintainers said in a security advisory. Affected versions sent the client secret, the authorization code, and the PKCE proof key to a token endpoint the attacker controlled. The fix is in versions 1.30.0 and",
-      "published": "Tue, 29 Sep 2026 11:38:25 +0530",
-      "score": 16.0
+      "source": "Google News Cybersecurity",
+      "title": "ZAWYA: OPSWAT, Redington team up to deliver critical infrastructure cybersecurity - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOWUg2UUF5S2xrUFBfSFZxYm9XRE8xSElDN3VHYlBLbDRjRzUwY3ZNMU9PbHZ6UmZrTThXeTJlb1B5M2U3NzNNSmpobmNORW9OVHlOOHIzMXpkM0ZIV1hqZ2lSRC1WVU1ZeXFvbUdJLUVrTTE5ZVNoUTBISFQzel9Nb1ZoaWpKRVRzM2FObnBKQXpBZVpydlAyZ1FzNlJsZ0pOcGpyYWE5Mnk2eWdmaHFtSnVwTk9DWDF6WnRKTnpwOHRUd3R3TEtBWnFNdmJheFVhZ3gtM0gxN01ZTG43V05McGQyaWlfMWJJdGpr?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi6wFBVV95cUxOWUg2UUF5S2xrUFBfSFZxYm9XRE8xSElDN3VHYlBLbDRjRzUwY3ZNMU9PbHZ6UmZrTThXeTJlb1B5M2U3NzNNSmpobmNORW9OVHlOOHIzMXpkM0ZIV1hqZ2lSRC1WVU1ZeXFvbUdJLUVrTTE5ZVNoUTBISFQzel9Nb1ZoaWpKRVRzM2FObnBKQXpBZVpydlAyZ1FzNlJsZ0pOcGpyYWE5Mnk2eWdmaHFtSnVwTk9DWDF6WnRKTnpwOHRUd3R3TEtBWnFNdmJheFVhZ3gtM0gxN01ZTG43V05McGQyaWlfMWJJdGpr?oc=5\" target=\"_blank\">ZAWYA: OPSWAT, Redington team up to deliver critical infrastructure cybersecurity</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TradingView</font>",
+      "published": "Thu, 01 Oct 2026 10:30:34 GMT",
+      "score": 18.0
     },
     {
-      "source": "The Hacker News",
-      "title": "IAM for AI agents: A Practical Enterprise Framework",
-      "url": "https://thehackernews.com/2026/09/iam-for-ai-agent.html",
-      "summary": "What is IAM for AI agents? AI agents authenticate, invoke tools, and act across enterprise systems with delegated authority. IAM for AI Agents is the identity-control architecture that governs those actors. This guide covers the limits of conventional provisioning, the components that matter, how to evaluate framework choices, and what runtime evidence proves an agent behaved as intended.",
-      "published": "Mon, 28 Sep 2026 23:50:38 +0530",
-      "score": 16.0
+      "source": "Google News Cybersecurity",
+      "title": "CISA Cyber Decoy Guide Helps Critical Infrastructure Detect Intruders Earlier - Homeland Security Today",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOSVNycll6UFlUNDJNSlprNVgtNG53Z3F6V1phVEFsZUFoZWluUW1WTzdqLWJza0w4QUhXNkxPOUdwcWFIVV9HcjlPX0hJTlVfcUlfUU4tNDlMRG5ZWUduU3VxUVB5OTM0U0ktQVFaeTFaM1VrY2J5UVFrWVgxU0VhZHZ3SlBNMWdJbXBZTlFZWnFRUTRwMWoxOWJYWmUtOXRkSi1FNDBtc2pJaWJJOFhUOG1CV2FUNVRRZ0VqOVJWUUZ3aDRGbTk1N0VXcGd5SVh4U3c?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi0gFBVV95cUxOSVNycll6UFlUNDJNSlprNVgtNG53Z3F6V1phVEFsZUFoZWluUW1WTzdqLWJza0w4QUhXNkxPOUdwcWFIVV9HcjlPX0hJTlVfcUlfUU4tNDlMRG5ZWUduU3VxUVB5OTM0U0ktQVFaeTFaM1VrY2J5UVFrWVgxU0VhZHZ3SlBNMWdJbXBZTlFZWnFRUTRwMWoxOWJYWmUtOXRkSi1FNDBtc2pJaWJJOFhUOG1CV2FUNVRRZ0VqOVJWUUZ3aDRGbTk1N0VXcGd5SVh4U3c?oc=5\" target=\"_blank\">CISA Cyber Decoy Guide Helps Critical Infrastructure Detect Intruders Earlier</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Homeland Security Today</font>",
+      "published": "Thu, 01 Oct 2026 09:00:57 GMT",
+      "score": 18.0
     },
     {
-      "source": "The Hacker News",
-      "title": "Bitget Says Attacker Exploited Third-Party Security Product Flaw to Steal $388M",
-      "url": "https://thehackernews.com/2026/09/bitget-says-attacker-exploited-third.html",
-      "summary": "The attacker who stole about $388 million from the cryptocurrency exchange Bitget gained access through a vulnerability in a third-party security product the exchange used, Bitget said on Monday. The attacker exploited the flaw to obtain high-level internal credentials and then, on September 24, used them to send fraudulent withdrawal commands to Bitget's wallet system. Exchanges keep most",
-      "published": "Mon, 28 Sep 2026 23:12:18 +0530",
+      "source": "BleepingComputer",
+      "title": "Over 543,000 valid credentials exposed in public GitHub repositories",
+      "url": "https://www.bleepingcomputer.com/news/security/over-543-000-valid-credentials-exposed-in-public-github-repositories/",
+      "summary": "More than 543,000 credentials exposed in public GitHub repositories were still valid in July despite the platform's security measures to prevent accidental leaks of sensitive data. [...]",
+      "published": "Wed, 30 Sep 2026 14:08:34 -0400",
       "score": 16.0
     },
     {
       "source": "BleepingComputer",
-      "title": "Catch threats before they escalate with real-time Identity Telemetry",
-      "url": "https://www.bleepingcomputer.com/news/security/catch-threats-before-they-escalate-with-real-time-identity-telemetry/",
-      "summary": "Identity governance helps control who should have access, but periodic reviews alone may not reveal attacks as they happen. tenfold Software explains how real-time identity telemetry can help security teams investigate suspicious activity before it escalates. [...]",
-      "published": "Tue, 29 Sep 2026 10:01:11 -0400",
+      "title": "AI's Third Wave: Coworkers Break the Security Model That Worked for Agents",
+      "url": "https://www.bleepingcomputer.com/news/security/ais-third-wave-coworkers-break-the-security-model-that-worked-for-agents/",
+      "summary": "Persistent AI coworkers may operate continuously with standing access, creating identity risks that existing security models were not designed to handle. Token Security explains why these agents need their own identities, owners, scoped permissions, and lifecycle controls. [...]",
+      "published": "Wed, 30 Sep 2026 10:01:11 -0400",
       "score": 16.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "Attackers Abuse MSP360 to Deploy ScreenConnect in Dual-RMM Phishing Attacks",
+      "url": "https://thehackernews.com/2026/09/attackers-abuse-msp360-to-deploy.html",
+      "summary": "Microsoft has warned of phishing campaigns distributing an installer for the MSP360 Remote Monitoring and Management (RMM) software under the guise of meeting invitations, PDF-themed lures, software update prompts, and other social-engineering content. \"Once executed, the legitimate MSP360 installer, distributed under a deceptive file name established remote management access on affected",
+      "published": "Wed, 30 Sep 2026 22:02:59 +0530",
+      "score": 15.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "US-Focused CSuite Phishing Steals Microsoft 365 Sessions and Deploys RMM Tools for Remote Access",
+      "url": "https://thehackernews.com/2026/09/us-focused-csuite-phishing-steals.html",
+      "summary": "ANY.RUN researchers traced a US-focused CSuite phishing campaign across 351 sandbox analyses, with 51% of submissions coming from the United States. Technology, manufacturing, government, and consulting organizations showed the highest exposure. By combining Microsoft 365 session theft with remote-access tool deployment, CSuite can turn a phishing incident into broader account compromise, fraud",
+      "published": "Wed, 30 Sep 2026 16:15:00 +0530",
+      "score": 15.0
     },
     {
       "source": "The Hacker News",
@@ -114,100 +194,20 @@
       "score": 15.0
     },
     {
-      "source": "The Hacker News",
-      "title": "Hackers Use NeedyMantis to Maintain Long-Term Access in Breached Networks",
-      "url": "https://thehackernews.com/2026/09/hackers-use-needymantis-to-maintain.html",
-      "summary": "Hackers have used a malware family called NeedyMantis to maintain long-term access to networks they had already breached, Microsoft said in&nbsp;a technical analysis. The malware has been seen in a small number of targeted intrusions at telecommunications organizations, universities, medical nonprofits, intergovernmental organizations, and government contractors. Its use goes back to at least",
-      "published": "Tue, 29 Sep 2026 00:05:42 +0530",
+      "source": "BleepingComputer",
+      "title": "Microsoft to block Entra ID script injection attacks starting October",
+      "url": "https://www.bleepingcomputer.com/news/security/microsoft-to-block-entra-id-script-injection-attacks-starting-october/",
+      "summary": "Microsoft has reminded customers that the Entra ID authentication system will get better protection against external script injection attacks starting next month. [...]",
+      "published": "Wed, 30 Sep 2026 09:37:15 -0400",
       "score": 15.0
     },
     {
       "source": "BleepingComputer",
-      "title": "Microsoft is rolling out Linux container support to WSL",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-is-rolling-out-linux-container-support-to-wsl/",
-      "summary": "Microsoft is taking Windows Subsystem for Linux beyond just running Linux distributions, as WSL Containers is now generally available. [...]",
-      "published": "Tue, 29 Sep 2026 20:40:57 -0400",
+      "title": "TeamViewer urges users to patch severe flaws “as soon as possible”",
+      "url": "https://www.bleepingcomputer.com/news/security/teamviewer-urges-users-to-patch-severe-flaws-as-soon-as-possible/",
+      "summary": "Remote access software company TeamViewer warned customers on Tuesday to immediately patch a set of high-severity vulnerabilities affecting its client and host software. [...]",
+      "published": "Wed, 30 Sep 2026 08:25:10 -0400",
       "score": 15.0
-    },
-    {
-      "source": "BleepingComputer",
-      "title": "Windows 11 2026 Update released, here's everything you need to know",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-2026-update-released-heres-everything-you-need-to-know/",
-      "summary": "Microsoft has started rolling out Windows 11 26H2 to everyone, and while it's this year's big annual feature update, you probably won't notice a massive difference after installing it. [...]",
-      "published": "Tue, 29 Sep 2026 13:37:40 -0400",
-      "score": 15.0
-    },
-    {
-      "source": "Google News Cybersecurity",
-      "title": "AI, cybersecurity, fiber: Tech conference held in Tupelo - WTVA",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPdmtRSFJCSEdzYkU5emdIdHd0a1VUSF8tVTY2RUZiUGE3VkRLOTVHQUVpNmtYWjd0QmhYdHFodk5ZSVc1eHFmdFk4bi1zQlhJRjhxTVJDWGhpeFpxeUk5RjhORFJOakYzYklleXpjY3FXTTRqOEx1SzVFUGNDU2FNdzdoZjRGMjhFM2FV0gGfAUFVX3lxTE9tOWdWdk9JUXpkNUV6RVZ6aXlVR1hoNG1ISGpXTjRseVZkRXhkcnpZS3JpejVZcEYyRzAydXJ4aXVJZDlfcjVfRjhBc21yV0ZXT1ZMbnlmZ05ldzkxME12dUJrUU12ZGFjekExVjlfQkZMU3BkQWpteVdtUnJRRU1iYlNUZy10SVNOOGNwMGl6WG02ZEI0cFQ1QjJmNFYwQQ?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxPdmtRSFJCSEdzYkU5emdIdHd0a1VUSF8tVTY2RUZiUGE3VkRLOTVHQUVpNmtYWjd0QmhYdHFodk5ZSVc1eHFmdFk4bi1zQlhJRjhxTVJDWGhpeFpxeUk5RjhORFJOakYzYklleXpjY3FXTTRqOEx1SzVFUGNDU2FNdzdoZjRGMjhFM2FV0gGfAUFVX3lxTE9tOWdWdk9JUXpkNUV6RVZ6aXlVR1hoNG1ISGpXTjRseVZkRXhkcnpZS3JpejVZcEYyRzAydXJ4aXVJZDlfcjVfRjhBc21yV0ZXT1ZMbnlmZ05ldzkxME12dUJrUU12ZGFjekExVjlfQkZMU3BkQWpteVdtUnJRRU1iYlNUZy10SVNOOGNwMGl6WG02ZEI0cFQ1QjJmNFYwQQ?oc=5\" target=\"_blank\">AI, cybersecurity, fiber: Tech conference held in Tupelo</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WTVA</font>",
-      "published": "Tue, 29 Sep 2026 23:57:00 GMT",
-      "score": 15.0
-    },
-    {
-      "source": "Google News Cybersecurity",
-      "title": "Central Alabama Water Hosts Cybersecurity Training for Water Utilities Across Alabama - WBMA",
-      "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOUjdUTkhIMzJlM0plNGRNRDUzdHpkVHlRZmpYOXR3S29kQjFjbmttNzc2a1JDVERuR20xSXh0UXZ3TTVfa3cxdEZaa0c1MFhQWm9tWDlYNzhINTRQbThDal9fbjduRl9USUphVER2Mlo0aHduRGxJbUNLeVBZQnlaQjJTSjNobUZmOGh4bjdmX05DYVR5UngwNWNnZnRfM3NQY1p3UktMLUhzTVpnUDdIRWhFWjYzalJndktCS3BZeGcyNHNoTkxVc0h1QjBXR2tlclFWeXQtYmxYT2JuQzhqX3RvQmFzaGVGZmtuR0ktekNlLWJiYm1wa0tESkg5LW1yWUh3Z29JQ19iRnBpZUZtZA?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikAJBVV95cUxOUjdUTkhIMzJlM0plNGRNRDUzdHpkVHlRZmpYOXR3S29kQjFjbmttNzc2a1JDVERuR20xSXh0UXZ3TTVfa3cxdEZaa0c1MFhQWm9tWDlYNzhINTRQbThDal9fbjduRl9USUphVER2Mlo0aHduRGxJbUNLeVBZQnlaQjJTSjNobUZmOGh4bjdmX05DYVR5UngwNWNnZnRfM3NQY1p3UktMLUhzTVpnUDdIRWhFWjYzalJndktCS3BZeGcyNHNoTkxVc0h1QjBXR2tlclFWeXQtYmxYT2JuQzhqX3RvQmFzaGVGZmtuR0ktekNlLWJiYm1wa0tESkg5LW1yWUh3Z29JQ19iRnBpZUZtZA?oc=5\" target=\"_blank\">Central Alabama Water Hosts Cybersecurity Training for Water Utilities Across Alabama</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WBMA</font>",
-      "published": "Tue, 29 Sep 2026 20:40:07 GMT",
-      "score": 15.0
-    },
-    {
-      "source": "Google News Cybersecurity",
-      "title": "Election Security: Trump Dismantled the U.S. Cybersecurity and Infrastructure Security Agency - by Jan Wondra - Ark Valley Voice",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQLXBPdmhENGctUFlQWTZvOW9wYlAzZFlIQWNPOEU3WUl2aE90WGQzaEs0bUhPVUE5Z1pKT25QX0E3eFVEV2lFNVpNb19HYVlORlFMTHV4Z0syVDVxd0lfNGlRMVFJLV95WHdudFgxeGREellzdTdiZTJZY0UyTDNITlFOcng4WXBIZ1kwZ05zazZMbmZwbnE2b0E5YlRDZ2dleTE5b0hUVmRRdFBTQ3hrVVItWDBZejY1R1k0?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxQLXBPdmhENGctUFlQWTZvOW9wYlAzZFlIQWNPOEU3WUl2aE90WGQzaEs0bUhPVUE5Z1pKT25QX0E3eFVEV2lFNVpNb19HYVlORlFMTHV4Z0syVDVxd0lfNGlRMVFJLV95WHdudFgxeGREellzdTdiZTJZY0UyTDNITlFOcng4WXBIZ1kwZ05zazZMbmZwbnE2b0E5YlRDZ2dleTE5b0hUVmRRdFBTQ3hrVVItWDBZejY1R1k0?oc=5\" target=\"_blank\">Election Security: Trump Dismantled the U.S. Cybersecurity and Infrastructure Security Agency - by Jan Wondra</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Ark Valley Voice</font>",
-      "published": "Tue, 29 Sep 2026 21:09:20 GMT",
-      "score": 15.0
-    },
-    {
-      "source": "Google News Cybersecurity",
-      "title": "Cybersecurity News: Star Blizzard, Cloudflare CA, GPT-6.1 scuttled - CISO Series",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQdzk3bzIyMTZRbVlVY01rZmdwdEhUM216OWpmTWhkQXRVbGxYYjZiLXc3dzJ0TUg1U2g2MVVmc0tmN0txWnVYZ19KR0IxekxMazh4SU9HRVFFOEhhNFgwN0l2dG5nQzJGYnZXQXJFQS1oeEpMbFVndjZfSmpsaXY2Z2dlNFYyQU04ZHdReE9idng?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxQdzk3bzIyMTZRbVlVY01rZmdwdEhUM216OWpmTWhkQXRVbGxYYjZiLXc3dzJ0TUg1U2g2MVVmc0tmN0txWnVYZ19KR0IxekxMazh4SU9HRVFFOEhhNFgwN0l2dG5nQzJGYnZXQXJFQS1oeEpMbFVndjZfSmpsaXY2Z2dlNFYyQU04ZHdReE9idng?oc=5\" target=\"_blank\">Cybersecurity News: Star Blizzard, Cloudflare CA, GPT-6.1 scuttled</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CISO Series</font>",
-      "published": "Wed, 30 Sep 2026 10:00:00 GMT",
-      "score": 13.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "Attackers Exploit NetScaler Flaw for Root Access, Deploy WHIPSHOT and SLAPSHOT",
-      "url": "https://thehackernews.com/2026/09/attackers-exploit-netscaler-flaw-for.html",
-      "summary": "Unknown threat actors have been observed exploiting a newly patched security flaw in Citrix NetScaler ADC and NetScaler Gateway appliances to target organizations in North America and Europe. The activity, observed by Mandiant Consulting and Google Threat Intelligence Group (GTIG) in September 2026, has targeted government, financial services, technology, education, and legal and professional",
-      "published": "Wed, 30 Sep 2026 13:54:35 +0530",
-      "score": 12.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "OpenSSL Fixes High-Severity DTLS Flaw That Can Leak Heap Memory Unencrypted",
-      "url": "https://thehackernews.com/2026/09/openssl-fixes-high-severity-dtls-flaw.html",
-      "summary": "A High-severity OpenSSL flaw can leak heap memory to the other side of a DTLS connection or crash the program,&nbsp;OpenSSL said&nbsp;on September 29 as it released fixes. DTLS, the TLS variant used for UDP traffic, resends a handshake message if no reply arrives before the timer expires. The leak or crash can happen when such a resend starts while a larger handshake message is stuck part-way",
-      "published": "Wed, 30 Sep 2026 13:39:28 +0530",
-      "score": 12.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "Citrix NetScaler CVE-2026-88772 Exploit Details Show Pre-Auth Path to Shellcode Execution",
-      "url": "https://thehackernews.com/2026/09/citrix-netscaler-cve-2026-88772-exploit.html",
-      "summary": "Cybersecurity researchers have disclosed technical details of a recently patched critical security flaw in Citrix NetScaler ADC and Gateway that has come under active exploitation in the wild. The vulnerability, tracked as CVE-2026-88772 (CVSS score: 9.5), has been described as a memory overflow bug in the Datagram Transport Layer Security (DTLS) protocol handling that's rooted in the NetScaler",
-      "published": "Wed, 30 Sep 2026 11:00:30 +0530",
-      "score": 12.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "French Tax Data Theft Using Stolen Staff Passwords Went Undetected for Seven Weeks",
-      "url": "https://thehackernews.com/2026/09/french-tax-data-theft-using-stolen.html",
-      "summary": "An attacker used stolen passwords of staff at France's tax administration to take tax data on hundreds of thousands of taxpayers and businesses in June and July. Neither the tax administration nor France's national cybersecurity agency saw the data leave. The attack was not sophisticated, the agency, ANSSI, says in a&nbsp;report&nbsp;(in French) published on Tuesday: it worked because of weak",
-      "published": "Tue, 29 Sep 2026 23:17:01 +0530",
-      "score": 12.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "New Spectre-v2 BTR Attack Leaks Linux Memory Despite Existing Defenses",
-      "url": "https://thehackernews.com/2026/09/new-spectre-v2-btr-attack-leaks-linux.html",
-      "summary": "A group of academics from VUSec and Scuola Superiore Sant'Anna have disclosed details of a new Spectre CPU vulnerability variant that affects Just-In-Time (JIT) engines present in web browsers, language runtimes, and the operating system kernel, across multiple CPU vendors. The new Spectre v2 variant has been codenamed Branch Target Reuse (BTR). \"The key insight is that, while modern CPUs",
-      "published": "Tue, 29 Sep 2026 22:50:17 +0530",
-      "score": 12.0
     }
   ]
 }
