@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-06T11:21:55.035609+00:00",
+  "generated_at_utc": "2026-10-07T11:09:51.556898+00:00",
   "publication_enabled": false,
   "editorial_note": "Candidates require human/editorial review and original technical work before publication.",
   "feed_errors": [
@@ -18,12 +18,12 @@
       "score": 34.0
     },
     {
-      "source": "BleepingComputer",
-      "title": "Citrix patches NetScaler SAML zero-day exploited in attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/citrix-patches-netscaler-saml-zero-day-exploited-in-attacks/",
-      "summary": "Citrix has released emergency updates for a new NetScaler denial-of-service vulnerability tracked as CVE-2026-88779 that has been exploited in zero-day attacks, with researchers investigating whether it can also be exploited for remote code execution. [...]",
-      "published": "Sun, 04 Oct 2026 17:58:01 -0400",
-      "score": 33.0
+      "source": "SecurityWeek",
+      "title": "Android’s October 2026 Updates Patch 25 Vulnerabilities",
+      "url": "https://www.securityweek.com/androids-october-2026-updates-patch-25-vulnerabilities/",
+      "summary": "<p>The patches resolve a critical vulnerability in Android’s System component that could lead to privilege escalation.</p> <p>The post <a href=\"https://www.securityweek.com/androids-october-2026-updates-patch-25-vulnerabilities/\">Android&#8217;s October 2026 Updates Patch 25 Vulnerabilities</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "published": "Wed, 07 Oct 2026 06:55:52 +0000",
+      "score": 27.0
     },
     {
       "source": "The Hacker News",
@@ -34,12 +34,20 @@
       "score": 24.0
     },
     {
-      "source": "The Hacker News",
-      "title": "New NetScaler Zero-Day Exploited in Targeted Attacks Can Knock SAML Deployments Offline",
-      "url": "https://thehackernews.com/2026/10/new-netscaler-zero-day-exploited-in.html",
-      "summary": "Citrix has released security updates for a high-severity security flaw in NetScaler ADC and NetScaler Gateway that has been exploited as part of targeted zero-day attacks. The vulnerability, tracked as CVE-2026-88779, carries a CVSS score of 8.7 out of 10.0. \"CVE-2026-88779 is a memory overflow vulnerability in Citrix NetScaler ADC and Citrix NetScaler Gateway that can lead to",
-      "published": "Mon, 05 Oct 2026 12:10:19 +0530",
+      "source": "BleepingComputer",
+      "title": "Hackers exploit 32 zero-days on first day of Pwn2Own Ireland",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-32-zero-days-on-first-day-of-pwn2own-ireland/",
+      "summary": "On the first day of the Pwn2Own Ireland 2026 competition, security researchers hacked the Samsung Galaxy S26 twice and earned $388,500 after exploiting 32 zero-days. [...]",
+      "published": "Tue, 06 Oct 2026 15:21:53 -0400",
       "score": 24.0
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "Atlassian warns of critical file-access flaw in Jira, Confluence",
+      "url": "https://www.bleepingcomputer.com/news/security/atlassian-warns-of-critical-file-access-flaw-in-jira-confluence/",
+      "summary": "Atlassian is warning customers of a critical vulnerability, tracked as CVE-2026-21589, that can be exploited for arbitrary file-access in multiple self-hosted Data Center products, including Confluence, Jira, and Bitbucket. [...]",
+      "published": "Tue, 06 Oct 2026 13:34:59 -0400",
+      "score": 21.0
     },
     {
       "source": "BleepingComputer",
@@ -51,11 +59,11 @@
     },
     {
       "source": "BleepingComputer",
-      "title": "New Dell System Update flaw lets hackers gain root privileges",
-      "url": "https://www.bleepingcomputer.com/news/security/new-dell-system-update-flaw-lets-hackers-gain-root-privileges/",
-      "summary": "Dell warned customers to patch a critical vulnerability in the System Update (DSU) command-line interface (CLI) deployment tool as soon as possible. [...]",
-      "published": "Mon, 05 Oct 2026 10:53:06 -0400",
-      "score": 21.0
+      "title": "Advantest confirms personal information stolen in ransomware attack",
+      "url": "https://www.bleepingcomputer.com/news/security/advantest-confirms-personal-information-stolen-in-ransomware-attack/",
+      "summary": "Advantest Corporation is notifying affected individuals that a ransomware attack earlier this year exposed their personally identifiable data. [...]",
+      "published": "Wed, 07 Oct 2026 06:27:52 -0400",
+      "score": 20.0
     },
     {
       "source": "BleepingComputer",
@@ -67,19 +75,11 @@
     },
     {
       "source": "SecurityWeek",
-      "title": "Long-Running NPM Malware Campaign Accumulates 40,000 Downloads",
-      "url": "https://www.securityweek.com/long-running-npm-malware-campaign-accumulates-40000-downloads/",
-      "summary": "<p>Since August 2023, attackers have published eight malicious packages as part of the MALFEX supply chain campaign.</p> <p>The post <a href=\"https://www.securityweek.com/long-running-npm-malware-campaign-accumulates-40000-downloads/\">Long-Running NPM Malware Campaign Accumulates 40,000 Downloads</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "published": "Tue, 06 Oct 2026 10:34:25 +0000",
+      "title": "Atlassian Patches Critical Vulnerability Affecting 8 Products",
+      "url": "https://www.securityweek.com/atlassian-patches-critical-vulnerability-affecting-8-products/",
+      "summary": "<p>Unauthenticated attackers could exploit the flaw to access specific files in the web application root directory.</p> <p>The post <a href=\"https://www.securityweek.com/atlassian-patches-critical-vulnerability-affecting-8-products/\">Atlassian Patches Critical Vulnerability Affecting 8 Products</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "published": "Wed, 07 Oct 2026 06:37:16 +0000",
       "score": 20.0
-    },
-    {
-      "source": "BleepingComputer",
-      "title": "tenfold CE: Our free Identity Governance tool just got 2 new features",
-      "url": "https://www.bleepingcomputer.com/news/security/tenfold-ce-our-free-identity-governance-tool-just-got-2-new-features/",
-      "summary": "tenfold has added shared content governance and real-time event auditing to its free Community Edition for organizations with under 150 users. The new features help teams manage Microsoft 365 sharing and investigate suspicious identity activity. [...]",
-      "published": "Mon, 05 Oct 2026 09:33:42 -0400",
-      "score": 19.0
     },
     {
       "source": "The Hacker News",
@@ -91,11 +91,51 @@
     },
     {
       "source": "The Hacker News",
+      "title": "Fake ChatGPT, Gemini, and Claude Ad Portals Capture Credentials and MFA Codes",
+      "url": "https://thehackernews.com/2026/10/fake-chatgpt-gemini-and-claude-ad.html",
+      "summary": "Cybersecurity researchers have disclosed details of a \"human-operated phishing platform\" that impersonates advertising products for artificial intelligence (AI) chatbots like Google Gemini, Anthropic Claude, OpenAI ChatGPT, Perplexity, Meta Muse, and Manus. The products, which claim to offer campaign optimization, spend audits, and business-account connections, are designed with one goal in",
+      "published": "Wed, 07 Oct 2026 00:08:55 +0530",
+      "score": 16.0
+    },
+    {
+      "source": "The Hacker News",
       "title": "The Credential Layer Is Expanding Faster Than Security Teams Can See It",
       "url": "https://thehackernews.com/2026/10/the-credential-layer-is-expanding.html",
       "summary": "Every modern enterprise depends on credentials. This is how humans, systems, and now AI, all connect to data, services, and each other securely. GitGuardian helps secure that credential layer through three connected capabilities: Detect, Remediate, and Prevent. The journey starts with detection, because organizations first need to understand what credentials exist, where they live, and what they",
       "published": "Mon, 05 Oct 2026 17:25:00 +0530",
       "score": 16.0
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "Fake ChatGPT, Gemini Sites steal advertising accounts, MFA codes",
+      "url": "https://www.bleepingcomputer.com/news/security/fake-chatgpt-gemini-sites-steal-advertising-accounts-mfa-codes/",
+      "summary": "A new campaign targeting ad account managers uses fake ChatGPT, Gemini, Claude, and Perplexity sites that steal login credentials and multi-factor authentication (MFA) codes through browser-in-browser attacks. [...]",
+      "published": "Tue, 06 Oct 2026 11:16:44 -0400",
+      "score": 16.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "Anthropic Expands Claude Access for Vetted Cyber Teams as Glasswing Finds 129,000 Flaws",
+      "url": "https://thehackernews.com/2026/10/anthropic-expands-claude-access-for.html",
+      "summary": "Anthropic on Tuesday said it's expanding a program that allows vetted cybersecurity professionals to test its advanced artificial intelligence (AI) models with reduced safeguards and blocking classifiers, as the company claimed its Project Glasswing initiative uncovered at least 129,000 verified software vulnerabilities between April and July 2026. The company said it also found an additional",
+      "published": "Wed, 07 Oct 2026 13:37:38 +0530",
+      "score": 15.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "100+ Compromised Websites Use Fake Cloudflare Checks to Deliver LunexStealer",
+      "url": "https://thehackernews.com/2026/10/100-compromised-websites-use-fake.html",
+      "summary": "The Computer Emergency Response Team of Ukraine (CERT-UA) has identified more than 100 compromised websites that have been injected with malicious JavaScript to serve an information-stealing malware called LunexStealer (aka Psychedelic Stealer). The activity, which was observed by the agency in September 2026, has been attributed to a threat cluster dubbed UAC-0277. It did not disclose who the",
+      "published": "Wed, 07 Oct 2026 12:27:54 +0530",
+      "score": 15.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "LibreOffice and OpenOffice Flaws Let Malicious Spreadsheets Run Code Without Macro Warnings",
+      "url": "https://thehackernews.com/2026/10/libreoffice-and-openoffice-flaws-let.html",
+      "summary": "A malicious spreadsheet can make LibreOffice and Apache OpenOffice run an attacker's code as soon as the file is opened, security researchers have shown. There is no warning first, of the kind either program shows before it runs a macro. The attack works only when the program's Java support is enabled. So far, it has only been shown as a proof of concept, and there are no reports of its use in",
+      "published": "Tue, 06 Oct 2026 17:27:00 +0530",
+      "score": 15.0
     },
     {
       "source": "The Hacker News",
@@ -122,20 +162,36 @@
       "score": 15.0
     },
     {
-      "source": "BleepingComputer",
-      "title": "Microsoft: Windows KB5124010 update crashes some games and apps",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-kb5124010-update-crashes-some-games-and-apps/",
-      "summary": "Microsoft confirmed over the weekend that some games and applications using AC-3 (Dolby Digital) audio decoding will crash after installing the September 2026 KB5124010 Windows 11 preview update. [...]",
-      "published": "Mon, 05 Oct 2026 05:37:56 -0400",
-      "score": 15.0
+      "source": "Google News Cybersecurity",
+      "title": "IBM’s AI-powered vulnerability clearinghouse finds hundreds of Java flaws - Cybersecurity Dive",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQV0lfNlRGc283bDBMbEdweXZqSVNwb19ZNHdmM3hqLVFBTGNicG8yVzQ2d1BCekFibWVxV2hqeGx1R3U5Y21BS0VJSzhEMmtHdmlJd3M1RGV2WEo2QlFhQlo0dTB6cFdqQjBmREhrT1ZLT2M3VF9PVGJGWkFyMkk2YUZpTjBsbWNQQmc?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxQV0lfNlRGc283bDBMbEdweXZqSVNwb19ZNHdmM3hqLVFBTGNicG8yVzQ2d1BCekFibWVxV2hqeGx1R3U5Y21BS0VJSzhEMmtHdmlJd3M1RGV2WEo2QlFhQlo0dTB6cFdqQjBmREhrT1ZLT2M3VF9PVGJGWkFyMkk2YUZpTjBsbWNQQmc?oc=5\" target=\"_blank\">IBM’s AI-powered vulnerability clearinghouse finds hundreds of Java flaws</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Cybersecurity Dive</font>",
+      "published": "Tue, 06 Oct 2026 15:28:50 GMT",
+      "score": 13.0
     },
     {
-      "source": "SecurityWeek",
-      "title": "Linux Backdoor Abuses STUN Protocol, Exploits Dozens of Flaws",
-      "url": "https://www.securityweek.com/linux-backdoor-abuses-stun-protocol-exploits-dozens-of-flaws/",
-      "summary": "<p>ClingSTUN operates as a back-connect proxy backdoor, sets up persistence, and contains exploits for self-propagation.</p> <p>The post <a href=\"https://www.securityweek.com/linux-backdoor-abuses-stun-protocol-exploits-dozens-of-flaws/\">Linux Backdoor Abuses STUN Protocol, Exploits Dozens of Flaws</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "published": "Mon, 05 Oct 2026 13:00:00 +0000",
-      "score": 14.0
+      "source": "The Hacker News",
+      "title": "Linux Backdoors Impersonate Email Security Tools to Evade Detection in Korea and Taiwan",
+      "url": "https://thehackernews.com/2026/10/linux-backdoors-impersonate-email.html",
+      "summary": "Linux backdoors targeting telecom and network appliances in South Korea and Taiwan have been disguising their traffic as email services and seemingly legitimate processes to blend in and evade detection. Threat actors are known to name their malicious software after a legitimate operating system component or a process as a defense evasion measure. By borrowing the name of a real binary, it may",
+      "published": "Tue, 06 Oct 2026 23:54:25 +0530",
+      "score": 12.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "Wikimedia Says OpenAI Agents Tried to Compromise Etherpad and Use Wiki Tools as Proxies",
+      "url": "https://thehackernews.com/2026/10/wikimedia-says-openai-agents-tried-to.html",
+      "summary": "The Wikimedia Foundation, which hosts Wikipedia, has confirmed that it has discovered activity by rogue OpenAI agents on its platforms, including unsuccessful efforts to compromise Etherpad, a public note-taking tool, and edit Wikipedia pages. \"The unauthorized bot activities included edits to our wikis, some unsuccessful attempts to exploit a public note-taking tool we host, and heavy traffic,",
+      "published": "Tue, 06 Oct 2026 16:56:25 +0530",
+      "score": 12.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "Welcome to the Jungle: What We Found Inside 15,465 Public MCP Servers",
+      "url": "https://thehackernews.com/2026/10/welcome-to-jungle-what-we-found-inside.html",
+      "summary": "In 2024, MCP (Model Context Protocol) set out to become the USB-C of AI: one standard for connecting models, agents, and IDEs to tools and data. The protocol delivered. Thousands of developers built servers, and enterprises plugged them into agent workflows. The ecosystem around it fell short. Earlier this year, our team at OX Security,&nbsp; traced critical vulnerabilities in Anthropic's MCP",
+      "published": "Tue, 06 Oct 2026 16:32:30 +0530",
+      "score": 12.0
     },
     {
       "source": "The Hacker News",
@@ -151,62 +207,6 @@
       "url": "https://thehackernews.com/2026/10/fbi-removes-accenture-contractor-after.html",
       "summary": "The U.S. Federal Bureau of Investigation (FBI) has removed an Accenture contractor for their alleged role in a ShinyHunters-breach that led to the theft of personal details of thousands of bureau employees. That's according to a report from Reuters, citing two sources familiar with the matter. \"To date, our review has determined that the incident occurred as the result of a security failure ​",
       "published": "Tue, 06 Oct 2026 12:26:57 +0530",
-      "score": 12.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "Denmark Says Attackers Accessed CPR Data for 8.8 Million People via Company Account",
-      "url": "https://thehackernews.com/2026/10/denmark-says-attackers-accessed-cpr.html",
-      "summary": "Unauthorized parties have gained access to the names, addresses, and personal identification numbers of about 8.8 million people, living and dead, in Denmark's national population register, the country's digitalization ministry&nbsp;said on October 5. They used a private Danish company's lawful right to look up records in the Central Person Register (CPR). The ministry has told people never to",
-      "published": "Tue, 06 Oct 2026 11:30:30 +0530",
-      "score": 12.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "Apple Plans Tighter macOS Full Disk Access Controls Over AI Agent Data Access",
-      "url": "https://thehackernews.com/2026/10/apple-plans-tighter-macos-full-disk.html",
-      "summary": "Apple has announced that it's taking steps to tighten controls around a macOS setting called Full Disk Access (FDA) due to security risks posed by artificial intelligence (AI) agents. \"Some developers are using Full Disk Access in ways that could put users at risk, exposing everything on their systems—including files, mail, messages, and even browsing history – without users' full knowledge",
-      "published": "Mon, 05 Oct 2026 16:08:50 +0530",
-      "score": 12.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "Attackers Target Rejetto HFS Flaw That Enables Admin Session Forgery and RCE",
-      "url": "https://thehackernews.com/2026/10/attackers-target-rejetto-hfs-flaw-that.html",
-      "summary": "A critical security flaw impacting Rejetto HTTP File Server (HFS) is witnessing active exploitation attempts, according to VulnCheck. The vulnerability in question is CVE-2026-61500 (CVSS score: 9.3), a case of session forgery stemming from the use of a weak pseudo-random number generator (PRNG) that can lead to a predictable key, which an attacker can then use to gain unauthorized access and",
-      "published": "Mon, 05 Oct 2026 13:39:23 +0530",
-      "score": 12.0
-    },
-    {
-      "source": "BleepingComputer",
-      "title": "OpenAI is adding invisible watermarks to ChatGPT and Codex text in the EU",
-      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-adding-invisible-watermarks-to-chatgpt-and-codex-text-in-the-eu/",
-      "summary": "OpenAI is preparing to add invisible watermarks to text generated by ChatGPT and Codex in the European Union. [...]",
-      "published": "Mon, 05 Oct 2026 18:46:33 -0400",
-      "score": 12.0
-    },
-    {
-      "source": "BleepingComputer",
-      "title": "IQVIA fined $7.8 million for failing to properly anonymize health data",
-      "url": "https://www.bleepingcomputer.com/news/security/iqvia-fined-78-million-for-failing-to-properly-anonymize-health-data/",
-      "summary": "Italy's Data Protection Authority (GPDP) has fined IQVIA €7 million ($7.8M) over poor data-processing practices that the agency says could have put roughly one million patients at risk of data exposure and de-anonymization. [...]",
-      "published": "Mon, 05 Oct 2026 13:19:53 -0400",
-      "score": 12.0
-    },
-    {
-      "source": "BleepingComputer",
-      "title": "Denmark population registry data breach affects 8.8 million people",
-      "url": "https://www.bleepingcomputer.com/news/security/denmark-population-registry-data-breach-affects-88-million-people/",
-      "summary": "Denmark's Central Population Register (CPR) is warning of a data breach that exposed the personal information of approximately 8.8 million registered individuals. [...]",
-      "published": "Mon, 05 Oct 2026 11:21:10 -0400",
-      "score": 12.0
-    },
-    {
-      "source": "BleepingComputer",
-      "title": "South Korea probes bank breaches amid suspected AI-powered attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/south-korea-probes-bank-breaches-amid-suspected-ai-powered-attacks/",
-      "summary": "South Korea's Financial Services Commission (FSC) held an emergency meeting following a series of cyberattacks targeting financial institutions in the country. [...]",
-      "published": "Mon, 05 Oct 2026 10:22:12 -0400",
       "score": 12.0
     }
   ]
