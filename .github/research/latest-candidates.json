@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-09T11:23:53.590754+00:00",
+  "generated_at_utc": "2026-10-10T10:41:17.340841+00:00",
   "publication_enabled": false,
   "editorial_note": "Candidates require human/editorial review and original technical work before publication.",
   "feed_errors": [
@@ -9,22 +9,6 @@
     }
   ],
   "candidates": [
-    {
-      "source": "SecurityWeek",
-      "title": "Cisco Patches a Dozen Critical Vulnerabilities",
-      "url": "https://www.securityweek.com/cisco-patches-a-dozen-critical-vulnerabilities/",
-      "summary": "<p>The security defects could lead to unauthorized access, information leaks, privilege escalation, DoS attacks, and remote code execution.</p> <p>The post <a href=\"https://www.securityweek.com/cisco-patches-a-dozen-critical-vulnerabilities/\">Cisco Patches a Dozen Critical Vulnerabilities</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "published": "Thu, 08 Oct 2026 15:28:06 +0000",
-      "score": 30.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "Tensorlake npm Package Compromised to Deliver Shai-Hulud Credential-Stealing Worm",
-      "url": "https://thehackernews.com/2026/10/tensorlake-npm-package-compromised-to.html",
-      "summary": "The npm package known as \"tensorlake,\" a TypeScript software development kit (SDK) for Tensorlake applications, sandboxes, and cloud services, was compromised as part of a ChainDrop / Shai-Hulud supply chain attack. The malicious version 0.5.144 \"contains obfuscated malware that harvests credentials, exfiltrates secrets, establishes persistence, and executes remotely supplied code,\" Socket said",
-      "published": "Thu, 08 Oct 2026 11:16:20 +0530",
-      "score": 28.0
-    },
     {
       "source": "SecurityWeek",
       "title": "Unpatched AhsayCBS Vulnerabilities Exploited in the Wild",
@@ -42,38 +26,6 @@
       "score": 27.0
     },
     {
-      "source": "The Hacker News",
-      "title": "FBI Warns FortiBleed Remains Active After Amassing 86,644 Fortinet Device Credentials",
-      "url": "https://thehackernews.com/2026/10/fbi-warns-fortibleed-remains-active.html",
-      "summary": "The U.S. Federal Bureau of Investigation (FBI) and Secret Service (USSS) on Tuesday warned that the FortiBleed credential harvesting campaign remains an active threat aimed at internet-facing Fortinet FortiGate firewalls and secure socket layer (SSL) virtual private network (VPN) gateways. \"The campaign exploits reused or leaked credentials and legacy SHA-256 password storage, enabling threat",
-      "published": "Wed, 07 Oct 2026 17:26:56 +0530",
-      "score": 25.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "Eight Malicious npm Packages Downloaded 40,767 Times Deliver Overlord RAT and Stealer",
-      "url": "https://thehackernews.com/2026/10/eight-malicious-npm-packages-downloaded.html",
-      "summary": "Cybersecurity researchers have disclosed details of a long-running npm supply chain malware campaign that pushes information stealers and remote access trojans (RAT) to compromised hosts. The campaign has been codenamed MALFEX by CloudSEK and Checkmarx. The activity is assessed to be the work of a lone threat actor who appears to have published 12 packages since August 2023, eight of which have",
-      "published": "Wed, 07 Oct 2026 23:13:20 +0530",
-      "score": 24.0
-    },
-    {
-      "source": "BleepingComputer",
-      "title": "Samsung Galaxy S26 hacked three more times at Pwn2Own Ireland",
-      "url": "https://www.bleepingcomputer.com/news/security/samsung-galaxy-s26-hacked-three-more-times-at-pwn2own-ireland/",
-      "summary": "​​​On the second day of Pwn2Own Ireland 2026, security researchers collected $232,500 in cash awards after exploiting 45 unique zero-day vulnerabilities. [...]",
-      "published": "Thu, 08 Oct 2026 02:32:16 -0400",
-      "score": 24.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "MonsterCloud Owner Accused of Billing Over $19M While Secretly Paying Ransoms to Decrypt Data",
-      "url": "https://thehackernews.com/2026/10/monstercloud-owner-accused-of-billing.html",
-      "summary": "The U.S. Department of Justice (DoJ) on Wednesday announced charges against a 50-year-old U.S. and Israeli national for allegedly defrauding ransomware victims by secretly paying the attackers to obtain decryptors while claiming to use proprietary tools to recover their data. Zohar Pinhasi (aka Zack Silver and Zack Green) has been charged with two counts of wire fraud and one count of wire",
-      "published": "Thu, 08 Oct 2026 13:11:44 +0530",
-      "score": 23.0
-    },
-    {
       "source": "BleepingComputer",
       "title": "Ransomware attack disrupts Japan's IDCF Cloud used by govt clients",
       "url": "https://www.bleepingcomputer.com/news/security/ransomware-attack-disrupts-japans-idcf-cloud-used-by-govt-clients/",
@@ -83,18 +35,18 @@
     },
     {
       "source": "The Hacker News",
-      "title": "Citrix Patches Critical NetScaler Flaw That Could Enable RCE in SAML Deployments",
-      "url": "https://thehackernews.com/2026/10/citrix-patches-critical-netscaler-flaw.html",
-      "summary": "Citrix has released patches for yet another critical security flaw impacting NetScaler ADC and NetScaler Gateway that could result in remote code execution or denial-of-service (DoS) under certain conditions. \"CVE-2026-107406 is a memory overflow vulnerability that may lead to remote code execution or denial-of-service under specific configuration conditions,\" Citrix said. The vulnerability",
-      "published": "Fri, 09 Oct 2026 13:41:33 +0530",
+      "title": "Researchers Publish Working Exploit for Pre-Auth AnyDesk Linux Flaw That Gives Root Access",
+      "url": "https://thehackernews.com/2026/10/researchers-publish-working-exploit-for.html",
+      "summary": "Security researchers have&nbsp;published a full working exploit&nbsp;for a pre-authentication remote code execution flaw in AnyDesk Linux that gives attackers root access before anyone approves the connection. AnyDesk patched the flaw in version 8.0.3 in June, but its&nbsp;changelog&nbsp;described the fix only as \"fixed a bug that could lead to a crash,\" with no CVE assigned and no security",
+      "published": "Fri, 09 Oct 2026 18:29:22 +0530",
       "score": 21.0
     },
     {
       "source": "The Hacker News",
-      "title": "Unpatched Critical LMCache Flaw Lets Unauthenticated Attackers Run Code Remotely",
-      "url": "https://thehackernews.com/2026/10/unpatched-critical-lmcache-flaw-lets.html",
-      "summary": "A critical vulnerability in LMCache, open-source software that speeds up large language model (LLM) servers such as vLLM, lets an attacker run code on the cache server without logging in, and no fixed version is available. The flaw is in LMCache's&nbsp;multiprocess mode, where the cache runs as a standalone server that LLM workers reach over the ZeroMQ messaging library. A single network",
-      "published": "Wed, 07 Oct 2026 21:04:53 +0530",
+      "title": "Citrix Patches Critical NetScaler Flaw That Could Enable RCE in SAML Deployments",
+      "url": "https://thehackernews.com/2026/10/citrix-patches-critical-netscaler-flaw.html",
+      "summary": "Citrix has released patches for yet another critical security flaw impacting NetScaler ADC and NetScaler Gateway that could result in remote code execution or denial-of-service (DoS) under certain conditions. \"CVE-2026-107406 is a memory overflow vulnerability that may lead to remote code execution or denial-of-service under specific configuration conditions,\" Citrix said. The vulnerability",
+      "published": "Fri, 09 Oct 2026 13:41:33 +0530",
       "score": 21.0
     },
     {
@@ -123,6 +75,14 @@
     },
     {
       "source": "BleepingComputer",
+      "title": "Germany arrests alleged core Qilin ransomware member after extradition",
+      "url": "https://www.bleepingcomputer.com/news/security/germany-arrests-alleged-core-qilin-ransomware-member-after-extradition/",
+      "summary": "Germany has arrested a Russian national suspected of being a leading member of the Qilin ransomware group following extradition from Japan earlier this month. [...]",
+      "published": "Fri, 09 Oct 2026 11:38:56 -0400",
+      "score": 20.0
+    },
+    {
+      "source": "BleepingComputer",
       "title": "FBI disrupts Chinese hacking tools used to breach critical infrastructure",
       "url": "https://www.bleepingcomputer.com/news/security/fbi-disrupts-chinese-hacking-tools-used-to-breach-critical-infrastructure/",
       "summary": "The FBI has seized seven domains used by Chinese state-sponsored hackers known as Flax Typhoon to operate two hacking tools, MicroScan and FishHub, used in attacks that breached critical infrastructure and other organizations worldwide. [...]",
@@ -139,14 +99,6 @@
     },
     {
       "source": "SecurityWeek",
-      "title": "Attackers Target Critical Atlassian Vulnerability Within Hours of PoC Publication",
-      "url": "https://www.securityweek.com/attackers-target-critical-atlassian-vulnerability-within-hours-of-poc-publication/",
-      "summary": "<p>Threat actors have started targeting CVE-2026-21589, a critical vulnerability in Atlassian’s self-hosted Data Center products.</p> <p>The post <a href=\"https://www.securityweek.com/attackers-target-critical-atlassian-vulnerability-within-hours-of-poc-publication/\">Attackers Target Critical Atlassian Vulnerability Within Hours of PoC Publication</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "published": "Thu, 08 Oct 2026 14:04:44 +0000",
-      "score": 20.0
-    },
-    {
-      "source": "SecurityWeek",
       "title": "US Disrupts Chinese State-Sponsored Hacking Tools",
       "url": "https://www.securityweek.com/us-disrupts-chinese-state-sponsored-hacking-tools/",
       "summary": "<p>Flax Typhoon and other APTs used MicroScan and FishHub to scan and hack US and foreign critical infrastructure.</p> <p>The post <a href=\"https://www.securityweek.com/us-disrupts-chinese-state-sponsored-hacking-tools/\">US Disrupts Chinese State-Sponsored Hacking Tools</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
@@ -154,12 +106,12 @@
       "score": 19.0
     },
     {
-      "source": "Google News Cybersecurity",
-      "title": "AI BOMs: The New Cybersecurity Imperative for Supply Chain Leaders - SupplyChainBrain",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxORHNEc3NKOHJwQ2JRaXdCd1hIT0FwMGNBUy1mTXB1VGFudWdoYXI3Qm1qYXdqdy0wNTJuMF9xT3g3d2dKV2l6Y2RIWjh6ZmJJdm10c1Q5cTk0NklpY2xPWTQ5VWVIQVlRSTgtRHI4Y08wWGhkN2ZWM3BpOXlxdDJuZHl1OXlqNVBIb00zdGRqdE9OTHNyZ2F5Q0laNkJLRDIteWRnS1VMei1GaExlcnZNeUhYX3haU0pzZ2ZYb1hJOVhVR19VQTVB?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMixwFBVV95cUxORHNEc3NKOHJwQ2JRaXdCd1hIT0FwMGNBUy1mTXB1VGFudWdoYXI3Qm1qYXdqdy0wNTJuMF9xT3g3d2dKV2l6Y2RIWjh6ZmJJdm10c1Q5cTk0NklpY2xPWTQ5VWVIQVlRSTgtRHI4Y08wWGhkN2ZWM3BpOXlxdDJuZHl1OXlqNVBIb00zdGRqdE9OTHNyZ2F5Q0laNkJLRDIteWRnS1VMei1GaExlcnZNeUhYX3haU0pzZ2ZYb1hJOVhVR19VQTVB?oc=5\" target=\"_blank\">AI BOMs: The New Cybersecurity Imperative for Supply Chain Leaders</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">SupplyChainBrain</font>",
-      "published": "Fri, 09 Oct 2026 04:00:00 GMT",
-      "score": 19.0
+      "source": "The Hacker News",
+      "title": "Attackers Exploit AhsayCBS Flaws to Deploy XMRig Miners Disguised as Microsoft Edge",
+      "url": "https://thehackernews.com/2026/10/attackers-exploit-ahsaycbs-flaws-to.html",
+      "summary": "Threat actors have been observed exploiting two recently disclosed flaws in the AhsayCBS backup utility to seize control of affected devices and deploy web shells and XMRig cryptocurrency miners. Details of the flaws are below - CVE-2026-105133 (CVSS v4 score: 5.5) - An improper authentication vulnerability in the checkSysPwd() function in the \"com/ahsay/obs/api/ApiStructsAction.java\"",
+      "published": "Fri, 09 Oct 2026 18:17:26 +0530",
+      "score": 18.0
     },
     {
       "source": "The Hacker News",
@@ -167,14 +119,6 @@
       "url": "https://thehackernews.com/2026/10/uac-0099-targets-ukrainian-government.html",
       "summary": "The Russia-aligned threat actor known as UAC-0099 has been attributed to a previously undocumented .NET infostealer and remote access trojan (RAT) codenamed ASHVEIN. According to TrendAI, the malware has been put to use in attacks targeting Ukrainian government personnel. The cybersecurity company is tracking the cluster under the name Earth Sirrush (previously SHADOW-EARTH-065). ASHVEIN,",
       "published": "Thu, 08 Oct 2026 20:56:56 +0530",
-      "score": 18.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "PoeLLM Malware Infects 3,400+ Servers to Expand Crypto Mining Botnet",
-      "url": "https://thehackernews.com/2026/10/poellm-malware-infects-3400-servers-to.html",
-      "summary": "Cybersecurity researchers are calling attention to a new malware family that has been observed targeting exposed artificial intelligence (AI) and large language model (LLM) infrastructure with an aim to deploy cryptocurrency miners and further expand the scale of the botnet. The financially motivated campaign, dubbed Canto Incognito, has been found to install cryptocurrency miners, including",
-      "published": "Wed, 07 Oct 2026 21:03:51 +0530",
       "score": 18.0
     },
     {
@@ -198,16 +142,72 @@
       "title": "Exclusive: Anthropic's new plan to protect critical infrastructure - Axios",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPaUhqYlFvYUhvdUZPa283VmtJSmRzTWVyYjJyNFhsVG9tQ21rQzJBVVViN1JGdkVfZjBDVThkZk9HRXAtdk1sbm9seEh5ekYwOEpBTXA2Q2loRF80QXAyYVpmVUprNjJwQkx3VFJ6UEozUWNSTVBwWmhFRGVtbS1xV2hRYVN6ZXM?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMihwFBVV95cUxPaUhqYlFvYUhvdUZPa283VmtJSmRzTWVyYjJyNFhsVG9tQ21rQzJBVVViN1JGdkVfZjBDVThkZk9HRXAtdk1sbm9seEh5ekYwOEpBTXA2Q2loRF80QXAyYVpmVUprNjJwQkx3VFJ6UEozUWNSTVBwWmhFRGVtbS1xV2hRYVN6ZXM?oc=5\" target=\"_blank\">Exclusive: Anthropic's new plan to protect critical infrastructure</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Axios</font>",
-      "published": "Fri, 09 Oct 2026 05:37:54 GMT",
+      "published": "Fri, 09 Oct 2026 14:45:08 GMT",
       "score": 18.0
     },
     {
+      "source": "Google News Cybersecurity",
+      "title": "Palo Alto reports legacy OT systems, fragmented security tools undermine critical infrastructure cyber resilience - Industrial Cyber",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNbXZucjVjUGJMeFFfSlJTUnREOVI3RGNzUU4yZW1LMFBSVkVsMkNjT2c1ZHJiLTJLOHdSa2stZU5Qa0tGZ1hsQWxwdlFBYTZXb1VuTnJyenY5SVV1Mk1pNFI1VE9KUUVVLThRdl82b2JodEVzNWJOdXlfSWhVdTEzMUdOUHI2dFFacEh1NHFiS3poMDAwMlU1bzFrMjBTUEdFcnc2aXp5UWRQbi1INUFBc2NXSFBfbjMxRXNxWGVvSUdhWTNlbm5DNU5ROHN6RjdudXp5NTdRN2l3bXdqenU5dXln?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi4gFBVV95cUxNbXZucjVjUGJMeFFfSlJTUnREOVI3RGNzUU4yZW1LMFBSVkVsMkNjT2c1ZHJiLTJLOHdSa2stZU5Qa0tGZ1hsQWxwdlFBYTZXb1VuTnJyenY5SVV1Mk1pNFI1VE9KUUVVLThRdl82b2JodEVzNWJOdXlfSWhVdTEzMUdOUHI2dFFacEh1NHFiS3poMDAwMlU1bzFrMjBTUEdFcnc2aXp5UWRQbi1INUFBc2NXSFBfbjMxRXNxWGVvSUdhWTNlbm5DNU5ROHN6RjdudXp5NTdRN2l3bXdqenU5dXln?oc=5\" target=\"_blank\">Palo Alto reports legacy OT systems, fragmented security tools undermine critical infrastructure cyber resilience</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Industrial Cyber</font>",
+      "published": "Sat, 10 Oct 2026 04:12:15 GMT",
+      "score": 18.0
+    },
+    {
+      "source": "SecurityWeek",
+      "title": "In Other News: AI Used in Korean Bank Breaches, Poem-Guided Botnet, Empire Admin Gets 40 Years",
+      "url": "https://www.securityweek.com/in-other-news-ai-used-in-korean-bank-breaches-poem-guided-botnet-empire-admin-gets-40-years/",
+      "summary": "<p>Noteworthy stories that might have slipped under the radar: Tensorlake npm SDK compromised, Empire Market co-founder gets 40 years, exposed NVIDIA GPU monitors leak telemetry.</p> <p>The post <a href=\"https://www.securityweek.com/in-other-news-ai-used-in-korean-bank-breaches-poem-guided-botnet-empire-admin-gets-40-years/\">In Other News: AI Used in Korean Bank Breaches, Poem-Guided Botnet, Empire Admin Gets 40 Years</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "published": "Fri, 09 Oct 2026 12:03:50 +0000",
+      "score": 17.0
+    },
+    {
       "source": "The Hacker News",
-      "title": "Wazza Phishkit Targets Banking, Government, and Manufacturing Across the US, EU, and Australia",
-      "url": "https://thehackernews.com/2026/10/wazza-phishkit-targets-banking.html",
-      "summary": "Phishing kits are no longer limited to copying a familiar login page and waiting for a victim to enter credentials. Attackers are increasingly building filtering, session management, and traffic controls into the infrastructure that delivers the phishing page itself. ANY.RUN has identified Wazza, a new phishkit targeting banking, manufacturing, and government organizations across the US, Europe",
-      "published": "Thu, 08 Oct 2026 16:00:00 +0530",
+      "title": "Credential-Stealing GitHub Actions Workflows Planted in Tens of Thousands of Repositories",
+      "url": "https://thehackernews.com/2026/10/credential-stealing-github-actions.html",
+      "summary": "Cybersecurity researchers have disclosed details of an ongoing credential-theft campaign that has compromised two high-profile open-source maintainer accounts to push a malicious workflow into over 340 repositories. \"Using the account of Takashi Kitao, author of the 18,400-star game engine pyxel, the attacker pushed a malicious workflow to 27 repositories starting at 13:20 UTC,\" StepSecurity",
+      "published": "Sat, 10 Oct 2026 00:44:28 +0530",
       "score": 16.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "The AI Velocity Paradox: Why Security Is Decades Behind AI Ambition",
+      "url": "https://thehackernews.com/2026/10/the-ai-velocity-paradox-why-security-is.html",
+      "summary": "As enterprises race to deploy autonomous AI agents to accelerate business, a new report reveals they are tethered to security architectures built for a different era. The \"Horizons of Identity Security\" report from SailPoint highlights a critical “velocity paradox,” in which organizations invest in AI-speed business operations while continuing to rely on human-speed security controls, creating a",
+      "published": "Fri, 09 Oct 2026 17:00:00 +0530",
+      "score": 16.0
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "How to keep AI agents within their permissions",
+      "url": "https://www.bleepingcomputer.com/news/security/how-to-keep-ai-agents-within-their-permissions/",
+      "summary": "AI agents can use valid credentials to perform actions beyond their assigned permissions, creating risks that traditional access controls may not prevent. Token Security explains how organizations can enforce agent-specific policies without sacrificing autonomy. [...]",
+      "published": "Fri, 09 Oct 2026 10:01:11 -0400",
+      "score": 16.0
+    },
+    {
+      "source": "Google News Cybersecurity",
+      "title": "FBI seizes domains linked to China-nexus botnet - Cybersecurity Dive",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOczNIU3diNlZkZzF6Z1FaZGdVREhhS1BQOUZ3cmJ2ekZpWjlVOGRROGVFV3NMa0RfOFhOSGJZY1VGNm42R0llQTdVRkFWOGtteGk3LXdkdU9VRVE1dHBZa3BraDZHclFrTVAzVVlKNnRJRWhhd0YxNHJTdk9VeFlLM1R5ZFF4RmJuaEhRSEtiNDNYLUVzN3c?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxOczNIU3diNlZkZzF6Z1FaZGdVREhhS1BQOUZ3cmJ2ekZpWjlVOGRROGVFV3NMa0RfOFhOSGJZY1VGNm42R0llQTdVRkFWOGtteGk3LXdkdU9VRVE1dHBZa3BraDZHclFrTVAzVVlKNnRJRWhhd0YxNHJTdk9VeFlLM1R5ZFF4RmJuaEhRSEtiNDNYLUVzN3c?oc=5\" target=\"_blank\">FBI seizes domains linked to China-nexus botnet</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Cybersecurity Dive</font>",
+      "published": "Fri, 09 Oct 2026 14:58:55 GMT",
+      "score": 16.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "Anthropic Cuts Live Internet Access for Internal AI Tests After Claude Exploits Injection Flaws",
+      "url": "https://thehackernews.com/2026/10/anthropic-cuts-live-internet-access-for.html",
+      "summary": "Anthropic on Friday said it's cutting off live internet access for all its internal evaluations following the discovery of new incidents in which its artificial intelligence (AI) models exhibited misaligned behavior and targeted real websites. The AI company said it identified four broad categories of unintended model actions during evaluations and internal use of Claude - Claude Mythos",
+      "published": "Sat, 10 Oct 2026 14:48:45 +0530",
+      "score": 15.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "Flax Typhoon Exploits Five Flaws as CISA Sets October 11 Deadline for Federal Agencies",
+      "url": "https://thehackernews.com/2026/10/flax-typhoon-exploits-five-flaws-as.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added five security flaws to its Known Exploited Vulnerabilities (KEV) catalog, following their abuse by a China-linked threat actor known as Flax Typhoon. The vulnerabilities in question are listed below - CVE-2015-3306 (CVSS score: 10.0) - An improper access control vulnerability in ProFTPD that could allow",
+      "published": "Fri, 09 Oct 2026 17:51:51 +0530",
+      "score": 15.0
     }
   ]
 }
