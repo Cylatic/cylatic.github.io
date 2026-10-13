@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-12T12:11:10.825768+00:00",
+  "generated_at_utc": "2026-10-13T11:55:57.797709+00:00",
   "publication_enabled": false,
   "editorial_note": "Candidates require human/editorial review and original technical work before publication.",
   "feed_errors": [
@@ -18,6 +18,22 @@
       "score": 30.0
     },
     {
+      "source": "SecurityWeek",
+      "title": "Bricksforge WordPress Plugin Vulnerability Exploited in the Wild",
+      "url": "https://www.securityweek.com/bricksforge-wordpress-plugin-vulnerability-exploited-in-the-wild/",
+      "summary": "<p>The vulnerability tracked as CVE-2026-85097 can allow threat actors to take control of the targeted WordPress websites.</p> <p>The post <a href=\"https://www.securityweek.com/bricksforge-wordpress-plugin-vulnerability-exploited-in-the-wild/\">Bricksforge WordPress Plugin Vulnerability Exploited in the Wild</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "published": "Mon, 12 Oct 2026 13:14:37 +0000",
+      "score": 25.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "⚡ Weekly Recap: Helpdesk 0-Days, Rogue Certs, ShinyHunters Arrest, AI-Fooling Malware and More",
+      "url": "https://thehackernews.com/2026/10/weekly-recap-helpdesk-0-days-rogue.html",
+      "summary": "Some meetings last longer than it took attackers to jump on a newly disclosed security flaw this week. Within hours, they were already testing it. That's not much time to read the warning, let alone do something about it. But speed is only part of the problem. A secure connection didn't always mean a safe destination. People offering to fix a ransomware mess had questions to answer themselves.",
+      "published": "Mon, 12 Oct 2026 20:46:26 +0530",
+      "score": 20.0
+    },
+    {
       "source": "The Hacker News",
       "title": "CyberXero Uses Claude Code in Campaign That Stole Over 628,000 Ukrainian Records",
       "url": "https://thehackernews.com/2026/10/cyberxero-uses-claude-code-in-campaign.html",
@@ -26,28 +42,36 @@
       "score": 20.0
     },
     {
-      "source": "SecurityWeek",
-      "title": "Ransomware Response Expert Arrested in ShinyHunters FBI Hack Probe",
-      "url": "https://www.securityweek.com/ransomware-response-expert-arrested-in-shinyhunters-fbi-hack-probe/",
-      "summary": "<p>The suspect is believed to be Edward Dubrovsky, a Canadian cybersecurity executive who was visiting the United States for a conference.</p> <p>The post <a href=\"https://www.securityweek.com/ransomware-response-expert-arrested-in-shinyhunters-fbi-hack-probe/\">Ransomware Response Expert Arrested in ShinyHunters FBI Hack Probe</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "published": "Mon, 12 Oct 2026 10:32:05 +0000",
-      "score": 19.0
-    },
-    {
       "source": "Google News Cybersecurity",
-      "title": "Industrial Cyber Days Begins Tomorrow - An Invitation to the People Who Keep Critical Infrastructure Running - Industrial Cyber",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOTGNPUUJEdE0zMHUzdUcxZXZWU2NyRGYxMUNwOTM4VHk0dmEwRDFmcG5SQVVOTkFRUTlRd2JuNTVqMEVIb1RzM2JTWkExVEF4eGJfQVZjLTFsVFVpSkpsTjJCNXBrQ1Z6VGMxWXJaRkVOdzd5c2lFaHJSMUloOVBQNHdwVmExbGMwVnlNQjVidXlVTXRrTGxXV0RoQ3dvUmJTaHBSR0I0aDhnZkpsOWVNS0JWck9EZHUwWFZMRTJ1VFljVXk0eGMteGxZZVVEOVRiMTNHM1RZdldJbXM?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi2wFBVV95cUxOTGNPUUJEdE0zMHUzdUcxZXZWU2NyRGYxMUNwOTM4VHk0dmEwRDFmcG5SQVVOTkFRUTlRd2JuNTVqMEVIb1RzM2JTWkExVEF4eGJfQVZjLTFsVFVpSkpsTjJCNXBrQ1Z6VGMxWXJaRkVOdzd5c2lFaHJSMUloOVBQNHdwVmExbGMwVnlNQjVidXlVTXRrTGxXV0RoQ3dvUmJTaHBSR0I0aDhnZkpsOWVNS0JWck9EZHUwWFZMRTJ1VFljVXk0eGMteGxZZVVEOVRiMTNHM1RZdldJbXM?oc=5\" target=\"_blank\">Industrial Cyber Days Begins Tomorrow - An Invitation to the People Who Keep Critical Infrastructure Running</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Industrial Cyber</font>",
-      "published": "Mon, 12 Oct 2026 06:01:14 GMT",
+      "title": "CISA, FBI and NSA Warn China-Linked Cyber Company Is Enabling Attacks on Critical Infrastructure Worldwide - Homeland Security Today",
+      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQWGZFc0xzZ1p1Y2pQbEwxUDU1c0R1b0syOFp0U19rNkFjdEwyeXVONDdtdGxBWDBnRFF1blFCSmtIRGg3VmhNOUxXc2RHZlNFWV91NVlZNHREM0RHTE51NnpqYjZSNUVQUXlEWi1sa3Yxb00yY0VDeXRGcVJBaTdLNjlIOVY3R2ZaWVpOWTFicnVpSHFTdUw5aDJNY25VSGNpMkl5ZDNYdnJGME5nZnJ5OEhZNmlJNGNpS0pzeUZfcGxKT3pqRGlfZFlDMkhLNjBCX00tWExVMnVIQzRrdU91NnVRZmxMdmRfZHMySlRwMzRCd0hGTHdv?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi9wFBVV95cUxQWGZFc0xzZ1p1Y2pQbEwxUDU1c0R1b0syOFp0U19rNkFjdEwyeXVONDdtdGxBWDBnRFF1blFCSmtIRGg3VmhNOUxXc2RHZlNFWV91NVlZNHREM0RHTE51NnpqYjZSNUVQUXlEWi1sa3Yxb00yY0VDeXRGcVJBaTdLNjlIOVY3R2ZaWVpOWTFicnVpSHFTdUw5aDJNY25VSGNpMkl5ZDNYdnJGME5nZnJ5OEhZNmlJNGNpS0pzeUZfcGxKT3pqRGlfZFlDMkhLNjBCX00tWExVMnVIQzRrdU91NnVRZmxMdmRfZHMySlRwMzRCd0hGTHdv?oc=5\" target=\"_blank\">CISA, FBI and NSA Warn China-Linked Cyber Company Is Enabling Attacks on Critical Infrastructure Worldwide</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Homeland Security Today</font>",
+      "published": "Tue, 13 Oct 2026 09:19:31 GMT",
       "score": 18.0
     },
     {
-      "source": "Google News Cybersecurity",
-      "title": "Ransomware Response Expert Arrested in ShinyHunters FBI Hack Probe - SecurityWeek",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdmkwM0dtTFVubzYwWjVESVI5Vi03LXRNTlh6dVpTYkNQandnNTE3SFFmbW9waWVGMXQ3MDlMZ1FsNl8yV3huNHozMUF0aWkta2ZaQXp5UHJURFZ3TGl6TWpqM3RsTm9vLWVaMnpBZ0h5MzdpOUZwUVA1T09FUk1WVVhUQUY0MmR6WU02ZXZPdF85VkdYRTFpSVUyZ0lUYXNXWmfSAaIBQVVfeXFMTXZpMDNHbUxVbm82MFo1RElSOVYtNy10TU5YenVaU2JDUGp3ZzUxN0hRZm1vcGllRjF0NzA5TGdRbDZfMld4bjR6MzFBdGlpLWtmWkF6eVByVERWd0xpek1qajN0bE5vby1lWjJ6QWdIeTM3aTlGcFFQNU9PRVJNVlVYVEFGNDJkellNNmV2T3RfOVZHWEUxaUlVMmdJVGFzV1pn?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxNdmkwM0dtTFVubzYwWjVESVI5Vi03LXRNTlh6dVpTYkNQandnNTE3SFFmbW9waWVGMXQ3MDlMZ1FsNl8yV3huNHozMUF0aWkta2ZaQXp5UHJURFZ3TGl6TWpqM3RsTm9vLWVaMnpBZ0h5MzdpOUZwUVA1T09FUk1WVVhUQUY0MmR6WU02ZXZPdF85VkdYRTFpSVUyZ0lUYXNXWmfSAaIBQVVfeXFMTXZpMDNHbUxVbm82MFo1RElSOVYtNy10TU5YenVaU2JDUGp3ZzUxN0hRZm1vcGllRjF0NzA5TGdRbDZfMld4bjR6MzFBdGlpLWtmWkF6eVByVERWd0xpek1qajN0bE5vby1lWjJ6QWdIeTM3aTlGcFFQNU9PRVJNVlVYVEFGNDJkellNNmV2T3RfOVZHWEUxaUlVMmdJVGFzV1pn?oc=5\" target=\"_blank\">Ransomware Response Expert Arrested in ShinyHunters FBI Hack Probe</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">SecurityWeek</font>",
-      "published": "Mon, 12 Oct 2026 10:41:48 GMT",
-      "score": 18.0
+      "source": "The Hacker News",
+      "title": "Two Critical MarkLogic Flaws Could Give Delegated Managers Persistent Admin Control",
+      "url": "https://thehackernews.com/2026/10/two-critical-marklogic-flaws-could-give.html",
+      "summary": "Two of 31 newly disclosed flaws in Progress Software's&nbsp;MarkLogic Server&nbsp;database could let an account given only some management privileges take administrator control of the server, the company says. Progress published all 31 on October 12 and scored five of them critical. Fixes have been available since September 10, in&nbsp;MarkLogic 11.3.7&nbsp;and&nbsp;MarkLogic 12.1.0. Affected",
+      "published": "Tue, 13 Oct 2026 14:14:01 +0530",
+      "score": 15.0
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "Norway fines Microsoft ad firm $9.6 million over Grindr data sharing",
+      "url": "https://www.bleepingcomputer.com/news/security/norway-fines-microsoft-ad-firm-96-million-over-grindr-data-sharing/",
+      "summary": "Norway's Data Protection Authority (Datatilsynet) has fined Microsoft-owned advertising company Xandr NOK 92 million ($9.6M) for unlawfully processing and sharing sensitive data belonging to Grindr users in the country. [...]",
+      "published": "Mon, 12 Oct 2026 16:13:52 -0400",
+      "score": 15.0
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "Yandex confirms service outage as users lose access to cloud files",
+      "url": "https://www.bleepingcomputer.com/news/security/yandex-confirms-service-outage-as-users-lose-access-to-cloud-files/",
+      "summary": "Russian cloud services provider Yandex announced that drone attacks damaged three of its data centers, forcing it to shut down two facilities and partially disable a third. [...]",
+      "published": "Mon, 12 Oct 2026 15:23:01 -0400",
+      "score": 15.0
     },
     {
       "source": "BleepingComputer",
@@ -59,11 +83,91 @@
     },
     {
       "source": "Google News Cybersecurity",
-      "title": "Stormshield appoints Christophe Canguilhem as president and CEO, succeeding Pierre-Yves Hentzen - Industrial Cyber",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPczA3WEtUcjV0RHVhSEU3cnE0Nmc5LVNfOEFodGNub2duUGdVWmxWLVpNdjcwM20tX1hvWmJ6SUtYRUtySXBLUEFfaDBmUjZrV2xldzhkakx4bWdtZ0kyck1WTVhyeXVvamVrMngwRHdyaEltYWtlM3oxbnh0ZElXWGttVDMxOERoSHJyWk15dGtlQl9EY01EZnpwZTdRWnA5YTlYUUFBa1ZiXzRleHBINm11WWNGY1Y0UGZvYUItWVBTME41T2c?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMixgFBVV95cUxPczA3WEtUcjV0RHVhSEU3cnE0Nmc5LVNfOEFodGNub2duUGdVWmxWLVpNdjcwM20tX1hvWmJ6SUtYRUtySXBLUEFfaDBmUjZrV2xldzhkakx4bWdtZ0kyck1WTVhyeXVvamVrMngwRHdyaEltYWtlM3oxbnh0ZElXWGttVDMxOERoSHJyWk15dGtlQl9EY01EZnpwZTdRWnA5YTlYUUFBa1ZiXzRleHBINm11WWNGY1Y0UGZvYUItWVBTME41T2c?oc=5\" target=\"_blank\">Stormshield appoints Christophe Canguilhem as president and CEO, succeeding Pierre-Yves Hentzen</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Industrial Cyber</font>",
-      "published": "Mon, 12 Oct 2026 11:31:16 GMT",
+      "title": "GIANT website and app down after 'cybersecurity incident' - WGAL",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPX3lYSUZQdUtyNHNfaV91N2VzMnFjSEF2WkM4Y1pQZmVpN2drZDdPRWdrcl9TMDhoc0ZkNFQ1R3p0Q25QRHMySWpzZWtmaDVlNl94LWU3VkdHeDJMVF82c3BkWTByQXcyRXJzblhsT2ptNGEzMTZyZ1pESjktS2JXMWtMOVV1ei1Pdm02WUlkcw?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxPX3lYSUZQdUtyNHNfaV91N2VzMnFjSEF2WkM4Y1pQZmVpN2drZDdPRWdrcl9TMDhoc0ZkNFQ1R3p0Q25QRHMySWpzZWtmaDVlNl94LWU3VkdHeDJMVF82c3BkWTByQXcyRXJzblhsT2ptNGEzMTZyZ1pESjktS2JXMWtMOVV1ei1Pdm02WUlkcw?oc=5\" target=\"_blank\">GIANT website and app down after 'cybersecurity incident'</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WGAL</font>",
+      "published": "Tue, 13 Oct 2026 10:18:24 GMT",
       "score": 15.0
+    },
+    {
+      "source": "Google News Cybersecurity",
+      "title": "CTOS Digital Updates On Cybersecurity Incident - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNdXZEVDBEcXpXSFRONFNTY2Nud3VacjVhV19DZnMyWjZuSWttQkJOWXIwbVpnd1BvcUM5b1JNbnRBWlpXMFp0c21Ea0dZd0puYWJhams5ejNpRUlHY21QN0NVRjBSclpkU0xaWVVIWFZreU1CRzd6aHBzN2VQNWpzVVlBSjVEVHNERlJVMVlySHFLbU1lbDhrZ2IxWFpRNHhvdkVremROR0x3SzBWSjV5M3ZYTUk4enM?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxNdXZEVDBEcXpXSFRONFNTY2Nud3VacjVhV19DZnMyWjZuSWttQkJOWXIwbVpnd1BvcUM5b1JNbnRBWlpXMFp0c21Ea0dZd0puYWJhams5ejNpRUlHY21QN0NVRjBSclpkU0xaWVVIWFZreU1CRzd6aHBzN2VQNWpzVVlBSjVEVHNERlJVMVlySHFLbU1lbDhrZ2IxWFpRNHhvdkVremROR0x3SzBWSjV5M3ZYTUk4enM?oc=5\" target=\"_blank\">CTOS Digital Updates On Cybersecurity Incident</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TradingView</font>",
+      "published": "Tue, 13 Oct 2026 10:27:47 GMT",
+      "score": 15.0
+    },
+    {
+      "source": "Google News Cybersecurity",
+      "title": "Microsoft Digital Defense 2026 Report Highlights New Cybersecurity Challenges Amid Rapid AI Adoption - Microsoft Source",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQdDdsY1dxdVlCX2ZHa3ZBRW9GZzF0cjE5aUdBMnEyTE50UFBsSnBtNGJ4VzZKdjlhSmg4ZktpYUNZaGY0OEE0emFoY1Z6TVprR0dEbFRZMWlIODBaV1YtUVBva3ZPMVdHMEIzc2hYbW40OVZKTDlueVVEZzkyTmVOMW5Jb19oWnF1RElqbk9mZmh1ekhuLU5TWDhteXpxel9KNmtLTWdmN2Rnd2psZk9qTVMwSzVMV1hIeGR5VEwtSGJpTzQ0M2VOOG5QUzBrREIzZEFJUzN4Y3dwdXZNMjg3dXR4elhQZw?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi5gFBVV95cUxQdDdsY1dxdVlCX2ZHa3ZBRW9GZzF0cjE5aUdBMnEyTE50UFBsSnBtNGJ4VzZKdjlhSmg4ZktpYUNZaGY0OEE0emFoY1Z6TVprR0dEbFRZMWlIODBaV1YtUVBva3ZPMVdHMEIzc2hYbW40OVZKTDlueVVEZzkyTmVOMW5Jb19oWnF1RElqbk9mZmh1ekhuLU5TWDhteXpxel9KNmtLTWdmN2Rnd2psZk9qTVMwSzVMV1hIeGR5VEwtSGJpTzQ0M2VOOG5QUzBrREIzZEFJUzN4Y3dwdXZNMjg3dXR4elhQZw?oc=5\" target=\"_blank\">Microsoft Digital Defense 2026 Report Highlights New Cybersecurity Challenges Amid Rapid AI Adoption</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Microsoft Source</font>",
+      "published": "Tue, 13 Oct 2026 08:29:59 GMT",
+      "score": 13.0
+    },
+    {
+      "source": "Google News Cybersecurity",
+      "title": "UAE Moves Microsoft MDASH Toward Government Cybersecurity Pilots - PCMag Middle East",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZkJQSDBzTjFWT3VwUHh1bE5UaGNTVjhYSTJGc3ItLVhjUDB0OWF0SW9KRkk2SGRWam1QNVNTTllvcXAzZXltSy1Ob2NwRV9mVWMtVmxRYTQtNEZLZzdpTTk1di04aVhGalBxeVhxOWlHU3JOLXIyR0pRbmVsTGJZSG5tcjBOZEZvTlRWR3VUUkFNRmJiQWhEQThHc24wdw?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxPZkJQSDBzTjFWT3VwUHh1bE5UaGNTVjhYSTJGc3ItLVhjUDB0OWF0SW9KRkk2SGRWam1QNVNTTllvcXAzZXltSy1Ob2NwRV9mVWMtVmxRYTQtNEZLZzdpTTk1di04aVhGalBxeVhxOWlHU3JOLXIyR0pRbmVsTGJZSG5tcjBOZEZvTlRWR3VUUkFNRmJiQWhEQThHc24wdw?oc=5\" target=\"_blank\">UAE Moves Microsoft MDASH Toward Government Cybersecurity Pilots</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">PCMag Middle East</font>",
+      "published": "Tue, 13 Oct 2026 10:59:37 GMT",
+      "score": 13.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "LG Smart TVs Vulnerable to Pre-Auth Root Takeover From Local Network",
+      "url": "https://thehackernews.com/2026/10/lg-smart-tvs-vulnerable-to-pre-auth.html",
+      "summary": "Three vulnerabilities in LG's webOS can be chained to give an attacker on the same local network root access to certain smart TVs without a PIN or any interaction from the owner. LG has issued a fix, according to&nbsp;an advisory published by SSD Secure Disclosure&nbsp;on October 12. The chain was tested on two TV models, the 32LQ636BPSA and the 27TQ600SW, running webOS 7.5.7-25 on firmware",
+      "published": "Tue, 13 Oct 2026 16:39:10 +0530",
+      "score": 12.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "Product Walkthrough: Bitdefender AI Visibility and Control",
+      "url": "https://thehackernews.com/2026/10/product-walkthrough-bitdefender-ai.html",
+      "summary": "A user opens a browser tab, pastes data into a chat assistant, and nothing is installed. A developer adds a coding&nbsp;assistant as an editor extension, and nothing shows up in the installed programs list. Someone downloads a local model runtime, a program that runs models directly on the machine instead of sending data to an external service, because they were told not to send company data",
+      "published": "Tue, 13 Oct 2026 16:00:00 +0530",
+      "score": 12.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "Attackers Heat French Supermarket Fridges Up to 50°C by Hijacking Danfoss Controllers",
+      "url": "https://thehackernews.com/2026/10/attackers-heat-french-supermarket.html",
+      "summary": "Attackers took remote control of fridges and freezers at hundreds of French supermarkets on the night of October 11 and warmed them, forcing stores to throw food away, several retail chains said. The attackers reached them through the controller that runs all of a store's fridges and freezers, a device made by Danish company Danfoss that maintenance firms can manage remotely. Les Mousquetaires",
+      "published": "Tue, 13 Oct 2026 14:18:41 +0530",
+      "score": 12.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "GitLab Patches CVSS 10.0 Flaw That Could Let Unauthenticated Users Run Server Code",
+      "url": "https://thehackernews.com/2026/10/gitlab-patches-cvss-100-flaw-that-could.html",
+      "summary": "GitLab has released patches for a maximum-severity security flaw impacting its Community Edition (CE) and Enterprise Edition (EE) software that could result in arbitrary code execution. \"GitLab has remediated an issue that, under certain conditions, could have allowed an unauthenticated user to execute arbitrary code on the GitLab server via a specially crafted regular expression in a CI/CD",
+      "published": "Tue, 13 Oct 2026 14:13:37 +0530",
+      "score": 12.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "Low-Cost Android Phones Ship With Preinstalled Malware That Turns Them Into Residential Proxies",
+      "url": "https://thehackernews.com/2026/10/low-cost-android-phones-ship-with.html",
+      "summary": "Low-cost Android smartphones have been shipped with malicious software baked into the device firmware, allowing bad actors to covertly install apps, conduct ad fraud, and turn devices into residential proxies. The activity, which targets Android devices built on MediaTek platforms across several brands, is being tracked by Bitdefender under the moniker Midnight Mimosa. The preinstalled",
+      "published": "Tue, 13 Oct 2026 11:30:11 +0530",
+      "score": 12.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "Bring Your Own Agent: Your Employees' Assistants Are Already Logged In",
+      "url": "https://thehackernews.com/2026/10/bring-your-own-agent-your-employees.html",
+      "summary": "The personal AI agents rollout is going about as smoothly as expected: Amazon now blocks Meta's Muse because it doesn't identify itself as a bot while browsing; Instinct keeps raising privacy concerns; and the horror stories from pretty much every personal AI agent keep piling up. Regardless, the tech world is mesmerized by the capabilities and potential of these services. Less than a year",
+      "published": "Mon, 12 Oct 2026 17:25:00 +0530",
+      "score": 12.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "Ledger Finds Unauthorized Hardware Implant in CryptoBilis-Sold Wallet Amid Fund Theft Reports",
+      "url": "https://thehackernews.com/2026/10/ledger-finds-unauthorized-hardware.html",
+      "summary": "Cryptocurrency hardware maker Ledger has temporarily paused sales of its products via CryptoBilis following reports of stolen funds linked to devices sold by the reseller. On Friday, the company said it was investigating reports of loss of funds from users in Southeast Asia who had purchased products from CryptoBilis. The incident is said to have resulted in losses totaling more than $86",
+      "published": "Mon, 12 Oct 2026 16:51:48 +0530",
+      "score": 12.0
     },
     {
       "source": "The Hacker News",
@@ -74,140 +178,36 @@
       "score": 12.0
     },
     {
-      "source": "The Hacker News",
-      "title": "P7 DarkSword iOS Exploit Kit Adds Crypto Wallet Data Theft and Remote Commands",
-      "url": "https://thehackernews.com/2026/10/p7-darksword-ios-exploit-kit-adds.html",
-      "summary": "Cybersecurity researchers have disclosed details of a previously unseen variant of the DarkSword iOS exploit kit called P7 DarkSword. \"Compared with the variants we usually observe, P7 reduces its on-device footprint, adds on-device keychain and crypto-wallet theft, and adds two way C2 communication with the attacker's infrastructure,\" iVerify said in a new report published Thursday. The name",
-      "published": "Sun, 11 Oct 2026 09:54:34 +0530",
+      "source": "BleepingComputer",
+      "title": "Anthropic takes risky AI tests offline after models breach govt sites",
+      "url": "https://www.bleepingcomputer.com/news/security/anthropic-takes-risky-ai-tests-offline-after-models-breach-govt-sites/",
+      "summary": "Anthropic announced that its internal AI models undergoing \"high-risk and cybersecurity evaluations\" no longer have internet access following incidents involving U.S. government websites at the federal, state, and local levels. [...]",
+      "published": "Mon, 12 Oct 2026 14:51:59 -0400",
       "score": 12.0
     },
     {
       "source": "BleepingComputer",
-      "title": "Nippon Columbia malware incident exposes 8.6 million karaoke fan records",
-      "url": "https://www.bleepingcomputer.com/news/security/nippon-columbia-malware-incident-exposes-86-million-karaoke-fan-records/",
-      "summary": "Daiichi Kosho, a major Japanese entertainment system maker, disclosed that a malware infection at its contractor, Nippon Columbia, exposed more than 8.7 million customer and employee records. [...]",
-      "published": "Sun, 11 Oct 2026 10:23:46 -0400",
+      "title": "Ledger confirms spy chip implant behind wallet crypto thefts",
+      "url": "https://www.bleepingcomputer.com/news/security/ledger-confirms-hardware-wallet-spy-implant-behind-crypto-thefts/",
+      "summary": "Ledger has confirmed that some of its devices distributed through Southeast Asian reseller CryptoBilis were compromised with a hardware implant that drained users' cryptocurrency wallets. [...]",
+      "published": "Mon, 12 Oct 2026 12:27:23 -0400",
       "score": 12.0
     },
     {
       "source": "BleepingComputer",
-      "title": "Cyber exec arrested in case allegedly tied to ShinyHunters hackers",
-      "url": "https://www.bleepingcomputer.com/news/security/cyber-exec-arrested-in-case-allegedly-tied-to-shinyhunters-hackers/",
-      "summary": "Canadian cybersecurity executive Edward Dubrovsky has been arrested in Pennsylvania in connection with alleged extortion activity that multiple reports have linked to the FBI's ongoing crackdown on the ShinyHunters hacking group. [...]",
-      "published": "Sat, 10 Oct 2026 11:07:54 -0400",
+      "title": "Cyberattack shuts down refrigerators at French supermarkets",
+      "url": "https://www.bleepingcomputer.com/news/security/cyberattack-shuts-down-refrigerators-at-french-supermarkets/",
+      "summary": "Attackers remotely defrosted refrigerators at multiple French supermarket chains overnight in a cyberattack that reportedly targeted Danfoss refrigeration controllers. [...]",
+      "published": "Mon, 12 Oct 2026 11:23:34 -0400",
       "score": 12.0
     },
     {
       "source": "BleepingComputer",
-      "title": "ARTEX AI, Claude agents used in cyberattacks on South Korean banks",
-      "url": "https://www.bleepingcomputer.com/news/security/hacker-used-artex-ai-and-claude-agents-to-target-south-korean-banks/",
-      "summary": "The cyberattacks that shook the South Korean financial sector earlier this month were launched by a Chinese hacker using the ARTEX AI penetration testing suite and Claude agents. [...]",
-      "published": "Sat, 10 Oct 2026 10:16:17 -0400",
+      "title": "Inside AvisLoader: A Windows Malware Loader Built to Resist Disruption",
+      "url": "https://www.bleepingcomputer.com/news/security/inside-avisloader-a-windows-malware-loader-built-to-resist-disruption/",
+      "summary": "A new Windows malware loader called AvisLoader uses encrypted peer-to-peer communications to make command-and-control infrastructure harder to disrupt. Varonis researchers explain how the malware uses ClickFix delivery, shortcut-based persistence, and remote command execution capabilities. [...]",
+      "published": "Mon, 12 Oct 2026 10:00:10 -0400",
       "score": 12.0
-    },
-    {
-      "source": "BleepingComputer",
-      "title": "Criminal IP Introduces AITEM as the Next Evolution of Attack Surface Management",
-      "url": "https://www.bleepingcomputer.com/news/security/criminal-ip-introduces-aitem-as-the-next-evolution-of-attack-surface-management/",
-      "summary": "Traditional attack surface management helps organizations discover exposed assets, but visibility alone is not enough to address threats. Criminal IP introduces AITEM, an AI-powered approach that connects exposure discovery with investigation, risk prioritization, and response. [...]",
-      "published": "Sat, 10 Oct 2026 08:30:39 -0400",
-      "score": 12.0
-    },
-    {
-      "source": "SecurityWeek",
-      "title": "Canonical Websites Disrupted in Second DDoS Attack This Year",
-      "url": "https://www.securityweek.com/canonical-websites-disrupted-in-second-ddos-attack-this-year/",
-      "summary": "<p>The outage hit the main Ubuntu and Canonical websites, including the Ubuntu blog and developer portal</p> <p>The post <a href=\"https://www.securityweek.com/canonical-websites-disrupted-in-second-ddos-attack-this-year/\">Canonical Websites Disrupted in Second DDoS Attack This Year</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "published": "Mon, 12 Oct 2026 11:58:39 +0000",
-      "score": 11.0
-    },
-    {
-      "source": "SecurityWeek",
-      "title": "Mastermind of 15,000-Mule Cybercrime Laundering Network Pleads Guilty in US",
-      "url": "https://www.securityweek.com/mastermind-of-15000-mule-cybercrime-laundering-network-pleads-guilty-in-us/",
-      "summary": "<p>Oleg Korniev was a leader of YMCO, a sophisticated network of money mules that helped hackers move funds outside the US.</p> <p>The post <a href=\"https://www.securityweek.com/mastermind-of-15000-mule-cybercrime-laundering-network-pleads-guilty-in-us/\">Mastermind of 15,000-Mule Cybercrime Laundering Network Pleads Guilty in US</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "published": "Mon, 12 Oct 2026 11:24:50 +0000",
-      "score": 11.0
-    },
-    {
-      "source": "SecurityWeek",
-      "title": "iRhythm Data Breach Impacts at Least 360,000 People",
-      "url": "https://www.securityweek.com/irhythm-data-breach-impacts-over-360000-people/",
-      "summary": "<p>Hackers stole patients’ personal information, including names, addresses, email addresses, dates of birth, and phone numbers.</p> <p>The post <a href=\"https://www.securityweek.com/irhythm-data-breach-impacts-over-360000-people/\">iRhythm Data Breach Impacts at Least 360,000 People</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "published": "Mon, 12 Oct 2026 11:05:43 +0000",
-      "score": 11.0
-    },
-    {
-      "source": "SecurityWeek",
-      "title": "Critical SonicWall Vulnerability Exploited Days After Disclosure",
-      "url": "https://www.securityweek.com/critical-sonicwall-vulnerability-exploited-days-after-disclosure/",
-      "summary": "<p>CVE-2026-102255 is a pre-authenticated SSRF flaw that could allow attackers to perform unauthorized operations.</p> <p>The post <a href=\"https://www.securityweek.com/critical-sonicwall-vulnerability-exploited-days-after-disclosure/\">Critical SonicWall Vulnerability Exploited Days After Disclosure</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "published": "Mon, 12 Oct 2026 08:36:01 +0000",
-      "score": 11.0
-    },
-    {
-      "source": "SecurityWeek",
-      "title": "Let’s Encrypt Cuts Default Certificate Validity to 64 Days Ahead of 45-Day Switch",
-      "url": "https://www.securityweek.com/lets-encrypt-cuts-default-certificate-validity-to-64-days-ahead-of-45-day-switch/",
-      "summary": "<p>Beginning February 2027, all newly issued certificates will have a 64-day validity period by default.</p> <p>The post <a href=\"https://www.securityweek.com/lets-encrypt-cuts-default-certificate-validity-to-64-days-ahead-of-45-day-switch/\">Let’s Encrypt Cuts Default Certificate Validity to 64 Days Ahead of 45-Day Switch</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "published": "Mon, 12 Oct 2026 07:53:28 +0000",
-      "score": 11.0
-    },
-    {
-      "source": "Google News Cybersecurity",
-      "title": "Ahold Delhaize takes precautionary measures following cybersecurity incident - Ahold Delhaize",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNbjN3bGhiSEFFdjFPRG9PMUM4Vzk2OUhxR1VwX05BYlh1eURaUmlEaGR1OUtkWnNUWndMV1QzZWs1OHR6ektEVXRyZ3BWUkh6YU5NN0pFU3FqUWE2V044QkJMYTVJR0ZfQTB3MnduNDFXcnpMNHBZS2RrOGhyLThaQ1Q4eHlwaE1RZUZMNXptcExhc2JfSE8tN1VwSWpkWFJjYVRESVhDVnI2M3pvQUd2QWxR?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxNbjN3bGhiSEFFdjFPRG9PMUM4Vzk2OUhxR1VwX05BYlh1eURaUmlEaGR1OUtkWnNUWndMV1QzZWs1OHR6ektEVXRyZ3BWUkh6YU5NN0pFU3FqUWE2V044QkJMYTVJR0ZfQTB3MnduNDFXcnpMNHBZS2RrOGhyLThaQ1Q4eHlwaE1RZUZMNXptcExhc2JfSE8tN1VwSWpkWFJjYVRESVhDVnI2M3pvQUd2QWxR?oc=5\" target=\"_blank\">Ahold Delhaize takes precautionary measures following cybersecurity incident</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Ahold Delhaize</font>",
-      "published": "Mon, 12 Oct 2026 06:29:37 GMT",
-      "score": 10.0
-    },
-    {
-      "source": "Google News Cybersecurity",
-      "title": "Exclusive | Quantum-Computing Company IonQ to Buy Cybersecurity Firm for Up to $1.3 Billion - WSJ",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQNmk5NnMzd2lyOHZSR1dvNEVleUIzdGg0dTF0X3NkWDVNblZYMXVoQjJFREtXdE10MFYwZkpOZHptN3dYdFV2S1RwMzAyNFFqMkxqX3N3c3lpSVNUU0s4U2hlaTVNNFg1RTJ5RkZpb1JyUGFKTFc3bHFlWkV3S0szdDUtSlE2WV91VmphdUdZc3MyNTM1YTVpVlNnNW04QUIyMmQxTGx2Z2FBcGFFZ3Q0anEzeFJlNHpXNUdheDBXRQ?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxQNmk5NnMzd2lyOHZSR1dvNEVleUIzdGg0dTF0X3NkWDVNblZYMXVoQjJFREtXdE10MFYwZkpOZHptN3dYdFV2S1RwMzAyNFFqMkxqX3N3c3lpSVNUU0s4U2hlaTVNNFg1RTJ5RkZpb1JyUGFKTFc3bHFlWkV3S0szdDUtSlE2WV91VmphdUdZc3MyNTM1YTVpVlNnNW04QUIyMmQxTGx2Z2FBcGFFZ3Q0anEzeFJlNHpXNUdheDBXRQ?oc=5\" target=\"_blank\">Exclusive | Quantum-Computing Company IonQ to Buy Cybersecurity Firm for Up to $1.3 Billion</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
-      "published": "Mon, 12 Oct 2026 11:00:00 GMT",
-      "score": 10.0
-    },
-    {
-      "source": "Google News Cybersecurity",
-      "title": "OT-ISAC, SUTD combine research and industry threat intelligence to strengthen OT cybersecurity preparedness - Industrial Cyber",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPUHdBMkpVZnZEN24xRkIxUTBHV1VNN0dxbk1uR2hRWnNJNE84U0w2cnh5U0lPN2hTRnJNODk0STM0M0RLU3I3cVkzMzgyX01BbVpBWHVacWpBODBWS0ViY2EtMWhua1pFdW9GNWFCNGdVbGE4ZDJaMWNfdnNRTGpQUW1YLUZtZHJ3X0hvLTNyaUZ4cTU4MmsxdGd1UDczWHdGZU1DdTl4aUwwQkxSZEtOQnY1TlA5WGEyak9hR1dMcW51M1JsUjZUaE1WeV9pRGR1Q2lxOVdR?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi1gFBVV95cUxPUHdBMkpVZnZEN24xRkIxUTBHV1VNN0dxbk1uR2hRWnNJNE84U0w2cnh5U0lPN2hTRnJNODk0STM0M0RLU3I3cVkzMzgyX01BbVpBWHVacWpBODBWS0ViY2EtMWhua1pFdW9GNWFCNGdVbGE4ZDJaMWNfdnNRTGpQUW1YLUZtZHJ3X0hvLTNyaUZ4cTU4MmsxdGd1UDczWHdGZU1DdTl4aUwwQkxSZEtOQnY1TlA5WGEyak9hR1dMcW51M1JsUjZUaE1WeV9pRGR1Q2lxOVdR?oc=5\" target=\"_blank\">OT-ISAC, SUTD combine research and industry threat intelligence to strengthen OT cybersecurity preparedness</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Industrial Cyber</font>",
-      "published": "Mon, 12 Oct 2026 11:26:37 GMT",
-      "score": 10.0
-    },
-    {
-      "source": "Google News Cybersecurity",
-      "title": "Project factsheet: Building sustainable cybersecurity capacities in Bosnia and Herzegovina - Organization for Security and Co-operation in Europe",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBEV3JLcHlrdEd2aHg1MlZQZEZYbm1JVUZObmZGbXhKTjdLX3h5WVBKVmxtaXVzYVRyOENKTXU2ZFFyZWNPWGFHZWJIT19MYUEzZllfSC1oYmtxanhfcnNfSHJSYVVFVlVwaVE?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiakFVX3lxTFBEV3JLcHlrdEd2aHg1MlZQZEZYbm1JVUZObmZGbXhKTjdLX3h5WVBKVmxtaXVzYVRyOENKTXU2ZFFyZWNPWGFHZWJIT19MYUEzZllfSC1oYmtxanhfcnNfSHJSYVVFVlVwaVE?oc=5\" target=\"_blank\">Project factsheet: Building sustainable cybersecurity capacities in Bosnia and Herzegovina</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Organization for Security and Co-operation in Europe</font>",
-      "published": "Mon, 12 Oct 2026 09:20:56 GMT",
-      "score": 10.0
-    },
-    {
-      "source": "Google News Cybersecurity",
-      "title": "Why IonQ Is Betting Big on Cybersecurity With $1.3 Billion Elisity Acquisition - Barron's",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQTU9OX1BYdWR2V2F5UHdQSXp5RXpSSGhHLTIwSmlUVUhTMHFrMTFnNEVqLTVSc2Nwa2w4OWp1V2dZTFVjXzBuenRWc1FiS05QSy1mQW1kbUVrNGsxR0UtQURDN3oydzhpZ3NVSjdueU1oT3QxSC1ZLUZuS08tTkt6NVdVb1g1ZDJIejcwN2VKZw?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxQTU9OX1BYdWR2V2F5UHdQSXp5RXpSSGhHLTIwSmlUVUhTMHFrMTFnNEVqLTVSc2Nwa2w4OWp1V2dZTFVjXzBuenRWc1FiS05QSy1mQW1kbUVrNGsxR0UtQURDN3oydzhpZ3NVSjdueU1oT3QxSC1ZLUZuS08tTkt6NVdVb1g1ZDJIejcwN2VKZw?oc=5\" target=\"_blank\">Why IonQ Is Betting Big on Cybersecurity With $1.3 Billion Elisity Acquisition</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Barron's</font>",
-      "published": "Mon, 12 Oct 2026 11:41:00 GMT",
-      "score": 10.0
-    },
-    {
-      "source": "Google News Cybersecurity",
-      "title": "Healthcare Cybersecurity Is Becoming a Patient Safety Issue - HCI Innovation Group",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPRkhLX28wZE1LcEJZNjd2QTgzVFpLcmJpNkUxTHY2RUgtWEU4eldkV3QtcnhrMzlEcHlFY0Y4eVVTVUx3V3VEQXQ1M1lFYUhSOGdSRWlmaDBtcE9mb3pQRHFsaGx3RHJqX1dEQ0xmeGFvZGVzN0o1cG5EblQ3bmNseGdZb2V4V0daczV0Y0F1ZkpFWENVQ0FDUlRCOHBSOWNBemZwYnl4TmJ3Ni12NVg1M012RnVkeThkeDl4TVJWMkh2UQ?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwgFBVV95cUxPRkhLX28wZE1LcEJZNjd2QTgzVFpLcmJpNkUxTHY2RUgtWEU4eldkV3QtcnhrMzlEcHlFY0Y4eVVTVUx3V3VEQXQ1M1lFYUhSOGdSRWlmaDBtcE9mb3pQRHFsaGx3RHJqX1dEQ0xmeGFvZGVzN0o1cG5EblQ3bmNseGdZb2V4V0daczV0Y0F1ZkpFWENVQ0FDUlRCOHBSOWNBemZwYnl4TmJ3Ni12NVg1M012RnVkeThkeDl4TVJWMkh2UQ?oc=5\" target=\"_blank\">Healthcare Cybersecurity Is Becoming a Patient Safety Issue</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">HCI Innovation Group</font>",
-      "published": "Mon, 12 Oct 2026 12:06:05 GMT",
-      "score": 10.0
-    },
-    {
-      "source": "Google News Cybersecurity",
-      "title": "Space Invaders: What Cybersecurity Looks Like in Space - University of Pennsylvania",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPdFlqd0E3TVBYUF9WRV96R195a1k5Y2V2ZzlHVWxrOUdpX1hFbElrbUY4TjhJWGFFa3VwZzY0LWVpS2hvNUg5YWt6Z0p4NGFjcFVUSHZ5SEJ6Tl9yWF93WmFKeERPVlFGMlB0V2lkSllYcDdWQTB1X3ZkNjIzRktMYUZWRlJnU2NvTnR5QjdBM0hTM1hCQlZOLU5idHc?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxPdFlqd0E3TVBYUF9WRV96R195a1k5Y2V2ZzlHVWxrOUdpX1hFbElrbUY4TjhJWGFFa3VwZzY0LWVpS2hvNUg5YWt6Z0p4NGFjcFVUSHZ5SEJ6Tl9yWF93WmFKeERPVlFGMlB0V2lkSllYcDdWQTB1X3ZkNjIzRktMYUZWRlJnU2NvTnR5QjdBM0hTM1hCQlZOLU5idHc?oc=5\" target=\"_blank\">Space Invaders: What Cybersecurity Looks Like in Space</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">University of Pennsylvania</font>",
-      "published": "Mon, 12 Oct 2026 12:01:41 GMT",
-      "score": 10.0
     }
   ]
 }
