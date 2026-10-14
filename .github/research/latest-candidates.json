@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-13T11:55:57.797709+00:00",
+  "generated_at_utc": "2026-10-14T09:35:50.807055+00:00",
   "publication_enabled": false,
   "editorial_note": "Candidates require human/editorial review and original technical work before publication.",
   "feed_errors": [
@@ -10,20 +10,92 @@
   ],
   "candidates": [
     {
-      "source": "The Hacker News",
-      "title": "Attackers Exploit CVSS 10.0 Bricksforge WordPress Flaw Enabling Unauthenticated RCE",
-      "url": "https://thehackernews.com/2026/10/attackers-exploit-cvss-100-bricksforge.html",
-      "summary": "A maximum-severity security flaw impacting the Bricksforge plugin for WordPress has come under active exploitation in the wild, according to Patchstack. The critical vulnerability in question is CVE-2026-85097 (CVSS score: 10.0), which allows unauthenticated attackers to upload and execute arbitrary PHP code on vulnerable WordPress websites, resulting in remote code execution (RCE). The",
-      "published": "Mon, 12 Oct 2026 14:32:14 +0530",
-      "score": 30.0
+      "source": "BleepingComputer",
+      "title": "Microsoft October 2026 Patch Tuesday fixes 1,411 flaws, 3 zero-days",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-2026-patch-tuesday-fixes-1-411-flaws-3-zero-days/",
+      "summary": "Today is Microsoft's October 2026 Patch Tuesday, with security updates addressing a record-breaking 1,411 flaws, including one actively exploited and two publicly disclosed zero-day vulnerabilities. [...]",
+      "published": "Tue, 13 Oct 2026 15:56:09 -0400",
+      "score": 44.0
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "Ivanti warns of Connect Secure zero-day exploited in attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/ivanti-warns-of-connect-secure-zero-day-exploited-in-attacks/",
+      "summary": "Ivanti urged customers on Tuesday to immediately patch an actively exploited zero-day vulnerability in the Ivanti Connect Secure (ICS) remote access gateway. [...]",
+      "published": "Tue, 13 Oct 2026 11:45:50 -0400",
+      "score": 42.0
     },
     {
       "source": "SecurityWeek",
-      "title": "Bricksforge WordPress Plugin Vulnerability Exploited in the Wild",
-      "url": "https://www.securityweek.com/bricksforge-wordpress-plugin-vulnerability-exploited-in-the-wild/",
-      "summary": "<p>The vulnerability tracked as CVE-2026-85097 can allow threat actors to take control of the targeted WordPress websites.</p> <p>The post <a href=\"https://www.securityweek.com/bricksforge-wordpress-plugin-vulnerability-exploited-in-the-wild/\">Bricksforge WordPress Plugin Vulnerability Exploited in the Wild</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "published": "Mon, 12 Oct 2026 13:14:37 +0000",
+      "title": "Ivanti Zero-Day Chain Gave Attackers Root Access to Fully Patched VPN",
+      "url": "https://www.securityweek.com/ivanti-zero-day-chain-gave-attackers-root-access-to-fully-patched-vpn/",
+      "summary": "<p>CVE-2026-104935 affects Ivanti Connect Secure and it can be exploited for unauthenticated remote code execution with elevated privileges. </p> <p>The post <a href=\"https://www.securityweek.com/ivanti-zero-day-chain-gave-attackers-root-access-to-fully-patched-vpn/\">Ivanti Zero-Day Chain Gave Attackers Root Access to Fully Patched VPN</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "published": "Tue, 13 Oct 2026 18:43:43 +0000",
+      "score": 41.0
+    },
+    {
+      "source": "SecurityWeek",
+      "title": "Microsoft Patches Record 1,413 Vulnerabilities, Including Exploited Windows Zero-Day",
+      "url": "https://www.securityweek.com/microsoft-patches-record-1413-vulnerabilities-including-exploited-windows-zero-day/",
+      "summary": "<p>The most important is CVE-2026-96951, a security feature bypass flaw in Windows that has been exploited in the wild.</p> <p>The post <a href=\"https://www.securityweek.com/microsoft-patches-record-1413-vulnerabilities-including-exploited-windows-zero-day/\">Microsoft Patches Record 1,413 Vulnerabilities, Including Exploited Windows Zero-Day</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "published": "Wed, 14 Oct 2026 07:16:12 +0000",
+      "score": 40.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "Attacker Chains Three Ivanti Connect Secure Zero-Days for Root Access, Only Two Patched So Far",
+      "url": "https://thehackernews.com/2026/10/attacker-chains-three-ivanti-connect.html",
+      "summary": "An attacker chained three zero-day flaws in Ivanti Connect Secure, a VPN appliance, to run commands as root without logging in, security firm&nbsp;Volexity said&nbsp;on October 13. Ivanti has released fixes for two of the flaws and told customers on affected versions to \"act immediately.\" A fix for the third is still pending, according to Volexity. Volexity, which reported the flaws to Ivanti,",
+      "published": "Tue, 13 Oct 2026 23:03:11 +0530",
+      "score": 36.0
+    },
+    {
+      "source": "SecurityWeek",
+      "title": "Citrix, Fortinet, Ivanti Patch 29 Vulnerabilities Across Their Products",
+      "url": "https://www.securityweek.com/citrix-fortinet-ivanti-patch-29-vulnerabilities-across-their-products/",
+      "summary": "<p>Critical-severity flaws could lead to authentication bypass, code execution, and sensitive authentication information leaks.</p> <p>The post <a href=\"https://www.securityweek.com/citrix-fortinet-ivanti-patch-29-vulnerabilities-across-their-products/\">Citrix, Fortinet, Ivanti Patch 29 Vulnerabilities Across Their Products</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "published": "Wed, 14 Oct 2026 07:26:35 +0000",
+      "score": 31.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "Microsoft Patches Record 1,413 Flaws, Including Exploited Windows Shell Bug",
+      "url": "https://thehackernews.com/2026/10/microsoft-patches-record-1413-flaws.html",
+      "summary": "Microsoft on Tuesday shattered its own Patch Tuesday record by shipping patches for a whopping 1,413 vulnerabilities, including one that it said has come under active exploitation. These include 1,102 flaws in Windows, 134 in Office, 61 in Developer Tools, 36 in SharePoint Server, and 22 in SQL Server. Of these, more than 670 relate to privilege escalation, followed by over 300 remote code",
+      "published": "Wed, 14 Oct 2026 10:04:43 +0530",
       "score": 25.0
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "The MFA Gaps Attackers are Still Exploiting",
+      "url": "https://www.bleepingcomputer.com/news/security/the-mfa-gaps-attackers-are-still-exploiting/",
+      "summary": "Attackers continue exploiting gaps in MFA coverage, using stolen credentials to access VPNs, RDP, and Windows systems that still rely on passwords alone. Specops explains why protecting cloud applications isn't enough and how organizations can close these authentication gaps. [...]",
+      "published": "Tue, 13 Oct 2026 10:01:11 -0400",
+      "score": 24.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "[Webinar] How to Stop AI-Driven Privilege Escalation With Runtime Identity Controls",
+      "url": "https://thehackernews.com/2026/10/webinar-how-to-stop-ai-driven-privilege.html",
+      "summary": "The dangerous part of a stolen identity isn't always the initial login. It's what an attacker can do with that access next. With AI accelerating reconnaissance, exploitation of vulnerabilities, and privilege escalation, attackers can move through systems faster than security teams can investigate. A compromised account that looks legitimate at first could become the starting point for a much",
+      "published": "Tue, 13 Oct 2026 17:27:06 +0530",
+      "score": 23.0
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "Ghostscript flaw lets hackers hijack servers via PDF uploads",
+      "url": "https://www.bleepingcomputer.com/news/security/ghostscript-flaw-lets-hackers-hijack-servers-via-pdf-uploads/",
+      "summary": "A critical heap buffer overflow vulnerability (CVE-2026-39919) in the Ghostscript interpreter and rendering engine could allow remote code execution through specially crafted PDF files. [...]",
+      "published": "Tue, 13 Oct 2026 17:33:26 -0400",
+      "score": 21.0
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "Docker Hub flaw let attackers impersonate users, tamper with images",
+      "url": "https://www.bleepingcomputer.com/news/security/docker-hub-flaw-let-attackers-impersonate-users-tamper-with-images/",
+      "summary": "Docker has disclosed a critical vulnerability (CVE-2026-105445) in Docker Hub that let attackers access another user's container repositories using a personal access token (PAT). [...]",
+      "published": "Tue, 13 Oct 2026 11:20:20 -0400",
+      "score": 21.0
     },
     {
       "source": "The Hacker News",
@@ -35,19 +107,67 @@
     },
     {
       "source": "The Hacker News",
-      "title": "CyberXero Uses Claude Code in Campaign That Stole Over 628,000 Ukrainian Records",
-      "url": "https://thehackernews.com/2026/10/cyberxero-uses-claude-code-in-campaign.html",
-      "summary": "Cybersecurity researchers have disclosed details of a two-pronged artificial intelligence (AI)-augmented initial access campaign targeting WordPress sites, e-commerce platforms, and critical infrastructure entities in Ukraine. The activity, which brings together commodity offensive tools like Cobalt Strike with an AI orchestration layer powered by Anthropic's Claude Code, has been attributed",
-      "published": "Mon, 12 Oct 2026 12:56:12 +0530",
-      "score": 20.0
+      "title": "SAP Discloses Critical CVSS 10 Flaw in Cloud SDK for Python Allowing OAuth2 Credential Theft",
+      "url": "https://thehackernews.com/2026/10/sap-discloses-critical-cvss-10-flaw-in.html",
+      "summary": "A flaw in SAP's&nbsp;Cloud SDK for Python&nbsp;can send an application's OAuth2 client credentials to a server an attacker controls, SAP said in a&nbsp;security advisory&nbsp;on October 13. The flaw affects multi-tenant applications on SAP Business Technology Platform (BTP) that use the SDK, SAP's official Python client for BTP services. An attacker must be able to control the tenant subdomain,",
+      "published": "Tue, 13 Oct 2026 22:58:50 +0530",
+      "score": 19.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "GitHub Tightens npm Publishing After Flaw Left 1,500+ Packages Vulnerable to Hijacking",
+      "url": "https://thehackernews.com/2026/10/github-tightens-npm-publishing-after.html",
+      "summary": "GitHub has taken the step of expiring unvalidated npm trusted publishing configurations 48 hours after creation after researchers found that it was possible for an attacker to push new versions of a different user's package without having to steal their credentials. \"Your configuration becomes validated and exempt from expiry after its first successful publish,\" the Microsoft-owned subsidiary",
+      "published": "Tue, 13 Oct 2026 21:48:18 +0530",
+      "score": 19.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "Anthropic Warns Small AI Models Could Soon Form Self-Propagating IoT Botnets",
+      "url": "https://thehackernews.com/2026/10/anthropic-warns-small-ai-models-could.html",
+      "summary": "Small artificial intelligence (AI) models may be months away from developing capabilities to self-replicate on IoT devices like smart ovens and off-brand Android TV boxes, according to a warning from Anthropic. The frontier AI lab said small AI models could form autonomous, self-propagating worm botnets that are \"challenging to shut down,\" since \"there's no centralized point to shut off.\"",
+      "published": "Tue, 13 Oct 2026 23:50:57 +0530",
+      "score": 18.0
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "Anthropic warns self-replicating AI could spread to your smart devices",
+      "url": "https://www.bleepingcomputer.com/news/security/anthropic-warns-self-replicating-ai-could-spread-to-your-smart-devices/",
+      "summary": "Anthropic is warning that small AI models could soon be able to self-replicate across consumer IoT devices, from Android TV boxes to smart ovens, creating distributed botnets capable of running AI workloads without relying on data centers. [...]",
+      "published": "Tue, 13 Oct 2026 17:16:34 -0400",
+      "score": 18.0
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "SAP warns of maximum severity OAuth2 SSRF security flaw",
+      "url": "https://www.bleepingcomputer.com/news/security/sap-warns-of-maximum-severity-oauth2-ssrf-security-flaw/",
+      "summary": "SAP has addressed 20 security flaws across multiple products in its October 2026 security updates, including a maximum-severity vulnerability in the Cloud SDK for Python. [...]",
+      "published": "Tue, 13 Oct 2026 09:51:02 -0400",
+      "score": 18.0
     },
     {
       "source": "Google News Cybersecurity",
-      "title": "CISA, FBI and NSA Warn China-Linked Cyber Company Is Enabling Attacks on Critical Infrastructure Worldwide - Homeland Security Today",
-      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQWGZFc0xzZ1p1Y2pQbEwxUDU1c0R1b0syOFp0U19rNkFjdEwyeXVONDdtdGxBWDBnRFF1blFCSmtIRGg3VmhNOUxXc2RHZlNFWV91NVlZNHREM0RHTE51NnpqYjZSNUVQUXlEWi1sa3Yxb00yY0VDeXRGcVJBaTdLNjlIOVY3R2ZaWVpOWTFicnVpSHFTdUw5aDJNY25VSGNpMkl5ZDNYdnJGME5nZnJ5OEhZNmlJNGNpS0pzeUZfcGxKT3pqRGlfZFlDMkhLNjBCX00tWExVMnVIQzRrdU91NnVRZmxMdmRfZHMySlRwMzRCd0hGTHdv?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi9wFBVV95cUxQWGZFc0xzZ1p1Y2pQbEwxUDU1c0R1b0syOFp0U19rNkFjdEwyeXVONDdtdGxBWDBnRFF1blFCSmtIRGg3VmhNOUxXc2RHZlNFWV91NVlZNHREM0RHTE51NnpqYjZSNUVQUXlEWi1sa3Yxb00yY0VDeXRGcVJBaTdLNjlIOVY3R2ZaWVpOWTFicnVpSHFTdUw5aDJNY25VSGNpMkl5ZDNYdnJGME5nZnJ5OEhZNmlJNGNpS0pzeUZfcGxKT3pqRGlfZFlDMkhLNjBCX00tWExVMnVIQzRrdU91NnVRZmxMdmRfZHMySlRwMzRCd0hGTHdv?oc=5\" target=\"_blank\">CISA, FBI and NSA Warn China-Linked Cyber Company Is Enabling Attacks on Critical Infrastructure Worldwide</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Homeland Security Today</font>",
-      "published": "Tue, 13 Oct 2026 09:19:31 GMT",
-      "score": 18.0
+      "title": "Atos expands partnership with Fortinet to deliver a global unified cybersecurity framework across hybrid and multi-cloud environments - Atos",
+      "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOaU12TDZsZFowWVNUMlUxUzZFM2dkenFGV3R1OTFScFZ2OEtTMFNsZ3ZjbFNJV2pEMjVoQjVPTDZqTFZsRDZuTE5CYWtKdl90dmlvYjhkb1JNTl9IUnlmWFNIbHBqSWtlNjhLUENFUFlfaGlVSXgtN1A1SEl3d0tKcnkyN1Mwc25CcENZNEhDNHZpMUJGV3pnNUFpV0dkSk95LWR6SzJYRXdzMDJJSGFHcGdELVJHRkp4b2dDRXJaUkh4YVNnRVBVTnZXWlFmS0tYT28wOVRQaGJqVll0S01rb1FYUXQyYk9Jcldua0JQLWx0d2JjVFA0Q0lYX1hlUktLYnVjbzg1V3FjWUhPdURXWQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikAJBVV95cUxOaU12TDZsZFowWVNUMlUxUzZFM2dkenFGV3R1OTFScFZ2OEtTMFNsZ3ZjbFNJV2pEMjVoQjVPTDZqTFZsRDZuTE5CYWtKdl90dmlvYjhkb1JNTl9IUnlmWFNIbHBqSWtlNjhLUENFUFlfaGlVSXgtN1A1SEl3d0tKcnkyN1Mwc25CcENZNEhDNHZpMUJGV3pnNUFpV0dkSk95LWR6SzJYRXdzMDJJSGFHcGdELVJHRkp4b2dDRXJaUkh4YVNnRVBVTnZXWlFmS0tYT28wOVRQaGJqVll0S01rb1FYUXQyYk9Jcldua0JQLWx0d2JjVFA0Q0lYX1hlUktLYnVjbzg1V3FjWUhPdURXWQ?oc=5\" target=\"_blank\">Atos expands partnership with Fortinet to deliver a global unified cybersecurity framework across hybrid and multi-cloud environments</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Atos</font>",
+      "published": "Wed, 14 Oct 2026 08:05:07 GMT",
+      "score": 17.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "OpenAI Employee Arrested for Allegedly Planting Hidden Recorder in Executive Conference Room",
+      "url": "https://thehackernews.com/2026/10/openai-employee-arrested-for-allegedly.html",
+      "summary": "A Saudi National and employee of OpenAI has been arrested for allegedly planting a hidden recording device in an executive conference room at the company's San Francisco offices to covertly record sensitive conversations. Abdulrahman Alfozan, 35, has been charged with using or endeavoring to use an electronic, mechanical, or other device to intercept oral communications. He was arrested by",
+      "published": "Wed, 14 Oct 2026 07:29:25 +0530",
+      "score": 15.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "Xandr Fined a Record €8.6 Million for Relaying Grindr Data Revealing Sexual Orientation",
+      "url": "https://thehackernews.com/2026/10/xandr-fined-record-86-million-for.html",
+      "summary": "The Norwegian Data Protection Authority (DPA) has fined Xandr, an advertising unit owned by Microsoft, €8.6 million ($9.62 million) for illegally relaying ​Grindr users' sensitive data to advertisers. The administrative penalty is the largest issued by the data protection watchdog, arguing the case merited a high fine because of the \"very serious\" nature of the breach. The infringements",
+      "published": "Tue, 13 Oct 2026 18:42:32 +0530",
+      "score": 15.0
     },
     {
       "source": "The Hacker News",
@@ -59,155 +179,35 @@
     },
     {
       "source": "BleepingComputer",
-      "title": "Norway fines Microsoft ad firm $9.6 million over Grindr data sharing",
-      "url": "https://www.bleepingcomputer.com/news/security/norway-fines-microsoft-ad-firm-96-million-over-grindr-data-sharing/",
-      "summary": "Norway's Data Protection Authority (Datatilsynet) has fined Microsoft-owned advertising company Xandr NOK 92 million ($9.6M) for unlawfully processing and sharing sensitive data belonging to Grindr users in the country. [...]",
-      "published": "Mon, 12 Oct 2026 16:13:52 -0400",
+      "title": "OpenAI engineer arrested for allegedly planting spy device in office",
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-engineer-arrested-for-allegedly-planting-spy-device-in-office/",
+      "summary": "A Saudi OpenAI engineer has been arrested for allegedly planting a hidden recording device in an executive conference room at the company's San Francisco offices to secretly record sensitive conversations. [...]",
+      "published": "Tue, 13 Oct 2026 18:33:02 -0400",
       "score": 15.0
     },
     {
       "source": "BleepingComputer",
-      "title": "Yandex confirms service outage as users lose access to cloud files",
-      "url": "https://www.bleepingcomputer.com/news/security/yandex-confirms-service-outage-as-users-lose-access-to-cloud-files/",
-      "summary": "Russian cloud services provider Yandex announced that drone attacks damaged three of its data centers, forcing it to shut down two facilities and partially disable a third. [...]",
-      "published": "Mon, 12 Oct 2026 15:23:01 -0400",
+      "title": "Microsoft releases Windows 10 KB5126657 extended security update",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5126657-extended-security-update/",
+      "summary": "Microsoft released the Windows 10 KB5126657 extended security update, which includes this month's record-breaking October 2026 Patch Tuesday fixes and a few bug fixes and changes. [...]",
+      "published": "Tue, 13 Oct 2026 15:47:30 -0400",
       "score": 15.0
     },
     {
       "source": "BleepingComputer",
-      "title": "Microsoft: Windows 11 23H2 reaches end of support in 30 days",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-23h2-reaches-end-of-support-in-30-days/",
-      "summary": "Microsoft has reminded customers that systems running Windows 11 23H2 Enterprise, Education, and IoT Enterprise editions will stop receiving security updates next month. [...]",
-      "published": "Mon, 12 Oct 2026 07:58:33 -0400",
+      "title": "Microsoft: Windows 11 24H2 Home and Pro reached end of support",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-24h2-home-and-pro-reached-end-of-support/",
+      "summary": "Microsoft announced today that devices running Windows 11 24H2 Home and Pro editions have reached the end of support and will no longer receive monthly security and non-security preview updates. [...]",
+      "published": "Tue, 13 Oct 2026 15:04:38 -0400",
       "score": 15.0
     },
     {
-      "source": "Google News Cybersecurity",
-      "title": "GIANT website and app down after 'cybersecurity incident' - WGAL",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPX3lYSUZQdUtyNHNfaV91N2VzMnFjSEF2WkM4Y1pQZmVpN2drZDdPRWdrcl9TMDhoc0ZkNFQ1R3p0Q25QRHMySWpzZWtmaDVlNl94LWU3VkdHeDJMVF82c3BkWTByQXcyRXJzblhsT2ptNGEzMTZyZ1pESjktS2JXMWtMOVV1ei1Pdm02WUlkcw?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxPX3lYSUZQdUtyNHNfaV91N2VzMnFjSEF2WkM4Y1pQZmVpN2drZDdPRWdrcl9TMDhoc0ZkNFQ1R3p0Q25QRHMySWpzZWtmaDVlNl94LWU3VkdHeDJMVF82c3BkWTByQXcyRXJzblhsT2ptNGEzMTZyZ1pESjktS2JXMWtMOVV1ei1Pdm02WUlkcw?oc=5\" target=\"_blank\">GIANT website and app down after 'cybersecurity incident'</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WGAL</font>",
-      "published": "Tue, 13 Oct 2026 10:18:24 GMT",
+      "source": "BleepingComputer",
+      "title": "Windows 11 KB5127648 & KB5126653 cumulative updates released",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5127648-and-kb5126653-cumulative-updates-released/",
+      "summary": "Microsoft has released the Patch Tuesday Windows 11 KB5127648 and KB5126653 cumulative updates for versions 26H2/25H2/24H2 and 23H2 to fix security vulnerabilities and bugs, and add new features. [...]",
+      "published": "Tue, 13 Oct 2026 13:49:38 -0400",
       "score": 15.0
-    },
-    {
-      "source": "Google News Cybersecurity",
-      "title": "CTOS Digital Updates On Cybersecurity Incident - TradingView",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNdXZEVDBEcXpXSFRONFNTY2Nud3VacjVhV19DZnMyWjZuSWttQkJOWXIwbVpnd1BvcUM5b1JNbnRBWlpXMFp0c21Ea0dZd0puYWJhams5ejNpRUlHY21QN0NVRjBSclpkU0xaWVVIWFZreU1CRzd6aHBzN2VQNWpzVVlBSjVEVHNERlJVMVlySHFLbU1lbDhrZ2IxWFpRNHhvdkVremROR0x3SzBWSjV5M3ZYTUk4enM?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxNdXZEVDBEcXpXSFRONFNTY2Nud3VacjVhV19DZnMyWjZuSWttQkJOWXIwbVpnd1BvcUM5b1JNbnRBWlpXMFp0c21Ea0dZd0puYWJhams5ejNpRUlHY21QN0NVRjBSclpkU0xaWVVIWFZreU1CRzd6aHBzN2VQNWpzVVlBSjVEVHNERlJVMVlySHFLbU1lbDhrZ2IxWFpRNHhvdkVremROR0x3SzBWSjV5M3ZYTUk4enM?oc=5\" target=\"_blank\">CTOS Digital Updates On Cybersecurity Incident</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TradingView</font>",
-      "published": "Tue, 13 Oct 2026 10:27:47 GMT",
-      "score": 15.0
-    },
-    {
-      "source": "Google News Cybersecurity",
-      "title": "Microsoft Digital Defense 2026 Report Highlights New Cybersecurity Challenges Amid Rapid AI Adoption - Microsoft Source",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQdDdsY1dxdVlCX2ZHa3ZBRW9GZzF0cjE5aUdBMnEyTE50UFBsSnBtNGJ4VzZKdjlhSmg4ZktpYUNZaGY0OEE0emFoY1Z6TVprR0dEbFRZMWlIODBaV1YtUVBva3ZPMVdHMEIzc2hYbW40OVZKTDlueVVEZzkyTmVOMW5Jb19oWnF1RElqbk9mZmh1ekhuLU5TWDhteXpxel9KNmtLTWdmN2Rnd2psZk9qTVMwSzVMV1hIeGR5VEwtSGJpTzQ0M2VOOG5QUzBrREIzZEFJUzN4Y3dwdXZNMjg3dXR4elhQZw?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi5gFBVV95cUxQdDdsY1dxdVlCX2ZHa3ZBRW9GZzF0cjE5aUdBMnEyTE50UFBsSnBtNGJ4VzZKdjlhSmg4ZktpYUNZaGY0OEE0emFoY1Z6TVprR0dEbFRZMWlIODBaV1YtUVBva3ZPMVdHMEIzc2hYbW40OVZKTDlueVVEZzkyTmVOMW5Jb19oWnF1RElqbk9mZmh1ekhuLU5TWDhteXpxel9KNmtLTWdmN2Rnd2psZk9qTVMwSzVMV1hIeGR5VEwtSGJpTzQ0M2VOOG5QUzBrREIzZEFJUzN4Y3dwdXZNMjg3dXR4elhQZw?oc=5\" target=\"_blank\">Microsoft Digital Defense 2026 Report Highlights New Cybersecurity Challenges Amid Rapid AI Adoption</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Microsoft Source</font>",
-      "published": "Tue, 13 Oct 2026 08:29:59 GMT",
-      "score": 13.0
-    },
-    {
-      "source": "Google News Cybersecurity",
-      "title": "UAE Moves Microsoft MDASH Toward Government Cybersecurity Pilots - PCMag Middle East",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZkJQSDBzTjFWT3VwUHh1bE5UaGNTVjhYSTJGc3ItLVhjUDB0OWF0SW9KRkk2SGRWam1QNVNTTllvcXAzZXltSy1Ob2NwRV9mVWMtVmxRYTQtNEZLZzdpTTk1di04aVhGalBxeVhxOWlHU3JOLXIyR0pRbmVsTGJZSG5tcjBOZEZvTlRWR3VUUkFNRmJiQWhEQThHc24wdw?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxPZkJQSDBzTjFWT3VwUHh1bE5UaGNTVjhYSTJGc3ItLVhjUDB0OWF0SW9KRkk2SGRWam1QNVNTTllvcXAzZXltSy1Ob2NwRV9mVWMtVmxRYTQtNEZLZzdpTTk1di04aVhGalBxeVhxOWlHU3JOLXIyR0pRbmVsTGJZSG5tcjBOZEZvTlRWR3VUUkFNRmJiQWhEQThHc24wdw?oc=5\" target=\"_blank\">UAE Moves Microsoft MDASH Toward Government Cybersecurity Pilots</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">PCMag Middle East</font>",
-      "published": "Tue, 13 Oct 2026 10:59:37 GMT",
-      "score": 13.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "LG Smart TVs Vulnerable to Pre-Auth Root Takeover From Local Network",
-      "url": "https://thehackernews.com/2026/10/lg-smart-tvs-vulnerable-to-pre-auth.html",
-      "summary": "Three vulnerabilities in LG's webOS can be chained to give an attacker on the same local network root access to certain smart TVs without a PIN or any interaction from the owner. LG has issued a fix, according to&nbsp;an advisory published by SSD Secure Disclosure&nbsp;on October 12. The chain was tested on two TV models, the 32LQ636BPSA and the 27TQ600SW, running webOS 7.5.7-25 on firmware",
-      "published": "Tue, 13 Oct 2026 16:39:10 +0530",
-      "score": 12.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "Product Walkthrough: Bitdefender AI Visibility and Control",
-      "url": "https://thehackernews.com/2026/10/product-walkthrough-bitdefender-ai.html",
-      "summary": "A user opens a browser tab, pastes data into a chat assistant, and nothing is installed. A developer adds a coding&nbsp;assistant as an editor extension, and nothing shows up in the installed programs list. Someone downloads a local model runtime, a program that runs models directly on the machine instead of sending data to an external service, because they were told not to send company data",
-      "published": "Tue, 13 Oct 2026 16:00:00 +0530",
-      "score": 12.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "Attackers Heat French Supermarket Fridges Up to 50°C by Hijacking Danfoss Controllers",
-      "url": "https://thehackernews.com/2026/10/attackers-heat-french-supermarket.html",
-      "summary": "Attackers took remote control of fridges and freezers at hundreds of French supermarkets on the night of October 11 and warmed them, forcing stores to throw food away, several retail chains said. The attackers reached them through the controller that runs all of a store's fridges and freezers, a device made by Danish company Danfoss that maintenance firms can manage remotely. Les Mousquetaires",
-      "published": "Tue, 13 Oct 2026 14:18:41 +0530",
-      "score": 12.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "GitLab Patches CVSS 10.0 Flaw That Could Let Unauthenticated Users Run Server Code",
-      "url": "https://thehackernews.com/2026/10/gitlab-patches-cvss-100-flaw-that-could.html",
-      "summary": "GitLab has released patches for a maximum-severity security flaw impacting its Community Edition (CE) and Enterprise Edition (EE) software that could result in arbitrary code execution. \"GitLab has remediated an issue that, under certain conditions, could have allowed an unauthenticated user to execute arbitrary code on the GitLab server via a specially crafted regular expression in a CI/CD",
-      "published": "Tue, 13 Oct 2026 14:13:37 +0530",
-      "score": 12.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "Low-Cost Android Phones Ship With Preinstalled Malware That Turns Them Into Residential Proxies",
-      "url": "https://thehackernews.com/2026/10/low-cost-android-phones-ship-with.html",
-      "summary": "Low-cost Android smartphones have been shipped with malicious software baked into the device firmware, allowing bad actors to covertly install apps, conduct ad fraud, and turn devices into residential proxies. The activity, which targets Android devices built on MediaTek platforms across several brands, is being tracked by Bitdefender under the moniker Midnight Mimosa. The preinstalled",
-      "published": "Tue, 13 Oct 2026 11:30:11 +0530",
-      "score": 12.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "Bring Your Own Agent: Your Employees' Assistants Are Already Logged In",
-      "url": "https://thehackernews.com/2026/10/bring-your-own-agent-your-employees.html",
-      "summary": "The personal AI agents rollout is going about as smoothly as expected: Amazon now blocks Meta's Muse because it doesn't identify itself as a bot while browsing; Instinct keeps raising privacy concerns; and the horror stories from pretty much every personal AI agent keep piling up. Regardless, the tech world is mesmerized by the capabilities and potential of these services. Less than a year",
-      "published": "Mon, 12 Oct 2026 17:25:00 +0530",
-      "score": 12.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "Ledger Finds Unauthorized Hardware Implant in CryptoBilis-Sold Wallet Amid Fund Theft Reports",
-      "url": "https://thehackernews.com/2026/10/ledger-finds-unauthorized-hardware.html",
-      "summary": "Cryptocurrency hardware maker Ledger has temporarily paused sales of its products via CryptoBilis following reports of stolen funds linked to devices sold by the reseller. On Friday, the company said it was investigating reports of loss of funds from users in Southeast Asia who had purchased products from CryptoBilis. The incident is said to have resulted in losses totaling more than $86",
-      "published": "Mon, 12 Oct 2026 16:51:48 +0530",
-      "score": 12.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "Critical SonicWall SMA 1000 Flaw Targeted in 135 Exploitation Attempts After Patch",
-      "url": "https://thehackernews.com/2026/10/critical-sonicwall-sma-1000-flaw.html",
-      "summary": "Threat actors have been observed exploiting a recently disclosed critical security flaw in SonicWall Secure Mobile Access (SMA) 1000 appliances within days of public disclosure. The vulnerability, tracked as CVE-2026-102255 (CVSS score: 10.0), is a case of pre-authenticated server-side request forgery (SSRF) that could allow a remote attacker \"to direct the appliance to issue requests on their",
-      "published": "Mon, 12 Oct 2026 16:06:56 +0530",
-      "score": 12.0
-    },
-    {
-      "source": "BleepingComputer",
-      "title": "Anthropic takes risky AI tests offline after models breach govt sites",
-      "url": "https://www.bleepingcomputer.com/news/security/anthropic-takes-risky-ai-tests-offline-after-models-breach-govt-sites/",
-      "summary": "Anthropic announced that its internal AI models undergoing \"high-risk and cybersecurity evaluations\" no longer have internet access following incidents involving U.S. government websites at the federal, state, and local levels. [...]",
-      "published": "Mon, 12 Oct 2026 14:51:59 -0400",
-      "score": 12.0
-    },
-    {
-      "source": "BleepingComputer",
-      "title": "Ledger confirms spy chip implant behind wallet crypto thefts",
-      "url": "https://www.bleepingcomputer.com/news/security/ledger-confirms-hardware-wallet-spy-implant-behind-crypto-thefts/",
-      "summary": "Ledger has confirmed that some of its devices distributed through Southeast Asian reseller CryptoBilis were compromised with a hardware implant that drained users' cryptocurrency wallets. [...]",
-      "published": "Mon, 12 Oct 2026 12:27:23 -0400",
-      "score": 12.0
-    },
-    {
-      "source": "BleepingComputer",
-      "title": "Cyberattack shuts down refrigerators at French supermarkets",
-      "url": "https://www.bleepingcomputer.com/news/security/cyberattack-shuts-down-refrigerators-at-french-supermarkets/",
-      "summary": "Attackers remotely defrosted refrigerators at multiple French supermarket chains overnight in a cyberattack that reportedly targeted Danfoss refrigeration controllers. [...]",
-      "published": "Mon, 12 Oct 2026 11:23:34 -0400",
-      "score": 12.0
-    },
-    {
-      "source": "BleepingComputer",
-      "title": "Inside AvisLoader: A Windows Malware Loader Built to Resist Disruption",
-      "url": "https://www.bleepingcomputer.com/news/security/inside-avisloader-a-windows-malware-loader-built-to-resist-disruption/",
-      "summary": "A new Windows malware loader called AvisLoader uses encrypted peer-to-peer communications to make command-and-control infrastructure harder to disrupt. Varonis researchers explain how the malware uses ClickFix delivery, shortcut-based persistence, and remote command execution capabilities. [...]",
-      "published": "Mon, 12 Oct 2026 10:00:10 -0400",
-      "score": 12.0
     }
   ]
 }
