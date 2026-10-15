@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-14T09:35:50.807055+00:00",
+  "generated_at_utc": "2026-10-15T09:13:38.315732+00:00",
   "publication_enabled": false,
   "editorial_note": "Candidates require human/editorial review and original technical work before publication.",
   "feed_errors": [
@@ -19,27 +19,19 @@
     },
     {
       "source": "BleepingComputer",
-      "title": "Ivanti warns of Connect Secure zero-day exploited in attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/ivanti-warns-of-connect-secure-zero-day-exploited-in-attacks/",
-      "summary": "Ivanti urged customers on Tuesday to immediately patch an actively exploited zero-day vulnerability in the Ivanti Connect Secure (ICS) remote access gateway. [...]",
-      "published": "Tue, 13 Oct 2026 11:45:50 -0400",
-      "score": 42.0
-    },
-    {
-      "source": "SecurityWeek",
-      "title": "Ivanti Zero-Day Chain Gave Attackers Root Access to Fully Patched VPN",
-      "url": "https://www.securityweek.com/ivanti-zero-day-chain-gave-attackers-root-access-to-fully-patched-vpn/",
-      "summary": "<p>CVE-2026-104935 affects Ivanti Connect Secure and it can be exploited for unauthenticated remote code execution with elevated privileges. </p> <p>The post <a href=\"https://www.securityweek.com/ivanti-zero-day-chain-gave-attackers-root-access-to-fully-patched-vpn/\">Ivanti Zero-Day Chain Gave Attackers Root Access to Fully Patched VPN</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "published": "Tue, 13 Oct 2026 18:43:43 +0000",
+      "title": "Cisco patches new Secure Email Gateway zero-day exploited in attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/cisco-patches-actively-exploited-secure-email-gateway-zero-day/",
+      "summary": "Cisco has patched another actively exploited zero-day flaw in its Secure Email Gateway (SEG) that lets remote unauthenticated attackers execute commands with root privileges. [...]",
+      "published": "Wed, 14 Oct 2026 13:29:14 -0400",
       "score": 41.0
     },
     {
-      "source": "SecurityWeek",
-      "title": "Microsoft Patches Record 1,413 Vulnerabilities, Including Exploited Windows Zero-Day",
-      "url": "https://www.securityweek.com/microsoft-patches-record-1413-vulnerabilities-including-exploited-windows-zero-day/",
-      "summary": "<p>The most important is CVE-2026-96951, a security feature bypass flaw in Windows that has been exploited in the wild.</p> <p>The post <a href=\"https://www.securityweek.com/microsoft-patches-record-1413-vulnerabilities-including-exploited-windows-zero-day/\">Microsoft Patches Record 1,413 Vulnerabilities, Including Exploited Windows Zero-Day</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "published": "Wed, 14 Oct 2026 07:16:12 +0000",
-      "score": 40.0
+      "source": "The Hacker News",
+      "title": "CISA Urges Immediate Ivanti Connect Secure Updates as Honeypots Log 105 Exploit Attempts",
+      "url": "https://thehackernews.com/2026/10/cisa-urges-immediate-ivanti-connect.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday urged organizations to take steps to immediately update their Ivanti Connect Secure (ICS) appliances and deployments to the latest version following the disclosure of an actively exploited vulnerability. The security flaw, tracked as CVE-2026-104935 (CVSS score: 8.6), is a case of authentication bypass impacting ICS",
+      "published": "Wed, 14 Oct 2026 18:00:42 +0530",
+      "score": 39.0
     },
     {
       "source": "The Hacker News",
@@ -51,11 +43,19 @@
     },
     {
       "source": "SecurityWeek",
-      "title": "Citrix, Fortinet, Ivanti Patch 29 Vulnerabilities Across Their Products",
-      "url": "https://www.securityweek.com/citrix-fortinet-ivanti-patch-29-vulnerabilities-across-their-products/",
-      "summary": "<p>Critical-severity flaws could lead to authentication bypass, code execution, and sensitive authentication information leaks.</p> <p>The post <a href=\"https://www.securityweek.com/citrix-fortinet-ivanti-patch-29-vulnerabilities-across-their-products/\">Citrix, Fortinet, Ivanti Patch 29 Vulnerabilities Across Their Products</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "published": "Wed, 14 Oct 2026 07:26:35 +0000",
-      "score": 31.0
+      "title": "Palo Alto Networks Patches PAN-OS Zero-Day Exploited for Remote Code Execution",
+      "url": "https://www.securityweek.com/palo-alto-networks-patches-pan-os-zero-day-exploited-for-remote-code-execution/",
+      "summary": "<p>The company says it’s aware of limited exploitation against customers’ firewalls, and it has made IoCs available.</p> <p>The post <a href=\"https://www.securityweek.com/palo-alto-networks-patches-pan-os-zero-day-exploited-for-remote-code-execution/\">Palo Alto Networks Patches PAN-OS Zero-Day Exploited for Remote Code Execution</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "published": "Thu, 15 Oct 2026 06:59:54 +0000",
+      "score": 32.0
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "CISA warns admins to immediately fix Ivanti flaw exploited as zero-day",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-admins-to-immediately-fix-ivanti-flaw-exploited-as-zero-day/",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) urged security teams to immediately patch an Ivanti Connect Secure (ICS) flaw exploited in zero-day attacks since at least October 1st. [...]",
+      "published": "Wed, 14 Oct 2026 08:58:07 -0400",
+      "score": 28.0
     },
     {
       "source": "The Hacker News",
@@ -67,10 +67,10 @@
     },
     {
       "source": "BleepingComputer",
-      "title": "The MFA Gaps Attackers are Still Exploiting",
-      "url": "https://www.bleepingcomputer.com/news/security/the-mfa-gaps-attackers-are-still-exploiting/",
-      "summary": "Attackers continue exploiting gaps in MFA coverage, using stolen credentials to access VPNs, RDP, and Windows systems that still rely on passwords alone. Specops explains why protecting cloud applications isn't enough and how organizations can close these authentication gaps. [...]",
-      "published": "Tue, 13 Oct 2026 10:01:11 -0400",
+      "title": "Palo Alto Networks warns of PAN-OS RCE flaw exploited in attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-pan-os-rce-flaw-exploited-in-attacks/",
+      "summary": "Palo Alto Networks has released security updates for a high-severity PAN-OS RCE zero-day, tracked as CVE-2026-0322, that has been exploited in attacks targeting firewalls. [...]",
+      "published": "Wed, 14 Oct 2026 18:56:47 -0400",
       "score": 24.0
     },
     {
@@ -82,6 +82,22 @@
       "score": 23.0
     },
     {
+      "source": "The Hacker News",
+      "title": "Palo Alto Networks Patches PAN-OS Authenticated RCE Flaw Amid Active Exploitation",
+      "url": "https://thehackernews.com/2026/10/palo-alto-networks-patches-pan-os.html",
+      "summary": "Palo Alto Networks on Wednesday issued security updates for a high-severity flaw in PAN-OS software that has come under active exploitation. The vulnerability, tracked as CVE-2026-0322 (CVSS score: 8.6), is a case of remote code execution in the management interface. \"A remote code execution (RCE) vulnerability in the management interface of Palo Alto Networks PAN-OS software enables an",
+      "published": "Thu, 15 Oct 2026 11:47:58 +0530",
+      "score": 21.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "An AI Agent Found a Critical OTP Bypass in Production. The Attack Was the Easy Part.",
+      "url": "https://thehackernews.com/2026/10/an-ai-agent-found-critical-otp-bypass.html",
+      "summary": "The bug was simple: the login let you choose where your sign-in code went. Proving it on a live website was the hard part. TL;DR During an authorized assessment, an AI pentesting agent found a critical authentication bypass on a major insurer's production website, on its own. One login request let the user choose where the one-time passcode went. The attack was the easy part. Proving it",
+      "published": "Wed, 14 Oct 2026 16:30:00 +0530",
+      "score": 21.0
+    },
+    {
       "source": "BleepingComputer",
       "title": "Ghostscript flaw lets hackers hijack servers via PDF uploads",
       "url": "https://www.bleepingcomputer.com/news/security/ghostscript-flaw-lets-hackers-hijack-servers-via-pdf-uploads/",
@@ -91,18 +107,10 @@
     },
     {
       "source": "BleepingComputer",
-      "title": "Docker Hub flaw let attackers impersonate users, tamper with images",
-      "url": "https://www.bleepingcomputer.com/news/security/docker-hub-flaw-let-attackers-impersonate-users-tamper-with-images/",
-      "summary": "Docker has disclosed a critical vulnerability (CVE-2026-105445) in Docker Hub that let attackers access another user's container repositories using a personal access token (PAT). [...]",
-      "published": "Tue, 13 Oct 2026 11:20:20 -0400",
-      "score": 21.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "⚡ Weekly Recap: Helpdesk 0-Days, Rogue Certs, ShinyHunters Arrest, AI-Fooling Malware and More",
-      "url": "https://thehackernews.com/2026/10/weekly-recap-helpdesk-0-days-rogue.html",
-      "summary": "Some meetings last longer than it took attackers to jump on a newly disclosed security flaw this week. Within hours, they were already testing it. That's not much time to read the warning, let alone do something about it. But speed is only part of the problem. A secure connection didn't always mean a safe destination. People offering to fix a ransomware mess had questions to answer themselves.",
-      "published": "Mon, 12 Oct 2026 20:46:26 +0530",
+      "title": "Microsoft fixes VPN issues caused by September Windows updates",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-vpn-issues-caused-by-september-windows-updates/",
+      "summary": "Microsoft has resolved a known issue that caused Always On VPN connection issues after installing the September 2026 Windows 11 security updates. [...]",
+      "published": "Wed, 14 Oct 2026 10:27:01 -0400",
       "score": 20.0
     },
     {
@@ -123,6 +131,14 @@
     },
     {
       "source": "The Hacker News",
+      "title": "Microsoft Disrupts 3 Phishing Kits Linked to Over 1 Billion Scam Messages",
+      "url": "https://thehackernews.com/2026/10/microsoft-disrupts-3-phishing-kits.html",
+      "summary": "Microsoft and Health-ISAC, along with the Japan Cybercrime Control Center (JC3) and a coalition of private sector companies, such as Resecurity, Cloudflare, Oracle, Proofpoint, and TRM Labs, announced the disruption of three phishing kits, CoGUI (aka NX or FA), Haozi (aka Phoenix), and Iron Man System. \"Since January 2026, the threat actors behind these kits have been responsible for",
+      "published": "Wed, 14 Oct 2026 22:39:15 +0530",
+      "score": 18.0
+    },
+    {
+      "source": "The Hacker News",
       "title": "Anthropic Warns Small AI Models Could Soon Form Self-Propagating IoT Botnets",
       "url": "https://thehackernews.com/2026/10/anthropic-warns-small-ai-models-could.html",
       "summary": "Small artificial intelligence (AI) models may be months away from developing capabilities to self-replicate on IoT devices like smart ovens and off-brand Android TV boxes, according to a warning from Anthropic. The frontier AI lab said small AI models could form autonomous, self-propagating worm botnets that are \"challenging to shut down,\" since \"there's no centralized point to shut off.\"",
@@ -138,26 +154,50 @@
       "score": 18.0
     },
     {
-      "source": "BleepingComputer",
-      "title": "SAP warns of maximum severity OAuth2 SSRF security flaw",
-      "url": "https://www.bleepingcomputer.com/news/security/sap-warns-of-maximum-severity-oauth2-ssrf-security-flaw/",
-      "summary": "SAP has addressed 20 security flaws across multiple products in its October 2026 security updates, including a maximum-severity vulnerability in the Cloud SDK for Python. [...]",
-      "published": "Tue, 13 Oct 2026 09:51:02 -0400",
-      "score": 18.0
+      "source": "The Hacker News",
+      "title": "GhostAction Compromises About 1,900 GitHub Accounts, Targets Over 30,000 Repositories",
+      "url": "https://thehackernews.com/2026/10/ghostaction-compromises-about-1900.html",
+      "summary": "The credential-theft campaign known as GhostAction has ramped up, targeting more than 30,000 repositories across 3,000 users and organizations. The spike, according to GitGuardian, was observed on October 8 and 9, 2026. \"This resulted from compromising the GitHub accounts of about 1,900 users. It attempted to extract 3,174 secrets from public repositories' CI,\" security researchers Gaetan",
+      "published": "Thu, 15 Oct 2026 14:15:10 +0530",
+      "score": 16.0
     },
     {
-      "source": "Google News Cybersecurity",
-      "title": "Atos expands partnership with Fortinet to deliver a global unified cybersecurity framework across hybrid and multi-cloud environments - Atos",
-      "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOaU12TDZsZFowWVNUMlUxUzZFM2dkenFGV3R1OTFScFZ2OEtTMFNsZ3ZjbFNJV2pEMjVoQjVPTDZqTFZsRDZuTE5CYWtKdl90dmlvYjhkb1JNTl9IUnlmWFNIbHBqSWtlNjhLUENFUFlfaGlVSXgtN1A1SEl3d0tKcnkyN1Mwc25CcENZNEhDNHZpMUJGV3pnNUFpV0dkSk95LWR6SzJYRXdzMDJJSGFHcGdELVJHRkp4b2dDRXJaUkh4YVNnRVBVTnZXWlFmS0tYT28wOVRQaGJqVll0S01rb1FYUXQyYk9Jcldua0JQLWx0d2JjVFA0Q0lYX1hlUktLYnVjbzg1V3FjWUhPdURXWQ?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikAJBVV95cUxOaU12TDZsZFowWVNUMlUxUzZFM2dkenFGV3R1OTFScFZ2OEtTMFNsZ3ZjbFNJV2pEMjVoQjVPTDZqTFZsRDZuTE5CYWtKdl90dmlvYjhkb1JNTl9IUnlmWFNIbHBqSWtlNjhLUENFUFlfaGlVSXgtN1A1SEl3d0tKcnkyN1Mwc25CcENZNEhDNHZpMUJGV3pnNUFpV0dkSk95LWR6SzJYRXdzMDJJSGFHcGdELVJHRkp4b2dDRXJaUkh4YVNnRVBVTnZXWlFmS0tYT28wOVRQaGJqVll0S01rb1FYUXQyYk9Jcldua0JQLWx0d2JjVFA0Q0lYX1hlUktLYnVjbzg1V3FjWUhPdURXWQ?oc=5\" target=\"_blank\">Atos expands partnership with Fortinet to deliver a global unified cybersecurity framework across hybrid and multi-cloud environments</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Atos</font>",
-      "published": "Wed, 14 Oct 2026 08:05:07 GMT",
-      "score": 17.0
+      "source": "BleepingComputer",
+      "title": "Hirudo Android malware replaces banking apps to evade security checks",
+      "url": "https://www.bleepingcomputer.com/news/security/hirudo-android-malware-replaces-banking-apps-to-evade-security-checks/",
+      "summary": "A new Android malware called Hirudo steals bank account credentials by replacing legitimate banking apps with modified versions that disable security checks. [...]",
+      "published": "Wed, 14 Oct 2026 07:41:20 -0400",
+      "score": 16.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "AhsayCBS Flaws Exploited to Deploy Web Shells Get New Fixes After Incomplete Patches",
+      "url": "https://thehackernews.com/2026/10/ahsaycbs-flaws-exploited-to-deploy-web.html",
+      "summary": "Singapore-based Ahsay Backup has released security updates to address two security flaws in AhsayCBS that have been exploited by bad actors to drop web shells and XMRig cryptocurrency miners. The vulnerabilities in question are CVE-2026-105133 and CVE-2026-105134, which could be chained to sidestep authentication and execute arbitrary commands on affected systems. In a report published earlier",
+      "published": "Thu, 15 Oct 2026 12:13:08 +0530",
+      "score": 15.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "Cisco Warns of Active Attacks Exploiting New Critical Secure Email Gateway Vulnerability",
+      "url": "https://thehackernews.com/2026/10/cisco-warns-of-active-attacks.html",
+      "summary": "Attackers are exploiting a critical flaw in Cisco Secure Email Gateway that lets a sender with no login write files to the appliance's operating system, Cisco&nbsp;said in an advisory&nbsp;on Wednesday. The attacker sends an email with a crafted attachment through the gateway and, if it succeeds, could then run commands as root. The appliance filters an organization's email for spam, malware,",
+      "published": "Thu, 15 Oct 2026 00:08:56 +0530",
+      "score": 15.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "Hackers Backdoor Nextcloud Servers Through Critical Flaw in Collabora’s Built-in CODE App",
+      "url": "https://thehackernews.com/2026/10/hackers-backdoor-nextcloud-servers.html",
+      "summary": "Attackers exploited a flaw in an optional Nextcloud app,&nbsp;Collabora Online - Built-in CODE Server, to plant web shells on Nextcloud servers. Three administrators&nbsp;reported the issue on GitHub, with the first logged attack on September 10. A web shell is a small file that executes any command an attacker sends via a web request, with the rights of the web server account. The flaw",
+      "published": "Wed, 14 Oct 2026 23:08:31 +0530",
+      "score": 15.0
     },
     {
       "source": "The Hacker News",
       "title": "OpenAI Employee Arrested for Allegedly Planting Hidden Recorder in Executive Conference Room",
       "url": "https://thehackernews.com/2026/10/openai-employee-arrested-for-allegedly.html",
-      "summary": "A Saudi National and employee of OpenAI has been arrested for allegedly planting a hidden recording device in an executive conference room at the company's San Francisco offices to covertly record sensitive conversations. Abdulrahman Alfozan, 35, has been charged with using or endeavoring to use an electronic, mechanical, or other device to intercept oral communications. He was arrested by",
+      "summary": "A Saudi national and employee of OpenAI has been arrested for allegedly planting a hidden recording device in an executive conference room at the company's San Francisco offices to covertly record sensitive conversations. Abdulrahman Alfozan, 35, has been charged with using or endeavoring to use an electronic, mechanical, or other device to intercept oral communications. He was arrested by",
       "published": "Wed, 14 Oct 2026 07:29:25 +0530",
       "score": 15.0
     },
@@ -167,46 +207,6 @@
       "url": "https://thehackernews.com/2026/10/xandr-fined-record-86-million-for.html",
       "summary": "The Norwegian Data Protection Authority (DPA) has fined Xandr, an advertising unit owned by Microsoft, €8.6 million ($9.62 million) for illegally relaying ​Grindr users' sensitive data to advertisers. The administrative penalty is the largest issued by the data protection watchdog, arguing the case merited a high fine because of the \"very serious\" nature of the breach. The infringements",
       "published": "Tue, 13 Oct 2026 18:42:32 +0530",
-      "score": 15.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "Two Critical MarkLogic Flaws Could Give Delegated Managers Persistent Admin Control",
-      "url": "https://thehackernews.com/2026/10/two-critical-marklogic-flaws-could-give.html",
-      "summary": "Two of 31 newly disclosed flaws in Progress Software's&nbsp;MarkLogic Server&nbsp;database could let an account given only some management privileges take administrator control of the server, the company says. Progress published all 31 on October 12 and scored five of them critical. Fixes have been available since September 10, in&nbsp;MarkLogic 11.3.7&nbsp;and&nbsp;MarkLogic 12.1.0. Affected",
-      "published": "Tue, 13 Oct 2026 14:14:01 +0530",
-      "score": 15.0
-    },
-    {
-      "source": "BleepingComputer",
-      "title": "OpenAI engineer arrested for allegedly planting spy device in office",
-      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-engineer-arrested-for-allegedly-planting-spy-device-in-office/",
-      "summary": "A Saudi OpenAI engineer has been arrested for allegedly planting a hidden recording device in an executive conference room at the company's San Francisco offices to secretly record sensitive conversations. [...]",
-      "published": "Tue, 13 Oct 2026 18:33:02 -0400",
-      "score": 15.0
-    },
-    {
-      "source": "BleepingComputer",
-      "title": "Microsoft releases Windows 10 KB5126657 extended security update",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5126657-extended-security-update/",
-      "summary": "Microsoft released the Windows 10 KB5126657 extended security update, which includes this month's record-breaking October 2026 Patch Tuesday fixes and a few bug fixes and changes. [...]",
-      "published": "Tue, 13 Oct 2026 15:47:30 -0400",
-      "score": 15.0
-    },
-    {
-      "source": "BleepingComputer",
-      "title": "Microsoft: Windows 11 24H2 Home and Pro reached end of support",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-24h2-home-and-pro-reached-end-of-support/",
-      "summary": "Microsoft announced today that devices running Windows 11 24H2 Home and Pro editions have reached the end of support and will no longer receive monthly security and non-security preview updates. [...]",
-      "published": "Tue, 13 Oct 2026 15:04:38 -0400",
-      "score": 15.0
-    },
-    {
-      "source": "BleepingComputer",
-      "title": "Windows 11 KB5127648 & KB5126653 cumulative updates released",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5127648-and-kb5126653-cumulative-updates-released/",
-      "summary": "Microsoft has released the Patch Tuesday Windows 11 KB5127648 and KB5126653 cumulative updates for versions 26H2/25H2/24H2 and 23H2 to fix security vulnerabilities and bugs, and add new features. [...]",
-      "published": "Tue, 13 Oct 2026 13:49:38 -0400",
       "score": 15.0
     }
   ]
