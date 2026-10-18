@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-17T08:39:12.988161+00:00",
+  "generated_at_utc": "2026-10-18T08:55:38.262566+00:00",
   "publication_enabled": false,
   "editorial_note": "Candidates require human/editorial review and original technical work before publication.",
   "feed_errors": [
@@ -9,30 +9,6 @@
     }
   ],
   "candidates": [
-    {
-      "source": "The Hacker News",
-      "title": "China-Linked Hackers Exploited BeyondTrust Zero-Day to Take Over Remote Support Servers",
-      "url": "https://thehackernews.com/2026/10/china-linked-hackers-exploited.html",
-      "summary": "The China-nexus cyber espionage group tracked as Armory Castle (previously UNC5221 or Warp Panda) exploited a newly disclosed security flaw in BeyondTrust Remote Support (formerly Bomgar) as a zero-day in late August 2026. The vulnerability, tracked as CVE-2026-102764 (CVSS score: 9.3), is a case of improper origin validation in an internal messaging component that could be exploited by a",
-      "published": "Fri, 16 Oct 2026 12:25:55 +0530",
-      "score": 24.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "Next.js Ships Out-of-Band Patch for Two Critical RCE Flaws in Caching and SVG Processing",
-      "url": "https://thehackernews.com/2026/10/nextjs-ships-out-of-band-patch-for-two.html",
-      "summary": "Next.js released an&nbsp;out-of-band security update&nbsp;on October 14 that fixes two critical flaws allowing unauthenticated remote code execution, along with a high-severity denial-of-service flaw. One code-execution flaw is in React Server Components, and the other in librsvg, the open-source library Next.js uses through the&nbsp;sharp&nbsp;package to handle SVG images. The fixes are in",
-      "published": "Thu, 15 Oct 2026 17:58:13 +0530",
-      "score": 24.0
-    },
-    {
-      "source": "BleepingComputer",
-      "title": "BeyondTrust patches zero-day exploited in attacks since August",
-      "url": "https://www.bleepingcomputer.com/news/security/beyondtrust-patches-zero-day-exploited-in-attacks-since-august/",
-      "summary": "BeyondTrust warned customers on Thursday to patch a critical flaw in its Remote Support (RS) that has been exploited in zero-day attacks since late August. [...]",
-      "published": "Fri, 16 Oct 2026 02:18:08 -0400",
-      "score": 24.0
-    },
     {
       "source": "SecurityWeek",
       "title": "Chinese APT Exploited BeyondTrust Vulnerability as Zero-Day",
@@ -53,32 +29,16 @@
       "source": "The Hacker News",
       "title": "Researchers Demonstrate OpenBSD Root Exploit Chaining 37-Year-Old Shared-Memory Bug",
       "url": "https://thehackernews.com/2026/10/researchers-demonstrate-openbsd-root.html",
-      "summary": "A local privilege escalation exploit published today gains root on OpenBSD 7.9 by chaining a roughly 37-year-old integer overflow with a separate kernel flaw, bypassing OpenBSD's KARL kernel-address randomization and its SMAP and SMEP hardware protections. Security firm Calif, which found and reported the flaws, published a detailed writeup and full proof-of-concept code after OpenBSD shipped",
+      "summary": "A local privilege escalation exploit published today gains root on OpenBSD 7.9 by chaining a roughly 37-year-old integer overflow with a separate kernel flaw, bypassing OpenBSD's KARL kernel-address randomization and its SMAP and SMEP hardware protections.Security firm Calif, which found and reported the flaws, published a detailed writeup and full proof-of-concept code after OpenBSD shipped",
       "published": "Fri, 16 Oct 2026 23:18:45 +0530",
       "score": 22.0
     },
     {
-      "source": "Google News Cybersecurity",
-      "title": "China-nexus espionage actor targets BeyondTrust support tool in zero-day campaign - Cybersecurity Dive",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNVFJLaW1xU210TFVkX1V2X1o3M3RveHo1MnpROXFyZDNpMjJ1Ti1CTF9ibXVvQVo4YUNvQTJNdnluMkZkZkN6WExKalFVZTlla1RrQW0zM3dkdktsSkdKTDdXTW5QZ0RpUVBEMnRqek5PckNZXzFVNlA4XzM3V09TODZpTEJiMmZLMk5jLVpSbFVJMDFI?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxNVFJLaW1xU210TFVkX1V2X1o3M3RveHo1MnpROXFyZDNpMjJ1Ti1CTF9ibXVvQVo4YUNvQTJNdnluMkZkZkN6WExKalFVZTlla1RrQW0zM3dkdktsSkdKTDdXTW5QZ0RpUVBEMnRqek5PckNZXzFVNlA4XzM3V09TODZpTEJiMmZLMk5jLVpSbFVJMDFI?oc=5\" target=\"_blank\">China-nexus espionage actor targets BeyondTrust support tool in zero-day campaign</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Cybersecurity Dive</font>",
-      "published": "Sat, 17 Oct 2026 03:06:10 GMT",
-      "score": 22.0
-    },
-    {
       "source": "The Hacker News",
-      "title": "PEERSTITCH Malware Deployed via FortiOS Flaw Bypasses Checks on Tagged VPN Sessions",
-      "url": "https://thehackernews.com/2026/10/attackers-exploit-fortios-flaw-to.html",
-      "summary": "A suspected advanced threat actor has been observed exploiting a security flaw in Fortinet FortiOS to deliver a previously unreported memory-resident ARM64 malware known as PEERSTITCH. The attack involves the exploitation of CVE-2025-61624 (CVSS score: 5.4), a path traversal flaw in the command line interpreter of FortiOS, FortiPAM, FortiProxy, and FortiSwitchManager that could allow a",
-      "published": "Fri, 16 Oct 2026 10:29:36 +0530",
-      "score": 21.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "Palo Alto Networks Patches PAN-OS Authenticated RCE Flaw Amid Active Exploitation",
-      "url": "https://thehackernews.com/2026/10/palo-alto-networks-patches-pan-os.html",
-      "summary": "Palo Alto Networks on Wednesday issued security updates for a high-severity flaw in PAN-OS software that has come under active exploitation. The vulnerability, tracked as CVE-2026-0322 (CVSS score: 8.6), is a case of remote code execution in the management interface. \"A remote code execution (RCE) vulnerability in the management interface of Palo Alto Networks PAN-OS software enables an",
-      "published": "Thu, 15 Oct 2026 17:16:49 +0530",
+      "title": "MALFEX npm Package 'imgdecode' Hides Shellcode Loader in Windows Native Addon",
+      "url": "https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html",
+      "summary": "Cybersecurity researchers have discovered a malicious npm package that's part of a recently disclosed software supply chain attack campaign dubbed MALFEX. The package, named \"imgdecode,\" was uploaded to the package registry on September 30, 2026, by a user named \"malfexteste8.\" It has been downloaded 979 times as of writing and is still available on npm as of writing. The latest version of",
+      "published": "Sat, 17 Oct 2026 16:41:56 +0530",
       "score": 21.0
     },
     {
@@ -90,11 +50,27 @@
       "score": 20.0
     },
     {
-      "source": "SecurityWeek",
-      "title": "Microsoft Patches Two Dozen RCE Flaws in Office",
-      "url": "https://www.securityweek.com/microsoft-patches-two-dozen-rce-flaws-in-office/",
-      "summary": "<p>In addition to RCE flaws, Microsoft fixed multiple information disclosure bugs and a security bypass issue in Office.</p> <p>The post <a href=\"https://www.securityweek.com/microsoft-patches-two-dozen-rce-flaws-in-office/\">Microsoft Patches Two Dozen RCE Flaws in Office</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "published": "Fri, 16 Oct 2026 07:55:06 +0000",
+      "source": "The Hacker News",
+      "title": "ConnectWise Suspends Cloud Backup After Attackers Compromise Microsoft 365 Tenants",
+      "url": "https://thehackernews.com/2026/10/connectwise-suspends-cloud-backup-after.html",
+      "summary": "ConnectWise on Saturday said it has disabled seven ConnectWise application identities as it continues its investigation into an incident in which unknown threat actors obtained unauthorized access to the application identities and compromised Microsoft 365 tenants. The disabled identities are listed below - ConnectWise Cloud Backup - 506e08f9-6e9a-4da4-942b-a099a03644ae ConnectWise",
+      "published": "Sun, 18 Oct 2026 13:53:02 +0530",
+      "score": 18.0
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "Hackers breach Microsoft 365 tenants via ConnectWise supply-chain attack",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/",
+      "summary": "ConnectWise has shut down customer access to its Cloud Backup service (formerly SkyKick Cloud Backup) after hackers accessed application identities and compromised Microsoft 365 tenants. [...]",
+      "published": "Sat, 17 Oct 2026 11:18:51 -0400",
+      "score": 18.0
+    },
+    {
+      "source": "Google News Cybersecurity",
+      "title": "ConnectWise Credential Compromise Enables Unauthorized Access to 173 Microsoft 365 Tenants: Cybersecurity Incident Analysis - Rescana",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPUzdBbXBVTXJjenZWSFhzR0J6b0tZbk1KUXFBN3hVdVQwNWZ5TkVQbm0zeE4wdFBiaXRPbmhwbU1YV2hsUUhxWDA1dHIxRHVyRXRFd0NtbzBUMkstYlB5RTRMbGFFVUxCUzkzZWpFMk8wSk8tRWVUMlhsTVM5WWdKamtoS1Ftb0hkS25Fd2l0Nk5Td1RPOEFuV2xZSXo5N09nMjRwZlVGajk4S1Z4ZFZFcTA4Zmg4OF9UbWFsM1FnTkFvdFN2RkVjT2t5bXM1TGUxRklzbk1KbGxOR2ltZmdxU0hZSQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi4wFBVV95cUxPUzdBbXBVTXJjenZWSFhzR0J6b0tZbk1KUXFBN3hVdVQwNWZ5TkVQbm0zeE4wdFBiaXRPbmhwbU1YV2hsUUhxWDA1dHIxRHVyRXRFd0NtbzBUMkstYlB5RTRMbGFFVUxCUzkzZWpFMk8wSk8tRWVUMlhsTVM5WWdKamtoS1Ftb0hkS25Fd2l0Nk5Td1RPOEFuV2xZSXo5N09nMjRwZlVGajk4S1Z4ZFZFcTA4Zmg4OF9UbWFsM1FnTkFvdFN2RkVjT2t5bXM1TGUxRklzbk1KbGxOR2ltZmdxU0hZSQ?oc=5\" target=\"_blank\">ConnectWise Credential Compromise Enables Unauthorized Access to 173 Microsoft 365 Tenants: Cybersecurity Incident Analysis</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Rescana</font>",
+      "published": "Sun, 18 Oct 2026 08:20:49 GMT",
       "score": 17.0
     },
     {
@@ -106,84 +82,36 @@
       "score": 16.0
     },
     {
-      "source": "The Hacker News",
-      "title": "GhostAction Compromises About 1,900 GitHub Accounts, Targets Over 30,000 Repositories",
-      "url": "https://thehackernews.com/2026/10/ghostaction-compromises-about-1900.html",
-      "summary": "The credential-theft campaign known as GhostAction has ramped up, targeting more than 30,000 repositories across 3,000 users and organizations. The spike, according to GitGuardian, was observed on October 8 and 9, 2026. \"This resulted from compromising the GitHub accounts of about 1,900 users. It attempted to extract 3,174 secrets from public repositories' CI,\" security researchers Gaetan",
-      "published": "Thu, 15 Oct 2026 14:15:10 +0530",
-      "score": 16.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "Critical PwnEscape Linux Kernel Vulnerability Lets Guest VMs Read Host Memory",
-      "url": "https://thehackernews.com/2026/10/critical-pwnescape-linux-kernel.html",
-      "summary": "A newly disclosed critical flaw in the Linux kernel allows code inside a virtual machine to read memory on the host computer it runs on. A researcher demonstrated the leak against Vercel's live cloud sandboxes, and Vercel confirmed it. The flaw, now tracked as CVE-2026-99999 and nicknamed PwnEscape, is in the Linux kernel's networking code, not in any one cloud's setup, so it reaches the shared",
-      "published": "Fri, 16 Oct 2026 01:54:36 +0530",
-      "score": 15.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "Help TDS Linked to Hotejka as 20,000+ Cloudflare Pages Domains Host Tech Support Scams",
-      "url": "https://thehackernews.com/2026/10/help-tds-linked-to-hotejka-as-20000.html",
-      "summary": "A long-running Traffic Distribution System (TDS) known as Help TDS to a Russian-language affiliate program called Hotejka, which appears to be a rebrand of a traffic monetization operation dubbed ROI777. Help TDS is assessed to be active since at least 2017, offering PHP code templates to partners and affiliates that are installed into compromised websites with an aim to direct unsuspecting",
-      "published": "Thu, 15 Oct 2026 19:41:36 +0530",
-      "score": 15.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "NGINX Fixes 5 Flaws, Including Possible RCE and a TLS Bug That May Skip Client-Cert Checks",
-      "url": "https://thehackernews.com/2026/10/nginx-fixes-5-flaws-including-possible.html",
-      "summary": "NGINX released&nbsp;versions 1.30.6 and 1.31.7&nbsp;on October 14 to fix five vulnerabilities, one of them present in every release since May 2005. There are three memory bugs that F5, the company behind NGINX, says could crash a worker process or possibly let an attacker run code, and each requires a specific configuration to exploit. A fourth lets an attacker forge a TLS session that could",
-      "published": "Thu, 15 Oct 2026 18:28:05 +0530",
-      "score": 15.0
-    },
-    {
       "source": "BleepingComputer",
-      "title": "Microsoft: October Windows update may break Smart App Control",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/kb5127648-windows-security-update-may-break-smart-app-control/",
-      "summary": "Microsoft says some users may have trouble turning on Smart App Control after installing this month's KB5127648 Windows 11 security update. [...]",
-      "published": "Fri, 16 Oct 2026 04:44:22 -0400",
-      "score": 15.0
-    },
-    {
-      "source": "BleepingComputer",
-      "title": "Hackers exploit Collabora RCE flaw to backdoor Nextcloud servers",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-collabora-rce-flaw-to-backdoor-nextcloud-servers/",
-      "summary": "Threat actors are exploiting a critical command execution flaw, now tracked as CVE-2026-110447, in the Collabora Online - Built-in CODE Server app (richdocumentscode) for Nextcloud. [...]",
-      "published": "Thu, 15 Oct 2026 16:25:04 -0400",
-      "score": 15.0
-    },
-    {
-      "source": "BleepingComputer",
-      "title": "Microsoft: Windows Server 2022 reached end of mainstream support",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2022-reached-end-of-mainstream-support/",
-      "summary": "Microsoft announced that Windows Server 2022 has reached the end of mainstream support and will remain in extended support until October 2031. [...]",
-      "published": "Thu, 15 Oct 2026 09:18:36 -0400",
-      "score": 15.0
-    },
-    {
-      "source": "BleepingComputer",
-      "title": "Microsoft fixes bug causing Windows black screens, Explorer crashes",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-causing-windows-black-screens-explorer-crashes/",
-      "summary": "Microsoft has resolved a known issue that was causing black screens, desktop loading issues, and Explorer crashes after installing Windows 11 updates released since August. [...]",
-      "published": "Thu, 15 Oct 2026 05:10:20 -0400",
-      "score": 15.0
-    },
-    {
-      "source": "SecurityWeek",
-      "title": "Watch Now: Zero Trust Strategies Summit – All Sessions Available on Demand",
-      "url": "https://www.securityweek.com/virtual-event-today-zero-trust-strategies-summit-2/",
-      "summary": "<p>This summit is laser-focused on the next generation of Zero Trust and Identity security, moving beyond theory to deliver actionable strategies.</p> <p>The post <a href=\"https://www.securityweek.com/virtual-event-today-zero-trust-strategies-summit-2/\">Watch Now: Zero Trust Strategies Summit &#8211; All Sessions Available on Demand</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "published": "Thu, 15 Oct 2026 16:51:34 +0000",
+      "title": "Drupal patches critical RCE flaws, warns exploits may emerge soon",
+      "url": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaws-warns-exploits-may-emerge-soon/",
+      "summary": "Drupal has patched two critical vulnerabilities that could allow attackers to execute code remotely on websites running any supported version of the content management system. [...]",
+      "published": "Sat, 17 Oct 2026 10:32:48 -0400",
       "score": 15.0
     },
     {
       "source": "Google News Cybersecurity",
-      "title": "Regions Bank Says AI Cybersecurity Drives Up Costs 1.5% to 3.5% - PYMNTS.com",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQ2t6LVZMb2JZRjI1Sk84RXVBYmowdDhKN1NWZ3dCUGp1RnpiQmlGLXBiVV9GR0FJbzlNRmp5SjFCZXlpV2phLVg3SUF6dXRlQ1lhaGgyYW1MckVpNUZKdzlRTUNJMEhvSW9TS1VlSkUtMUxUS0prY3liT1U3U215dEZaMjg2YVY0X3R1X2JEUGN6U1VnVjRFeThIVkQ5alNtSlR2ak9JQ3NJZXA1STRSM1RVcw?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxOQ2t6LVZMb2JZRjI1Sk84RXVBYmowdDhKN1NWZ3dCUGp1RnpiQmlGLXBiVV9GR0FJbzlNRmp5SjFCZXlpV2phLVg3SUF6dXRlQ1lhaGgyYW1MckVpNUZKdzlRTUNJMEhvSW9TS1VlSkUtMUxUS0prY3liT1U3U215dEZaMjg2YVY0X3R1X2JEUGN6U1VnVjRFeThIVkQ5alNtSlR2ak9JQ3NJZXA1STRSM1RVcw?oc=5\" target=\"_blank\">Regions Bank Says AI Cybersecurity Drives Up Costs 1.5% to 3.5%</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">PYMNTS.com</font>",
-      "published": "Fri, 16 Oct 2026 19:14:29 GMT",
+      "title": "India’s Fraud Problem Has Moved Into the Phone. Our Defences Need to Follow. - Cybersecurity Insiders",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZG94UFo3ZDhBc1lzcW44RDNWeHJ5NUVzVnNMYzgwRlVPN3RBUi1Eek1iWmRyblZWRHdCNXg4dVhVNnpyY0tFUHV1a1dNdG5nOXJ0MmxqN2lneUw4bHlpTHBwRFBMTTFrRXdidFloamstY3NyODdsMlVxLW1qVFozVVR0c3NFLXJULXFhY2QxNUUyQkdGQ0h1YV9SRGw5dkFVejJZNjJmd2h2SnEzV0J6TGw1QQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxOZG94UFo3ZDhBc1lzcW44RDNWeHJ5NUVzVnNMYzgwRlVPN3RBUi1Eek1iWmRyblZWRHdCNXg4dVhVNnpyY0tFUHV1a1dNdG5nOXJ0MmxqN2lneUw4bHlpTHBwRFBMTTFrRXdidFloamstY3NyODdsMlVxLW1qVFozVVR0c3NFLXJULXFhY2QxNUUyQkdGQ0h1YV9SRGw5dkFVejJZNjJmd2h2SnEzV0J6TGw1QQ?oc=5\" target=\"_blank\">India’s Fraud Problem Has Moved Into the Phone. Our Defences Need to Follow.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Cybersecurity Insiders</font>",
+      "published": "Sun, 18 Oct 2026 07:00:18 GMT",
       "score": 15.0
+    },
+    {
+      "source": "Google News Cybersecurity",
+      "title": "MSFT Stock Gains 3% — Microsoft Unveils AI Cybersecurity Model To Combat Real-Time Threats - Stocktwits",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNTFlWbjc0Z3pmZUF6cHo1SjFBelRydXNMRVFWbEIxeHlOUFFCcy0xRHQzY2hGWU5yVktWREQ1MHZVT25FQmVFdWVwNHYxV1haY2xqcEs0VmVlZjhOSFBpX0dyX3E2VThqZVlWOVgzUV9rYnVhWHFCVnZrYWJ5czFwTU92MEkzeExzLVNFQ3ZIRkp1LTRmb09BUUNYRm9sM1JaWFpzNV92YUNRaUxhMllFdVA3NU1jRGV5ODZ4YUlLbDNWRFpEOFo1X2xGSmU?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMizAFBVV95cUxNTFlWbjc0Z3pmZUF6cHo1SjFBelRydXNMRVFWbEIxeHlOUFFCcy0xRHQzY2hGWU5yVktWREQ1MHZVT25FQmVFdWVwNHYxV1haY2xqcEs0VmVlZjhOSFBpX0dyX3E2VThqZVlWOVgzUV9rYnVhWHFCVnZrYWJ5czFwTU92MEkzeExzLVNFQ3ZIRkp1LTRmb09BUUNYRm9sM1JaWFpzNV92YUNRaUxhMllFdVA3NU1jRGV5ODZ4YUlLbDNWRFpEOFo1X2xGSmU?oc=5\" target=\"_blank\">MSFT Stock Gains 3% — Microsoft Unveils AI Cybersecurity Model To Combat Real-Time Threats</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Stocktwits</font>",
+      "published": "Sat, 17 Oct 2026 16:48:03 GMT",
+      "score": 13.0
+    },
+    {
+      "source": "Google News Cybersecurity",
+      "title": "French supermarket fridge cyberattack: A warning for the industry that highlights cybersecurity flaws - Le Monde.fr",
+      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOVVB3RnRWVlJHVU1ySUVTYnRwZ0NYVmpxaU5FeDdWc3lwUjVXNmtXcVBGQllwc1NwNlJBbFZoOW1PbDBVRmdiRU16dEhzRXlWNUIwcWFTMlhDdzFzTGVhUDZiUjVDV2w4cXRmenJPV3JBWUIweTRwcXV2ZVc0WnpiMUlObTBoTVpuZzdOeEJaWWpSNEJsXzM4Y3VTZ2J2WjhoLUEteWowbVJVaENNcEhFN0x0RnR6dWxLaklXX1pOSG9wUjV1RW1YbEgtb0Fmb1JfaExHVFBwbGlwZ1VDeXU5RHZHelB0QU9Hdld4QXozc3B3NzZlLVFudFQwSDdUUQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi_gFBVV95cUxOVVB3RnRWVlJHVU1ySUVTYnRwZ0NYVmpxaU5FeDdWc3lwUjVXNmtXcVBGQllwc1NwNlJBbFZoOW1PbDBVRmdiRU16dEhzRXlWNUIwcWFTMlhDdzFzTGVhUDZiUjVDV2w4cXRmenJPV3JBWUIweTRwcXV2ZVc0WnpiMUlObTBoTVpuZzdOeEJaWWpSNEJsXzM4Y3VTZ2J2WjhoLUEteWowbVJVaENNcEhFN0x0RnR6dWxLaklXX1pOSG9wUjV1RW1YbEgtb0Fmb1JfaExHVFBwbGlwZ1VDeXU5RHZHelB0QU9Hdld4QXozc3B3NzZlLVFudFQwSDdUUQ?oc=5\" target=\"_blank\">French supermarket fridge cyberattack: A warning for the industry that highlights cybersecurity flaws</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Le Monde.fr</font>",
+      "published": "Sat, 17 Oct 2026 10:30:51 GMT",
+      "score": 13.0
     },
     {
       "source": "The Hacker News",
@@ -208,6 +136,78 @@
       "summary": "In the space of a month, a new category of AI model went from nonexistent to everywhere. TypeSafe AI released Jev on September 15 and called it a System One model, a nod to Kahneman's fast, intuitive thinking. OpenAI announced its own Decisions API at DevDay and opened a public beta on October 6. Cribl published cribl-decision, an open LoRA adapter you can run locally. Others, like Laya, are",
       "published": "Fri, 16 Oct 2026 17:00:00 +0530",
       "score": 12.0
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "Critical BlockStrap flaw lets hackers run code on Magento servers",
+      "url": "https://www.bleepingcomputer.com/news/security/critical-blockstrap-flaw-lets-hackers-run-code-on-magento-servers/",
+      "summary": "Researchers warn that hackers could soon exploit a maximum-severity vulnerability (CVE-2026-103849) affecting Magento and Adobe Commerce, potentially allowing them to execute arbitrary PHP code on store servers. [...]",
+      "published": "Fri, 16 Oct 2026 16:00:59 -0400",
+      "score": 12.0
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "Targeted ads installed Candiru spyware in zero-click attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/zero-click-attacks-used-targeted-ads-to-deliver-candiru-spyware/",
+      "summary": "Candiru spyware was delivered to devices at Al Jazeera Media Network via targeted online advertisements in a zero-click attack that required only rendering the malicious ads on the victim's device. [...]",
+      "published": "Fri, 16 Oct 2026 13:20:03 -0400",
+      "score": 12.0
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "Employees using personal ChatGPT at work? Here's what IT admins need to do",
+      "url": "https://www.bleepingcomputer.com/news/security/employees-using-personal-chatgpt-at-work-heres-what-it-admins-need-to-do/",
+      "summary": "Employees using personal ChatGPT accounts at work can expose sensitive company data, even when their organization provides an approved Enterprise workspace. NordLayer explains how IT teams can investigate unauthorized AI use and block sensitive information before it reaches personal accounts. [...]",
+      "published": "Fri, 16 Oct 2026 09:50:59 -0400",
+      "score": 12.0
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "Burger King Japan data breach exposes 11 million customer records",
+      "url": "https://www.bleepingcomputer.com/news/security/burger-king-japan-data-breach-exposes-11-million-customer-records/",
+      "summary": "Burger King Japan, the Japanese subsidiary of global fast-food giant Burger King, disclosed a major data breach after attackers accessed a server containing 11.18 million customer records. [...]",
+      "published": "Fri, 16 Oct 2026 08:01:29 -0400",
+      "score": 12.0
+    },
+    {
+      "source": "SecurityWeek",
+      "title": "Israeli Ad Firm Doubled as Candiru’s Zero-Click Spyware Delivery Channel",
+      "url": "https://www.securityweek.com/israeli-ad-firm-doubled-as-candirus-zero-click-spyware-delivery-channel/",
+      "summary": "<p>Israeli company Discover-Tech’s ads allow threat actors to fingerprint and track devices at scale and infect selected targets.</p> <p>The post <a href=\"https://www.securityweek.com/israeli-ad-firm-doubled-as-candirus-zero-click-spyware-delivery-channel/\">Israeli Ad Firm Doubled as Candiru&#8217;s Zero-Click Spyware Delivery Channel</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "published": "Sat, 17 Oct 2026 11:00:00 +0000",
+      "score": 11.0
+    },
+    {
+      "source": "SecurityWeek",
+      "title": "In Other News: ICS-Sniper Attack, Hacking XWorm Malware Operators, $250k Chrome Exploit",
+      "url": "https://www.securityweek.com/in-other-news-ics-sniper-attack-hacking-xworm-malware-operators-250k-chrome-exploit/",
+      "summary": "<p>Noteworthy stories that might have slipped under the radar: BofA adds 1,000 patching contractors, KGB RAT pairs data theft with jump scares, and Langflow flaw under attack.</p> <p>The post <a href=\"https://www.securityweek.com/in-other-news-ics-sniper-attack-hacking-xworm-malware-operators-250k-chrome-exploit/\">In Other News: ICS-Sniper Attack, Hacking XWorm Malware Operators, $250k Chrome Exploit</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "published": "Fri, 16 Oct 2026 14:09:51 +0000",
+      "score": 11.0
+    },
+    {
+      "source": "SecurityWeek",
+      "title": "BAE Systems Security Incident Stalls Notices From US Bankruptcy Courts",
+      "url": "https://www.securityweek.com/bae-systems-security-incident-stalls-notices-from-us-bankruptcy-courts/",
+      "summary": "<p>A cyber incident affecting contractor BAE Systems has knocked out the Bankruptcy Noticing Center, halting notices nationwide for a week.</p> <p>The post <a href=\"https://www.securityweek.com/bae-systems-security-incident-stalls-notices-from-us-bankruptcy-courts/\">BAE Systems Security Incident Stalls Notices From US Bankruptcy Courts</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "published": "Fri, 16 Oct 2026 11:46:40 +0000",
+      "score": 11.0
+    },
+    {
+      "source": "SecurityWeek",
+      "title": "OpenAI Models Hacked Data Portals, Raided a Crypto Wallet to Finish Tasks",
+      "url": "https://www.securityweek.com/openai-models-hacked-data-portals-raided-a-crypto-wallet-to-finish-tasks/",
+      "summary": "<p>Left without funds for a coding task, an OpenAI model spent test crypto from a stranger’s wallet and left it out of its report.</p> <p>The post <a href=\"https://www.securityweek.com/openai-models-hacked-data-portals-raided-a-crypto-wallet-to-finish-tasks/\">OpenAI Models Hacked Data Portals, Raided a Crypto Wallet to Finish Tasks</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "published": "Fri, 16 Oct 2026 10:32:11 +0000",
+      "score": 11.0
+    },
+    {
+      "source": "Google News Cybersecurity",
+      "title": "BAE Systems Cybersecurity Incident Disrupts US Federal Bankruptcy Noticing Center (BNC) Nationwide - Rescana",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQOEFxYmcwUUk1N0hnenJnWEVrc2dQLTFFbVByVEZLTEM1MkVSemNZMklkOGlfT2t2cUVvY3hQN3lFdGpqczE5b3ZhRmFGZHFkTEF5Xy1BVWxVT3B1RnU1dnlIM0htR3UwcHppREF2RnFsazBucHRKN1ZVVGpkMTUxS0xLYTNUZ1F6aENUU2hieXZlYTl5bTN6Q2FENm0xLWJZTVo2TWdZNm5qX1FJT085djBpWU54WjJsbGlNUXNNVmM0WlE?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxQOEFxYmcwUUk1N0hnenJnWEVrc2dQLTFFbVByVEZLTEM1MkVSemNZMklkOGlfT2t2cUVvY3hQN3lFdGpqczE5b3ZhRmFGZHFkTEF5Xy1BVWxVT3B1RnU1dnlIM0htR3UwcHppREF2RnFsazBucHRKN1ZVVGpkMTUxS0xLYTNUZ1F6aENUU2hieXZlYTl5bTN6Q2FENm0xLWJZTVo2TWdZNm5qX1FJT085djBpWU54WjJsbGlNUXNNVmM0WlE?oc=5\" target=\"_blank\">BAE Systems Cybersecurity Incident Disrupts US Federal Bankruptcy Noticing Center (BNC) Nationwide</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Rescana</font>",
+      "published": "Sun, 18 Oct 2026 08:20:49 GMT",
+      "score": 10.0
     }
   ]
 }
