@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-19T10:02:47.832207+00:00",
+  "generated_at_utc": "2026-10-20T09:30:22.540308+00:00",
   "publication_enabled": false,
   "editorial_note": "Candidates require human/editorial review and original technical work before publication.",
   "feed_errors": [
@@ -11,27 +11,83 @@
   "candidates": [
     {
       "source": "The Hacker News",
-      "title": "MALFEX npm Package 'imgdecode' Hides Shellcode Loader in Windows Native Addon",
-      "url": "https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html",
-      "summary": "Cybersecurity researchers have discovered a malicious npm package that's part of a recently disclosed software supply chain attack campaign dubbed MALFEX. The package, named \"imgdecode,\" was uploaded to the package registry on September 30, 2026, by a user named \"malfexteste8.\" It has been downloaded 979 times as of writing and is still available on npm as of writing. The latest version of",
-      "published": "Sat, 17 Oct 2026 16:41:56 +0530",
-      "score": 21.0
+      "title": "GhostAction Attackers Plant Credential Stealer Disguised as Font in 94 GitHub Repositories",
+      "url": "https://thehackernews.com/2026/10/ghostaction-attackers-plant-credential.html",
+      "summary": "The threat actor behind the GhostAction supply chain attack has expanded beyond injecting malicious GitHub Actions workflows into compromised projects to phish open-source developers and deliver a stealer malware disguised within a fake font file. The latest evolution, detailed by OpenSourceMalware, signals that the attackers are actively refining their modus operandi in response to steps",
+      "published": "Mon, 19 Oct 2026 18:35:45 +0530",
+      "score": 25.0
     },
     {
       "source": "The Hacker News",
-      "title": "ConnectWise Suspends Cloud Backup After Attackers Compromise Microsoft 365 Tenants",
-      "url": "https://thehackernews.com/2026/10/connectwise-suspends-cloud-backup-after.html",
-      "summary": "ConnectWise on Saturday said it has disabled seven ConnectWise application identities as it continues its investigation into an incident in which unknown threat actors obtained unauthorized access to the application identities and compromised Microsoft 365 tenants. The disabled identities are listed below - ConnectWise Cloud Backup - 506e08f9-6e9a-4da4-942b-a099a03644ae ConnectWise",
-      "published": "Sun, 18 Oct 2026 13:53:02 +0530",
-      "score": 18.0
+      "title": "⚡ Weekly Recap: 98 Zero-Days, Rogue AI Agents, $100M Crypto Theft, 700 Supermarkets Hit and More",
+      "url": "https://thehackernews.com/2026/10/weekly-recap-98-zero-days-rogue-ai.html",
+      "summary": "The worst problems don't always come with a warning. Sometimes they arrive through a service everyone trusts, a device someone bought, or a system nobody thought to check. By the time something looks wrong, the damage may already be done. This week had plenty of that. Trusted connections became a problem. Hardware wasn't as safe as it looked. Old bugs found new victims, and some systems were",
+      "published": "Mon, 19 Oct 2026 19:44:07 +0530",
+      "score": 24.0
+    },
+    {
+      "source": "SecurityWeek",
+      "title": "Rank Math PRO WordPress Plugin Compromised in Supply Chain Attack",
+      "url": "https://www.securityweek.com/rank-math-pro-wordpress-plugin-compromised-in-supply-chain-attack/",
+      "summary": "<p>Hackers injected malware into Rank Math PRO version 3.0.123 packages distributed between October 15 and October 16.</p> <p>The post <a href=\"https://www.securityweek.com/rank-math-pro-wordpress-plugin-compromised-in-supply-chain-attack/\">Rank Math PRO WordPress Plugin Compromised in Supply Chain Attack</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "published": "Mon, 19 Oct 2026 15:20:53 +0000",
+      "score": 20.0
     },
     {
       "source": "BleepingComputer",
-      "title": "Hackers breach Microsoft 365 tenants via ConnectWise supply-chain attack",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/",
-      "summary": "ConnectWise has shut down customer access to its Cloud Backup service (formerly SkyKick Cloud Backup) after hackers accessed application identities and compromised Microsoft 365 tenants. [...]",
-      "published": "Sat, 17 Oct 2026 11:18:51 -0400",
-      "score": 18.0
+      "title": "Inside the Underground Market for Know Your Client Services",
+      "url": "https://www.bleepingcomputer.com/news/security/inside-the-underground-market-for-know-your-client-services/",
+      "summary": "Cybercriminals are selling forged identity documents, deepfake videos, and live verification services to help buyers bypass Know Your Client (KYC) checks. Flare examines how these underground services operate and the techniques used to create and maintain fraudulent verified accounts. [...]",
+      "published": "Mon, 19 Oct 2026 10:00:10 -0400",
+      "score": 16.0
+    },
+    {
+      "source": "Google News Cybersecurity",
+      "title": "ConnectWise suspends Cloud Backup service as hacker targets Microsoft 365 users - Cybersecurity Dive",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQWjQwU0ZncUdOV3RGQzBwel9wNzNVMFVfQlFqZk1TMWJwX1g5d1cxUzNaMFdfNjJLUVRTQW4wSkw2SzNrRGMtR3pELWFoWDJhNGl5X3lSNUJjRFVDdy0waDQxaGxUQlVmTDhqaHRyc3YycHByLTNMVm1jenpTaXFFVWNwaGdsal80QU4yTk52cklVYkk2MkltSUY4RlJrRDU2akE?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxQWjQwU0ZncUdOV3RGQzBwel9wNzNVMFVfQlFqZk1TMWJwX1g5d1cxUzNaMFdfNjJLUVRTQW4wSkw2SzNrRGMtR3pELWFoWDJhNGl5X3lSNUJjRFVDdy0waDQxaGxUQlVmTDhqaHRyc3YycHByLTNMVm1jenpTaXFFVWNwaGdsal80QU4yTk52cklVYkk2MkltSUY4RlJrRDU2akE?oc=5\" target=\"_blank\">ConnectWise suspends Cloud Backup service as hacker targets Microsoft 365 users</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Cybersecurity Dive</font>",
+      "published": "Mon, 19 Oct 2026 15:58:11 GMT",
+      "score": 16.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "Ex-OpenAI Engineer Detained in Spy Device Case as Saudi Royal Contacts Emerge",
+      "url": "https://thehackernews.com/2026/10/ex-openai-engineer-detained-in-spy.html",
+      "summary": "A U.S. court on Monday granted the U.S. government's request to detain a former OpenAI engineer accused of planting a recording device in an executive conference room at the company's San Francisco office to allegedly steal sensitive secrets. In a new court filing Sunday, prosecutors revealed that Abdulrahman Alfozan, a 35-year-old Saudi national, was \"in frequent communications via WhatsApp",
+      "published": "Tue, 20 Oct 2026 11:23:16 +0530",
+      "score": 15.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "Hackers Exploit Plex2Shell Flaws to Install Crypto Miners and Linux Proxy Backdoor",
+      "url": "https://thehackernews.com/2026/10/hackers-exploit-plex2shell-flaws-to.html",
+      "summary": "Threat actors have begun to exploit a chain of vulnerabilities in Plex Media Server to deploy cryptocurrency miners and reverse proxy software, a day after a proof-of-concept (PoC) went public. According to a researcher who goes by the online alias boredhackerblog, the exploitation activity involves chaining four different vulnerabilities, collectively called Plex2Shell. The vulnerabilities",
+      "published": "Mon, 19 Oct 2026 23:02:13 +0530",
+      "score": 15.0
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "Microsoft fixes game, app crashes caused by recent Windows update",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-game-app-crashes-caused-by-windows-kb5124010-preview-update/",
+      "summary": "Microsoft has resolved a bug that caused games and apps using AC-3 (Dolby Digital) audio decoding to crash after installing the September 2026 Windows 11 preview update (KB5124010). [...]",
+      "published": "Mon, 19 Oct 2026 10:55:23 -0400",
+      "score": 15.0
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "F5 releases out-of-band patches for critical NGINX vulnerabilities",
+      "url": "https://www.bleepingcomputer.com/news/security/f5-releases-out-of-band-patches-for-critical-nginx-vulnerabilities/",
+      "summary": "F5 has released out-of-band security patches to address multiple NGINX web server flaws, including three critical-severity vulnerabilities that can let attackers execute code on vulnerable systems. [...]",
+      "published": "Mon, 19 Oct 2026 09:49:24 -0400",
+      "score": 15.0
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "Microsoft fixes classic Outlook bug that hid Copilot buttons",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-that-hid-copilot-buttons-in-classic-outlook/",
+      "summary": "Microsoft has fixed a known issue that removed the Copilot Chat and Copilot buttons in the classic Outlook desktop mail client for some Windows users. [...]",
+      "published": "Mon, 19 Oct 2026 08:44:44 -0400",
+      "score": 15.0
     },
     {
       "source": "BleepingComputer",
@@ -42,28 +98,100 @@
       "score": 15.0
     },
     {
-      "source": "BleepingComputer",
-      "title": "Drupal patches critical RCE flaws, warns exploits may emerge soon",
-      "url": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaws-warns-exploits-may-emerge-soon/",
-      "summary": "Drupal has patched two critical vulnerabilities that could allow attackers to execute code remotely on websites running any supported version of the content management system. [...]",
-      "published": "Sat, 17 Oct 2026 10:32:48 -0400",
+      "source": "SecurityWeek",
+      "title": "One Compromised Login Exposed Millions of California Students’ Records",
+      "url": "https://www.securityweek.com/one-compromised-login-exposed-millions-of-california-students-records/",
+      "summary": "<p>Intruders used compromised credentials to access an ETS SFTP server, copying records of California students back to 2006.</p> <p>The post <a href=\"https://www.securityweek.com/one-compromised-login-exposed-millions-of-california-students-records/\">One Compromised Login Exposed Millions of California Students&#8217; Records</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "published": "Mon, 19 Oct 2026 11:55:50 +0000",
       "score": 15.0
     },
     {
+      "source": "SecurityWeek",
+      "title": "Exploited Fortinet Bug Linked to Stealthy FortiGate Implant in Telecom Hack",
+      "url": "https://www.securityweek.com/exploited-fortinet-bug-linked-to-stealthy-fortigate-implant-in-telecom-hack/",
+      "summary": "<p>The persistent, stealthy FortiGate implant was deployed against a telecommunications organization.</p> <p>The post <a href=\"https://www.securityweek.com/exploited-fortinet-bug-linked-to-stealthy-fortigate-implant-in-telecom-hack/\">Exploited Fortinet Bug Linked to Stealthy FortiGate Implant in Telecom Hack</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "published": "Mon, 19 Oct 2026 11:13:23 +0000",
+      "score": 15.0
+    },
+    {
+      "source": "SecurityWeek",
+      "title": "Drupal Warns of Fast Exploitation Risk for Critical Core RCE Flaw",
+      "url": "https://www.securityweek.com/drupal-warns-of-fast-exploitation-risk-for-critical-core-rce-flaw/",
+      "summary": "<p>Critical flaws impact the Entity List and Field UI modules, and exploit paths exist with contributed modules.</p> <p>The post <a href=\"https://www.securityweek.com/drupal-warns-of-fast-exploitation-risk-for-critical-core-rce-flaw/\">Drupal Warns of Fast Exploitation Risk for Critical Core RCE Flaw</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "published": "Mon, 19 Oct 2026 15:47:50 +0000",
+      "score": 14.0
+    },
+    {
+      "source": "SecurityWeek",
+      "title": "ConnectWise Suspends Cloud Services in Response to Cyberattack",
+      "url": "https://www.securityweek.com/connectwise-suspends-cloud-services-in-response-to-cyberattack/",
+      "summary": "<p>The services remain unavailable as the company continues remediation and security validation.</p> <p>The post <a href=\"https://www.securityweek.com/connectwise-suspends-cloud-services-in-response-to-cyberattack/\">ConnectWise Suspends Cloud Services in Response to Cyberattack</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "published": "Mon, 19 Oct 2026 13:16:20 +0000",
+      "score": 14.0
+    },
+    {
       "source": "Google News Cybersecurity",
-      "title": "Cybersecurity jobs report, ConnectWise suspends cloud backup - CISO Series",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1uZFB1UGIxU3k1aXRaV253a29OT1EtU2s4V0NVSkxQa2JzWUxRUnJGMlhhengtQUZDNHUtUEFMRHRBbjF3dnp4a3dLcjJjWjc3Y19KOEhDWW5LUS1kcVROOUhoUG0wN2tjMXc?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiakFVX3lxTE1uZFB1UGIxU3k1aXRaV253a29OT1EtU2s4V0NVSkxQa2JzWUxRUnJGMlhhengtQUZDNHUtUEFMRHRBbjF3dnp4a3dLcjJjWjc3Y19KOEhDWW5LUS1kcVROOUhoUG0wN2tjMXc?oc=5\" target=\"_blank\">Cybersecurity jobs report, ConnectWise suspends cloud backup</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CISO Series</font>",
-      "published": "Mon, 19 Oct 2026 10:00:00 GMT",
+      "title": "AI agents are forcing a rethink of digital identity, cybersecurity experts warn - THINK Digital Partners",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOT2wzMHBDZVJkVTZZamtiQlNXVzFCajBlN1JxLVFCbUpaX3BTeHBFbTNiTHBDQmpZbkp6aFdSMDJ6d1lwSjdoM1FmNk1oU3ZUcE5FRGZGY2IwOGhFeWpoeGttTGx6eWh0eWxOZGFMT2ZRemtFRVB4TzNRWE1HYnVUY2Zzb1htNXNpWmVhRWUtelFhSWMxaGVpVmdSNTZUYkZyOTA5Z3VHam1weG9mVDFVeUtYV2FwWDZhQ09hR0Rzck5kaEF5aTBNR2Etc2k?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMizAFBVV95cUxOT2wzMHBDZVJkVTZZamtiQlNXVzFCajBlN1JxLVFCbUpaX3BTeHBFbTNiTHBDQmpZbkp6aFdSMDJ6d1lwSjdoM1FmNk1oU3ZUcE5FRGZGY2IwOGhFeWpoeGttTGx6eWh0eWxOZGFMT2ZRemtFRVB4TzNRWE1HYnVUY2Zzb1htNXNpWmVhRWUtelFhSWMxaGVpVmdSNTZUYkZyOTA5Z3VHam1weG9mVDFVeUtYV2FwWDZhQ09hR0Rzck5kaEF5aTBNR2Etc2k?oc=5\" target=\"_blank\">AI agents are forcing a rethink of digital identity, cybersecurity experts warn</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">THINK Digital Partners</font>",
+      "published": "Tue, 20 Oct 2026 05:51:35 GMT",
+      "score": 14.0
+    },
+    {
+      "source": "Google News Cybersecurity",
+      "title": "Microsoft warns that AI Agents could become Insider Threats - Cybersecurity Insiders",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOS2trYlRqdHIyZ0VuRnFTTkhfVF9XNXY1ZzdUcWNzZUtGZHhOVzNVOWtMQmR2U1pGamlsZUpTYlFTZ1FKQlRuWF9HdkRtOU9pZk9GMEp6YWFWMW5IUmdWZjlHNDR4dkFIYVJfcGtnYl9ld2p2aGJaN3VDSUR2TEpnTE1rTjRqX1NNeTNDa1BwWVkwd3F2dy05clUyV19ucHU4?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxOS2trYlRqdHIyZ0VuRnFTTkhfVF9XNXY1ZzdUcWNzZUtGZHhOVzNVOWtMQmR2U1pGamlsZUpTYlFTZ1FKQlRuWF9HdkRtOU9pZk9GMEp6YWFWMW5IUmdWZjlHNDR4dkFIYVJfcGtnYl9ld2p2aGJaN3VDSUR2TEpnTE1rTjRqX1NNeTNDa1BwWVkwd3F2dy05clUyV19ucHU4?oc=5\" target=\"_blank\">Microsoft warns that AI Agents could become Insider Threats</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Cybersecurity Insiders</font>",
+      "published": "Tue, 20 Oct 2026 05:38:35 GMT",
       "score": 13.0
     },
     {
       "source": "Google News Cybersecurity",
-      "title": "IOCO targets strategic acquisitions in AI, cybersecurity and cloud - Telecompaper",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOaHJidFlxekRUQ0hGMENpZUJaVDAzR1ZrTk5lNWl5bVRfRGZVaUZJZE9wbmdfdy1maEVjeUtiSWR0Zzhtb0N3VFViZXQzdHhXWmFCZFpqcjNuOHRKb0JNVmxyeER5UkdfQkRMNHlFYV9lRVU0aVRTNFBmQmRoNWdjay1JaC1QZ2ZkQWIwOUpHbHF3MktVZE9EcGhlY2FtZ01semZYUGh6VWRUZnlr?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirAFBVV95cUxOaHJidFlxekRUQ0hGMENpZUJaVDAzR1ZrTk5lNWl5bVRfRGZVaUZJZE9wbmdfdy1maEVjeUtiSWR0Zzhtb0N3VFViZXQzdHhXWmFCZFpqcjNuOHRKb0JNVmxyeER5UkdfQkRMNHlFYV9lRVU0aVRTNFBmQmRoNWdjay1JaC1QZ2ZkQWIwOUpHbHF3MktVZE9EcGhlY2FtZ01semZYUGh6VWRUZnlr?oc=5\" target=\"_blank\">IOCO targets strategic acquisitions in AI, cybersecurity and cloud</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Telecompaper</font>",
-      "published": "Mon, 19 Oct 2026 09:32:10 GMT",
+      "title": "Cisco Lobbies on AI and Cybersecurity via Ballard Partners - Legis1",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFB5clhjbktRSWtTcHJlSUFnUWw5OS1mOFd1bVE2TkI0ejFmVlFjMFl1X01nQU1LcmNKWS1fZ3BzRG94OHNTYi0yWEpNbnR5dVJJd2tIUjJOcnJELTN0VW4xeTBRTkx0X3UzU2ZGVXNMWXZUTENRT28zem5R?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTFB5clhjbktRSWtTcHJlSUFnUWw5OS1mOFd1bVE2TkI0ejFmVlFjMFl1X01nQU1LcmNKWS1fZ3BzRG94OHNTYi0yWEpNbnR5dVJJd2tIUjJOcnJELTN0VW4xeTBRTkx0X3UzU2ZGVXNMWXZUTENRT28zem5R?oc=5\" target=\"_blank\">Cisco Lobbies on AI and Cybersecurity via Ballard Partners</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Legis1</font>",
+      "published": "Mon, 19 Oct 2026 16:39:20 GMT",
       "score": 13.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "ClickFix Attackers Exploit Siemens Software Center Flaw to Deploy Remote Access Trojan",
+      "url": "https://thehackernews.com/2026/10/clickfix-attackers-exploit-siemens.html",
+      "summary": "Siemens has addressed a DLL sideloading vulnerability impacting Siemens Software Center that it said has been exploited in ClickFix attacks. The high-severity vulnerability, tracked as CVE-2026-110936 (CVSS v4 score: 8.4), could allow an attacker to place a specially-crafted DLL in a directory the application searches, resulting in execution of malicious code with the same privileges as the",
+      "published": "Tue, 20 Oct 2026 12:41:45 +0530",
+      "score": 12.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "Hackers Use New ROMULUS ClickFix Platform to Deliver LegionLoader and Other Malware",
+      "url": "https://thehackernews.com/2026/10/romulus-clickfix-platform-tricks-users.html",
+      "summary": "Cybersecurity researchers have disclosed details of a ClickFix delivery platform called ROMULUS that's being used to distribute malware such as Legion Loader. According to Forescout Research - Vedere Labs, ROMULUS is akin to a malware delivery service that employs ClickFix-style lures on bogus landing pages to trick unsuspecting users into running malicious commands and infecting their own",
+      "published": "Tue, 20 Oct 2026 09:35:58 +0530",
+      "score": 12.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "Popular WordPress SEO Plugin Rank Math PRO Hijacked to Deliver Self-Restoring Backdoor",
+      "url": "https://thehackernews.com/2026/10/popular-wordpress-seo-plugin-rank-math.html",
+      "summary": "Copies of Rank Math PRO, the paid version of the Rank Math SEO plugin for WordPress, that were downloaded from rankmath.com or delivered as updates between 20:02 UTC on October 15 and 07:12 UTC on October 16 contained malware, Rank Math said in a&nbsp;security notice&nbsp;published on October 16. Any site that installed and activated one of those copies should be treated as compromised, and the",
+      "published": "Mon, 19 Oct 2026 21:58:47 +0530",
+      "score": 12.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "From Email-to-Case to the Boardroom: How Inherited Agents Break Governance Built for Software",
+      "url": "https://thehackernews.com/2026/10/from-email-to-case-to-boardroom-how.html",
+      "summary": "In Salesforce Agentforce, the recommended way to make an agent respond to events is a Flow: a record is created or a case is updated, and the Flow passes data into the agent's prompt. Separately, Email-to-Case and Web-to-Case turn inbound customer messages into case records; it is how airlines and hotels run support intake. Both are standard, documented, as-designed features. Chained together,",
+      "published": "Mon, 19 Oct 2026 17:20:00 +0530",
+      "score": 12.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "Fake Web3 Accelerator Uses npm Packages to Spread Malware and Hijack AI Agent Traffic",
+      "url": "https://thehackernews.com/2026/10/fake-web3-accelerator-uses-npm-packages.html",
+      "summary": "A fake Web3 accelerator has been observed pushing information stealers and backdoors to Windows and macOS systems using malicious npm packages under the pretext of offering free artificial intelligence (AI) credits for Anthropic Claude and Google Gemini, coding tools, and security audits. \"The tools delivered information-stealing malware and backdoors for macOS and Windows machines,\" Elastic",
+      "published": "Mon, 19 Oct 2026 15:36:40 +0530",
+      "score": 12.0
     },
     {
       "source": "The Hacker News",
@@ -80,134 +208,6 @@
       "summary": "An intruder reached a legacy system at OpenCode on the night of October 16 and may have exposed the third-party AI provider keys that users had saved in OpenCode Console, the company said. Console is OpenCode's optional hosted service: a workspace saves its own OpenAI, Anthropic, or Google key there, and Console uses that key to call the provider so team members can use the models without",
       "published": "Mon, 19 Oct 2026 11:37:08 +0530",
       "score": 12.0
-    },
-    {
-      "source": "BleepingComputer",
-      "title": "Hackers exploit SiteGuard WAF flaw to run commands as admins",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-siteguard-waf-flaw-to-run-commands-as-system-root/",
-      "summary": "Attackers are targeting an OS command injection vulnerability in SiteGuard Server Edition that lets them execute commands as root or SYSTEM on affected servers. [...]",
-      "published": "Sun, 18 Oct 2026 10:23:16 -0400",
-      "score": 12.0
-    },
-    {
-      "source": "SecurityWeek",
-      "title": "MITRE ATT&CK v20 Catalogs AI Abuse, MFA Bypass, Water Utility Attacks",
-      "url": "https://www.securityweek.com/mitre-attck-v20-catalogs-ai-abuse-mfa-bypass-water-utility-attacks/",
-      "summary": "<p>Defenders get 15 new detection strategies, six for Enterprise and nine for ICS, backed by 38 analytics.</p> <p>The post <a href=\"https://www.securityweek.com/mitre-attck-v20-catalogs-ai-abuse-mfa-bypass-water-utility-attacks/\">MITRE ATT&#038;CK v20 Catalogs AI Abuse, MFA Bypass, Water Utility Attacks</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "published": "Mon, 19 Oct 2026 09:37:04 +0000",
-      "score": 11.0
-    },
-    {
-      "source": "SecurityWeek",
-      "title": "Anthropic Acquires Confidential AI Startup Opaque Systems",
-      "url": "https://www.securityweek.com/anthropic-acquires-confidential-ai-startup-opaque-systems/",
-      "summary": "<p>Opaque Systems has developed technology that lets AI systems use sensitive data while keeping it protected by the underlying hardware.</p> <p>The post <a href=\"https://www.securityweek.com/anthropic-acquires-confidential-ai-startup-opaque-systems/\">Anthropic Acquires Confidential AI Startup Opaque Systems</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "published": "Mon, 19 Oct 2026 07:45:25 +0000",
-      "score": 11.0
-    },
-    {
-      "source": "SecurityWeek",
-      "title": "US Cybersecurity Job Postings Fall 26% as AI Security Engineer Demand Soars",
-      "url": "https://www.securityweek.com/us-cybersecurity-job-postings-fall-26-as-ai-security-engineer-demand-soars/",
-      "summary": "<p>CyberSN’s Cybersecurity Jobs Report provides visibility into the US cybersecurity job market. It’s a mixed bag.</p> <p>The post <a href=\"https://www.securityweek.com/us-cybersecurity-job-postings-fall-26-as-ai-security-engineer-demand-soars/\">US Cybersecurity Job Postings Fall 26% as AI Security Engineer Demand Soars</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "published": "Sun, 18 Oct 2026 11:00:00 +0000",
-      "score": 11.0
-    },
-    {
-      "source": "SecurityWeek",
-      "title": "Israeli Ad Firm Doubled as Candiru’s Zero-Click Spyware Delivery Channel",
-      "url": "https://www.securityweek.com/israeli-ad-firm-doubled-as-candirus-zero-click-spyware-delivery-channel/",
-      "summary": "<p>Israeli company Discover-Tech’s ads allow threat actors to fingerprint and track devices at scale and infect selected targets.</p> <p>The post <a href=\"https://www.securityweek.com/israeli-ad-firm-doubled-as-candirus-zero-click-spyware-delivery-channel/\">Israeli Ad Firm Doubled as Candiru&#8217;s Zero-Click Spyware Delivery Channel</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "published": "Sat, 17 Oct 2026 11:00:00 +0000",
-      "score": 11.0
-    },
-    {
-      "source": "Google News Cybersecurity",
-      "title": "2026 Cybersecurity Career Week is Here! | September 19-24, 2026 - National Institute of Standards and Technology (.gov)",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPM3V0WnFDeDBZUnJ3LUVvRncyT01xOGJOdEdMZ3NsZ3U0aVlyVmQtbUhPZV96MExrSFVQdDVKcDJuWEd5QkJPLXVTam9OMHROVGduQjRCTUloZVRfd2l2Z3ZSQ2I2Z0RWNFNLV0lzR0tCRW5DU1hPVHhKZDRPTk5qbUVvVFh4VkhtQVFIa0RWWWp1OE44Zm5hcW9RUkVJTzlzMmlsdg?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxPM3V0WnFDeDBZUnJ3LUVvRncyT01xOGJOdEdMZ3NsZ3U0aVlyVmQtbUhPZV96MExrSFVQdDVKcDJuWEd5QkJPLXVTam9OMHROVGduQjRCTUloZVRfd2l2Z3ZSQ2I2Z0RWNFNLV0lzR0tCRW5DU1hPVHhKZDRPTk5qbUVvVFh4VkhtQVFIa0RWWWp1OE44Zm5hcW9RUkVJTzlzMmlsdg?oc=5\" target=\"_blank\">2026 Cybersecurity Career Week is Here! | September 19-24, 2026</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">National Institute of Standards and Technology (.gov)</font>",
-      "published": "Mon, 19 Oct 2026 05:49:57 GMT",
-      "score": 10.0
-    },
-    {
-      "source": "Google News Cybersecurity",
-      "title": "This Cybersecurity Agency Is Supposed to Protect U.S. Elections. Officials Fear It’s Been Compromised by Trump. - ProPublica",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE40Y0diSHM2SWs5aUJzdHFmRUdGQ25pcS1KVDVtV0Nqc0ZlcEtjVTFJWTRXMHpsY00waEFjc0NYaS1ScFZLbGFUOEtfTG1UY0o4U0tCQ3RYenZGLWY5THlBRTRaUGlfSzM0N0FnNHBjZUZLd2o1Rm83NVNn?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTE40Y0diSHM2SWs5aUJzdHFmRUdGQ25pcS1KVDVtV0Nqc0ZlcEtjVTFJWTRXMHpsY00waEFjc0NYaS1ScFZLbGFUOEtfTG1UY0o4U0tCQ3RYenZGLWY5THlBRTRaUGlfSzM0N0FnNHBjZUZLd2o1Rm83NVNn?oc=5\" target=\"_blank\">This Cybersecurity Agency Is Supposed to Protect U.S. Elections. Officials Fear It’s Been Compromised by Trump.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ProPublica</font>",
-      "published": "Mon, 19 Oct 2026 09:00:00 GMT",
-      "score": 10.0
-    },
-    {
-      "source": "Google News Cybersecurity",
-      "title": "CT manufacturing suppliers face costly cybersecurity rules to keep defense business - Hartford Business Journal",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPYlVsTlVBX1lvTWZUMXY1WjhwSXJZZllXRnZuU1VlMDFmZHk1c0l3MFZNMEpjdTdhLTZOTEhJTGF0QzZEUHVvUzUtWW9FeWljSHROUzVOb0lBNDhDR3JMSXNEWHQwZ0RXTUFNS2FtWkJtWG9zYWI0bVVjbUw3dFh2dDcxRjdQcnRQWDhXcE5KUkQyTE9yOGtpMGk5RU5OMkxESHFfaDhEcmoxUGNSWnNfSXRFeHJlOFZjb1pKTWh3?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxPYlVsTlVBX1lvTWZUMXY1WjhwSXJZZllXRnZuU1VlMDFmZHk1c0l3MFZNMEpjdTdhLTZOTEhJTGF0QzZEUHVvUzUtWW9FeWljSHROUzVOb0lBNDhDR3JMSXNEWHQwZ0RXTUFNS2FtWkJtWG9zYWI0bVVjbUw3dFh2dDcxRjdQcnRQWDhXcE5KUkQyTE9yOGtpMGk5RU5OMkxESHFfaDhEcmoxUGNSWnNfSXRFeHJlOFZjb1pKTWh3?oc=5\" target=\"_blank\">CT manufacturing suppliers face costly cybersecurity rules to keep defense business</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Hartford Business Journal</font>",
-      "published": "Mon, 19 Oct 2026 08:00:57 GMT",
-      "score": 10.0
-    },
-    {
-      "source": "Google News Cybersecurity",
-      "title": "The concern that the KPMG US CEO keeps hearing from other executives - Business Insider",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQV1RDdnBnOGU5RTRmbEYwN1VTOTdVYUt4azNMV3djZXlPLWkxUlVnMXdxR0d5a0MtMXFrckxiM1ZqNzF6MldYRjhKZ1Bvcy0zY0xtU29uNlFJRk1lU0NJVHhTX0N5X2xFMUtObGN3dTVWZXU4ZV8zb1RBdkJHSjU4MWdha2dXZGEybjJyaQ?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxQV1RDdnBnOGU5RTRmbEYwN1VTOTdVYUt4azNMV3djZXlPLWkxUlVnMXdxR0d5a0MtMXFrckxiM1ZqNzF6MldYRjhKZ1Bvcy0zY0xtU29uNlFJRk1lU0NJVHhTX0N5X2xFMUtObGN3dTVWZXU4ZV8zb1RBdkJHSjU4MWdha2dXZGEybjJyaQ?oc=5\" target=\"_blank\">The concern that the KPMG US CEO keeps hearing from other executives</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Business Insider</font>",
-      "published": "Mon, 19 Oct 2026 09:18:00 GMT",
-      "score": 10.0
-    },
-    {
-      "source": "Google News Cybersecurity",
-      "title": "OpenCode Security Breach Exposes Third-Party API Keys of its Console Users - CyberSecurityNews",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9sdllPYVV6M0l4R1JKUzhVZjNPbEltRTlJa0NEZWNGaHVvNVlNNkVjc2NBVHJHcU9TcjRUZUlnT3kxRjZBZ1c1MTFua2VmUTlQOXhhYUYzNVBKT1hrRmlzR0xEemE5UdIBa0FVX3lxTE5jeUVSX2F1N1d1Tm9ibWN4V19ZMk82cUJ3bFhqWkV0S1Z1dExRUS1kalNxZ254OGplanBXbi1RbHYyVlZyWHV5bDRVeFVmbkFxT1pTZlFOZ0pZRGt6N3pxTENPMUdMb1VtVDZr?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZkFVX3lxTE9sdllPYVV6M0l4R1JKUzhVZjNPbEltRTlJa0NEZWNGaHVvNVlNNkVjc2NBVHJHcU9TcjRUZUlnT3kxRjZBZ1c1MTFua2VmUTlQOXhhYUYzNVBKT1hrRmlzR0xEemE5UdIBa0FVX3lxTE5jeUVSX2F1N1d1Tm9ibWN4V19ZMk82cUJ3bFhqWkV0S1Z1dExRUS1kalNxZ254OGplanBXbi1RbHYyVlZyWHV5bDRVeFVmbkFxT1pTZlFOZ0pZRGt6N3pxTENPMUdMb1VtVDZr?oc=5\" target=\"_blank\">OpenCode Security Breach Exposes Third-Party API Keys of its Console Users</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CyberSecurityNews</font>",
-      "published": "Mon, 19 Oct 2026 08:31:34 GMT",
-      "score": 10.0
-    },
-    {
-      "source": "Google News Cybersecurity",
-      "title": "Critical cybersecurity questions to ask before buying a dental practice - DrBicuspid.com",
-      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOdUdtaG9JclY4S09tSkhXQkc4dXM1RGNWNGZ4b3VIdEJ5Q25Kb005QW1mRmVPOW5DX25yZ1JVSTM4SUo1WkhRLXh4RWpMYjhBNnNaVjF2WVJiUkgxcFJINGM0dmJRVklVQ1hMTS16amlxWlQ1Zk5CUGUtZzFrRnlVVGdMZUdqaXBDaVQzQTRqWmtzNWJkN1N2eGJpWE5tb1h6REg4VEVhTVZmemFlMTVidThYWHM0TkRwYWYzSWdHclBGXzgzSXNUcnJ2NldtbmJaUnNfWE5jNlIyVVNkdUxEYzdGcFpLSjJqZ0U2b0t4VHZYa1E?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi8wFBVV95cUxOdUdtaG9JclY4S09tSkhXQkc4dXM1RGNWNGZ4b3VIdEJ5Q25Kb005QW1mRmVPOW5DX25yZ1JVSTM4SUo1WkhRLXh4RWpMYjhBNnNaVjF2WVJiUkgxcFJINGM0dmJRVklVQ1hMTS16amlxWlQ1Zk5CUGUtZzFrRnlVVGdMZUdqaXBDaVQzQTRqWmtzNWJkN1N2eGJpWE5tb1h6REg4VEVhTVZmemFlMTVidThYWHM0TkRwYWYzSWdHclBGXzgzSXNUcnJ2NldtbmJaUnNfWE5jNlIyVVNkdUxEYzdGcFpLSjJqZ0U2b0t4VHZYa1E?oc=5\" target=\"_blank\">Critical cybersecurity questions to ask before buying a dental practice</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">DrBicuspid.com</font>",
-      "published": "Mon, 19 Oct 2026 06:22:30 GMT",
-      "score": 10.0
-    },
-    {
-      "source": "Google News Cybersecurity",
-      "title": "Cybersecurity expert warns AI is making online threats harder to spot - FOX 5 DC",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1mZXBaMm11Q1Qtb1BhWVgzV2UwNzFqTVBPYWxONmpnUWhuWUN2djlyRjNBeGtySGNSbHV6S0IwZHl1TVgtcU5MeGNsaWRkVzA3UGFLZHczYjNyemc5d1HSAWNBVV95cUxOLXEtU3lndWRjSjlrLV9yX2JRUS12LXJzQWt1bU9ud0lCc0t5clpQX1l3QkY1YnBUVEpUWWxRUGVURjlPUW9ZU3FFVHU0Wk5TM3ZzNXN1VjYxQ2FKSDV6dkVHRTA?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiXkFVX3lxTE1mZXBaMm11Q1Qtb1BhWVgzV2UwNzFqTVBPYWxONmpnUWhuWUN2djlyRjNBeGtySGNSbHV6S0IwZHl1TVgtcU5MeGNsaWRkVzA3UGFLZHczYjNyemc5d1HSAWNBVV95cUxOLXEtU3lndWRjSjlrLV9yX2JRUS12LXJzQWt1bU9ud0lCc0t5clpQX1l3QkY1YnBUVEpUWWxRUGVURjlPUW9ZU3FFVHU0Wk5TM3ZzNXN1VjYxQ2FKSDV6dkVHRTA?oc=5\" target=\"_blank\">Cybersecurity expert warns AI is making online threats harder to spot</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">FOX 5 DC</font>",
-      "published": "Mon, 19 Oct 2026 02:44:31 GMT",
-      "score": 10.0
-    },
-    {
-      "source": "Google News Cybersecurity",
-      "title": "Stop & Shop customers react to 10% apology discount following cybersecurity incident - fox61.com",
-      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPSGswZEppSUtjX0RUcnRFSnNEMlphb09MUG5mUlVQd1BhTmg0M2ZEZGdSOVJhYmJJU3h5Zk5Mcmt5d2ZXSk1paEtFNzJLSTNsaFpVTE1mM1I4WHBEcGo4aVZIQWZtLVNyU3BOSWktLTEtVDU2UU05M2hGVHAwcXVhVVJnY0J1aGwxX3JNdURQam1vMVdNSElyem9ENmpjREJfc2tvZENNbXNaVDBwa1FrT1FtUklfVzgzaXlod21BNC1YS29QWGFhWDkxSk81WjltVnNUSWVKWjB6eGR0RUpMWGh6U1VQZWlLUHhodjVnZE9DX1JZWkg4?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi9wFBVV95cUxPSGswZEppSUtjX0RUcnRFSnNEMlphb09MUG5mUlVQd1BhTmg0M2ZEZGdSOVJhYmJJU3h5Zk5Mcmt5d2ZXSk1paEtFNzJLSTNsaFpVTE1mM1I4WHBEcGo4aVZIQWZtLVNyU3BOSWktLTEtVDU2UU05M2hGVHAwcXVhVVJnY0J1aGwxX3JNdURQam1vMVdNSElyem9ENmpjREJfc2tvZENNbXNaVDBwa1FrT1FtUklfVzgzaXlod21BNC1YS29QWGFhWDkxSk81WjltVnNUSWVKWjB6eGR0RUpMWGh6U1VQZWlLUHhodjVnZE9DX1JZWkg4?oc=5\" target=\"_blank\">Stop & Shop customers react to 10% apology discount following cybersecurity incident</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">fox61.com</font>",
-      "published": "Mon, 19 Oct 2026 04:07:00 GMT",
-      "score": 10.0
-    },
-    {
-      "source": "Google News Cybersecurity",
-      "title": "CRWD, PANW, OKTA, ZS Pare Early-Week Gains — Analysts See Demand Building, But Valuations Raise The Bar - Stocktwits",
-      "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQMC1yS2RHc1czUldCNktjRmVEQTlpVVFzU3ZzQ1VCQmcxU1V0em5zUnBtVWRjUTZNdEhXZVhjemhyNC0xNjV5Q3c2Vnppc0JTeXprNWtER2NwbGNoSkhzZk13V29GMExjb1JVdWVUdldtR2lWWk1odkRUdk1qZDhqbUxkeV9ZdFhHdmJoRHQ0MUVMb3hJQWhZTEhSd0tNeHhRYjE3dFlSVGZNYkExLUFKTFpfeno3dzZUODRGWUdpLVFveXpIV3ZNbVRkbW1zV25WUkM5VU5LNjJIRXpZQ3BCbjB0WE0zX3phWG1xMDR2bG53WFI3UHBwLXgyV0VQMTJ0MndxQ1BOZw?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihwJBVV95cUxQMC1yS2RHc1czUldCNktjRmVEQTlpVVFzU3ZzQ1VCQmcxU1V0em5zUnBtVWRjUTZNdEhXZVhjemhyNC0xNjV5Q3c2Vnppc0JTeXprNWtER2NwbGNoSkhzZk13V29GMExjb1JVdWVUdldtR2lWWk1odkRUdk1qZDhqbUxkeV9ZdFhHdmJoRHQ0MUVMb3hJQWhZTEhSd0tNeHhRYjE3dFlSVGZNYkExLUFKTFpfeno3dzZUODRGWUdpLVFveXpIV3ZNbVRkbW1zV25WUkM5VU5LNjJIRXpZQ3BCbjB0WE0zX3phWG1xMDR2bG53WFI3UHBwLXgyV0VQMTJ0MndxQ1BOZw?oc=5\" target=\"_blank\">CRWD, PANW, OKTA, ZS Pare Early-Week Gains — Analysts See Demand Building, But Valuations Raise The Bar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Stocktwits</font>",
-      "published": "Mon, 19 Oct 2026 08:37:55 GMT",
-      "score": 10.0
-    },
-    {
-      "source": "Google News Cybersecurity",
-      "title": "HKU and Global Cybersecurity Alliance jointly establish Centre for AI and Cybersecurity Research - InsideNoVa.com",
-      "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxQMjZXNXAxdWsxSjZIbjBBYkpEcC15NW1SczBkSWtucTN2bl9uMEMxaFhITGU1MFZySE0yRFJ3bklibDhHWmtzc29JYXBpVEphMHg3R3VVUkdHNkowTjJNdl92QWpiRDhuOHQxeXhYU240a1VEZXR4UEVteWsxV2EyeWlPZ3gxaF9qeDJpb195dHAzbUNmOHBzVzN1VFVMc2gtdThaWUZrMW1BVXY1VjF0dDNmSGlKOHhNTE9DNTdCc1JBckc4czFhMzVjaGl6VmJ1ay02amNqQm80d0ZPU2tVaFlpWUZWaU5HdENrR3hJaFpkZEZyWUVJR1JvaERKd2JrS1pLUGQwZnJ4ZkhNV2VWQjA0Vng3cTUzWmNIZnJfZ2NWZldDOE5CeU4ydy0?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirAJBVV95cUxQMjZXNXAxdWsxSjZIbjBBYkpEcC15NW1SczBkSWtucTN2bl9uMEMxaFhITGU1MFZySE0yRFJ3bklibDhHWmtzc29JYXBpVEphMHg3R3VVUkdHNkowTjJNdl92QWpiRDhuOHQxeXhYU240a1VEZXR4UEVteWsxV2EyeWlPZ3gxaF9qeDJpb195dHAzbUNmOHBzVzN1VFVMc2gtdThaWUZrMW1BVXY1VjF0dDNmSGlKOHhNTE9DNTdCc1JBckc4czFhMzVjaGl6VmJ1ay02amNqQm80d0ZPU2tVaFlpWUZWaU5HdENrR3hJaFpkZEZyWUVJR1JvaERKd2JrS1pLUGQwZnJ4ZkhNV2VWQjA0Vng3cTUzWmNIZnJfZ2NWZldDOE5CeU4ydy0?oc=5\" target=\"_blank\">HKU and Global Cybersecurity Alliance jointly establish Centre for AI and Cybersecurity Research</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">InsideNoVa.com</font>",
-      "published": "Mon, 19 Oct 2026 04:05:00 GMT",
-      "score": 10.0
-    },
-    {
-      "source": "Google News Cybersecurity",
-      "title": "CMMC on Hold? Learn What Requirements Still Apply - Tech Briefs",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFAtTm1BdVBnRGZRcjJ1MEtTaV83NGlVLWlxeE1GR3BVWkMxWUQwMnA4bndkZzFoYTFYRVZBOGRXMldXNzFnbjFFWFk0WHBLNWZ2QjdEY2N1LWZQX3NvS2wyRFp5S1lJU2ZuLXppM242aFFnb3ZoRHhZ?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMid0FVX3lxTFAtTm1BdVBnRGZRcjJ1MEtTaV83NGlVLWlxeE1GR3BVWkMxWUQwMnA4bndkZzFoYTFYRVZBOGRXMldXNzFnbjFFWFk0WHBLNWZ2QjdEY2N1LWZQX3NvS2wyRFp5S1lJU2ZuLXppM242aFFnb3ZoRHhZ?oc=5\" target=\"_blank\">CMMC on Hold? Learn What Requirements Still Apply</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Tech Briefs</font>",
-      "published": "Mon, 19 Oct 2026 07:07:52 GMT",
-      "score": 10.0
     }
   ]
 }
