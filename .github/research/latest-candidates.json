@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-20T09:30:22.540308+00:00",
+  "generated_at_utc": "2026-10-21T09:26:22.690757+00:00",
   "publication_enabled": false,
   "editorial_note": "Candidates require human/editorial review and original technical work before publication.",
   "feed_errors": [
@@ -9,6 +9,30 @@
     }
   ],
   "candidates": [
+    {
+      "source": "The Hacker News",
+      "title": "Qilin and INC Ransomware Groups Exploit Palo Alto Networks Flaw to Bypass MFA",
+      "url": "https://thehackernews.com/2026/10/qilin-and-inc-ransomware-groups-exploit.html",
+      "summary": "Palo Alto Networks has disclosed that it's continuing to observe exploitation of a now-patched security flaw impacting&nbsp; PAN-OS and Prisma Access by ransomware actors. The activity relates to CVE-2026-0257 (CVSS score: 7.8), an authentication bypass flaw that could be exploited by bad actors to set up unauthorized VPN connections. It was patched by Palo Alto Networks in May 2026 and was",
+      "published": "Tue, 20 Oct 2026 21:02:27 +0530",
+      "score": 34.0
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "CISA: SafePay ransomware hit over 600 critical infrastructure orgs",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-and-fbi-safepay-ransomware-has-hit-over-600-critical-infrastructure-organizations/",
+      "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) says the SafePay ransomware gang has breached over 600 critical infrastructure organizations worldwide since 2024. [...]",
+      "published": "Wed, 21 Oct 2026 04:36:24 -0400",
+      "score": 28.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "Critical FortiSIEM Flaw Gets Public Exploit PoC for Unauthenticated Remote Code Execution",
+      "url": "https://thehackernews.com/2026/10/critical-fortisiem-flaw-gets-public.html",
+      "summary": "Cybersecurity researchers have released a proof-of-concept (PoC) exploit for a recently patched critical security flaw impacting Fortinet FortiSIEM that could result in arbitrary code execution. The vulnerability, tracked as CVE-2026-106173 (CVSS score: 9.4), is a critical path traversal flaw that could allow an unauthenticated attacker to execute unauthorized code or commands via specially",
+      "published": "Tue, 20 Oct 2026 21:08:52 +0530",
+      "score": 25.0
+    },
     {
       "source": "The Hacker News",
       "title": "GhostAction Attackers Plant Credential Stealer Disguised as Font in 94 GitHub Repositories",
@@ -27,27 +51,67 @@
     },
     {
       "source": "SecurityWeek",
-      "title": "Rank Math PRO WordPress Plugin Compromised in Supply Chain Attack",
-      "url": "https://www.securityweek.com/rank-math-pro-wordpress-plugin-compromised-in-supply-chain-attack/",
-      "summary": "<p>Hackers injected malware into Rank Math PRO version 3.0.123 packages distributed between October 15 and October 16.</p> <p>The post <a href=\"https://www.securityweek.com/rank-math-pro-wordpress-plugin-compromised-in-supply-chain-attack/\">Rank Math PRO WordPress Plugin Compromised in Supply Chain Attack</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "published": "Mon, 19 Oct 2026 15:20:53 +0000",
+      "title": "PHP2Shell: Mass Exploitation Looms for Leaked Critical PHP Flaws",
+      "url": "https://www.securityweek.com/php2shell-mass-exploitation-looms-for-leaked-critical-php-flaws/",
+      "summary": "<p>Tracked as CVE-2026-109618 and CVE-2026-109619, the bugs could potentially lead to unauthenticated remote code execution.</p> <p>The post <a href=\"https://www.securityweek.com/php2shell-mass-exploitation-looms-for-leaked-critical-php-flaws/\">PHP2Shell: Mass Exploitation Looms for Leaked Critical PHP Flaws</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "published": "Wed, 21 Oct 2026 07:02:06 +0000",
+      "score": 23.0
+    },
+    {
+      "source": "SecurityWeek",
+      "title": "AOMEI Backupper Compromised in Short-Burst Supply Chain Campaign",
+      "url": "https://www.securityweek.com/aomei-backupper-compromised-in-short-burst-supply-chain-campaign/",
+      "summary": "<p>Across multiple short compromise windows, users were served a downloader for the ShinyRoad modular backdoor framework.</p> <p>The post <a href=\"https://www.securityweek.com/aomei-backupper-compromised-in-short-burst-supply-chain-campaign/\">AOMEI Backupper Compromised in Short-Burst Supply Chain Campaign</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "published": "Tue, 20 Oct 2026 13:51:01 +0000",
       "score": 20.0
     },
     {
-      "source": "BleepingComputer",
-      "title": "Inside the Underground Market for Know Your Client Services",
-      "url": "https://www.bleepingcomputer.com/news/security/inside-the-underground-market-for-know-your-client-services/",
-      "summary": "Cybercriminals are selling forged identity documents, deepfake videos, and live verification services to help buyers bypass Know Your Client (KYC) checks. Flare examines how these underground services operate and the techniques used to create and maintain fraudulent verified accounts. [...]",
-      "published": "Mon, 19 Oct 2026 10:00:10 -0400",
-      "score": 16.0
+      "source": "The Hacker News",
+      "title": "ConnectWise Resets Credentials as Cloud Backup Remains Offline After Security Incident",
+      "url": "https://thehackernews.com/2026/10/connectwise-resets-credentials-as-cloud.html",
+      "summary": "ConnectWise on Monday said it has taken remediation measures, including strengthening administrative-access protections and resetting accounts and replacing application credentials, as it continues to respond to a security incident that led to unauthorized access to application identities associated with Cloud Backup. The company said it has completed the following actions since it began",
+      "published": "Tue, 20 Oct 2026 16:26:08 +0530",
+      "score": 19.0
     },
     {
       "source": "Google News Cybersecurity",
-      "title": "ConnectWise suspends Cloud Backup service as hacker targets Microsoft 365 users - Cybersecurity Dive",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQWjQwU0ZncUdOV3RGQzBwel9wNzNVMFVfQlFqZk1TMWJwX1g5d1cxUzNaMFdfNjJLUVRTQW4wSkw2SzNrRGMtR3pELWFoWDJhNGl5X3lSNUJjRFVDdy0waDQxaGxUQlVmTDhqaHRyc3YycHByLTNMVm1jenpTaXFFVWNwaGdsal80QU4yTk52cklVYkk2MkltSUY4RlJrRDU2akE?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxQWjQwU0ZncUdOV3RGQzBwel9wNzNVMFVfQlFqZk1TMWJwX1g5d1cxUzNaMFdfNjJLUVRTQW4wSkw2SzNrRGMtR3pELWFoWDJhNGl5X3lSNUJjRFVDdy0waDQxaGxUQlVmTDhqaHRyc3YycHByLTNMVm1jenpTaXFFVWNwaGdsal80QU4yTk52cklVYkk2MkltSUY4RlJrRDU2akE?oc=5\" target=\"_blank\">ConnectWise suspends Cloud Backup service as hacker targets Microsoft 365 users</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Cybersecurity Dive</font>",
-      "published": "Mon, 19 Oct 2026 15:58:11 GMT",
+      "title": "Nozomi Networks, SEL integrate OT SDN visibility with AI-powered cybersecurity for critical infrastructure - Industrial Cyber",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQUW43cmRGUFRmRC01aUJYemRqWUM2ak9kWUg1eU1fRDA4azdBUE14bDNhQlRYVEl4eC00YWpmTktFbllnVHFLNWhjZUV5ZTdxTFU0cWJBOW9YMDZHR2s4MExhQ2Q2bUhHR0JfTFFUaGxvQUNYRTJSMFZvVE5ycUg1U3VJUnI2TS1ZeFUzZnR6cGJiazFIUDk0Q09ac0JnZ0N4aHFLSGE5cWVrc01NSXYwU3MtWXZLNENwS05xMXdBMVFpWU1IaUpLRVA0V3ZaYzRCWXZDWg?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi1AFBVV95cUxQUW43cmRGUFRmRC01aUJYemRqWUM2ak9kWUg1eU1fRDA4azdBUE14bDNhQlRYVEl4eC00YWpmTktFbllnVHFLNWhjZUV5ZTdxTFU0cWJBOW9YMDZHR2s4MExhQ2Q2bUhHR0JfTFFUaGxvQUNYRTJSMFZvVE5ycUg1U3VJUnI2TS1ZeFUzZnR6cGJiazFIUDk0Q09ac0JnZ0N4aHFLSGE5cWVrc01NSXYwU3MtWXZLNENwS05xMXdBMVFpWU1IaUpLRVA0V3ZaYzRCWXZDWg?oc=5\" target=\"_blank\">Nozomi Networks, SEL integrate OT SDN visibility with AI-powered cybersecurity for critical infrastructure</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Industrial Cyber</font>",
+      "published": "Wed, 21 Oct 2026 07:48:29 GMT",
+      "score": 18.0
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "Zeabur shutting down after second security breach in two months",
+      "url": "https://www.bleepingcomputer.com/news/security/zeabur-shutting-down-after-second-security-breach-in-two-months/",
+      "summary": "Development platform Zeabur has disclosed details of a cybersecurity incident in which an attacker used leaked internal credentials stored in plaintext to compromise its infrastructure and steal over 3.2 million environment variable records and information for 321,810 accounts. [...]",
+      "published": "Tue, 20 Oct 2026 15:33:02 -0400",
       "score": 16.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "CISA Orders Federal Agencies to Patch Exploited Plex2Shell, Siemens, and SiteGuard Flaws",
+      "url": "https://thehackernews.com/2026/10/cisa-orders-federal-agencies-to-patch.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four vulnerabilities to its Known Exploited Vulnerabilities (KEV) catalog, including four vulnerabilities impacting Plex Media Server that's collectively called Plex2Shell. The vulnerabilities are listed below - CVE-2026-96652 (CVSS score: 5.3) - Plex Media Server Server-Side Request Forgery (SSRF)",
+      "published": "Wed, 21 Oct 2026 12:56:49 +0530",
+      "score": 15.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "PHP2Shell: Two Unpatched Critical PHP RCE Flaws (CVSS 9.2) Trigger Emergency Security Alert",
+      "url": "https://thehackernews.com/2026/10/php2shell-two-unpatched-critical-php.html",
+      "summary": "This story is developing and was written before PHP's scheduled 14:00 UTC release on October 21. Once the release is out, the affected and fixed versions below are confirmed by the official advisory. PHP will ship an out-of-cycle security release at 14:00 UTC today, October 21, for two critical vulnerabilities that its security team has rated 9.2 on the CVSS v4.0 scale but has not described.",
+      "published": "Wed, 21 Oct 2026 10:27:50 +0530",
+      "score": 15.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "Hackers Hijack Five OVHcloud CLI Releases to Distribute Secret-Stealing Malware",
+      "url": "https://thehackernews.com/2026/10/hackers-hijack-five-ovhcloud-cli.html",
+      "summary": "An attacker used a contributor's GitHub account to replace the download archives on five existing releases of OVHcloud's command-line tool on Monday, October 19. The account had been hijacked, and the new files were a build designed to steal secrets stored on the disk of any machine that runs it, the cloud provider says. They were live on GitHub for up to 94 minutes, from 12:47 to 14:21 UTC,",
+      "published": "Tue, 20 Oct 2026 13:51:29 +0530",
+      "score": 15.0
     },
     {
       "source": "The Hacker News",
@@ -67,146 +131,82 @@
     },
     {
       "source": "BleepingComputer",
-      "title": "Microsoft fixes game, app crashes caused by recent Windows update",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-game-app-crashes-caused-by-windows-kb5124010-preview-update/",
-      "summary": "Microsoft has resolved a bug that caused games and apps using AC-3 (Dolby Digital) audio decoding to crash after installing the September 2026 Windows 11 preview update (KB5124010). [...]",
-      "published": "Mon, 19 Oct 2026 10:55:23 -0400",
+      "title": "PHP warns admins of two critical flaws, emergency patches coming tomorrow",
+      "url": "https://www.bleepingcomputer.com/news/security/php-warns-admins-of-two-critical-flaws-emergency-patches-coming-tomorrow/",
+      "summary": "The PHP security team is warning administrators to prepare for emergency security updates tomorrow to address two critical vulnerabilities, as information about the flaws has reportedly leaked ahead of their scheduled disclosure. [...]",
+      "published": "Tue, 20 Oct 2026 16:56:43 -0400",
       "score": 15.0
     },
     {
       "source": "BleepingComputer",
-      "title": "F5 releases out-of-band patches for critical NGINX vulnerabilities",
-      "url": "https://www.bleepingcomputer.com/news/security/f5-releases-out-of-band-patches-for-critical-nginx-vulnerabilities/",
-      "summary": "F5 has released out-of-band security patches to address multiple NGINX web server flaws, including three critical-severity vulnerabilities that can let attackers execute code on vulnerable systems. [...]",
-      "published": "Mon, 19 Oct 2026 09:49:24 -0400",
+      "title": "Windows Server 2025 gets support for quick machine recovery",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/windows-server-2025-gets-support-for-quick-machine-recovery/",
+      "summary": "Microsoft announced that IT administrators can now use quick machine recovery on Windows Server 2025 after installing the October 2026 security update. [...]",
+      "published": "Tue, 20 Oct 2026 08:16:32 -0400",
       "score": 15.0
     },
     {
       "source": "BleepingComputer",
-      "title": "Microsoft fixes classic Outlook bug that hid Copilot buttons",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-that-hid-copilot-buttons-in-classic-outlook/",
-      "summary": "Microsoft has fixed a known issue that removed the Copilot Chat and Copilot buttons in the classic Outlook desktop mail client for some Windows users. [...]",
-      "published": "Mon, 19 Oct 2026 08:44:44 -0400",
+      "title": "OVHcloud CLI releases backdoored on GitHub to steal developer secrets",
+      "url": "https://www.bleepingcomputer.com/news/security/ovhcloud-cli-releases-backdoored-on-github-to-steal-developer-secrets/",
+      "summary": "French cloud and hosting provider OVHcloud is warning users that attackers compromised its open-source command-line interface (CLI) tool to distribute information-stealing malware. [...]",
+      "published": "Tue, 20 Oct 2026 07:31:22 -0400",
       "score": 15.0
     },
     {
-      "source": "BleepingComputer",
-      "title": "Microsoft: October Windows Server updates break Exchange sign-in, mail flow",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-windows-server-updates-cause-exchange-issues/",
-      "summary": "Microsoft has confirmed that this month's Windows Server security updates are causing OWA sign-in and mail delivery issues on some Exchange Server systems. [...]",
-      "published": "Mon, 19 Oct 2026 04:58:41 -0400",
-      "score": 15.0
-    },
-    {
-      "source": "SecurityWeek",
-      "title": "One Compromised Login Exposed Millions of California Students’ Records",
-      "url": "https://www.securityweek.com/one-compromised-login-exposed-millions-of-california-students-records/",
-      "summary": "<p>Intruders used compromised credentials to access an ETS SFTP server, copying records of California students back to 2006.</p> <p>The post <a href=\"https://www.securityweek.com/one-compromised-login-exposed-millions-of-california-students-records/\">One Compromised Login Exposed Millions of California Students&#8217; Records</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "published": "Mon, 19 Oct 2026 11:55:50 +0000",
+      "source": "Google News Cybersecurity",
+      "title": "When AI Becomes a Medical Device: What Changes for Cybersecurity - Industrial Cyber",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQSWFXSzZweG96dUlLcEt0ckNnNkpNcVZKb0JzcHVpNUZXLWpoTjE4TUc5eUNQRXJ4M0EyOERZTFhzTXF0LXJWRTVWcXFXZXpXcy11bDA3bTA2REFSRUt2aExiZmJEelNBZ3BERFhMTjFqRmZXU3FaTERzYm1SeUVDVlFZcXNUWDRkVzlSZ21XRDh5ejBxeFY4bFBGeHo?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxQSWFXSzZweG96dUlLcEt0ckNnNkpNcVZKb0JzcHVpNUZXLWpoTjE4TUc5eUNQRXJ4M0EyOERZTFhzTXF0LXJWRTVWcXFXZXpXcy11bDA3bTA2REFSRUt2aExiZmJEelNBZ3BERFhMTjFqRmZXU3FaTERzYm1SeUVDVlFZcXNUWDRkVzlSZ21XRDh5ejBxeFY4bFBGeHo?oc=5\" target=\"_blank\">When AI Becomes a Medical Device: What Changes for Cybersecurity</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Industrial Cyber</font>",
+      "published": "Wed, 21 Oct 2026 02:22:58 GMT",
       "score": 15.0
     },
     {
       "source": "SecurityWeek",
-      "title": "Exploited Fortinet Bug Linked to Stealthy FortiGate Implant in Telecom Hack",
-      "url": "https://www.securityweek.com/exploited-fortinet-bug-linked-to-stealthy-fortigate-implant-in-telecom-hack/",
-      "summary": "<p>The persistent, stealthy FortiGate implant was deployed against a telecommunications organization.</p> <p>The post <a href=\"https://www.securityweek.com/exploited-fortinet-bug-linked-to-stealthy-fortigate-implant-in-telecom-hack/\">Exploited Fortinet Bug Linked to Stealthy FortiGate Implant in Telecom Hack</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "published": "Mon, 19 Oct 2026 11:13:23 +0000",
-      "score": 15.0
-    },
-    {
-      "source": "SecurityWeek",
-      "title": "Drupal Warns of Fast Exploitation Risk for Critical Core RCE Flaw",
-      "url": "https://www.securityweek.com/drupal-warns-of-fast-exploitation-risk-for-critical-core-rce-flaw/",
-      "summary": "<p>Critical flaws impact the Entity List and Field UI modules, and exploit paths exist with contributed modules.</p> <p>The post <a href=\"https://www.securityweek.com/drupal-warns-of-fast-exploitation-risk-for-critical-core-rce-flaw/\">Drupal Warns of Fast Exploitation Risk for Critical Core RCE Flaw</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "published": "Mon, 19 Oct 2026 15:47:50 +0000",
+      "title": "Hijacked Developer Account Used to Plant Stealer in OVHcloud CLI",
+      "url": "https://www.securityweek.com/hijacked-developer-account-used-to-plant-stealer-in-ovhcloud-cli/",
+      "summary": "<p>Researchers say the developer’s account was compromised in March with a GlassWorm-linked loader.</p> <p>The post <a href=\"https://www.securityweek.com/hijacked-developer-account-used-to-plant-stealer-in-ovhcloud-cli/\">Hijacked Developer Account Used to Plant Stealer in OVHcloud CLI</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "published": "Wed, 21 Oct 2026 06:02:27 +0000",
       "score": 14.0
     },
     {
       "source": "SecurityWeek",
-      "title": "ConnectWise Suspends Cloud Services in Response to Cyberattack",
-      "url": "https://www.securityweek.com/connectwise-suspends-cloud-services-in-response-to-cyberattack/",
-      "summary": "<p>The services remain unavailable as the company continues remediation and security validation.</p> <p>The post <a href=\"https://www.securityweek.com/connectwise-suspends-cloud-services-in-response-to-cyberattack/\">ConnectWise Suspends Cloud Services in Response to Cyberattack</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "published": "Mon, 19 Oct 2026 13:16:20 +0000",
+      "title": "Microsoft Targets Rogue AI Agents With Dynamic Permissions, Risk Scoring",
+      "url": "https://www.securityweek.com/microsoft-targets-rogue-ai-agents-with-dynamic-permissions-risk-scoring/",
+      "summary": "<p>Microsoft says companies should treat AI agents as insiders, and is adding controls that grant access per task and tighten it as an agent’s risk rises.</p> <p>The post <a href=\"https://www.securityweek.com/microsoft-targets-rogue-ai-agents-with-dynamic-permissions-risk-scoring/\">Microsoft Targets Rogue AI Agents With Dynamic Permissions, Risk Scoring</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "published": "Tue, 20 Oct 2026 11:30:18 +0000",
       "score": 14.0
     },
     {
       "source": "Google News Cybersecurity",
-      "title": "AI agents are forcing a rethink of digital identity, cybersecurity experts warn - THINK Digital Partners",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOT2wzMHBDZVJkVTZZamtiQlNXVzFCajBlN1JxLVFCbUpaX3BTeHBFbTNiTHBDQmpZbkp6aFdSMDJ6d1lwSjdoM1FmNk1oU3ZUcE5FRGZGY2IwOGhFeWpoeGttTGx6eWh0eWxOZGFMT2ZRemtFRVB4TzNRWE1HYnVUY2Zzb1htNXNpWmVhRWUtelFhSWMxaGVpVmdSNTZUYkZyOTA5Z3VHam1weG9mVDFVeUtYV2FwWDZhQ09hR0Rzck5kaEF5aTBNR2Etc2k?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMizAFBVV95cUxOT2wzMHBDZVJkVTZZamtiQlNXVzFCajBlN1JxLVFCbUpaX3BTeHBFbTNiTHBDQmpZbkp6aFdSMDJ6d1lwSjdoM1FmNk1oU3ZUcE5FRGZGY2IwOGhFeWpoeGttTGx6eWh0eWxOZGFMT2ZRemtFRVB4TzNRWE1HYnVUY2Zzb1htNXNpWmVhRWUtelFhSWMxaGVpVmdSNTZUYkZyOTA5Z3VHam1weG9mVDFVeUtYV2FwWDZhQ09hR0Rzck5kaEF5aTBNR2Etc2k?oc=5\" target=\"_blank\">AI agents are forcing a rethink of digital identity, cybersecurity experts warn</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">THINK Digital Partners</font>",
-      "published": "Tue, 20 Oct 2026 05:51:35 GMT",
-      "score": 14.0
-    },
-    {
-      "source": "Google News Cybersecurity",
-      "title": "Microsoft warns that AI Agents could become Insider Threats - Cybersecurity Insiders",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOS2trYlRqdHIyZ0VuRnFTTkhfVF9XNXY1ZzdUcWNzZUtGZHhOVzNVOWtMQmR2U1pGamlsZUpTYlFTZ1FKQlRuWF9HdkRtOU9pZk9GMEp6YWFWMW5IUmdWZjlHNDR4dkFIYVJfcGtnYl9ld2p2aGJaN3VDSUR2TEpnTE1rTjRqX1NNeTNDa1BwWVkwd3F2dy05clUyV19ucHU4?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxOS2trYlRqdHIyZ0VuRnFTTkhfVF9XNXY1ZzdUcWNzZUtGZHhOVzNVOWtMQmR2U1pGamlsZUpTYlFTZ1FKQlRuWF9HdkRtOU9pZk9GMEp6YWFWMW5IUmdWZjlHNDR4dkFIYVJfcGtnYl9ld2p2aGJaN3VDSUR2TEpnTE1rTjRqX1NNeTNDa1BwWVkwd3F2dy05clUyV19ucHU4?oc=5\" target=\"_blank\">Microsoft warns that AI Agents could become Insider Threats</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Cybersecurity Insiders</font>",
-      "published": "Tue, 20 Oct 2026 05:38:35 GMT",
-      "score": 13.0
-    },
-    {
-      "source": "Google News Cybersecurity",
-      "title": "Cisco Lobbies on AI and Cybersecurity via Ballard Partners - Legis1",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFB5clhjbktRSWtTcHJlSUFnUWw5OS1mOFd1bVE2TkI0ejFmVlFjMFl1X01nQU1LcmNKWS1fZ3BzRG94OHNTYi0yWEpNbnR5dVJJd2tIUjJOcnJELTN0VW4xeTBRTkx0X3UzU2ZGVXNMWXZUTENRT28zem5R?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTFB5clhjbktRSWtTcHJlSUFnUWw5OS1mOFd1bVE2TkI0ejFmVlFjMFl1X01nQU1LcmNKWS1fZ3BzRG94OHNTYi0yWEpNbnR5dVJJd2tIUjJOcnJELTN0VW4xeTBRTkx0X3UzU2ZGVXNMWXZUTENRT28zem5R?oc=5\" target=\"_blank\">Cisco Lobbies on AI and Cybersecurity via Ballard Partners</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Legis1</font>",
-      "published": "Mon, 19 Oct 2026 16:39:20 GMT",
+      "title": "Tegria Buys Healthcare Cybersecurity Provider CloudWave in First Deal Under Altaris Ownership - Distilled Post",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQckllZFhZT3ZQZFJPSm5sUWRxMWgyUGV2MUJyMVFENFNseTBic0JmbVhXX0Nna2JBTTNBRlFWVFEzZ0I5Q09Ddm5mdkZUSWpCZkRSRXo2QnZBV3BTaHpPaDZjVkJwSnlzZ3RaR2s2dWxEZWVhSDFiekZGZmRlN2pWMFJtMmNYellVaE5pWm5MYTVVX1BuY01VY1RCR0I4YVE4LVczVUJPQVYzU2FoLXluNFhwMFJGUnhHOURRQUMydzVMVGRTQzBV?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMixwFBVV95cUxQckllZFhZT3ZQZFJPSm5sUWRxMWgyUGV2MUJyMVFENFNseTBic0JmbVhXX0Nna2JBTTNBRlFWVFEzZ0I5Q09Ddm5mdkZUSWpCZkRSRXo2QnZBV3BTaHpPaDZjVkJwSnlzZ3RaR2s2dWxEZWVhSDFiekZGZmRlN2pWMFJtMmNYellVaE5pWm5MYTVVX1BuY01VY1RCR0I4YVE4LVczVUJPQVYzU2FoLXluNFhwMFJGUnhHOURRQUMydzVMVGRTQzBV?oc=5\" target=\"_blank\">Tegria Buys Healthcare Cybersecurity Provider CloudWave in First Deal Under Altaris Ownership</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Distilled Post</font>",
+      "published": "Wed, 21 Oct 2026 08:48:31 GMT",
       "score": 13.0
     },
     {
       "source": "The Hacker News",
-      "title": "ClickFix Attackers Exploit Siemens Software Center Flaw to Deploy Remote Access Trojan",
-      "url": "https://thehackernews.com/2026/10/clickfix-attackers-exploit-siemens.html",
-      "summary": "Siemens has addressed a DLL sideloading vulnerability impacting Siemens Software Center that it said has been exploited in ClickFix attacks. The high-severity vulnerability, tracked as CVE-2026-110936 (CVSS v4 score: 8.4), could allow an attacker to place a specially-crafted DLL in a directory the application searches, resulting in execution of malicious code with the same privileges as the",
-      "published": "Tue, 20 Oct 2026 12:41:45 +0530",
+      "title": "State Bank of India Confirms Data Leak After 3,897 Customer Records Found on Dark Web",
+      "url": "https://thehackernews.com/2026/10/state-bank-of-india-confirms-data-leak.html",
+      "summary": "State Bank of India has identified 3,897 customer records containing personal information in a set of about 375,000 records available on the dark web, and it does not yet know where the data came from. The state-owned bank, India's largest, said in a&nbsp;stock-exchange filing&nbsp;dated October 21 that it \"has experienced an incident involving the loss of certain data.\" The count is",
+      "published": "Wed, 21 Oct 2026 13:14:22 +0530",
       "score": 12.0
     },
     {
       "source": "The Hacker News",
-      "title": "Hackers Use New ROMULUS ClickFix Platform to Deliver LegionLoader and Other Malware",
-      "url": "https://thehackernews.com/2026/10/romulus-clickfix-platform-tricks-users.html",
-      "summary": "Cybersecurity researchers have disclosed details of a ClickFix delivery platform called ROMULUS that's being used to distribute malware such as Legion Loader. According to Forescout Research - Vedere Labs, ROMULUS is akin to a malware delivery service that employs ClickFix-style lures on bogus landing pages to trick unsuspecting users into running malicious commands and infecting their own",
-      "published": "Tue, 20 Oct 2026 09:35:58 +0530",
+      "title": "Hackers Hid Vasilek Backdoor in VMware Tools During 2-Year Russian Healthcare Intrusion",
+      "url": "https://thehackernews.com/2026/10/hackers-hid-vasilek-backdoor-in-vmware.html",
+      "summary": "A Belarus-aligned hacktivist group spent nearly two years within the network of a Russian healthcare organization. According to a report published by Russian cybersecurity firm Solar, the activity has been attributed to a threat cluster dubbed Partisan Zmiy, which is also known as the Cyber Partisans. Known to be active since at least 2020, the group has a track record of striking industrial",
+      "published": "Wed, 21 Oct 2026 11:35:15 +0530",
       "score": 12.0
     },
     {
       "source": "The Hacker News",
-      "title": "Popular WordPress SEO Plugin Rank Math PRO Hijacked to Deliver Self-Restoring Backdoor",
-      "url": "https://thehackernews.com/2026/10/popular-wordpress-seo-plugin-rank-math.html",
-      "summary": "Copies of Rank Math PRO, the paid version of the Rank Math SEO plugin for WordPress, that were downloaded from rankmath.com or delivered as updates between 20:02 UTC on October 15 and 07:12 UTC on October 16 contained malware, Rank Math said in a&nbsp;security notice&nbsp;published on October 16. Any site that installed and activated one of those copies should be treated as compromised, and the",
-      "published": "Mon, 19 Oct 2026 21:58:47 +0530",
-      "score": 12.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "From Email-to-Case to the Boardroom: How Inherited Agents Break Governance Built for Software",
-      "url": "https://thehackernews.com/2026/10/from-email-to-case-to-boardroom-how.html",
-      "summary": "In Salesforce Agentforce, the recommended way to make an agent respond to events is a Flow: a record is created or a case is updated, and the Flow passes data into the agent's prompt. Separately, Email-to-Case and Web-to-Case turn inbound customer messages into case records; it is how airlines and hotels run support intake. Both are standard, documented, as-designed features. Chained together,",
-      "published": "Mon, 19 Oct 2026 17:20:00 +0530",
-      "score": 12.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "Fake Web3 Accelerator Uses npm Packages to Spread Malware and Hijack AI Agent Traffic",
-      "url": "https://thehackernews.com/2026/10/fake-web3-accelerator-uses-npm-packages.html",
-      "summary": "A fake Web3 accelerator has been observed pushing information stealers and backdoors to Windows and macOS systems using malicious npm packages under the pretext of offering free artificial intelligence (AI) credits for Anthropic Claude and Google Gemini, coding tools, and security audits. \"The tools delivered information-stealing malware and backdoors for macOS and Windows machines,\" Elastic",
-      "published": "Mon, 19 Oct 2026 15:36:40 +0530",
-      "score": 12.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "Unpatched Broadcom Wi-Fi Flaw Lets Attackers in Range Run Code as Root on Routers",
-      "url": "https://thehackernews.com/2026/10/unpatched-broadcom-wi-fi-flaw-lets.html",
-      "summary": "A flaw in Broadcom's Wi-Fi setup software lets an attacker within radio range run code as root on Broadcom-based routers, without the network password or any pairing step, security researcher Quentin Kaiser&nbsp;disclosed&nbsp;on October 16. He showed the attack working against home gateways supplied by three Belgian internet providers, in one case reading the Wi-Fi password off the device",
-      "published": "Mon, 19 Oct 2026 11:59:44 +0530",
-      "score": 12.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "OpenCode Console Breach May Have Exposed OpenAI, Anthropic, and Google API Keys",
-      "url": "https://thehackernews.com/2026/10/opencode-console-breach-may-have.html",
-      "summary": "An intruder reached a legacy system at OpenCode on the night of October 16 and may have exposed the third-party AI provider keys that users had saved in OpenCode Console, the company said. Console is OpenCode's optional hosted service: a workspace saves its own OpenAI, Anthropic, or Google key there, and Console uses that key to call the provider so team members can use the models without",
-      "published": "Mon, 19 Oct 2026 11:37:08 +0530",
+      "title": "Eight eMudhra CA Keys Compromised, Triggering Emergency Fixes Across Browsers and Software",
+      "url": "https://thehackernews.com/2026/10/eight-emudhra-ca-keys-compromised.html",
+      "summary": "The private keys of eight eMudhra intermediate certificate authority (CA) certificates are compromised,&nbsp;Mozilla&nbsp;and&nbsp;Google's Chrome Root Program&nbsp;confirms on October 20. An intermediate CA signs the certificates that websites present, so anyone holding one of these keys could issue a certificate for any website that a browser would accept. A researcher reported the",
+      "published": "Tue, 20 Oct 2026 22:39:53 +0530",
       "score": 12.0
     }
   ]
