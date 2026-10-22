@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-21T09:26:22.690757+00:00",
+  "generated_at_utc": "2026-10-22T09:29:18.523626+00:00",
   "publication_enabled": false,
   "editorial_note": "Candidates require human/editorial review and original technical work before publication.",
   "feed_errors": [
@@ -27,6 +27,30 @@
     },
     {
       "source": "The Hacker News",
+      "title": "China-Linked Hackers Use ARTEX AI Agents in ConnectWise Supply Chain Attack",
+      "url": "https://thehackernews.com/2026/10/china-linked-hackers-use-artex-ai.html",
+      "summary": "Microsoft on Wednesday disclosed that a China state-aligned actor dubbed Storm-0940 was behind the recent supply chain compromise of the ConnectWise Cloud Backup application. During the incident, Storm-0940 used ARTEX, a Go-based agentic AI penetration testing framework that was made closed-source in the wake of its abuse in cyber attacks targeting South Korean financial institutions, to speed",
+      "published": "Thu, 22 Oct 2026 09:51:26 +0530",
+      "score": 27.0
+    },
+    {
+      "source": "Google News Cybersecurity",
+      "title": "FBI, CISA warn that SafePay ransomware poses threat to critical infrastructure - Cybersecurity Dive",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQWElmNk5keXBOZG9JQ0hRSnB2WjU0RklnU1RvZFBLcWRPWjFmZGxBN3VWSzgyZGRwaGlSYmticTNmTUFsYTgyTmZBVXVPZk1iX2Q3bjBsLTF2d3RCdDdBNE5RQWVDWVVwZlhQSkVnaDFxMmdfYmxYYkJIRDEtMjcyOTBfREp6ZkprTjlEY2doQjNiMXBwWUdpeW5JbE9QQllBS0h2dkNyR2daTmtCNkFB?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxQWElmNk5keXBOZG9JQ0hRSnB2WjU0RklnU1RvZFBLcWRPWjFmZGxBN3VWSzgyZGRwaGlSYmticTNmTUFsYTgyTmZBVXVPZk1iX2Q3bjBsLTF2d3RCdDdBNE5RQWVDWVVwZlhQSkVnaDFxMmdfYmxYYkJIRDEtMjcyOTBfREp6ZkprTjlEY2doQjNiMXBwWUdpeW5JbE9QQllBS0h2dkNyR2daTmtCNkFB?oc=5\" target=\"_blank\">FBI, CISA warn that SafePay ransomware poses threat to critical infrastructure</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Cybersecurity Dive</font>",
+      "published": "Wed, 21 Oct 2026 15:33:13 GMT",
+      "score": 26.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "LiteLLM Compromised in Supply Chain Attack Delivering Credential Stealer and Backdoor",
+      "url": "https://thehackernews.com/2026/10/litellm-compromised-in-supply-chain.html",
+      "summary": "The popular LiteLLM Python package has been compromised as part of a software supply chain attack that delivered a credential stealer and a backdoor, according to reports from SafeDep, Socket, StepSecurity, and Upwind. The compromise affects LiteLLM 1.107.0, distributed through PyPI wheels and Docker images. The Python package has since been quarantined on Python Package Index (PyPI), and the",
+      "published": "Wed, 21 Oct 2026 23:31:57 +0530",
+      "score": 25.0
+    },
+    {
+      "source": "The Hacker News",
       "title": "Critical FortiSIEM Flaw Gets Public Exploit PoC for Unauthenticated Remote Code Execution",
       "url": "https://thehackernews.com/2026/10/critical-fortisiem-flaw-gets-public.html",
       "summary": "Cybersecurity researchers have released a proof-of-concept (PoC) exploit for a recently patched critical security flaw impacting Fortinet FortiSIEM that could result in arbitrary code execution. The vulnerability, tracked as CVE-2026-106173 (CVSS score: 9.4), is a critical path traversal flaw that could allow an unauthenticated attacker to execute unauthorized code or commands via specially",
@@ -35,34 +59,42 @@
     },
     {
       "source": "The Hacker News",
-      "title": "GhostAction Attackers Plant Credential Stealer Disguised as Font in 94 GitHub Repositories",
-      "url": "https://thehackernews.com/2026/10/ghostaction-attackers-plant-credential.html",
-      "summary": "The threat actor behind the GhostAction supply chain attack has expanded beyond injecting malicious GitHub Actions workflows into compromised projects to phish open-source developers and deliver a stealer malware disguised within a fake font file. The latest evolution, detailed by OpenSourceMalware, signals that the attackers are actively refining their modus operandi in response to steps",
-      "published": "Mon, 19 Oct 2026 18:35:45 +0530",
-      "score": 25.0
+      "title": "Node.js Brotli Decoder Bug Could Allow Remote Code Execution in All Supported Versions",
+      "url": "https://thehackernews.com/2026/10/nodejs-brotli-decoder-bug-could-allow.html",
+      "summary": "Node.js released&nbsp;security updates&nbsp;on October 21 for its three supported release lines, 22.x, 24.x and 26.x, fixing 10 flaws. The most serious is a bug in the Brotli decompression code that Node.js bundles, which the project says can allow remote code execution, meaning an attacker could run code of their choosing on the affected system. Each supported line has one fixed version:&nbsp;",
+      "published": "Thu, 22 Oct 2026 13:17:22 +0530",
+      "score": 24.0
     },
     {
-      "source": "The Hacker News",
-      "title": "⚡ Weekly Recap: 98 Zero-Days, Rogue AI Agents, $100M Crypto Theft, 700 Supermarkets Hit and More",
-      "url": "https://thehackernews.com/2026/10/weekly-recap-98-zero-days-rogue-ai.html",
-      "summary": "The worst problems don't always come with a warning. Sometimes they arrive through a service everyone trusts, a device someone bought, or a system nobody thought to check. By the time something looks wrong, the damage may already be done. This week had plenty of that. Trusted connections became a problem. Hardware wasn't as safe as it looked. Old bugs found new victims, and some systems were",
-      "published": "Mon, 19 Oct 2026 19:44:07 +0530",
+      "source": "BleepingComputer",
+      "title": "PHP ships emergency patches for critical PHP2Shell flaws",
+      "url": "https://www.bleepingcomputer.com/news/security/php-ships-emergency-patches-for-critical-php2shell-flaws/",
+      "summary": "The PHP security team released emergency security patches for two critical remote code execution (RCE) vulnerabilities (CVE-2026-109618 and CVE-2026-109619) tracked collectively as PHP2Shell. [...]",
+      "published": "Wed, 21 Oct 2026 10:07:05 -0400",
       "score": 24.0
     },
     {
       "source": "SecurityWeek",
-      "title": "PHP2Shell: Mass Exploitation Looms for Leaked Critical PHP Flaws",
-      "url": "https://www.securityweek.com/php2shell-mass-exploitation-looms-for-leaked-critical-php-flaws/",
-      "summary": "<p>Tracked as CVE-2026-109618 and CVE-2026-109619, the bugs could potentially lead to unauthenticated remote code execution.</p> <p>The post <a href=\"https://www.securityweek.com/php2shell-mass-exploitation-looms-for-leaked-critical-php-flaws/\">PHP2Shell: Mass Exploitation Looms for Leaked Critical PHP Flaws</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "published": "Wed, 21 Oct 2026 07:02:06 +0000",
-      "score": 23.0
+      "title": "High-Severity Flaws Exploited in Three Days as Ransomware Dominates Q3: Rapid7",
+      "url": "https://www.securityweek.com/high-severity-flaws-exploited-in-three-days-as-ransomware-dominates-q3-rapid7/",
+      "summary": "<p>Rapid7’s Q3 analysis finds high-severity flaws exploited within three days on average, while AI appeared in just 8% of tracked incidents.</p> <p>The post <a href=\"https://www.securityweek.com/high-severity-flaws-exploited-in-three-days-as-ransomware-dominates-q3-rapid7/\">High-Severity Flaws Exploited in Three Days as Ransomware Dominates Q3: Rapid7</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "published": "Wed, 21 Oct 2026 14:45:00 +0000",
+      "score": 22.0
     },
     {
-      "source": "SecurityWeek",
-      "title": "AOMEI Backupper Compromised in Short-Burst Supply Chain Campaign",
-      "url": "https://www.securityweek.com/aomei-backupper-compromised-in-short-burst-supply-chain-campaign/",
-      "summary": "<p>Across multiple short compromise windows, users were served a downloader for the ShinyRoad modular backdoor framework.</p> <p>The post <a href=\"https://www.securityweek.com/aomei-backupper-compromised-in-short-burst-supply-chain-campaign/\">AOMEI Backupper Compromised in Short-Burst Supply Chain Campaign</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "published": "Tue, 20 Oct 2026 13:51:01 +0000",
+      "source": "BleepingComputer",
+      "title": "Authorities disrupt nearly 11,000 cybercrime networks in Africa",
+      "url": "https://www.bleepingcomputer.com/news/security/authorities-disrupt-nearly-11-000-cybercrime-networks-in-africa/",
+      "summary": "Law enforcement agencies have disrupted nearly 11,000 cybercriminal networks and arrested more than 1,400 people in Operation Serengeti III, which targeted business email compromise, ransomware, and online scams. [...]",
+      "published": "Thu, 22 Oct 2026 04:27:11 -0400",
+      "score": 20.0
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "Microsoft says October updates didn’t actually fix VPN issues",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-didnt-actually-fix-vpn-issues-caused-by-windows-updates/",
+      "summary": "Microsoft says it mistakenly flagged a bug causing Always On VPN connection issues as fixed in the October 2026 Windows 11 cumulative updates. [...]",
+      "published": "Wed, 21 Oct 2026 06:14:53 -0400",
       "score": 20.0
     },
     {
@@ -75,11 +107,19 @@
     },
     {
       "source": "Google News Cybersecurity",
-      "title": "Nozomi Networks, SEL integrate OT SDN visibility with AI-powered cybersecurity for critical infrastructure - Industrial Cyber",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQUW43cmRGUFRmRC01aUJYemRqWUM2ak9kWUg1eU1fRDA4azdBUE14bDNhQlRYVEl4eC00YWpmTktFbllnVHFLNWhjZUV5ZTdxTFU0cWJBOW9YMDZHR2s4MExhQ2Q2bUhHR0JfTFFUaGxvQUNYRTJSMFZvVE5ycUg1U3VJUnI2TS1ZeFUzZnR6cGJiazFIUDk0Q09ac0JnZ0N4aHFLSGE5cWVrc01NSXYwU3MtWXZLNENwS05xMXdBMVFpWU1IaUpLRVA0V3ZaYzRCWXZDWg?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi1AFBVV95cUxQUW43cmRGUFRmRC01aUJYemRqWUM2ak9kWUg1eU1fRDA4azdBUE14bDNhQlRYVEl4eC00YWpmTktFbllnVHFLNWhjZUV5ZTdxTFU0cWJBOW9YMDZHR2s4MExhQ2Q2bUhHR0JfTFFUaGxvQUNYRTJSMFZvVE5ycUg1U3VJUnI2TS1ZeFUzZnR6cGJiazFIUDk0Q09ac0JnZ0N4aHFLSGE5cWVrc01NSXYwU3MtWXZLNENwS05xMXdBMVFpWU1IaUpLRVA0V3ZaYzRCWXZDWg?oc=5\" target=\"_blank\">Nozomi Networks, SEL integrate OT SDN visibility with AI-powered cybersecurity for critical infrastructure</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Industrial Cyber</font>",
-      "published": "Wed, 21 Oct 2026 07:48:29 GMT",
+      "title": "Students develop AI-powered cybersecurity system for water treatment plants and other critical infrastructure - Tech Xplore",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxObGh5V2RyZG0tSWtpNGc3UlRWazFiZ0JlT0pDaXEwWHhjRmwxbGZIR25CbmE3N21Db0JOZFIyTHBYbk1LSXR5YTBMbWE4c0pLelJIdFp2MW0yOF81TnRlNEF0TkdzbXgtdFM5NTQtVnNQQU0zdzAwY3otMnpPMGpWdnZoMjFYenJrdkZqMg?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxObGh5V2RyZG0tSWtpNGc3UlRWazFiZ0JlT0pDaXEwWHhjRmwxbGZIR25CbmE3N21Db0JOZFIyTHBYbk1LSXR5YTBMbWE4c0pLelJIdFp2MW0yOF81TnRlNEF0TkdzbXgtdFM5NTQtVnNQQU0zdzAwY3otMnpPMGpWdnZoMjFYenJrdkZqMg?oc=5\" target=\"_blank\">Students develop AI-powered cybersecurity system for water treatment plants and other critical infrastructure</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Tech Xplore</font>",
+      "published": "Thu, 22 Oct 2026 03:00:01 GMT",
       "score": 18.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "LiteLLM Suspects GitHub Token Leak in AI Gateway Logs Behind Malicious Package Release",
+      "url": "https://thehackernews.com/2026/10/litellm-suspects-github-token-leak-in.html",
+      "summary": "LiteLLM on Wednesday disclosed that threat actors compromised \"multiple independent security controls\" to push a malicious version of the Python package containing a credential stealer and a backdoor. On October 21, 2026, LiteLLM's release pipeline was compromised to push 1.107.0 to the Docker Hub registry and the Python Package Index (PyPI) repository. The incident took place around 4:00 a.m.",
+      "published": "Thu, 22 Oct 2026 13:58:48 +0530",
+      "score": 16.0
     },
     {
       "source": "BleepingComputer",
@@ -91,6 +131,46 @@
     },
     {
       "source": "The Hacker News",
+      "title": "New QPACK Flaws Can Crash HTTP/3 Servers, Trigger Up to 4,000-Fold Memory Amplification",
+      "url": "https://thehackernews.com/2026/10/new-qpack-flaws-can-crash-http3-servers.html",
+      "summary": "A remote attacker who has not logged in can crash many HTTP/3 web servers with a single connection, security firm FoxIO&nbsp;disclosed, releasing working proof-of-concept code. By sending a small batch of compressed HTTP headers that expands in memory to a much larger set, the attacker can force the server to use thousands of times more memory than it received, enough to run a default server",
+      "published": "Thu, 22 Oct 2026 12:08:31 +0530",
+      "score": 15.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "Someone Tried to Exploit PHP2Shell 4 Days Before the Vulnerabilities Were Publicly Disclosed",
+      "url": "https://thehackernews.com/2026/10/someone-tried-to-exploit-php2shell-4.html",
+      "summary": "Amazon's Threat Intelligence team on Wednesday said it detected an attempt to exploit the newly disclosed PHP2Shell vulnerabilities on October 17, 2026, against its MadPot honeypot service, as the flaws come under broad exploitation in the wild following the release of the patches. \"The exploit attempt originated from an IP address associated with a commercial anonymization network,\" CJ Moses,",
+      "published": "Thu, 22 Oct 2026 12:04:10 +0530",
+      "score": 15.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "PHP Issues Emergency Patches for Two Critical PHP2Shell RCE Flaws as Exploit Attempts Emerge",
+      "url": "https://thehackernews.com/2026/10/php-issues-emergency-patches-for-two.html",
+      "summary": "PHP has released emergency updates that fix two critical flaws in the language itself, letting an attacker without an account run code on a web server. The fixes are in PHP 8.5.12, 8.4.27, 8.3.36 and 8.2.35, and the PHP team says only updating fully protects a server. The flaws, together called PHP2Shell, sit in the PHP runtime, not in any application, so a site is exposed even when its own",
+      "published": "Wed, 21 Oct 2026 19:30:00 +0530",
+      "score": 15.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "PHP2Shell: What Actually Protects You Before the 14:00 UTC PHP RCE Patch, and What Doesn't",
+      "url": "https://thehackernews.com/2026/10/php2shell-what-actually-protects-you.html",
+      "summary": "You cannot fully block the two critical PHP flaws called PHP2Shell before today's fix, and the one setting being passed around as a workaround is not enough on its own, the security firm that suggested it now says. PHP will release the fix at&nbsp;14:00 UTC on October 21&nbsp;for two flaws it rates 9.2 out of 10, and has given no workaround of its own. Until you can install it, what lowers your",
+      "published": "Wed, 21 Oct 2026 16:06:53 +0530",
+      "score": 15.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "PHP2Shell: Two Unpatched Critical PHP RCE Flaws (CVSS 9.2) Trigger Emergency Security Alert",
+      "url": "https://thehackernews.com/2026/10/php2shell-two-unpatched-critical-php.html",
+      "summary": "This story is developing and was written before PHP's scheduled 14:00 UTC release on October 21. Once the release is out, the affected and fixed versions below are confirmed by the official advisory. PHP will ship an out-of-cycle security release at 14:00 UTC today, October 21, for two critical vulnerabilities that its security team has rated 9.2 on the CVSS v4.0 scale but has not described. ⚡",
+      "published": "Wed, 21 Oct 2026 14:35:17 +0530",
+      "score": 15.0
+    },
+    {
+      "source": "The Hacker News",
       "title": "CISA Orders Federal Agencies to Patch Exploited Plex2Shell, Siemens, and SiteGuard Flaws",
       "url": "https://thehackernews.com/2026/10/cisa-orders-federal-agencies-to-patch.html",
       "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four vulnerabilities to its Known Exploited Vulnerabilities (KEV) catalog, including four vulnerabilities impacting Plex Media Server that's collectively called Plex2Shell. The vulnerabilities are listed below - CVE-2026-96652 (CVSS score: 5.3) - Plex Media Server Server-Side Request Forgery (SSRF)",
@@ -98,35 +178,27 @@
       "score": 15.0
     },
     {
-      "source": "The Hacker News",
-      "title": "PHP2Shell: Two Unpatched Critical PHP RCE Flaws (CVSS 9.2) Trigger Emergency Security Alert",
-      "url": "https://thehackernews.com/2026/10/php2shell-two-unpatched-critical-php.html",
-      "summary": "This story is developing and was written before PHP's scheduled 14:00 UTC release on October 21. Once the release is out, the affected and fixed versions below are confirmed by the official advisory. PHP will ship an out-of-cycle security release at 14:00 UTC today, October 21, for two critical vulnerabilities that its security team has rated 9.2 on the CVSS v4.0 scale but has not described.",
-      "published": "Wed, 21 Oct 2026 10:27:50 +0530",
+      "source": "BleepingComputer",
+      "title": "Japan's Onamae Desktop Cloud hacked, up to 27,000 servers affected",
+      "url": "https://www.bleepingcomputer.com/news/security/japans-onamae-desktop-cloud-hacked-up-to-27-000-servers-affected/",
+      "summary": "Hackers compromised the infrastructure of Onamae Desktop Cloud, a popular provider of VPS services in Japan, and installed malware on up to 26,739 customers' servers. [...]",
+      "published": "Wed, 21 Oct 2026 17:43:27 -0400",
       "score": 15.0
     },
     {
-      "source": "The Hacker News",
-      "title": "Hackers Hijack Five OVHcloud CLI Releases to Distribute Secret-Stealing Malware",
-      "url": "https://thehackernews.com/2026/10/hackers-hijack-five-ovhcloud-cli.html",
-      "summary": "An attacker used a contributor's GitHub account to replace the download archives on five existing releases of OVHcloud's command-line tool on Monday, October 19. The account had been hijacked, and the new files were a build designed to steal secrets stored on the disk of any machine that runs it, the cloud provider says. They were live on GitHub for up to 94 minutes, from 12:47 to 14:21 UTC,",
-      "published": "Tue, 20 Oct 2026 13:51:29 +0530",
+      "source": "BleepingComputer",
+      "title": "CISA: Hackers chain Plex flaws in Plex2Shell attacks to breach servers",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-hackers-chain-plex-flaws-in-plex2shell-attacks-to-breach-servers/",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning that attackers are actively exploiting four vulnerabilities in Plex Media Server. [...]",
+      "published": "Wed, 21 Oct 2026 14:34:42 -0400",
       "score": 15.0
     },
     {
-      "source": "The Hacker News",
-      "title": "Ex-OpenAI Engineer Detained in Spy Device Case as Saudi Royal Contacts Emerge",
-      "url": "https://thehackernews.com/2026/10/ex-openai-engineer-detained-in-spy.html",
-      "summary": "A U.S. court on Monday granted the U.S. government's request to detain a former OpenAI engineer accused of planting a recording device in an executive conference room at the company's San Francisco office to allegedly steal sensitive secrets. In a new court filing Sunday, prosecutors revealed that Abdulrahman Alfozan, a 35-year-old Saudi national, was \"in frequent communications via WhatsApp",
-      "published": "Tue, 20 Oct 2026 11:23:16 +0530",
-      "score": 15.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "Hackers Exploit Plex2Shell Flaws to Install Crypto Miners and Linux Proxy Backdoor",
-      "url": "https://thehackernews.com/2026/10/hackers-exploit-plex2shell-flaws-to.html",
-      "summary": "Threat actors have begun to exploit a chain of vulnerabilities in Plex Media Server to deploy cryptocurrency miners and reverse proxy software, a day after a proof-of-concept (PoC) went public. According to a researcher who goes by the online alias boredhackerblog, the exploitation activity involves chaining four different vulnerabilities, collectively called Plex2Shell. The vulnerabilities",
-      "published": "Mon, 19 Oct 2026 23:02:13 +0530",
+      "source": "BleepingComputer",
+      "title": "Microsoft PowerToys adds CursorHide, Button Lock mouse tools",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-powertoys-adds-cursorhide-button-lock-mouse-tools/",
+      "summary": "Microsoft has released PowerToys 0.102, with two new mouse utilities, new command-line tools, and Command Palette improvements. [...]",
+      "published": "Wed, 21 Oct 2026 08:20:34 -0400",
       "score": 15.0
     },
     {
@@ -136,78 +208,6 @@
       "summary": "The PHP security team is warning administrators to prepare for emergency security updates tomorrow to address two critical vulnerabilities, as information about the flaws has reportedly leaked ahead of their scheduled disclosure. [...]",
       "published": "Tue, 20 Oct 2026 16:56:43 -0400",
       "score": 15.0
-    },
-    {
-      "source": "BleepingComputer",
-      "title": "Windows Server 2025 gets support for quick machine recovery",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/windows-server-2025-gets-support-for-quick-machine-recovery/",
-      "summary": "Microsoft announced that IT administrators can now use quick machine recovery on Windows Server 2025 after installing the October 2026 security update. [...]",
-      "published": "Tue, 20 Oct 2026 08:16:32 -0400",
-      "score": 15.0
-    },
-    {
-      "source": "BleepingComputer",
-      "title": "OVHcloud CLI releases backdoored on GitHub to steal developer secrets",
-      "url": "https://www.bleepingcomputer.com/news/security/ovhcloud-cli-releases-backdoored-on-github-to-steal-developer-secrets/",
-      "summary": "French cloud and hosting provider OVHcloud is warning users that attackers compromised its open-source command-line interface (CLI) tool to distribute information-stealing malware. [...]",
-      "published": "Tue, 20 Oct 2026 07:31:22 -0400",
-      "score": 15.0
-    },
-    {
-      "source": "Google News Cybersecurity",
-      "title": "When AI Becomes a Medical Device: What Changes for Cybersecurity - Industrial Cyber",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQSWFXSzZweG96dUlLcEt0ckNnNkpNcVZKb0JzcHVpNUZXLWpoTjE4TUc5eUNQRXJ4M0EyOERZTFhzTXF0LXJWRTVWcXFXZXpXcy11bDA3bTA2REFSRUt2aExiZmJEelNBZ3BERFhMTjFqRmZXU3FaTERzYm1SeUVDVlFZcXNUWDRkVzlSZ21XRDh5ejBxeFY4bFBGeHo?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxQSWFXSzZweG96dUlLcEt0ckNnNkpNcVZKb0JzcHVpNUZXLWpoTjE4TUc5eUNQRXJ4M0EyOERZTFhzTXF0LXJWRTVWcXFXZXpXcy11bDA3bTA2REFSRUt2aExiZmJEelNBZ3BERFhMTjFqRmZXU3FaTERzYm1SeUVDVlFZcXNUWDRkVzlSZ21XRDh5ejBxeFY4bFBGeHo?oc=5\" target=\"_blank\">When AI Becomes a Medical Device: What Changes for Cybersecurity</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Industrial Cyber</font>",
-      "published": "Wed, 21 Oct 2026 02:22:58 GMT",
-      "score": 15.0
-    },
-    {
-      "source": "SecurityWeek",
-      "title": "Hijacked Developer Account Used to Plant Stealer in OVHcloud CLI",
-      "url": "https://www.securityweek.com/hijacked-developer-account-used-to-plant-stealer-in-ovhcloud-cli/",
-      "summary": "<p>Researchers say the developer’s account was compromised in March with a GlassWorm-linked loader.</p> <p>The post <a href=\"https://www.securityweek.com/hijacked-developer-account-used-to-plant-stealer-in-ovhcloud-cli/\">Hijacked Developer Account Used to Plant Stealer in OVHcloud CLI</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "published": "Wed, 21 Oct 2026 06:02:27 +0000",
-      "score": 14.0
-    },
-    {
-      "source": "SecurityWeek",
-      "title": "Microsoft Targets Rogue AI Agents With Dynamic Permissions, Risk Scoring",
-      "url": "https://www.securityweek.com/microsoft-targets-rogue-ai-agents-with-dynamic-permissions-risk-scoring/",
-      "summary": "<p>Microsoft says companies should treat AI agents as insiders, and is adding controls that grant access per task and tighten it as an agent’s risk rises.</p> <p>The post <a href=\"https://www.securityweek.com/microsoft-targets-rogue-ai-agents-with-dynamic-permissions-risk-scoring/\">Microsoft Targets Rogue AI Agents With Dynamic Permissions, Risk Scoring</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "published": "Tue, 20 Oct 2026 11:30:18 +0000",
-      "score": 14.0
-    },
-    {
-      "source": "Google News Cybersecurity",
-      "title": "Tegria Buys Healthcare Cybersecurity Provider CloudWave in First Deal Under Altaris Ownership - Distilled Post",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQckllZFhZT3ZQZFJPSm5sUWRxMWgyUGV2MUJyMVFENFNseTBic0JmbVhXX0Nna2JBTTNBRlFWVFEzZ0I5Q09Ddm5mdkZUSWpCZkRSRXo2QnZBV3BTaHpPaDZjVkJwSnlzZ3RaR2s2dWxEZWVhSDFiekZGZmRlN2pWMFJtMmNYellVaE5pWm5MYTVVX1BuY01VY1RCR0I4YVE4LVczVUJPQVYzU2FoLXluNFhwMFJGUnhHOURRQUMydzVMVGRTQzBV?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMixwFBVV95cUxQckllZFhZT3ZQZFJPSm5sUWRxMWgyUGV2MUJyMVFENFNseTBic0JmbVhXX0Nna2JBTTNBRlFWVFEzZ0I5Q09Ddm5mdkZUSWpCZkRSRXo2QnZBV3BTaHpPaDZjVkJwSnlzZ3RaR2s2dWxEZWVhSDFiekZGZmRlN2pWMFJtMmNYellVaE5pWm5MYTVVX1BuY01VY1RCR0I4YVE4LVczVUJPQVYzU2FoLXluNFhwMFJGUnhHOURRQUMydzVMVGRTQzBV?oc=5\" target=\"_blank\">Tegria Buys Healthcare Cybersecurity Provider CloudWave in First Deal Under Altaris Ownership</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Distilled Post</font>",
-      "published": "Wed, 21 Oct 2026 08:48:31 GMT",
-      "score": 13.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "State Bank of India Confirms Data Leak After 3,897 Customer Records Found on Dark Web",
-      "url": "https://thehackernews.com/2026/10/state-bank-of-india-confirms-data-leak.html",
-      "summary": "State Bank of India has identified 3,897 customer records containing personal information in a set of about 375,000 records available on the dark web, and it does not yet know where the data came from. The state-owned bank, India's largest, said in a&nbsp;stock-exchange filing&nbsp;dated October 21 that it \"has experienced an incident involving the loss of certain data.\" The count is",
-      "published": "Wed, 21 Oct 2026 13:14:22 +0530",
-      "score": 12.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "Hackers Hid Vasilek Backdoor in VMware Tools During 2-Year Russian Healthcare Intrusion",
-      "url": "https://thehackernews.com/2026/10/hackers-hid-vasilek-backdoor-in-vmware.html",
-      "summary": "A Belarus-aligned hacktivist group spent nearly two years within the network of a Russian healthcare organization. According to a report published by Russian cybersecurity firm Solar, the activity has been attributed to a threat cluster dubbed Partisan Zmiy, which is also known as the Cyber Partisans. Known to be active since at least 2020, the group has a track record of striking industrial",
-      "published": "Wed, 21 Oct 2026 11:35:15 +0530",
-      "score": 12.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "Eight eMudhra CA Keys Compromised, Triggering Emergency Fixes Across Browsers and Software",
-      "url": "https://thehackernews.com/2026/10/eight-emudhra-ca-keys-compromised.html",
-      "summary": "The private keys of eight eMudhra intermediate certificate authority (CA) certificates are compromised,&nbsp;Mozilla&nbsp;and&nbsp;Google's Chrome Root Program&nbsp;confirms on October 20. An intermediate CA signs the certificates that websites present, so anyone holding one of these keys could issue a certificate for any website that a browser would accept. A researcher reported the",
-      "published": "Tue, 20 Oct 2026 22:39:53 +0530",
-      "score": 12.0
     }
   ]
 }
