@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-22T09:29:18.523626+00:00",
+  "generated_at_utc": "2026-10-23T09:25:18.409666+00:00",
   "publication_enabled": false,
   "editorial_note": "Candidates require human/editorial review and original technical work before publication.",
   "feed_errors": [
@@ -10,20 +10,20 @@
   ],
   "candidates": [
     {
-      "source": "The Hacker News",
-      "title": "Qilin and INC Ransomware Groups Exploit Palo Alto Networks Flaw to Bypass MFA",
-      "url": "https://thehackernews.com/2026/10/qilin-and-inc-ransomware-groups-exploit.html",
-      "summary": "Palo Alto Networks has disclosed that it's continuing to observe exploitation of a now-patched security flaw impacting&nbsp; PAN-OS and Prisma Access by ransomware actors. The activity relates to CVE-2026-0257 (CVSS score: 7.8), an authentication bypass flaw that could be exploited by bad actors to set up unauthorized VPN connections. It was patched by Palo Alto Networks in May 2026 and was",
-      "published": "Tue, 20 Oct 2026 21:02:27 +0530",
-      "score": 34.0
+      "source": "BleepingComputer",
+      "title": "Arista patches new VeloCloud Orchestrator zero-day exploited in attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/arista-patches-new-velocloud-orchestrator-zero-day-exploited-in-attacks/",
+      "summary": "Arista Networks released security updates to patch an actively exploited zero-day vulnerability affecting VeloCloud Orchestrator (VCO) On-Prem deployments. [...]",
+      "published": "Thu, 22 Oct 2026 13:18:22 -0400",
+      "score": 41.0
     },
     {
-      "source": "BleepingComputer",
-      "title": "CISA: SafePay ransomware hit over 600 critical infrastructure orgs",
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-and-fbi-safepay-ransomware-has-hit-over-600-critical-infrastructure-organizations/",
-      "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) says the SafePay ransomware gang has breached over 600 critical infrastructure organizations worldwide since 2024. [...]",
-      "published": "Wed, 21 Oct 2026 04:36:24 -0400",
-      "score": 28.0
+      "source": "The Hacker News",
+      "title": "Arista Warns of Critical VeloCloud SQL Injection Zero-Day Exploited in Attacks",
+      "url": "https://thehackernews.com/2026/10/arista-warns-of-critical-velocloud-sql.html",
+      "summary": "Attackers are exploiting a zero-day SQL injection flaw in Arista's VeloCloud Orchestrator (VCO), the&nbsp;central management system&nbsp;for VeloCloud SD-WAN networks, the company said in an&nbsp;advisory&nbsp;on October 22. The flaw lets anyone who can log in to the orchestrator, even with a read-only customer account, gain operator privileges, the top level of control over it. For",
+      "published": "Fri, 23 Oct 2026 00:35:17 +0530",
+      "score": 27.0
     },
     {
       "source": "The Hacker News",
@@ -32,14 +32,6 @@
       "summary": "Microsoft on Wednesday disclosed that a China state-aligned actor dubbed Storm-0940 was behind the recent supply chain compromise of the ConnectWise Cloud Backup application. During the incident, Storm-0940 used ARTEX, a Go-based agentic AI penetration testing framework that was made closed-source in the wake of its abuse in cyber attacks targeting South Korean financial institutions, to speed",
       "published": "Thu, 22 Oct 2026 09:51:26 +0530",
       "score": 27.0
-    },
-    {
-      "source": "Google News Cybersecurity",
-      "title": "FBI, CISA warn that SafePay ransomware poses threat to critical infrastructure - Cybersecurity Dive",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQWElmNk5keXBOZG9JQ0hRSnB2WjU0RklnU1RvZFBLcWRPWjFmZGxBN3VWSzgyZGRwaGlSYmticTNmTUFsYTgyTmZBVXVPZk1iX2Q3bjBsLTF2d3RCdDdBNE5RQWVDWVVwZlhQSkVnaDFxMmdfYmxYYkJIRDEtMjcyOTBfREp6ZkprTjlEY2doQjNiMXBwWUdpeW5JbE9QQllBS0h2dkNyR2daTmtCNkFB?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxQWElmNk5keXBOZG9JQ0hRSnB2WjU0RklnU1RvZFBLcWRPWjFmZGxBN3VWSzgyZGRwaGlSYmticTNmTUFsYTgyTmZBVXVPZk1iX2Q3bjBsLTF2d3RCdDdBNE5RQWVDWVVwZlhQSkVnaDFxMmdfYmxYYkJIRDEtMjcyOTBfREp6ZkprTjlEY2doQjNiMXBwWUdpeW5JbE9QQllBS0h2dkNyR2daTmtCNkFB?oc=5\" target=\"_blank\">FBI, CISA warn that SafePay ransomware poses threat to critical infrastructure</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Cybersecurity Dive</font>",
-      "published": "Wed, 21 Oct 2026 15:33:13 GMT",
-      "score": 26.0
     },
     {
       "source": "The Hacker News",
@@ -51,11 +43,11 @@
     },
     {
       "source": "The Hacker News",
-      "title": "Critical FortiSIEM Flaw Gets Public Exploit PoC for Unauthenticated Remote Code Execution",
-      "url": "https://thehackernews.com/2026/10/critical-fortisiem-flaw-gets-public.html",
-      "summary": "Cybersecurity researchers have released a proof-of-concept (PoC) exploit for a recently patched critical security flaw impacting Fortinet FortiSIEM that could result in arbitrary code execution. The vulnerability, tracked as CVE-2026-106173 (CVSS score: 9.4), is a critical path traversal flaw that could allow an unauthenticated attacker to execute unauthorized code or commands via specially",
-      "published": "Tue, 20 Oct 2026 21:08:52 +0530",
-      "score": 25.0
+      "title": "Two CVSS 9.0 Linux KSMBD RCE Flaws Disclosed on Public Mailing Lists Before Kernel Fixes",
+      "url": "https://thehackernews.com/2026/10/two-cvss-90-linux-ksmbd-rce-flaws.html",
+      "summary": "Linux servers running KSMBD, the kernel's built-in SMB server, are exposed to two publicly reported remote code execution flaws rated 9.0 by&nbsp;Trend Micro's Zero Day Initiative, with no fix yet in the mainline kernel. One of them, ZDI-CAN-33774, can be triggered before any network authentication. The other, ZDI-CAN-33549, requires the SMB Direct transport and an RDMA-capable network",
+      "published": "Thu, 22 Oct 2026 22:31:53 +0530",
+      "score": 24.0
     },
     {
       "source": "The Hacker News",
@@ -74,12 +66,12 @@
       "score": 24.0
     },
     {
-      "source": "SecurityWeek",
-      "title": "High-Severity Flaws Exploited in Three Days as Ransomware Dominates Q3: Rapid7",
-      "url": "https://www.securityweek.com/high-severity-flaws-exploited-in-three-days-as-ransomware-dominates-q3-rapid7/",
-      "summary": "<p>Rapid7’s Q3 analysis finds high-severity flaws exploited within three days on average, while AI appeared in just 8% of tracked incidents.</p> <p>The post <a href=\"https://www.securityweek.com/high-severity-flaws-exploited-in-three-days-as-ransomware-dominates-q3-rapid7/\">High-Severity Flaws Exploited in Three Days as Ransomware Dominates Q3: Rapid7</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "published": "Wed, 21 Oct 2026 14:45:00 +0000",
-      "score": 22.0
+      "source": "The Hacker News",
+      "title": "PHP2Shell Exploit Attempts Hit Millions as Attackers Try to Deploy Mirai Malware",
+      "url": "https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html",
+      "summary": "Threat actors have been observed unsuccessfully attempting to exploit the newly disclosed PHP2Shell vulnerabilities to rope infected systems into a Mirai botnet variant called Potassium, as it emerges that weaponizing the flaws may be harder than previously thought. The attacks aim to exploit CVE-2026-109618 and CVE-2026-109619 (CVSS scores: 9.2), which can result in unauthenticated remote",
+      "published": "Fri, 23 Oct 2026 13:10:45 +0530",
+      "score": 21.0
     },
     {
       "source": "BleepingComputer",
@@ -90,28 +82,28 @@
       "score": 20.0
     },
     {
-      "source": "BleepingComputer",
-      "title": "Microsoft says October updates didn’t actually fix VPN issues",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-didnt-actually-fix-vpn-issues-caused-by-windows-updates/",
-      "summary": "Microsoft says it mistakenly flagged a bug causing Always On VPN connection issues as fixed in the October 2026 Windows 11 cumulative updates. [...]",
-      "published": "Wed, 21 Oct 2026 06:14:53 -0400",
+      "source": "SecurityWeek",
+      "title": "LiteLLM Compromised in Fresh Supply Chain Attack",
+      "url": "https://www.securityweek.com/litellm-compromised-in-fresh-supply-chain-attack/",
+      "summary": "<p>Hackers used compromised GitHub CLI OAuth tokens to push and approve malicious packages on PyPI and Docker.</p> <p>The post <a href=\"https://www.securityweek.com/litellm-compromised-in-fresh-supply-chain-attack/\">LiteLLM Compromised in Fresh Supply Chain Attack</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "published": "Fri, 23 Oct 2026 08:10:46 +0000",
       "score": 20.0
     },
     {
-      "source": "The Hacker News",
-      "title": "ConnectWise Resets Credentials as Cloud Backup Remains Offline After Security Incident",
-      "url": "https://thehackernews.com/2026/10/connectwise-resets-credentials-as-cloud.html",
-      "summary": "ConnectWise on Monday said it has taken remediation measures, including strengthening administrative-access protections and resetting accounts and replacing application credentials, as it continues to respond to a security incident that led to unauthorized access to application identities associated with Cloud Backup. The company said it has completed the following actions since it began",
-      "published": "Tue, 20 Oct 2026 16:26:08 +0530",
+      "source": "Google News Cybersecurity",
+      "title": "Cathy Mulrow-Peattie Discusses AI and Supply Chain Cybersecurity - Hinshaw & Culbertson LLP",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNclpLdmxtTm5oRlFYdjF4Sk5NU3h6cUhHMXEzN2lFWDA1ZlNzWlFjOU1vcnhKWU05N20tSU84SVlSak5BQ0N5RmpXRVdqeWdPbzJjUEZaWVNzVlRyVFJGYU53QzNVQWFQNVRVbHloaUxISjZna1BHZ2drcHNNWkI5Ul93U1NFY0haVmx2cDdfVFJCMkN6ei10cGt1UUhfNGc4bU5XdXptTUx5YnJKMUE?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxNclpLdmxtTm5oRlFYdjF4Sk5NU3h6cUhHMXEzN2lFWDA1ZlNzWlFjOU1vcnhKWU05N20tSU84SVlSak5BQ0N5RmpXRVdqeWdPbzJjUEZaWVNzVlRyVFJGYU53QzNVQWFQNVRVbHloaUxISjZna1BHZ2drcHNNWkI5Ul93U1NFY0haVmx2cDdfVFJCMkN6ei10cGt1UUhfNGc4bU5XdXptTUx5YnJKMUE?oc=5\" target=\"_blank\">Cathy Mulrow-Peattie Discusses AI and Supply Chain Cybersecurity</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Hinshaw & Culbertson LLP</font>",
+      "published": "Fri, 23 Oct 2026 01:54:24 GMT",
       "score": 19.0
     },
     {
-      "source": "Google News Cybersecurity",
-      "title": "Students develop AI-powered cybersecurity system for water treatment plants and other critical infrastructure - Tech Xplore",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxObGh5V2RyZG0tSWtpNGc3UlRWazFiZ0JlT0pDaXEwWHhjRmwxbGZIR25CbmE3N21Db0JOZFIyTHBYbk1LSXR5YTBMbWE4c0pLelJIdFp2MW0yOF81TnRlNEF0TkdzbXgtdFM5NTQtVnNQQU0zdzAwY3otMnpPMGpWdnZoMjFYenJrdkZqMg?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxObGh5V2RyZG0tSWtpNGc3UlRWazFiZ0JlT0pDaXEwWHhjRmwxbGZIR25CbmE3N21Db0JOZFIyTHBYbk1LSXR5YTBMbWE4c0pLelJIdFp2MW0yOF81TnRlNEF0TkdzbXgtdFM5NTQtVnNQQU0zdzAwY3otMnpPMGpWdnZoMjFYenJrdkZqMg?oc=5\" target=\"_blank\">Students develop AI-powered cybersecurity system for water treatment plants and other critical infrastructure</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Tech Xplore</font>",
-      "published": "Thu, 22 Oct 2026 03:00:01 GMT",
-      "score": 18.0
+      "source": "The Hacker News",
+      "title": "Railway Says Intruder May Have Accessed Customer Secrets, Urges Credential Rotation",
+      "url": "https://thehackernews.com/2026/10/railway-says-intruder-may-have-accessed.html",
+      "summary": "Platform-as-a-Service (PaaS) provider Railway on Wednesday disclosed \"anomalous activity\" related to systems that store customer environment variables. Upon further investigation, the company found that an unauthorized third party may have gained access to encrypted environment variables, and, in some cases, obtained the decrypted contents. The impact, it said, is limited to a \"subset of users,",
+      "published": "Thu, 22 Oct 2026 16:45:42 +0530",
+      "score": 16.0
     },
     {
       "source": "The Hacker News",
@@ -123,11 +115,35 @@
     },
     {
       "source": "BleepingComputer",
-      "title": "Zeabur shutting down after second security breach in two months",
-      "url": "https://www.bleepingcomputer.com/news/security/zeabur-shutting-down-after-second-security-breach-in-two-months/",
-      "summary": "Development platform Zeabur has disclosed details of a cybersecurity incident in which an attacker used leaked internal credentials stored in plaintext to compromise its infrastructure and steal over 3.2 million environment variable records and information for 321,810 accounts. [...]",
-      "published": "Tue, 20 Oct 2026 15:33:02 -0400",
+      "title": "LiteLLM release pipeline hacked to distribute info-stealer malware",
+      "url": "https://www.bleepingcomputer.com/news/security/litellm-release-pipeline-hacked-to-distribute-info-stealer-malware/",
+      "summary": "Hackers compromised the LiteLLM project's PyPI package and published malicious Docker images with a payload that steals credentials, secrets, and environment variables. [...]",
+      "published": "Thu, 22 Oct 2026 15:12:51 -0400",
       "score": 16.0
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "Machine speed attacks require machine speed detection and response",
+      "url": "https://www.bleepingcomputer.com/news/security/machine-speed-attacks-require-machine-speed-detection-and-response/",
+      "summary": "Attackers can steal credentials and begin exfiltrating data within minutes, often before security teams can respond. Exaforce examines real-world attacks involving stolen GitHub tokens, malicious AI installers, and MFA phishing, explaining why faster detection and automated containment are critical. [...]",
+      "published": "Thu, 22 Oct 2026 10:02:12 -0400",
+      "score": 16.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "ThreatsDay: AI Secrets Leak, PingCAP Source Theft, Signal Hang-Up Flaw, Laravel Auth Bypass + 21 More",
+      "url": "https://thehackernews.com/2026/10/threatsday-ai-secrets-leak-pingcap.html",
+      "summary": "This week has already been rough for cybersecurity. Critical PHP and GitLab RCE flaws, serious Linux security bugs, compromised eMudhra certificates, a Node.js RCE flaw, a hacked LiteLLM release, and hundreds of hijacked Tor relays. That's a lot to deal with in just a few days. And the week isn't even over yet. But those big headlines are only half the story. Stolen passwords, exposed",
+      "published": "Thu, 22 Oct 2026 23:15:44 +0530",
+      "score": 15.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "Meta Ordered to Pay $25 Billion After Court Finds 43 Million Privacy Violations",
+      "url": "https://thehackernews.com/2026/10/meta-ordered-to-pay-25-billion-after.html",
+      "summary": "Social media giant Meta was ordered to pay 25 billion in penalties by a New Mexico court on Wednesday as part of a data privacy lawsuit that sprang from the company's Cambridge Analytica data scandal, which came to light in 2018. According to multiple reports from the Associated Press, the New York Times, Reuters, and the Wall Street Journal, state District Court Judge Francis J. Mathew called",
+      "published": "Thu, 22 Oct 2026 21:42:31 +0530",
+      "score": 15.0
     },
     {
       "source": "The Hacker News",
@@ -141,7 +157,7 @@
       "source": "The Hacker News",
       "title": "Someone Tried to Exploit PHP2Shell 4 Days Before the Vulnerabilities Were Publicly Disclosed",
       "url": "https://thehackernews.com/2026/10/someone-tried-to-exploit-php2shell-4.html",
-      "summary": "Amazon's Threat Intelligence team on Wednesday said it detected an attempt to exploit the newly disclosed PHP2Shell vulnerabilities on October 17, 2026, against its MadPot honeypot service, as the flaws come under broad exploitation in the wild following the release of the patches. \"The exploit attempt originated from an IP address associated with a commercial anonymization network,\" CJ Moses,",
+      "summary": "Amazon's Threat Intelligence team on Wednesday said it detected an attempt to exploit the newly disclosed PHP2Shell vulnerabilities dating back to October 17, 2026, against its MadPot honeypot service, as the flaws come under broad exploitation in the wild following the release of the patches. \"The exploit attempt originated from an IP address associated with a commercial anonymization network,",
       "published": "Thu, 22 Oct 2026 12:04:10 +0530",
       "score": 15.0
     },
@@ -162,19 +178,27 @@
       "score": 15.0
     },
     {
-      "source": "The Hacker News",
-      "title": "PHP2Shell: Two Unpatched Critical PHP RCE Flaws (CVSS 9.2) Trigger Emergency Security Alert",
-      "url": "https://thehackernews.com/2026/10/php2shell-two-unpatched-critical-php.html",
-      "summary": "This story is developing and was written before PHP's scheduled 14:00 UTC release on October 21. Once the release is out, the affected and fixed versions below are confirmed by the official advisory. PHP will ship an out-of-cycle security release at 14:00 UTC today, October 21, for two critical vulnerabilities that its security team has rated 9.2 on the CVSS v4.0 scale but has not described. ⚡",
-      "published": "Wed, 21 Oct 2026 14:35:17 +0530",
+      "source": "BleepingComputer",
+      "title": "Railway warns devs to rotate secrets after potential breach",
+      "url": "https://www.bleepingcomputer.com/news/security/railway-warns-devs-to-rotate-secrets-after-potential-breach/",
+      "summary": "Cloud platform Railway published an urgent warning to users after detecting suspicious activity on its systems that store customer environment variables earlier this week. [...]",
+      "published": "Thu, 22 Oct 2026 17:25:31 -0400",
       "score": 15.0
     },
     {
-      "source": "The Hacker News",
-      "title": "CISA Orders Federal Agencies to Patch Exploited Plex2Shell, Siemens, and SiteGuard Flaws",
-      "url": "https://thehackernews.com/2026/10/cisa-orders-federal-agencies-to-patch.html",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four vulnerabilities to its Known Exploited Vulnerabilities (KEV) catalog, including four vulnerabilities impacting Plex Media Server that's collectively called Plex2Shell. The vulnerabilities are listed below - CVE-2026-96652 (CVSS score: 5.3) - Plex Media Server Server-Side Request Forgery (SSRF)",
-      "published": "Wed, 21 Oct 2026 12:56:49 +0530",
+      "source": "BleepingComputer",
+      "title": "Microsoft shares how to fix broken Exchange Online EWS apps",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-how-to-fix-broken-exchange-online-ews-apps/",
+      "summary": "Microsoft says IT admins can re-enable the retired Exchange Web Services (EWS) API in Exchange Online to fix EWS apps that have stopped working. [...]",
+      "published": "Thu, 22 Oct 2026 11:49:32 -0400",
+      "score": 15.0
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "Amazon says PHP2Shell exploitation began 4 days before patches",
+      "url": "https://www.bleepingcomputer.com/news/security/amazon-says-php2shell-exploitation-began-4-days-before-patches/",
+      "summary": "Security researchers at Amazon Threat Intelligence say attackers began targeting the PHP2Shell flaws four days before security patches were released on Wednesday. [...]",
+      "published": "Thu, 22 Oct 2026 09:09:12 -0400",
       "score": 15.0
     },
     {
@@ -183,30 +207,6 @@
       "url": "https://www.bleepingcomputer.com/news/security/japans-onamae-desktop-cloud-hacked-up-to-27-000-servers-affected/",
       "summary": "Hackers compromised the infrastructure of Onamae Desktop Cloud, a popular provider of VPS services in Japan, and installed malware on up to 26,739 customers' servers. [...]",
       "published": "Wed, 21 Oct 2026 17:43:27 -0400",
-      "score": 15.0
-    },
-    {
-      "source": "BleepingComputer",
-      "title": "CISA: Hackers chain Plex flaws in Plex2Shell attacks to breach servers",
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-hackers-chain-plex-flaws-in-plex2shell-attacks-to-breach-servers/",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning that attackers are actively exploiting four vulnerabilities in Plex Media Server. [...]",
-      "published": "Wed, 21 Oct 2026 14:34:42 -0400",
-      "score": 15.0
-    },
-    {
-      "source": "BleepingComputer",
-      "title": "Microsoft PowerToys adds CursorHide, Button Lock mouse tools",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-powertoys-adds-cursorhide-button-lock-mouse-tools/",
-      "summary": "Microsoft has released PowerToys 0.102, with two new mouse utilities, new command-line tools, and Command Palette improvements. [...]",
-      "published": "Wed, 21 Oct 2026 08:20:34 -0400",
-      "score": 15.0
-    },
-    {
-      "source": "BleepingComputer",
-      "title": "PHP warns admins of two critical flaws, emergency patches coming tomorrow",
-      "url": "https://www.bleepingcomputer.com/news/security/php-warns-admins-of-two-critical-flaws-emergency-patches-coming-tomorrow/",
-      "summary": "The PHP security team is warning administrators to prepare for emergency security updates tomorrow to address two critical vulnerabilities, as information about the flaws has reportedly leaked ahead of their scheduled disclosure. [...]",
-      "published": "Tue, 20 Oct 2026 16:56:43 -0400",
       "score": 15.0
     }
   ]
