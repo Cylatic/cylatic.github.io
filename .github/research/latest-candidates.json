@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-25T09:13:42.341663+00:00",
+  "generated_at_utc": "2026-10-26T10:17:01.640089+00:00",
   "publication_enabled": false,
   "editorial_note": "Candidates require human/editorial review and original technical work before publication.",
   "feed_errors": [
@@ -10,132 +10,100 @@
   ],
   "candidates": [
     {
-      "source": "The Hacker News",
-      "title": "CISA Flags Two Actively Exploited Critical Flaws in Collabora Online and Arista VeloCloud",
-      "url": "https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two vulnerabilities impacting Collabora Online Built-in CODE Server and Arista VeloCloud Orchestrator (VCO) to its Known Exploited Vulnerabilities (KEV), citing reports of active exploitation in the wild. The critical-severity vulnerabilities are listed below - CVE-2026-110447 (CVSS score: 9.2) - An operating",
-      "published": "Sat, 24 Oct 2026 11:55:57 +0530",
-      "score": 32.0
-    },
-    {
-      "source": "SecurityWeek",
-      "title": "Attackers Exploit Third Arista VCO Zero-Day in Four Months",
-      "url": "https://www.securityweek.com/attackers-exploit-third-velocloud-orchestrator-zero-day-in-four-months/",
-      "summary": "<p>The critical-severity SQL injection flaw allows attackers to access privileged internal functionality and gain operator privileges.</p> <p>The post <a href=\"https://www.securityweek.com/attackers-exploit-third-velocloud-orchestrator-zero-day-in-four-months/\">Attackers Exploit Third Arista VCO Zero-Day in Four Months</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "published": "Fri, 23 Oct 2026 09:58:34 +0000",
-      "score": 26.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "Hackers Breach Enterprise Firewalls and VPNs, Exposing Over 70,000 Credentials",
-      "url": "https://thehackernews.com/2026/10/hackers-breach-enterprise-firewalls-and.html",
-      "summary": "Cybersecurity researchers have disclosed details of a large-scale campaign that has targeted exposed network edge devices such as Fortinet FortiGate and Palo Alto Networks GlobalProtect firewalls. \"Artifacts from this investigation also indicate that operators in this campaign have obtained access to numerous organizations worldwide, and have attempted to further compromise some victims,",
-      "published": "Fri, 23 Oct 2026 19:20:56 +0530",
-      "score": 25.0
-    },
-    {
       "source": "BleepingComputer",
-      "title": "HPE patches eight max severity RCE and auth bypass AOS flaws",
-      "url": "https://www.bleepingcomputer.com/news/security/hpe-patches-eight-max-severity-rce-and-auth-bypass-aos-flaws/",
-      "summary": "Hewlett Packard Enterprise (HPE) released security updates to patch 72 vulnerabilities in the Aruba Operating System (ArubaOS), including eight maximum-severity authentication bypass and code execution issues. [...]",
-      "published": "Fri, 23 Oct 2026 08:48:00 -0400",
-      "score": 24.0
+      "title": "PHP2Shell security flaws now sucessfully exploited in the wild",
+      "url": "https://www.bleepingcomputer.com/news/security/php2shell-security-flaws-now-sucessfully-exploited-in-the-wild/",
+      "summary": "Two critical RCE vulnerabilities (CVE-2026-109618 and CVE-2026-109619), collectively tracked as PHP2Shell, have been successfully exploited in the wild. [...]",
+      "published": "Mon, 26 Oct 2026 05:19:57 -0400",
+      "score": 29.0
     },
     {
-      "source": "BleepingComputer",
-      "title": "PHP shares mitigation for new RCE vulnerability with no patch",
-      "url": "https://www.bleepingcomputer.com/news/security/php-shares-mitigation-for-new-and-unpatched-rce-vulnerability/",
-      "summary": "The PHP security team has shared mitigation measures for a new remote code execution vulnerability that affects systems with non-default configurations and has no patch. [...]",
-      "published": "Fri, 23 Oct 2026 11:38:05 -0400",
-      "score": 21.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "Exposed Infrastructure Reveals How Ransomware Affiliates Used AI Agents to Execute Intrusions",
-      "url": "https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html",
-      "summary": "Cybersecurity researchers have discovered an artificial intelligence (AI)-driven intrusion ecosystem run by affiliates of the INC and The Gentlemen ransomware groups. Central to the operation is an \"Autonomous Red Team Kill Chain Framework\" referred to as Phantom. The threat actor is assessed to be Russian-speaking and functions both as an intrusion and data-extortion operator, as well as an",
-      "published": "Fri, 23 Oct 2026 23:20:47 +0530",
-      "score": 20.0
-    },
-    {
-      "source": "SecurityWeek",
-      "title": "In Other News: Tor Exit Relays Hijacked, Banks Spot Rogue AI Agents, Self-Rebuilding macOS Ransomware",
-      "url": "https://www.securityweek.com/in-other-news-tor-exit-relays-hijacked-banks-spot-rogue-ai-agents-self-rebuilding-macos-ransomware/",
-      "summary": "<p>Noteworthy stories that might have slipped under the radar: Russia’s APT28 hit NATO defense firms, PingCAP source code stolen, ShinyHunters negotiator probe.</p> <p>The post <a href=\"https://www.securityweek.com/in-other-news-tor-exit-relays-hijacked-banks-spot-rogue-ai-agents-self-rebuilding-macos-ransomware/\">In Other News: Tor Exit Relays Hijacked, Banks Spot Rogue AI Agents, Self-Rebuilding macOS Ransomware</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "published": "Fri, 23 Oct 2026 14:23:37 +0000",
-      "score": 19.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "Researchers Push Over 2 Million Updates to Remotely Disable Popcorn Time Updater That Could Fuel a Botnet",
-      "url": "https://thehackernews.com/2026/10/researchers-push-over-2-million-updates.html",
-      "summary": "Between November 2025 and March 2026, the Dutch security firm Eye Security pushed more than 2 million updates to computers it did not own to switch off a background updater that it said could have allowed an outsider to take over the machine. The updater belongs to Time4Popcorn, an abandoned copy of Popcorn Time, a free app that streamed pirated films and TV over BitTorrent. Popcorn Time was",
-      "published": "Sat, 24 Oct 2026 14:34:24 +0530",
+      "source": "Google News Cybersecurity",
+      "title": "OT-ISAC tracks 2026 Asia-Pacific cybersecurity policy shifts affecting critical infrastructure, OT and industrial operations - Industrial Cyber",
+      "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPVlNSMkR3SXVfZHU0NzM5YXFqc191eUxtSWZfM212eEo2a1RRVTNQRWxJczlFLUhtdktkRnMtRkdTWEptdTRseDRWZi0zek1DUkpTNTg4Qk5jSXVoUHFNSzBncW5Sb1cxajA0Z0FMTWhyTWFLb25UZm8zTTNuMklhOFlKSVZ3V2FOY0kxbFNhVkowaU54LW1hSlVnY09hVU5OYlBCeVlzZWRlQThhQTBid2JEdU53UjlGQlFPdW9UcWdDZzlpNXF2LUtkakdrMnNMVUNWbzRIWllKdm9wcF8wbWtKUEFqUTlzSWJFUTFBMUxWQ25Lc0ZRUG5XTzlxZHVCOW5RTW90M0FwMmU4cXdsR19kQTUwUQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilgJBVV95cUxPVlNSMkR3SXVfZHU0NzM5YXFqc191eUxtSWZfM212eEo2a1RRVTNQRWxJczlFLUhtdktkRnMtRkdTWEptdTRseDRWZi0zek1DUkpTNTg4Qk5jSXVoUHFNSzBncW5Sb1cxajA0Z0FMTWhyTWFLb25UZm8zTTNuMklhOFlKSVZ3V2FOY0kxbFNhVkowaU54LW1hSlVnY09hVU5OYlBCeVlzZWRlQThhQTBid2JEdU53UjlGQlFPdW9UcWdDZzlpNXF2LUtkakdrMnNMVUNWbzRIWllKdm9wcF8wbWtKUEFqUTlzSWJFUTFBMUxWQ25Lc0ZRUG5XTzlxZHVCOW5RTW90M0FwMmU4cXdsR19kQTUwUQ?oc=5\" target=\"_blank\">OT-ISAC tracks 2026 Asia-Pacific cybersecurity policy shifts affecting critical infrastructure, OT and industrial operations</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Industrial Cyber</font>",
+      "published": "Mon, 26 Oct 2026 10:05:00 GMT",
       "score": 18.0
     },
     {
       "source": "Google News Cybersecurity",
-      "title": "SLED: Columbia cybersecurity incident was ransomware attack - coladaily.com",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNajJiclFzZ1YzRk96SkQzazJDdHJydjJ1X0p4d1J3LUEyMzF6UHZNSVNpeFNieUFMVmFoZ1dRd1I2cDVITlVHZWc0UFdaQmlNNHVQVDg4N21WbWFzWW9hb3BUbzA0WndWb21HTV90LUdJUGNILTNiMVIxRURsYmU2M28zUHRVSVk5NlVxRUZvOGRkenh3QXUwM2dWWGk4R05vNGIzVUJyNmNyODNRM3dIS1llWThIeUJJbVhVQWM0SWxQQzI3VlVMcFdud08yOGJYZ0xWa2g2Q2h2bS1PMFQ4?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi3wFBVV95cUxNajJiclFzZ1YzRk96SkQzazJDdHJydjJ1X0p4d1J3LUEyMzF6UHZNSVNpeFNieUFMVmFoZ1dRd1I2cDVITlVHZWc0UFdaQmlNNHVQVDg4N21WbWFzWW9hb3BUbzA0WndWb21HTV90LUdJUGNILTNiMVIxRURsYmU2M28zUHRVSVk5NlVxRUZvOGRkenh3QXUwM2dWWGk4R05vNGIzVUJyNmNyODNRM3dIS1llWThIeUJJbVhVQWM0SWxQQzI3VlVMcFdud08yOGJYZ0xWa2g2Q2h2bS1PMFQ4?oc=5\" target=\"_blank\">SLED: Columbia cybersecurity incident was ransomware attack</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">coladaily.com</font>",
-      "published": "Sat, 24 Oct 2026 13:30:00 GMT",
+      "title": "Cybersecurity CEO Indicted for Allegedly Scamming Millions From Ransomware Victims - ProPublica",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPYlJubWFTUG93SGdqX0RQUlIwcEJ3RW84Yzk1NGsxTGMxTnFDUnhVal80ZTRGcmlpUW1xOWFxOC1DODRWSVgxRmF3S242Uy1IcUhhYTJUemFfNVk0MHViZFBkUjdqRzVveWlFVmhmVk5DMjNRSDdwdUgxS1dXeXFDQXhDcG5XNzhvOHpF?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxPYlJubWFTUG93SGdqX0RQUlIwcEJ3RW84Yzk1NGsxTGMxTnFDUnhVal80ZTRGcmlpUW1xOWFxOC1DODRWSVgxRmF3S242Uy1IcUhhYTJUemFfNVk0MHViZFBkUjdqRzVveWlFVmhmVk5DMjNRSDdwdUgxS1dXeXFDQXhDcG5XNzhvOHpF?oc=5\" target=\"_blank\">Cybersecurity CEO Indicted for Allegedly Scamming Millions From Ransomware Victims</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ProPublica</font>",
+      "published": "Mon, 26 Oct 2026 09:00:00 GMT",
       "score": 18.0
     },
     {
-      "source": "SecurityWeek",
-      "title": "Mirai Botnet Operators Join PHP2Shell Attacks as ASLR Bypass Exploits Emerge",
-      "url": "https://www.securityweek.com/mirai-botnet-operators-join-php2shell-attacks-as-aslr-bypass-exploits-emerge/",
-      "summary": "<p>Researchers tie PHP2Shell attempts to a Mirai botnet and show an ASLR bypass, but no successful compromise has been confirmed yet.</p> <p>The post <a href=\"https://www.securityweek.com/mirai-botnet-operators-join-php2shell-attacks-as-aslr-bypass-exploits-emerge/\">Mirai Botnet Operators Join PHP2Shell Attacks as ASLR Bypass Exploits Emerge</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "published": "Fri, 23 Oct 2026 12:45:52 +0000",
-      "score": 17.0
+      "source": "Google News Cybersecurity",
+      "title": "Frenos warns advances in AI attack planning could increase cybersecurity risks for critical infrastructure, ICS systems - Industrial Cyber",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQZ0VZVG96MU9scHJVYUlsWEM1ZENmNWs1YnQxRHgwTzFsMExpOTFXSndma05RMGZwNjVoVTA5eEprUUZ3clFueXZ1cTBnSTBXaTA5S01adjlLR2NvVGFZcHJEbXUxY1ZsZ012bHptdWxkUGxRNjhjOWpRUERyMGZKTHRNRDJRXzNVOUdmWEthU2VnNkFwY0hnN25iQ0kzandRMEVBWUY3MHAyV3VuX1dhUDhLY3RWOE05VjVYbnUzV2JJOEE1cV9RUC00bzV0TmNvWXlGNU9QVURRWnRkM1F2MlNmVVdYbk5qRFE?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi6gFBVV95cUxQZ0VZVG96MU9scHJVYUlsWEM1ZENmNWs1YnQxRHgwTzFsMExpOTFXSndma05RMGZwNjVoVTA5eEprUUZ3clFueXZ1cTBnSTBXaTA5S01adjlLR2NvVGFZcHJEbXUxY1ZsZ012bHptdWxkUGxRNjhjOWpRUERyMGZKTHRNRDJRXzNVOUdmWEthU2VnNkFwY0hnN25iQ0kzandRMEVBWUY3MHAyV3VuX1dhUDhLY3RWOE05VjVYbnUzV2JJOEE1cV9RUC00bzV0TmNvWXlGNU9QVURRWnRkM1F2MlNmVVdYbk5qRFE?oc=5\" target=\"_blank\">Frenos warns advances in AI attack planning could increase cybersecurity risks for critical infrastructure, ICS systems</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Industrial Cyber</font>",
+      "published": "Mon, 26 Oct 2026 10:15:02 GMT",
+      "score": 18.0
     },
     {
       "source": "The Hacker News",
-      "title": "Ruby Fixes Three Regex Engine Bugs Responsible for Four Critical GitLab RCE Flaws",
-      "url": "https://thehackernews.com/2026/10/ruby-fixes-three-regex-engine-bugs.html",
-      "summary": "Ruby has released versions 4.0.9, 3.4.12, and 3.3.13 to fix three bugs in Onigmo, the regular expression engine built into the language. The bugs lie behind four critical security flaws that GitLab patched over the past month. GitLab found that a specially crafted pattern could corrupt memory while Ruby compiles it, potentially leading to code execution on its own servers. Ruby says any",
-      "published": "Fri, 23 Oct 2026 23:24:08 +0530",
+      "title": "Microsoft 365 Token-Replay Attacks Compromise 97 Accounts at 79 Organizations",
+      "url": "https://thehackernews.com/2026/10/microsoft-365-token-replay-attacks.html",
+      "summary": "Cybersecurity researchers have disclosed a Microsoft 365 campaign that has been observed leveraging an adversary-in-the-middle (AitM) relay to capture sign-in sessions and then replay the stolen tokens to break into email accounts at 79 organizations. Huntress, which observed the activity between July 14 and September 22, 2026, said it detected 497 successful Microsoft 365 sign-in events across",
+      "published": "Mon, 26 Oct 2026 14:05:51 +0530",
       "score": 15.0
     },
     {
       "source": "The Hacker News",
-      "title": "PHP Warns of Another Unpatched RCE Risk Two Days After Emergency PHP2Shell Patches",
-      "url": "https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html",
-      "summary": "PHP has warned of another way an attacker could run code on a web server, two days after it shipped emergency fixes for the critical PHP2Shell flaws. The new issue, assigned CVE-2026-115560, affects only web applications configured in an unusual way, and PHP considers it an unlikely risk.The project is not issuing an emergency fix for it. Instead, it recommends turning off a feature called",
-      "published": "Fri, 23 Oct 2026 16:55:43 +0530",
+      "title": "Gheist Uses Stolen GitHub Tokens to Steal Private Repository Secrets via Actions Logs",
+      "url": "https://thehackernews.com/2026/10/gheist-uses-stolen-github-tokens-to.html",
+      "summary": "An automated campaign is using stolen GitHub tokens to plant workflows that print a repository's secrets into its GitHub Actions logs, which the attackers then download before deleting the runs. The attacks have succeeded in private repositories and GitHub Enterprise environments, according to&nbsp;an analysis&nbsp;by cloud security company Wiz. A&nbsp;GitHub safeguard&nbsp;that pauses",
+      "published": "Mon, 26 Oct 2026 13:19:46 +0530",
       "score": 15.0
     },
     {
-      "source": "BleepingComputer",
-      "title": "Microsoft Teams to get AI-powered, context-aware phishing detection",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-to-get-ai-powered-context-aware-phishing-detection/",
-      "summary": "Microsoft has announced plans to add AI-powered phishing detection to Teams messages starting in early November 2026. [...]",
-      "published": "Fri, 23 Oct 2026 14:54:41 -0400",
+      "source": "The Hacker News",
+      "title": "Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers",
+      "url": "https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html",
+      "summary": "A single hacked device on a Tailscale network can be used to gain root access to other servers it can reach, according to a security researcher who published the findings this week. The attack requires two things: Tailscale SSH set up to allow port forwarding, and an attacker who already controls one device that the network's access rules permit to connect to the target. The findings were",
+      "published": "Sun, 25 Oct 2026 23:14:09 +0530",
       "score": 15.0
     },
     {
-      "source": "BleepingComputer",
-      "title": "Microsoft: Windows Server 2016 reaches end of support in January",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2016-reaches-end-of-support-in-january/",
-      "summary": "Microsoft says Windows Server 2016 will stop receiving security updates after it reaches the end of support in January 2027. [...]",
-      "published": "Fri, 23 Oct 2026 13:05:07 -0400",
+      "source": "The Hacker News",
+      "title": "PHP2Shell Exploitation Attempts Continue Amid Suspected N. Korea Global Scanning Activity",
+      "url": "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html",
+      "summary": "In an update, Palo Alto Networks Unit 42 said it's retracting its earlier assessment that the post-compromise activity targeting the European government agency involved the exploitation of the PHP2Shell flaws. \"What researchers saw was an attack against a European government agency executed in the context of a vulnerable PHP application,\" a spokesperson for the company told The Hacker News via",
+      "published": "Sun, 25 Oct 2026 22:49:46 +0530",
+      "score": 15.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software",
+      "url": "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
+      "summary": "A memory-corruption flaw in Google's Brotli decoder sits in many programs that unpack Brotli-compressed data, among them Bun, Microsoft's .NET, the Python&nbsp;Brotli&nbsp;and&nbsp;brotlicffi&nbsp;packages, and Envoy proxies set up to decompress Brotli. Tracked as&nbsp;CVE-2026-111497, the flaw allows crafted compressed data to overwrite past the end of a buffer and corrupt a program's memory,",
+      "published": "Sat, 24 Oct 2026 16:39:29 +0530",
       "score": 15.0
     },
     {
       "source": "Google News Cybersecurity",
-      "title": "Retail Cybersecurity Statistics 2026 and Data Breach Trends - CloudSEK",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5VZlR6RFE2eWxqOE15dnF4dWUwZmpNOHp3dWhQWnhQb3dUQU1lZWlRQlZGS0FjaXlQZDBUUmZkWHVUeGM3TThMQzRiY2JIVUZoSXhKdF85bWY4OGd2dzQ1MGM2MTRfbkk2QkZpbFVSREJzY0pZcEYtakFNcw?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMie0FVX3lxTE5VZlR6RFE2eWxqOE15dnF4dWUwZmpNOHp3dWhQWnhQb3dUQU1lZWlRQlZGS0FjaXlQZDBUUmZkWHVUeGM3TThMQzRiY2JIVUZoSXhKdF85bWY4OGd2dzQ1MGM2MTRfbkk2QkZpbFVSREJzY0pZcEYtakFNcw?oc=5\" target=\"_blank\">Retail Cybersecurity Statistics 2026 and Data Breach Trends</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CloudSEK</font>",
-      "published": "Sun, 25 Oct 2026 01:28:52 GMT",
-      "score": 13.0
+      "title": "The lesson from ASOS? Breaches rarely end with the initial attack - Cybersecurity Insiders",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZkhtSVV6azhyY0V4RVFuN0c3ejBUcjdTMlc0dndvMDQ3cTVhU0h3d0tSNXUwWTdwMWZjYVo3RXVpNm5EUHAzYWFKX2RvWWxnN1A3bzhveEdjdVpNZjM1Rm05Uk1JdGl3eE5Ta2tHdlpZdE94Y0k4LTEyRUlHNHZoUXBUSXNpRmo5bVNhQmhZa0hHVURZSjJURFp4dk8zRFRZU3k5NEZFdw?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxPZkhtSVV6azhyY0V4RVFuN0c3ejBUcjdTMlc0dndvMDQ3cTVhU0h3d0tSNXUwWTdwMWZjYVo3RXVpNm5EUHAzYWFKX2RvWWxnN1A3bzhveEdjdVpNZjM1Rm05Uk1JdGl3eE5Ta2tHdlpZdE94Y0k4LTEyRUlHNHZoUXBUSXNpRmo5bVNhQmhZa0hHVURZSjJURFp4dk8zRFRZU3k5NEZFdw?oc=5\" target=\"_blank\">The lesson from ASOS? Breaches rarely end with the initial attack</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Cybersecurity Insiders</font>",
+      "published": "Mon, 26 Oct 2026 08:11:28 GMT",
+      "score": 15.0
     },
     {
       "source": "Google News Cybersecurity",
-      "title": "Nextcloud Collabora Flaw CVE-2026-110447 Hits CISA KEV - shattered.io",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQVWRIZ1dYSGlIRXpUUUw3LWlYSU8wTTY2Q2c4dUpJOVV6QmRuZjdLdmZqZ255anFkaTVTTDNnbUN2d2cyWHJ5bTd1ZHo4Q0R3VnROaTFGR0M1SlpMd2s0NTV2RERDVVk0c1pscUVwYmJOT2poZXh3bm9QdzNGVnRQNHh5d0NuMlE?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihwFBVV95cUxQVWRIZ1dYSGlIRXpUUUw3LWlYSU8wTTY2Q2c4dUpJOVV6QmRuZjdLdmZqZ255anFkaTVTTDNnbUN2d2cyWHJ5bTd1ZHo4Q0R3VnROaTFGR0M1SlpMd2s0NTV2RERDVVk0c1pscUVwYmJOT2poZXh3bm9QdzNGVnRQNHh5d0NuMlE?oc=5\" target=\"_blank\">Nextcloud Collabora Flaw CVE-2026-110447 Hits CISA KEV</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">shattered.io</font>",
-      "published": "Sun, 25 Oct 2026 04:00:17 GMT",
+      "title": "Microsoft Teams to Use AI for Detecting Phishing Attacks Using Teams Conversations - CyberSecurityNews",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1FcVV2X2pOOFlKRzNTMFFTYWRGTVhOcU9uSGl1N3BDU0ZRYzRGeHRLVEJYMlV4X0VVelF1WE5kU1JMUEZPazQzd3FWaWE0ZmlyR3ZGU1JhOE9RS1NneGF3NS1DYy1RWWEta0pn0gFwQVVfeXFMTS10YzhVTy1YVkVIWnpSTlc0dkt1V05aWmt2WWpuMTNONzBRejJtM0RibUEtbWc4V25sZDZiT001NzR3MzJnZWVnb0ZIV1FEbW91Tmp4TjUtQ3BMRzRxRjZXV0hIZWFJWFdGM0xVSUNBTg?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMia0FVX3lxTE1FcVV2X2pOOFlKRzNTMFFTYWRGTVhOcU9uSGl1N3BDU0ZRYzRGeHRLVEJYMlV4X0VVelF1WE5kU1JMUEZPazQzd3FWaWE0ZmlyR3ZGU1JhOE9RS1NneGF3NS1DYy1RWWEta0pn0gFwQVVfeXFMTS10YzhVTy1YVkVIWnpSTlc0dkt1V05aWmt2WWpuMTNONzBRejJtM0RibUEtbWc4V25sZDZiT001NzR3MzJnZWVnb0ZIV1FEbW91Tmp4TjUtQ3BMRzRxRjZXV0hIZWFJWFdGM0xVSUNBTg?oc=5\" target=\"_blank\">Microsoft Teams to Use AI for Detecting Phishing Attacks Using Teams Conversations</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CyberSecurityNews</font>",
+      "published": "Mon, 26 Oct 2026 07:48:27 GMT",
       "score": 13.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "Malicious File in Downloads Folder Tries to Trick AI Coding Agent Into Installing Malware",
+      "url": "https://thehackernews.com/2026/10/malicious-file-in-downloads-folder.html",
+      "summary": "A malicious instruction file sitting in a developer's Downloads folder tried to make their AI coding agent install a known-malicious npm package, security firm&nbsp;Forever Security said&nbsp;in a report published last week. The company caught the attempt on a real customer's machine and stopped the agent before any code ran. It could not determine how the file got into the folder. The file",
+      "published": "Mon, 26 Oct 2026 11:33:48 +0530",
+      "score": 12.0
     },
     {
       "source": "The Hacker News",
@@ -143,14 +111,6 @@
       "url": "https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html",
       "summary": "OpenAI has announced plans to conduct frontier model training with no live internet access, as it resumes reinforcement learning (RL) training and internal inference of its most advanced AI models. \"Based on the current state of alignment research, monitoring systems, and the security of internet infrastructure, we believe the responsible approach is to conduct frontier model training with no",
       "published": "Sun, 25 Oct 2026 12:24:29 +0530",
-      "score": 12.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software",
-      "url": "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
-      "summary": "A memory-corruption flaw in Google's Brotli decoder sits in many programs that unpack Brotli-compressed data, among them Bun, the Python&nbsp;Brotli&nbsp;and&nbsp;brotlicffi&nbsp;packages, and Envoy proxies set up to decompress Brotli. Tracked as&nbsp;CVE-2026-111497, the flaw allows crafted compressed data to overwrite past the end of a buffer and corrupt a program's memory, potentially",
-      "published": "Sat, 24 Oct 2026 16:39:29 +0530",
       "score": 12.0
     },
     {
@@ -170,27 +130,11 @@
       "score": 12.0
     },
     {
-      "source": "The Hacker News",
-      "title": "BlackX UEFI Bootkit Bypasses Secure Boot on Patched Windows Systems Missing Revocations",
-      "url": "https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html",
-      "summary": "Diplomatic organizations in Central Asia have been targeted by a sophisticated new Unified Extensible Firmware Interface (UEFI) bootkit called BlackX. The activity, which singled out diplomatic entities in Tajikistan, Uzbekistan, and Turkmenistan in early 2026, is suspected to be orchestrated by a China-linked state-sponsored hacking group known as APT41, Kaspersky said in a technical report",
-      "published": "Sat, 24 Oct 2026 00:20:13 +0530",
-      "score": 12.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "Russia-Linked Hackers Used New Mesh Network Backdoor in Destructive Ukraine Attack",
-      "url": "https://thehackernews.com/2026/10/russian-linked-hackers-used-new-mesh.html",
-      "summary": "The Russian state-sponsored hacking group Sandworm teamed up with another threat actor to carry out a destructive wiping attack targeting a Ukrainian logistics company last year. According to ESET, the attack involved UAC-0099 (aka Earth Sirrush) obtaining initial access to the target on July 16, 2025, via a spear-phishing email bearing a malware-laced attachment that led to the deployment of",
-      "published": "Fri, 23 Oct 2026 16:41:23 +0530",
-      "score": 12.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "Critical Flaw in Python’s Popular Pillow Image Library Allows Code Execution via a Crafted Image",
-      "url": "https://thehackernews.com/2026/10/critical-flaw-in-pythons-popular-pillow.html",
-      "summary": "Pillow, the most widely used image library for Python, can be made to run operating system commands on a server by specifying the name of a file it is told to open. The flaw,&nbsp;CVE-2026-112900, is in the way Pillow handles EPS images, which it opens by passing the file's name to Ghostscript, a separate program it runs to turn the image into pixels, without checking the name first.",
-      "published": "Fri, 23 Oct 2026 15:06:00 +0530",
+      "source": "BleepingComputer",
+      "title": "AI coding agents hijacked using AGENTS.md file in Downloads folder",
+      "url": "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/",
+      "summary": "Researchers found a malicious AGENTS markdown instruction file in a customer's Downloads folder that tricked an AI coding agent into installing a rogue npm package. [...]",
+      "published": "Sun, 25 Oct 2026 11:49:38 -0400",
       "score": 12.0
     },
     {
@@ -202,12 +146,68 @@
       "score": 12.0
     },
     {
-      "source": "BleepingComputer",
-      "title": "Abandoned Popcorn Time app exposed millions of devices to RCE attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/abandoned-popcorn-time-app-exposed-millions-of-device-to-rce-attacks/",
-      "summary": "Researchers remotely disabled a vulnerable updater in the abandoned Time4Popcorn app, a fork of the Popcorn Time BitTorrent client, closing a security flaw that could have allowed attackers to execute malicious code with elevated privileges on millions of computers. [...]",
-      "published": "Fri, 23 Oct 2026 16:55:05 -0400",
-      "score": 12.0
+      "source": "SecurityWeek",
+      "title": "Mythos 5 Ignored Real-World Harm in July Attack",
+      "url": "https://www.securityweek.com/mythos-5-ignored-real-world-harm-in-july-attack/",
+      "summary": "<p>The model engaged in severe overreach and dishonesty, creating fake identities and submitting malicious code on GitHub.</p> <p>The post <a href=\"https://www.securityweek.com/mythos-5-ignored-real-world-harm-in-july-attack/\">Mythos 5 Ignored Real-World Harm in July Attack</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "published": "Mon, 26 Oct 2026 09:10:03 +0000",
+      "score": 11.0
+    },
+    {
+      "source": "SecurityWeek",
+      "title": "Former Unit 8200 Officers Raise $34 Million for Agentic SecOps Startup Mave",
+      "url": "https://www.securityweek.com/former-unit-8200-officers-raise-34-million-for-agentic-secops-startup-mave/",
+      "summary": "<p>Founded in 2025 by Unit 8200 alumni, Tel Aviv-based Mave uses AI agents to investigate alerts across existing security stacks.</p> <p>The post <a href=\"https://www.securityweek.com/former-unit-8200-officers-raise-34-million-for-agentic-secops-startup-mave/\">Former Unit 8200 Officers Raise $34 Million for Agentic SecOps Startup Mave</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "published": "Sun, 25 Oct 2026 11:00:00 +0000",
+      "score": 11.0
+    },
+    {
+      "source": "Google News Cybersecurity",
+      "title": "US Army launches Project Gatekeeper to accelerate commercial software adoption, streamline cybersecurity accreditation - Army.mil",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOVjhSTVZ5MnEwZGNTSXhZLVBMQ1hLYnVvaGRoOFpZT0Y4c3dKQkQ0NHZjaWxJQXBod056NWZCWjdIMUpGTXJzdmJpZ0N2bDJwTGlGRFJJMFF6YkhpLXpfX2hNbUZJUWxzZmt6VWNqcjFzc1RtVVBXWDdsdXdqbkRwN01RQjlLdERtNUhfVElSMHJMb0hQZXBtSHRUenRDdkhnaTVsbk5WcE1ZdTQ1djI2cEg1UklQRnUzeklzTWE0WGpkMVpXZWxBN3YtaWpOaWtBd29XUjJLTG0zWm5TNzd5Si1MWURtV3JK0gHuAUFVX3lxTFB2TUdHWkcyT2tPb3ZhNl9KXzBzZlBlYkQ3V2wxVHVybEkyT1h4ODFlQU9IMHJIRUVZYVRleEM1YTRIZlVlVFpxNThTV3QyMUZHZEtaSGNuMGNwNkxFb3h1T3lFM3VWajNOYXRQd3F2R09nNUhIQ05Kb19tSHhYT1BlU3JPcjBwZEtteFUwbklSdTdkOGVoSUdBTW56empMLW9vWE5kazVQTU5tYXJ4OXFQLWNkMk5maWdjaFZhc3V2RHlBTmduRnhwNU95Ry1Yd3J5R0cteDM3azNyNUttcHp3NnNGQmRHUktHdk1Ia0E?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi6AFBVV95cUxOVjhSTVZ5MnEwZGNTSXhZLVBMQ1hLYnVvaGRoOFpZT0Y4c3dKQkQ0NHZjaWxJQXBod056NWZCWjdIMUpGTXJzdmJpZ0N2bDJwTGlGRFJJMFF6YkhpLXpfX2hNbUZJUWxzZmt6VWNqcjFzc1RtVVBXWDdsdXdqbkRwN01RQjlLdERtNUhfVElSMHJMb0hQZXBtSHRUenRDdkhnaTVsbk5WcE1ZdTQ1djI2cEg1UklQRnUzeklzTWE0WGpkMVpXZWxBN3YtaWpOaWtBd29XUjJLTG0zWm5TNzd5Si1MWURtV3JK0gHuAUFVX3lxTFB2TUdHWkcyT2tPb3ZhNl9KXzBzZlBlYkQ3V2wxVHVybEkyT1h4ODFlQU9IMHJIRUVZYVRleEM1YTRIZlVlVFpxNThTV3QyMUZHZEtaSGNuMGNwNkxFb3h1T3lFM3VWajNOYXRQd3F2R09nNUhIQ05Kb19tSHhYT1BlU3JPcjBwZEtteFUwbklSdTdkOGVoSUdBTW56empMLW9vWE5kazVQTU5tYXJ4OXFQLWNkMk5maWdjaFZhc3V2RHlBTmduRnhwNU95Ry1Yd3J5R0cteDM3azNyNUttcHp3NnNGQmRHUktHdk1Ia0E?oc=5\" target=\"_blank\">US Army launches Project Gatekeeper to accelerate commercial software adoption, streamline cybersecurity accreditation</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Army.mil</font>",
+      "published": "Mon, 26 Oct 2026 04:21:58 GMT",
+      "score": 10.0
+    },
+    {
+      "source": "Google News Cybersecurity",
+      "title": "A tale of two labs at Fayetteville Technical Community College - EdNC",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE93bmtUWlYxNWJEQlFtT0NuemEzNl9sU1RPVW5lUTQxbzJ1amVCM0RnTS1qcWRFeDNyVjU0X0JGTFF5QlVGekJzMkZRRnFCWmJMc2hkeEhCaHpUTkY0QjdxQ0lRVWRkVjlzd3BpTlNEbUY?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTE93bmtUWlYxNWJEQlFtT0NuemEzNl9sU1RPVW5lUTQxbzJ1amVCM0RnTS1qcWRFeDNyVjU0X0JGTFF5QlVGekJzMkZRRnFCWmJMc2hkeEhCaHpUTkY0QjdxQ0lRVWRkVjlzd3BpTlNEbUY?oc=5\" target=\"_blank\">A tale of two labs at Fayetteville Technical Community College</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">EdNC</font>",
+      "published": "Mon, 26 Oct 2026 09:00:00 GMT",
+      "score": 10.0
+    },
+    {
+      "source": "Google News Cybersecurity",
+      "title": "Where Are They Now? Team Atlanta Takes AI Cybersecurity Beyond the Competition | Newswise - Newswise",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNdTFjMEwtTFl3V194ZGdNWFdMT1ZneUwyeFVRQjRTem5YWEhPVFFwNndQb2FyWk1ZSHRRZkxobVRpaktZbzlkRlRDR1Q2SnpDZHBhWXZtUTRNX25rOFYyN2F1QnlUdnJnOWhSOXBOeFBSLWxYNjlHbl9BaWlQcEh2NmxoQ1h6UVUxNjgyZy11cXg4MlBMdl9zZmwzYVU3LUhRRkthSFJ6bHZpSWN5MUhzZNIBsAFBVV95cUxNdTFjMEwtTFl3V194ZGdNWFdMT1ZneUwyeFVRQjRTem5YWEhPVFFwNndQb2FyWk1ZSHRRZkxobVRpaktZbzlkRlRDR1Q2SnpDZHBhWXZtUTRNX25rOFYyN2F1QnlUdnJnOWhSOXBOeFBSLWxYNjlHbl9BaWlQcEh2NmxoQ1h6UVUxNjgyZy11cXg4MlBMdl9zZmwzYVU3LUhRRkthSFJ6bHZpSWN5MUhzZA?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxNdTFjMEwtTFl3V194ZGdNWFdMT1ZneUwyeFVRQjRTem5YWEhPVFFwNndQb2FyWk1ZSHRRZkxobVRpaktZbzlkRlRDR1Q2SnpDZHBhWXZtUTRNX25rOFYyN2F1QnlUdnJnOWhSOXBOeFBSLWxYNjlHbl9BaWlQcEh2NmxoQ1h6UVUxNjgyZy11cXg4MlBMdl9zZmwzYVU3LUhRRkthSFJ6bHZpSWN5MUhzZNIBsAFBVV95cUxNdTFjMEwtTFl3V194ZGdNWFdMT1ZneUwyeFVRQjRTem5YWEhPVFFwNndQb2FyWk1ZSHRRZkxobVRpaktZbzlkRlRDR1Q2SnpDZHBhWXZtUTRNX25rOFYyN2F1QnlUdnJnOWhSOXBOeFBSLWxYNjlHbl9BaWlQcEh2NmxoQ1h6UVUxNjgyZy11cXg4MlBMdl9zZmwzYVU3LUhRRkthSFJ6bHZpSWN5MUhzZA?oc=5\" target=\"_blank\">Where Are They Now? Team Atlanta Takes AI Cybersecurity Beyond the Competition | Newswise</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Newswise</font>",
+      "published": "Mon, 26 Oct 2026 06:35:00 GMT",
+      "score": 10.0
+    },
+    {
+      "source": "Google News Cybersecurity",
+      "title": "Japan’s Takaichi to Hold Cybersecurity Meeting as Attacks Grow - Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOeEE5RXNHY1FuRm85cHFsOU9veER1OENJVzZTLWJXWFk5ckJZTEhmMUFnZ2IxU0YxajR0MGpIbWF6UGNaQU1WWUltNVNQV0pVUl92RWV1eTBoUXQyd29kY2RiX0puUzhIYWVTckZzTE5jM2hUSDhKYV80MlRWX3JzcmVnNlhheGFVRXZpWUVhYmJ0ZmdFTE9XTjJuVWRZTXdzUnVNU1VmYkZEc2YtQTVPM0w4QQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxOeEE5RXNHY1FuRm85cHFsOU9veER1OENJVzZTLWJXWFk5ckJZTEhmMUFnZ2IxU0YxajR0MGpIbWF6UGNaQU1WWUltNVNQV0pVUl92RWV1eTBoUXQyd29kY2RiX0puUzhIYWVTckZzTE5jM2hUSDhKYV80MlRWX3JzcmVnNlhheGFVRXZpWUVhYmJ0ZmdFTE9XTjJuVWRZTXdzUnVNU1VmYkZEc2YtQTVPM0w4QQ?oc=5\" target=\"_blank\">Japan’s Takaichi to Hold Cybersecurity Meeting as Attacks Grow</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+      "published": "Mon, 26 Oct 2026 04:03:00 GMT",
+      "score": 10.0
+    },
+    {
+      "source": "Google News Cybersecurity",
+      "title": "It took just 12 hours for an AI start-up founded by ex-DOGE staffers to break into Anthropic - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNWGRfa29NR1l4a19INEZWSXZWakhia2ZKTnRpQTVYeFNTUXRhdURvSTltbV9RRVJkbzVndVhsMUg0Y3N1MkZVNm11QVB5ZWtFVlhGY2NSSkp1MU84Qm0taWMtcURQcm9EbjZFTjV4Sk9NMTFwLV9Xc1BqM3RqWFhlLWpQZl8tOHJwdktBT2kxTUV6d2ZnWXg1cWwyVWtNSVl2UVA2LU1mWkNlcFZKd1BhNlpRbXZMeGZ0SEdR?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxNWGRfa29NR1l4a19INEZWSXZWakhia2ZKTnRpQTVYeFNTUXRhdURvSTltbV9RRVJkbzVndVhsMUg0Y3N1MkZVNm11QVB5ZWtFVlhGY2NSSkp1MU84Qm0taWMtcURQcm9EbjZFTjV4Sk9NMTFwLV9Xc1BqM3RqWFhlLWpQZl8tOHJwdktBT2kxTUV6d2ZnWXg1cWwyVWtNSVl2UVA2LU1mWkNlcFZKd1BhNlpRbXZMeGZ0SEdR?oc=5\" target=\"_blank\">It took just 12 hours for an AI start-up founded by ex-DOGE staffers to break into Anthropic</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Washington Post</font>",
+      "published": "Mon, 26 Oct 2026 09:08:08 GMT",
+      "score": 10.0
+    },
+    {
+      "source": "Google News Cybersecurity",
+      "title": "Cybersecurity awareness month: how to keep information secure - Iowa State Daily",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNYkVUOFhEMl9waE45REZzMjdwVjZpWWZlcC1oRGdDdTJFT0ZVTkVnVjBvZG9HVm1xWHFRa1ZWM0RkMUNtUjlDTHVDVUtPUXBrcXVjZUlDNzM1QlJFNUhUVGREWEVGUVBmb2Z3T0NieUJNTEh6MlE1X29iUklteHFBVmIzczAtNUE0Vy1oN19XejJWLVRvYzQ5M08wVEl0TEp0WVE?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxNYkVUOFhEMl9waE45REZzMjdwVjZpWWZlcC1oRGdDdTJFT0ZVTkVnVjBvZG9HVm1xWHFRa1ZWM0RkMUNtUjlDTHVDVUtPUXBrcXVjZUlDNzM1QlJFNUhUVGREWEVGUVBmb2Z3T0NieUJNTEh6MlE1X29iUklteHFBVmIzczAtNUE0Vy1oN19XejJWLVRvYzQ5M08wVEl0TEp0WVE?oc=5\" target=\"_blank\">Cybersecurity awareness month: how to keep information secure</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Iowa State Daily</font>",
+      "published": "Mon, 26 Oct 2026 02:35:46 GMT",
+      "score": 10.0
     }
   ]
 }
