@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-28T10:40:16.642653+00:00",
+  "generated_at_utc": "2026-10-29T10:57:38.927622+00:00",
   "publication_enabled": false,
   "editorial_note": "Candidates require human/editorial review and original technical work before publication.",
   "feed_errors": [
@@ -11,19 +11,11 @@
   "candidates": [
     {
       "source": "SecurityWeek",
-      "title": "HPE Patches Dozens of Critical Flaws in Networking Products",
-      "url": "https://www.securityweek.com/hpe-patches-dozens-of-critical-flaws-in-networking-products/",
-      "summary": "<p>Eight max-severity security defects could lead to remote code execution and authentication bypass.</p> <p>The post <a href=\"https://www.securityweek.com/hpe-patches-dozens-of-critical-flaws-in-networking-products/\">HPE Patches Dozens of Critical Flaws in Networking Products</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "published": "Tue, 27 Oct 2026 13:13:58 +0000",
-      "score": 32.0
-    },
-    {
-      "source": "BleepingComputer",
-      "title": "CISA confirms PHP2Shell vulnerabilities now exploited in attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-confirms-php2shell-vulnerabilities-now-exploited-in-attacks/",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added the PHP2Shell vulnerabilities to its catalog of actively exploited security flaws and ordered federal agencies to patch their systems by Thursday. [...]",
-      "published": "Tue, 27 Oct 2026 04:20:54 -0400",
-      "score": 29.0
+      "title": "Attackers Exploit Second Cisco Firewall VPN Zero-Day Since August",
+      "url": "https://www.securityweek.com/attackers-exploit-second-cisco-firewall-vpn-zero-day-since-august/",
+      "summary": "<p>An exploited flaw in the Remote Access SSL VPN service lets unauthenticated attackers remotely force ASA and FTD firewalls to reload.</p> <p>The post <a href=\"https://www.securityweek.com/attackers-exploit-second-cisco-firewall-vpn-zero-day-since-august/\">Attackers Exploit Second Cisco Firewall VPN Zero-Day Since August</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "published": "Thu, 29 Oct 2026 09:47:10 +0000",
+      "score": 31.0
     },
     {
       "source": "The Hacker News",
@@ -34,44 +26,36 @@
       "score": 27.0
     },
     {
-      "source": "BleepingComputer",
-      "title": "Tailscale warns of SSH flaws allowing root privilege escalation",
-      "url": "https://www.bleepingcomputer.com/news/security/tailscale-warns-of-serious-ssh-flaws-allowing-root-privilege-escalation/",
-      "summary": "The Tailscale security team is working to patch almost a dozen security vulnerabilities that could be exploited to steal credentials, crash servers, gain root privileges, and more. [...]",
-      "published": "Tue, 27 Oct 2026 10:09:46 -0400",
+      "source": "SecurityWeek",
+      "title": "Cisco SD-WAN Zero-Day Exploitation Tied to Volt Typhoon’s ‘Silent Train’ Network",
+      "url": "https://www.securityweek.com/cisco-sd-wan-zero-day-exploitation-tied-to-volt-typhoons-silent-train-network/",
+      "summary": "<p>Cisco Talos linked SD-WAN key-stealing malware to infrastructure overlapping Volt Typhoon’s Silent Train network, which Lumen detailed.</p> <p>The post <a href=\"https://www.securityweek.com/cisco-sd-wan-zero-day-exploitation-tied-to-volt-typhoons-silent-train-network/\">Cisco SD-WAN Zero-Day Exploitation Tied to Volt Typhoon&#8217;s &#8216;Silent Train&#8217; Network</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "published": "Thu, 29 Oct 2026 10:29:25 +0000",
       "score": 26.0
     },
     {
       "source": "The Hacker News",
-      "title": "CISA Confirms Active Exploitation of Two PHP2Shell Flaws Enabling Remote Code Execution",
-      "url": "https://thehackernews.com/2026/10/cisa-confirms-active-exploitation-of.html",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday confirmed active exploitation of the recently patched PHP2Shell flaws by adding them to its Known Exploited Vulnerabilities (KEV) catalog. The PHP vulnerabilities, both rated 9.2 on the CVSS scoring system, facilitate unauthenticated remote code execution on affected deployments - CVE-2026-109618 - An out-of-memory",
-      "published": "Tue, 27 Oct 2026 10:07:59 +0530",
+      "title": "China-Linked Hackers Exploited VMware ESX Zero-Day to Reduce Audit Trail Visibility",
+      "url": "https://thehackernews.com/2026/10/china-linked-hackers-exploited-vmware.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a security flaw impacting Broadcom VMware ESX to its Known Exploited Vulnerabilities (KEV) catalog, after CrowdStrike revealed that it had been weaponized by a China-nexus threat actor known as Warp Panda in attacks targeting the U.S. legal sector. The vulnerability in question is CVE-2026-41709 (CVSS score:",
+      "published": "Thu, 29 Oct 2026 11:52:33 +0530",
       "score": 24.0
     },
     {
       "source": "The Hacker News",
-      "title": "⚡ Weekly Recap: This2Shell, That2Shell, Everything's an RCE? Rogue AI, Supply Chain Chaos and More",
-      "url": "https://thehackernews.com/2026/10/weekly-recap-this2shell-that2shell.html",
-      "summary": "This2Shell, That2Shell, Everything2Shell. That's pretty much how the last week went. Critical bugs that let attackers run code remotely are showing up everywhere. Hackers are scanning for targets, some flaws are already being used in attacks, and security teams have more urgent patches than they can keep up with. And that's not even the full story. A leaked key led to a software supply-chain",
-      "published": "Mon, 26 Oct 2026 19:36:13 +0530",
+      "title": "Volt Typhoon Used Covert Silent Train Network in Four Zero-Day Exploitation Campaigns",
+      "url": "https://thehackernews.com/2026/10/volt-typhoon-used-covert-silent-train.html",
+      "summary": "The China-nexus cyber espionage group known as Volt Typhoon has been attributed to a now-disrupted covert access network dubbed Silent Train that has been put to use for zero-day exploitation and strategic access. \"First identified in late 2023, Silent Train uses rotating chains of compromised SOHO, IoT, and enterprise infrastructure,\" Lumen Technologies Black Lotus Labs said in a report shared",
+      "published": "Wed, 28 Oct 2026 23:38:33 +0530",
       "score": 24.0
     },
     {
       "source": "BleepingComputer",
-      "title": "Apple backports CoreGraphics zero-day patches to older iPhones",
-      "url": "https://www.bleepingcomputer.com/news/apple/apple-backports-coregraphics-zero-day-patches-to-older-iphones/",
-      "summary": "​Apple has backported security patches released last month to older iPhones and iPads, addressing a zero-day bug exploited in \"extremely sophisticated\" targeted attacks on iOS devices. [...]",
-      "published": "Tue, 27 Oct 2026 06:36:12 -0400",
+      "title": "Volt Typhoon hides zero-day attacks using 'Silent Train' framework",
+      "url": "https://www.bleepingcomputer.com/news/security/volt-typhoon-hides-zero-day-attacks-using-silent-train-framework/",
+      "summary": "Chinese state-sponsored hacking group Volt Typhoon has been using a framework that relies on rotating chains of connected devices compromised on demand, including for zero-day attacks targeting high-value systems. [...]",
+      "published": "Wed, 28 Oct 2026 12:00:00 -0400",
       "score": 24.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "Attackers Use Microsoft Teams IT Support Scams to Deploy Malware and Ransomware",
-      "url": "https://thehackernews.com/2026/10/attackers-use-microsoft-teams-it.html",
-      "summary": "Cybersecurity researchers are calling attention to what they say is a \"recurring social engineering pattern\" across hundreds of cases in which threat actors use Microsoft Teams' external chat creation feature to conduct impersonation scams or to deliver malware. \"A consistent pattern of attacker behavior has emerged across these incidents: the use of the same throwaway tenants, the same 'IT",
-      "published": "Mon, 26 Oct 2026 21:22:40 +0530",
-      "score": 23.0
     },
     {
       "source": "BleepingComputer",
@@ -83,11 +67,35 @@
     },
     {
       "source": "SecurityWeek",
-      "title": "iOS, macOS 27.2 Patch 286 Bugs; Fix for Exploited Flaw Backported to iOS 18",
-      "url": "https://www.securityweek.com/ios-macos-27-2-patch-286-bugs-fix-for-exploited-flaw-backported-to-ios-18/",
-      "summary": "<p>Apple patched 286 vulnerabilities in iOS and macOS 27.2 and brought the fix for an exploited CoreGraphics zero-day to older iPhones.</p> <p>The post <a href=\"https://www.securityweek.com/ios-macos-27-2-patch-286-bugs-fix-for-exploited-flaw-backported-to-ios-18/\">iOS, macOS 27.2 Patch 286 Bugs; Fix for Exploited Flaw Backported to iOS 18</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "published": "Tue, 27 Oct 2026 11:49:57 +0000",
+      "title": "Chinese Hackers Quietly Used Low-Severity ESXi Logging Flaw as Zero-Day",
+      "url": "https://www.securityweek.com/chinese-hackers-quietly-used-low-severity-esxi-logging-flaw-as-zero-day/",
+      "summary": "<p>CVE-2026-41709 allows attackers with administrative privileges to perform operations without being logged.</p> <p>The post <a href=\"https://www.securityweek.com/chinese-hackers-quietly-used-low-severity-esxi-logging-flaw-as-zero-day/\">Chinese Hackers Quietly Used Low-Severity ESXi Logging Flaw as Zero-Day</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "published": "Thu, 29 Oct 2026 08:01:05 +0000",
       "score": 23.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "Adobe Fixes 8 Critical Campaign Classic Flaws Allowing Code Execution and Security Bypass",
+      "url": "https://thehackernews.com/2026/10/adobe-fixes-8-critical-campaign-classic.html",
+      "summary": "Adobe has released patches to address multiple critical security flaws in Campaign Classic that, if successfully exploited, could result in arbitrary code execution, security feature bypass, and privilege escalation. The list of eight vulnerabilities is as follows - CVE-2026-104351 (CVSS score: 9.9) - A code injection vulnerability that could lead to arbitrary code execution.",
+      "published": "Wed, 28 Oct 2026 16:45:51 +0530",
+      "score": 22.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "Hackers Target Critical Oracle E-Business Suite RCE Flaw Days After Security Patch",
+      "url": "https://thehackernews.com/2026/10/hackers-target-critical-oracle-e.html",
+      "summary": "Threat actors are beginning to probe for a newly patched critical vulnerability in Oracle E-Business Suite (EBS), according to threat intelligence firm Defused Cyber. The vulnerability in question is CVE-2026-101767 (CVSS score: 9.8) , a case of improper authentication in the Oracle Application Object Library of Oracle E-Business Suite. It was patched by Oracle last week as part of its Critical",
+      "published": "Wed, 28 Oct 2026 18:18:03 +0530",
+      "score": 21.0
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "InfraTrust report warns of exploited flaws in critical network infrastructure",
+      "url": "https://www.bleepingcomputer.com/news/security/infratrust-report-warns-of-exploited-flaws-in-critical-network-infrastructure/",
+      "summary": "Attackers are actively exploiting vulnerabilities across critical network infrastructure, and PHP flaws known as \"PHP2Shell\" put the web management interfaces of firewalls, VPNs, application delivery controllers, and other appliances at risk. [...]",
+      "published": "Wed, 28 Oct 2026 10:00:00 -0400",
+      "score": 20.0
     },
     {
       "source": "BleepingComputer",
@@ -106,20 +114,68 @@
       "score": 20.0
     },
     {
+      "source": "The Hacker News",
+      "title": "PHP2Shell Attack Roots 25 Servers, Breaches U.S. Government-Affiliated Network",
+      "url": "https://thehackernews.com/2026/10/php2shell-attack-roots-25-servers.html",
+      "summary": "Cybersecurity researchers have disclosed details of what appears to be an artificial intelligence (AI)-assisted attack orchestrated by a suspected China-nexus threat actor that has leveraged the PHP2Shell vulnerabilities to breach exposed systems. The activity, which was observed on October 25, 2026, involved an attacker combining PHP2Shell with a kernel privilege escalation exploit to root",
+      "published": "Wed, 28 Oct 2026 21:32:45 +0530",
+      "score": 19.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "American Organizations Under Attack: Skyw4lker Device Code Phishing Campaign Exposed",
+      "url": "https://thehackernews.com/2026/10/american-organizations-under-attack.html",
+      "summary": "Modern phishing campaigns can compromise American businesses without relying on traditional credential theft. Attackers can abuse legitimate cloud services, authentication mechanisms, and trusted business workflows to gain access to corporate accounts while leaving fewer obvious signs behind. ANY.RUN's analysis of Skyw4lker, a device code phishing campaign primarily targeting U.S. organizations",
+      "published": "Wed, 28 Oct 2026 16:00:00 +0530",
+      "score": 19.0
+    },
+    {
       "source": "SecurityWeek",
-      "title": "Hackers Start Probing Fresh Oracle EBS Vulnerability",
-      "url": "https://www.securityweek.com/hackers-start-probing-fresh-oracle-ebs-vulnerability/",
-      "summary": "<p>CVE-2026-101767 is an unauthenticated SQL injection that can be exploited for remote code execution.</p> <p>The post <a href=\"https://www.securityweek.com/hackers-start-probing-fresh-oracle-ebs-vulnerability/\">Hackers Start Probing Fresh Oracle EBS Vulnerability</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "published": "Wed, 28 Oct 2026 09:14:23 +0000",
-      "score": 20.0
+      "title": "Ukrainian Hive and Nefilim Ransomware Affiliate Gets 70 Months in US Prison",
+      "url": "https://www.securityweek.com/ukrainian-hive-and-nefilim-ransomware-affiliate-gets-70-months-in-us-prison/",
+      "summary": "<p>Artem Stryzhak was sentenced to 70 months in prison after pleading guilty to using Nefilim ransomware in attacks.</p> <p>The post <a href=\"https://www.securityweek.com/ukrainian-hive-and-nefilim-ransomware-affiliate-gets-70-months-in-us-prison/\">Ukrainian Hive and Nefilim Ransomware Affiliate Gets 70 Months in US Prison</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "published": "Wed, 28 Oct 2026 15:05:06 +0000",
+      "score": 19.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "Researcher Reveals How Logic Bugs Alone Cracked Microsoft Edge in $175,000 Pwn2Own Win",
+      "url": "https://thehackernews.com/2026/10/researcher-reveals-how-logic-bugs-alone.html",
+      "summary": "A chain of logic flaws, with no memory corruption, can turn a malicious web page into code running on a Windows computer outside Microsoft Edge's sandbox, a security researcher has shown. Orange Tsai of DEVCORE published the full method on October 28, five months after the chain won $175,000 at the&nbsp;Pwn2Own Berlin contest&nbsp;in May. Microsoft fixed the Edge bugs the day after the contest,",
+      "published": "Wed, 28 Oct 2026 21:53:34 +0530",
+      "score": 18.0
     },
     {
       "source": "Google News Cybersecurity",
-      "title": "Marine Corps Targets Critical Infrastructure Cyber Threats - GovCIO Media & Research",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOYTFBU3h6Tm5HNkdBbVh1T2kta0NwTmhEaGVjRTd6WGVMRUZ4alVFandDMC1nbzhZTlFnVHJ6NGxHeDV6TXNXTHp5RGRBUUVKY3FDS3NrUU9uVGNpSnhLamxFMTNIT29sMnRVa3RlUnlQUGlPWHhnQVllRWFFajhoZFE5eU1lYUk4MlZj?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxOYTFBU3h6Tm5HNkdBbVh1T2kta0NwTmhEaGVjRTd6WGVMRUZ4alVFandDMC1nbzhZTlFnVHJ6NGxHeDV6TXNXTHp5RGRBUUVKY3FDS3NrUU9uVGNpSnhLamxFMTNIT29sMnRVa3RlUnlQUGlPWHhnQVllRWFFajhoZFE5eU1lYUk4MlZj?oc=5\" target=\"_blank\">Marine Corps Targets Critical Infrastructure Cyber Threats</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">GovCIO Media & Research</font>",
-      "published": "Wed, 28 Oct 2026 05:37:03 GMT",
+      "title": "From Connectivity to Critical Infrastructure: Why Cybersecurity Is Now a Telecom Imperative - International Finance Corporation (IFC)",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPT2FiNmFrWGhWQldKamtJNHJUM1dNeHJqZ20tWkRqQTNkMlNXZmItRnEyOHB5cV81ZDk4RW9ZMm5DUlhYa0dpRGs0YlRzT2FrSTFvTXRhQklEYU9jcjZfNHBNTjVINm9XZHh0SDZLY2JlcngtNzdWX1ctaXVtQThOOHJicTVBTUl0OGFuVjRsU2NleVlE?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxPT2FiNmFrWGhWQldKamtJNHJUM1dNeHJqZ20tWkRqQTNkMlNXZmItRnEyOHB5cV81ZDk4RW9ZMm5DUlhYa0dpRGs0YlRzT2FrSTFvTXRhQklEYU9jcjZfNHBNTjVINm9XZHh0SDZLY2JlcngtNzdWX1ctaXVtQThOOHJicTVBTUl0OGFuVjRsU2NleVlE?oc=5\" target=\"_blank\">From Connectivity to Critical Infrastructure: Why Cybersecurity Is Now a Telecom Imperative</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">International Finance Corporation (IFC)</font>",
+      "published": "Thu, 29 Oct 2026 01:25:46 GMT",
       "score": 18.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "Google to Allow One-Tap Android App Installs From Approved Third-Party Stores Outside U.S.",
+      "url": "https://thehackernews.com/2026/10/google-to-allow-one-tap-android-app.html",
+      "summary": "Third-party Android app stores can now apply to Google for permission to install apps with one tap, without Android's usual confirmation screens, and to update them in the background. To qualify, a store must pass identity checks and send Google&nbsp;its full catalog, along with every new app and update, for ongoing malware scanning. Approved stores get the features from December 1, but only on",
+      "published": "Wed, 28 Oct 2026 22:38:09 +0530",
+      "score": 16.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "Hackers Exploited Cisco SD-WAN Flaw to Plant Malware Built to Steal Encryption Keys",
+      "url": "https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html",
+      "summary": "Hackers exploited a critical Cisco Catalyst SD-WAN flaw, fixed in February, to plant custom malware inside the systems that control an organization's SD-WAN network. The malware, called KeyDrift, is designed to copy the keys that encrypt traffic between sites and store them for later use,&nbsp;Cisco Talos said&nbsp;on October 28. Talos calls the attacks historical but does not specify when they",
+      "published": "Thu, 29 Oct 2026 13:54:22 +0530",
+      "score": 15.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "Attackers Exploit PHP2Shell Flaws in Internet-Exposed Palo Alto Networks Management Interfaces",
+      "url": "https://thehackernews.com/2026/10/attackers-exploit-php2shell-flaws-in.html",
+      "summary": "Palo Alto Networks on Wednesday warned that threat actors are exploiting the recently patched PHP2Shell vulnerabilities against publicly-accessible management interfaces. \"Active exploitation has been observed targeting the Palo Alto Networks management interface exposed to the internet,\" the network security company said in an update to its advisory. The vulnerabilities, tracked as",
+      "published": "Thu, 29 Oct 2026 11:20:17 +0530",
+      "score": 15.0
     },
     {
       "source": "The Hacker News",
@@ -152,62 +208,6 @@
       "summary": "The GoAhead embedded web server loaded a certificate revocation list into its default TLS backend but never turned revocation checking on, so a revoked client certificate could still pass login on affected setups. The flaw is in builds that use the OpenSSL backend with mutual-TLS, where the server checks a client certificate and vice versa, and a revocation list is configured to block revoked",
       "published": "Tue, 27 Oct 2026 19:29:48 +0530",
       "score": 15.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "Microsoft Authenticator Flaw Let Permissionless Android Apps Steal Work Account Tokens",
-      "url": "https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html",
-      "summary": "Microsoft has fixed a flaw in its Authenticator app for Android that let a malicious app with no permissions pose as a trusted Microsoft app, such as Teams, and collect sign-in tokens for a victim's work account. Microsoft tracks the flaw as&nbsp;CVE-2026-80097&nbsp;and fixed it in Authenticator for Android version 6.2606.4246, so anyone using the app should update. In the researchers' tests,",
-      "published": "Tue, 27 Oct 2026 17:39:50 +0530",
-      "score": 15.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "Two Critical Wasmtime Flaws Could Let Malicious WebAssembly Modules Escape Sandboxes",
-      "url": "https://thehackernews.com/2026/10/two-critical-wasmtime-flaws-could-let.html",
-      "summary": "Two critical flaws in&nbsp;Wasmtime, a WebAssembly runtime that can be built into other software, could allow a malicious WebAssembly module to escape the sandbox intended to contain it, the project's maintainers say. An attacker would first need a vulnerable Wasmtime build to compile a module they control, and one of the flaws affects only ARM64 systems. Fixed versions were released on",
-      "published": "Mon, 26 Oct 2026 17:22:41 +0530",
-      "score": 15.0
-    },
-    {
-      "source": "BleepingComputer",
-      "title": "Microsoft releases Windows OOB updates to distrust eMudhra certificates",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-oob-updates-to-distrust-emudhra-certificates/",
-      "summary": "Microsoft has released out-of-band (OOB) Windows updates to remove trust in certificates tied to compromised eMudhra certificate authority keys, protecting systems that do not receive automatic certificate trust updates. [...]",
-      "published": "Tue, 27 Oct 2026 14:20:28 -0400",
-      "score": 15.0
-    },
-    {
-      "source": "BleepingComputer",
-      "title": "The Huntress Tragic Quadrant: Ranking Threats Hitting Businesses Hardest",
-      "url": "https://www.bleepingcomputer.com/news/security/the-huntress-tragic-quadrant-ranking-threats-hitting-businesses-hardest/",
-      "summary": "Attackers are increasingly abusing legitimate IT tools, Microsoft 365 sessions, and everyday workflows to compromise businesses without triggering traditional defenses. Huntress Labs ranks the threats hitting organizations hardest, highlighting which attack techniques deserve immediate attention and which remain emerging risks. [...]",
-      "published": "Tue, 27 Oct 2026 10:01:11 -0400",
-      "score": 15.0
-    },
-    {
-      "source": "SecurityWeek",
-      "title": "Tailscale Rushes Patches After Uncoordinated Disclosure of ‘Tailworm’ Flaws",
-      "url": "https://www.securityweek.com/tailscale-rushes-patches-after-uncoordinated-disclosure-of-tailworm-flaws/",
-      "summary": "<p>Tailscale is preparing a patch for Tailscale SSH flaws whose details went public over the weekend, before any fixes had been released.</p> <p>The post <a href=\"https://www.securityweek.com/tailscale-rushes-patches-after-uncoordinated-disclosure-of-tailworm-flaws/\">Tailscale Rushes Patches After Uncoordinated Disclosure of &#8216;Tailworm&#8217; Flaws</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "published": "Tue, 27 Oct 2026 15:26:12 +0000",
-      "score": 14.0
-    },
-    {
-      "source": "Google News Cybersecurity",
-      "title": "In an interconnected digital economy, securing your own infrastructure is no longer enough. AI is making systems more capable and responsive. But it's also making the ecosystem more interconnected, expanding dependencies across networks, cloud platfor - LinkedIn",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNR1l2V3Z0NmYzOENJd09ENXY0ZXZpS3hZLWs4T3YzS1lrcTVNVGdBcHppdjdEaUZRQmNYRzZWaTF4QlRWd2N2dmNPbUduN2pvTHRVczF2TGJyQkFwZjl3cVVVUzVZVng3X3JLREdrZzF3Y2tWV0haZHFKcndXRm9lVUFHekxTZmpib2dHRmU2eDZSeS1NYzI2aERRQldQNWkyUGFlMlUyaUM1V0p6d3kwbkU0OHlsMTNsdWcwUGpPV3ZtajRUZmhNRDdQaFlvdw?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMizgFBVV95cUxNR1l2V3Z0NmYzOENJd09ENXY0ZXZpS3hZLWs4T3YzS1lrcTVNVGdBcHppdjdEaUZRQmNYRzZWaTF4QlRWd2N2dmNPbUduN2pvTHRVczF2TGJyQkFwZjl3cVVVUzVZVng3X3JLREdrZzF3Y2tWV0haZHFKcndXRm9lVUFHekxTZmpib2dHRmU2eDZSeS1NYzI2aERRQldQNWkyUGFlMlUyaUM1V0p6d3kwbkU0OHlsMTNsdWcwUGpPV3ZtajRUZmhNRDdQaFlvdw?oc=5\" target=\"_blank\">In an interconnected digital economy, securing your own infrastructure is no longer enough. AI is making systems more capable and responsive. But it's also making the ecosystem more interconnected, expanding dependencies across networks, cloud platfor</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">LinkedIn</font>",
-      "published": "Wed, 28 Oct 2026 08:16:39 GMT",
-      "score": 13.0
-    },
-    {
-      "source": "Google News Cybersecurity",
-      "title": "Part 3 – Cybersecurity journeys: The work behind the work - Amazon Web Services (AWS)",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNSkx0V2RnZnpKRGJpWmtMSlNidnk0dXM0RURoNnluUkhBT095TjV5VldDUGFBWVQwRU92dHppWHJjaXZLRlFtT0dRUERhbXhBenEyQWdVMUJfSFduYVdFMm13ZDEtTHFVMnRTcEN1NXZ5bWtvM3ZQaGhMYUVCeWZzN1VFR2pPUXBEcFdYaTFrZHZWNDVZWUROeA?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxNSkx0V2RnZnpKRGJpWmtMSlNidnk0dXM0RURoNnluUkhBT095TjV5VldDUGFBWVQwRU92dHppWHJjaXZLRlFtT0dRUERhbXhBenEyQWdVMUJfSFduYVdFMm13ZDEtTHFVMnRTcEN1NXZ5bWtvM3ZQaGhMYUVCeWZzN1VFR2pPUXBEcFdYaTFrZHZWNDVZWUROeA?oc=5\" target=\"_blank\">Part 3 – Cybersecurity journeys: The work behind the work</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Amazon Web Services (AWS)</font>",
-      "published": "Tue, 27 Oct 2026 17:00:07 GMT",
-      "score": 13.0
     }
   ]
 }
