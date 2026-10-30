@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-29T10:57:38.927622+00:00",
+  "generated_at_utc": "2026-10-30T10:55:34.248257+00:00",
   "publication_enabled": false,
   "editorial_note": "Candidates require human/editorial review and original technical work before publication.",
   "feed_errors": [
@@ -10,28 +10,28 @@
   ],
   "candidates": [
     {
-      "source": "SecurityWeek",
-      "title": "Attackers Exploit Second Cisco Firewall VPN Zero-Day Since August",
-      "url": "https://www.securityweek.com/attackers-exploit-second-cisco-firewall-vpn-zero-day-since-august/",
-      "summary": "<p>An exploited flaw in the Remote Access SSL VPN service lets unauthenticated attackers remotely force ASA and FTD firewalls to reload.</p> <p>The post <a href=\"https://www.securityweek.com/attackers-exploit-second-cisco-firewall-vpn-zero-day-since-august/\">Attackers Exploit Second Cisco Firewall VPN Zero-Day Since August</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "published": "Thu, 29 Oct 2026 09:47:10 +0000",
-      "score": 31.0
+      "source": "The Hacker News",
+      "title": "Cisco Patches Actively Exploited ASA and FTD VPN Flaw That Can Crash Firewalls",
+      "url": "https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html",
+      "summary": "Cisco has released patches to address a high-severity security flaw in Secure Firewall Adaptive Security Appliance (ASA) Software and Secure Firewall Threat Defense (FTD) Software that it said has been exploited in the wild. The vulnerability, tracked as CVE-2026-76418, is rated 8.6 on the CVSS scoring system. Successful exploitation could allow an unauthenticated, remote attacker to cause the",
+      "published": "Thu, 29 Oct 2026 16:14:46 +0530",
+      "score": 48.0
     },
     {
       "source": "The Hacker News",
-      "title": "ShinyHunters-Exploited Oracle PeopleSoft Zero-Day Turns Out to Be Three Chained Flaws",
-      "url": "https://thehackernews.com/2026/10/shinyhunters-exploited-oracle.html",
-      "summary": "The critical Oracle PeopleSoft bug that ShinyHunters has exploited since May is not one flaw but three chained together, the researchers who reported it said this week. Oracle patched all three under a single identifier,&nbsp;CVE-2026-35273, in June. Its root is a server-side request forgery (SSRF) that reaches an internal management interface because PeopleSoft trusts its own loopback address",
-      "published": "Wed, 28 Oct 2026 11:34:58 +0530",
-      "score": 27.0
+      "title": "CISA Adds Actively Exploited GitLab RCE and Cisco Firewall DoS Flaws to KEV",
+      "url": "https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added two security flaws impacting Cisco and GitLab software to its Known Exploited Vulnerabilities (KEV), citing evidence of active exploitation. The vulnerabilities are listed below - CVE-2026-97229 (CVSS score: 10.0) - An integer overflow or wraparound vulnerability in GitLab Community Edition and Enterprise",
+      "published": "Fri, 30 Oct 2026 12:57:05 +0530",
+      "score": 32.0
     },
     {
-      "source": "SecurityWeek",
-      "title": "Cisco SD-WAN Zero-Day Exploitation Tied to Volt Typhoon’s ‘Silent Train’ Network",
-      "url": "https://www.securityweek.com/cisco-sd-wan-zero-day-exploitation-tied-to-volt-typhoons-silent-train-network/",
-      "summary": "<p>Cisco Talos linked SD-WAN key-stealing malware to infrastructure overlapping Volt Typhoon’s Silent Train network, which Lumen detailed.</p> <p>The post <a href=\"https://www.securityweek.com/cisco-sd-wan-zero-day-exploitation-tied-to-volt-typhoons-silent-train-network/\">Cisco SD-WAN Zero-Day Exploitation Tied to Volt Typhoon&#8217;s &#8216;Silent Train&#8217; Network</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "published": "Thu, 29 Oct 2026 10:29:25 +0000",
-      "score": 26.0
+      "source": "BleepingComputer",
+      "title": "New Cisco firewall zero-day exploited to crash SSL VPN devices",
+      "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-firewall-zero-day-exploited-to-crash-ssl-vpn-devices/",
+      "summary": "Cisco released security updates to patch a denial-of-service zero-day in Adaptive Security Appliance (ASA) and Threat Defense (FTD) software that attackers are exploiting to remotely crash vulnerable firewall devices. [...]",
+      "published": "Thu, 29 Oct 2026 07:10:13 -0400",
+      "score": 32.0
     },
     {
       "source": "The Hacker News",
@@ -50,35 +50,19 @@
       "score": 24.0
     },
     {
-      "source": "BleepingComputer",
-      "title": "Volt Typhoon hides zero-day attacks using 'Silent Train' framework",
-      "url": "https://www.bleepingcomputer.com/news/security/volt-typhoon-hides-zero-day-attacks-using-silent-train-framework/",
-      "summary": "Chinese state-sponsored hacking group Volt Typhoon has been using a framework that relies on rotating chains of connected devices compromised on demand, including for zero-day attacks targeting high-value systems. [...]",
-      "published": "Wed, 28 Oct 2026 12:00:00 -0400",
-      "score": 24.0
-    },
-    {
-      "source": "BleepingComputer",
-      "title": "Japan's GMO urges customers to shut down PCs amid ransomware threat",
-      "url": "https://www.bleepingcomputer.com/news/security/japans-gmo-urges-customers-to-shut-down-pcs-amid-ransomware-threat/",
-      "summary": "The GMO Group has urged customers to disconnect their systems from the internet and shut down computers after a threat actor who breached the company's Onamae Desktop Cloud threatened to launch a ransomware attack today. [...]",
-      "published": "Tue, 27 Oct 2026 19:35:51 -0400",
-      "score": 23.0
-    },
-    {
-      "source": "SecurityWeek",
-      "title": "Chinese Hackers Quietly Used Low-Severity ESXi Logging Flaw as Zero-Day",
-      "url": "https://www.securityweek.com/chinese-hackers-quietly-used-low-severity-esxi-logging-flaw-as-zero-day/",
-      "summary": "<p>CVE-2026-41709 allows attackers with administrative privileges to perform operations without being logged.</p> <p>The post <a href=\"https://www.securityweek.com/chinese-hackers-quietly-used-low-severity-esxi-logging-flaw-as-zero-day/\">Chinese Hackers Quietly Used Low-Severity ESXi Logging Flaw as Zero-Day</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "published": "Thu, 29 Oct 2026 08:01:05 +0000",
-      "score": 23.0
-    },
-    {
       "source": "The Hacker News",
       "title": "Adobe Fixes 8 Critical Campaign Classic Flaws Allowing Code Execution and Security Bypass",
       "url": "https://thehackernews.com/2026/10/adobe-fixes-8-critical-campaign-classic.html",
       "summary": "Adobe has released patches to address multiple critical security flaws in Campaign Classic that, if successfully exploited, could result in arbitrary code execution, security feature bypass, and privilege escalation. The list of eight vulnerabilities is as follows - CVE-2026-104351 (CVSS score: 9.9) - A code injection vulnerability that could lead to arbitrary code execution.",
       "published": "Wed, 28 Oct 2026 16:45:51 +0530",
+      "score": 22.0
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "CISA warns of Fragnesia Linux flaw chained in PHP2Shell attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-fragnesia-linux-flaw-chained-in-php2shell-attacks/",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies to patch a high-severity Linux kernel privilege escalation bug that attackers are chaining with the PHP2Shell flaws in the wild. [...]",
+      "published": "Thu, 29 Oct 2026 09:59:48 -0400",
       "score": 22.0
     },
     {
@@ -90,28 +74,28 @@
       "score": 21.0
     },
     {
-      "source": "BleepingComputer",
-      "title": "InfraTrust report warns of exploited flaws in critical network infrastructure",
-      "url": "https://www.bleepingcomputer.com/news/security/infratrust-report-warns-of-exploited-flaws-in-critical-network-infrastructure/",
-      "summary": "Attackers are actively exploiting vulnerabilities across critical network infrastructure, and PHP flaws known as \"PHP2Shell\" put the web management interfaces of firewalls, VPNs, application delivery controllers, and other appliances at risk. [...]",
-      "published": "Wed, 28 Oct 2026 10:00:00 -0400",
+      "source": "SecurityWeek",
+      "title": "Adobe, Veeam, Juniper Networks Patch Critical Vulnerabilities",
+      "url": "https://www.securityweek.com/adobe-veeam-juniper-networks-patch-critical-vulnerabilities/",
+      "summary": "<p>The flaws could lead to arbitrary code execution, authorization bypasses, and privilege escalation.</p> <p>The post <a href=\"https://www.securityweek.com/adobe-veeam-juniper-networks-patch-critical-vulnerabilities/\">Adobe, Veeam, Juniper Networks Patch Critical Vulnerabilities</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "published": "Thu, 29 Oct 2026 13:42:52 +0000",
+      "score": 21.0
+    },
+    {
+      "source": "SecurityWeek",
+      "title": "$2 Million+ Drained From Polymarket Traders in New Supply Chain Attack",
+      "url": "https://www.securityweek.com/2-million-drained-from-polymarket-traders-in-new-supply-chain-attack/",
+      "summary": "<p>Malicious code linked to a website monitoring tool was designed to hijack logged-in Polymarket sessions and siphon user funds.</p> <p>The post <a href=\"https://www.securityweek.com/2-million-drained-from-polymarket-traders-in-new-supply-chain-attack/\">$2 Million+ Drained From Polymarket Traders in New Supply Chain Attack</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "published": "Fri, 30 Oct 2026 09:41:36 +0000",
       "score": 20.0
     },
     {
-      "source": "BleepingComputer",
-      "title": "Nefilim and Hive ransomware affiliate gets 70 months in prison",
-      "url": "https://www.bleepingcomputer.com/news/security/nefilim-and-hive-ransomware-affiliate-gets-70-months-in-prison/",
-      "summary": "A Ukrainian national was sentenced to 70 months in prison for his role in ransomware attacks targeting hospitals, government entities, and high-revenue businesses worldwide between 2018 and 2021. [...]",
-      "published": "Wed, 28 Oct 2026 05:43:15 -0400",
-      "score": 20.0
-    },
-    {
-      "source": "BleepingComputer",
-      "title": "UNM Health ransomware attack disrupts patient care, surgeries",
-      "url": "https://www.bleepingcomputer.com/news/security/unm-health-ransomware-attack-disrupts-patient-care-surgeries/",
-      "summary": "The University of New Mexico Health Sciences Center disclosed a cyberattack that caused system outages and disrupted patient care and academic activities. [...]",
-      "published": "Tue, 27 Oct 2026 18:07:34 -0400",
-      "score": 20.0
+      "source": "The Hacker News",
+      "title": "26,400 Valid Cloud and AI Credentials Found Exposed in Public Gitee Repositories",
+      "url": "https://thehackernews.com/2026/10/26400-valid-cloud-and-ai-credentials.html",
+      "summary": "26,400 credentials that developers left in public code on Gitee, a Chinese code-hosting service, still worked when a researcher tested them. Anyone who copied one from that code could have used it. Independent researcher Ben Zimmermann found them by scanning 7.25 million public Gitee repositories and&nbsp;reported the results&nbsp;on October 28. Most were keys for cloud and AI services, led by",
+      "published": "Thu, 29 Oct 2026 17:03:15 +0530",
+      "score": 19.0
     },
     {
       "source": "The Hacker News",
@@ -123,22 +107,6 @@
     },
     {
       "source": "The Hacker News",
-      "title": "American Organizations Under Attack: Skyw4lker Device Code Phishing Campaign Exposed",
-      "url": "https://thehackernews.com/2026/10/american-organizations-under-attack.html",
-      "summary": "Modern phishing campaigns can compromise American businesses without relying on traditional credential theft. Attackers can abuse legitimate cloud services, authentication mechanisms, and trusted business workflows to gain access to corporate accounts while leaving fewer obvious signs behind. ANY.RUN's analysis of Skyw4lker, a device code phishing campaign primarily targeting U.S. organizations",
-      "published": "Wed, 28 Oct 2026 16:00:00 +0530",
-      "score": 19.0
-    },
-    {
-      "source": "SecurityWeek",
-      "title": "Ukrainian Hive and Nefilim Ransomware Affiliate Gets 70 Months in US Prison",
-      "url": "https://www.securityweek.com/ukrainian-hive-and-nefilim-ransomware-affiliate-gets-70-months-in-us-prison/",
-      "summary": "<p>Artem Stryzhak was sentenced to 70 months in prison after pleading guilty to using Nefilim ransomware in attacks.</p> <p>The post <a href=\"https://www.securityweek.com/ukrainian-hive-and-nefilim-ransomware-affiliate-gets-70-months-in-us-prison/\">Ukrainian Hive and Nefilim Ransomware Affiliate Gets 70 Months in US Prison</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "published": "Wed, 28 Oct 2026 15:05:06 +0000",
-      "score": 19.0
-    },
-    {
-      "source": "The Hacker News",
       "title": "Researcher Reveals How Logic Bugs Alone Cracked Microsoft Edge in $175,000 Pwn2Own Win",
       "url": "https://thehackernews.com/2026/10/researcher-reveals-how-logic-bugs-alone.html",
       "summary": "A chain of logic flaws, with no memory corruption, can turn a malicious web page into code running on a Windows computer outside Microsoft Edge's sandbox, a security researcher has shown. Orange Tsai of DEVCORE published the full method on October 28, five months after the chain won $175,000 at the&nbsp;Pwn2Own Berlin contest&nbsp;in May. Microsoft fixed the Edge bugs the day after the contest,",
@@ -146,12 +114,20 @@
       "score": 18.0
     },
     {
-      "source": "Google News Cybersecurity",
-      "title": "From Connectivity to Critical Infrastructure: Why Cybersecurity Is Now a Telecom Imperative - International Finance Corporation (IFC)",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPT2FiNmFrWGhWQldKamtJNHJUM1dNeHJqZ20tWkRqQTNkMlNXZmItRnEyOHB5cV81ZDk4RW9ZMm5DUlhYa0dpRGs0YlRzT2FrSTFvTXRhQklEYU9jcjZfNHBNTjVINm9XZHh0SDZLY2JlcngtNzdWX1ctaXVtQThOOHJicTVBTUl0OGFuVjRsU2NleVlE?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxPT2FiNmFrWGhWQldKamtJNHJUM1dNeHJqZ20tWkRqQTNkMlNXZmItRnEyOHB5cV81ZDk4RW9ZMm5DUlhYa0dpRGs0YlRzT2FrSTFvTXRhQklEYU9jcjZfNHBNTjVINm9XZHh0SDZLY2JlcngtNzdWX1ctaXVtQThOOHJicTVBTUl0OGFuVjRsU2NleVlE?oc=5\" target=\"_blank\">From Connectivity to Critical Infrastructure: Why Cybersecurity Is Now a Telecom Imperative</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">International Finance Corporation (IFC)</font>",
-      "published": "Thu, 29 Oct 2026 01:25:46 GMT",
+      "source": "BleepingComputer",
+      "title": "Windows 11 KB5127936 update released with 41 changes and fixes",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5127936-update-released-with-41-changes-and-fixes/",
+      "summary": "Microsoft released the KB5127936 preview cumulative update for Windows 11 versions 25H2 and 26H2, with 41 changes, including File Explorer and Cloud rebuild improvements. [...]",
+      "published": "Thu, 29 Oct 2026 08:00:07 -0400",
       "score": 18.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "Linux Kernel TCP Flaw With 9.8 CVSS Score Affects Ubuntu, Red Hat and Other Distributions",
+      "url": "https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html",
+      "summary": "A flaw in the Linux kernel's TCP code, tracked as&nbsp;CVE-2026-98432, affects Ubuntu, Red Hat Enterprise Linux (RHEL), and other Linux distributions. The kernel's own CVE team rates it 9.8 out of 10 on the CVSS scale. Anthropic said&nbsp;on October 27 that its AI model wrote an exploit that uses the flaw to let a remote attacker with no credentials run commands as root on Linux servers with a",
+      "published": "Thu, 29 Oct 2026 21:27:05 +0530",
+      "score": 16.0
     },
     {
       "source": "The Hacker News",
@@ -160,6 +136,14 @@
       "summary": "Third-party Android app stores can now apply to Google for permission to install apps with one tap, without Android's usual confirmation screens, and to update them in the background. To qualify, a store must pass identity checks and send Google&nbsp;its full catalog, along with every new app and update, for ongoing malware scanning. Approved stores get the features from December 1, but only on",
       "published": "Wed, 28 Oct 2026 22:38:09 +0530",
       "score": 16.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "ThreatsDay: Critical Firewall Flaws, Banking Trojans Rented, Weaponized PDF, Token Theft + 26 More Stories",
+      "url": "https://thehackernews.com/2026/10/threatsday-critical-firewall-flaws.html",
+      "summary": "Some attacks take real skill. Others just need someone to leave a door open. This week has both. Exposed passwords, old bugs still getting exploited, and trusted software doing things it shouldn't. There's a strange mix of clever tricks and careless mistakes. Hackers are borrowing trust from familiar apps, websites, and AI tools. Some are using AI to speed things up. Others are leaving their",
+      "published": "Fri, 30 Oct 2026 00:41:58 +0530",
+      "score": 15.0
     },
     {
       "source": "The Hacker News",
@@ -178,36 +162,52 @@
       "score": 15.0
     },
     {
-      "source": "The Hacker News",
-      "title": "Anthropic's Unreleased AI Model Chains Flaws Into Working Chrome, Safari, Windows and Linux Exploits",
-      "url": "https://thehackernews.com/2026/10/anthropics-unreleased-ai-model-chains.html",
-      "summary": "An unreleased Anthropic AI model found security flaws in Chrome, Safari, Android, Windows, and Linux and chained them into working proof-of-concept exploits, the company said in its latest report. The exploits were built in the lab after the model was prompted, not seen in any real attack, and Anthropic reported every flaw to the vendor first, so all of them are already patched. One proof of",
-      "published": "Wed, 28 Oct 2026 13:45:07 +0530",
+      "source": "BleepingComputer",
+      "title": "Hackers exploit Cisco SD-WAN flaw to deploy custom KeyDrift malware",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-cisco-sd-wan-flaw-to-deploy-custom-keydrift-malware/",
+      "summary": "A newly identified advanced persistent threat (APT) group tracked as UAT-11473 was observed exploiting CVE-2026-20127, an authentication-bypass flaw in Cisco Catalyst SD-WAN Controllers, to deploy a custom malware framework called KeyDrift. [...]",
+      "published": "Thu, 29 Oct 2026 14:38:26 -0400",
       "score": 15.0
     },
     {
-      "source": "The Hacker News",
-      "title": "Japan's GMO Offers $1 Million Bounty to Catch Hackers Behind FX Trading Cloud Breach",
-      "url": "https://thehackernews.com/2026/10/japans-gmo-offers-1-million-bounty-to.html",
-      "summary": "Japan's GMO Internet Group is&nbsp;offering up to $1 million in total&nbsp;for tips that help catch the attackers who breached its Onamae.com Desktop Cloud service, after refusing to pay an extortion demand. The reward program opened on October 28 and pays only if a tip helps lead to an arrest or an international wanted notice. The service&nbsp;hosts Windows desktops&nbsp;used for FX trading,",
-      "published": "Wed, 28 Oct 2026 12:43:21 +0530",
+      "source": "BleepingComputer",
+      "title": "Microsoft fixes Remote Desktop failures caused by recent Windows updates",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-remote-desktop-failures-caused-by-recent-windows-updates/",
+      "summary": "Microsoft has resolved a known issue that prevents non-admin users from connecting to devices via Remote Desktop when the \"Administrator protection\" security feature is enabled. [...]",
+      "published": "Thu, 29 Oct 2026 10:35:40 -0400",
       "score": 15.0
     },
     {
-      "source": "The Hacker News",
-      "title": "Tailscale Patches SSH Flaws That Could Let Hacked Devices Gain Root Access on Other Servers",
-      "url": "https://thehackernews.com/2026/10/tailscale-patches-ssh-flaws-that-could.html",
-      "summary": "Tailscale has released&nbsp;version 1.104.4&nbsp;to fix flaws in its built-in SSH server that could let an attacker reach services and files on other servers that only the&nbsp;root&nbsp;user should be able to touch. The flaws are in how&nbsp;Tailscale SSH&nbsp;forwards network connections, a job the Tailscale background process carries out with root privileges. To use them, an attacker must",
-      "published": "Wed, 28 Oct 2026 11:50:37 +0530",
+      "source": "Google News Cybersecurity",
+      "title": "Binance potential security issue raises question over AI-drive cybersecurity risks - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOT1QyQXQwN2lRMXdEaHplWWNnTUt5Q1piekZlWGpIdW0tRUhuekNEYmwyOEVGNmg0R0Y5XzNuR0FFZ1pJZ3lVZzlNMVhXUGhWVVpnNkQzbGdiRHNVb2kzN2pkR3R6QVFpMnlQOThNWkJpcVFrazM5a2oySTc0QldWcmNVeUFIWXFCNEYtNk9BMVZqZTBNV3QybHctb08yaWtYYTRBT0tlTHRhWTduTE9PTEVFdVRmOVJhVDh0MEJKTEx6MFU?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxOT1QyQXQwN2lRMXdEaHplWWNnTUt5Q1piekZlWGpIdW0tRUhuekNEYmwyOEVGNmg0R0Y5XzNuR0FFZ1pJZ3lVZzlNMVhXUGhWVVpnNkQzbGdiRHNVb2kzN2pkR3R6QVFpMnlQOThNWkJpcVFrazM5a2oySTc0QldWcmNVeUFIWXFCNEYtNk9BMVZqZTBNV3QybHctb08yaWtYYTRBT0tlTHRhWTduTE9PTEVFdVRmOVJhVDh0MEJKTEx6MFU?oc=5\" target=\"_blank\">Binance potential security issue raises question over AI-drive cybersecurity risks</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
+      "published": "Fri, 30 Oct 2026 02:21:07 GMT",
       "score": 15.0
     },
     {
+      "source": "SecurityWeek",
+      "title": "Cisco Open Sources Quarry to Catch AI Agent Attacks Hidden in Harmless Steps",
+      "url": "https://www.securityweek.com/cisco-open-sources-quarry-to-catch-ai-agent-attacks-hidden-in-harmless-steps/",
+      "summary": "<p>Cisco open sourced Project Quarry, a rule language for detecting AI agent attacks that only emerge across sequences of benign actions.</p> <p>The post <a href=\"https://www.securityweek.com/cisco-open-sources-quarry-to-catch-ai-agent-attacks-hidden-in-harmless-steps/\">Cisco Open Sources Quarry to Catch AI Agent Attacks Hidden in Harmless Steps</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "published": "Thu, 29 Oct 2026 14:18:03 +0000",
+      "score": 14.0
+    },
+    {
+      "source": "Google News Cybersecurity",
+      "title": "Decoding DoD cybersecurity: CMMC, DFARS, and FedRAMP Equivalence demystified - Amazon Web Services (AWS)",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPblVuOTdqY01kcWdwUEwwOE40d2JCWWd3cTFYZ2QxYzlqNUI2NWZ1QzhYeVJjVUxrLUY5LWhlMlJLMjJTNzRVbW9wUEhKejY5WDZkT0tiVHpGMEQ0NTJ5TkJvMDhLa0x5bG5TNzdhOWprRjdtRFpVOU82LW90QlJnNlRBc0sxRjlYZ0lpRkY2UlBpU1Y4NXZGa0s5eGxfWDNyUkgzLXdJVTkzQ3pVU2EzU2tYVG51Zzg?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxPblVuOTdqY01kcWdwUEwwOE40d2JCWWd3cTFYZ2QxYzlqNUI2NWZ1QzhYeVJjVUxrLUY5LWhlMlJLMjJTNzRVbW9wUEhKejY5WDZkT0tiVHpGMEQ0NTJ5TkJvMDhLa0x5bG5TNzdhOWprRjdtRFpVOU82LW90QlJnNlRBc0sxRjlYZ0lpRkY2UlBpU1Y4NXZGa0s5eGxfWDNyUkgzLXdJVTkzQ3pVU2EzU2tYVG51Zzg?oc=5\" target=\"_blank\">Decoding DoD cybersecurity: CMMC, DFARS, and FedRAMP Equivalence demystified</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Amazon Web Services (AWS)</font>",
+      "published": "Thu, 29 Oct 2026 23:07:10 GMT",
+      "score": 13.0
+    },
+    {
       "source": "The Hacker News",
-      "title": "GoAhead TLS Flaws Allow Revoked Client Certificates and Enable Session Decryption",
-      "url": "https://thehackernews.com/2026/10/goahead-tls-flaws-allow-revoked-client.html",
-      "summary": "The GoAhead embedded web server loaded a certificate revocation list into its default TLS backend but never turned revocation checking on, so a revoked client certificate could still pass login on affected setups. The flaw is in builds that use the OpenSSL backend with mutual-TLS, where the server checks a client certificate and vice versa, and a revocation list is configured to block revoked",
-      "published": "Tue, 27 Oct 2026 19:29:48 +0530",
-      "score": 15.0
+      "title": "Official Claude Code VS Code Extension Compromised to Install Persistent SSH Backdoor",
+      "url": "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html",
+      "summary": "Cybersecurity researchers have disclosed that the official Anthropic Claude Code extension was compromised on the Open VSX registry to install a persistent SSH backdoor on infected hosts. The issue has since been traced to the compromise of the Cursor Marketplace, prompting the AI coding platform Cursor to briefly take down the service to remove the malware. \"We identified a security incident",
+      "published": "Fri, 30 Oct 2026 14:25:47 +0530",
+      "score": 12.0
     }
   ]
 }
