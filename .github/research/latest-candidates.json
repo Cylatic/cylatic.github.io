@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-30T10:55:34.248257+00:00",
+  "generated_at_utc": "2026-10-31T10:27:49.894601+00:00",
   "publication_enabled": false,
   "editorial_note": "Candidates require human/editorial review and original technical work before publication.",
   "feed_errors": [
@@ -27,59 +27,51 @@
     },
     {
       "source": "BleepingComputer",
-      "title": "New Cisco firewall zero-day exploited to crash SSL VPN devices",
-      "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-firewall-zero-day-exploited-to-crash-ssl-vpn-devices/",
-      "summary": "Cisco released security updates to patch a denial-of-service zero-day in Adaptive Security Appliance (ASA) and Threat Defense (FTD) software that attackers are exploiting to remotely crash vulnerable firewall devices. [...]",
-      "published": "Thu, 29 Oct 2026 07:10:13 -0400",
-      "score": 32.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "China-Linked Hackers Exploited VMware ESX Zero-Day to Reduce Audit Trail Visibility",
-      "url": "https://thehackernews.com/2026/10/china-linked-hackers-exploited-vmware.html",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a security flaw impacting Broadcom VMware ESX to its Known Exploited Vulnerabilities (KEV) catalog, after CrowdStrike revealed that it had been weaponized by a China-nexus threat actor known as Warp Panda in attacks targeting the U.S. legal sector. The vulnerability in question is CVE-2026-41709 (CVSS score:",
-      "published": "Thu, 29 Oct 2026 11:52:33 +0530",
-      "score": 24.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "Volt Typhoon Used Covert Silent Train Network in Four Zero-Day Exploitation Campaigns",
-      "url": "https://thehackernews.com/2026/10/volt-typhoon-used-covert-silent-train.html",
-      "summary": "The China-nexus cyber espionage group known as Volt Typhoon has been attributed to a now-disrupted covert access network dubbed Silent Train that has been put to use for zero-day exploitation and strategic access. \"First identified in late 2023, Silent Train uses rotating chains of compromised SOHO, IoT, and enterprise infrastructure,\" Lumen Technologies Black Lotus Labs said in a report shared",
-      "published": "Wed, 28 Oct 2026 23:38:33 +0530",
-      "score": 24.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "Adobe Fixes 8 Critical Campaign Classic Flaws Allowing Code Execution and Security Bypass",
-      "url": "https://thehackernews.com/2026/10/adobe-fixes-8-critical-campaign-classic.html",
-      "summary": "Adobe has released patches to address multiple critical security flaws in Campaign Classic that, if successfully exploited, could result in arbitrary code execution, security feature bypass, and privilege escalation. The list of eight vulnerabilities is as follows - CVE-2026-104351 (CVSS score: 9.9) - A code injection vulnerability that could lead to arbitrary code execution.",
-      "published": "Wed, 28 Oct 2026 16:45:51 +0530",
-      "score": 22.0
-    },
-    {
-      "source": "BleepingComputer",
-      "title": "CISA warns of Fragnesia Linux flaw chained in PHP2Shell attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-fragnesia-linux-flaw-chained-in-php2shell-attacks/",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies to patch a high-severity Linux kernel privilege escalation bug that attackers are chaining with the PHP2Shell flaws in the wild. [...]",
-      "published": "Thu, 29 Oct 2026 09:59:48 -0400",
-      "score": 22.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "Hackers Target Critical Oracle E-Business Suite RCE Flaw Days After Security Patch",
-      "url": "https://thehackernews.com/2026/10/hackers-target-critical-oracle-e.html",
-      "summary": "Threat actors are beginning to probe for a newly patched critical vulnerability in Oracle E-Business Suite (EBS), according to threat intelligence firm Defused Cyber. The vulnerability in question is CVE-2026-101767 (CVSS score: 9.8) , a case of improper authentication in the Oracle Application Object Library of Oracle E-Business Suite. It was patched by Oracle last week as part of its Critical",
-      "published": "Wed, 28 Oct 2026 18:18:03 +0530",
-      "score": 21.0
+      "title": "CISA says max severity GitLab flaw now exploited in the wild",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-now-exploiting-max-severity-gitlab-flaw-in-attacks/",
+      "summary": "Attackers have started exploiting a maximum-severity GitLab vulnerability patched earlier this month, according to the US Cybersecurity and Infrastructure Security Agency (CISA). [...]",
+      "published": "Fri, 30 Oct 2026 09:00:32 -0400",
+      "score": 26.0
     },
     {
       "source": "SecurityWeek",
-      "title": "Adobe, Veeam, Juniper Networks Patch Critical Vulnerabilities",
-      "url": "https://www.securityweek.com/adobe-veeam-juniper-networks-patch-critical-vulnerabilities/",
-      "summary": "<p>The flaws could lead to arbitrary code execution, authorization bypasses, and privilege escalation.</p> <p>The post <a href=\"https://www.securityweek.com/adobe-veeam-juniper-networks-patch-critical-vulnerabilities/\">Adobe, Veeam, Juniper Networks Patch Critical Vulnerabilities</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "published": "Thu, 29 Oct 2026 13:42:52 +0000",
-      "score": 21.0
+      "title": "Bulletproof Host Virtualine Loses Its Domain to FBI Seizure",
+      "url": "https://www.securityweek.com/bulletproof-host-virtualine-loses-its-domain-to-fbi-seizure/",
+      "summary": "<p>It allowed customers to host hack-for-hire services, supported ransomware and infostealer operators, and accepted crypto payments.</p> <p>The post <a href=\"https://www.securityweek.com/bulletproof-host-virtualine-loses-its-domain-to-fbi-seizure/\">Bulletproof Host Virtualine Loses Its Domain to FBI Seizure</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "published": "Fri, 30 Oct 2026 13:36:12 +0000",
+      "score": 25.0
+    },
+    {
+      "source": "SecurityWeek",
+      "title": "Drupal Commerce Core Vulnerability Exploited Against Online Stores",
+      "url": "https://www.securityweek.com/drupal-commerce-core-vulnerability-exploited-against-online-stores/",
+      "summary": "<p>Drupal says a highly critical Commerce Core access bypass is exploited in the wild and urges store owners to audit their orders.</p> <p>The post <a href=\"https://www.securityweek.com/drupal-commerce-core-vulnerability-exploited-against-online-stores/\">Drupal Commerce Core Vulnerability Exploited Against Online Stores </a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "published": "Fri, 30 Oct 2026 11:07:11 +0000",
+      "score": 25.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "WordPress RCE Flaw Draws Nearly 63,000 Attack Attempts in Just 24 Hours",
+      "url": "https://thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html",
+      "summary": "Threat actors have been observed attempting to exploit a high-severity security flaw in WordPress Core shortly after patches were released. The vulnerability, which does not have a CVE identifier, relates to a case of remote code execution impacting WordPress Core versions 4.7 through 7.1.3. It carries a CVSS score of 8.1 on the CVSS scoring system. Patches for the flaw were released on October",
+      "published": "Fri, 30 Oct 2026 19:38:14 +0530",
+      "score": 24.0
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "Microsoft finally fixes VPN issues caused by September updates",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-finally-fixes-vpn-issues-caused-by-september-updates/",
+      "summary": "Microsoft has resolved Always On VPN connection failures triggered after installing the September 2026 Windows 11 security updates. [...]",
+      "published": "Fri, 30 Oct 2026 07:20:26 -0400",
+      "score": 20.0
+    },
+    {
+      "source": "SecurityWeek",
+      "title": "Fresh WordPress Vulnerability in Attackers’ Crosshairs",
+      "url": "https://www.securityweek.com/fresh-wordpress-vulnerability-in-attackers-crosshairs/",
+      "summary": "<p>Threat actors are attempting to exploit a high-severity unauthenticated race condition leading to remote code execution.</p> <p>The post <a href=\"https://www.securityweek.com/fresh-wordpress-vulnerability-in-attackers-crosshairs/\">Fresh WordPress Vulnerability in Attackers&#8217; Crosshairs</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "published": "Fri, 30 Oct 2026 12:04:13 +0000",
+      "score": 20.0
     },
     {
       "source": "SecurityWeek",
@@ -91,6 +83,14 @@
     },
     {
       "source": "The Hacker News",
+      "title": "Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access",
+      "url": "https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two security flaws impacting Ivanti Connect Secure (ICS) to its Known Exploited Vulnerabilities (KEV) catalog, following active exploitation in the wild. The vulnerabilities are listed below - CVE-2026-111357 (CVSS score: 8.8) - A missing authentication for a critical function vulnerability that could allow a",
+      "published": "Sat, 31 Oct 2026 13:57:43 +0530",
+      "score": 19.0
+    },
+    {
+      "source": "The Hacker News",
       "title": "26,400 Valid Cloud and AI Credentials Found Exposed in Public Gitee Repositories",
       "url": "https://thehackernews.com/2026/10/26400-valid-cloud-and-ai-credentials.html",
       "summary": "26,400 credentials that developers left in public code on Gitee, a Chinese code-hosting service, still worked when a researcher tested them. Anyone who copied one from that code could have used it. Independent researcher Ben Zimmermann found them by scanning 7.25 million public Gitee repositories and&nbsp;reported the results&nbsp;on October 28. Most were keys for cloud and AI services, led by",
@@ -99,27 +99,11 @@
     },
     {
       "source": "The Hacker News",
-      "title": "PHP2Shell Attack Roots 25 Servers, Breaches U.S. Government-Affiliated Network",
-      "url": "https://thehackernews.com/2026/10/php2shell-attack-roots-25-servers.html",
-      "summary": "Cybersecurity researchers have disclosed details of what appears to be an artificial intelligence (AI)-assisted attack orchestrated by a suspected China-nexus threat actor that has leveraged the PHP2Shell vulnerabilities to breach exposed systems. The activity, which was observed on October 25, 2026, involved an attacker combining PHP2Shell with a kernel privilege escalation exploit to root",
-      "published": "Wed, 28 Oct 2026 21:32:45 +0530",
-      "score": 19.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "Researcher Reveals How Logic Bugs Alone Cracked Microsoft Edge in $175,000 Pwn2Own Win",
-      "url": "https://thehackernews.com/2026/10/researcher-reveals-how-logic-bugs-alone.html",
-      "summary": "A chain of logic flaws, with no memory corruption, can turn a malicious web page into code running on a Windows computer outside Microsoft Edge's sandbox, a security researcher has shown. Orange Tsai of DEVCORE published the full method on October 28, five months after the chain won $175,000 at the&nbsp;Pwn2Own Berlin contest&nbsp;in May. Microsoft fixed the Edge bugs the day after the contest,",
-      "published": "Wed, 28 Oct 2026 21:53:34 +0530",
-      "score": 18.0
-    },
-    {
-      "source": "BleepingComputer",
-      "title": "Windows 11 KB5127936 update released with 41 changes and fixes",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5127936-update-released-with-41-changes-and-fixes/",
-      "summary": "Microsoft released the KB5127936 preview cumulative update for Windows 11 versions 25H2 and 26H2, with 41 changes, including File Explorer and Cloud rebuild improvements. [...]",
-      "published": "Thu, 29 Oct 2026 08:00:07 -0400",
-      "score": 18.0
+      "title": "Official Claude Code Extension on Cursor Marketplace Trojanized with Persistent SSH Backdoor",
+      "url": "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html",
+      "summary": "Cybersecurity researchers have disclosed that a trojanized version of Anthropic's official Claude Code extension was distributed through the Cursor Marketplace as a legitimate update, attempting to install a persistent SSH backdoor on affected systems. The malicious update, version 2.1.313, was distributed under the extension's legitimate publisher identity, prompting Cursor to temporarily shut",
+      "published": "Fri, 30 Oct 2026 14:25:47 +0530",
+      "score": 16.0
     },
     {
       "source": "The Hacker News",
@@ -131,11 +115,11 @@
     },
     {
       "source": "The Hacker News",
-      "title": "Google to Allow One-Tap Android App Installs From Approved Third-Party Stores Outside U.S.",
-      "url": "https://thehackernews.com/2026/10/google-to-allow-one-tap-android-app.html",
-      "summary": "Third-party Android app stores can now apply to Google for permission to install apps with one tap, without Android's usual confirmation screens, and to update them in the background. To qualify, a store must pass identity checks and send Google&nbsp;its full catalog, along with every new app and update, for ongoing malware scanning. Approved stores get the features from December 1, but only on",
-      "published": "Wed, 28 Oct 2026 22:38:09 +0530",
-      "score": 16.0
+      "title": "Cloudflare Reports 18.2 Million Network-Layer DDoS Attacks in Q3, Up 38%",
+      "url": "https://thehackernews.com/2026/10/cloudflare-reports-182-million-network.html",
+      "summary": "Threat actors are launching about 8,226 network-layer distributed denial-of-service (DDoS) attacks per hour, Cloudflare revealed Thursday. The web infrastructure and security company said it autonomously mitigated 18.2 million network-layer (L3) DDoS attacks and 14.4 trillion HTTP DDoS requests in the third quarter of 2026. That amounts to 197,400 attacks per day, or one attack every 0.44",
+      "published": "Sat, 31 Oct 2026 10:26:12 +0530",
+      "score": 15.0
     },
     {
       "source": "The Hacker News",
@@ -146,19 +130,11 @@
       "score": 15.0
     },
     {
-      "source": "The Hacker News",
-      "title": "Hackers Exploited Cisco SD-WAN Flaw to Plant Malware Built to Steal Encryption Keys",
-      "url": "https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html",
-      "summary": "Hackers exploited a critical Cisco Catalyst SD-WAN flaw, fixed in February, to plant custom malware inside the systems that control an organization's SD-WAN network. The malware, called KeyDrift, is designed to copy the keys that encrypt traffic between sites and store them for later use,&nbsp;Cisco Talos said&nbsp;on October 28. Talos calls the attacks historical but does not specify when they",
-      "published": "Thu, 29 Oct 2026 13:54:22 +0530",
-      "score": 15.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "Attackers Exploit PHP2Shell Flaws in Internet-Exposed Palo Alto Networks Management Interfaces",
-      "url": "https://thehackernews.com/2026/10/attackers-exploit-php2shell-flaws-in.html",
-      "summary": "Palo Alto Networks on Wednesday warned that threat actors are exploiting the recently patched PHP2Shell vulnerabilities against publicly-accessible management interfaces. \"Active exploitation has been observed targeting the Palo Alto Networks management interface exposed to the internet,\" the network security company said in an update to its advisory. The vulnerabilities, tracked as",
-      "published": "Thu, 29 Oct 2026 11:20:17 +0530",
+      "source": "BleepingComputer",
+      "title": "SS7 and Diameter Attacks: How Signaling Flaws Expose Your Phone",
+      "url": "https://www.bleepingcomputer.com/news/security/ss7-and-diameter-attacks-how-signaling-flaws-expose-your-phone/",
+      "summary": "Flaws in SS7 and Diameter signaling protocols can allow attackers to track phone locations, intercept calls and SMS verification codes, and impersonate subscribers without compromising their devices. Cape explains how these attacks exploit trust between networks and how its security-focused mobile service helps defend against them. [...]",
+      "published": "Fri, 30 Oct 2026 10:00:10 -0400",
       "score": 15.0
     },
     {
@@ -170,43 +146,67 @@
       "score": 15.0
     },
     {
-      "source": "BleepingComputer",
-      "title": "Microsoft fixes Remote Desktop failures caused by recent Windows updates",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-remote-desktop-failures-caused-by-recent-windows-updates/",
-      "summary": "Microsoft has resolved a known issue that prevents non-admin users from connecting to devices via Remote Desktop when the \"Administrator protection\" security feature is enabled. [...]",
-      "published": "Thu, 29 Oct 2026 10:35:40 -0400",
-      "score": 15.0
-    },
-    {
-      "source": "Google News Cybersecurity",
-      "title": "Binance potential security issue raises question over AI-drive cybersecurity risks - CNBC",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOT1QyQXQwN2lRMXdEaHplWWNnTUt5Q1piekZlWGpIdW0tRUhuekNEYmwyOEVGNmg0R0Y5XzNuR0FFZ1pJZ3lVZzlNMVhXUGhWVVpnNkQzbGdiRHNVb2kzN2pkR3R6QVFpMnlQOThNWkJpcVFrazM5a2oySTc0QldWcmNVeUFIWXFCNEYtNk9BMVZqZTBNV3QybHctb08yaWtYYTRBT0tlTHRhWTduTE9PTEVFdVRmOVJhVDh0MEJKTEx6MFU?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxOT1QyQXQwN2lRMXdEaHplWWNnTUt5Q1piekZlWGpIdW0tRUhuekNEYmwyOEVGNmg0R0Y5XzNuR0FFZ1pJZ3lVZzlNMVhXUGhWVVpnNkQzbGdiRHNVb2kzN2pkR3R6QVFpMnlQOThNWkJpcVFrazM5a2oySTc0QldWcmNVeUFIWXFCNEYtNk9BMVZqZTBNV3QybHctb08yaWtYYTRBT0tlTHRhWTduTE9PTEVFdVRmOVJhVDh0MEJKTEx6MFU?oc=5\" target=\"_blank\">Binance potential security issue raises question over AI-drive cybersecurity risks</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
-      "published": "Fri, 30 Oct 2026 02:21:07 GMT",
-      "score": 15.0
+      "source": "SecurityWeek",
+      "title": "PHP2Shell Attacks Root Palo Alto Firewalls but Fail Against WordPress",
+      "url": "https://www.securityweek.com/php2shell-attacks-root-palo-alto-firewalls-but-fail-against-wordpress/",
+      "summary": "<p>Over 22.6 million exposed instances are potentially affected by the critical PHP flaws that have been targeted for over a week.</p> <p>The post <a href=\"https://www.securityweek.com/php2shell-attacks-root-palo-alto-firewalls-but-fail-against-wordpress/\">PHP2Shell Attacks Root Palo Alto Firewalls but Fail Against WordPress</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "published": "Fri, 30 Oct 2026 15:09:25 +0000",
+      "score": 14.0
     },
     {
       "source": "SecurityWeek",
-      "title": "Cisco Open Sources Quarry to Catch AI Agent Attacks Hidden in Harmless Steps",
-      "url": "https://www.securityweek.com/cisco-open-sources-quarry-to-catch-ai-agent-attacks-hidden-in-harmless-steps/",
-      "summary": "<p>Cisco open sourced Project Quarry, a rule language for detecting AI agent attacks that only emerge across sequences of benign actions.</p> <p>The post <a href=\"https://www.securityweek.com/cisco-open-sources-quarry-to-catch-ai-agent-attacks-hidden-in-harmless-steps/\">Cisco Open Sources Quarry to Catch AI Agent Attacks Hidden in Harmless Steps</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "published": "Thu, 29 Oct 2026 14:18:03 +0000",
+      "title": "In Other News: Anthropic Breach Dispute, UEFI Flaw Hits Most Servers, Cloudflare AI Data Leak",
+      "url": "https://www.securityweek.com/in-other-news-anthropic-breach-dispute-uefi-flaw-hits-most-servers-cloudflare-ai-data-leak/",
+      "summary": "<p>Noteworthy stories that might have slipped under the radar: Iran eyed in military freezer hacks, Copenhagen University breach, AI-powered malware.</p> <p>The post <a href=\"https://www.securityweek.com/in-other-news-anthropic-breach-dispute-uefi-flaw-hits-most-servers-cloudflare-ai-data-leak/\">In Other News: Anthropic Breach Dispute, UEFI Flaw Hits Most Servers, Cloudflare AI Data Leak</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "published": "Fri, 30 Oct 2026 14:41:35 +0000",
       "score": 14.0
     },
     {
       "source": "Google News Cybersecurity",
-      "title": "Decoding DoD cybersecurity: CMMC, DFARS, and FedRAMP Equivalence demystified - Amazon Web Services (AWS)",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPblVuOTdqY01kcWdwUEwwOE40d2JCWWd3cTFYZ2QxYzlqNUI2NWZ1QzhYeVJjVUxrLUY5LWhlMlJLMjJTNzRVbW9wUEhKejY5WDZkT0tiVHpGMEQ0NTJ5TkJvMDhLa0x5bG5TNzdhOWprRjdtRFpVOU82LW90QlJnNlRBc0sxRjlYZ0lpRkY2UlBpU1Y4NXZGa0s5eGxfWDNyUkgzLXdJVTkzQ3pVU2EzU2tYVG51Zzg?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxPblVuOTdqY01kcWdwUEwwOE40d2JCWWd3cTFYZ2QxYzlqNUI2NWZ1QzhYeVJjVUxrLUY5LWhlMlJLMjJTNzRVbW9wUEhKejY5WDZkT0tiVHpGMEQ0NTJ5TkJvMDhLa0x5bG5TNzdhOWprRjdtRFpVOU82LW90QlJnNlRBc0sxRjlYZ0lpRkY2UlBpU1Y4NXZGa0s5eGxfWDNyUkgzLXdJVTkzQ3pVU2EzU2tYVG51Zzg?oc=5\" target=\"_blank\">Decoding DoD cybersecurity: CMMC, DFARS, and FedRAMP Equivalence demystified</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Amazon Web Services (AWS)</font>",
-      "published": "Thu, 29 Oct 2026 23:07:10 GMT",
+      "title": "Should SecureOT Cybersecurity Launch Require Action From Rockwell Automation (ROK) Investors? - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOUVpXVGMzVVdnallwdWR5Y09OdFlweWlhZVhNMXhLSHpkQnpUXzVwQWxNdlNyY3pjSUhBb3d0Y0c0bWl6Mm9raWs4NGF0clhJaFBPeHdfaUlfZW92NkhZMHo5REEwTW5Cck4yS242NjNUXzFGbW5oeW9mdndhUi1vWUl5ZUZ2alg4aFV6dzExU1VCTTIzTTZaRllleHlFR3cxTjNTUWhUSXhjSDFnRmc?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxOUVpXVGMzVVdnallwdWR5Y09OdFlweWlhZVhNMXhLSHpkQnpUXzVwQWxNdlNyY3pjSUhBb3d0Y0c0bWl6Mm9raWs4NGF0clhJaFBPeHdfaUlfZW92NkhZMHo5REEwTW5Cck4yS242NjNUXzFGbW5oeW9mdndhUi1vWUl5ZUZ2alg4aFV6dzExU1VCTTIzTTZaRllleHlFR3cxTjNTUWhUSXhjSDFnRmc?oc=5\" target=\"_blank\">Should SecureOT Cybersecurity Launch Require Action From Rockwell Automation (ROK) Investors?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>",
+      "published": "Sat, 31 Oct 2026 06:15:57 GMT",
+      "score": 13.0
+    },
+    {
+      "source": "Google News Cybersecurity",
+      "title": "Cyber security flaws may put about 70% of websites at risk - KPBS",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOdFJqM1Eya0FCamYzTkFNQ1hkb1NXN19WUGpDOUJnZmZhVTlxd3hycmtlR090WEdxbzNpZVVXZDhyMXV0Q1YzamFTZW1YajBVekxGT1ZnZjZoQkx4cXBDQlhGV2ljMjZTdHVIRklyTEd5X1NId1BoOXZ2QVZZQ0wzNFc1SVpxQ0U2TThPVFhWSVlQMk5menR1UmNYaXlIN1hlME42QTI3YnBkRUxhYVdrcDhGVQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxOdFJqM1Eya0FCamYzTkFNQ1hkb1NXN19WUGpDOUJnZmZhVTlxd3hycmtlR090WEdxbzNpZVVXZDhyMXV0Q1YzamFTZW1YajBVekxGT1ZnZjZoQkx4cXBDQlhGV2ljMjZTdHVIRklyTEd5X1NId1BoOXZ2QVZZQ0wzNFc1SVpxQ0U2TThPVFhWSVlQMk5menR1UmNYaXlIN1hlME42QTI3YnBkRUxhYVdrcDhGVQ?oc=5\" target=\"_blank\">Cyber security flaws may put about 70% of websites at risk</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">KPBS</font>",
+      "published": "Sat, 31 Oct 2026 00:38:00 GMT",
+      "score": 13.0
+    },
+    {
+      "source": "Google News Cybersecurity",
+      "title": "PHP flaws take 32 UK government services offline - Cybersecurity Insiders",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOWDhtdDZjYV9YWHJPcWpzSERQTV9TSUJkakNhOW1rWk9DZDNnSHRFR00zR3gycFpGbEp1elk2VVB0RFhiUzF4ZDJlUEt4Z1ZWaWliVE9fVlRqYTEyb1dxblowLWxXRzRyTkZzWGpRNWRjY0d6TWRXYUwtMDBqaDBFYVpmUXNzaXVDWHAwUmEtQ0pkZw?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxOWDhtdDZjYV9YWHJPcWpzSERQTV9TSUJkakNhOW1rWk9DZDNnSHRFR00zR3gycFpGbEp1elk2VVB0RFhiUzF4ZDJlUEt4Z1ZWaWliVE9fVlRqYTEyb1dxblowLWxXRzRyTkZzWGpRNWRjY0d6TWRXYUwtMDBqaDBFYVpmUXNzaXVDWHAwUmEtQ0pkZw?oc=5\" target=\"_blank\">PHP flaws take 32 UK government services offline</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Cybersecurity Insiders</font>",
+      "published": "Sat, 31 Oct 2026 06:59:42 GMT",
+      "score": 13.0
+    },
+    {
+      "source": "Google News Cybersecurity",
+      "title": "Cybastion and Cisco to Launch Regional Cybersecurity Center in Côte d’Ivoire - pan african visions",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNeWxNdWZNNjBxRFpUT3F0dzZzYzB3VU1lVGRwajdkOUNtcTdDc0s2VWlpX1V0RTVaMmNOcTlFMDhfckpqREZxT3BQOXRkMHFlMkJWRWNnOFhZUjNacXlMVnVISjZ3Z0R4UlcwaGJIVmVzVlNkTkxyTnVGRWRxWkxkN1NkX3BWdEhXLWRTSUR5Xy1pRFJqVXg5cHJRSXVMYUpiazJVb3ctVlJpQW9rMW5wdkRiRTk?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxNeWxNdWZNNjBxRFpUT3F0dzZzYzB3VU1lVGRwajdkOUNtcTdDc0s2VWlpX1V0RTVaMmNOcTlFMDhfckpqREZxT3BQOXRkMHFlMkJWRWNnOFhZUjNacXlMVnVISjZ3Z0R4UlcwaGJIVmVzVlNkTkxyTnVGRWRxWkxkN1NkX3BWdEhXLWRTSUR5Xy1pRFJqVXg5cHJRSXVMYUpiazJVb3ctVlJpQW9rMW5wdkRiRTk?oc=5\" target=\"_blank\">Cybastion and Cisco to Launch Regional Cybersecurity Center in Côte d’Ivoire</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">pan african visions</font>",
+      "published": "Sat, 31 Oct 2026 00:27:47 GMT",
       "score": 13.0
     },
     {
       "source": "The Hacker News",
-      "title": "Official Claude Code VS Code Extension Compromised to Install Persistent SSH Backdoor",
-      "url": "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html",
-      "summary": "Cybersecurity researchers have disclosed that the official Anthropic Claude Code extension was compromised on the Open VSX registry to install a persistent SSH backdoor on infected hosts. The issue has since been traced to the compromise of the Cursor Marketplace, prompting the AI coding platform Cursor to briefly take down the service to remove the malware. \"We identified a security incident",
-      "published": "Fri, 30 Oct 2026 14:25:47 +0530",
+      "title": "A Shared ChatGPT Link Could Run Attacker Code in Your Session and Read Private Chats",
+      "url": "https://thehackernews.com/2026/10/a-shared-chatgpt-link-could-run.html",
+      "summary": "A malicious ChatGPT share link could run an attacker's code in the logged-in session of anyone who opened it, allowing them to read their private conversations, researchers at&nbsp;the security firm Parameter&nbsp;showed. The researchers reported the flaw through&nbsp;OpenAI's bug bounty program&nbsp;on October 18, and OpenAI fixed it eight days later and rated it P1, its most serious category.",
+      "published": "Sat, 31 Oct 2026 11:03:41 +0530",
+      "score": 12.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "Chinese Hackers Use AI-Powered ARTEX to Target Over 200 Organizations Worldwide",
+      "url": "https://thehackernews.com/2026/10/chinese-hackers-use-ai-powered-artex-to.html",
+      "summary": "Chinese state-sponsored threat actors have been observed using a Go-based artificial intelligence (AI)-powered penetration testing framework called ARTEX in attacks aimed at high-value targets simultaneously. The activity has been attributed by CrowdStrike to a China-based \"targeted intrusion adversary\" it tracks under the moniker Vapor Panda (previously VexatiousTemper). First identified in",
+      "published": "Fri, 30 Oct 2026 22:28:44 +0530",
       "score": 12.0
     }
   ]
