@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-31T10:27:49.894601+00:00",
+  "generated_at_utc": "2026-11-01T11:22:44.075899+00:00",
   "publication_enabled": false,
   "editorial_note": "Candidates require human/editorial review and original technical work before publication.",
   "feed_errors": [
@@ -9,22 +9,6 @@
     }
   ],
   "candidates": [
-    {
-      "source": "The Hacker News",
-      "title": "Cisco Patches Actively Exploited ASA and FTD VPN Flaw That Can Crash Firewalls",
-      "url": "https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html",
-      "summary": "Cisco has released patches to address a high-severity security flaw in Secure Firewall Adaptive Security Appliance (ASA) Software and Secure Firewall Threat Defense (FTD) Software that it said has been exploited in the wild. The vulnerability, tracked as CVE-2026-76418, is rated 8.6 on the CVSS scoring system. Successful exploitation could allow an unauthenticated, remote attacker to cause the",
-      "published": "Thu, 29 Oct 2026 16:14:46 +0530",
-      "score": 48.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "CISA Adds Actively Exploited GitLab RCE and Cisco Firewall DoS Flaws to KEV",
-      "url": "https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added two security flaws impacting Cisco and GitLab software to its Known Exploited Vulnerabilities (KEV), citing evidence of active exploitation. The vulnerabilities are listed below - CVE-2026-97229 (CVSS score: 10.0) - An integer overflow or wraparound vulnerability in GitLab Community Edition and Enterprise",
-      "published": "Fri, 30 Oct 2026 12:57:05 +0530",
-      "score": 32.0
-    },
     {
       "source": "BleepingComputer",
       "title": "CISA says max severity GitLab flaw now exploited in the wild",
@@ -42,14 +26,6 @@
       "score": 25.0
     },
     {
-      "source": "SecurityWeek",
-      "title": "Drupal Commerce Core Vulnerability Exploited Against Online Stores",
-      "url": "https://www.securityweek.com/drupal-commerce-core-vulnerability-exploited-against-online-stores/",
-      "summary": "<p>Drupal says a highly critical Commerce Core access bypass is exploited in the wild and urges store owners to audit their orders.</p> <p>The post <a href=\"https://www.securityweek.com/drupal-commerce-core-vulnerability-exploited-against-online-stores/\">Drupal Commerce Core Vulnerability Exploited Against Online Stores </a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "published": "Fri, 30 Oct 2026 11:07:11 +0000",
-      "score": 25.0
-    },
-    {
       "source": "The Hacker News",
       "title": "WordPress RCE Flaw Draws Nearly 63,000 Attack Attempts in Just 24 Hours",
       "url": "https://thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html",
@@ -58,11 +34,11 @@
       "score": 24.0
     },
     {
-      "source": "BleepingComputer",
-      "title": "Microsoft finally fixes VPN issues caused by September updates",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-finally-fixes-vpn-issues-caused-by-september-updates/",
-      "summary": "Microsoft has resolved Always On VPN connection failures triggered after installing the September 2026 Windows 11 security updates. [...]",
-      "published": "Fri, 30 Oct 2026 07:20:26 -0400",
+      "source": "The Hacker News",
+      "title": "Chainalysis Confirms Intrusion Into Internal Tools and Exposure of Customer Identity Data",
+      "url": "https://thehackernews.com/2026/10/chainalysis-confirms-intrusion-into.html",
+      "summary": "American blockchain analysis firm Chainalysis said it was the target of a cybersecurity incident in which an external actor accessed non-sensitive customer data. However, the company noted that the breach did not result in unauthorized access to its investigation content, authentication credentials, or session tokens. \"This month, Chainalysis detected an external actor using offensive agentic",
+      "published": "Sat, 31 Oct 2026 17:31:56 +0530",
       "score": 20.0
     },
     {
@@ -74,14 +50,6 @@
       "score": 20.0
     },
     {
-      "source": "SecurityWeek",
-      "title": "$2 Million+ Drained From Polymarket Traders in New Supply Chain Attack",
-      "url": "https://www.securityweek.com/2-million-drained-from-polymarket-traders-in-new-supply-chain-attack/",
-      "summary": "<p>Malicious code linked to a website monitoring tool was designed to hijack logged-in Polymarket sessions and siphon user funds.</p> <p>The post <a href=\"https://www.securityweek.com/2-million-drained-from-polymarket-traders-in-new-supply-chain-attack/\">$2 Million+ Drained From Polymarket Traders in New Supply Chain Attack</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "published": "Fri, 30 Oct 2026 09:41:36 +0000",
-      "score": 20.0
-    },
-    {
       "source": "The Hacker News",
       "title": "Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access",
       "url": "https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html",
@@ -90,28 +58,20 @@
       "score": 19.0
     },
     {
-      "source": "The Hacker News",
-      "title": "26,400 Valid Cloud and AI Credentials Found Exposed in Public Gitee Repositories",
-      "url": "https://thehackernews.com/2026/10/26400-valid-cloud-and-ai-credentials.html",
-      "summary": "26,400 credentials that developers left in public code on Gitee, a Chinese code-hosting service, still worked when a researcher tested them. Anyone who copied one from that code could have used it. Independent researcher Ben Zimmermann found them by scanning 7.25 million public Gitee repositories and&nbsp;reported the results&nbsp;on October 28. Most were keys for cloud and AI services, led by",
-      "published": "Thu, 29 Oct 2026 17:03:15 +0530",
+      "source": "BleepingComputer",
+      "title": "Northflank security breach leads to abuse of customers' AI API keys",
+      "url": "https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/",
+      "summary": "Cloud application hosting platform Northflank is warning customers to rotate all credentials and secrets stored on its platform after a security breach led to unauthorized use of customers' AI API keys. [...]",
+      "published": "Sat, 31 Oct 2026 14:01:12 -0400",
       "score": 19.0
     },
     {
       "source": "The Hacker News",
-      "title": "Official Claude Code Extension on Cursor Marketplace Trojanized with Persistent SSH Backdoor",
-      "url": "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html",
-      "summary": "Cybersecurity researchers have disclosed that a trojanized version of Anthropic's official Claude Code extension was distributed through the Cursor Marketplace as a legitimate update, attempting to install a persistent SSH backdoor on affected systems. The malicious update, version 2.1.313, was distributed under the extension's legitimate publisher identity, prompting Cursor to temporarily shut",
-      "published": "Fri, 30 Oct 2026 14:25:47 +0530",
-      "score": 16.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "Linux Kernel TCP Flaw With 9.8 CVSS Score Affects Ubuntu, Red Hat and Other Distributions",
-      "url": "https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html",
-      "summary": "A flaw in the Linux kernel's TCP code, tracked as&nbsp;CVE-2026-98432, affects Ubuntu, Red Hat Enterprise Linux (RHEL), and other Linux distributions. The kernel's own CVE team rates it 9.8 out of 10 on the CVSS scale. Anthropic said&nbsp;on October 27 that its AI model wrote an exploit that uses the flaw to let a remote attacker with no credentials run commands as root on Linux servers with a",
-      "published": "Thu, 29 Oct 2026 21:27:05 +0530",
-      "score": 16.0
+      "title": "CVSS 10.0 LXD, MicroCloud Flaw Lets Attackers Impersonate Trusted Clients Without a Private Key",
+      "url": "https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html",
+      "summary": "A critical flaw in Canonical's LXD and MicroCloud let an attacker log in as a trusted client without holding that client's private key. To do it, the attacker had to reach their HTTPS API over the network and have the trusted client's public certificate. Once in, the attacker would act as that client, with access to the cluster and its virtual machines. If the impersonated account is",
+      "published": "Sun, 01 Nov 2026 14:21:31 +0530",
+      "score": 15.0
     },
     {
       "source": "The Hacker News",
@@ -119,14 +79,6 @@
       "url": "https://thehackernews.com/2026/10/cloudflare-reports-182-million-network.html",
       "summary": "Threat actors are launching about 8,226 network-layer distributed denial-of-service (DDoS) attacks per hour, Cloudflare revealed Thursday. The web infrastructure and security company said it autonomously mitigated 18.2 million network-layer (L3) DDoS attacks and 14.4 trillion HTTP DDoS requests in the third quarter of 2026. That amounts to 197,400 attacks per day, or one attack every 0.44",
       "published": "Sat, 31 Oct 2026 10:26:12 +0530",
-      "score": 15.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "ThreatsDay: Critical Firewall Flaws, Banking Trojans Rented, Weaponized PDF, Token Theft + 26 More Stories",
-      "url": "https://thehackernews.com/2026/10/threatsday-critical-firewall-flaws.html",
-      "summary": "Some attacks take real skill. Others just need someone to leave a door open. This week has both. Exposed passwords, old bugs still getting exploited, and trusted software doing things it shouldn't. There's a strange mix of clever tricks and careless mistakes. Hackers are borrowing trust from familiar apps, websites, and AI tools. Some are using AI to speed things up. Others are leaving their",
-      "published": "Fri, 30 Oct 2026 00:41:58 +0530",
       "score": 15.0
     },
     {
@@ -138,11 +90,19 @@
       "score": 15.0
     },
     {
-      "source": "BleepingComputer",
-      "title": "Hackers exploit Cisco SD-WAN flaw to deploy custom KeyDrift malware",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-cisco-sd-wan-flaw-to-deploy-custom-keydrift-malware/",
-      "summary": "A newly identified advanced persistent threat (APT) group tracked as UAT-11473 was observed exploiting CVE-2026-20127, an authentication-bypass flaw in Cisco Catalyst SD-WAN Controllers, to deploy a custom malware framework called KeyDrift. [...]",
-      "published": "Thu, 29 Oct 2026 14:38:26 -0400",
+      "source": "Google News Cybersecurity",
+      "title": "Cybersecurity Threats Take Top Billing to End 2023 - National Association of Wholesaler-Distributors",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOeks2RF95SzdGcDJ4R19uLXBMeVd0V0hPXzZ4amhJNUZEU0VtZG5JODVSRFJsNFZNQ3o5ZVpNSl9hbzc2cThwRkZMWTd5RkktNlhiZTlRdy0xcFZncUtITjBXTFFySnFuZ3d1Tk9CYUtndHR0V1hpOUFjNnVZLTg2VDJ1Y1VMWTRROUs0?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxOeks2RF95SzdGcDJ4R19uLXBMeVd0V0hPXzZ4amhJNUZEU0VtZG5JODVSRFJsNFZNQ3o5ZVpNSl9hbzc2cThwRkZMWTd5RkktNlhiZTlRdy0xcFZncUtITjBXTFFySnFuZ3d1Tk9CYUtndHR0V1hpOUFjNnVZLTg2VDJ1Y1VMWTRROUs0?oc=5\" target=\"_blank\">Cybersecurity Threats Take Top Billing to End 2023</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">National Association of Wholesaler-Distributors</font>",
+      "published": "Sun, 01 Nov 2026 01:27:42 GMT",
+      "score": 15.0
+    },
+    {
+      "source": "Google News Cybersecurity",
+      "title": "78.6M Records Exposed: Healthcare Data Governance [2026] - shattered.io",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQU3Nkc1c1MTMtdFJsY2VseDFqYlZWNEp5UmIzdWRtMmNNREVpN2dPWll4Y0ZzcHRxRzNCZXRwdXVqRWNiazRhTFFHMmx5b3FlUlpnQV9aMDFzUXdiRC1CWFZDdW5jQXAtNy11cksySG1MWFVMVzRPQ0RITDdkQ2Rmb25YalVGYlVwX3lEOGxuN1d4YUI5?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxQU3Nkc1c1MTMtdFJsY2VseDFqYlZWNEp5UmIzdWRtMmNNREVpN2dPWll4Y0ZzcHRxRzNCZXRwdXVqRWNiazRhTFFHMmx5b3FlUlpnQV9aMDFzUXdiRC1CWFZDdW5jQXAtNy11cksySG1MWFVMVzRPQ0RITDdkQ2Rmb25YalVGYlVwX3lEOGxuN1d4YUI5?oc=5\" target=\"_blank\">78.6M Records Exposed: Healthcare Data Governance [2026]</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">shattered.io</font>",
+      "published": "Sun, 01 Nov 2026 08:44:44 GMT",
       "score": 15.0
     },
     {
@@ -163,35 +123,43 @@
     },
     {
       "source": "Google News Cybersecurity",
-      "title": "Should SecureOT Cybersecurity Launch Require Action From Rockwell Automation (ROK) Investors? - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOUVpXVGMzVVdnallwdWR5Y09OdFlweWlhZVhNMXhLSHpkQnpUXzVwQWxNdlNyY3pjSUhBb3d0Y0c0bWl6Mm9raWs4NGF0clhJaFBPeHdfaUlfZW92NkhZMHo5REEwTW5Cck4yS242NjNUXzFGbW5oeW9mdndhUi1vWUl5ZUZ2alg4aFV6dzExU1VCTTIzTTZaRllleHlFR3cxTjNTUWhUSXhjSDFnRmc?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxOUVpXVGMzVVdnallwdWR5Y09OdFlweWlhZVhNMXhLSHpkQnpUXzVwQWxNdlNyY3pjSUhBb3d0Y0c0bWl6Mm9raWs4NGF0clhJaFBPeHdfaUlfZW92NkhZMHo5REEwTW5Cck4yS242NjNUXzFGbW5oeW9mdndhUi1vWUl5ZUZ2alg4aFV6dzExU1VCTTIzTTZaRllleHlFR3cxTjNTUWhUSXhjSDFnRmc?oc=5\" target=\"_blank\">Should SecureOT Cybersecurity Launch Require Action From Rockwell Automation (ROK) Investors?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>",
-      "published": "Sat, 31 Oct 2026 06:15:57 GMT",
+      "title": "Critical LXD and MicroCloud Flaw (CVSS 10.0) Lets Attackers Impersonate Trusted Clients Without Private Keys - The Hacker News",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNSEtwb3BUWUJwN3hLb2N1LXRkY2xIcFJCYmFtbWF1MDJZd0ppcmNTeDc3Ynl2cWlfWFVsd3hmSGlyS3djT3hKLVVNLWFFdThYSl9yYlJGc2llel9SSUtHODJkOXUwcTJyLW9EQkZJOEdfd0VLOEQtYXpzdnBvY0NZbnNn?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxNSEtwb3BUWUJwN3hLb2N1LXRkY2xIcFJCYmFtbWF1MDJZd0ppcmNTeDc3Ynl2cWlfWFVsd3hmSGlyS3djT3hKLVVNLWFFdThYSl9yYlJGc2llel9SSUtHODJkOXUwcTJyLW9EQkZJOEdfd0VLOEQtYXpzdnBvY0NZbnNn?oc=5\" target=\"_blank\">Critical LXD and MicroCloud Flaw (CVSS 10.0) Lets Attackers Impersonate Trusted Clients Without Private Keys</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Hacker News</font>",
+      "published": "Sun, 01 Nov 2026 08:51:00 GMT",
       "score": 13.0
     },
     {
       "source": "Google News Cybersecurity",
-      "title": "Cyber security flaws may put about 70% of websites at risk - KPBS",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOdFJqM1Eya0FCamYzTkFNQ1hkb1NXN19WUGpDOUJnZmZhVTlxd3hycmtlR090WEdxbzNpZVVXZDhyMXV0Q1YzamFTZW1YajBVekxGT1ZnZjZoQkx4cXBDQlhGV2ljMjZTdHVIRklyTEd5X1NId1BoOXZ2QVZZQ0wzNFc1SVpxQ0U2TThPVFhWSVlQMk5menR1UmNYaXlIN1hlME42QTI3YnBkRUxhYVdrcDhGVQ?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxOdFJqM1Eya0FCamYzTkFNQ1hkb1NXN19WUGpDOUJnZmZhVTlxd3hycmtlR090WEdxbzNpZVVXZDhyMXV0Q1YzamFTZW1YajBVekxGT1ZnZjZoQkx4cXBDQlhGV2ljMjZTdHVIRklyTEd5X1NId1BoOXZ2QVZZQ0wzNFc1SVpxQ0U2TThPVFhWSVlQMk5menR1UmNYaXlIN1hlME42QTI3YnBkRUxhYVdrcDhGVQ?oc=5\" target=\"_blank\">Cyber security flaws may put about 70% of websites at risk</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">KPBS</font>",
-      "published": "Sat, 31 Oct 2026 00:38:00 GMT",
+      "title": "Aviatrix Introduces Clearance to Contain Compromised Cloud Workloads Without Disrupting Production - Cybersecurity Insiders",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOdHFaeFh3UlFWUGx4WVJ2OUllLTFpcjVLLWZwR3R6QS1adVNNajZsZHRnMFQtUUxac0JsRjRrSjY2MkJTOWpiYXJqNjBJc1RONGgzdmt1azM3czRuenJ4R2RaTTV0RVF1aWtTaF9GRVZsQm5VLWFFN2hxeFM0NVhLbmhJbG5CX252MjVWQjhSbUFIS0g2X3JpdlFDNWpWVlVLR1ktWEQ2Ym5KMEVBQ3JIa2lUQXNXNU4wZ0gwaHpwWmkwYWVfaWdIbWtEemZoMm0wN1ZlaQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi1AFBVV95cUxOdHFaeFh3UlFWUGx4WVJ2OUllLTFpcjVLLWZwR3R6QS1adVNNajZsZHRnMFQtUUxac0JsRjRrSjY2MkJTOWpiYXJqNjBJc1RONGgzdmt1azM3czRuenJ4R2RaTTV0RVF1aWtTaF9GRVZsQm5VLWFFN2hxeFM0NVhLbmhJbG5CX252MjVWQjhSbUFIS0g2X3JpdlFDNWpWVlVLR1ktWEQ2Ym5KMEVBQ3JIa2lUQXNXNU4wZ0gwaHpwWmkwYWVfaWdIbWtEemZoMm0wN1ZlaQ?oc=5\" target=\"_blank\">Aviatrix Introduces Clearance to Contain Compromised Cloud Workloads Without Disrupting Production</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Cybersecurity Insiders</font>",
+      "published": "Sun, 01 Nov 2026 08:25:58 GMT",
       "score": 13.0
     },
     {
-      "source": "Google News Cybersecurity",
-      "title": "PHP flaws take 32 UK government services offline - Cybersecurity Insiders",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOWDhtdDZjYV9YWHJPcWpzSERQTV9TSUJkakNhOW1rWk9DZDNnSHRFR00zR3gycFpGbEp1elk2VVB0RFhiUzF4ZDJlUEt4Z1ZWaWliVE9fVlRqYTEyb1dxblowLWxXRzRyTkZzWGpRNWRjY0d6TWRXYUwtMDBqaDBFYVpmUXNzaXVDWHAwUmEtQ0pkZw?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxOWDhtdDZjYV9YWHJPcWpzSERQTV9TSUJkakNhOW1rWk9DZDNnSHRFR00zR3gycFpGbEp1elk2VVB0RFhiUzF4ZDJlUEt4Z1ZWaWliVE9fVlRqYTEyb1dxblowLWxXRzRyTkZzWGpRNWRjY0d6TWRXYUwtMDBqaDBFYVpmUXNzaXVDWHAwUmEtQ0pkZw?oc=5\" target=\"_blank\">PHP flaws take 32 UK government services offline</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Cybersecurity Insiders</font>",
-      "published": "Sat, 31 Oct 2026 06:59:42 GMT",
-      "score": 13.0
+      "source": "The Hacker News",
+      "title": "Hackers Steal About $2.7 Million From Polymarket Traders via Hijacked DebugBear Script",
+      "url": "https://thehackernews.com/2026/11/hackers-steal-about-27-million-from.html",
+      "summary": "Malicious code on the website of prediction market Polymarket sold some signed-in traders' positions and moved their funds to the hackers on October 29. The code had replaced a page-speed script that the site loaded from an outside company. Polymarket says&nbsp;it is refunding about $2.7 million to 726 affected wallets.&nbsp;Blockchain records&nbsp;show crypto worth about $2.64 million reached",
+      "published": "Sun, 01 Nov 2026 12:55:40 +0530",
+      "score": 12.0
     },
     {
-      "source": "Google News Cybersecurity",
-      "title": "Cybastion and Cisco to Launch Regional Cybersecurity Center in Côte d’Ivoire - pan african visions",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNeWxNdWZNNjBxRFpUT3F0dzZzYzB3VU1lVGRwajdkOUNtcTdDc0s2VWlpX1V0RTVaMmNOcTlFMDhfckpqREZxT3BQOXRkMHFlMkJWRWNnOFhZUjNacXlMVnVISjZ3Z0R4UlcwaGJIVmVzVlNkTkxyTnVGRWRxWkxkN1NkX3BWdEhXLWRTSUR5Xy1pRFJqVXg5cHJRSXVMYUpiazJVb3ctVlJpQW9rMW5wdkRiRTk?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxNeWxNdWZNNjBxRFpUT3F0dzZzYzB3VU1lVGRwajdkOUNtcTdDc0s2VWlpX1V0RTVaMmNOcTlFMDhfckpqREZxT3BQOXRkMHFlMkJWRWNnOFhZUjNacXlMVnVISjZ3Z0R4UlcwaGJIVmVzVlNkTkxyTnVGRWRxWkxkN1NkX3BWdEhXLWRTSUR5Xy1pRFJqVXg5cHJRSXVMYUpiazJVb3ctVlJpQW9rMW5wdkRiRTk?oc=5\" target=\"_blank\">Cybastion and Cisco to Launch Regional Cybersecurity Center in Côte d’Ivoire</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">pan african visions</font>",
-      "published": "Sat, 31 Oct 2026 00:27:47 GMT",
-      "score": 13.0
+      "source": "The Hacker News",
+      "title": "FBI Links North Korea's TraderTraitor to Record $6.43 Billion Binance Crypto Heist",
+      "url": "https://thehackernews.com/2026/11/fbi-links-north-koreas-tradertraitor-to.html",
+      "summary": "The U.S. Federal Bureau of Investigation (FBI) has officially attributed the theft of more than $6 billion in virtual assets to TraderTraitor, a North Korea-aligned elite hacking group also tracked as Jade Sleet, Pressure Chollima, PUKCHONG, Slow Pisces, and UNC4899. The FBI, along with the U.S. Secret Service (USSS) and the Internal Revenue Service Criminal Investigation (IRS-CI), said it",
+      "published": "Sun, 01 Nov 2026 12:33:00 +0530",
+      "score": 12.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "NetamLoader Malware Targets Government Windows 10 Systems in Asia via .NET Injection",
+      "url": "https://thehackernews.com/2026/11/netamloader-malware-targets-government.html",
+      "summary": "Cybersecurity researchers have disclosed details of what has been described as a \"highly sophisticated infection chain\" targeting government organizations in Asia. The activity, detailed by Kaspersky this week, targeted a custom Windows 10 build used exclusively by government entities in Asia and involves the deployment of a previously undocumented .NET assembly-loading framework codenamed",
+      "published": "Sun, 01 Nov 2026 12:32:58 +0530",
+      "score": 12.0
     },
     {
       "source": "The Hacker News",
@@ -207,6 +175,38 @@
       "url": "https://thehackernews.com/2026/10/chinese-hackers-use-ai-powered-artex-to.html",
       "summary": "Chinese state-sponsored threat actors have been observed using a Go-based artificial intelligence (AI)-powered penetration testing framework called ARTEX in attacks aimed at high-value targets simultaneously. The activity has been attributed by CrowdStrike to a China-based \"targeted intrusion adversary\" it tracks under the moniker Vapor Panda (previously VexatiousTemper). First identified in",
       "published": "Fri, 30 Oct 2026 22:28:44 +0530",
+      "score": 12.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "TeamViewer Flaw Lets Remote Computers Attack Users Who Connect to Control Them",
+      "url": "https://thehackernews.com/2026/10/teamviewer-flaw-lets-remote-computers.html",
+      "summary": "TeamViewer has fixed a flaw that lets the machine being controlled in a remote session attack the computer that connected to control it. In a TeamViewer session, the computer that connects and takes control is the viewer, and the machine it controls is the host. A malicious or compromised host can exploit the flaw to crash the viewer's TeamViewer and, depending on the platform, may also run",
+      "published": "Fri, 30 Oct 2026 20:47:28 +0530",
+      "score": 12.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "Trezor Warns of Suspected Hardware Implant in One of Its Wallets Sold by CryptoBilis",
+      "url": "https://thehackernews.com/2026/10/trezor-warns-of-suspected-hardware.html",
+      "summary": "A Trezor Safe 5 hardware wallet bought from the reseller CryptoBilis has an extra circuit board that sends out the recovery phrase over a mobile network, a customer has reported. Trezor has not yet examined the device. It is telling everyone who bought a Trezor from CryptoBilis since March 2026 to move their funds to a new wallet with a new recovery phrase. Trezor said in a&nbsp;blog post&nbsp",
+      "published": "Fri, 30 Oct 2026 17:51:56 +0530",
+      "score": 12.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "Why Urgent Security Fixes Aren't Fixed. Observe, Prove, Act, Confirm Gets Them Moving",
+      "url": "https://thehackernews.com/2026/10/why-urgent-security-fixes-arent-fixed.html",
+      "summary": "The alert is critical. The fix is known. And the ticket sits in a queue for days. Security teams understand the risk, but the people who keep applications available need proof that the change won’t break anything.&nbsp; Their concerns are practical. An IPS protection could block legitimate traffic. A configuration change could interrupt a service. An endpoint policy could affect an application",
+      "published": "Fri, 30 Oct 2026 17:28:53 +0530",
+      "score": 12.0
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "New Android SMS of Death exploit can remotely crash unpatched phones",
+      "url": "https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones/",
+      "summary": "A security researcher has released a proof-of-concept exploit for a recently patched Android vulnerability, dubbed \"SMS of Death\" and tracked as CVE-2026-58882, that lets attackers remotely disrupt cellular service or crash phones by sending a specially crafted text message. [...]",
+      "published": "Sat, 31 Oct 2026 11:35:11 -0400",
       "score": 12.0
     }
   ]
