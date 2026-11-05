@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-04T12:17:36.875167+00:00",
+  "generated_at_utc": "2026-11-05T12:31:46.486700+00:00",
   "publication_enabled": false,
   "editorial_note": "Candidates require human/editorial review and original technical work before publication.",
   "feed_errors": [
@@ -10,6 +10,22 @@
   ],
   "candidates": [
     {
+      "source": "The Hacker News",
+      "title": "Zyxel GS1900 Patch Fails to Block Zero-Day Exploit Allowing Root Command Execution",
+      "url": "https://thehackernews.com/2026/11/zyxel-gs1900-patch-fails-to-block-zero.html",
+      "summary": "Zyxel GS1900 network switches that received the vendor's earlier fix for an actively exploited flaw are still open to the exploit attackers used, researchers at Binarly found. The exploit lets anyone who can reach a switch's web management interface run commands on it without logging in. Zyxel has released new firmware for 10 GS1900 models that closes the hole. The earlier fix is the 2.90",
+      "published": "Thu, 05 Nov 2026 12:36:33 +0530",
+      "score": 38.0
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "Zyxel fixes zero-day exploited to hack nearly 1,000 network switches",
+      "url": "https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/",
+      "summary": "Zyxel has patched a zero-day vulnerability in its GS1900 series network switches that hackers exploited to compromise nearly 1,000 devices worldwide and steal configuration files and credentials. [...]",
+      "published": "Wed, 04 Nov 2026 15:58:19 -0500",
+      "score": 28.0
+    },
+    {
       "source": "BleepingComputer",
       "title": "CISA flags WordPress RCE flaw as actively exploited in attacks",
       "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-wordpress-rce-flaw-as-actively-exploited-in-attacks/",
@@ -19,99 +35,67 @@
     },
     {
       "source": "SecurityWeek",
-      "title": "Malicious cPGuard Updates Served in OpsShield Supply Chain Attack",
-      "url": "https://www.securityweek.com/malicious-cpguard-updates-served-in-opsshield-supply-chain-attack/",
-      "summary": "<p>Using compromised credentials, the attackers accessed OpsShield’s update servers and poisoned multiple cPGuard versions.</p> <p>The post <a href=\"https://www.securityweek.com/malicious-cpguard-updates-served-in-opsshield-supply-chain-attack/\">Malicious cPGuard Updates Served in OpsShield Supply Chain Attack</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "published": "Wed, 04 Nov 2026 10:54:48 +0000",
-      "score": 24.0
+      "title": "Zyxel Switch Hacks Blamed on Patched Flaw Actually Exploited a Zero-Day",
+      "url": "https://www.securityweek.com/zyxel-switch-hacks-blamed-on-patched-flaw-actually-exploited-a-zero-day/",
+      "summary": "<p>Tracked as CVE-2026-107441, the out-of-bounds write flaw could allow attackers to execute OS commands via crafted HTTP requests.</p> <p>The post <a href=\"https://www.securityweek.com/zyxel-switch-hacks-blamed-on-patched-flaw-actually-exploited-a-zero-day/\">Zyxel Switch Hacks Blamed on Patched Flaw Actually Exploited a Zero-Day</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "published": "Thu, 05 Nov 2026 10:56:41 +0000",
+      "score": 23.0
     },
     {
       "source": "The Hacker News",
-      "title": "Synology NAS Devices Targeted in Ransomware Attacks Exploiting Patched DSM Flaw",
-      "url": "https://thehackernews.com/2026/11/synology-nas-devices-targeted-in.html",
-      "summary": "Synology is urging customers to update the DiskStation Manager (DSM) software powering its Network Attached Storage (NAS) devices following ransomware attacks. The Taiwanese vendor said it observed threat actors exploiting a vulnerability patched in December 2024 to target devices running outdated versions of DSM. \"These attacks aim to encrypt data and extort ransom,\" it said in a statement",
-      "published": "Tue, 03 Nov 2026 13:13:07 +0530",
-      "score": 20.0
-    },
-    {
-      "source": "BleepingComputer",
-      "title": "UK school estate hit by 3AM ransomware in suspected AI-assisted attack",
-      "url": "https://www.bleepingcomputer.com/news/security/uk-school-estate-hit-by-3am-ransomware-in-suspected-ai-assisted-attack/",
-      "summary": "A 3AM ransomware affiliate targeted a school estate in the UK and successfully encrypted around 37 of nearly 50 machines reached from an unmanaged host. [...]",
-      "published": "Tue, 03 Nov 2026 09:00:00 -0500",
-      "score": 20.0
+      "title": "APT29-Linked Hackers Hijack Web Analytics Script to Deliver iOS and Android Exploits",
+      "url": "https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html",
+      "summary": "The Russia-linked threat actor known as APT29 is presumed to be behind a large-scale watering hole campaign targeting iOS and Android users through compromised websites, fake domains, and a supply chain attack involving a Ukrainian web analytics service called Plerdy SEO Tracker. \"The injected JavaScript code collects browser and device attributes,\" Sekoia researchers Amaury-Jacques Garçon and",
+      "published": "Wed, 04 Nov 2026 19:57:52 +0530",
+      "score": 21.0
     },
     {
       "source": "SecurityWeek",
-      "title": "Android’s November 2026 Updates Patch Over 200 Vulnerabilities",
-      "url": "https://www.securityweek.com/androids-november-2026-updates-patch-over-200-vulnerabilities/",
-      "summary": "<p>The most severe is a critical flaw in Framework leading to remote code execution without user interaction.</p> <p>The post <a href=\"https://www.securityweek.com/androids-november-2026-updates-patch-over-200-vulnerabilities/\">Android&#8217;s November 2026 Updates Patch Over 200 Vulnerabilities</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "published": "Tue, 03 Nov 2026 12:21:49 +0000",
+      "title": "Barracuda ESG Authentication Bypass Flaw Opens Path to Root",
+      "url": "https://www.securityweek.com/barracuda-email-security-gateway-authentication-bypass-opens-path-to-root/",
+      "summary": "<p>An authentication bypass and a command injection flaw can be chained for root access on Barracuda’s Email Security Gateway appliances.</p> <p>The post <a href=\"https://www.securityweek.com/barracuda-email-security-gateway-authentication-bypass-opens-path-to-root/\">Barracuda ESG Authentication Bypass Flaw Opens Path to Root</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "published": "Wed, 04 Nov 2026 14:24:54 +0000",
       "score": 20.0
     },
     {
-      "source": "SecurityWeek",
-      "title": "UK Cyber Chief Says the UK Will Face AI Cyberattacks on Critical Infrastructure by 2028",
-      "url": "https://www.securityweek.com/uk-cyber-chief-says-the-uk-will-face-ai-cyberattacks-on-critical-infrastructure-by-2028/",
-      "summary": "<p>The U.K. will likely face AI cyberattacks on its critical infrastructure by 2028 as criminals and states, including China and Russia, increasingly use AI in their cyber activity.</p> <p>The post <a href=\"https://www.securityweek.com/uk-cyber-chief-says-the-uk-will-face-ai-cyberattacks-on-critical-infrastructure-by-2028/\">UK Cyber Chief Says the UK Will Face AI Cyberattacks on Critical Infrastructure by 2028</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "published": "Tue, 03 Nov 2026 09:49:12 +0000",
+      "source": "The Hacker News",
+      "title": "OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run",
+      "url": "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
+      "summary": "OpenAI on Wednesday detailed a pipeline that employed an upcoming cyber-focused artificial intelligence (AI) model to validate and patch 948 local privilege escalation vulnerabilities in Linux for $1.2 million in API costs. \"Our prototype identified and analyzed 2,308 candidate Linux kernel findings, dynamically reproduced 1,724 vulnerabilities, and produced 948 local privilege escalation (LPE)",
+      "published": "Thu, 05 Nov 2026 17:38:54 +0530",
       "score": 19.0
     },
     {
-      "source": "The Hacker News",
-      "title": "⚡ Weekly Recap: Critical CVEs, Linux DDoS Botnet, Device-Code Phishing, Android Spyware and More",
-      "url": "https://thehackernews.com/2026/11/weekly-recap-critical-cves-linux-ddos.html",
-      "summary": "Some attacks this week didn't need much of a trick. A fake support call, a trusted extension, a shared link, or a device with no password. Small things that people barely think about. Yet each was enough to cause serious trouble. Then there were the bigger messes. Billions stolen, hidden networks of hacked devices, poisoned software, and attackers finding new ways to turn normal tools against",
-      "published": "Mon, 02 Nov 2026 22:27:56 +0530",
-      "score": 18.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "Google Disrupts 1.3 Million-Device Android Botnet, Says TV Box Maker Sold Criminal Access",
-      "url": "https://thehackernews.com/2026/11/google-disrupts-13-million-device.html",
-      "summary": "A botnet of more than 1.3 million Android devices, mostly TV set-top boxes, lost control of its servers in late October in a takedown led by Google. Google says&nbsp;it is highly confident that device maker Videostrong intentionally put a backdoor in the boxes and sold access to criminals. They used the boxes for ad fraud and to pass other people's internet traffic through owners' home",
-      "published": "Mon, 02 Nov 2026 21:20:26 +0530",
-      "score": 18.0
-    },
-    {
       "source": "BleepingComputer",
-      "title": "Google adds new $250,000 Cloud VRP reward for Root-in-Cloud bugs",
-      "url": "https://www.bleepingcomputer.com/news/google/google-adds-new-250-000-cloud-vrp-reward-for-root-in-cloud-bugs/",
-      "summary": "Google has expanded its Cloud Vulnerability Reward Program (VRP) with a new top-tier reward for high-impact architectural security flaws. [...]",
-      "published": "Tue, 03 Nov 2026 07:05:52 -0500",
-      "score": 18.0
-    },
-    {
-      "source": "BleepingComputer",
-      "title": "Google disrupts million-device XCPE Android malware botnet, bans TV box maker",
-      "url": "https://www.bleepingcomputer.com/news/security/google-disrupts-million-device-xcpe-android-malware-botnet-bans-tv-box-maker/",
-      "summary": "Google and industry partners have dismantled the XCPE malware botnet consisting of more than 1.3 million Android TV streaming TV boxes that Google says its manufacturer intentionally infected with malware to generate revenue through cybercrime activities. [...]",
-      "published": "Mon, 02 Nov 2026 13:16:34 -0500",
-      "score": 18.0
-    },
-    {
-      "source": "Google News Cybersecurity",
-      "title": "CISA Kicks Off Critical Infrastructure Security and Resilience Month 2026 - Homeland Security Today",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQQTN1SVRKV1JHVHB0clJGZ0o5LUlEd0tRWTNRN2FiWnhHSDVUOTlVQmpoSW9NWmhKanNLaG5JNFVDc3lkWE84ZXI2YllYbmh6dFB2ZnFkYVRmY0VlVFFUbW1KOGJKVlNhU3R3b0lwM2Z0OTU4NE9EVy1BYmFxSThFUnNycWpuTGgyR3dCdGlqRVZ1Y3J1MWZxNE1VNm8yQlRBS3FlMEg2amllcmRrZHh2S01seDhPMGxneXVyRE1KRzRaVUxqZWl6LXd0NmI?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMizAFBVV95cUxQQTN1SVRKV1JHVHB0clJGZ0o5LUlEd0tRWTNRN2FiWnhHSDVUOTlVQmpoSW9NWmhKanNLaG5JNFVDc3lkWE84ZXI2YllYbmh6dFB2ZnFkYVRmY0VlVFFUbW1KOGJKVlNhU3R3b0lwM2Z0OTU4NE9EVy1BYmFxSThFUnNycWpuTGgyR3dCdGlqRVZ1Y3J1MWZxNE1VNm8yQlRBS3FlMEg2amllcmRrZHh2S01seDhPMGxneXVyRE1KRzRaVUxqZWl6LXd0NmI?oc=5\" target=\"_blank\">CISA Kicks Off Critical Infrastructure Security and Resilience Month 2026</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Homeland Security Today</font>",
-      "published": "Wed, 04 Nov 2026 09:00:15 GMT",
-      "score": 18.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "Attackers Target Unpatched CryptoPayment Gateway Flaw That Can Expose Wallet Credentials",
-      "url": "https://thehackernews.com/2026/11/attackers-target-unpatched.html",
-      "summary": "Threat actors are attempting to exploit an unpatched maximum-severity security vulnerability in the CryptoPayment Gateway WordPress plugin, according to findings from Defused Cyber. The vulnerability in question is CVE-2026-81648, which carries a CVSS score of 10.0. Successful exploitation of the flaw could permit unauthenticated users to delete arbitrary files on the server and extract",
-      "published": "Tue, 03 Nov 2026 11:04:37 +0530",
+      "title": "Vercel rolls out new protection against stolen session cookie attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/vercel-rolls-out-new-protection-against-stolen-session-cookie-attacks/",
+      "summary": "Vercel is gradually rolling out Device Bound Session Credentials (DBSC) on its platform as a key defense against information stealer malware. [...]",
+      "published": "Wed, 04 Nov 2026 16:31:18 -0500",
       "score": 16.0
     },
     {
-      "source": "Google News Cybersecurity",
-      "title": "Cybersecurity: Google Takes Down Global Android Botnet - Sixteen:Nine",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQd1VuSE9hR0owVHFRZUtyX2FSZnRsYWIyTmhRVWVYWlRoeUQzSm4zQ291TEVRcmVJeEx3b1oyak9lYzY2UDdQNjVxcENLUVVhem9ROTZqam9wQU5Qc1EtMmNnTTJ3T1g4VURXc3JkdWRNMkVPclhKN2RrVHV4WWNUTUl4c0xsUmtOMFdzUTFncE8?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxQd1VuSE9hR0owVHFRZUtyX2FSZnRsYWIyTmhRVWVYWlRoeUQzSm4zQ291TEVRcmVJeEx3b1oyak9lYzY2UDdQNjVxcENLUVVhem9ROTZqam9wQU5Qc1EtMmNnTTJ3T1g4VURXc3JkdWRNMkVPclhKN2RrVHV4WWNUTUl4c0xsUmtOMFdzUTFncE8?oc=5\" target=\"_blank\">Cybersecurity: Google Takes Down Global Android Botnet</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Sixteen:Nine</font>",
-      "published": "Wed, 04 Nov 2026 10:45:27 GMT",
+      "source": "BleepingComputer",
+      "title": "NIKKE PC game launcher hacked to spread remote access, data-stealing malware",
+      "url": "https://www.bleepingcomputer.com/news/security/nikke-pc-game-launcher-hacked-to-spread-remote-access-data-stealing-malware/",
+      "summary": "The developers of Goddess of Victory: NIKKE have confirmed that hackers tampered with the game's PC launcher scripts in a supply-chain attack, distributing malware capable of stealing credentials and cryptocurrency wallet data. [...]",
+      "published": "Wed, 04 Nov 2026 11:58:46 -0500",
       "score": 16.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "Apple to Start Scanning Publicly Shared iCloud Photos and Files for Harmful Content",
+      "url": "https://thehackernews.com/2026/11/apple-to-start-scanning-publicly-shared.html",
+      "summary": "Apple has revealed that it plans to start checking public iCloud links for harmful content starting with iOS 27.3, iPadOS 27.3, macOS 27.3, and visionOS 27.3. The change specifically applies to scenarios where users share iCloud content, such as photos in iCloud Photos or files in iCloud Drive, by sharing a link and making it accessible to \"Anyone with the link.\" When users choose this option,",
+      "published": "Thu, 05 Nov 2026 14:43:28 +0530",
+      "score": 15.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "SonicWall Won't Patch EoL GMS Flaws That Could Expose Files, Alter Database Records",
+      "url": "https://thehackernews.com/2026/11/sonicwall-wont-patch-eol-gms-flaws-that.html",
+      "summary": "SonicWall has warned of two vulnerabilities impacting end-of-life Global Management System (GMS) systems that it said will not be patched. Details of the security flaws, which affect SonicWall GMS 9.5.2 and earlier versions, are below - CVE-2026-109593 (CVSS score: 9.1) - An unauthenticated file read vulnerability that could allow an attacker with network access to read internal GMS files,",
+      "published": "Wed, 04 Nov 2026 22:30:38 +0530",
+      "score": 15.0
     },
     {
       "source": "The Hacker News",
@@ -138,75 +122,91 @@
       "score": 15.0
     },
     {
-      "source": "The Hacker News",
-      "title": "DarkBlinders Compromises Israeli Target and Iraqi Kurdish Government Cloud Environment",
-      "url": "https://thehackernews.com/2026/11/darkblinders-compromises-israeli-target.html",
-      "summary": "Cybersecurity researchers have disclosed details of a cyber espionage campaign targeting Israel and the Kurdistan Region of Iraq by an Iran state-aligned threat actor between August and October 2026. According to a report published by Dream Research Labs, the campaign has led to the compromise of a high-profile individual in Israel, along with additional compromises affecting a government cloud",
-      "published": "Mon, 02 Nov 2026 20:16:05 +0530",
+      "source": "BleepingComputer",
+      "title": "Google Calendar phishing campaign hijacks sessions, bypasses MFA",
+      "url": "https://www.bleepingcomputer.com/news/security/google-calendar-phishing-campaign-hijacks-sessions-bypasses-mfa/",
+      "summary": "A phishing campaign used Google Calendar invites, trusted redirects, and fake login pages to hijack corporate Google sessions and bypass MFA protections. Material Security examines how Operation CloudFire tracked the attacks, blocked malicious messages, and helped take down nearly 900 domains used by the attackers. [...]",
+      "published": "Wed, 04 Nov 2026 10:00:10 -0500",
       "score": 15.0
     },
     {
       "source": "BleepingComputer",
-      "title": "Google: LLMjacking attacks rack up $1 million in cloud AI charges",
-      "url": "https://www.bleepingcomputer.com/news/security/google-llmjacking-attacks-rack-up-1-million-in-cloud-ai-charges/",
-      "summary": "Large language model hijacking attacks, also known as LLMjacking, are generating large fraudulent cloud charges, with some organizations losing more than $100,000 per day. [...]",
-      "published": "Tue, 03 Nov 2026 13:51:04 -0500",
+      "title": "SonicWall warns of unpatched flaws in end-of-life GMS software",
+      "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-unpatched-flaws-in-end-of-life-gms-software/",
+      "summary": "SonicWall warned customers of two security flaws affecting end-of-life Global Management System (GMS) systems that will not be patched. [...]",
+      "published": "Wed, 04 Nov 2026 09:42:25 -0500",
       "score": 15.0
     },
     {
-      "source": "BleepingComputer",
-      "title": "Barracuda warns of critical flaws allowing root access to devices",
-      "url": "https://www.bleepingcomputer.com/news/security/barracuda-warns-of-critical-flaws-allowing-root-access-to-devices/",
-      "summary": "Cybersecurity company Barracuda Networks warned customers to patch two vulnerabilities that can let attackers run commands with root privileges. [...]",
-      "published": "Tue, 03 Nov 2026 10:06:16 -0500",
+      "source": "SecurityWeek",
+      "title": "The Agent Smith Dilemma: Governing Agentic Identities",
+      "url": "https://www.securityweek.com/the-agent-smith-dilemma-governing-agentic-identities/",
+      "summary": "<p>Every autonomous AI agent deployed across your enterprise today is a new proxy identity operating inside your perimeter.</p> <p>The post <a href=\"https://www.securityweek.com/the-agent-smith-dilemma-governing-agentic-identities/\">The Agent Smith Dilemma: Governing Agentic Identities</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "published": "Thu, 05 Nov 2026 11:15:00 +0000",
       "score": 15.0
     },
     {
       "source": "Google News Cybersecurity",
-      "title": "Due Diligence in International Law: the Environment, Human Rights and Cybersecurity - Freshfields",
-      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPVWhuVUhuZFhPMjlWSWRQMXFHZnNZbkFQSXJiUnBqeDlRd1VCLTBTcF93QXI0SzRLdlctdmd0VXJyX05vR2VPNW1ESkhobkZDSGRia1BWSExkZzFuZ3hoU1c3WWpfTXNVTFdSeGpaMXc4NHhNODhQWXRWTmFqWE04UkF5YXpqUmpTUi01N0I3eVVaaDJCUU9RV29kVzBjREd5R2p3NWdMNVNPYXUzTmpFcmVWYWZBWU5aWlVFSTM3ZE81MEhlNlBmX0NsOElXdnVVQXpnN2F0aEdvdUozSHNhcHlJcUNlbzNadmF3Y2RR?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi7gFBVV95cUxPVWhuVUhuZFhPMjlWSWRQMXFHZnNZbkFQSXJiUnBqeDlRd1VCLTBTcF93QXI0SzRLdlctdmd0VXJyX05vR2VPNW1ESkhobkZDSGRia1BWSExkZzFuZ3hoU1c3WWpfTXNVTFdSeGpaMXc4NHhNODhQWXRWTmFqWE04UkF5YXpqUmpTUi01N0I3eVVaaDJCUU9RV29kVzBjREd5R2p3NWdMNVNPYXUzTmpFcmVWYWZBWU5aWlVFSTM3ZE81MEhlNlBmX0NsOElXdnVVQXpnN2F0aEdvdUozSHNhcHlJcUNlbzNadmF3Y2RR?oc=5\" target=\"_blank\">Due Diligence in International Law: the Environment, Human Rights and Cybersecurity</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Freshfields</font>",
-      "published": "Wed, 04 Nov 2026 11:15:09 GMT",
-      "score": 15.0
+      "title": "Cybersecurity News: Blood bank fridge hacks, Anthropic model identity, Google Calendar phishing - CISO Series",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE52SGk3dG8yTkJMMUpYSHhQSDVzMjIxV1hzYzZVbW1KTW9NRVV0X0w4Q1lYVXo4cU1uMTdnZzc3dHhjcVlsb281RWIzWmE3Um1wY25EeFR4dHJPbDI4NTU5MVdBU29mQjJlZlE?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiakFVX3lxTE52SGk3dG8yTkJMMUpYSHhQSDVzMjIxV1hzYzZVbW1KTW9NRVV0X0w4Q1lYVXo4cU1uMTdnZzc3dHhjcVlsb281RWIzWmE3Um1wY25EeFR4dHJPbDI4NTU5MVdBU29mQjJlZlE?oc=5\" target=\"_blank\">Cybersecurity News: Blood bank fridge hacks, Anthropic model identity, Google Calendar phishing</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CISO Series</font>",
+      "published": "Thu, 05 Nov 2026 11:00:00 GMT",
+      "score": 14.0
+    },
+    {
+      "source": "Google News Cybersecurity",
+      "title": "Attacker abuses Microsoft Entra ID to target downstream MSP clients - Cybersecurity Dive",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPclFrMGlHdG9TZGJPSFVodktDclRaRElTcnNQM0JjdFN6cU5rWU1Edk9Xa3g0dE5CeENwYnoyODJHcm1scG5ONkRKM0Y5VXdoanpRT0pWR1hoM1lkNENsMndPSDVZSEstRlFxVHNrZGVPenBfV0xGQzdBWEk5WDQ1US1ORS1waHNjVThqd0l0MzFNS2M?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxPclFrMGlHdG9TZGJPSFVodktDclRaRElTcnNQM0JjdFN6cU5rWU1Edk9Xa3g0dE5CeENwYnoyODJHcm1scG5ONkRKM0Y5VXdoanpRT0pWR1hoM1lkNENsMndPSDVZSEstRlFxVHNrZGVPenBfV0xGQzdBWEk5WDQ1US1ORS1waHNjVThqd0l0MzFNS2M?oc=5\" target=\"_blank\">Attacker abuses Microsoft Entra ID to target downstream MSP clients</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Cybersecurity Dive</font>",
+      "published": "Wed, 04 Nov 2026 20:59:34 GMT",
+      "score": 13.0
+    },
+    {
+      "source": "Google News Cybersecurity",
+      "title": "Global website outage after AI detects flaws, and other cybersecurity news - World Economic Forum",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPRkZTWDljQ1hwTHpJbXFBQmN4YkZvTXVvdWRkSTluX1lFS2V3VHRoSm94YklrdHdyZkZtMTFDMVdXeVRwYUg2Ry1UYTl4cXFzcmNtZXZsa1d4ME0xR3drODF3c25RbFdWUlh5UDhLNUFGY3F4cmJobnYyUHJINWIyVVRvSTRDdjFKdDRwazdnT3BybkNFX09ES194aGE?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxPRkZTWDljQ1hwTHpJbXFBQmN4YkZvTXVvdWRkSTluX1lFS2V3VHRoSm94YklrdHdyZkZtMTFDMVdXeVRwYUg2Ry1UYTl4cXFzcmNtZXZsa1d4ME0xR3drODF3c25RbFdWUlh5UDhLNUFGY3F4cmJobnYyUHJINWIyVVRvSTRDdjFKdDRwazdnT3BybkNFX09ES194aGE?oc=5\" target=\"_blank\">Global website outage after AI detects flaws, and other cybersecurity news</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">World Economic Forum</font>",
+      "published": "Wed, 04 Nov 2026 22:59:41 GMT",
+      "score": 13.0
     },
     {
       "source": "The Hacker News",
-      "title": "Critical Rails Flaw Lets Attackers Write Server Files via Crafted ImageMagick Uploads",
-      "url": "https://thehackernews.com/2026/11/critical-rails-flaw-lets-attackers.html",
-      "summary": "A critical flaw in Ruby on Rails could allow an unauthenticated attacker to write arbitrary files on an app's server by uploading a crafted file if the app processes uploads using ImageMagick. The Rails project disclosed the flaw in&nbsp;an advisory&nbsp;and fixed it in versions 8.1.4.1 and 8.0.5.2. The flaw is in Active Storage, the part of Rails that handles file uploads. Some apps store",
-      "published": "Wed, 04 Nov 2026 17:37:04 +0530",
+      "title": "5 Active Cyber Threats That Put US Enterprises at Risk in October 2026",
+      "url": "https://thehackernews.com/2026/11/5-active-cyber-threats-that-put-us.html",
+      "summary": "October 2026 brought another wave of cyber threats targeting US businesses, with attackers exploiting trusted platforms, legitimate authentication processes, and everyday business workflows. For enterprises, these campaigns raise the stakes beyond individual security incidents, increasing the risk of financial losses, data breaches, and costly operational disruption. Below, we examine five",
+      "published": "Thu, 05 Nov 2026 15:36:19 +0530",
       "score": 12.0
     },
     {
       "source": "The Hacker News",
-      "title": "Radio With No Radar: Why Agent Runtime Security Fails Without the Layers Beneath It",
-      "url": "https://thehackernews.com/2026/11/radio-with-no-radar-why-agent-runtime.html",
-      "summary": "Nearly every agent security pitch now ends on the same promise: the product stops the bad action in real time. The promise holds for one kind of agent, the kind whose traffic passes through a gateway the enterprise owns. Most agents never touch one. One recent case shows what that gap looks like in practice. An employee asked an AI assistant to trigger a mass-email automation. The automation",
-      "published": "Wed, 04 Nov 2026 17:04:20 +0530",
+      "title": "CERT-In Flags AI-Driven Attacks as Backdoored ARTEX Exposes 62 Consoles to Root Access",
+      "url": "https://thehackernews.com/2026/11/backdoored-docker-image-for-artex-ai.html",
+      "summary": "The Indian Computer Emergency Response Team (CERT-In) has disclosed that an artificial intelligence (AI)-assisted threat actor it tracks as Crafty Falcon is targeting organizations in the Banking, Financial Services, and Insurance (BFSI) sectors in the country. Describing the threat as active and ongoing, the activity involves the use of publicly-available AI-driven offensive security tools",
+      "published": "Thu, 05 Nov 2026 14:12:03 +0530",
       "score": 12.0
     },
     {
       "source": "The Hacker News",
-      "title": "China-Aligned Hackers Hijack Sogou Input Method DNS Requests to Deploy DarkVigil Backdoor",
-      "url": "https://thehackernews.com/2026/11/china-aligned-hackers-hijack-sogou.html",
-      "summary": "A China-aligned threat actor known as SlippyNunchucks has been attributed to a Domain Name System (DNS) hijacking operation abusing insecure HTTP communications in Windows versions of Sogou Input Method as part of a surveillance campaign designed to deploy an implant called DarkVigil (aka FDMTP). The campaign, observed starting July 1, 2026, is assessed to have targeted organizations and",
-      "published": "Wed, 04 Nov 2026 16:54:31 +0530",
+      "title": "Hackers Exploit Patched Apple Flaw to Deliver Info-Stealing Malware, CISA Says",
+      "url": "https://thehackernews.com/2026/11/hackers-exploit-patched-apple-flaw-to.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a medium-severity security flaw impacting multiple Apple operating systems to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation. The vulnerability in question is CVE-2024-27834 (CVSS score: 5.5), a case of improper authentication that could allow an attacker with",
+      "published": "Thu, 05 Nov 2026 10:47:04 +0530",
       "score": 12.0
     },
     {
       "source": "The Hacker News",
-      "title": "Russian Police Arrest 3 Suspected VasyGrek Hackers, Dismantle Criminal Infrastructure",
-      "url": "https://thehackernews.com/2026/11/russian-police-arrest-3-suspected.html",
-      "summary": "Russian authorities have arrested three suspected members of a threat group known as VasyGrek and dismantled its criminal infrastructure. Also known as Fluffy Wolf, the threat actor has a history of targeting Russian and international companies since 2016. The Ministry of Internal Affairs of the Russian Federation (MVD) said members of the group are \"suspected of embezzling funds from the",
-      "published": "Wed, 04 Nov 2026 13:47:11 +0530",
+      "title": "Debian and Ubuntu APT Flaw Lets MitM Attackers Swap Verified Packages and Run Code as Root",
+      "url": "https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html",
+      "summary": "A flaw in APT, the package manager for Debian and Ubuntu, allows an attacker who can modify package downloads to swap a checked package for their own. The attacker's code then runs as root, according to advisories that&nbsp;Debian,&nbsp;Ubuntu, and&nbsp;APT's developers&nbsp;published on November 4. The attack needs APT to retry failed downloads, which it does by default from Debian 12 and",
+      "published": "Wed, 04 Nov 2026 22:30:46 +0530",
       "score": 12.0
     },
     {
       "source": "The Hacker News",
-      "title": "Google Issues Patches for Critical Android Flaw That Could Allow RCE Without User Interaction",
-      "url": "https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html",
-      "summary": "A critical Android flaw could allow an attacker to run code on a phone without any user action remotely, Google said in its&nbsp;November security bulletin. The flaw, CVE-2026-58868, affects Android 14 through 17. Phones get the fix with security patch level 2026-11-01 or later, which phone makers and carriers send on their own schedules. As of November 4, Google's bulletin did not report",
-      "published": "Wed, 04 Nov 2026 13:16:15 +0530",
+      "title": "Researchers Uncover Prompt Adware Hidden in OpenAI Codex Jailbreak Toolkit",
+      "url": "https://thehackernews.com/2026/11/researchers-uncover-prompt-adware.html",
+      "summary": "Cybersecurity researchers have disclosed details of an OpenAI Codex jailbreak bundle that's designed to modify an artificial intelligence (AI) agent's trusted instructions to insert advertisements for a third-party AI gateway. The phenomenon has been codenamed prompt adware by Check Point Research. Called Haiou (meaning Seagull in Chinese), the jailbreak modifies OpenAI Codex's configuration",
+      "published": "Wed, 04 Nov 2026 21:36:43 +0530",
       "score": 12.0
     }
   ]
