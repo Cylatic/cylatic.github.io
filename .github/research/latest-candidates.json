@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-05T12:31:46.486700+00:00",
+  "generated_at_utc": "2026-11-06T12:15:01.765378+00:00",
   "publication_enabled": false,
   "editorial_note": "Candidates require human/editorial review and original technical work before publication.",
   "feed_errors": [
@@ -26,14 +26,6 @@
       "score": 28.0
     },
     {
-      "source": "BleepingComputer",
-      "title": "CISA flags WordPress RCE flaw as actively exploited in attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-wordpress-rce-flaw-as-actively-exploited-in-attacks/",
-      "summary": "The US Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies that attackers have started exploiting a recently patched high-severity WordPress vulnerability in the wild. [...]",
-      "published": "Wed, 04 Nov 2026 07:11:05 -0500",
-      "score": 26.0
-    },
-    {
       "source": "SecurityWeek",
       "title": "Zyxel Switch Hacks Blamed on Patched Flaw Actually Exploited a Zero-Day",
       "url": "https://www.securityweek.com/zyxel-switch-hacks-blamed-on-patched-flaw-actually-exploited-a-zero-day/",
@@ -51,10 +43,18 @@
     },
     {
       "source": "SecurityWeek",
-      "title": "Barracuda ESG Authentication Bypass Flaw Opens Path to Root",
-      "url": "https://www.securityweek.com/barracuda-email-security-gateway-authentication-bypass-opens-path-to-root/",
-      "summary": "<p>An authentication bypass and a command injection flaw can be chained for root access on Barracuda’s Email Security Gateway appliances.</p> <p>The post <a href=\"https://www.securityweek.com/barracuda-email-security-gateway-authentication-bypass-opens-path-to-root/\">Barracuda ESG Authentication Bypass Flaw Opens Path to Root</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "published": "Wed, 04 Nov 2026 14:24:54 +0000",
+      "title": "AI Agents Got Root on Linux via 948 Kernel Flaws in OpenAI Research",
+      "url": "https://www.securityweek.com/ai-agents-got-root-on-linux-via-948-kernel-flaws-in-openai-research/",
+      "summary": "<p>An unreleased OpenAI cyber model found and exploited 948 distinct Linux kernel privilege escalation bugs for about $1.2 million.</p> <p>The post <a href=\"https://www.securityweek.com/ai-agents-got-root-on-linux-via-948-kernel-flaws-in-openai-research/\">AI Agents Got Root on Linux via 948 Kernel Flaws in OpenAI Research</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "published": "Thu, 05 Nov 2026 17:32:37 +0000",
+      "score": 21.0
+    },
+    {
+      "source": "SecurityWeek",
+      "title": "OpenSSH Rushes Patches for ‘SSHole’ Authentication Bypass",
+      "url": "https://www.securityweek.com/openssh-rushes-patches-for-sshole-authentication-bypass/",
+      "summary": "<p>On Linux distributions using musl libc without PAM, some accounts accept any password between 257 and 1024 characters.</p> <p>The post <a href=\"https://www.securityweek.com/openssh-rushes-patches-for-sshole-authentication-bypass/\">OpenSSH Rushes Patches for &#8216;SSHole&#8217; Authentication Bypass</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "published": "Fri, 06 Nov 2026 12:07:42 +0000",
       "score": 20.0
     },
     {
@@ -64,6 +64,62 @@
       "summary": "OpenAI on Wednesday detailed a pipeline that employed an upcoming cyber-focused artificial intelligence (AI) model to validate and patch 948 local privilege escalation vulnerabilities in Linux for $1.2 million in API costs. \"Our prototype identified and analyzed 2,308 candidate Linux kernel findings, dynamically reproduced 1,724 vulnerabilities, and produced 948 local privilege escalation (LPE)",
       "published": "Thu, 05 Nov 2026 17:38:54 +0530",
       "score": 19.0
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "Fake OpenAI, SpaceX events used to steal Microsoft, Google accounts",
+      "url": "https://www.bleepingcomputer.com/news/security/fake-openai-spacex-events-used-to-steal-microsoft-google-accounts/",
+      "summary": "Hackers are using fake OpenAI, SpaceX, and Anthropic event invitations to lure employees into phishing attacks, using two different phishing-as-a-service platforms to steal Microsoft and Google account credentials and authentication sessions. [...]",
+      "published": "Thu, 05 Nov 2026 16:30:30 -0500",
+      "score": 19.0
+    },
+    {
+      "source": "Google News Cybersecurity",
+      "title": "UK Warns Its Critical Infrastructure Faces Grave Risk - Dark Reading",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOcEpNWXVKQXdnNUpIZ1I5UF9UVWxJVnJXbnpPNHlnc1RqMWZRUDZBY1F5UGJFc01hY1RiYXJlLVJmQk1ncTFIdkM5UjViRWZkTjd0cHhBY05MQjhUb2ZFdlZNalRjSUxYblRac2FST0pMMXZQNzRLWElwMDRZQ25pbEVHSHZ2RFRDOFNmY0JoUGx0OG5nT2RHVHNBVmU?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxOcEpNWXVKQXdnNUpIZ1I5UF9UVWxJVnJXbnpPNHlnc1RqMWZRUDZBY1F5UGJFc01hY1RiYXJlLVJmQk1ncTFIdkM5UjViRWZkTjd0cHhBY05MQjhUb2ZFdlZNalRjSUxYblRac2FST0pMMXZQNzRLWElwMDRZQ25pbEVHSHZ2RFRDOFNmY0JoUGx0OG5nT2RHVHNBVmU?oc=5\" target=\"_blank\">UK Warns Its Critical Infrastructure Faces Grave Risk</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Dark Reading</font>",
+      "published": "Fri, 06 Nov 2026 09:05:10 GMT",
+      "score": 18.0
+    },
+    {
+      "source": "Google News Cybersecurity",
+      "title": "Federal Agencies Warn of Cyberattacks Targeting Refrigeration and Cold Chain Systems Across Critical Infrastructure - Homeland Security Today",
+      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQMWdLZlRMODN0UTZtRmVHYjg4S29uY1RmM3lKbHFvWThyUU1Vc2R5U1p3eWFCODU0bk9teGVkam43NXBZcVVBX2V2MDlGcGpCNkZjZHFXMEhDV1diMmJMc3JqYk53LXNZNTVLck1UMXB6eGMxc2dhRGZwamVXdm1UZk1odnM2TlBGdHV4emNMOWxoYzdKN3ZHb3Uwa3hzTll0cGQ0T3B3WW54SS1UMkZOem1jeHJEZDU4U2kxMm1NTl9YQ2J0XzBxZEdkbkZNam03RGlPTWtpNWZQRi1HM2kwQzRjMjB4MGNreG1OUi1NMzZjcXVTd3JuQjNXSFA5WXhmT1hEVA?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAJBVV95cUxQMWdLZlRMODN0UTZtRmVHYjg4S29uY1RmM3lKbHFvWThyUU1Vc2R5U1p3eWFCODU0bk9teGVkam43NXBZcVVBX2V2MDlGcGpCNkZjZHFXMEhDV1diMmJMc3JqYk53LXNZNTVLck1UMXB6eGMxc2dhRGZwamVXdm1UZk1odnM2TlBGdHV4emNMOWxoYzdKN3ZHb3Uwa3hzTll0cGQ0T3B3WW54SS1UMkZOem1jeHJEZDU4U2kxMm1NTl9YQ2J0XzBxZEdkbkZNam03RGlPTWtpNWZQRi1HM2kwQzRjMjB4MGNreG1OUi1NMzZjcXVTd3JuQjNXSFA5WXhmT1hEVA?oc=5\" target=\"_blank\">Federal Agencies Warn of Cyberattacks Targeting Refrigeration and Cold Chain Systems Across Critical Infrastructure</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Homeland Security Today</font>",
+      "published": "Fri, 06 Nov 2026 08:39:55 GMT",
+      "score": 18.0
+    },
+    {
+      "source": "SecurityWeek",
+      "title": "Cisco, WatchGuard Release Patches; SonicWall Won’t Fix GMS Flaws",
+      "url": "https://www.securityweek.com/cisco-watchguard-release-patches-sonicwall-wont-fix-gms-flaws/",
+      "summary": "<p>Cisco patched an RCE in UCS Central Software; WatchGuard fixed authentication and MitM flaws.</p> <p>The post <a href=\"https://www.securityweek.com/cisco-watchguard-release-patches-sonicwall-wont-fix-gms-flaws/\">Cisco, WatchGuard Release Patches; SonicWall Won’t Fix GMS Flaws</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "published": "Thu, 05 Nov 2026 12:33:49 +0000",
+      "score": 17.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "Chainalysis Breach Exposes All Users' Credentials, Forces Shutdown of Key Services",
+      "url": "https://thehackernews.com/2026/11/chainalysis-breach-exposes-all-users.html",
+      "summary": "Blockchain analysis firm Chainalysis has revealed that its ongoing investigation into the agentic cyber attack targeting its systems also exposed names, usernames, password hashes and live tokens for all users. \"While we investigated, we removed access to Reactor and Data Solutions,\" the company said. \"At this time we continue to have no evidence that any investigations data has been accessed",
+      "published": "Fri, 06 Nov 2026 13:34:49 +0530",
+      "score": 16.0
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "DigiCert data breach exposes customer information, identity documents",
+      "url": "https://www.bleepingcomputer.com/news/security/digicert-data-breach-exposes-customer-information-identity-documents/",
+      "summary": "DigiCert warns it suffered a data breach after a server migration mistakenly exposed an internal business system to the internet, allowing unauthorized access to customer information and identity documents. [...]",
+      "published": "Thu, 05 Nov 2026 11:12:46 -0500",
+      "score": 16.0
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "Closing the Identity Gap at the Service Desk",
+      "url": "https://www.bleepingcomputer.com/news/security/closing-the-identity-gap-at-the-service-desk/",
+      "summary": "Attackers target IT service desks to bypass MFA by impersonating employees and convincing staff to reset passwords or register new authentication devices. Specops Software explains why traditional identity verification methods are no longer sufficient and how organizations can secure account recovery against social engineering risks. [...]",
+      "published": "Thu, 05 Nov 2026 10:00:10 -0500",
+      "score": 16.0
     },
     {
       "source": "BleepingComputer",
@@ -83,6 +139,14 @@
     },
     {
       "source": "The Hacker News",
+      "title": "Experts Demonstrate Barracuda Email Security Gateway Chain Enabling Root Access Without Login",
+      "url": "https://thehackernews.com/2026/11/experts-demonstrate-barracuda-email.html",
+      "summary": "Two flaws in Barracuda's Email Security Gateway, an email-filtering appliance, can be chained to run commands on it as root, its highest level of access, with no login required. The company released patches on Monday, and the security firm watchTowr detailed the attack chain on Thursday. One flaw, CVE-2026-116606, is an authorization bypass. An unauthenticated attacker can use it to restore a",
+      "published": "Fri, 06 Nov 2026 11:09:10 +0530",
+      "score": 15.0
+    },
+    {
+      "source": "The Hacker News",
       "title": "Apple to Start Scanning Publicly Shared iCloud Photos and Files for Harmful Content",
       "url": "https://thehackernews.com/2026/11/apple-to-start-scanning-publicly-shared.html",
       "summary": "Apple has revealed that it plans to start checking public iCloud links for harmful content starting with iOS 27.3, iPadOS 27.3, macOS 27.3, and visionOS 27.3. The change specifically applies to scenarios where users share iCloud content, such as photos in iCloud Photos or files in iCloud Drive, by sharing a link and making it accessible to \"Anyone with the link.\" When users choose this option,",
@@ -98,46 +162,6 @@
       "score": 15.0
     },
     {
-      "source": "The Hacker News",
-      "title": "Xen Hypervisor Flaws Let One Malicious VM Read and Write Any Other VM's Memory",
-      "url": "https://thehackernews.com/2026/11/xen-hypervisor-flaws-let-one-malicious.html",
-      "summary": "Two flaws in the Xen hypervisor allow a malicious guest virtual machine (VM) to read and write the memory of other VMs on the same host, including dom0. Dom0 is the VM that, by default, has full permissions and manages the others. Patches are out, and there is no known mitigation, the Xen Project said in an&nbsp;advisory&nbsp;on November 3. All Xen versions from 4.6 onward are vulnerable,",
-      "published": "Wed, 04 Nov 2026 17:16:27 +0530",
-      "score": 15.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "Barracuda Flaws Could Be Chained to Bypass Authorization and Gain Root Access",
-      "url": "https://thehackernews.com/2026/11/barracuda-flaws-could-be-chained-to.html",
-      "summary": "Barracuda has disclosed details of two vulnerabilities affecting its products that, if chained together, could allow an attacker to bypass authorization controls and gain root access to a susceptible device. The vulnerabilities, a pre-authentication authorization bypass vulnerability and a command injection vulnerability, have been assigned the CVE identifiers CVE-2026-116606 (CVSS score: 9.3)",
-      "published": "Tue, 03 Nov 2026 21:29:19 +0530",
-      "score": 15.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "Google Warns LLMjacking Attacks Are Costing Some Enterprises Up to $1 Million in Cloud Charges",
-      "url": "https://thehackernews.com/2026/11/google-warns-llmjacking-attacks-are.html",
-      "summary": "Google on Monday warned that threat actors are hijacking enterprise access to Large Language Models (LLMs) to fraudulently leverage expensive computing resources and AI services. The tactic is called LLMjacking, a form of resource hijacking adapted for the LLM era, where an attacker obtains an API key through phishing, source code leaks, misconfigured environments, or exposed client-side code",
-      "published": "Tue, 03 Nov 2026 21:11:53 +0530",
-      "score": 15.0
-    },
-    {
-      "source": "BleepingComputer",
-      "title": "Google Calendar phishing campaign hijacks sessions, bypasses MFA",
-      "url": "https://www.bleepingcomputer.com/news/security/google-calendar-phishing-campaign-hijacks-sessions-bypasses-mfa/",
-      "summary": "A phishing campaign used Google Calendar invites, trusted redirects, and fake login pages to hijack corporate Google sessions and bypass MFA protections. Material Security examines how Operation CloudFire tracked the attacks, blocked malicious messages, and helped take down nearly 900 domains used by the attackers. [...]",
-      "published": "Wed, 04 Nov 2026 10:00:10 -0500",
-      "score": 15.0
-    },
-    {
-      "source": "BleepingComputer",
-      "title": "SonicWall warns of unpatched flaws in end-of-life GMS software",
-      "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-unpatched-flaws-in-end-of-life-gms-software/",
-      "summary": "SonicWall warned customers of two security flaws affecting end-of-life Global Management System (GMS) systems that will not be patched. [...]",
-      "published": "Wed, 04 Nov 2026 09:42:25 -0500",
-      "score": 15.0
-    },
-    {
       "source": "SecurityWeek",
       "title": "The Agent Smith Dilemma: Governing Agentic Identities",
       "url": "https://www.securityweek.com/the-agent-smith-dilemma-governing-agentic-identities/",
@@ -147,66 +171,42 @@
     },
     {
       "source": "Google News Cybersecurity",
-      "title": "Cybersecurity News: Blood bank fridge hacks, Anthropic model identity, Google Calendar phishing - CISO Series",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE52SGk3dG8yTkJMMUpYSHhQSDVzMjIxV1hzYzZVbW1KTW9NRVV0X0w4Q1lYVXo4cU1uMTdnZzc3dHhjcVlsb281RWIzWmE3Um1wY25EeFR4dHJPbDI4NTU5MVdBU29mQjJlZlE?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiakFVX3lxTE52SGk3dG8yTkJMMUpYSHhQSDVzMjIxV1hzYzZVbW1KTW9NRVV0X0w4Q1lYVXo4cU1uMTdnZzc3dHhjcVlsb281RWIzWmE3Um1wY25EeFR4dHJPbDI4NTU5MVdBU29mQjJlZlE?oc=5\" target=\"_blank\">Cybersecurity News: Blood bank fridge hacks, Anthropic model identity, Google Calendar phishing</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CISO Series</font>",
-      "published": "Thu, 05 Nov 2026 11:00:00 GMT",
+      "title": "Cybersecurity’s changing landscape takes center stage at UND - University of North Dakota",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQYUxWX19SelF5VW9QLTBkakJfTDVVZDl5NE1MUlY3a3Jzbnh0Z21nTzBRMXVKVllnY0Vfd0lzckVhZ19MX1ItQlJPNElXaHN0VHAyWTVpN1dhQm9wV1MtSThEdFctWFpqRU16N0R4VHJuVWtNeFFwYnB5Z1RFTnpabmxkaUhaeUNPaUw5cWFDSTRtbzBDejNJY1JFTU1WT3hMdlE?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxQYUxWX19SelF5VW9QLTBkakJfTDVVZDl5NE1MUlY3a3Jzbnh0Z21nTzBRMXVKVllnY0Vfd0lzckVhZ19MX1ItQlJPNElXaHN0VHAyWTVpN1dhQm9wV1MtSThEdFctWFpqRU16N0R4VHJuVWtNeFFwYnB5Z1RFTnpabmxkaUhaeUNPaUw5cWFDSTRtbzBDejNJY1JFTU1WT3hMdlE?oc=5\" target=\"_blank\">Cybersecurity’s changing landscape takes center stage at UND</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">University of North Dakota</font>",
+      "published": "Thu, 05 Nov 2026 20:17:13 GMT",
+      "score": 15.0
+    },
+    {
+      "source": "SecurityWeek",
+      "title": "OpenAI Model Wrote Its Own Network Code to Get Around Sandbox Restrictions",
+      "url": "https://www.securityweek.com/openai-model-wrote-its-own-network-code-to-get-around-sandbox-restrictions/",
+      "summary": "<p>After its sandbox proxy failed, an internal OpenAI model crafted raw packets and probed AWS services trying to reach the internet.</p> <p>The post <a href=\"https://www.securityweek.com/openai-model-wrote-its-own-network-code-to-get-around-sandbox-restrictions/\">OpenAI Model Wrote Its Own Network Code to Get Around Sandbox Restrictions</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "published": "Fri, 06 Nov 2026 09:33:51 +0000",
       "score": 14.0
     },
     {
       "source": "Google News Cybersecurity",
-      "title": "Attacker abuses Microsoft Entra ID to target downstream MSP clients - Cybersecurity Dive",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPclFrMGlHdG9TZGJPSFVodktDclRaRElTcnNQM0JjdFN6cU5rWU1Edk9Xa3g0dE5CeENwYnoyODJHcm1scG5ONkRKM0Y5VXdoanpRT0pWR1hoM1lkNENsMndPSDVZSEstRlFxVHNrZGVPenBfV0xGQzdBWEk5WDQ1US1ORS1waHNjVThqd0l0MzFNS2M?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxPclFrMGlHdG9TZGJPSFVodktDclRaRElTcnNQM0JjdFN6cU5rWU1Edk9Xa3g0dE5CeENwYnoyODJHcm1scG5ONkRKM0Y5VXdoanpRT0pWR1hoM1lkNENsMndPSDVZSEstRlFxVHNrZGVPenBfV0xGQzdBWEk5WDQ1US1ORS1waHNjVThqd0l0MzFNS2M?oc=5\" target=\"_blank\">Attacker abuses Microsoft Entra ID to target downstream MSP clients</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Cybersecurity Dive</font>",
-      "published": "Wed, 04 Nov 2026 20:59:34 GMT",
-      "score": 13.0
-    },
-    {
-      "source": "Google News Cybersecurity",
-      "title": "Global website outage after AI detects flaws, and other cybersecurity news - World Economic Forum",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPRkZTWDljQ1hwTHpJbXFBQmN4YkZvTXVvdWRkSTluX1lFS2V3VHRoSm94YklrdHdyZkZtMTFDMVdXeVRwYUg2Ry1UYTl4cXFzcmNtZXZsa1d4ME0xR3drODF3c25RbFdWUlh5UDhLNUFGY3F4cmJobnYyUHJINWIyVVRvSTRDdjFKdDRwazdnT3BybkNFX09ES194aGE?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxPRkZTWDljQ1hwTHpJbXFBQmN4YkZvTXVvdWRkSTluX1lFS2V3VHRoSm94YklrdHdyZkZtMTFDMVdXeVRwYUg2Ry1UYTl4cXFzcmNtZXZsa1d4ME0xR3drODF3c25RbFdWUlh5UDhLNUFGY3F4cmJobnYyUHJINWIyVVRvSTRDdjFKdDRwazdnT3BybkNFX09ES194aGE?oc=5\" target=\"_blank\">Global website outage after AI detects flaws, and other cybersecurity news</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">World Economic Forum</font>",
-      "published": "Wed, 04 Nov 2026 22:59:41 GMT",
-      "score": 13.0
+      "title": "PE targets identity security as AI transforms threats: 6 deals - PEI Private Equity",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNZm9CX0c2R3NJRkZFdk43UlpmMjJxZFBseUVGcmJTR2l4Ymt2ODdDT05KZjY1R0pIZFoxQTNESHlramVsb2dwZFJIbVRDcUxXRWFlWmZoZDVSbHFwWE5pbnlUbXcyYVpEQkdiZ3ZEUzdpVkZ6ZGs3LW5PSS13VlJVYVVNQ0JINWJERFNOWk5QdnptTVFTTlNfM2M2OVUydTJ1V3pSWk9SMXQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxNZm9CX0c2R3NJRkZFdk43UlpmMjJxZFBseUVGcmJTR2l4Ymt2ODdDT05KZjY1R0pIZFoxQTNESHlramVsb2dwZFJIbVRDcUxXRWFlWmZoZDVSbHFwWE5pbnlUbXcyYVpEQkdiZ3ZEUzdpVkZ6ZGs3LW5PSS13VlJVYVVNQ0JINWJERFNOWk5QdnptTVFTTlNfM2M2OVUydTJ1V3pSWk9SMXQ?oc=5\" target=\"_blank\">PE targets identity security as AI transforms threats: 6 deals</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">PEI Private Equity</font>",
+      "published": "Fri, 06 Nov 2026 12:00:34 GMT",
+      "score": 14.0
     },
     {
       "source": "The Hacker News",
-      "title": "5 Active Cyber Threats That Put US Enterprises at Risk in October 2026",
-      "url": "https://thehackernews.com/2026/11/5-active-cyber-threats-that-put-us.html",
-      "summary": "October 2026 brought another wave of cyber threats targeting US businesses, with attackers exploiting trusted platforms, legitimate authentication processes, and everyday business workflows. For enterprises, these campaigns raise the stakes beyond individual security incidents, increasing the risk of financial losses, data breaches, and costly operational disruption. Below, we examine five",
-      "published": "Thu, 05 Nov 2026 15:36:19 +0530",
+      "title": "The Flood is Coming And The Pipes Were Already Full",
+      "url": "https://thehackernews.com/2026/11/the-flood-is-coming-and-pipes-were.html",
+      "summary": "An update on Athena, and some unsolicited predictions on what's coming next On Saturday, Dario Amodei published We Must Pace the Frontier. I agree with him. Go read it if you haven't. I've spent the summer looking at what these models find, and the gap he describes between what they can do and what the rest of us are ready for is the one I've been staring at since May. The hardest piece of his",
+      "published": "Fri, 06 Nov 2026 17:00:00 +0530",
       "score": 12.0
     },
     {
       "source": "The Hacker News",
-      "title": "CERT-In Flags AI-Driven Attacks as Backdoored ARTEX Exposes 62 Consoles to Root Access",
-      "url": "https://thehackernews.com/2026/11/backdoored-docker-image-for-artex-ai.html",
-      "summary": "The Indian Computer Emergency Response Team (CERT-In) has disclosed that an artificial intelligence (AI)-assisted threat actor it tracks as Crafty Falcon is targeting organizations in the Banking, Financial Services, and Insurance (BFSI) sectors in the country. Describing the threat as active and ongoing, the activity involves the use of publicly-available AI-driven offensive security tools",
-      "published": "Thu, 05 Nov 2026 14:12:03 +0530",
-      "score": 12.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "Hackers Exploit Patched Apple Flaw to Deliver Info-Stealing Malware, CISA Says",
-      "url": "https://thehackernews.com/2026/11/hackers-exploit-patched-apple-flaw-to.html",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a medium-severity security flaw impacting multiple Apple operating systems to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation. The vulnerability in question is CVE-2024-27834 (CVSS score: 5.5), a case of improper authentication that could allow an attacker with",
-      "published": "Thu, 05 Nov 2026 10:47:04 +0530",
-      "score": 12.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "Debian and Ubuntu APT Flaw Lets MitM Attackers Swap Verified Packages and Run Code as Root",
-      "url": "https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html",
-      "summary": "A flaw in APT, the package manager for Debian and Ubuntu, allows an attacker who can modify package downloads to swap a checked package for their own. The attacker's code then runs as root, according to advisories that&nbsp;Debian,&nbsp;Ubuntu, and&nbsp;APT's developers&nbsp;published on November 4. The attack needs APT to retry failed downloads, which it does by default from Debian 12 and",
-      "published": "Wed, 04 Nov 2026 22:30:46 +0530",
-      "score": 12.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "Researchers Uncover Prompt Adware Hidden in OpenAI Codex Jailbreak Toolkit",
-      "url": "https://thehackernews.com/2026/11/researchers-uncover-prompt-adware.html",
-      "summary": "Cybersecurity researchers have disclosed details of an OpenAI Codex jailbreak bundle that's designed to modify an artificial intelligence (AI) agent's trusted instructions to insert advertisements for a third-party AI gateway. The phenomenon has been codenamed prompt adware by Check Point Research. Called Haiou (meaning Seagull in Chinese), the jailbreak modifies OpenAI Codex's configuration",
-      "published": "Wed, 04 Nov 2026 21:36:43 +0530",
+      "title": "Hackers Hide Linux Backdoor in Control Web Panel Server to Execute Commands Without Logs",
+      "url": "https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html",
+      "summary": "A backdoor has been found hiding in the web server that runs Control Web Panel (CWP), a free panel for managing Linux hosting servers, researchers at QiAnXin's XLab said this week. The backdoored web server executes commands that attackers send via web requests, and those requests never appear in its access logs. Installing it takes root access, so the attackers must already control the server.",
+      "published": "Fri, 06 Nov 2026 11:28:54 +0530",
       "score": 12.0
     }
   ]
