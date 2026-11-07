@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-06T12:15:01.765378+00:00",
+  "generated_at_utc": "2026-11-07T11:10:52.512885+00:00",
   "publication_enabled": false,
   "editorial_note": "Candidates require human/editorial review and original technical work before publication.",
   "feed_errors": [
@@ -10,44 +10,52 @@
   ],
   "candidates": [
     {
+      "source": "BleepingComputer",
+      "title": "D-Link warns of multiple zero-days in DGS-3130 Series switches",
+      "url": "https://www.bleepingcomputer.com/news/security/d-link-warns-of-multiple-zero-days-in-dgs-3130-series-switches/",
+      "summary": "D-Link shared mitigation measures for multiple unpatched security flaws affecting DGS-3130 series managed Gigabit stackable switches. [...]",
+      "published": "Fri, 06 Nov 2026 07:37:22 -0500",
+      "score": 27.0
+    },
+    {
       "source": "The Hacker News",
-      "title": "Zyxel GS1900 Patch Fails to Block Zero-Day Exploit Allowing Root Command Execution",
-      "url": "https://thehackernews.com/2026/11/zyxel-gs1900-patch-fails-to-block-zero.html",
-      "summary": "Zyxel GS1900 network switches that received the vendor's earlier fix for an actively exploited flaw are still open to the exploit attackers used, researchers at Binarly found. The exploit lets anyone who can reach a switch's web management interface run commands on it without logging in. Zyxel has released new firmware for 10 GS1900 models that closes the hole. The earlier fix is the 2.90",
-      "published": "Thu, 05 Nov 2026 12:36:33 +0530",
-      "score": 38.0
+      "title": "Installing the Fix for an Exploited WordPress Flaw Can Expose Some Sites One Last Time",
+      "url": "https://thehackernews.com/2026/11/installing-fix-for-exploited-wordpress.html",
+      "summary": "Some WordPress sites can still be attacked while they install the fix for an actively exploited flaw, according to Umut Bayram, the Picus Security researcher who found it. The update that installs the fix still unpacks its files using the site's old, unpatched code, so an attacker who strikes at the right moment can run code on the server. The researcher advises blocking web access to the",
+      "published": "Fri, 06 Nov 2026 21:38:38 +0530",
+      "score": 26.0
     },
     {
       "source": "BleepingComputer",
-      "title": "Zyxel fixes zero-day exploited to hack nearly 1,000 network switches",
-      "url": "https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/",
-      "summary": "Zyxel has patched a zero-day vulnerability in its GS1900 series network switches that hackers exploited to compromise nearly 1,000 devices worldwide and steal configuration files and credentials. [...]",
-      "published": "Wed, 04 Nov 2026 15:58:19 -0500",
-      "score": 28.0
-    },
-    {
-      "source": "SecurityWeek",
-      "title": "Zyxel Switch Hacks Blamed on Patched Flaw Actually Exploited a Zero-Day",
-      "url": "https://www.securityweek.com/zyxel-switch-hacks-blamed-on-patched-flaw-actually-exploited-a-zero-day/",
-      "summary": "<p>Tracked as CVE-2026-107441, the out-of-bounds write flaw could allow attackers to execute OS commands via crafted HTTP requests.</p> <p>The post <a href=\"https://www.securityweek.com/zyxel-switch-hacks-blamed-on-patched-flaw-actually-exploited-a-zero-day/\">Zyxel Switch Hacks Blamed on Patched Flaw Actually Exploited a Zero-Day</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "published": "Thu, 05 Nov 2026 10:56:41 +0000",
-      "score": 23.0
+      "title": "SonicWall warns of new SSL-VPN MFA bypass flaw exploited in attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/",
+      "summary": "SonicWall has released security updates to fix seven vulnerabilities in SonicOS firewalls, including an SSL-VPN authentication bypass flaw exploited in attacks. [...]",
+      "published": "Fri, 06 Nov 2026 19:00:55 -0500",
+      "score": 26.0
     },
     {
       "source": "The Hacker News",
-      "title": "APT29-Linked Hackers Hijack Web Analytics Script to Deliver iOS and Android Exploits",
-      "url": "https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html",
-      "summary": "The Russia-linked threat actor known as APT29 is presumed to be behind a large-scale watering hole campaign targeting iOS and Android users through compromised websites, fake domains, and a supply chain attack involving a Ukrainian web analytics service called Plerdy SEO Tracker. \"The injected JavaScript code collects browser and device attributes,\" Sekoia researchers Amaury-Jacques Garçon and",
-      "published": "Wed, 04 Nov 2026 19:57:52 +0530",
-      "score": 21.0
+      "title": "Microsoft Paint RCE Fix Now Available, but Windows Update Won't Deliver It",
+      "url": "https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html",
+      "summary": "A fix for CVE-2026-83844, a remote code execution flaw in Windows Paint, is now in the Microsoft Store. Paint gets this fix only through a Store update, not through Windows updates. The fixed build, 11.2609.401.0, was the newest Paint build in all ten countries The Hacker News checked today. The flaw is an out-of-bounds read that could let an attacker run code over a network. Microsoft rates",
+      "published": "Fri, 06 Nov 2026 17:36:43 +0530",
+      "score": 24.0
     },
     {
       "source": "SecurityWeek",
-      "title": "AI Agents Got Root on Linux via 948 Kernel Flaws in OpenAI Research",
-      "url": "https://www.securityweek.com/ai-agents-got-root-on-linux-via-948-kernel-flaws-in-openai-research/",
-      "summary": "<p>An unreleased OpenAI cyber model found and exploited 948 distinct Linux kernel privilege escalation bugs for about $1.2 million.</p> <p>The post <a href=\"https://www.securityweek.com/ai-agents-got-root-on-linux-via-948-kernel-flaws-in-openai-research/\">AI Agents Got Root on Linux via 948 Kernel Flaws in OpenAI Research</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "published": "Thu, 05 Nov 2026 17:32:37 +0000",
-      "score": 21.0
+      "title": "In Other News: Trezor Implant, LLMJacking Bills Hit $1M, SAP Flaws Weaponized Within Days",
+      "url": "https://www.securityweek.com/in-other-news-trezor-implant-llmjacking-bills-hit-1m-sap-flaws-weaponized-within-days/",
+      "summary": "<p>Noteworthy stories that might have slipped under the radar: Synology warns about NAS ransomware attacks, Flowise ‘hello’ attacks, Chainalysis breach impact expands.</p> <p>The post <a href=\"https://www.securityweek.com/in-other-news-trezor-implant-llmjacking-bills-hit-1m-sap-flaws-weaponized-within-days/\">In Other News: Trezor Implant, LLMJacking Bills Hit $1M, SAP Flaws Weaponized Within Days</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "published": "Fri, 06 Nov 2026 14:40:09 +0000",
+      "score": 22.0
+    },
+    {
+      "source": "SecurityWeek",
+      "title": "SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins",
+      "url": "https://www.securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins/",
+      "summary": "<p>CVE-2026-19868 can let attackers holding credentials for a different login method get past SAML checks, including SAML-enforced MFA.</p> <p>The post <a href=\"https://www.securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins/\">SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "published": "Sat, 07 Nov 2026 10:16:23 +0000",
+      "score": 20.0
     },
     {
       "source": "SecurityWeek",
@@ -74,28 +82,20 @@
       "score": 19.0
     },
     {
-      "source": "Google News Cybersecurity",
-      "title": "UK Warns Its Critical Infrastructure Faces Grave Risk - Dark Reading",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOcEpNWXVKQXdnNUpIZ1I5UF9UVWxJVnJXbnpPNHlnc1RqMWZRUDZBY1F5UGJFc01hY1RiYXJlLVJmQk1ncTFIdkM5UjViRWZkTjd0cHhBY05MQjhUb2ZFdlZNalRjSUxYblRac2FST0pMMXZQNzRLWElwMDRZQ25pbEVHSHZ2RFRDOFNmY0JoUGx0OG5nT2RHVHNBVmU?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxOcEpNWXVKQXdnNUpIZ1I5UF9UVWxJVnJXbnpPNHlnc1RqMWZRUDZBY1F5UGJFc01hY1RiYXJlLVJmQk1ncTFIdkM5UjViRWZkTjd0cHhBY05MQjhUb2ZFdlZNalRjSUxYblRac2FST0pMMXZQNzRLWElwMDRZQ25pbEVHSHZ2RFRDOFNmY0JoUGx0OG5nT2RHVHNBVmU?oc=5\" target=\"_blank\">UK Warns Its Critical Infrastructure Faces Grave Risk</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Dark Reading</font>",
-      "published": "Fri, 06 Nov 2026 09:05:10 GMT",
+      "source": "BleepingComputer",
+      "title": "Fake security tools on GitHub push backdoors and infostealers",
+      "url": "https://www.bleepingcomputer.com/news/security/fake-security-tools-on-github-push-backdoors-and-infostealers/",
+      "summary": "Cybersecurity professionals are being targeted with infected security projects on GitHub that deploy a backdoor and information stealer malware. [...]",
+      "published": "Fri, 06 Nov 2026 13:46:52 -0500",
       "score": 18.0
     },
     {
       "source": "Google News Cybersecurity",
-      "title": "Federal Agencies Warn of Cyberattacks Targeting Refrigeration and Cold Chain Systems Across Critical Infrastructure - Homeland Security Today",
-      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQMWdLZlRMODN0UTZtRmVHYjg4S29uY1RmM3lKbHFvWThyUU1Vc2R5U1p3eWFCODU0bk9teGVkam43NXBZcVVBX2V2MDlGcGpCNkZjZHFXMEhDV1diMmJMc3JqYk53LXNZNTVLck1UMXB6eGMxc2dhRGZwamVXdm1UZk1odnM2TlBGdHV4emNMOWxoYzdKN3ZHb3Uwa3hzTll0cGQ0T3B3WW54SS1UMkZOem1jeHJEZDU4U2kxMm1NTl9YQ2J0XzBxZEdkbkZNam03RGlPTWtpNWZQRi1HM2kwQzRjMjB4MGNreG1OUi1NMzZjcXVTd3JuQjNXSFA5WXhmT1hEVA?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAJBVV95cUxQMWdLZlRMODN0UTZtRmVHYjg4S29uY1RmM3lKbHFvWThyUU1Vc2R5U1p3eWFCODU0bk9teGVkam43NXBZcVVBX2V2MDlGcGpCNkZjZHFXMEhDV1diMmJMc3JqYk53LXNZNTVLck1UMXB6eGMxc2dhRGZwamVXdm1UZk1odnM2TlBGdHV4emNMOWxoYzdKN3ZHb3Uwa3hzTll0cGQ0T3B3WW54SS1UMkZOem1jeHJEZDU4U2kxMm1NTl9YQ2J0XzBxZEdkbkZNam03RGlPTWtpNWZQRi1HM2kwQzRjMjB4MGNreG1OUi1NMzZjcXVTd3JuQjNXSFA5WXhmT1hEVA?oc=5\" target=\"_blank\">Federal Agencies Warn of Cyberattacks Targeting Refrigeration and Cold Chain Systems Across Critical Infrastructure</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Homeland Security Today</font>",
-      "published": "Fri, 06 Nov 2026 08:39:55 GMT",
+      "title": "Ransomware group claims theft of data tied to 1.3M Spartans as MSU investigates - KEYE",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOQ3ZwMFUwM19ZR3FQSzZZTllsYVBTcVRQeElYQVRKTWlkX25iQ2E5V1pLY3hhMlFQTWNDbjNQbDR2akY3LThJb2xVYUFnQ2wyQllZd2FjVUhNRm5rc3Fvb1R3V09oNlNna2doa2k1Q1ZFR0FKRTdLVFBZXzdVTENtSzcwQW51YTJDaVJVODRjbk55MDRzU0VHaDFQaGRzZXpHeWlNa29TZ0lZT29USHM0RXc5SW83N0RvTVE?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxOQ3ZwMFUwM19ZR3FQSzZZTllsYVBTcVRQeElYQVRKTWlkX25iQ2E5V1pLY3hhMlFQTWNDbjNQbDR2akY3LThJb2xVYUFnQ2wyQllZd2FjVUhNRm5rc3Fvb1R3V09oNlNna2doa2k1Q1ZFR0FKRTdLVFBZXzdVTENtSzcwQW51YTJDaVJVODRjbk55MDRzU0VHaDFQaGRzZXpHeWlNa29TZ0lZT29USHM0RXc5SW83N0RvTVE?oc=5\" target=\"_blank\">Ransomware group claims theft of data tied to 1.3M Spartans as MSU investigates</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">KEYE</font>",
+      "published": "Fri, 06 Nov 2026 20:52:12 GMT",
       "score": 18.0
-    },
-    {
-      "source": "SecurityWeek",
-      "title": "Cisco, WatchGuard Release Patches; SonicWall Won’t Fix GMS Flaws",
-      "url": "https://www.securityweek.com/cisco-watchguard-release-patches-sonicwall-wont-fix-gms-flaws/",
-      "summary": "<p>Cisco patched an RCE in UCS Central Software; WatchGuard fixed authentication and MitM flaws.</p> <p>The post <a href=\"https://www.securityweek.com/cisco-watchguard-release-patches-sonicwall-wont-fix-gms-flaws/\">Cisco, WatchGuard Release Patches; SonicWall Won’t Fix GMS Flaws</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "published": "Thu, 05 Nov 2026 12:33:49 +0000",
-      "score": 17.0
     },
     {
       "source": "The Hacker News",
@@ -107,35 +107,19 @@
     },
     {
       "source": "BleepingComputer",
-      "title": "DigiCert data breach exposes customer information, identity documents",
-      "url": "https://www.bleepingcomputer.com/news/security/digicert-data-breach-exposes-customer-information-identity-documents/",
-      "summary": "DigiCert warns it suffered a data breach after a server migration mistakenly exposed an internal business system to the internet, allowing unauthorized access to customer information and identity documents. [...]",
-      "published": "Thu, 05 Nov 2026 11:12:46 -0500",
+      "title": "Chainalysis says breach exposed credentials for all customers",
+      "url": "https://www.bleepingcomputer.com/news/security/chainalysis-says-breach-exposed-credentials-for-all-customers/",
+      "summary": "Blockchain intelligence firm Chainalysis says a recent attack on its systems and internal tools has exposed credentials and live tokens for all customers. [...]",
+      "published": "Fri, 06 Nov 2026 09:17:07 -0500",
       "score": 16.0
     },
     {
-      "source": "BleepingComputer",
-      "title": "Closing the Identity Gap at the Service Desk",
-      "url": "https://www.bleepingcomputer.com/news/security/closing-the-identity-gap-at-the-service-desk/",
-      "summary": "Attackers target IT service desks to bypass MFA by impersonating employees and convincing staff to reset passwords or register new authentication devices. Specops Software explains why traditional identity verification methods are no longer sufficient and how organizations can secure account recovery against social engineering risks. [...]",
-      "published": "Thu, 05 Nov 2026 10:00:10 -0500",
-      "score": 16.0
-    },
-    {
-      "source": "BleepingComputer",
-      "title": "Vercel rolls out new protection against stolen session cookie attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/vercel-rolls-out-new-protection-against-stolen-session-cookie-attacks/",
-      "summary": "Vercel is gradually rolling out Device Bound Session Credentials (DBSC) on its platform as a key defense against information stealer malware. [...]",
-      "published": "Wed, 04 Nov 2026 16:31:18 -0500",
-      "score": 16.0
-    },
-    {
-      "source": "BleepingComputer",
-      "title": "NIKKE PC game launcher hacked to spread remote access, data-stealing malware",
-      "url": "https://www.bleepingcomputer.com/news/security/nikke-pc-game-launcher-hacked-to-spread-remote-access-data-stealing-malware/",
-      "summary": "The developers of Goddess of Victory: NIKKE have confirmed that hackers tampered with the game's PC launcher scripts in a supply-chain attack, distributing malware capable of stealing credentials and cryptocurrency wallet data. [...]",
-      "published": "Wed, 04 Nov 2026 11:58:46 -0500",
-      "score": 16.0
+      "source": "The Hacker News",
+      "title": "OpenAI Launches GPT-6 Cyber After AI Helps Find 81 Firefox Flaws, 948 Linux Exploits",
+      "url": "https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html",
+      "summary": "OpenAI on Thursday unveiled GPT‑6 Cyber, which it described as a major step forward in security research that brings together stronger cybersecurity capabilities with a step-change improvement in model alignment. The new model is \"more capable at finding and fixing vulnerabilities, and far more reliable staying within the boundaries researchers set,\" OpenAI said. It has classified the model as",
+      "published": "Fri, 06 Nov 2026 20:28:32 +0530",
+      "score": 15.0
     },
     {
       "source": "The Hacker News",
@@ -146,36 +130,36 @@
       "score": 15.0
     },
     {
-      "source": "The Hacker News",
-      "title": "Apple to Start Scanning Publicly Shared iCloud Photos and Files for Harmful Content",
-      "url": "https://thehackernews.com/2026/11/apple-to-start-scanning-publicly-shared.html",
-      "summary": "Apple has revealed that it plans to start checking public iCloud links for harmful content starting with iOS 27.3, iPadOS 27.3, macOS 27.3, and visionOS 27.3. The change specifically applies to scenarios where users share iCloud content, such as photos in iCloud Photos or files in iCloud Drive, by sharing a link and making it accessible to \"Anyone with the link.\" When users choose this option,",
-      "published": "Thu, 05 Nov 2026 14:43:28 +0530",
-      "score": 15.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "SonicWall Won't Patch EoL GMS Flaws That Could Expose Files, Alter Database Records",
-      "url": "https://thehackernews.com/2026/11/sonicwall-wont-patch-eol-gms-flaws-that.html",
-      "summary": "SonicWall has warned of two vulnerabilities impacting end-of-life Global Management System (GMS) systems that it said will not be patched. Details of the security flaws, which affect SonicWall GMS 9.5.2 and earlier versions, are below - CVE-2026-109593 (CVSS score: 9.1) - An unauthenticated file read vulnerability that could allow an attacker with network access to read internal GMS files,",
-      "published": "Wed, 04 Nov 2026 22:30:38 +0530",
-      "score": 15.0
-    },
-    {
-      "source": "SecurityWeek",
-      "title": "The Agent Smith Dilemma: Governing Agentic Identities",
-      "url": "https://www.securityweek.com/the-agent-smith-dilemma-governing-agentic-identities/",
-      "summary": "<p>Every autonomous AI agent deployed across your enterprise today is a new proxy identity operating inside your perimeter.</p> <p>The post <a href=\"https://www.securityweek.com/the-agent-smith-dilemma-governing-agentic-identities/\">The Agent Smith Dilemma: Governing Agentic Identities</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "published": "Thu, 05 Nov 2026 11:15:00 +0000",
+      "source": "BleepingComputer",
+      "title": "OpenAI's new GPT-6 Cyber AI finds 81 Firefox flaws, 948 Linux bugs",
+      "url": "https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs/",
+      "summary": "OpenAI has revealed GPT-6 Cyber, a new artificial intelligence model that has discovered 81 previously unknown high-severity Firefox vulnerabilities and developed working exploits for 948 distinct Linux kernel flaws. [...]",
+      "published": "Fri, 06 Nov 2026 15:24:19 -0500",
       "score": 15.0
     },
     {
       "source": "Google News Cybersecurity",
-      "title": "Cybersecurity’s changing landscape takes center stage at UND - University of North Dakota",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQYUxWX19SelF5VW9QLTBkakJfTDVVZDl5NE1MUlY3a3Jzbnh0Z21nTzBRMXVKVllnY0Vfd0lzckVhZ19MX1ItQlJPNElXaHN0VHAyWTVpN1dhQm9wV1MtSThEdFctWFpqRU16N0R4VHJuVWtNeFFwYnB5Z1RFTnpabmxkaUhaeUNPaUw5cWFDSTRtbzBDejNJY1JFTU1WT3hMdlE?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxQYUxWX19SelF5VW9QLTBkakJfTDVVZDl5NE1MUlY3a3Jzbnh0Z21nTzBRMXVKVllnY0Vfd0lzckVhZ19MX1ItQlJPNElXaHN0VHAyWTVpN1dhQm9wV1MtSThEdFctWFpqRU16N0R4VHJuVWtNeFFwYnB5Z1RFTnpabmxkaUhaeUNPaUw5cWFDSTRtbzBDejNJY1JFTU1WT3hMdlE?oc=5\" target=\"_blank\">Cybersecurity’s changing landscape takes center stage at UND</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">University of North Dakota</font>",
-      "published": "Thu, 05 Nov 2026 20:17:13 GMT",
+      "title": "Trimedx Introduces Agentic AI Capabilities for Reducing Medical Device Cybersecurity Remediation Time - Medical Product Outsourcing",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNZzFiTXFrTWpmTF84SzBCZWQ3YzdtMGpYaGE4OGVlZVpNS3lONld2TWoyM0lrRzhqeUNOckwzNmMyUDA3TlJNRjc5LVM1bWVzZDhvcGNfZlJORWwtNHQ0MkNUX2xIYWR0U1o3RWxzUXFJTU1FYTJOVDEzVFZsVURRMTA3NlBCOWJ1dDUwaWF5bW9xenZLbXVCZmFVWlhVRi1obVp2SzJBODVvVDJWZkFES3M2aWdfaGpqc1lZYmtIZkJzR2tJakhhTTl4OVNuY1BqYk1oSWJHTQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi1wFBVV95cUxNZzFiTXFrTWpmTF84SzBCZWQ3YzdtMGpYaGE4OGVlZVpNS3lONld2TWoyM0lrRzhqeUNOckwzNmMyUDA3TlJNRjc5LVM1bWVzZDhvcGNfZlJORWwtNHQ0MkNUX2xIYWR0U1o3RWxzUXFJTU1FYTJOVDEzVFZsVURRMTA3NlBCOWJ1dDUwaWF5bW9xenZLbXVCZmFVWlhVRi1obVp2SzJBODVvVDJWZkFES3M2aWdfaGpqc1lZYmtIZkJzR2tJakhhTTl4OVNuY1BqYk1oSWJHTQ?oc=5\" target=\"_blank\">Trimedx Introduces Agentic AI Capabilities for Reducing Medical Device Cybersecurity Remediation Time</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Medical Product Outsourcing</font>",
+      "published": "Fri, 06 Nov 2026 21:19:32 GMT",
       "score": 15.0
+    },
+    {
+      "source": "Google News Cybersecurity",
+      "title": "Cybersecurity is a major concern for bankers - Fed's Bowman - Seeking Alpha",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNZ1hLTWYyVU54ZEtfX3MwbWZPYUpwc1lWVWo4SW1qa2dCclN5eVBZTnU1LTFBVmR3NFVNT19KdkhmeVRSNG9vNzFXME81ZW9EUkF5eWFQQzFDOU5DQjdRekZaMDVpNE1tQUlGbVdheTB6ZDZOZWE2TmllcVBLYXJWcXFDS3Q4Y1NiU0NrNDQ2NkkwTncwRURNQWp0alA?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxNZ1hLTWYyVU54ZEtfX3MwbWZPYUpwc1lWVWo4SW1qa2dCclN5eVBZTnU1LTFBVmR3NFVNT19KdkhmeVRSNG9vNzFXME81ZW9EUkF5eWFQQzFDOU5DQjdRekZaMDVpNE1tQUlGbVdheTB6ZDZOZWE2TmllcVBLYXJWcXFDS3Q4Y1NiU0NrNDQ2NkkwTncwRURNQWp0alA?oc=5\" target=\"_blank\">Cybersecurity is a major concern for bankers - Fed's Bowman</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Seeking Alpha</font>",
+      "published": "Fri, 06 Nov 2026 18:22:23 GMT",
+      "score": 15.0
+    },
+    {
+      "source": "SecurityWeek",
+      "title": "OpenAI Says New GPT-6 Cyber Model Hunts Flaws Without Crossing the Line",
+      "url": "https://www.securityweek.com/openai-says-new-gpt-6-cyber-model-hunts-flaws-without-crossing-the-line/",
+      "summary": "<p>Rated Critical for cybersecurity, OpenAI’s new model beats GPT-5.6 Cyber at exploitation while staying in scope more reliably.</p> <p>The post <a href=\"https://www.securityweek.com/openai-says-new-gpt-6-cyber-model-hunts-flaws-without-crossing-the-line/\">OpenAI Says New GPT-6 Cyber Model Hunts Flaws Without Crossing the Line</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "published": "Fri, 06 Nov 2026 13:19:52 +0000",
+      "score": 14.0
     },
     {
       "source": "SecurityWeek",
@@ -187,11 +171,35 @@
     },
     {
       "source": "Google News Cybersecurity",
-      "title": "PE targets identity security as AI transforms threats: 6 deals - PEI Private Equity",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNZm9CX0c2R3NJRkZFdk43UlpmMjJxZFBseUVGcmJTR2l4Ymt2ODdDT05KZjY1R0pIZFoxQTNESHlramVsb2dwZFJIbVRDcUxXRWFlWmZoZDVSbHFwWE5pbnlUbXcyYVpEQkdiZ3ZEUzdpVkZ6ZGs3LW5PSS13VlJVYVVNQ0JINWJERFNOWk5QdnptTVFTTlNfM2M2OVUydTJ1V3pSWk9SMXQ?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxNZm9CX0c2R3NJRkZFdk43UlpmMjJxZFBseUVGcmJTR2l4Ymt2ODdDT05KZjY1R0pIZFoxQTNESHlramVsb2dwZFJIbVRDcUxXRWFlWmZoZDVSbHFwWE5pbnlUbXcyYVpEQkdiZ3ZEUzdpVkZ6ZGs3LW5PSS13VlJVYVVNQ0JINWJERFNOWk5QdnptTVFTTlNfM2M2OVUydTJ1V3pSWk9SMXQ?oc=5\" target=\"_blank\">PE targets identity security as AI transforms threats: 6 deals</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">PEI Private Equity</font>",
-      "published": "Fri, 06 Nov 2026 12:00:34 GMT",
-      "score": 14.0
+      "title": "Japan's Takaichi pushes for tougher cybersecurity laws as attacks surge - Nikkei Asia",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQQ3VsOExsR0tDZkl0VHhaN29pRjBQTjBoSXZpZXhUY094VVQwdzd5V093V2VKdlltQkhIWUJUOWRBRUc1bEVKOWxhb1dMR2hYVUlvN1hYRjF6ejJDazUxNFpKa2dJSHdwQ3dRaEEwQ1hMa1pMa29lZUpSMGUwSHdtZVFlSzFBNm5lWURjWU9IY2NmNlNOTVF1UGpOZU5hSG9GNzN3akNvOUpXX0JTX25kQm1YMUJNTXRaSm5N?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxQQ3VsOExsR0tDZkl0VHhaN29pRjBQTjBoSXZpZXhUY094VVQwdzd5V093V2VKdlltQkhIWUJUOWRBRUc1bEVKOWxhb1dMR2hYVUlvN1hYRjF6ejJDazUxNFpKa2dJSHdwQ3dRaEEwQ1hMa1pMa29lZUpSMGUwSHdtZVFlSzFBNm5lWURjWU9IY2NmNlNOTVF1UGpOZU5hSG9GNzN3akNvOUpXX0JTX25kQm1YMUJNTXRaSm5N?oc=5\" target=\"_blank\">Japan's Takaichi pushes for tougher cybersecurity laws as attacks surge</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nikkei Asia</font>",
+      "published": "Fri, 06 Nov 2026 17:19:00 GMT",
+      "score": 13.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "Claude Code's “Don't Ask Again” File Exposes Passwords and Keys in 1,122 Public Copies on GitHub",
+      "url": "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html",
+      "summary": "Passwords and API keys that developers typed into commands they approved in Claude Code are sitting in public GitHub repositories, where anyone can read them. When a user selects \"Yes, and don't ask again,\" Anthropic's AI coding assistant can save the command, word-for-word, including the secret, in a project settings file. Software security company Apiiro said yesterday that 1,122 public",
+      "published": "Sat, 07 Nov 2026 12:14:17 +0530",
+      "score": 12.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "Hackers Target OpenSSH SSHole Flaw Within Hours of Disclosure, Gain Root on Honeypot",
+      "url": "https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html",
+      "summary": "Threat actors are attempting to exploit a recently disclosed security flaw impacting OpenSSH that can enable sign-ins to accounts that have no password set, according to Previdian. The vulnerability, tracked as CVE-2026-123158 (CVSS score: 8.1) and codenamed SSHole (or *sshole), impacts Linux systems that run OpenSSH on the musl C library with Pluggable Authentication Modules (PAM) disabled,",
+      "published": "Fri, 06 Nov 2026 20:51:49 +0530",
+      "score": 12.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "Malicious Browser Extensions Could Use Claude Dispatch to Run Code on Users' Computers",
+      "url": "https://thehackernews.com/2026/11/malicious-browser-extensions-could-use.html",
+      "summary": "A browser extension that can run scripts on claude.ai could make Claude Desktop run code on a person's computer, researchers at Forever Security, an endpoint security company, showed in a test. The attack needs Dispatch, a Claude feature that lets people send tasks from their phone to Claude Desktop. The flaw that makes this possible can still be exploited, the researchers said earlier this",
+      "published": "Fri, 06 Nov 2026 17:36:35 +0530",
+      "score": 12.0
     },
     {
       "source": "The Hacker News",
@@ -199,14 +207,6 @@
       "url": "https://thehackernews.com/2026/11/the-flood-is-coming-and-pipes-were.html",
       "summary": "An update on Athena, and some unsolicited predictions on what's coming next On Saturday, Dario Amodei published We Must Pace the Frontier. I agree with him. Go read it if you haven't. I've spent the summer looking at what these models find, and the gap he describes between what they can do and what the rest of us are ready for is the one I've been staring at since May. The hardest piece of his",
       "published": "Fri, 06 Nov 2026 17:00:00 +0530",
-      "score": 12.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "Hackers Hide Linux Backdoor in Control Web Panel Server to Execute Commands Without Logs",
-      "url": "https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html",
-      "summary": "A backdoor has been found hiding in the web server that runs Control Web Panel (CWP), a free panel for managing Linux hosting servers, researchers at QiAnXin's XLab said this week. The backdoored web server executes commands that attackers send via web requests, and those requests never appear in its access logs. Installing it takes root access, so the attackers must already control the server.",
-      "published": "Fri, 06 Nov 2026 11:28:54 +0530",
       "score": 12.0
     }
   ]
