@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-07T11:10:52.512885+00:00",
+  "generated_at_utc": "2026-11-08T11:22:35.199974+00:00",
   "publication_enabled": false,
   "editorial_note": "Candidates require human/editorial review and original technical work before publication.",
   "feed_errors": [
@@ -66,44 +66,12 @@
       "score": 20.0
     },
     {
-      "source": "The Hacker News",
-      "title": "OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run",
-      "url": "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
-      "summary": "OpenAI on Wednesday detailed a pipeline that employed an upcoming cyber-focused artificial intelligence (AI) model to validate and patch 948 local privilege escalation vulnerabilities in Linux for $1.2 million in API costs. \"Our prototype identified and analyzed 2,308 candidate Linux kernel findings, dynamically reproduced 1,724 vulnerabilities, and produced 948 local privilege escalation (LPE)",
-      "published": "Thu, 05 Nov 2026 17:38:54 +0530",
-      "score": 19.0
-    },
-    {
-      "source": "BleepingComputer",
-      "title": "Fake OpenAI, SpaceX events used to steal Microsoft, Google accounts",
-      "url": "https://www.bleepingcomputer.com/news/security/fake-openai-spacex-events-used-to-steal-microsoft-google-accounts/",
-      "summary": "Hackers are using fake OpenAI, SpaceX, and Anthropic event invitations to lure employees into phishing attacks, using two different phishing-as-a-service platforms to steal Microsoft and Google account credentials and authentication sessions. [...]",
-      "published": "Thu, 05 Nov 2026 16:30:30 -0500",
-      "score": 19.0
-    },
-    {
       "source": "BleepingComputer",
       "title": "Fake security tools on GitHub push backdoors and infostealers",
       "url": "https://www.bleepingcomputer.com/news/security/fake-security-tools-on-github-push-backdoors-and-infostealers/",
       "summary": "Cybersecurity professionals are being targeted with infected security projects on GitHub that deploy a backdoor and information stealer malware. [...]",
       "published": "Fri, 06 Nov 2026 13:46:52 -0500",
       "score": 18.0
-    },
-    {
-      "source": "Google News Cybersecurity",
-      "title": "Ransomware group claims theft of data tied to 1.3M Spartans as MSU investigates - KEYE",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOQ3ZwMFUwM19ZR3FQSzZZTllsYVBTcVRQeElYQVRKTWlkX25iQ2E5V1pLY3hhMlFQTWNDbjNQbDR2akY3LThJb2xVYUFnQ2wyQllZd2FjVUhNRm5rc3Fvb1R3V09oNlNna2doa2k1Q1ZFR0FKRTdLVFBZXzdVTENtSzcwQW51YTJDaVJVODRjbk55MDRzU0VHaDFQaGRzZXpHeWlNa29TZ0lZT29USHM0RXc5SW83N0RvTVE?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxOQ3ZwMFUwM19ZR3FQSzZZTllsYVBTcVRQeElYQVRKTWlkX25iQ2E5V1pLY3hhMlFQTWNDbjNQbDR2akY3LThJb2xVYUFnQ2wyQllZd2FjVUhNRm5rc3Fvb1R3V09oNlNna2doa2k1Q1ZFR0FKRTdLVFBZXzdVTENtSzcwQW51YTJDaVJVODRjbk55MDRzU0VHaDFQaGRzZXpHeWlNa29TZ0lZT29USHM0RXc5SW83N0RvTVE?oc=5\" target=\"_blank\">Ransomware group claims theft of data tied to 1.3M Spartans as MSU investigates</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">KEYE</font>",
-      "published": "Fri, 06 Nov 2026 20:52:12 GMT",
-      "score": 18.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "Chainalysis Breach Exposes All Users' Credentials, Forces Shutdown of Key Services",
-      "url": "https://thehackernews.com/2026/11/chainalysis-breach-exposes-all-users.html",
-      "summary": "Blockchain analysis firm Chainalysis has revealed that its ongoing investigation into the agentic cyber attack targeting its systems also exposed names, usernames, password hashes and live tokens for all users. \"While we investigated, we removed access to Reactor and Data Solutions,\" the company said. \"At this time we continue to have no evidence that any investigations data has been accessed",
-      "published": "Fri, 06 Nov 2026 13:34:49 +0530",
-      "score": 16.0
     },
     {
       "source": "BleepingComputer",
@@ -122,35 +90,11 @@
       "score": 15.0
     },
     {
-      "source": "The Hacker News",
-      "title": "Experts Demonstrate Barracuda Email Security Gateway Chain Enabling Root Access Without Login",
-      "url": "https://thehackernews.com/2026/11/experts-demonstrate-barracuda-email.html",
-      "summary": "Two flaws in Barracuda's Email Security Gateway, an email-filtering appliance, can be chained to run commands on it as root, its highest level of access, with no login required. The company released patches on Monday, and the security firm watchTowr detailed the attack chain on Thursday. One flaw, CVE-2026-116606, is an authorization bypass. An unauthenticated attacker can use it to restore a",
-      "published": "Fri, 06 Nov 2026 11:09:10 +0530",
-      "score": 15.0
-    },
-    {
       "source": "BleepingComputer",
       "title": "OpenAI's new GPT-6 Cyber AI finds 81 Firefox flaws, 948 Linux bugs",
       "url": "https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs/",
       "summary": "OpenAI has revealed GPT-6 Cyber, a new artificial intelligence model that has discovered 81 previously unknown high-severity Firefox vulnerabilities and developed working exploits for 948 distinct Linux kernel flaws. [...]",
       "published": "Fri, 06 Nov 2026 15:24:19 -0500",
-      "score": 15.0
-    },
-    {
-      "source": "Google News Cybersecurity",
-      "title": "Trimedx Introduces Agentic AI Capabilities for Reducing Medical Device Cybersecurity Remediation Time - Medical Product Outsourcing",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNZzFiTXFrTWpmTF84SzBCZWQ3YzdtMGpYaGE4OGVlZVpNS3lONld2TWoyM0lrRzhqeUNOckwzNmMyUDA3TlJNRjc5LVM1bWVzZDhvcGNfZlJORWwtNHQ0MkNUX2xIYWR0U1o3RWxzUXFJTU1FYTJOVDEzVFZsVURRMTA3NlBCOWJ1dDUwaWF5bW9xenZLbXVCZmFVWlhVRi1obVp2SzJBODVvVDJWZkFES3M2aWdfaGpqc1lZYmtIZkJzR2tJakhhTTl4OVNuY1BqYk1oSWJHTQ?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi1wFBVV95cUxNZzFiTXFrTWpmTF84SzBCZWQ3YzdtMGpYaGE4OGVlZVpNS3lONld2TWoyM0lrRzhqeUNOckwzNmMyUDA3TlJNRjc5LVM1bWVzZDhvcGNfZlJORWwtNHQ0MkNUX2xIYWR0U1o3RWxzUXFJTU1FYTJOVDEzVFZsVURRMTA3NlBCOWJ1dDUwaWF5bW9xenZLbXVCZmFVWlhVRi1obVp2SzJBODVvVDJWZkFES3M2aWdfaGpqc1lZYmtIZkJzR2tJakhhTTl4OVNuY1BqYk1oSWJHTQ?oc=5\" target=\"_blank\">Trimedx Introduces Agentic AI Capabilities for Reducing Medical Device Cybersecurity Remediation Time</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Medical Product Outsourcing</font>",
-      "published": "Fri, 06 Nov 2026 21:19:32 GMT",
-      "score": 15.0
-    },
-    {
-      "source": "Google News Cybersecurity",
-      "title": "Cybersecurity is a major concern for bankers - Fed's Bowman - Seeking Alpha",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNZ1hLTWYyVU54ZEtfX3MwbWZPYUpwc1lWVWo4SW1qa2dCclN5eVBZTnU1LTFBVmR3NFVNT19KdkhmeVRSNG9vNzFXME81ZW9EUkF5eWFQQzFDOU5DQjdRekZaMDVpNE1tQUlGbVdheTB6ZDZOZWE2TmllcVBLYXJWcXFDS3Q4Y1NiU0NrNDQ2NkkwTncwRURNQWp0alA?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxNZ1hLTWYyVU54ZEtfX3MwbWZPYUpwc1lWVWo4SW1qa2dCclN5eVBZTnU1LTFBVmR3NFVNT19KdkhmeVRSNG9vNzFXME81ZW9EUkF5eWFQQzFDOU5DQjdRekZaMDVpNE1tQUlGbVdheTB6ZDZOZWE2TmllcVBLYXJWcXFDS3Q4Y1NiU0NrNDQ2NkkwTncwRURNQWp0alA?oc=5\" target=\"_blank\">Cybersecurity is a major concern for bankers - Fed's Bowman</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Seeking Alpha</font>",
-      "published": "Fri, 06 Nov 2026 18:22:23 GMT",
       "score": 15.0
     },
     {
@@ -162,19 +106,19 @@
       "score": 14.0
     },
     {
-      "source": "SecurityWeek",
-      "title": "OpenAI Model Wrote Its Own Network Code to Get Around Sandbox Restrictions",
-      "url": "https://www.securityweek.com/openai-model-wrote-its-own-network-code-to-get-around-sandbox-restrictions/",
-      "summary": "<p>After its sandbox proxy failed, an internal OpenAI model crafted raw packets and probed AWS services trying to reach the internet.</p> <p>The post <a href=\"https://www.securityweek.com/openai-model-wrote-its-own-network-code-to-get-around-sandbox-restrictions/\">OpenAI Model Wrote Its Own Network Code to Get Around Sandbox Restrictions</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "published": "Fri, 06 Nov 2026 09:33:51 +0000",
-      "score": 14.0
+      "source": "Google News Cybersecurity",
+      "title": "How Cybersecurity Teams Can Close Cloud Security Skills Gaps Without Slowing Innovation - Cybersecurity Insiders",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQVC1zUFB1bGZ1V0daQWt6aGIzYUt1RTZuSVpHamptZ2V5TWVnWXBXcEwwZ05FdHluRlhoTmNGeU9FcGFVb2tLSUxRNVJteWNyWjVSend5RzhrNGVuczBQTW1Hc3FQbVZLcmNiZXlTQ0lIMHNELWlUVUh1bHRhNDNSYWhXS3pDRDJydm9tRG1WWEY5bUFSdEZfelhLTWZkM3BDVUZtaUVIVFk4M3JNc2VwT0lGcDQ1TUdoTVp1N3dMRUJaNUxiVFE?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMixgFBVV95cUxQVC1zUFB1bGZ1V0daQWt6aGIzYUt1RTZuSVpHamptZ2V5TWVnWXBXcEwwZ05FdHluRlhoTmNGeU9FcGFVb2tLSUxRNVJteWNyWjVSend5RzhrNGVuczBQTW1Hc3FQbVZLcmNiZXlTQ0lIMHNELWlUVUh1bHRhNDNSYWhXS3pDRDJydm9tRG1WWEY5bUFSdEZfelhLTWZkM3BDVUZtaUVIVFk4M3JNc2VwT0lGcDQ1TUdoTVp1N3dMRUJaNUxiVFE?oc=5\" target=\"_blank\">How Cybersecurity Teams Can Close Cloud Security Skills Gaps Without Slowing Innovation</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Cybersecurity Insiders</font>",
+      "published": "Sat, 07 Nov 2026 16:21:25 GMT",
+      "score": 13.0
     },
     {
       "source": "Google News Cybersecurity",
-      "title": "Japan's Takaichi pushes for tougher cybersecurity laws as attacks surge - Nikkei Asia",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQQ3VsOExsR0tDZkl0VHhaN29pRjBQTjBoSXZpZXhUY094VVQwdzd5V093V2VKdlltQkhIWUJUOWRBRUc1bEVKOWxhb1dMR2hYVUlvN1hYRjF6ejJDazUxNFpKa2dJSHdwQ3dRaEEwQ1hMa1pMa29lZUpSMGUwSHdtZVFlSzFBNm5lWURjWU9IY2NmNlNOTVF1UGpOZU5hSG9GNzN3akNvOUpXX0JTX25kQm1YMUJNTXRaSm5N?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxQQ3VsOExsR0tDZkl0VHhaN29pRjBQTjBoSXZpZXhUY094VVQwdzd5V093V2VKdlltQkhIWUJUOWRBRUc1bEVKOWxhb1dMR2hYVUlvN1hYRjF6ejJDazUxNFpKa2dJSHdwQ3dRaEEwQ1hMa1pMa29lZUpSMGUwSHdtZVFlSzFBNm5lWURjWU9IY2NmNlNOTVF1UGpOZU5hSG9GNzN3akNvOUpXX0JTX25kQm1YMUJNTXRaSm5N?oc=5\" target=\"_blank\">Japan's Takaichi pushes for tougher cybersecurity laws as attacks surge</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nikkei Asia</font>",
-      "published": "Fri, 06 Nov 2026 17:19:00 GMT",
+      "title": "OpenAI's GPT-6 Cyber finds 81 Firefox flaws and shows how AI is changing cybersecurity - Startup Fortune",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQWxJUlFpQU5yc0owMGRKMmh5UU9xc01xRFdnZjJndWtkcmxGV3Bxcm1oZXhSWm1uT3NuSGVxaUY0eFZyWHAybC1UQ1djWlZIQmd6cUVpQ0dFa1NBYXNISXp6UlBMaEVlTlgzekRSa0d4cnhiWklRWXlFNkMwcnk1MHBmbVBuU1JReGtrWmJmSFJrYmdoWVNCOTlLY2tqS2VUeFdJbzhGaHFxX0tQc2tsM0ZEdw?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxOQWxJUlFpQU5yc0owMGRKMmh5UU9xc01xRFdnZjJndWtkcmxGV3Bxcm1oZXhSWm1uT3NuSGVxaUY0eFZyWHAybC1UQ1djWlZIQmd6cUVpQ0dFa1NBYXNISXp6UlBMaEVlTlgzekRSa0d4cnhiWklRWXlFNkMwcnk1MHBmbVBuU1JReGtrWmJmSFJrYmdoWVNCOTlLY2tqS2VUeFdJbzhGaHFxX0tQc2tsM0ZEdw?oc=5\" target=\"_blank\">OpenAI's GPT-6 Cyber finds 81 Firefox flaws and shows how AI is changing cybersecurity</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Startup Fortune</font>",
+      "published": "Sat, 07 Nov 2026 23:43:37 GMT",
       "score": 13.0
     },
     {
@@ -208,6 +152,62 @@
       "summary": "An update on Athena, and some unsolicited predictions on what's coming next On Saturday, Dario Amodei published We Must Pace the Frontier. I agree with him. Go read it if you haven't. I've spent the summer looking at what these models find, and the gap he describes between what they can do and what the rest of us are ready for is the one I've been staring at since May. The hardest piece of his",
       "published": "Fri, 06 Nov 2026 17:00:00 +0530",
       "score": 12.0
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "Hackers pull off $133 million French bank heist via service provider",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-pull-off-133-million-french-bank-heist-via-service-provider/",
+      "summary": "French cooperative bank Crédit Mutuel Arkéa was targeted in a cyberattack that enabled fraudulent transactions of up to $133 million, forcing it to respond by suspending certain systems.v [...]",
+      "published": "Sat, 07 Nov 2026 10:25:35 -0500",
+      "score": 12.0
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "CTM360 Exposes Fake Gift Card Scams Exploiting Trusted Brands",
+      "url": "https://www.bleepingcomputer.com/news/security/ctm360-exposes-fake-gift-card-scams-exploiting-trusted-brands/",
+      "summary": "Scammers are impersonating major brands and celebrities to lure consumers into fake gift card giveaways that collect personal information and trigger unwanted subscriptions. CTM360 reveals how these campaigns use deceptive verification steps and affiliate networks to generate revenue without delivering the promised rewards. [...]",
+      "published": "Sat, 07 Nov 2026 09:10:19 -0500",
+      "score": 12.0
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "Runaway AI hacking agent behind WorkOS breach after escaping sandbox",
+      "url": "https://www.bleepingcomputer.com/news/security/runaway-ai-hacking-agent-behind-workos-breach-after-escaping-sandbox/",
+      "summary": "WorkOS says an AI-powered hacking agent that breached its internal sales application and accessed customer information was operated by a security researcher who claims the tool escaped its testing environment and unintentionally attacked the company. [...]",
+      "published": "Fri, 06 Nov 2026 17:27:25 -0500",
+      "score": 12.0
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "QNAP says hackers breaching NAS devices in Plex2Shell attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/qnap-says-hackers-breaching-nas-devices-in-plex2shell-attacks/",
+      "summary": "QNAP urges users to update Plex Media Server to the latest version available in the QNAP App Center, as hackers are exploiting the Plex2Shell vulnerability chain. [...]",
+      "published": "Fri, 06 Nov 2026 12:04:23 -0500",
+      "score": 12.0
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "Veeam warns of Software Appliance boot failures on AMD EPYC hosts",
+      "url": "https://www.bleepingcomputer.com/news/security/veeam-software-appliance-vms-fail-to-boot-on-amd-epyc-hosts/",
+      "summary": "​Veeam warned customers about boot failures affecting Software Appliance virtual machines (VMs) on hosts with AMD EPYC processors. [...]",
+      "published": "Fri, 06 Nov 2026 10:25:31 -0500",
+      "score": 12.0
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "IMSI vs IMEI: What Your Phone Broadcasts and Who Can Read It",
+      "url": "https://www.bleepingcomputer.com/news/security/imsi-vs-imei-what-your-phone-broadcasts-and-who-can-read-it/",
+      "summary": "IMSI and IMEI are IDs your phone shares with networks. Learn how they differ, how attackers get them, and why rotating your IMSI blunts tracking. [...]",
+      "published": "Fri, 06 Nov 2026 10:00:10 -0500",
+      "score": 12.0
+    },
+    {
+      "source": "SecurityWeek",
+      "title": "Japan Announces Emergency Cybersecurity Package Following a Wave of Attacks",
+      "url": "https://www.securityweek.com/japan-announces-emergency-cybersecurity-package-following-a-wave-of-attacks/",
+      "summary": "<p>The emergency package comes after dozens of companies and government agencies were hit by unauthorized access to their systems and leaks of client data, prompting uneasiness across Japan.</p> <p>The post <a href=\"https://www.securityweek.com/japan-announces-emergency-cybersecurity-package-following-a-wave-of-attacks/\">Japan Announces Emergency Cybersecurity Package Following a Wave of Attacks</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "published": "Fri, 06 Nov 2026 18:28:41 +0000",
+      "score": 11.0
     }
   ]
 }
