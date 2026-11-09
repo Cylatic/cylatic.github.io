@@ -1,156 +1,119 @@
 {
-  "generated_at_utc": "2026-11-08T11:22:35.199974+00:00",
+  "generated_at_utc": "2026-11-09T13:02:12.605391+00:00",
   "publication_enabled": false,
   "editorial_note": "Candidates require human/editorial review and original technical work before publication.",
-  "feed_errors": [
-    {
-      "source": "CISA",
-      "error": "HTTP Error 403: Forbidden"
-    }
-  ],
+  "feed_errors": [],
   "candidates": [
     {
-      "source": "BleepingComputer",
-      "title": "D-Link warns of multiple zero-days in DGS-3130 Series switches",
-      "url": "https://www.bleepingcomputer.com/news/security/d-link-warns-of-multiple-zero-days-in-dgs-3130-series-switches/",
-      "summary": "D-Link shared mitigation measures for multiple unpatched security flaws affecting DGS-3130 series managed Gigabit stackable switches. [...]",
-      "published": "Fri, 06 Nov 2026 07:37:22 -0500",
-      "score": 27.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "Installing the Fix for an Exploited WordPress Flaw Can Expose Some Sites One Last Time",
-      "url": "https://thehackernews.com/2026/11/installing-fix-for-exploited-wordpress.html",
-      "summary": "Some WordPress sites can still be attacked while they install the fix for an actively exploited flaw, according to Umut Bayram, the Picus Security researcher who found it. The update that installs the fix still unpacks its files using the site's old, unpatched code, so an attacker who strikes at the right moment can run code on the server. The researcher advises blocking web access to the",
-      "published": "Fri, 06 Nov 2026 21:38:38 +0530",
+      "source": "SecurityWeek",
+      "title": "Hackers Exploiting ‘SSHole’ Authentication Bypass in OpenSSH",
+      "url": "https://www.securityweek.com/hackers-exploiting-sshole-authentication-bypass-in-openssh/",
+      "summary": "<p>The initial exploitation attempts are attributed to botnets and crypto miners, but other threat actors are expected to follow suit.</p> <p>The post <a href=\"https://www.securityweek.com/hackers-exploiting-sshole-authentication-bypass-in-openssh/\">Hackers Exploiting &#8216;SSHole&#8217; Authentication Bypass in OpenSSH</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "published": "Mon, 09 Nov 2026 12:13:32 +0000",
       "score": 26.0
     },
     {
-      "source": "BleepingComputer",
-      "title": "SonicWall warns of new SSL-VPN MFA bypass flaw exploited in attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/",
-      "summary": "SonicWall has released security updates to fix seven vulnerabilities in SonicOS firewalls, including an SSL-VPN authentication bypass flaw exploited in attacks. [...]",
-      "published": "Fri, 06 Nov 2026 19:00:55 -0500",
-      "score": 26.0
+      "source": "Google News Cybersecurity",
+      "title": "How to Protect Your Digital Identity as Online Threats Evolve - shattered.io",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQMHJ3eFAwSGgtSUoyTUpscG9qQTNfOXV2U2JaZGQxNFFlUGJoOXFyazhhN25PeXBHcVZIY2pycENoVnRLVFcyLUNYajRjcjJRN1dGTU1vUjRRTktyTF9uZm1IWWVYWnRPTkRTaXlGN2RoSEZPWE40T2YxNGo4QU9MNGZBRk1rOEdhaDBn?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxQMHJ3eFAwSGgtSUoyTUpscG9qQTNfOXV2U2JaZGQxNFFlUGJoOXFyazhhN25PeXBHcVZIY2pycENoVnRLVFcyLUNYajRjcjJRN1dGTU1vUjRRTktyTF9uZm1IWWVYWnRPTkRTaXlGN2RoSEZPWE40T2YxNGo4QU9MNGZBRk1rOEdhaDBn?oc=5\" target=\"_blank\">How to Protect Your Digital Identity as Online Threats Evolve</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">shattered.io</font>",
+      "published": "Mon, 09 Nov 2026 12:23:53 GMT",
+      "score": 17.0
     },
     {
       "source": "The Hacker News",
-      "title": "Microsoft Paint RCE Fix Now Available, but Windows Update Won't Deliver It",
-      "url": "https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html",
-      "summary": "A fix for CVE-2026-83844, a remote code execution flaw in Windows Paint, is now in the Microsoft Store. Paint gets this fix only through a Store update, not through Windows updates. The fixed build, 11.2609.401.0, was the newest Paint build in all ten countries The Hacker News checked today. The flaw is an out-of-bounds read that could let an attacker run code over a network. Microsoft rates",
-      "published": "Fri, 06 Nov 2026 17:36:43 +0530",
-      "score": 24.0
-    },
-    {
-      "source": "SecurityWeek",
-      "title": "In Other News: Trezor Implant, LLMJacking Bills Hit $1M, SAP Flaws Weaponized Within Days",
-      "url": "https://www.securityweek.com/in-other-news-trezor-implant-llmjacking-bills-hit-1m-sap-flaws-weaponized-within-days/",
-      "summary": "<p>Noteworthy stories that might have slipped under the radar: Synology warns about NAS ransomware attacks, Flowise ‘hello’ attacks, Chainalysis breach impact expands.</p> <p>The post <a href=\"https://www.securityweek.com/in-other-news-trezor-implant-llmjacking-bills-hit-1m-sap-flaws-weaponized-within-days/\">In Other News: Trezor Implant, LLMJacking Bills Hit $1M, SAP Flaws Weaponized Within Days</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "published": "Fri, 06 Nov 2026 14:40:09 +0000",
-      "score": 22.0
-    },
-    {
-      "source": "SecurityWeek",
-      "title": "SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins",
-      "url": "https://www.securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins/",
-      "summary": "<p>CVE-2026-19868 can let attackers holding credentials for a different login method get past SAML checks, including SAML-enforced MFA.</p> <p>The post <a href=\"https://www.securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins/\">SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "published": "Sat, 07 Nov 2026 10:16:23 +0000",
-      "score": 20.0
-    },
-    {
-      "source": "SecurityWeek",
-      "title": "OpenSSH Rushes Patches for ‘SSHole’ Authentication Bypass",
-      "url": "https://www.securityweek.com/openssh-rushes-patches-for-sshole-authentication-bypass/",
-      "summary": "<p>On Linux distributions using musl libc without PAM, some accounts accept any password between 257 and 1024 characters.</p> <p>The post <a href=\"https://www.securityweek.com/openssh-rushes-patches-for-sshole-authentication-bypass/\">OpenSSH Rushes Patches for &#8216;SSHole&#8217; Authentication Bypass</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "published": "Fri, 06 Nov 2026 12:07:42 +0000",
-      "score": 20.0
-    },
-    {
-      "source": "BleepingComputer",
-      "title": "Fake security tools on GitHub push backdoors and infostealers",
-      "url": "https://www.bleepingcomputer.com/news/security/fake-security-tools-on-github-push-backdoors-and-infostealers/",
-      "summary": "Cybersecurity professionals are being targeted with infected security projects on GitHub that deploy a backdoor and information stealer malware. [...]",
-      "published": "Fri, 06 Nov 2026 13:46:52 -0500",
-      "score": 18.0
-    },
-    {
-      "source": "BleepingComputer",
-      "title": "Chainalysis says breach exposed credentials for all customers",
-      "url": "https://www.bleepingcomputer.com/news/security/chainalysis-says-breach-exposed-credentials-for-all-customers/",
-      "summary": "Blockchain intelligence firm Chainalysis says a recent attack on its systems and internal tools has exposed credentials and live tokens for all customers. [...]",
-      "published": "Fri, 06 Nov 2026 09:17:07 -0500",
+      "title": "Default 'admin:admin' Server Password Helps Researchers Hack Two Automakers, Unlock and Start Cars",
+      "url": "https://thehackernews.com/2026/11/default-adminadmin-server-password.html",
+      "summary": "The login systems behind two car brands' mobile apps could be taken over completely, two security researchers found, allowing them to access any customer's account and, for an owner with a connected car, unlock the doors and start the engine. Both apps signed customers in through ForgeRock, an identity platform now part of Ping Identity, and on those servers the researchers reached an",
+      "published": "Mon, 09 Nov 2026 16:57:53 +0530",
       "score": 16.0
     },
     {
       "source": "The Hacker News",
-      "title": "OpenAI Launches GPT-6 Cyber After AI Helps Find 81 Firefox Flaws, 948 Linux Exploits",
-      "url": "https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html",
-      "summary": "OpenAI on Thursday unveiled GPT‑6 Cyber, which it described as a major step forward in security research that brings together stronger cybersecurity capabilities with a step-change improvement in model alignment. The new model is \"more capable at finding and fixing vulnerabilities, and far more reliable staying within the boundaries researchers set,\" OpenAI said. It has classified the model as",
-      "published": "Fri, 06 Nov 2026 20:28:32 +0530",
+      "title": "Former OpenAI Engineer Pleads Not Guilty to Planting Covert Device in Executive Meeting Room",
+      "url": "https://thehackernews.com/2026/11/former-openai-engineer-pleads-not.html",
+      "summary": "The OpenAI engineer who was arrested and charged last month for planting a covert audio recording device in the company's office has pleaded not guilty. According to reports from Bloomberg and CNBC, Saudi national Abdulrahman Alfozan made an appearance in San Francisco federal court on Friday, where he entered the plea. His next hearing is scheduled for November 17, 2026. If proven guilty, the",
+      "published": "Mon, 09 Nov 2026 12:35:48 +0530",
       "score": 15.0
     },
     {
       "source": "BleepingComputer",
-      "title": "OpenAI's new GPT-6 Cyber AI finds 81 Firefox flaws, 948 Linux bugs",
-      "url": "https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs/",
-      "summary": "OpenAI has revealed GPT-6 Cyber, a new artificial intelligence model that has discovered 81 previously unknown high-severity Firefox vulnerabilities and developed working exploits for 948 distinct Linux kernel flaws. [...]",
-      "published": "Fri, 06 Nov 2026 15:24:19 -0500",
+      "title": "Iris Ohyama data cloud breach exposes info of 7.7 million customers",
+      "url": "https://www.bleepingcomputer.com/news/security/iris-ohyama-data-cloud-breach-exposes-info-of-77-million-customers/",
+      "summary": "Japanese manufacturer Iris Ohyama, the operator of the Iris Plaza shopping platform, disclosed that personal information belonging to about 7.7 million people may have been exposed after unauthorized access to a third-party cloud service the company used. [...]",
+      "published": "Sun, 08 Nov 2026 10:43:08 -0500",
+      "score": 15.0
+    },
+    {
+      "source": "Google News Cybersecurity",
+      "title": "MyChart back online at University Hospitals after cybersecurity incident - Cleveland 19 News",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNbjhtOGtva21KeU1JWWxqZS03aFUzUTBhdzNEQ3V4SUh5VGgzWGxaTEZjZnJZNzRIV2E2Q0pkU3FuelBxTkF1REpndlUwV3lwVVpnVVdJU25telh0YkFDdFhVOXJ4TElhcUI4VjFueWRWbVBEVDdyWjByV2hLajdGWk13SUhVZWNwMXppYmNBWjJkUlljd2RHdHU0VWJPMHFNTExDLWdBd0g4SERJcGfSAcIBQVVfeXFMT1lidWpuZUxPYVhZQ18wTzNZMWJ1dkQ1a0ZhejFnSVhlTFZKajdBSXdHQVpfMzVRa1dVR0xjRU5fNDlJcTRLb2w3V0NPaEZNV2dncUtWc0hSN2VRNW5Cb2lyZ1ROZU1YOHJDOTgyUGtJVk1CX3hYVFZQbzJwZ2dRcEEwZXB4LWlfdDFaUWdXZk1HZ0lmSEhmYjIwMjh2RlFzdDFTM0VReU8zYjVRSWh3X08xdjZmVDRtUDNpYkJ3WGZQLWc?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxNbjhtOGtva21KeU1JWWxqZS03aFUzUTBhdzNEQ3V4SUh5VGgzWGxaTEZjZnJZNzRIV2E2Q0pkU3FuelBxTkF1REpndlUwV3lwVVpnVVdJU25telh0YkFDdFhVOXJ4TElhcUI4VjFueWRWbVBEVDdyWjByV2hLajdGWk13SUhVZWNwMXppYmNBWjJkUlljd2RHdHU0VWJPMHFNTExDLWdBd0g4SERJcGfSAcIBQVVfeXFMT1lidWpuZUxPYVhZQ18wTzNZMWJ1dkQ1a0ZhejFnSVhlTFZKajdBSXdHQVpfMzVRa1dVR0xjRU5fNDlJcTRLb2w3V0NPaEZNV2dncUtWc0hSN2VRNW5Cb2lyZ1ROZU1YOHJDOTgyUGtJVk1CX3hYVFZQbzJwZ2dRcEEwZXB4LWlfdDFaUWdXZk1HZ0lmSEhmYjIwMjh2RlFzdDFTM0VReU8zYjVRSWh3X08xdjZmVDRtUDNpYkJ3WGZQLWc?oc=5\" target=\"_blank\">MyChart back online at University Hospitals after cybersecurity incident</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Cleveland 19 News</font>",
+      "published": "Sun, 08 Nov 2026 18:03:28 GMT",
+      "score": 15.0
+    },
+    {
+      "source": "Google News Cybersecurity",
+      "title": "MyChart back online at University Hospitals after cybersecurity incident - fox10tv.com",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNUjlxU01fcDFzWjVpNjdBNF9OdFg2NW9vTjZHNDlhRjVKeE1MblJvMlZjRFhrUm1YdlBuYmczbVFOQ3NzWXFodDk4ejNoNkdwQ0VBc1RoczFyd0tkMXZJWGdwSU1kRnhHb0UydHRzTWloQlVqNk9xekZSVUZ6X05DeHotbnJCUW1Wc3RkLVRpYTkwTUg4SjZXU3BWdDRKRmMyZTc3MGFYSHl6eUxMb1JHdA?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxNUjlxU01fcDFzWjVpNjdBNF9OdFg2NW9vTjZHNDlhRjVKeE1MblJvMlZjRFhrUm1YdlBuYmczbVFOQ3NzWXFodDk4ejNoNkdwQ0VBc1RoczFyd0tkMXZJWGdwSU1kRnhHb0UydHRzTWloQlVqNk9xekZSVUZ6X05DeHotbnJCUW1Wc3RkLVRpYTkwTUg4SjZXU3BWdDRKRmMyZTc3MGFYSHl6eUxMb1JHdA?oc=5\" target=\"_blank\">MyChart back online at University Hospitals after cybersecurity incident</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">fox10tv.com</font>",
+      "published": "Sun, 08 Nov 2026 17:07:00 GMT",
       "score": 15.0
     },
     {
       "source": "SecurityWeek",
-      "title": "OpenAI Says New GPT-6 Cyber Model Hunts Flaws Without Crossing the Line",
-      "url": "https://www.securityweek.com/openai-says-new-gpt-6-cyber-model-hunts-flaws-without-crossing-the-line/",
-      "summary": "<p>Rated Critical for cybersecurity, OpenAI’s new model beats GPT-5.6 Cyber at exploitation while staying in scope more reliably.</p> <p>The post <a href=\"https://www.securityweek.com/openai-says-new-gpt-6-cyber-model-hunts-flaws-without-crossing-the-line/\">OpenAI Says New GPT-6 Cyber Model Hunts Flaws Without Crossing the Line</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "published": "Fri, 06 Nov 2026 13:19:52 +0000",
+      "title": "Iris Plaza Breach May Have Exposed Data of 7.7 Million Customers",
+      "url": "https://www.securityweek.com/iris-plaza-breach-may-have-exposed-data-of-7-7-million-customers/",
+      "summary": "<p>Hackers compromised an external cloud service used by the shopping platform and may have stolen personal information from it.</p> <p>The post <a href=\"https://www.securityweek.com/iris-plaza-breach-may-have-exposed-data-of-7-7-million-customers/\">Iris Plaza Breach May Have Exposed Data of 7.7 Million Customers</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "published": "Mon, 09 Nov 2026 12:41:27 +0000",
       "score": 14.0
     },
     {
-      "source": "Google News Cybersecurity",
-      "title": "How Cybersecurity Teams Can Close Cloud Security Skills Gaps Without Slowing Innovation - Cybersecurity Insiders",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQVC1zUFB1bGZ1V0daQWt6aGIzYUt1RTZuSVpHamptZ2V5TWVnWXBXcEwwZ05FdHluRlhoTmNGeU9FcGFVb2tLSUxRNVJteWNyWjVSend5RzhrNGVuczBQTW1Hc3FQbVZLcmNiZXlTQ0lIMHNELWlUVUh1bHRhNDNSYWhXS3pDRDJydm9tRG1WWEY5bUFSdEZfelhLTWZkM3BDVUZtaUVIVFk4M3JNc2VwT0lGcDQ1TUdoTVp1N3dMRUJaNUxiVFE?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMixgFBVV95cUxQVC1zUFB1bGZ1V0daQWt6aGIzYUt1RTZuSVpHamptZ2V5TWVnWXBXcEwwZ05FdHluRlhoTmNGeU9FcGFVb2tLSUxRNVJteWNyWjVSend5RzhrNGVuczBQTW1Hc3FQbVZLcmNiZXlTQ0lIMHNELWlUVUh1bHRhNDNSYWhXS3pDRDJydm9tRG1WWEY5bUFSdEZfelhLTWZkM3BDVUZtaUVIVFk4M3JNc2VwT0lGcDQ1TUdoTVp1N3dMRUJaNUxiVFE?oc=5\" target=\"_blank\">How Cybersecurity Teams Can Close Cloud Security Skills Gaps Without Slowing Innovation</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Cybersecurity Insiders</font>",
-      "published": "Sat, 07 Nov 2026 16:21:25 GMT",
-      "score": 13.0
-    },
-    {
-      "source": "Google News Cybersecurity",
-      "title": "OpenAI's GPT-6 Cyber finds 81 Firefox flaws and shows how AI is changing cybersecurity - Startup Fortune",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQWxJUlFpQU5yc0owMGRKMmh5UU9xc01xRFdnZjJndWtkcmxGV3Bxcm1oZXhSWm1uT3NuSGVxaUY0eFZyWHAybC1UQ1djWlZIQmd6cUVpQ0dFa1NBYXNISXp6UlBMaEVlTlgzekRSa0d4cnhiWklRWXlFNkMwcnk1MHBmbVBuU1JReGtrWmJmSFJrYmdoWVNCOTlLY2tqS2VUeFdJbzhGaHFxX0tQc2tsM0ZEdw?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxOQWxJUlFpQU5yc0owMGRKMmh5UU9xc01xRFdnZjJndWtkcmxGV3Bxcm1oZXhSWm1uT3NuSGVxaUY0eFZyWHAybC1UQ1djWlZIQmd6cUVpQ0dFa1NBYXNISXp6UlBMaEVlTlgzekRSa0d4cnhiWklRWXlFNkMwcnk1MHBmbVBuU1JReGtrWmJmSFJrYmdoWVNCOTlLY2tqS2VUeFdJbzhGaHFxX0tQc2tsM0ZEdw?oc=5\" target=\"_blank\">OpenAI's GPT-6 Cyber finds 81 Firefox flaws and shows how AI is changing cybersecurity</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Startup Fortune</font>",
-      "published": "Sat, 07 Nov 2026 23:43:37 GMT",
-      "score": 13.0
-    },
-    {
       "source": "The Hacker News",
-      "title": "Claude Code's “Don't Ask Again” File Exposes Passwords and Keys in 1,122 Public Copies on GitHub",
-      "url": "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html",
-      "summary": "Passwords and API keys that developers typed into commands they approved in Claude Code are sitting in public GitHub repositories, where anyone can read them. When a user selects \"Yes, and don't ask again,\" Anthropic's AI coding assistant can save the command, word-for-word, including the secret, in a project settings file. Software security company Apiiro said yesterday that 1,122 public",
-      "published": "Sat, 07 Nov 2026 12:14:17 +0530",
+      "title": "Web3Auth Flaw Exploited to Steal Keplr Crypto, Provider Empties Other Wallets for Safety",
+      "url": "https://thehackernews.com/2026/11/web3auth-flaw-exploited-to-steal-keplr.html",
+      "summary": "Some people who set up a Keplr crypto wallet with their Google or Apple account have had money stolen by an attacker. Keplr uses a company called Web3Auth to run that Google and Apple sign-in. The attacker used a security flaw at that company to reach the wallets, both companies said late last week. Web3Auth then used the attacker's own route to empty other at-risk wallets before the attacker",
+      "published": "Mon, 09 Nov 2026 16:26:25 +0530",
       "score": 12.0
     },
     {
       "source": "The Hacker News",
-      "title": "Hackers Target OpenSSH SSHole Flaw Within Hours of Disclosure, Gain Root on Honeypot",
-      "url": "https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html",
-      "summary": "Threat actors are attempting to exploit a recently disclosed security flaw impacting OpenSSH that can enable sign-ins to accounts that have no password set, according to Previdian. The vulnerability, tracked as CVE-2026-123158 (CVSS score: 8.1) and codenamed SSHole (or *sshole), impacts Linux systems that run OpenSSH on the musl C library with Pluggable Authentication Modules (PAM) disabled,",
-      "published": "Fri, 06 Nov 2026 20:51:49 +0530",
+      "title": "LNbits Urges All Operators to Shut Down Their Bitcoin Lightning Wallet Servers Amid Attacks",
+      "url": "https://thehackernews.com/2026/11/lnbits-urges-all-operators-to-shut-down.html",
+      "summary": "Everyone running LNbits, a free, open-source Bitcoin Lightning wallet system, should shut down their servers now because of a wave of attacks, the project said yesterday. It has several security fixes to release and asked operators to be careful until they are out. One operator said new accounts used an exploit to withdraw 2,285,545 satoshis, about 0.023 bitcoin, from his server before he could",
+      "published": "Mon, 09 Nov 2026 15:31:21 +0530",
       "score": 12.0
     },
     {
       "source": "The Hacker News",
-      "title": "Malicious Browser Extensions Could Use Claude Dispatch to Run Code on Users' Computers",
-      "url": "https://thehackernews.com/2026/11/malicious-browser-extensions-could-use.html",
-      "summary": "A browser extension that can run scripts on claude.ai could make Claude Desktop run code on a person's computer, researchers at Forever Security, an endpoint security company, showed in a test. The attack needs Dispatch, a Claude feature that lets people send tasks from their phone to Claude Desktop. The flaw that makes this possible can still be exploited, the researchers said earlier this",
-      "published": "Fri, 06 Nov 2026 17:36:35 +0530",
+      "title": "Taiwan-Based Hacker Used BOSSAI AI Agents to Steal Taipei Emergency Dispatch Records",
+      "url": "https://thehackernews.com/2026/11/taiwan-based-hacker-used-bossai-ai.html",
+      "summary": "A single attacker using AI agents pulled emergency dispatch records covering seven Taipei districts, researchers at Acronis's Threat Research Unit said last week. The agents also found a Taipei fire department platform exposing patient data from 2018, including ECG readings and ambulance video footage, without a login. The researchers are highly confident that the attacker is a single person",
+      "published": "Mon, 09 Nov 2026 14:31:50 +0530",
       "score": 12.0
     },
     {
       "source": "The Hacker News",
-      "title": "The Flood is Coming And The Pipes Were Already Full",
-      "url": "https://thehackernews.com/2026/11/the-flood-is-coming-and-pipes-were.html",
-      "summary": "An update on Athena, and some unsolicited predictions on what's coming next On Saturday, Dario Amodei published We Must Pace the Frontier. I agree with him. Go read it if you haven't. I've spent the summer looking at what these models find, and the gap he describes between what they can do and what the rest of us are ready for is the one I've been staring at since May. The hardest piece of his",
-      "published": "Fri, 06 Nov 2026 17:00:00 +0530",
+      "title": "U.S. Agencies Warn Refrigeration Controller Attacks Could Cause Fires and Inventory Losses",
+      "url": "https://thehackernews.com/2026/11/us-agencies-warn-refrigeration.html",
+      "summary": "U.S. government agencies have warned that threat actors are actively targeting industrial refrigeration and cold-chain monitoring systems globally with an aim to cause service disruptions, fire hazards, and loss of inventory. \"The actors may exploit vulnerabilities or weaknesses in unpatched or internet-accessible controllers to remotely alter settings and force units into continuous heating",
+      "published": "Mon, 09 Nov 2026 11:45:10 +0530",
+      "score": 12.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "CISA Flags SonicWall SonicOS MFA Bypass Flaw Amid Reports of Possible Exploitation",
+      "url": "https://thehackernews.com/2026/11/cisa-flags-sonicwall-sonicos-mfa-bypass.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a high-severity vulnerability impacting SonicWall SonicOS to its Known Exploited Vulnerabilities (KEV) catalog, following reports that it said may have been exploited in real-world attacks. The vulnerability, tracked as CVE-2026-19868 (CVSS score: 7.1 / 7.5), has been described as an authentication reinforcement",
+      "published": "Mon, 09 Nov 2026 11:35:24 +0530",
+      "score": 12.0
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "Ukraine dismantles crypto scam network that stole €4.3 million",
+      "url": "https://www.bleepingcomputer.com/news/security/ukraine-dismantles-crypto-scam-network-that-stole-43-million/",
+      "summary": "Ukrainian law enforcement arrested four suspects in a case involving the theft of more than €4.3 million using a network of cryptocurrency investment scam call centers. [...]",
+      "published": "Mon, 09 Nov 2026 07:16:13 -0500",
       "score": 12.0
     },
     {
@@ -170,44 +133,76 @@
       "score": 12.0
     },
     {
-      "source": "BleepingComputer",
-      "title": "Runaway AI hacking agent behind WorkOS breach after escaping sandbox",
-      "url": "https://www.bleepingcomputer.com/news/security/runaway-ai-hacking-agent-behind-workos-breach-after-escaping-sandbox/",
-      "summary": "WorkOS says an AI-powered hacking agent that breached its internal sales application and accessed customer information was operated by a security researcher who claims the tool escaped its testing environment and unintentionally attacked the company. [...]",
-      "published": "Fri, 06 Nov 2026 17:27:25 -0500",
-      "score": 12.0
-    },
-    {
-      "source": "BleepingComputer",
-      "title": "QNAP says hackers breaching NAS devices in Plex2Shell attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/qnap-says-hackers-breaching-nas-devices-in-plex2shell-attacks/",
-      "summary": "QNAP urges users to update Plex Media Server to the latest version available in the QNAP App Center, as hackers are exploiting the Plex2Shell vulnerability chain. [...]",
-      "published": "Fri, 06 Nov 2026 12:04:23 -0500",
-      "score": 12.0
-    },
-    {
-      "source": "BleepingComputer",
-      "title": "Veeam warns of Software Appliance boot failures on AMD EPYC hosts",
-      "url": "https://www.bleepingcomputer.com/news/security/veeam-software-appliance-vms-fail-to-boot-on-amd-epyc-hosts/",
-      "summary": "​Veeam warned customers about boot failures affecting Software Appliance virtual machines (VMs) on hosts with AMD EPYC processors. [...]",
-      "published": "Fri, 06 Nov 2026 10:25:31 -0500",
-      "score": 12.0
-    },
-    {
-      "source": "BleepingComputer",
-      "title": "IMSI vs IMEI: What Your Phone Broadcasts and Who Can Read It",
-      "url": "https://www.bleepingcomputer.com/news/security/imsi-vs-imei-what-your-phone-broadcasts-and-who-can-read-it/",
-      "summary": "IMSI and IMEI are IDs your phone shares with networks. Learn how they differ, how attackers get them, and why rotating your IMSI blunts tracking. [...]",
-      "published": "Fri, 06 Nov 2026 10:00:10 -0500",
-      "score": 12.0
+      "source": "SecurityWeek",
+      "title": "Italy’s Meloni Blames Pro-Russian Hackers for Leak of Foreign Minister’s Data on the Dark Web",
+      "url": "https://www.securityweek.com/italys-meloni-blames-pro-russian-hackers-for-leak-of-foreign-ministers-data-on-the-dark-web/",
+      "summary": "<p>Italian Foreign Minister Antonio Tajani said Saturday that his personal data had been disseminated on the dark web.</p> <p>The post <a href=\"https://www.securityweek.com/italys-meloni-blames-pro-russian-hackers-for-leak-of-foreign-ministers-data-on-the-dark-web/\">Italy&#8217;s Meloni Blames Pro-Russian Hackers for Leak of Foreign Minister&#8217;s Data on the Dark Web</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "published": "Mon, 09 Nov 2026 12:22:12 +0000",
+      "score": 11.0
     },
     {
       "source": "SecurityWeek",
-      "title": "Japan Announces Emergency Cybersecurity Package Following a Wave of Attacks",
-      "url": "https://www.securityweek.com/japan-announces-emergency-cybersecurity-package-following-a-wave-of-attacks/",
-      "summary": "<p>The emergency package comes after dozens of companies and government agencies were hit by unauthorized access to their systems and leaks of client data, prompting uneasiness across Japan.</p> <p>The post <a href=\"https://www.securityweek.com/japan-announces-emergency-cybersecurity-package-following-a-wave-of-attacks/\">Japan Announces Emergency Cybersecurity Package Following a Wave of Attacks</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "published": "Fri, 06 Nov 2026 18:28:41 +0000",
+      "title": "Amplifon Americas Data Breach Impacts 1.3 Million",
+      "url": "https://www.securityweek.com/amplifon-americas-data-breach-impacts-1-3-million/",
+      "summary": "<p>Hackers stole personal, health, and insurance information, including Social Security numbers, from the company’s internal systems.</p> <p>The post <a href=\"https://www.securityweek.com/amplifon-americas-data-breach-impacts-1-3-million/\">Amplifon Americas Data Breach Impacts 1.3 Million</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "published": "Mon, 09 Nov 2026 11:20:09 +0000",
       "score": 11.0
+    },
+    {
+      "source": "SecurityWeek",
+      "title": "Over 3 Million People Hit by Frontline Education Data Breach",
+      "url": "https://www.securityweek.com/3-million-people-hit-by-frontline-education-data-breach/",
+      "summary": "<p>Frontline Education told Indiana regulators that its August data breach affected over 3 million school district staff and students.</p> <p>The post <a href=\"https://www.securityweek.com/3-million-people-hit-by-frontline-education-data-breach/\">Over 3 Million People Hit by Frontline Education Data Breach</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "published": "Mon, 09 Nov 2026 10:09:02 +0000",
+      "score": 11.0
+    },
+    {
+      "source": "SecurityWeek",
+      "title": "Google DeepMind’s AI Agents Make 1024-Bit RSA Keys Cheaper to Attack",
+      "url": "https://www.securityweek.com/google-deepminds-ai-agents-make-1024-bit-rsa-keys-cheaper-to-attack/",
+      "summary": "<p>Working with cryptographers, DeepMind’s AI agents cut the cost of forging RSA-1024 signatures and found a cheaper way to factor keys.</p> <p>The post <a href=\"https://www.securityweek.com/google-deepminds-ai-agents-make-1024-bit-rsa-keys-cheaper-to-attack/\">Google DeepMind&#8217;s AI Agents Make 1024-Bit RSA Keys Cheaper to Attack</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "published": "Mon, 09 Nov 2026 08:35:50 +0000",
+      "score": 11.0
+    },
+    {
+      "source": "SecurityWeek",
+      "title": "Brava Security Emerges From Stealth With $15 Million in Funding",
+      "url": "https://www.securityweek.com/brava-security-emerges-from-stealth-with-15-million-in-funding/",
+      "summary": "<p>Its multi-agent AI platform generates the telemetry an attack would produce to fix gaps in enterprise defenses.</p> <p>The post <a href=\"https://www.securityweek.com/brava-security-emerges-from-stealth-with-15-million-in-funding/\">Brava Security Emerges From Stealth With $15 Million in Funding</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "published": "Sun, 08 Nov 2026 12:14:00 +0000",
+      "score": 11.0
+    },
+    {
+      "source": "Google News Cybersecurity",
+      "title": "3 European Cybersecurity Stocks Worth Watching After the Latest Attacks - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPdEpwblNUZFhfS25NdllQTUNFU0pyblVyY1FmQzFTQjhfNHoxeUpvdGRHZUFtS01mWjYxalo5X2R3TlhwdFpvYVBLQnI5SXVmRGp4aURJZ3ViSDhUT3dLYko1TG80UVpPS0xRZTJ4Q3NLUFRXbWYzUFZFZDdHT1FKZ254ZGZvNUFwc2U0WGhVbGQxTG1GZy1JNlNjU0VnTnp2R1lzMg?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxPdEpwblNUZFhfS25NdllQTUNFU0pyblVyY1FmQzFTQjhfNHoxeUpvdGRHZUFtS01mWjYxalo5X2R3TlhwdFpvYVBLQnI5SXVmRGp4aURJZ3ViSDhUT3dLYko1TG80UVpPS0xRZTJ4Q3NLUFRXbWYzUFZFZDdHT1FKZ254ZGZvNUFwc2U0WGhVbGQxTG1GZy1JNlNjU0VnTnp2R1lzMg?oc=5\" target=\"_blank\">3 European Cybersecurity Stocks Worth Watching After the Latest Attacks</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo Finance</font>",
+      "published": "Mon, 09 Nov 2026 08:10:42 GMT",
+      "score": 10.0
+    },
+    {
+      "source": "Google News Cybersecurity",
+      "title": "After cyberattack, rural Washburn County is upping security - WPR",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOWE16d0d4aWhYekpoNHRydkVVREkzb010MGpBNlBfN2o1M2hhcWM2QWl2aXdGd2VCNkZ5TnJXamFZNUVMU0ZEQjBSVTUxZGd1ZlA4bFNKSVBLRFJJdF9YekkyLUdseHBVUS1fTElCWDR6OE9VejQ1elBMMTR1RW1XQVBNbw?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMigwFBVV95cUxOWE16d0d4aWhYekpoNHRydkVVREkzb010MGpBNlBfN2o1M2hhcWM2QWl2aXdGd2VCNkZ5TnJXamFZNUVMU0ZEQjBSVTUxZGd1ZlA4bFNKSVBLRFJJdF9YekkyLUdseHBVUS1fTElCWDR6OE9VejQ1elBMMTR1RW1XQVBNbw?oc=5\" target=\"_blank\">After cyberattack, rural Washburn County is upping security</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WPR</font>",
+      "published": "Mon, 09 Nov 2026 11:00:00 GMT",
+      "score": 10.0
+    },
+    {
+      "source": "Google News Cybersecurity",
+      "title": "Truth or consequences: What your AI strategy is standing on - Cybersecurity Dive",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOb3pSMzZRYkNycFdxcFlWS0V5c0xEV1pUZTZlam9kMDdkZnpucFQ3cjhZZk5QaWpNckVOMGw5NWFmcHZfdlM1WHNhWUVBMGV2X1p2OEhLM1VQaXRha1ZvbUZjQi13WC14Y0tQc0RQY2pVYTYzY3NaRHRPQ2lvYzJwVlBSNEtjdm5JR1RtUlJxd1pIeFJhWV9hMGRiYmpaeTVHRWk1V3dyeFVzQQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxOb3pSMzZRYkNycFdxcFlWS0V5c0xEV1pUZTZlam9kMDdkZnpucFQ3cjhZZk5QaWpNckVOMGw5NWFmcHZfdlM1WHNhWUVBMGV2X1p2OEhLM1VQaXRha1ZvbUZjQi13WC14Y0tQc0RQY2pVYTYzY3NaRHRPQ2lvYzJwVlBSNEtjdm5JR1RtUlJxd1pIeFJhWV9hMGRiYmpaeTVHRWk1V3dyeFVzQQ?oc=5\" target=\"_blank\">Truth or consequences: What your AI strategy is standing on</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Cybersecurity Dive</font>",
+      "published": "Mon, 09 Nov 2026 10:20:03 GMT",
+      "score": 10.0
+    },
+    {
+      "source": "Google News Cybersecurity",
+      "title": "Staples to add two new courses - Westport Journal",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBKMXVjNEJiTGVmVlNpMnd2LWJDM2hQbkxxWDlpM0F2SDQ3NGNlQkQ3c3VMcHJEOTJWQjRQMURaMzQzRTZMZ3lLeTQ0Q0pWclI3VmNRNVpHZ3dYZ3Q4dld4dm5ER05rYkt2LUF4UEpWQVRsQy1rRXFhTA?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMieEFVX3lxTFBKMXVjNEJiTGVmVlNpMnd2LWJDM2hQbkxxWDlpM0F2SDQ3NGNlQkQ3c3VMcHJEOTJWQjRQMURaMzQzRTZMZ3lLeTQ0Q0pWclI3VmNRNVpHZ3dYZ3Q4dld4dm5ER05rYkt2LUF4UEpWQVRsQy1rRXFhTA?oc=5\" target=\"_blank\">Staples to add two new courses</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Westport Journal</font>",
+      "published": "Mon, 09 Nov 2026 13:00:25 GMT",
+      "score": 10.0
     }
   ]
 }
