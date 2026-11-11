@@ -1,24 +1,72 @@
 {
-  "generated_at_utc": "2026-11-10T12:46:23.925413+00:00",
+  "generated_at_utc": "2026-11-11T11:57:11.291273+00:00",
   "publication_enabled": false,
   "editorial_note": "Candidates require human/editorial review and original technical work before publication.",
   "feed_errors": [],
   "candidates": [
     {
-      "source": "SecurityWeek",
-      "title": "N-able Takes N-central Offline as Researcher Drops Over 30 Zero-Days",
-      "url": "https://www.securityweek.com/n-able-takes-n-central-offline-as-researcher-drops-over-30-zero-days/",
-      "summary": "<p>Attackers could exploit the flaws for remote code execution, credential theft, and administrator account creation.</p> <p>The post <a href=\"https://www.securityweek.com/n-able-takes-n-central-offline-as-researcher-drops-over-30-zero-days/\">N-able Takes N-central Offline as Researcher Drops Over 30 Zero-Days</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "published": "Tue, 10 Nov 2026 09:56:28 +0000",
-      "score": 39.0
+      "source": "The Hacker News",
+      "title": "Hackers Exploit Critical Xen Orchestra Auth Bypass Flaw to Gain Admin Access",
+      "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-xen-orchestra.html",
+      "summary": "French software company Vates VMS has warned of a critical security vulnerability in Xen Orchestra that it said is being actively exploited in the wild. The authentication bypass flaw, which does not yet have a CVE identifier, is tracked as VSA-2026-062. \"REST cookie parsing turns authenticationToken=j:%7B%7D into {},\" Vates VMS said in an alert. \"REST authentication passes that object to the",
+      "published": "Tue, 10 Nov 2026 23:42:21 +0530",
+      "score": 49.0
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "Microsoft November 2026 Patch Tuesday fixes 1,235 flaws, Outlook zero-day",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-november-2026-patch-tuesday-fixes-1-235-flaws-outlook-zero-day/",
+      "summary": "Today is Microsoft's November 2026 Patch Tuesday, with security updates addressing a record-breaking 1,235 flaws, including one actively exploited Microsoft Outlook zero-day vulnerability. [...]",
+      "published": "Tue, 10 Nov 2026 14:07:36 -0500",
+      "score": 44.0
     },
     {
       "source": "The Hacker News",
       "title": "Google Issues Chrome Security Update for Eighth Actively Exploited Zero-Day of 2026",
       "url": "https://thehackernews.com/2026/11/google-issues-chrome-security-update.html",
-      "summary": "Google on Monday released updates to patch nine security vulnerabilities, including one that has come under active exploitation in the wild. The high-severity vulnerability, assigned the CVE identifier CVE-2026-125350 (CVSS score: N/A), has been described as a use-after-free bug in the XML component. Use-after-free bugs typically occur when a program attempts to access a memory location after",
+      "summary": "Google on Monday released updates to patch nine security vulnerabilities, including one that has come under active exploitation in the wild. The high-severity vulnerability, assigned the CVE identifier CVE-2026-125350 (CVSS score: 8.8), has&nbsp;been described as a use-after-free bug in the XML component. \"Use-after-free in XML in Google Chrome prior to 157.0.8103.50 allowed a remote attacker",
       "published": "Tue, 10 Nov 2026 12:22:54 +0530",
       "score": 38.0
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "Critical Xen Orchestra auth bypass flaw exploited to hijack VM servers",
+      "url": "https://www.bleepingcomputer.com/news/security/critical-xen-orchestra-auth-bypass-flaw-exploited-to-hijack-vm-servers/",
+      "summary": "A critical authentication bypass vulnerability in Xen Orchestra is being actively exploited in attacks that could grant administrator privileges and allow takeover of XCP-ng virtualization hosts. [...]",
+      "published": "Tue, 10 Nov 2026 11:17:16 -0500",
+      "score": 35.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "Cisco BroadWorks and Openwave Flaws Actively Exploited Despite Available Patches",
+      "url": "https://thehackernews.com/2026/11/cisco-broadworks-and-openwave-flaws.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) Tuesday added two security flaws impacting Cisco BroadWorks and Openwave Messaging Webtop Media Transcoder to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. Details of the vulnerabilities are below - CVE-2026-20320 (CVSS score: 7.5) - An improper restriction of XML external entity",
+      "published": "Wed, 11 Nov 2026 11:34:02 +0530",
+      "score": 32.0
+    },
+    {
+      "source": "CISA",
+      "title": "CISA Adds Six Known Exploited Vulnerabilities to Catalog",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/11/10/cisa-adds-six-known-exploited-vulnerabilities-catalog",
+      "summary": "<p>CISA has added six new vulnerabilities to its <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">Known Exploited Vulnerabilities (KEV) Catalog</a>, based on evidence of active exploitation.</p> <ul> <li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-20320\" target=\"_blank\">CVE-2026-20320</a> Cisco BroadWorks Improper Restriction of XML External Entity Reference Vulnerability&nbsp;</li> <li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-111560\" target=\"_blank\">CVE-2026-111560</a> Barracuda Networks Multiple Products OS Command Injection Vulnerability&nbsp;</li> <li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-111793\" target=\"_blank\">CVE-2026-111793</a> Openwave Messaging Limited Webtop Media Transcoder Incorrect Resource Transfer Between Spheres Vulnerability&nbsp;</li> <li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-116606\" target=\"_blank\">CVE-2026-116606</a> Barracuda Networks Email Security Gateway (ESG) Authentication Bypass Using an Altern",
+      "published": "Tue, 10 Nov 26 12:00:00 +0000",
+      "score": 30.0
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "CISA flags Cisco BroadWorks flaw as actively exploited in attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-cisco-broadworks-flaw-as-actively-exploited-in-attacks/",
+      "summary": "The US Cybersecurity and Infrastructure Security Agency (CISA) warned on Tuesday that hackers are now exploiting a high-severity Cisco BroadWorks vulnerability in attacks. [...]",
+      "published": "Wed, 11 Nov 2026 05:12:08 -0500",
+      "score": 29.0
+    },
+    {
+      "source": "SecurityWeek",
+      "title": "Exploited Outlook Zero-Day Among 1,094 Flaws Patched by Microsoft",
+      "url": "https://www.securityweek.com/exploited-outlook-zero-day-among-1094-flaws-patched-by-microsoft/",
+      "summary": "<p>CVE-2026-124194 is the Outlook zero-day for which Microsoft says it’s aware of active exploitation. </p> <p>The post <a href=\"https://www.securityweek.com/exploited-outlook-zero-day-among-1094-flaws-patched-by-microsoft/\">Exploited Outlook Zero-Day Among 1,094 Flaws Patched by Microsoft</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "published": "Tue, 10 Nov 2026 19:19:46 +0000",
+      "score": 29.0
     },
     {
       "source": "The Hacker News",
@@ -30,18 +78,10 @@
     },
     {
       "source": "BleepingComputer",
-      "title": "N-able takes cloud platform offline after 30+ \"zero-days\" published",
-      "url": "https://www.bleepingcomputer.com/news/security/n-able-takes-cloud-platform-offline-after-30-plus-zero-days-published/",
-      "summary": "N-able has taken its hosted N-central environments offline and urged on-premises customers to shut down their servers after a security researcher publicly disclosed more than 30 alleged zero-day vulnerabilities, including exploits that could let attackers take over vulnerable systems. [...]",
-      "published": "Mon, 09 Nov 2026 16:26:25 -0500",
-      "score": 27.0
-    },
-    {
-      "source": "SecurityWeek",
-      "title": "Hackers Exploiting ‘SSHole’ Authentication Bypass in OpenSSH",
-      "url": "https://www.securityweek.com/hackers-exploiting-sshole-authentication-bypass-in-openssh/",
-      "summary": "<p>The initial exploitation attempts are attributed to botnets and crypto miners, but other threat actors are expected to follow suit.</p> <p>The post <a href=\"https://www.securityweek.com/hackers-exploiting-sshole-authentication-bypass-in-openssh/\">Hackers Exploiting &#8216;SSHole&#8217; Authentication Bypass in OpenSSH</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "published": "Mon, 09 Nov 2026 12:13:32 +0000",
+      "title": "Hackers exploit trusted AWS access to breach multiple cloud environments",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-trusted-aws-access-to-breach-multiple-cloud-environments/",
+      "summary": "A threat actor used compromised identity and access management (IAM) credentials for a Qubole big data platform's AWS account to access and exfiltrate data from multiple customers' AWS environments. [...]",
+      "published": "Tue, 10 Nov 2026 14:31:11 -0500",
       "score": 26.0
     },
     {
@@ -53,22 +93,6 @@
       "score": 24.0
     },
     {
-      "source": "BleepingComputer",
-      "title": "Google patches eighth Chrome zero-day exploited in attacks this year",
-      "url": "https://www.bleepingcomputer.com/news/security/google-patches-eighth-chrome-zero-day-exploited-in-attacks-this-year/",
-      "summary": "Google has released emergency security updates to patch a new Chrome vulnerability exploited in zero-day attacks, the eighth such flaw since the start of the year. [...]",
-      "published": "Tue, 10 Nov 2026 03:51:25 -0500",
-      "score": 24.0
-    },
-    {
-      "source": "SecurityWeek",
-      "title": "Chrome Update Patches Exploited XML Zero-Day, Eighth This Year",
-      "url": "https://www.securityweek.com/chrome-update-patches-exploited-xml-zero-day-eighth-this-year/",
-      "summary": "<p>The high-severity use-after-free in Chrome’s XML component was reported anonymously on November 6 and is already exploited in attacks.</p> <p>The post <a href=\"https://www.securityweek.com/chrome-update-patches-exploited-xml-zero-day-eighth-this-year/\">Chrome Update Patches Exploited XML Zero-Day, Eighth This Year</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "published": "Tue, 10 Nov 2026 06:12:24 +0000",
-      "score": 23.0
-    },
-    {
       "source": "The Hacker News",
       "title": "Hackers Exploit Qubole's Trusted AWS Access to Breach Customer Accounts and Steal Data",
       "url": "https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html",
@@ -77,26 +101,82 @@
       "score": 22.0
     },
     {
-      "source": "BleepingComputer",
-      "title": "Vanderbilt University hit in BYOD ransomware attack, data theft claimed",
-      "url": "https://www.bleepingcomputer.com/news/security/vanderbilt-university-hit-in-byod-ransomware-attack-data-theft-claimed/",
-      "summary": "Vanderbilt University warns it is responding to a cyberattack claimed by the BYOD ransomware gang, which claims to have encrypted the university's databases and stolen sensitive student, employee, and research data. [...]",
-      "published": "Mon, 09 Nov 2026 18:52:12 -0500",
+      "source": "Google News Cybersecurity",
+      "title": "Cybersecurity News: New CISA head, AI safety regulator, N-able’s zero-day deluge - CISO Series",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOSzhfZzA2LXZ6dW45SlpZc3hWVUoyN0p4UkRNRXBneTI0SE1PdFc3aWw4bDJGUUJrSWI4cVVadlZWNWZRUnNnUlJ1eFZramt6Wk5xdXZYWTdibEw3Uml1ZXItQXJLT2RjblZmREdPTVMxZWNGOF96WGtFQU9qSnVXQm1iMUt5aElONGh0cHREMW9lUWxJbTNTb0hodmFYSGVfRXc?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxOSzhfZzA2LXZ6dW45SlpZc3hWVUoyN0p4UkRNRXBneTI0SE1PdFc3aWw4bDJGUUJrSWI4cVVadlZWNWZRUnNnUlJ1eFZramt6Wk5xdXZYWTdibEw3Uml1ZXItQXJLT2RjblZmREdPTVMxZWNGOF96WGtFQU9qSnVXQm1iMUt5aElONGh0cHREMW9lUWxJbTNTb0hodmFYSGVfRXc?oc=5\" target=\"_blank\">Cybersecurity News: New CISA head, AI safety regulator, N-able’s zero-day deluge</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CISO Series</font>",
+      "published": "Wed, 11 Nov 2026 11:00:00 GMT",
+      "score": 22.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "SGLang RCE Exploit Breaches NEAR AI, Steals Data From 18 Agents and About 100 Users",
+      "url": "https://thehackernews.com/2026/11/sglang-rce-exploit-breaches-near-ai.html",
+      "summary": "An attacker exploited a remote code execution flaw in SGLang, an open-source inference engine, and ran code on one of NEAR AI's inference servers last Sunday. The attacker could also have seen requests being processed on that server that day, including requests sent in confidential mode, the company said earlier this week. That mode processes requests inside a trusted execution environment (TEE",
+      "published": "Wed, 11 Nov 2026 00:49:39 +0530",
+      "score": 21.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "Three China-Nexus Espionage Campaigns Linked Through Sparrow Malware Ecosystem",
+      "url": "https://thehackernews.com/2026/11/three-china-nexus-espionage-campaigns.html",
+      "summary": "Three distinct threat activity clusters with shared infrastructure and malware code similarities have been observed targeting telecommunications providers, government organizations, military entities, research institutions, and critical infrastructure across Latin America, Asia, and Europe over the past year. Check Point Research is tracking the clusters under the names SilentDelivery,",
+      "published": "Tue, 10 Nov 2026 23:13:23 +0530",
       "score": 20.0
     },
     {
-      "source": "Google News Cybersecurity",
-      "title": "Vanderbilt University reportedly targeted by BYOD Ransomware Group in Cyber Attack - Cybersecurity Insiders",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPZDM1c1BRMlYzUTVwNVpMN0xtQXhYeEZrdFdybkZDUGFvWmJ3RWFLSjVPTzV3SFIxUXRTYTVUbk5kVkxKZEhYaUk1MEpWY0p2QUtFcXR2b3lESU5XUG5tZHNhMnltTENzc3RDVTN4NV9MVWRiVE5VaWEycVJJME51eHNHMWZkbUlObEV0Yno2eE0wS3ZLLXNhMjNyZm9wMWdBa243SU5NN1RyNUxhbWpjRTI4V3F0Ni1fTWdkWWlsYw?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxPZDM1c1BRMlYzUTVwNVpMN0xtQXhYeEZrdFdybkZDUGFvWmJ3RWFLSjVPTzV3SFIxUXRTYTVUbk5kVkxKZEhYaUk1MEpWY0p2QUtFcXR2b3lESU5XUG5tZHNhMnltTENzc3RDVTN4NV9MVWRiVE5VaWEycVJJME51eHNHMWZkbUlObEV0Yno2eE0wS3ZLLXNhMjNyZm9wMWdBa243SU5NN1RyNUxhbWpjRTI4V3F0Ni1fTWdkWWlsYw?oc=5\" target=\"_blank\">Vanderbilt University reportedly targeted by BYOD Ransomware Group in Cyber Attack</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Cybersecurity Insiders</font>",
-      "published": "Tue, 10 Nov 2026 06:14:12 GMT",
+      "source": "BleepingComputer",
+      "title": "Ransomware recovery is now a client retention metric",
+      "url": "https://www.bleepingcomputer.com/news/security/ransomware-recovery-is-now-a-client-retention-metric/",
+      "summary": "Recovering from ransomware doesn't guarantee an MSP will retain its clients, especially when delays, poor communication, and unexpected costs undermine trust. Kaseya examines how disconnected recovery tools create these problems and how integrated workflows can improve response times, transparency, and client retention. [...]",
+      "published": "Tue, 10 Nov 2026 10:01:11 -0500",
+      "score": 20.0
+    },
+    {
+      "source": "SecurityWeek",
+      "title": "Software Transparency Is Changing: Allan Friedman on SBOM, AI BOMs and What Comes Next",
+      "url": "https://www.securityweek.com/software-transparency-is-changing-allan-friedman-on-sbom-ai-boms-and-what-comes-next/",
+      "summary": "<p>SBOM pioneer Allan Friedman joined the SecurityWeek Podcast to discuss why knowing what is inside software is only the beginning, how AI is complicating software supply chain visibility, and what organizations should be doing with SBOM data once they have it.</p> <p>The post <a href=\"https://www.securityweek.com/software-transparency-is-changing-allan-friedman-on-sbom-ai-boms-and-what-comes-next/\">Software Transparency Is Changing: Allan Friedman on SBOM, AI BOMs and What Comes Next</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "published": "Tue, 10 Nov 2026 16:45:00 +0000",
+      "score": 20.0
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "Railway breach leads to $740,000 in fraudulent AI charges",
+      "url": "https://www.bleepingcomputer.com/news/apple/railway-breach-leads-to-740-000-in-fraudulent-ai-charges/",
+      "summary": "Cloud hosting provider Railway says hackers exploited vulnerabilities in its infrastructure to steal customer authentication secrets and generate approximately $740,000 in fraudulent AI usage, potentially exposing credentials for up to 100,000 workspaces. [...]",
+      "published": "Tue, 10 Nov 2026 17:20:19 -0500",
+      "score": 19.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "Microsoft Patches 1,259 Flaws, Including Exploited Outlook Bug That May Expose NTLMv2 Hashes",
+      "url": "https://thehackernews.com/2026/11/microsoft-patches-1259-flaws-including.html",
+      "summary": "Microsoft on Tuesday released patches for a total of 1,259 vulnerabilities spanning its software portfolio, the second consecutive month where the patch volume has exceeded 1,000 flaws. These cover 726 flaws in Windows, 174 in Office, 61 in Developer Tools, 59 in SQL Server, 53 in Developer Tools, and 27 in SharePoint Server. The patches also include 165 non-Microsoft-issued CVE identifiers.",
+      "published": "Wed, 11 Nov 2026 13:47:53 +0530",
       "score": 18.0
+    },
+    {
+      "source": "Google News Cybersecurity",
+      "title": "Why Backups alone cannot save Healthcare Providers from Ransomware - Cybersecurity Insiders",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQc2xKYko4SlNqMVRsVm8weG1DR3c2SDNhVmZGWEZXUnFwcUkzdXJoa05XVXQwRTB6NnhmOU5YWEZzWG1MR2Z3Tk15WUpQRC1vTXh3dVpIaWhtQ0lqUWdiUmgzeXZoQUQ5ZjZIcjVTWExCOW05VWhWLWRYYjYxcWJ0WVZXQjQ3N2xFMVBQd0tsa0JWRTNiZ2VQTnUybWN2eEZuSDNZTTRKUDM5UQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxQc2xKYko4SlNqMVRsVm8weG1DR3c2SDNhVmZGWEZXUnFwcUkzdXJoa05XVXQwRTB6NnhmOU5YWEZzWG1MR2Z3Tk15WUpQRC1vTXh3dVpIaWhtQ0lqUWdiUmgzeXZoQUQ5ZjZIcjVTWExCOW05VWhWLWRYYjYxcWJ0WVZXQjQ3N2xFMVBQd0tsa0JWRTNiZ2VQTnUybWN2eEZuSDNZTTRKUDM5UQ?oc=5\" target=\"_blank\">Why Backups alone cannot save Healthcare Providers from Ransomware</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Cybersecurity Insiders</font>",
+      "published": "Wed, 11 Nov 2026 09:18:13 GMT",
+      "score": 18.0
+    },
+    {
+      "source": "SecurityWeek",
+      "title": "Threat Actors Exploit Openwave, Cisco BroadWorks Vulnerabilities",
+      "url": "https://www.securityweek.com/threat-actors-exploit-openwave-cisco-broadworks-vulnerabilities/",
+      "summary": "<p>The flaws, CVE-2026-111793 and CVE-2026-20320, let attackers leak sensitive information, including configuration data.</p> <p>The post <a href=\"https://www.securityweek.com/threat-actors-exploit-openwave-cisco-broadworks-vulnerabilities/\">Threat Actors Exploit Openwave, Cisco BroadWorks Vulnerabilities</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "published": "Wed, 11 Nov 2026 09:01:07 +0000",
+      "score": 17.0
     },
     {
       "source": "The Hacker News",
       "title": "Binance Warns of iOS Sandbox Escape That Could Expose Crypto Wallet Keys, No Fix Confirmed",
       "url": "https://thehackernews.com/2026/11/binance-warns-of-ios-sandbox-escape.html",
-      "summary": "An iOS sandbox escape published on GitHub lets an app read other apps' files on iPhones running iOS 26 and 27. That puts seed phrases, private keys, and login credentials at risk of exposure to malicious apps, Binance warned today. Apple's updates for iOS 26 and 27, released yesterday, do not list a fix. A researcher who goes by forcequit released the escape, called worse_query, on Sunday, a",
+      "summary": "An iOS sandbox escape published on GitHub lets an app read other apps' files on iPhones running iOS 26 and 27. That puts seed phrases, private keys, and login credentials at risk of exposure to malicious apps, Binance warned today. Apple's updates for iOS 26 and 27, released yesterday, do not list a fix. A researcher who goes by forcequit,&nbsp;&nbsp;in collaboration with 0xjohnny,&nbsp;",
       "published": "Tue, 10 Nov 2026 17:45:31 +0530",
       "score": 16.0
     },
@@ -117,92 +197,12 @@
       "score": 16.0
     },
     {
-      "source": "The Hacker News",
-      "title": "Default 'admin:admin' Server Password Helps Researchers Hack Two Automakers, Unlock and Start Cars",
-      "url": "https://thehackernews.com/2026/11/default-adminadmin-server-password.html",
-      "summary": "The login systems behind two car brands' mobile apps could be taken over completely, two security researchers found, allowing them to access any customer's account and, for an owner with a connected car, unlock the doors and start the engine. Both apps signed customers in through ForgeRock, an identity platform now part of Ping Identity, and on those servers the researchers reached an",
-      "published": "Mon, 09 Nov 2026 16:57:53 +0530",
+      "source": "BleepingComputer",
+      "title": "Binance warns of iOS flaw that could leak crypto wallet secrets",
+      "url": "https://www.bleepingcomputer.com/news/security/binance-warns-of-ios-flaw-that-could-leak-crypto-wallet-secrets/",
+      "summary": "Binance is warning about a vulnerability in Apple's iOS 26.7.1, 27.0.1, and 27.2 that could allow third-party apps to read private files stored by other apps, including cryptocurrency seed phrases, secret keys, and login credentials. [...]",
+      "published": "Tue, 10 Nov 2026 10:59:19 -0500",
       "score": 16.0
-    },
-    {
-      "source": "BleepingComputer",
-      "title": "Hackers exploit SSHole OpenSSH flaw to breach Linux systems",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-sshole-openssh-flaw-to-breach-linux-systems/",
-      "summary": "Hackers are actively exploiting the \"SSHole\" vulnerability (CVE-2026-123158) in OpenSSH to execute commands, steal credentials, and establish persistent access. [...]",
-      "published": "Mon, 09 Nov 2026 11:04:57 -0500",
-      "score": 16.0
-    },
-    {
-      "source": "CISA",
-      "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/11/09/cisa-adds-four-known-exploited-vulnerabilities-catalog",
-      "summary": "<div class=\"OutlineElement Ltr SCXW266414493 BCX8\"> <p>CISA has added four new vulnerabilities to its <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\"><u>Known Exploited Vulnerabilities (KEV) Catalog</u></a>, based on evidence of active exploitation.&nbsp;</p> <ul> <li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-102895\" target=\"_blank\"><u>CVE-2026-102895</u></a> GPUStack Improper Authentication Vulnerability&nbsp;</li> <li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-116779\" target=\"_blank\"><u>CVE-2026-116779</u></a> SignalWire FreeSwitch Code Injection Vulnerability&nbsp;</li> <li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-123158\" target=\"_blank\"><u>CVE-2026-123158</u></a> OpenBSD OpenSSH Unexpected Status Code or Return Value Vulnerability&nbsp;</li> <li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-123218\" target=\"_blank\"><u>CVE-2026-123218</u></a> IBM Aspera Faspex Incorrect Authorization Vulnerability&nbsp;</li> </ul> <p>These types ",
-      "published": "Mon, 09 Nov 26 12:00:00 +0000",
-      "score": 15.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "Apple Patches iMessage Group Chat Privacy Flaws and Bluetooth Pairing Vulnerabilities",
-      "url": "https://thehackernews.com/2026/11/apple-patches-imessage-group-chat.html",
-      "summary": "An iMessage flaw could let a remote attacker join a group chat and receive its messages, Apple said yesterday, and it released updates to fix it. The updates also fix a separate iMessage flaw that could let someone added to a group access messages sent before they joined. As of today, other updates released yesterday for the iPhone XS, XS Max and XR, the iPad (7th generation) and some Apple",
-      "published": "Tue, 10 Nov 2026 15:46:51 +0530",
-      "score": 15.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "Russian Turla Hackers Use New Cereal Malware to Steal Emails From Government Exchange Servers",
-      "url": "https://thehackernews.com/2026/11/russian-turla-hackers-use-new-cereal.html",
-      "summary": "The Russia-aligned state-sponsored threat actor known as Turla (aka Snake) is wielding a previously undocumented cyber espionage toolset called Cereal that's used to break into victims' Microsoft Exchange servers with an aim to surreptitiously collect emails. According to an ESET report shared with The Hacker News ahead of publication, the sophisticated and modular tool is designed for",
-      "published": "Tue, 10 Nov 2026 15:37:29 +0530",
-      "score": 15.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "CISA Warns of Active Exploitation of OpenSSH, GPUStack, FreeSWITCH, and IBM Flaws",
-      "url": "https://thehackernews.com/2026/11/cisa-warns-of-active-exploitation-of.html",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added four security flaws impacting GPUStack, SignalWire FreeSwitch, OpenBSD OpenSSH, and IBM Aspera Faspex to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerabilities are listed below - CVE-2026-123218 (CVSS score: 9.8) - An incorrect authorization vulnerability",
-      "published": "Tue, 10 Nov 2026 12:01:42 +0530",
-      "score": 15.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "Former OpenAI Engineer Pleads Not Guilty to Planting Covert Device in Executive Meeting Room",
-      "url": "https://thehackernews.com/2026/11/former-openai-engineer-pleads-not.html",
-      "summary": "The OpenAI engineer who was arrested and charged last month for planting a covert audio recording device in the company's office has pleaded not guilty. According to reports from Bloomberg and CNBC, Saudi national Abdulrahman Alfozan made an appearance in San Francisco federal court on Friday, where he entered the plea. His next hearing is scheduled for November 17, 2026. If proven guilty, the",
-      "published": "Mon, 09 Nov 2026 12:35:48 +0530",
-      "score": 15.0
-    },
-    {
-      "source": "BleepingComputer",
-      "title": "SAP patches ICM2SHELL and PROXYGATE maximum severity flaws",
-      "url": "https://www.bleepingcomputer.com/news/security/sap-patches-four-maximum-severity-security-vulnerabilities/",
-      "summary": "SAP patched 35 vulnerabilities in its November 2026 security updates, including four maximum-severity issues affecting its NetWeaver, Web Dispatcher, and Gateway software. [...]",
-      "published": "Tue, 10 Nov 2026 07:07:03 -0500",
-      "score": 15.0
-    },
-    {
-      "source": "BleepingComputer",
-      "title": "Hackers now exploit critical Barracuda ESG flaws to gain root access",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-barracuda-email-security-gateway-flaws-to-get-root-access/",
-      "summary": "Cybersecurity company Barracuda Networks warned that attackers have begun exploiting two recently patched Email Security Gateway (ESG) vulnerabilities that let them run commands with root privileges. [...]",
-      "published": "Tue, 10 Nov 2026 05:10:20 -0500",
-      "score": 15.0
-    },
-    {
-      "source": "BleepingComputer",
-      "title": "Turla hackers use new Cereal malware to spy on govt Exchange servers",
-      "url": "https://www.bleepingcomputer.com/news/security/turla-hackers-use-new-ceral-malware-to-spy-on-govt-exchange-servers/",
-      "summary": "The Russian state-backed threat group Turla has been using a new malicious toolset called 'Cereal' to intercept emails on Microsoft Exchange servers at government organizations. [...]",
-      "published": "Tue, 10 Nov 2026 05:04:32 -0500",
-      "score": 15.0
-    },
-    {
-      "source": "BleepingComputer",
-      "title": "Fireworks AI discloses new breach after cloud provider hack",
-      "url": "https://www.bleepingcomputer.com/news/security/fireworks-ai-discloses-new-breach-after-cloud-provider-hack/",
-      "summary": "AI infrastructure startup Fireworks has disclosed a new security breach in which attackers accessed its development machines after breaching a third-party cloud provider. [...]",
-      "published": "Tue, 10 Nov 2026 02:49:58 -0500",
-      "score": 15.0
     }
   ]
 }
