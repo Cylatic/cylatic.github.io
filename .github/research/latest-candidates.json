@@ -1,17 +1,9 @@
 {
-  "generated_at_utc": "2026-11-15T12:02:08.529234+00:00",
+  "generated_at_utc": "2026-11-16T12:55:19.193788+00:00",
   "publication_enabled": false,
   "editorial_note": "Candidates require human/editorial review and original technical work before publication.",
   "feed_errors": [],
   "candidates": [
-    {
-      "source": "Google News Cybersecurity",
-      "title": "5 Immediate Lessons From the Global Microsoft Outage - GovTech",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNS0tZTGM2WXJ2bER0amxyZ19hRGZjcmJFUUlwWktpM3JnNVlWaS10Q0RBSGoxLXR1Uk5UNzZUcjcyOWVwbEFVTkJmSEN3Q3ZJelRRWWZCekJZRHNxU3VDR3ZqQTg4NFQyUjFjMFIydVZULVVPNEFJcTlsUkdZNVVOSk1mREQyT3BLellyX0o2T2djR1ZSOEVMOG13TEF0RHMzRTZESXAxMXlXYl83?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirAFBVV95cUxNS0tZTGM2WXJ2bER0amxyZ19hRGZjcmJFUUlwWktpM3JnNVlWaS10Q0RBSGoxLXR1Uk5UNzZUcjcyOWVwbEFVTkJmSEN3Q3ZJelRRWWZCekJZRHNxU3VDR3ZqQTg4NFQyUjFjMFIydVZULVVPNEFJcTlsUkdZNVVOSk1mREQyT3BLellyX0o2T2djR1ZSOEVMOG13TEF0RHMzRTZESXAxMXlXYl83?oc=5\" target=\"_blank\">5 Immediate Lessons From the Global Microsoft Outage</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">GovTech</font>",
-      "published": "Sun, 15 Nov 2026 10:02:14 GMT",
-      "score": 18.0
-    },
     {
       "source": "BleepingComputer",
       "title": "Cursor confirms security breach led to malicious Claude Code extension",
@@ -21,116 +13,124 @@
       "score": 16.0
     },
     {
-      "source": "Google News Cybersecurity",
-      "title": "CISA Adds 6 Exploited Flaws: Barracuda, Cisco, Outlook - shattered.io",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOQjA3cHAxR3BnV3Jtc1FLaFNtX2pyY1gwTEtoUmN0VFQydlhjdzZrZTZEVGdVUUViNU13eERxRjNfVzNJSUd1ZU45bE5QLUZrZzZMN190eXBBdnp3S0t1OU8yblRERl9RREhGU2o0TXo0cEdJek9TTlZlNXl6NHR0SmI2LWhiOXNfT05IMzBqQkdEMWV0WlA0Y1JmZzc?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxOQjA3cHAxR3BnV3Jtc1FLaFNtX2pyY1gwTEtoUmN0VFQydlhjdzZrZTZEVGdVUUViNU13eERxRjNfVzNJSUd1ZU45bE5QLUZrZzZMN190eXBBdnp3S0t1OU8yblRERl9RREhGU2o0TXo0cEdJek9TTlZlNXl6NHR0SmI2LWhiOXNfT05IMzBqQkdEMWV0WlA0Y1JmZzc?oc=5\" target=\"_blank\">CISA Adds 6 Exploited Flaws: Barracuda, Cisco, Outlook</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">shattered.io</font>",
-      "published": "Sun, 15 Nov 2026 07:42:25 GMT",
-      "score": 16.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE",
-      "url": "https://thehackernews.com/2026/11/postgresql-patches-52-flaws-including.html",
-      "summary": "A type confusion flaw in PostgreSQL lets a database user who can create objects run code on the server. Updates released yesterday fix it, along with 51 other security flaws. Full protection from this flaw also requires rebuilding any C-language extensions installed on the server. The flaw, tracked as CVE-2026-6460, has a CVSS score of 8.8. Any code run this way has the rights of the operating",
-      "published": "Fri, 13 Nov 2026 22:23:08 +0530",
-      "score": 15.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "New Mior and Skyfall Attacks Let Rogue Cloud Hosts Steal Secrets From AMD SEV-SNP VMs",
-      "url": "https://thehackernews.com/2026/11/new-mior-and-skyfall-attacks-let-rogue.html",
-      "summary": "Two attacks made public this week allow a malicious host to read data inside AMD SEV-SNP-protected virtual machines (VMs), which are built to keep the server's operator out. One of them, Mior, can also modify a VM's memory and fake the signed report confirming which software it runs. Both need control of the server's hypervisor, and Mior also needs control of the server's BIOS. Researchers",
-      "published": "Fri, 13 Nov 2026 20:57:05 +0530",
-      "score": 15.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "FBI Says North Korean Hackers Stole Over $400 Million in Crypto Using Deepfake Video Calls",
-      "url": "https://thehackernews.com/2026/11/fbi-says-north-korean-hackers-stole.html",
-      "summary": "The U.S. Federal Bureau of Investigation (FBI) has established that threat actors tied to the Democratic People's Republic of Korea (DPRK aka North Korea) have stolen more than $400 million worth of cryptocurrency as part of a social engineering scheme codenamed FaceStealer in the last 18 months. As part of a coordinated set of actions announced by the U.S. government, the cloud-based",
-      "published": "Fri, 13 Nov 2026 19:58:58 +0530",
+      "source": "BleepingComputer",
+      "title": "Microsoft: Windows Server 2016 reaches end of support in 60 days",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2016-reaches-end-of-support-in-60-days/",
+      "summary": "Microsoft has reminded customers again that Windows Server 2016 will stop receiving security updates after it reaches the end of support in two months. [...]",
+      "published": "Mon, 16 Nov 2026 07:53:18 -0500",
       "score": 15.0
     },
     {
       "source": "BleepingComputer",
-      "title": "Microsoft says November security updates cause printing issues",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-november-security-updates-cause-printing-issues/",
-      "summary": "Microsoft warned customers earlier this week that the November 2026 security updates may break printing for documents with complex formatting. [...]",
-      "published": "Fri, 13 Nov 2026 07:27:40 -0500",
+      "title": "Microsoft pushes Windows emergency updates to fix activation failures",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-new-windows-emergency-updates-fix-activation-licensing-failures/",
+      "summary": "Microsoft has released emergency out-of-band updates to fix Windows activation and licensing failures caused by this month's security updates. [...]",
+      "published": "Mon, 16 Nov 2026 03:26:52 -0500",
+      "score": 15.0
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "FBI warns ARTEX AI hacking tool is powering global cyberattacks",
+      "url": "https://www.bleepingcomputer.com/news/security/fbi-warns-artex-ai-hacking-tool-is-powering-global-cyberattacks/",
+      "summary": "The FBI is warning that hackers are using an AI-powered penetration testing framework called ARTEX to automate cyberattacks against organizations worldwide, including a recent ConnectWise supply-chain breach that compromised Microsoft 365 customer environments. [...]",
+      "published": "Sun, 15 Nov 2026 13:29:53 -0500",
+      "score": 15.0
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "TSMC employee data breach linked to cloud provider",
+      "url": "https://www.bleepingcomputer.com/news/security/tsmc-employee-data-breach-linked-to-cloud-provider/",
+      "summary": "Taiwan Semiconductor Manufacturing Company (TSMC) confirmed that personal employee data has been leaked online after a threat actor put 6.9GB of information allegedly stolen from the company up for auction. [...]",
+      "published": "Sun, 15 Nov 2026 10:23:48 -0500",
       "score": 15.0
     },
     {
       "source": "Google News Cybersecurity",
-      "title": "Exclusive | Goldman Leads Investment in Cybersecurity Startup at $400 Million Valuation - WSJ",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOYVh0Rk9oRUliWUpZRkFhRG5hWUU1THYyb3B1SW9NdVpNU0RETlZMLVowT0d1MFNEc2hfeUlWbnY5ZzhQUEI5U3pUMnQ4V1lIVlcycjlUOVpzdDFYRWMxUDRETGFBSXNUVng1T2hLUmlYWExzd3ZRZVZNdFk4MWZySWlsUjFhTkRSSTZkUFo2X2xTMUpObllyaWZCbVJia3pOMXdSNkRqUlhSbEpiMWJBWmthekhXZVBYVDl0YVdzVQ?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxOYVh0Rk9oRUliWUpZRkFhRG5hWUU1THYyb3B1SW9NdVpNU0RETlZMLVowT0d1MFNEc2hfeUlWbnY5ZzhQUEI5U3pUMnQ4V1lIVlcycjlUOVpzdDFYRWMxUDRETGFBSXNUVng1T2hLUmlYWExzd3ZRZVZNdFk4MWZySWlsUjFhTkRSSTZkUFo2X2xTMUpObllyaWZCbVJia3pOMXdSNkRqUlhSbEpiMWJBWmthekhXZVBYVDl0YVdzVQ?oc=5\" target=\"_blank\">Exclusive | Goldman Leads Investment in Cybersecurity Startup at $400 Million Valuation</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
-      "published": "Sun, 15 Nov 2026 05:06:59 GMT",
-      "score": 15.0
-    },
-    {
-      "source": "Google News Cybersecurity",
-      "title": "NSO Holds Joint Public-Private-Military Cybersecurity Meeting, Reviews IT Asset Management - news.sbs.co.kr",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1ydmVEWWpxd2NwUmJJX2x4eFVGVTE3UHNpM3p2LXZiNFpBelRJTGtYUVh5THRXMVpNNWh6Q0l1ZWgwOXRKMzg1Q3ozQWNrT0o0LTI2VDlsYnM0dFNVM0ZwdUtja1RDYVRPQkFuczhn?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMibkFVX3lxTE1ydmVEWWpxd2NwUmJJX2x4eFVGVTE3UHNpM3p2LXZiNFpBelRJTGtYUVh5THRXMVpNNWh6Q0l1ZWgwOXRKMzg1Q3ozQWNrT0o0LTI2VDlsYnM0dFNVM0ZwdUtja1RDYVRPQkFuczhn?oc=5\" target=\"_blank\">NSO Holds Joint Public-Private-Military Cybersecurity Meeting, Reviews IT Asset Management</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">news.sbs.co.kr</font>",
-      "published": "Sun, 15 Nov 2026 07:14:49 GMT",
+      "title": "Cybersecurity News: Ground Stop update, France mail cyberattack, Fireworks breach fallout - CISO Series",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNeVpNWW4yQ2dzakJBOU5Pc0ZQRk1YN2d6dmd1RXRHY3B6Sl9fRnU5eXBxSnJjc2p6TzJLSzlkUmMxZTRwaHhsOU5uTXg0Vi1lWFMtWWtMRVdaVWNCVnE5Sl8xRTJ4cEdJd3lrYnJha0VMTTdoSVJHZ0dEWHRRMk5ZakZackpMcTlzU2FfTF9SZkpWRGFHSEdtUDNIVzY1cGJjTkZBQ2ZzaXBLel9DWFlV?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxNeVpNWW4yQ2dzakJBOU5Pc0ZQRk1YN2d6dmd1RXRHY3B6Sl9fRnU5eXBxSnJjc2p6TzJLSzlkUmMxZTRwaHhsOU5uTXg0Vi1lWFMtWWtMRVdaVWNCVnE5Sl8xRTJ4cEdJd3lrYnJha0VMTTdoSVJHZ0dEWHRRMk5ZakZackpMcTlzU2FfTF9SZkpWRGFHSEdtUDNIVzY1cGJjTkZBQ2ZzaXBLel9DWFlV?oc=5\" target=\"_blank\">Cybersecurity News: Ground Stop update, France mail cyberattack, Fireworks breach fallout</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CISO Series</font>",
+      "published": "Mon, 16 Nov 2026 11:00:00 GMT",
       "score": 15.0
     },
     {
       "source": "SecurityWeek",
-      "title": "In Other News: New CISA Director Nominee, Connected Car Hacking, Baker Tilly Data Breach",
-      "url": "https://www.securityweek.com/in-other-news-new-cisa-director-nominee-connected-car-hacking-baker-tilly-data-breach/",
-      "summary": "<p>Noteworthy stories that might have slipped under the radar: Siemens details security advisory policy, OpenAI Codex backdoor risk, Microsoft warns of model weight backdoors.</p> <p>The post <a href=\"https://www.securityweek.com/in-other-news-new-cisa-director-nominee-connected-car-hacking-baker-tilly-data-breach/\">In Other News: New CISA Director Nominee, Connected Car Hacking, Baker Tilly Data Breach</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "published": "Fri, 13 Nov 2026 15:20:00 +0000",
+      "title": "Hackers Probe Newly Disclosed Flaws in Copeland Refrigeration Controllers",
+      "url": "https://www.securityweek.com/hackers-probe-newly-disclosed-flaws-in-copeland-refrigeration-controllers/",
+      "summary": "<p>Vulncheck disclosed 14 vulnerabilities affecting Copeland XWEB EVO controllers, including two that threat actors quickly targeted.</p> <p>The post <a href=\"https://www.securityweek.com/hackers-probe-newly-disclosed-flaws-in-copeland-refrigeration-controllers/\">Hackers Probe Newly Disclosed Flaws in Copeland Refrigeration Controllers</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "published": "Mon, 16 Nov 2026 11:05:42 +0000",
       "score": 14.0
     },
     {
       "source": "SecurityWeek",
-      "title": "Microsoft Struggles to Restore Email and Other Services in a Global Outage",
-      "url": "https://www.securityweek.com/microsoft-struggles-to-restore-email-and-other-services-in-a-global-outage/",
-      "summary": "<p>Microsoft is trying different ways to identify the cause of the problem and get its servers back online, using “a measured approach to identify and repair affected infrastructure.”</p> <p>The post <a href=\"https://www.securityweek.com/microsoft-struggles-to-restore-email-and-other-services-in-a-global-outage/\">Microsoft Struggles to Restore Email and Other Services in a Global Outage</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "published": "Fri, 13 Nov 2026 13:47:42 +0000",
+      "title": "Microsoft Rules Out Cyberattack in Outage, Warns of Phishing Campaign",
+      "url": "https://www.securityweek.com/microsoft-rules-out-cyberattack-in-outage-warns-of-phishing-campaign/",
+      "summary": "<p>Phishing emails posing as Microsoft 365 service notices referenced the real outage incident and threatened to delete held messages.</p> <p>The post <a href=\"https://www.securityweek.com/microsoft-rules-out-cyberattack-in-outage-warns-of-phishing-campaign/\">Microsoft Rules Out Cyberattack in Outage, Warns of Phishing Campaign</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "published": "Mon, 16 Nov 2026 08:15:12 +0000",
       "score": 14.0
     },
     {
       "source": "Google News Cybersecurity",
-      "title": "Credential Stuffing Shows Why CIAM and IAM Aren’t Interchangeable - Cybersecurity Insiders",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQT2g3R0NoemZiSTN3aVNwZHcwVkNjYURwa3Zxb2ZKYlpQUjhqT2k1cGNoUWNIb29OWFRpY0UzZnZ6dDdjUFBBMlh4ZXB3dml3Y0gzU0pzd2pOUVVBUzJ5alQ2N3piSk50NmNLcDBpdHVLdm5jZ284UjlfdmxKdHZFeHZKdmppcGJpRllxWFNRV19OMlBLcnBOV3l1eC1LdHc0NDIybWZ5MA?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxQT2g3R0NoemZiSTN3aVNwZHcwVkNjYURwa3Zxb2ZKYlpQUjhqT2k1cGNoUWNIb29OWFRpY0UzZnZ6dDdjUFBBMlh4ZXB3dml3Y0gzU0pzd2pOUVVBUzJ5alQ2N3piSk50NmNLcDBpdHVLdm5jZ284UjlfdmxKdHZFeHZKdmppcGJpRllxWFNRV19OMlBLcnBOV3l1eC1LdHc0NDIybWZ5MA?oc=5\" target=\"_blank\">Credential Stuffing Shows Why CIAM and IAM Aren’t Interchangeable</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Cybersecurity Insiders</font>",
-      "published": "Sat, 14 Nov 2026 18:36:30 GMT",
+      "title": "What the ASOS incident reveals about the reach of stolen credentials - Cybersecurity Insiders",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQYTczZVZzLWZCRF9kM0FoMldLcVl4V1hUUFZ5MVNtR2RSZm9XLXVzanh2U1laX2dSU0F2QnVGYWdudkRJUVZwY1Q4MFhBbFVLRmgzS3JPSkJrcFVkOVpVNXIzOXhtc2tnSF9vUnhuZlRmaGlpMUczLWtKMG1QRmdkWlZ6amdtbWZIWFBmTGt6WHR1dE5ZSks0Y3VHSS1EVXZkbFEwNGdkbkpmR2RL?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirAFBVV95cUxQYTczZVZzLWZCRF9kM0FoMldLcVl4V1hUUFZ5MVNtR2RSZm9XLXVzanh2U1laX2dSU0F2QnVGYWdudkRJUVZwY1Q4MFhBbFVLRmgzS3JPSkJrcFVkOVpVNXIzOXhtc2tnSF9vUnhuZlRmaGlpMUczLWtKMG1QRmdkWlZ6amdtbWZIWFBmTGt6WHR1dE5ZSks0Y3VHSS1EVXZkbFEwNGdkbkpmR2RL?oc=5\" target=\"_blank\">What the ASOS incident reveals about the reach of stolen credentials</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Cybersecurity Insiders</font>",
+      "published": "Mon, 16 Nov 2026 08:02:40 GMT",
       "score": 14.0
     },
     {
       "source": "Google News Cybersecurity",
-      "title": "'Is this a cyberattack?' Grounded flights, a Microsoft outage and AI chaos fuel cybersecurity fears - France 24",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOZzVkMWRTZnoxeVZBby1YM1I3bXVZam82eVRqODZhZlJ0T2ZYbGtMd0JmTDRDOEMxVDgtY2NxZVJqWk1xbXlES21yRkZUTXVsdUxNTWo1R094ckpJTnVuX3FjNTZBOXkxR213OC1QWmk4ZVFIS1ZMbGpveXpzTXhET3RjaTFHRl9Zc0JubnVzYWx0Qy14RWxvb1VmU0NFNUQ4RTViYVBQVE9HNzZRRkljZTdsQzNkd2VFY0lNMmRaTVNkbzNXaE85SHhod044WTlLWmMxQnRNWDFkSDQ?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi2wFBVV95cUxOZzVkMWRTZnoxeVZBby1YM1I3bXVZam82eVRqODZhZlJ0T2ZYbGtMd0JmTDRDOEMxVDgtY2NxZVJqWk1xbXlES21yRkZUTXVsdUxNTWo1R094ckpJTnVuX3FjNTZBOXkxR213OC1QWmk4ZVFIS1ZMbGpveXpzTXhET3RjaTFHRl9Zc0JubnVzYWx0Qy14RWxvb1VmU0NFNUQ4RTViYVBQVE9HNzZRRkljZTdsQzNkd2VFY0lNMmRaTVNkbzNXaE85SHhod044WTlLWmMxQnRNWDFkSDQ?oc=5\" target=\"_blank\">'Is this a cyberattack?' Grounded flights, a Microsoft outage and AI chaos fuel cybersecurity fears</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">France 24</font>",
-      "published": "Sun, 15 Nov 2026 07:04:31 GMT",
+      "title": "Employee Credentials May Be for Sale—Even Without an Attack - Dark Reading",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOUDV6Rm5GaFBYd2xlQkNfWF9mb0l0LTVSc0lIX1F3WDNQMlg0dDRKS1poU2FVYnQtQjQyTTVqdFJONHNqRjdxY0Y1NVp5dGM5VnBFTTZUdGhRd0NaSWtZWUNkYUdnUExEN3F2b1gtT2RHUlFSMGpmd3JOT1VYdlNGaWkxTmY2UVZVWmozbEVHSm1RN18yVi1LS012RWw4Zk90MjFxcmtSTjZjcjNJN1U4eHJR?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxOUDV6Rm5GaFBYd2xlQkNfWF9mb0l0LTVSc0lIX1F3WDNQMlg0dDRKS1poU2FVYnQtQjQyTTVqdFJONHNqRjdxY0Y1NVp5dGM5VnBFTTZUdGhRd0NaSWtZWUNkYUdnUExEN3F2b1gtT2RHUlFSMGpmd3JOT1VYdlNGaWkxTmY2UVZVWmozbEVHSm1RN18yVi1LS012RWw4Zk90MjFxcmtSTjZjcjNJN1U4eHJR?oc=5\" target=\"_blank\">Employee Credentials May Be for Sale—Even Without an Attack</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Dark Reading</font>",
+      "published": "Mon, 16 Nov 2026 12:26:09 GMT",
+      "score": 14.0
+    },
+    {
+      "source": "Google News Cybersecurity",
+      "title": "Major cybersecurity concerns following FAA, Microsoft outages - Fox News",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9CQXFoMkZTR1BJYm9nS3QtWEJoZHc3QktpbV9WdTVjTVdGOWxkS01SYXliNVdwUFJiZTZPTmRiQjFYazB2MjVvaXlPelNMaDdiaWdlUmhR?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiVkFVX3lxTE9CQXFoMkZTR1BJYm9nS3QtWEJoZHc3QktpbV9WdTVjTVdGOWxkS01SYXliNVdwUFJiZTZPTmRiQjFYazB2MjVvaXlPelNMaDdiaWdlUmhR?oc=5\" target=\"_blank\">Major cybersecurity concerns following FAA, Microsoft outages</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Fox News</font>",
+      "published": "Mon, 16 Nov 2026 11:10:53 GMT",
       "score": 13.0
     },
     {
       "source": "Google News Cybersecurity",
-      "title": "Why India escaped the global Microsoft 365 disruption and how to develop lasting cyber resilience - ET Government",
-      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOcVBfREU1a09iRTRPbjRkMHhQU0hDU3Y2c2VYMTJpZ1hKbWd1SWFVWW9WcmNGd1NvNF94eno4Tkh4Nkc2MzBscVI0SlQ5VF9Wa1BKemFpaTVxYUNfWFMzTV9xOEF6bXJKTHVfWUx6MWV1bzl4TWd0blNoM3ZGZlpvLUR1cnpKU2xkNzJ3OHo2WUFsak1EdVpLVzdHeEpidlNoN3cxUTNRVlZBQU1yaU1SZXY0OE93UktlcDB6TWJxMC16SF9wNVUyUi1iOTcwRkxPSWJFYlgzS0ltbTZPOExVWUhuM2RHbG04VUxXY0lqdkxUd9IB9gFBVV95cUxNRzBLblBxMC0yTHgzdlN3OExUcEJTWC1ERnJ2ZUJ3WHozZ0h6bVlVUzlERi1NT2FNbXUwQnhyd1NhcWQ4NWw4NGo5b2hBdmVvaWtPT3huUmpBcXhMcDJBbm1UdF9LLVRrdm9jOW5kM2pObE5oYWx0eVhiQzkyRUtoYXh3amE5V215WVQwMXZQMFJLVEVqWUNZLTRuYzhXYVdoMlVDYXJoVXR4NDRCbzFKTEl3SlFpUWhnM195T2FFQXBpYXhENXUxRnlLam14NlBSWEZYMklnOGo2eUsxRDdXQWVHT3ZrNnhfUFJ5eDV2SVd4ME1FaXc?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi8gFBVV95cUxOcVBfREU1a09iRTRPbjRkMHhQU0hDU3Y2c2VYMTJpZ1hKbWd1SWFVWW9WcmNGd1NvNF94eno4Tkh4Nkc2MzBscVI0SlQ5VF9Wa1BKemFpaTVxYUNfWFMzTV9xOEF6bXJKTHVfWUx6MWV1bzl4TWd0blNoM3ZGZlpvLUR1cnpKU2xkNzJ3OHo2WUFsak1EdVpLVzdHeEpidlNoN3cxUTNRVlZBQU1yaU1SZXY0OE93UktlcDB6TWJxMC16SF9wNVUyUi1iOTcwRkxPSWJFYlgzS0ltbTZPOExVWUhuM2RHbG04VUxXY0lqdkxUd9IB9gFBVV95cUxNRzBLblBxMC0yTHgzdlN3OExUcEJTWC1ERnJ2ZUJ3WHozZ0h6bVlVUzlERi1NT2FNbXUwQnhyd1NhcWQ4NWw4NGo5b2hBdmVvaWtPT3huUmpBcXhMcDJBbm1UdF9LLVRrdm9jOW5kM2pObE5oYWx0eVhiQzkyRUtoYXh3amE5V215WVQwMXZQMFJLVEVqWUNZLTRuYzhXYVdoMlVDYXJoVXR4NDRCbzFKTEl3SlFpUWhnM195T2FFQXBpYXhENXUxRnlLam14NlBSWEZYMklnOGo2eUsxRDdXQWVHT3ZrNnhfUFJ5eDV2SVd4ME1FaXc?oc=5\" target=\"_blank\">Why India escaped the global Microsoft 365 disruption and how to develop lasting cyber resilience</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ET Government</font>",
-      "published": "Sun, 15 Nov 2026 11:01:37 GMT",
+      "title": "Mindware to showcase integrated AI, cybersecurity and cloud solutions at GITEX Global 2026 - Intelligent CIO",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQdzNiVjlCa01hbF81MFdVR3BnQTZCX3VwRXZRQnJ6aFpFc21pb1hlSGo3STU5VElvYWVTUktqMExQSGdCellpSDJZTDdjSXphNmZpX3l6bUhJU1ZxRm1BekJCUEF0VTZfOTIxaXQ4bGlEMVN3THpReVBBdHZWQV95NFpCZWo4QUcyTk0xYUNfb2p6NFI5SXVLejZHdmV4bkppajVYanN1ZU5VbzBYczk4akh4Q2hLVjZyU0Q5QmdSTldwX05LRkNFVWtpaXhsbmRX?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi0AFBVV95cUxQdzNiVjlCa01hbF81MFdVR3BnQTZCX3VwRXZRQnJ6aFpFc21pb1hlSGo3STU5VElvYWVTUktqMExQSGdCellpSDJZTDdjSXphNmZpX3l6bUhJU1ZxRm1BekJCUEF0VTZfOTIxaXQ4bGlEMVN3THpReVBBdHZWQV95NFpCZWo4QUcyTk0xYUNfb2p6NFI5SXVLejZHdmV4bkppajVYanN1ZU5VbzBYczk4akh4Q2hLVjZyU0Q5QmdSTldwX05LRkNFVWtpaXhsbmRX?oc=5\" target=\"_blank\">Mindware to showcase integrated AI, cybersecurity and cloud solutions at GITEX Global 2026</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Intelligent CIO</font>",
+      "published": "Mon, 16 Nov 2026 11:26:32 GMT",
       "score": 13.0
     },
     {
       "source": "Google News Cybersecurity",
-      "title": "Microsoft outage raises alarms about America’s cybersecurity | Katie Pavlich Tonight - NewsNation",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOSk9NYkk2dkQ4dXBneG0yMXpLbG5jNU1CaWJodXV6aUp6QXRadjJlZWlsTFhXdnhpRzNlaWhRd0pSMnJpOVNTbWdrZHNPV0FGWWpqcDkzYVhXNi1EZHVJSUJYRVZvQUZqQmROa3kzaGVPdzBvUkppckdpQ0swNmhzUWFlczJVX3czd3d5czVYSnRzYmlUOS1NNTk3Umc0MC1IY3lZcjJNek5XU0NYRE9hdnJ1SkVuZU80cDdLVzZGY2tFOUxNZU1UU3pvZW1SUngwRHYw0gHYAUFVX3lxTE9DN29lMV9qZUk4MkpyLTNfMnczRE43NFpvVG9VM0tPaGdaUkVBWGp4OXpNd1pheGJpaTd1UWdUYmh1bTRhNlVGNk82Q0FEMFBORVdhTVFUaGdyajJWTWk4VFV3aXY2R0xGcmdKcXlja2NCMTlZWkRFaVdSWldBM0Q3dWxqYUtlaE01S1J5aTFuU2FDVzJkeXI5YzBxMUw0bnVMNGVhb0ZaN0VncjQ0eVFjd1F1ZFdlSDhPSGRfUHBhX2VBN2JvR0JBNVhhV3Badi1leTdITTRVYw?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi0wFBVV95cUxOSk9NYkk2dkQ4dXBneG0yMXpLbG5jNU1CaWJodXV6aUp6QXRadjJlZWlsTFhXdnhpRzNlaWhRd0pSMnJpOVNTbWdrZHNPV0FGWWpqcDkzYVhXNi1EZHVJSUJYRVZvQUZqQmROa3kzaGVPdzBvUkppckdpQ0swNmhzUWFlczJVX3czd3d5czVYSnRzYmlUOS1NNTk3Umc0MC1IY3lZcjJNek5XU0NYRE9hdnJ1SkVuZU80cDdLVzZGY2tFOUxNZU1UU3pvZW1SUngwRHYw0gHYAUFVX3lxTE9DN29lMV9qZUk4MkpyLTNfMnczRE43NFpvVG9VM0tPaGdaUkVBWGp4OXpNd1pheGJpaTd1UWdUYmh1bTRhNlVGNk82Q0FEMFBORVdhTVFUaGdyajJWTWk4VFV3aXY2R0xGcmdKcXlja2NCMTlZWkRFaVdSWldBM0Q3dWxqYUtlaE01S1J5aTFuU2FDVzJkeXI5YzBxMUw0bnVMNGVhb0ZaN0VncjQ0eVFjd1F1ZFdlSDhPSGRfUHBhX2VBN2JvR0JBNVhhV3Badi1leTdITTRVYw?oc=5\" target=\"_blank\">Microsoft outage raises alarms about America’s cybersecurity | Katie Pavlich Tonight</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NewsNation</font>",
-      "published": "Sat, 14 Nov 2026 15:32:51 GMT",
+      "title": "Why are tech systems failing? Cybersecurity expert weighs in on Microsoft, FAA outages - Hawaii News Now",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQSE9kYUJRLWxGcnc3V1lzT1dubWhDeTk4Tnp0dnhYR2VVU05TZng4bEF6a1gtbzdVR2lieEV3R1JPY05XckFRQkdyNlNSUkQzUnFDazdubk9qRVQ4QkxhZFE3NldhR1pfNmtCQkdEbExvLWdMWVgwZml4a2dCMHVQWVBoVE1oakQyWkFtWDdYVkdSazhTTlFkSmhyODRDV0t1YmxycmJfNVI3cVHSAb8BQVVfeXFMTXlyQUtfTDdDT2RQWVlMSHRfUk5NYkdLaW1sbGs5b05qcnFRcWJDelRUbXdlZHlxX3V0QnNBSDJjWGEtMVNMVURhTVRkT055akVEdTFRRjA1MFE4UEZPdi1heFlLRWREa0lDYUc1WVN4SzBtQ0tQRXVWSHcwNzhLWHk4THRLb0tLNkZUQWgyZXdrVERGdVRwdjZlaVo1Vkl4cTdtTXJwYUE0eG5jcXRCT0d5RWswTGNwS2hrbWdMQUk?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxQSE9kYUJRLWxGcnc3V1lzT1dubWhDeTk4Tnp0dnhYR2VVU05TZng4bEF6a1gtbzdVR2lieEV3R1JPY05XckFRQkdyNlNSUkQzUnFDazdubk9qRVQ4QkxhZFE3NldhR1pfNmtCQkdEbExvLWdMWVgwZml4a2dCMHVQWVBoVE1oakQyWkFtWDdYVkdSazhTTlFkSmhyODRDV0t1YmxycmJfNVI3cVHSAb8BQVVfeXFMTXlyQUtfTDdDT2RQWVlMSHRfUk5NYkdLaW1sbGs5b05qcnFRcWJDelRUbXdlZHlxX3V0QnNBSDJjWGEtMVNMVURhTVRkT055akVEdTFRRjA1MFE4UEZPdi1heFlLRWREa0lDYUc1WVN4SzBtQ0tQRXVWSHcwNzhLWHk4THRLb0tLNkZUQWgyZXdrVERGdVRwdjZlaVo1Vkl4cTdtTXJwYUE0eG5jcXRCT0d5RWswTGNwS2hrbWdMQUk?oc=5\" target=\"_blank\">Why are tech systems failing? Cybersecurity expert weighs in on Microsoft, FAA outages</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Hawaii News Now</font>",
+      "published": "Sun, 15 Nov 2026 19:14:00 GMT",
       "score": 13.0
     },
     {
-      "source": "Google News Cybersecurity",
-      "title": "Trending Industry Today: Cloudflare Leads Losses In Cybersecurity Stocks - Moomoo",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQR1FjbW05YWVxT25QRmt1NzhYUXE4b0lxaWdoRkJRZl9nQzA1TUlKQlQxbnZHUVhLQkNTSnh5Rm5vaElUdV92TXVjT3VvcllqSGp6dVYwUFlqSVlmQXJSblNjVWlOSlBKQkFtZFJiRmxZTG1SUnpKMmYzOUpVQTRjRDFyVHUzYW9CeWlHUkZVWmVxOG5xSmY0LVFESVFVYllnc241Sm9XUTdLM1U5RFVFcjVtbFppQQ?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxQR1FjbW05YWVxT25QRmt1NzhYUXE4b0lxaWdoRkJRZl9nQzA1TUlKQlQxbnZHUVhLQkNTSnh5Rm5vaElUdV92TXVjT3VvcllqSGp6dVYwUFlqSVlmQXJSblNjVWlOSlBKQkFtZFJiRmxZTG1SUnpKMmYzOUpVQTRjRDFyVHUzYW9CeWlHUkZVWmVxOG5xSmY0LVFESVFVYllnc241Sm9XUTdLM1U5RFVFcjVtbFppQQ?oc=5\" target=\"_blank\">Trending Industry Today: Cloudflare Leads Losses In Cybersecurity Stocks</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Moomoo</font>",
-      "published": "Sat, 14 Nov 2026 18:17:54 GMT",
-      "score": 13.0
+      "source": "The Hacker News",
+      "title": "SANSAR Linux Cryptomining Malware Uses Modified NVIDIA Library to Hide GPU Activity",
+      "url": "https://thehackernews.com/2026/11/sansar-linux-cryptomining-malware-uses.html",
+      "summary": "A financially motivated threat activity cluster tracked as REF3364 has been attributed to a Linux-focused cryptocurrency mining operation that tampers with the readings used to detect high GPU workloads. Central to the intrusion is a toolkit called SANSAR, a Rust-based orchestrator that receives commands over the TOR anonymity network to manage CPU and GPU miners. The activity was observed in",
+      "published": "Mon, 16 Nov 2026 15:02:57 +0530",
+      "score": 12.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "Amazon Uncovers AI Agent Campaign Targeting LiteLLM, Dify, and Other Apps for API Keys",
+      "url": "https://thehackernews.com/2026/11/amazon-uncovers-ai-agent-campaign.html",
+      "summary": "Attackers' AI agents have been hunting for weak spots in internet-exposed AI apps such as LiteLLM, One API, and Dify to steal the AI provider keys stored inside, according to the agents' own records. The records, which Amazon's threat intelligence team captured with decoy servers, describe stolen keys being used to run the AI models that powered the search for more keys. The team said this",
+      "published": "Mon, 16 Nov 2026 13:04:21 +0530",
+      "score": 12.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "BO Team Exploits Log4Shell in VMware vCenter, Compromises Russian Firm's Code-Signing Server",
+      "url": "https://thehackernews.com/2026/11/bo-team-exploits-log4shell-in-vmware.html",
+      "summary": "An investigation into suspicious activity within a Russian software developer's network has uncovered a months-long compromise of its development infrastructure and a software code-signing server. The activity, documented by Kaspersky's ICS CERT team after it was contacted by the affected developer in June 2025, has been attributed to a threat actor named BO Team (aka Black Owl, Hoody Hyena,",
+      "published": "Mon, 16 Nov 2026 12:23:34 +0530",
+      "score": 12.0
     },
     {
       "source": "The Hacker News",
@@ -149,19 +149,27 @@
       "score": 12.0
     },
     {
-      "source": "The Hacker News",
-      "title": "Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection",
-      "url": "https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a high-severity security flaw impacting UnrealIRCd, an open-source Internet Relay Chat (IRC) server, to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation. The vulnerability, tracked as CVE-2026-114713 (CVSS score: 8.6), is a case of improper neutralization of delimiters",
-      "published": "Sat, 14 Nov 2026 18:08:35 +0530",
+      "source": "BleepingComputer",
+      "title": "Australian retail giant Coles investigates cybersecurity incident",
+      "url": "https://www.bleepingcomputer.com/news/security/australian-retail-giant-coles-investigates-cybersecurity-incident/",
+      "summary": "Coles Group Limited, Australia's second-largest retailer, is investigating what it described as a \"cyber security incident\" that has not impacted the company's stores. [...]",
+      "published": "Mon, 16 Nov 2026 06:18:09 -0500",
       "score": 12.0
     },
     {
-      "source": "The Hacker News",
-      "title": "Trezor Confirms Hidden Implants in CryptoBilis-Sold Wallets That Can Steal Recovery Phrases",
-      "url": "https://thehackernews.com/2026/11/trezor-confirms-hidden-hardware.html",
-      "summary": "Three Trezor Safe 5 wallets bought from the reseller CryptoBilis contain an implant, an extra circuit board that can copy their recovery phrases, hardware wallet maker Trezor said yesterday. The implant reads the phrase from the wallet's screen and sends it over the mobile network to a server controlled by the attackers. The company examined one of the wallets in its lab, identified the other",
-      "published": "Fri, 13 Nov 2026 19:24:20 +0530",
+      "source": "BleepingComputer",
+      "title": "Anthropic’s Claude Fable 5.2 blocks fewer security tasks, while Mythos gets better at finding bugs",
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropics-claude-fable-52-blocks-fewer-security-tasks-while-mythos-gets-better-at-finding-bugs/",
+      "summary": "Anthropic recently rolled out Claude Mythos 5.2 to selected partners and Fable 5.2 to regular users, with improvements to coding and reasoning. But we also noticed some interesting cybersecurity changes. [...]",
+      "published": "Mon, 16 Nov 2026 06:00:00 -0500",
+      "score": 12.0
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "New NoisyTCP vulnerability lets attackers crash Linux servers",
+      "url": "https://www.bleepingcomputer.com/news/linux/new-noisytcp-linux-kernel-flaw-lets-attackers-crash-servers/",
+      "summary": "An 11-year-old Linux kernel vulnerability, dubbed NoisyTCP, affects almost all Linux distributions and lets attackers crash systems running Nginx, Apache, and SSH servers with default configurations. [...]",
+      "published": "Mon, 16 Nov 2026 04:30:04 -0500",
       "score": 12.0
     },
     {
@@ -173,36 +181,28 @@
       "score": 12.0
     },
     {
-      "source": "BleepingComputer",
-      "title": "Trezor confirms crypto-stealing implants in three wallets, releases fix",
-      "url": "https://www.bleepingcomputer.com/news/cryptocurrency/trezor-confirms-crypto-stealing-implants-in-three-wallets-releases-fix/",
-      "summary": "Cryptocurrency hardware wallet maker Trezor has confirmed that three Safe 5 devices sold by Southeast Asian reseller CryptoBilis contained malicious hardware implants designed to steal wallet recovery phrases and send them to attackers over cellular networks. [...]",
-      "published": "Fri, 13 Nov 2026 14:38:36 -0500",
-      "score": 12.0
+      "source": "SecurityWeek",
+      "title": "Telegram Widgets Hit by RCE Demos, Malware Warning Days After Launch",
+      "url": "https://www.securityweek.com/telegram-widgets-hit-by-rce-demos-malware-warning-days-after-launch/",
+      "summary": "<p>Kaspersky suspects exploitation of Telegram’s new widgets to deliver WebRAT, as researchers demo RCE and Pavel Durov disputes the claims.</p> <p>The post <a href=\"https://www.securityweek.com/telegram-widgets-hit-by-rce-demos-malware-warning-days-after-launch/\">Telegram Widgets Hit by RCE Demos, Malware Warning Days After Launch</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "published": "Mon, 16 Nov 2026 12:48:03 +0000",
+      "score": 11.0
     },
     {
-      "source": "BleepingComputer",
-      "title": "German military drone operations disrupted by cyberattack",
-      "url": "https://www.bleepingcomputer.com/news/security/german-military-drone-operations-disrupted-by-cyberattack/",
-      "summary": "German defense technology company Quantum Systems confirmed that it detected an incident in late October that was part of an active cyberattack by \"hostile actors.\" [...]",
-      "published": "Fri, 13 Nov 2026 12:31:56 -0500",
-      "score": 12.0
+      "source": "SecurityWeek",
+      "title": "Recent UnrealIRCd Vulnerability Exploited in Attacks",
+      "url": "https://www.securityweek.com/recent-unrealircd-vulnerability-exploited-in-attacks/",
+      "summary": "<p>Tracked as CVE-2026-114713, the high-severity flaw allows attackers to execute commands with server/IRCOp privileges.</p> <p>The post <a href=\"https://www.securityweek.com/recent-unrealircd-vulnerability-exploited-in-attacks/\">Recent UnrealIRCd Vulnerability Exploited in Attacks</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "published": "Mon, 16 Nov 2026 11:15:48 +0000",
+      "score": 11.0
     },
     {
-      "source": "BleepingComputer",
-      "title": "Check Point gateways hacked via PHP2Shell to deploy VMware ESXi wiper",
-      "url": "https://www.bleepingcomputer.com/news/security/check-point-gateways-hacked-via-php2shell-to-deploy-vmware-esxi-wiper/",
-      "summary": "Vulnerable Check Point Security Gateway instances have been targeted in PHP2Shell attacks that deployed data-wiping malware on VMware ESXi hosts. [...]",
-      "published": "Fri, 13 Nov 2026 11:21:43 -0500",
-      "score": 12.0
-    },
-    {
-      "source": "BleepingComputer",
-      "title": "How one AI agent exposed five critical enterprise security gaps",
-      "url": "https://www.bleepingcomputer.com/news/security/how-one-ai-agent-exposed-five-critical-enterprise-security-gaps/",
-      "summary": "An AI agent built to automate invoice processing could be manipulated into changing vendor bank details through a malicious email, without triggering traditional security alerts. Token Security examines five critical AI agent security gaps and shares practical guidance from industry security leaders on preventing them. [...]",
-      "published": "Fri, 13 Nov 2026 10:01:11 -0500",
-      "score": 12.0
+      "source": "SecurityWeek",
+      "title": "Uber Data Breach Impacts 150,000 People",
+      "url": "https://www.securityweek.com/uber-data-breach-impacts-150000-people/",
+      "summary": "<p>Hackers compromised a third-party services provider and stole names, addresses, and driver’s license numbers.</p> <p>The post <a href=\"https://www.securityweek.com/uber-data-breach-impacts-150000-people/\">Uber Data Breach Impacts 150,000 People</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "published": "Mon, 16 Nov 2026 11:02:48 +0000",
+      "score": 11.0
     }
   ]
 }
