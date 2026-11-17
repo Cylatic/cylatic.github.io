@@ -1,16 +1,104 @@
 {
-  "generated_at_utc": "2026-11-16T12:55:19.193788+00:00",
+  "generated_at_utc": "2026-11-17T13:38:38.527890+00:00",
   "publication_enabled": false,
   "editorial_note": "Candidates require human/editorial review and original technical work before publication.",
   "feed_errors": [],
   "candidates": [
     {
+      "source": "SecurityWeek",
+      "title": "N-able Kills Legacy APIs, Patches 17 N-central Zero-Days",
+      "url": "https://www.securityweek.com/n-able-kills-legacy-apis-patches-17-n-central-zero-days/",
+      "summary": "<p>The patches target recently disclosed zero-days, as well as vulnerabilities already exploited in the wild.</p> <p>The post <a href=\"https://www.securityweek.com/n-able-kills-legacy-apis-patches-17-n-central-zero-days/\">N-able Kills Legacy APIs, Patches 17 N-central Zero-Days</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "published": "Tue, 17 Nov 2026 12:28:45 +0000",
+      "score": 37.0
+    },
+    {
+      "source": "SecurityWeek",
+      "title": "Cursor Supply Chain Attack Started at Fireworks AI",
+      "url": "https://www.securityweek.com/cursor-supply-chain-attack-started-at-fireworks/",
+      "summary": "<p>The attacker stole an access key from Fireworks and used it to exfiltrate credentials that enabled them to push malicious Claude Code extension copies.</p> <p>The post <a href=\"https://www.securityweek.com/cursor-supply-chain-attack-started-at-fireworks/\">Cursor Supply Chain Attack Started at Fireworks AI</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "published": "Mon, 16 Nov 2026 15:45:43 +0000",
+      "score": 24.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "Hackers Found a Way Around GitHub SHA Pinning. This Webinar Explains How to Close the Gap",
+      "url": "https://thehackernews.com/2026/11/hackers-found-way-around-github-sha.html",
+      "summary": "Pinning GitHub Actions to an exact version of their code, known as SHA pinning, has become the go-to defense against software supply chain attacks. Attackers have already found a way around it. In March 2026, the hackers who hijacked Trivy, a widely used open-source security scanner, planted malicious code that looked like it came from GitHub's official checkout tool. They even labeled it a",
+      "published": "Tue, 17 Nov 2026 17:55:06 +0530",
+      "score": 21.0
+    },
+    {
       "source": "BleepingComputer",
-      "title": "Cursor confirms security breach led to malicious Claude Code extension",
-      "url": "https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/",
-      "summary": "Cursor confirmed it suffered a security breach that let hackers distribute a malicious Claude Code extension through its marketplace after stealing credentials from AI infrastructure provider Fireworks AI. [...]",
-      "published": "Sat, 14 Nov 2026 12:27:25 -0500",
-      "score": 16.0
+      "title": "Optimizely hack infected CNN, Fox News, BBC, Salesforce sites with malware",
+      "url": "https://www.bleepingcomputer.com/news/security/optimizely-supply-chain-attack-delivers-malware-to-cnn-fox-news-bbc-salesforce-sites/",
+      "summary": "A suspected supply chain attack targeting Optimizely has led to malicious JavaScript being loaded on numerous popular websites, including Zoom, CNN, Fox News, BBC, Salesforce, and GitLab, exposing visitors to scripts designed to steal cryptocurrency and payment information and exploit vulnerabilities in iOS devices. [...]",
+      "published": "Mon, 16 Nov 2026 21:12:17 -0500",
+      "score": 21.0
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "Ransomware affiliate suspect extradited to US, faces 27 years in prison",
+      "url": "https://www.bleepingcomputer.com/news/security/alleged-inc-lynx-ransomware-affiliate-extradited-to-us-faces-27-years-in-prison/",
+      "summary": "A Kazakh national has been extradited from Italy to face charges alleging he targeted US schools, hospitals, and healthcare entities in ransomware attacks. [...]",
+      "published": "Tue, 17 Nov 2026 02:25:44 -0500",
+      "score": 20.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "New GitDoor and GraphDoor Backdoors Turn GitHub and SharePoint Into Covert C2 Channels",
+      "url": "https://thehackernews.com/2026/11/new-gitdoor-and-graphdoor-backdoors.html",
+      "summary": "Government sectors in Asia and Africa have been targeted by an active cyber intrusion campaign that delivers to previously undocumented backdoors that leverage legitimate services like Microsoft SharePoint and GitHub for command‑and‑control (C2). The activity has been codenamed Operation ShadowCloud by Kaspersky. The Russian cybersecurity company said it identified the campaign in early 2026.",
+      "published": "Tue, 17 Nov 2026 16:50:18 +0530",
+      "score": 18.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "N-able Patches 17 N-central Flaws as Attackers Exploit Earlier Bugs to Deploy Crypto Miners",
+      "url": "https://thehackernews.com/2026/11/n-able-patches-17-n-central-flaws-as.html",
+      "summary": "N-able has released a new security update to address additional critical security flaws impacting N-central. Describing N-central 2026.4 Hotfix 3 as a critical security update, the company said it includes a number of security patches and fixes that enhance the security of the Remote Monitoring and Management (RMM) and Unified Endpoint Management (UEM) platform. \"HF3 builds on the",
+      "published": "Tue, 17 Nov 2026 10:30:34 +0530",
+      "score": 15.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "⚡ Weekly Recap: N-able 0-Days, Windows 0-Days, Chrome 0-Days, Fridge 0-Days, and More Bad Days",
+      "url": "https://thehackernews.com/2026/11/weekly-recap-n-able-0-days-windows-0.html",
+      "summary": "A default password opened doors it never should have. A trusted update delivered malware. Even a security feature became a way to break in. Different stories, same problem: the things meant to protect us aren't always doing their job. Meanwhile, AI is making bug hunting faster, old flaws are still paying off, and attackers keep finding easy ways in. Some attacks take real skill. Others barely",
+      "published": "Mon, 16 Nov 2026 18:57:20 +0530",
+      "score": 15.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "Six Unpatched Danfoss Refrigeration Controller Flaws Could Allow Remote Takeover Without Login",
+      "url": "https://thehackernews.com/2026/11/six-unpatched-danfoss-refrigeration.html",
+      "summary": "Six flaws in Danfoss AK-SM800A refrigeration controllers could let a remote attacker take over a controller without logging in, Dutch security consultancy Midnight Blue said earlier this week. No patch is available, and the researchers say the newest firmware, version 5.4.0, does not fix the flaws. Government cybersecurity agencies in Belgium, Ireland and Germany told operators this week to",
+      "published": "Mon, 16 Nov 2026 18:04:21 +0530",
+      "score": 15.0
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "Microsoft testing Remote Lock for lost or stolen Windows devices",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-remote-lock-for-lost-or-stolen-windows-devices/",
+      "summary": "Microsoft is testing a new feature that lets enterprise IT administrators remotely lock stolen or lost Windows devices without wiping them. [...]",
+      "published": "Tue, 17 Nov 2026 06:19:51 -0500",
+      "score": 15.0
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "Barracuda links cloud breach to ARTEX AI-powered cyberattack",
+      "url": "https://www.bleepingcomputer.com/news/security/barracuda-links-cloud-breach-to-artex-ai-powered-cyberattack/",
+      "summary": "Hackers who breached the cloud environment of network and email security company Barracuda earlier this month used a stolen cloud access key and the ARTEX AI penetration testing framework. [...]",
+      "published": "Mon, 16 Nov 2026 14:57:13 -0500",
+      "score": 15.0
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "Microsoft says months-old bug caused global Microsoft 365 outage",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-months-old-bug-caused-global-microsoft-365-outage/",
+      "summary": "Microsoft says a software bug introduced in July caused last week's worldwide Microsoft 365 outage, triggering a cascading failure that left more than 80% of its networking gateway servers unresponsive. [...]",
+      "published": "Mon, 16 Nov 2026 11:43:24 -0500",
+      "score": 15.0
     },
     {
       "source": "BleepingComputer",
@@ -21,92 +109,84 @@
       "score": 15.0
     },
     {
-      "source": "BleepingComputer",
-      "title": "Microsoft pushes Windows emergency updates to fix activation failures",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-new-windows-emergency-updates-fix-activation-licensing-failures/",
-      "summary": "Microsoft has released emergency out-of-band updates to fix Windows activation and licensing failures caused by this month's security updates. [...]",
-      "published": "Mon, 16 Nov 2026 03:26:52 -0500",
-      "score": 15.0
-    },
-    {
-      "source": "BleepingComputer",
-      "title": "FBI warns ARTEX AI hacking tool is powering global cyberattacks",
-      "url": "https://www.bleepingcomputer.com/news/security/fbi-warns-artex-ai-hacking-tool-is-powering-global-cyberattacks/",
-      "summary": "The FBI is warning that hackers are using an AI-powered penetration testing framework called ARTEX to automate cyberattacks against organizations worldwide, including a recent ConnectWise supply-chain breach that compromised Microsoft 365 customer environments. [...]",
-      "published": "Sun, 15 Nov 2026 13:29:53 -0500",
-      "score": 15.0
-    },
-    {
-      "source": "BleepingComputer",
-      "title": "TSMC employee data breach linked to cloud provider",
-      "url": "https://www.bleepingcomputer.com/news/security/tsmc-employee-data-breach-linked-to-cloud-provider/",
-      "summary": "Taiwan Semiconductor Manufacturing Company (TSMC) confirmed that personal employee data has been leaked online after a threat actor put 6.9GB of information allegedly stolen from the company up for auction. [...]",
-      "published": "Sun, 15 Nov 2026 10:23:48 -0500",
+      "source": "Google News Cybersecurity",
+      "title": "EFF’s AI Cybersecurity Policy Framework - Electronic Frontier Foundation",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQRlFpWktDT0ppRUdhVUF1aG04MzhIa1JSUEZKai1SQ2VpNHZIVWdRV1h0MEpMUk44OXYyN3JfQXUwOHdSaWpNQmlFSlJxb2k1Tk90cHZQeW1NSDFLc1BkeklGZmdmNXpPZ3NHb251Y3l4dnk0OHUya0V2anplWldTbmpB?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxQRlFpWktDT0ppRUdhVUF1aG04MzhIa1JSUEZKai1SQ2VpNHZIVWdRV1h0MEpMUk44OXYyN3JfQXUwOHdSaWpNQmlFSlJxb2k1Tk90cHZQeW1NSDFLc1BkeklGZmdmNXpPZ3NHb251Y3l4dnk0OHUya0V2anplWldTbmpB?oc=5\" target=\"_blank\">EFF’s AI Cybersecurity Policy Framework</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Electronic Frontier Foundation</font>",
+      "published": "Mon, 16 Nov 2026 22:50:00 GMT",
       "score": 15.0
     },
     {
       "source": "Google News Cybersecurity",
-      "title": "Cybersecurity News: Ground Stop update, France mail cyberattack, Fireworks breach fallout - CISO Series",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNeVpNWW4yQ2dzakJBOU5Pc0ZQRk1YN2d6dmd1RXRHY3B6Sl9fRnU5eXBxSnJjc2p6TzJLSzlkUmMxZTRwaHhsOU5uTXg0Vi1lWFMtWWtMRVdaVWNCVnE5Sl8xRTJ4cEdJd3lrYnJha0VMTTdoSVJHZ0dEWHRRMk5ZakZackpMcTlzU2FfTF9SZkpWRGFHSEdtUDNIVzY1cGJjTkZBQ2ZzaXBLel9DWFlV?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxNeVpNWW4yQ2dzakJBOU5Pc0ZQRk1YN2d6dmd1RXRHY3B6Sl9fRnU5eXBxSnJjc2p6TzJLSzlkUmMxZTRwaHhsOU5uTXg0Vi1lWFMtWWtMRVdaVWNCVnE5Sl8xRTJ4cEdJd3lrYnJha0VMTTdoSVJHZ0dEWHRRMk5ZakZackpMcTlzU2FfTF9SZkpWRGFHSEdtUDNIVzY1cGJjTkZBQ2ZzaXBLel9DWFlV?oc=5\" target=\"_blank\">Cybersecurity News: Ground Stop update, France mail cyberattack, Fireworks breach fallout</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CISO Series</font>",
-      "published": "Mon, 16 Nov 2026 11:00:00 GMT",
+      "title": "Exclusive | Goldman Leads Investment in Cybersecurity Startup at $400 Million Valuation - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOYVh0Rk9oRUliWUpZRkFhRG5hWUU1THYyb3B1SW9NdVpNU0RETlZMLVowT0d1MFNEc2hfeUlWbnY5ZzhQUEI5U3pUMnQ4V1lIVlcycjlUOVpzdDFYRWMxUDRETGFBSXNUVng1T2hLUmlYWExzd3ZRZVZNdFk4MWZySWlsUjFhTkRSSTZkUFo2X2xTMUpObllyaWZCbVJia3pOMXdSNkRqUlhSbEpiMWJBWmthekhXZVBYVDl0YVdzVQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxOYVh0Rk9oRUliWUpZRkFhRG5hWUU1THYyb3B1SW9NdVpNU0RETlZMLVowT0d1MFNEc2hfeUlWbnY5ZzhQUEI5U3pUMnQ4V1lIVlcycjlUOVpzdDFYRWMxUDRETGFBSXNUVng1T2hLUmlYWExzd3ZRZVZNdFk4MWZySWlsUjFhTkRSSTZkUFo2X2xTMUpObllyaWZCbVJia3pOMXdSNkRqUlhSbEpiMWJBWmthekhXZVBYVDl0YVdzVQ?oc=5\" target=\"_blank\">Exclusive | Goldman Leads Investment in Cybersecurity Startup at $400 Million Valuation</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
+      "published": "Mon, 16 Nov 2026 23:42:09 GMT",
       "score": 15.0
     },
     {
       "source": "SecurityWeek",
-      "title": "Hackers Probe Newly Disclosed Flaws in Copeland Refrigeration Controllers",
-      "url": "https://www.securityweek.com/hackers-probe-newly-disclosed-flaws-in-copeland-refrigeration-controllers/",
-      "summary": "<p>Vulncheck disclosed 14 vulnerabilities affecting Copeland XWEB EVO controllers, including two that threat actors quickly targeted.</p> <p>The post <a href=\"https://www.securityweek.com/hackers-probe-newly-disclosed-flaws-in-copeland-refrigeration-controllers/\">Hackers Probe Newly Disclosed Flaws in Copeland Refrigeration Controllers</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "published": "Mon, 16 Nov 2026 11:05:42 +0000",
-      "score": 14.0
-    },
-    {
-      "source": "SecurityWeek",
-      "title": "Microsoft Rules Out Cyberattack in Outage, Warns of Phishing Campaign",
-      "url": "https://www.securityweek.com/microsoft-rules-out-cyberattack-in-outage-warns-of-phishing-campaign/",
-      "summary": "<p>Phishing emails posing as Microsoft 365 service notices referenced the real outage incident and threatened to delete held messages.</p> <p>The post <a href=\"https://www.securityweek.com/microsoft-rules-out-cyberattack-in-outage-warns-of-phishing-campaign/\">Microsoft Rules Out Cyberattack in Outage, Warns of Phishing Campaign</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "published": "Mon, 16 Nov 2026 08:15:12 +0000",
+      "title": "California Sues OpenAI, Seeking Court-Ordered Changes After the Hugging Face Hack",
+      "url": "https://www.securityweek.com/california-sues-openai-seeking-court-ordered-changes-after-the-hugging-face-hack/",
+      "summary": "<p>The lawsuit alleges that OpenAI misled and endangered the public and users by knowingly developing advanced AI models without necessary safeguards.</p> <p>The post <a href=\"https://www.securityweek.com/california-sues-openai-seeking-court-ordered-changes-after-the-hugging-face-hack/\">California Sues OpenAI, Seeking Court-Ordered Changes After the Hugging Face Hack</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "published": "Tue, 17 Nov 2026 12:00:00 +0000",
       "score": 14.0
     },
     {
       "source": "Google News Cybersecurity",
-      "title": "What the ASOS incident reveals about the reach of stolen credentials - Cybersecurity Insiders",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQYTczZVZzLWZCRF9kM0FoMldLcVl4V1hUUFZ5MVNtR2RSZm9XLXVzanh2U1laX2dSU0F2QnVGYWdudkRJUVZwY1Q4MFhBbFVLRmgzS3JPSkJrcFVkOVpVNXIzOXhtc2tnSF9vUnhuZlRmaGlpMUczLWtKMG1QRmdkWlZ6amdtbWZIWFBmTGt6WHR1dE5ZSks0Y3VHSS1EVXZkbFEwNGdkbkpmR2RL?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirAFBVV95cUxQYTczZVZzLWZCRF9kM0FoMldLcVl4V1hUUFZ5MVNtR2RSZm9XLXVzanh2U1laX2dSU0F2QnVGYWdudkRJUVZwY1Q4MFhBbFVLRmgzS3JPSkJrcFVkOVpVNXIzOXhtc2tnSF9vUnhuZlRmaGlpMUczLWtKMG1QRmdkWlZ6amdtbWZIWFBmTGt6WHR1dE5ZSks0Y3VHSS1EVXZkbFEwNGdkbkpmR2RL?oc=5\" target=\"_blank\">What the ASOS incident reveals about the reach of stolen credentials</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Cybersecurity Insiders</font>",
-      "published": "Mon, 16 Nov 2026 08:02:40 GMT",
-      "score": 14.0
-    },
-    {
-      "source": "Google News Cybersecurity",
-      "title": "Employee Credentials May Be for Sale—Even Without an Attack - Dark Reading",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOUDV6Rm5GaFBYd2xlQkNfWF9mb0l0LTVSc0lIX1F3WDNQMlg0dDRKS1poU2FVYnQtQjQyTTVqdFJONHNqRjdxY0Y1NVp5dGM5VnBFTTZUdGhRd0NaSWtZWUNkYUdnUExEN3F2b1gtT2RHUlFSMGpmd3JOT1VYdlNGaWkxTmY2UVZVWmozbEVHSm1RN18yVi1LS012RWw4Zk90MjFxcmtSTjZjcjNJN1U4eHJR?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxOUDV6Rm5GaFBYd2xlQkNfWF9mb0l0LTVSc0lIX1F3WDNQMlg0dDRKS1poU2FVYnQtQjQyTTVqdFJONHNqRjdxY0Y1NVp5dGM5VnBFTTZUdGhRd0NaSWtZWUNkYUdnUExEN3F2b1gtT2RHUlFSMGpmd3JOT1VYdlNGaWkxTmY2UVZVWmozbEVHSm1RN18yVi1LS012RWw4Zk90MjFxcmtSTjZjcjNJN1U4eHJR?oc=5\" target=\"_blank\">Employee Credentials May Be for Sale—Even Without an Attack</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Dark Reading</font>",
-      "published": "Mon, 16 Nov 2026 12:26:09 GMT",
-      "score": 14.0
-    },
-    {
-      "source": "Google News Cybersecurity",
-      "title": "Major cybersecurity concerns following FAA, Microsoft outages - Fox News",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9CQXFoMkZTR1BJYm9nS3QtWEJoZHc3QktpbV9WdTVjTVdGOWxkS01SYXliNVdwUFJiZTZPTmRiQjFYazB2MjVvaXlPelNMaDdiaWdlUmhR?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiVkFVX3lxTE9CQXFoMkZTR1BJYm9nS3QtWEJoZHc3QktpbV9WdTVjTVdGOWxkS01SYXliNVdwUFJiZTZPTmRiQjFYazB2MjVvaXlPelNMaDdiaWdlUmhR?oc=5\" target=\"_blank\">Major cybersecurity concerns following FAA, Microsoft outages</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Fox News</font>",
-      "published": "Mon, 16 Nov 2026 11:10:53 GMT",
+      "title": "OpenAI, facing a cybersecurity lawsuit in the US, is working with NATO on cybersecurity - Resilience Media",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOOFZjSld1VWFTUzJuQTNidWw4Mm14SGU3YTNyajU5eGhtMFU4b3VRdnZjZHUwSUM4SEcySl9OVGhvLWJUb2J6Y2JINEtCSUo4Z1I2YU13c2J5UU56YVZIc1dWcFNENnR0Y0NRdVg0aFFZT1lpR3lGcFlSSVVIclc4SFFLSEViTHNXSWY3ZzVzYXQ0UnZ3bjRndllxQ2Nmd3FnRUt0MlotV0luLVVlZzhDT1FUSQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxOOFZjSld1VWFTUzJuQTNidWw4Mm14SGU3YTNyajU5eGhtMFU4b3VRdnZjZHUwSUM4SEcySl9OVGhvLWJUb2J6Y2JINEtCSUo4Z1I2YU13c2J5UU56YVZIc1dWcFNENnR0Y0NRdVg0aFFZT1lpR3lGcFlSSVVIclc4SFFLSEViTHNXSWY3ZzVzYXQ0UnZ3bjRndllxQ2Nmd3FnRUt0MlotV0luLVVlZzhDT1FUSQ?oc=5\" target=\"_blank\">OpenAI, facing a cybersecurity lawsuit in the US, is working with NATO on cybersecurity</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Resilience Media</font>",
+      "published": "Tue, 17 Nov 2026 09:59:22 GMT",
       "score": 13.0
     },
     {
-      "source": "Google News Cybersecurity",
-      "title": "Mindware to showcase integrated AI, cybersecurity and cloud solutions at GITEX Global 2026 - Intelligent CIO",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQdzNiVjlCa01hbF81MFdVR3BnQTZCX3VwRXZRQnJ6aFpFc21pb1hlSGo3STU5VElvYWVTUktqMExQSGdCellpSDJZTDdjSXphNmZpX3l6bUhJU1ZxRm1BekJCUEF0VTZfOTIxaXQ4bGlEMVN3THpReVBBdHZWQV95NFpCZWo4QUcyTk0xYUNfb2p6NFI5SXVLejZHdmV4bkppajVYanN1ZU5VbzBYczk4akh4Q2hLVjZyU0Q5QmdSTldwX05LRkNFVWtpaXhsbmRX?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi0AFBVV95cUxQdzNiVjlCa01hbF81MFdVR3BnQTZCX3VwRXZRQnJ6aFpFc21pb1hlSGo3STU5VElvYWVTUktqMExQSGdCellpSDJZTDdjSXphNmZpX3l6bUhJU1ZxRm1BekJCUEF0VTZfOTIxaXQ4bGlEMVN3THpReVBBdHZWQV95NFpCZWo4QUcyTk0xYUNfb2p6NFI5SXVLejZHdmV4bkppajVYanN1ZU5VbzBYczk4akh4Q2hLVjZyU0Q5QmdSTldwX05LRkNFVWtpaXhsbmRX?oc=5\" target=\"_blank\">Mindware to showcase integrated AI, cybersecurity and cloud solutions at GITEX Global 2026</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Intelligent CIO</font>",
-      "published": "Mon, 16 Nov 2026 11:26:32 GMT",
-      "score": 13.0
+      "source": "The Hacker News",
+      "title": "Researchers Detail iPhone Flaw That Let Apps Record Audio Despite Denied Microphone Permission",
+      "url": "https://thehackernews.com/2026/11/researchers-detail-iphone-flaw-that-let.html",
+      "summary": "A now-patched flaw in Apple's audio service let apps on iPhones and iPads record audio even after the user tapped \"Don't Allow\" on the microphone prompt. The first security updates with the fix came out on August 17. Neither Apple nor the two researchers who found the flaw report that it was used in attacks. Nik Tsytsarkin of Meta Red Team X published the technical details last week. Mustafa",
+      "published": "Tue, 17 Nov 2026 17:44:36 +0530",
+      "score": 12.0
     },
     {
-      "source": "Google News Cybersecurity",
-      "title": "Why are tech systems failing? Cybersecurity expert weighs in on Microsoft, FAA outages - Hawaii News Now",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQSE9kYUJRLWxGcnc3V1lzT1dubWhDeTk4Tnp0dnhYR2VVU05TZng4bEF6a1gtbzdVR2lieEV3R1JPY05XckFRQkdyNlNSUkQzUnFDazdubk9qRVQ4QkxhZFE3NldhR1pfNmtCQkdEbExvLWdMWVgwZml4a2dCMHVQWVBoVE1oakQyWkFtWDdYVkdSazhTTlFkSmhyODRDV0t1YmxycmJfNVI3cVHSAb8BQVVfeXFMTXlyQUtfTDdDT2RQWVlMSHRfUk5NYkdLaW1sbGs5b05qcnFRcWJDelRUbXdlZHlxX3V0QnNBSDJjWGEtMVNMVURhTVRkT055akVEdTFRRjA1MFE4UEZPdi1heFlLRWREa0lDYUc1WVN4SzBtQ0tQRXVWSHcwNzhLWHk4THRLb0tLNkZUQWgyZXdrVERGdVRwdjZlaVo1Vkl4cTdtTXJwYUE0eG5jcXRCT0d5RWswTGNwS2hrbWdMQUk?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxQSE9kYUJRLWxGcnc3V1lzT1dubWhDeTk4Tnp0dnhYR2VVU05TZng4bEF6a1gtbzdVR2lieEV3R1JPY05XckFRQkdyNlNSUkQzUnFDazdubk9qRVQ4QkxhZFE3NldhR1pfNmtCQkdEbExvLWdMWVgwZml4a2dCMHVQWVBoVE1oakQyWkFtWDdYVkdSazhTTlFkSmhyODRDV0t1YmxycmJfNVI3cVHSAb8BQVVfeXFMTXlyQUtfTDdDT2RQWVlMSHRfUk5NYkdLaW1sbGs5b05qcnFRcWJDelRUbXdlZHlxX3V0QnNBSDJjWGEtMVNMVURhTVRkT055akVEdTFRRjA1MFE4UEZPdi1heFlLRWREa0lDYUc1WVN4SzBtQ0tQRXVWSHcwNzhLWHk4THRLb0tLNkZUQWgyZXdrVERGdVRwdjZlaVo1Vkl4cTdtTXJwYUE0eG5jcXRCT0d5RWswTGNwS2hrbWdMQUk?oc=5\" target=\"_blank\">Why are tech systems failing? Cybersecurity expert weighs in on Microsoft, FAA outages</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Hawaii News Now</font>",
-      "published": "Sun, 15 Nov 2026 19:14:00 GMT",
-      "score": 13.0
+      "source": "The Hacker News",
+      "title": "Apple Tightens macOS App Permissions to Limit Data Access Amid AI Agent Security Risks",
+      "url": "https://thehackernews.com/2026/11/apple-tightens-macos-app-permissions-to.html",
+      "summary": "Apple on Monday introduced new controls that allow Mac users to give more granular access to data they give to apps, including those that use artificial intelligence (AI) agents. The changes, currently previewed in macOS 27.3 beta 2, relate to increased transparency and more options for two of its APIs: Device Control and Data Access, and Full Disk Access. \"Before granting an app such",
+      "published": "Tue, 17 Nov 2026 16:37:31 +0530",
+      "score": 12.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "Hijacked Optimizely Scripts Served Card Skimmer and iOS Exploit Kits to CNN, BBC and Zoom Visitors",
+      "url": "https://thehackernews.com/2026/11/hijacked-optimizely-scripts-served-card.html",
+      "summary": "An attacker exploited a flaw in Optimizely Web Experimentation to plant malicious code in some of the scripts that customers' websites load from the service, Optimizely said early today. Visitors to sites run by at least 178 organizations, including CNN, the BBC and Zoom, received the code yesterday, according to Report URI, a firm that monitors the scripts websites run. The code was built to",
+      "published": "Tue, 17 Nov 2026 12:42:13 +0530",
+      "score": 12.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "ConnectWise Warns ScreenConnect Attacks Continue as SCKit Targets Unpatched Systems",
+      "url": "https://thehackernews.com/2026/11/connectwise-warns-screenconnect-attacks.html",
+      "summary": "ConnectWise on Monday said it completed its investigation into unauthorized access targeting partner ScreenConnect environments, and recommended customers to ensure that the technician client is running version 26.6.5 or later. The company said additional activity targeting on-premises environments continues to be reported where the identified third-party extensions remain enabled, and",
+      "published": "Tue, 17 Nov 2026 11:59:27 +0530",
+      "score": 12.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "Google Finds Hackers Using AI Agents to Build and Run Exploits From Software Patches",
+      "url": "https://thehackernews.com/2026/11/google-finds-hackers-using-ai-agents-to.html",
+      "summary": "Google on Monday revealed that adversarial use of artificial intelligence (AI) by threat actors has gone beyond manual prompting to deploying autonomous multi-agent offensive frameworks like ARTEX, CAIRN, CyberStrikeAI, and PentAGI to execute multi-stage intrusions at greater operational velocity. In tandem, threat actors are leveraging the power and capabilities of large language models (LLMs)",
+      "published": "Mon, 16 Nov 2026 19:30:00 +0530",
+      "score": 12.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "Retadup Worm Resurfaces 7 Years After Takedown to Spread CoffeeLoader Malware",
+      "url": "https://thehackernews.com/2026/11/retadup-worm-resurfaces-7-years-after.html",
+      "summary": "Cybersecurity researchers have disclosed details of a new variant of CoffeeLoader, a malware designed to deliver additional payloads to infected machines. \"On launch, the NSIS-based installer executable dropped a file named '7z.dll' into a temporary directory and ran it through rundll32.exe,\" Kaspersky said in an analysis published today. \"The '7z.dll' file was a patched version of the",
+      "published": "Mon, 16 Nov 2026 18:03:18 +0530",
+      "score": 12.0
     },
     {
       "source": "The Hacker News",
@@ -123,86 +203,6 @@
       "summary": "Attackers' AI agents have been hunting for weak spots in internet-exposed AI apps such as LiteLLM, One API, and Dify to steal the AI provider keys stored inside, according to the agents' own records. The records, which Amazon's threat intelligence team captured with decoy servers, describe stolen keys being used to run the AI models that powered the search for more keys. The team said this",
       "published": "Mon, 16 Nov 2026 13:04:21 +0530",
       "score": 12.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "BO Team Exploits Log4Shell in VMware vCenter, Compromises Russian Firm's Code-Signing Server",
-      "url": "https://thehackernews.com/2026/11/bo-team-exploits-log4shell-in-vmware.html",
-      "summary": "An investigation into suspicious activity within a Russian software developer's network has uncovered a months-long compromise of its development infrastructure and a software code-signing server. The activity, documented by Kaspersky's ICS CERT team after it was contacted by the affected developer in June 2025, has been attributed to a threat actor named BO Team (aka Black Owl, Hoody Hyena,",
-      "published": "Mon, 16 Nov 2026 12:23:34 +0530",
-      "score": 12.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "Italy Fines Meta €805 Million Over Facebook's Android Gallery Access Without Explicit Consent",
-      "url": "https://thehackernews.com/2026/11/italy-fines-meta-805-million-over.html",
-      "summary": "Meta was fined €805 million in Italy yesterday over a Facebook for Android feature that suggests photos and videos from users' phone galleries for them to post. The Garante, Italy's data protection authority, found that the feature was enabled by default and that the app accessed Italian users' photos, videos, and related metadata without their explicit consent. The company has 60 days to",
-      "published": "Sun, 15 Nov 2026 16:57:31 +0530",
-      "score": 12.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "Cursor Says Stolen Fireworks AI Key Led to Trojanized Claude Code Extension Incident",
-      "url": "https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html",
-      "summary": "The compromise of Anthropic's official Claude Code extension on Cursor's extension marketplace was the result of the theft of an access key that was exposed in the wake of a breach targeting Fireworks AI. \"An attacker obtained an access key we had issued to Fireworks,\" Cursor said in a Friday update. \"The key was exposed by Fireworks, and the attacker used it to copy data from a read-only",
-      "published": "Sun, 15 Nov 2026 13:52:04 +0530",
-      "score": 12.0
-    },
-    {
-      "source": "BleepingComputer",
-      "title": "Australian retail giant Coles investigates cybersecurity incident",
-      "url": "https://www.bleepingcomputer.com/news/security/australian-retail-giant-coles-investigates-cybersecurity-incident/",
-      "summary": "Coles Group Limited, Australia's second-largest retailer, is investigating what it described as a \"cyber security incident\" that has not impacted the company's stores. [...]",
-      "published": "Mon, 16 Nov 2026 06:18:09 -0500",
-      "score": 12.0
-    },
-    {
-      "source": "BleepingComputer",
-      "title": "Anthropic’s Claude Fable 5.2 blocks fewer security tasks, while Mythos gets better at finding bugs",
-      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropics-claude-fable-52-blocks-fewer-security-tasks-while-mythos-gets-better-at-finding-bugs/",
-      "summary": "Anthropic recently rolled out Claude Mythos 5.2 to selected partners and Fable 5.2 to regular users, with improvements to coding and reasoning. But we also noticed some interesting cybersecurity changes. [...]",
-      "published": "Mon, 16 Nov 2026 06:00:00 -0500",
-      "score": 12.0
-    },
-    {
-      "source": "BleepingComputer",
-      "title": "New NoisyTCP vulnerability lets attackers crash Linux servers",
-      "url": "https://www.bleepingcomputer.com/news/linux/new-noisytcp-linux-kernel-flaw-lets-attackers-crash-servers/",
-      "summary": "An 11-year-old Linux kernel vulnerability, dubbed NoisyTCP, affects almost all Linux distributions and lets attackers crash systems running Nginx, Apache, and SSH servers with default configurations. [...]",
-      "published": "Mon, 16 Nov 2026 04:30:04 -0500",
-      "score": 12.0
-    },
-    {
-      "source": "BleepingComputer",
-      "title": "US disrupts North Korean campaign behind $400 million crypto theft",
-      "url": "https://www.bleepingcomputer.com/news/security/us-disrupts-north-korean-campaign-behind-400-million-crypto-theft/",
-      "summary": "The U.S. government has disrupted a North Korean social engineering campaign called 'FaceStealer', responsible for stealing more than $400 million in cryptocurrency. [...]",
-      "published": "Sat, 14 Nov 2026 10:15:49 -0500",
-      "score": 12.0
-    },
-    {
-      "source": "SecurityWeek",
-      "title": "Telegram Widgets Hit by RCE Demos, Malware Warning Days After Launch",
-      "url": "https://www.securityweek.com/telegram-widgets-hit-by-rce-demos-malware-warning-days-after-launch/",
-      "summary": "<p>Kaspersky suspects exploitation of Telegram’s new widgets to deliver WebRAT, as researchers demo RCE and Pavel Durov disputes the claims.</p> <p>The post <a href=\"https://www.securityweek.com/telegram-widgets-hit-by-rce-demos-malware-warning-days-after-launch/\">Telegram Widgets Hit by RCE Demos, Malware Warning Days After Launch</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "published": "Mon, 16 Nov 2026 12:48:03 +0000",
-      "score": 11.0
-    },
-    {
-      "source": "SecurityWeek",
-      "title": "Recent UnrealIRCd Vulnerability Exploited in Attacks",
-      "url": "https://www.securityweek.com/recent-unrealircd-vulnerability-exploited-in-attacks/",
-      "summary": "<p>Tracked as CVE-2026-114713, the high-severity flaw allows attackers to execute commands with server/IRCOp privileges.</p> <p>The post <a href=\"https://www.securityweek.com/recent-unrealircd-vulnerability-exploited-in-attacks/\">Recent UnrealIRCd Vulnerability Exploited in Attacks</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "published": "Mon, 16 Nov 2026 11:15:48 +0000",
-      "score": 11.0
-    },
-    {
-      "source": "SecurityWeek",
-      "title": "Uber Data Breach Impacts 150,000 People",
-      "url": "https://www.securityweek.com/uber-data-breach-impacts-150000-people/",
-      "summary": "<p>Hackers compromised a third-party services provider and stole names, addresses, and driver’s license numbers.</p> <p>The post <a href=\"https://www.securityweek.com/uber-data-breach-impacts-150000-people/\">Uber Data Breach Impacts 150,000 People</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "published": "Mon, 16 Nov 2026 11:02:48 +0000",
-      "score": 11.0
     }
   ]
 }
