@@ -1,31 +1,111 @@
 {
-  "generated_at_utc": "2026-11-19T13:30:18.853350+00:00",
+  "generated_at_utc": "2026-11-20T13:11:50.114741+00:00",
   "publication_enabled": false,
   "editorial_note": "Candidates require human/editorial review and original technical work before publication.",
   "feed_errors": [],
   "candidates": [
     {
-      "source": "SecurityWeek",
-      "title": "Splunk Patches Nearly 140 Flaws Across Three Core Products",
-      "url": "https://www.securityweek.com/splunk-patches-nearly-140-flaws-across-three-core-products/",
-      "summary": "<p>The security updates resolve critical and high-severity issues leading to authentication bypass, remote code execution, and privilege escalation.</p> <p>The post <a href=\"https://www.securityweek.com/splunk-patches-nearly-140-flaws-across-three-core-products/\">Splunk Patches Nearly 140 Flaws Across Three Core Products</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "published": "Thu, 19 Nov 2026 10:41:05 +0000",
-      "score": 39.0
+      "source": "CISA",
+      "title": "Elecbrakes EB2, VM1, ELBC2000",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-02",
+      "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-323-02.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>Successful exploitation of these vulnerabilities could allow an attacker to gain control of the brakes of a trailer, modify the firmware, disable the brake lights, modify the brake conditions or disable other critical safety features.</strong></p> <p>The following versions of Elecbrakes EB2, VM1, ELBC2000 are affected:</p> <ul> <li>EB2 &lt;=3.0.4.2.0 (CVE-2026-124281, CVE-2026-125273, CVE-2026-96805)</li> <li>ELBC2000 vers:all/* (CVE-2026-124281, CVE-2026-125273, CVE-2026-96805)</li> <li>VM1 &lt;1.3.4.2.1 (CVE-2026-124281, CVE-2026-125273, CVE-2026-96805)</li> </ul> <div class=\"csaf-table\"> <table class=\"tablesaw tablesaw-stack\" data-tablesaw-mode=\"stack\" data-tablesaw-minimap> <thead> <tr> <th role=\"columnheader\" data-tablesaw-priority=\"persist\">CVSS</th> <th role=\"columnheader\">Vendor</th> <th role=\"columnheader\">Equipme",
+      "published": "Thu, 19 Nov 26 12:00:00 +0000",
+      "score": 37.0
     },
     {
       "source": "The Hacker News",
-      "title": "Ruby Releases Fixes for 7 Regex and String Flaws, Warns 5 Have Proof-of-Concept RCE",
+      "title": "Drupal Patches Critical Installer Flaw That Could Give Unauthenticated Attackers Control of Sites",
+      "url": "https://thehackernews.com/2026/11/drupal-patches-critical-installer-flaw.html",
+      "summary": "Under specific conditions, a critical vulnerability in Drupal core can allow an attacker without login credentials to use the built-in installer to attempt to reinstall a site. That can lead to a site takeover or remote code execution, and the project rates the vulnerable configurations as uncommon. Fixed releases for all supported branches shipped yesterday. The Drupal Security Team disclosed",
+      "published": "Thu, 19 Nov 2026 20:03:06 +0530",
+      "score": 34.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data",
+      "url": "https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html",
+      "summary": "The suspected China-nexus cyber espionage group known as Armory Castle (formerly UNC5221) has been attributed to the zero-day exploitation of a critical security flaw in VMware vCenter Server in early September 2026. The vulnerability, tracked as CVE-2026-123890 (CVSS score: 9.8), is a case of authentication bypass in the VMware Directory Service that could be exploited to gain unauthorized",
+      "published": "Fri, 20 Nov 2026 15:08:15 +0530",
+      "score": 33.0
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "VMware patches vCenter zero-day exploited in attacks since September",
+      "url": "https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/",
+      "summary": "Broadcom has released security updates to fix a critical VMware vCenter Server authentication bypass vulnerability that Chinese-linked hackers have exploited in zero-day attacks since September 2026. [...]",
+      "published": "Thu, 19 Nov 2026 19:26:25 -0500",
+      "score": 33.0
+    },
+    {
+      "source": "SecurityWeek",
+      "title": "Newly Patched VMware vCenter Flaw Exploited as Zero-Day by Chinese APT",
+      "url": "https://www.securityweek.com/newly-patched-vmware-vcenter-flaw-exploited-as-zero-day-by-chinese-apt/",
+      "summary": "<p>Google says a China-linked espionage group exploited a critical VMware vCenter authentication bypass before Broadcom released a patch.</p> <p>The post <a href=\"https://www.securityweek.com/newly-patched-vmware-vcenter-flaw-exploited-as-zero-day-by-chinese-apt/\">Newly Patched VMware vCenter Flaw Exploited as Zero-Day by Chinese APT</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "published": "Thu, 19 Nov 2026 19:21:06 +0000",
+      "score": 32.0
+    },
+    {
+      "source": "CISA",
+      "title": "libumqtt",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-03",
+      "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-323-03.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>Successful exploitation of this vulnerability could allow a remote attacker to cause a denial of service, memory corruption, or information disclosure.</strong></p> <p>The following versions of libumqtt are affected:</p> <ul> <li>libumqtt &lt;=1.1.1 (CVE-2026-125132)</li> </ul> <div class=\"csaf-table\"> <table class=\"tablesaw tablesaw-stack\" data-tablesaw-mode=\"stack\" data-tablesaw-minimap> <thead> <tr> <th role=\"columnheader\" data-tablesaw-priority=\"persist\">CVSS</th> <th role=\"columnheader\">Vendor</th> <th role=\"columnheader\">Equipment</th> </tr> </thead> <tbody> <tr> <td>v3 8.6</td> <td>libumqtt</td> <td>libumqtt</td> </tr> </tbody> </table> <table class=\"tablesaw tablesaw-stack\" data-tablesaw-mode=\"stack\" data-tablesaw-minimap> <thead> <tr> <th role=\"columnheader\" data-tablesaw-priority=\"persist\">1 Vulnerability</th> </",
+      "published": "Thu, 19 Nov 26 12:00:00 +0000",
+      "score": 28.0
+    },
+    {
+      "source": "CISA",
+      "title": "Autonomy Logic OpenPLC Runtime",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-01",
+      "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-323-01.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>Successful exploitation of this vulnerability could allow several unauthenticated admin accounts to be created.</strong></p> <p>The following versions of Autonomy Logic OpenPLC Runtime are affected:</p> <ul> <li>OpenPLC Runtime &lt;=4.2.4 (CVE-2026-126088)</li> </ul> <div class=\"csaf-table\"> <table class=\"tablesaw tablesaw-stack\" data-tablesaw-mode=\"stack\" data-tablesaw-minimap> <thead> <tr> <th role=\"columnheader\" data-tablesaw-priority=\"persist\">CVSS</th> <th role=\"columnheader\">Vendor</th> <th role=\"columnheader\">Equipment</th> </tr> </thead> <tbody> <tr> <td>v3 8.1</td> <td>Autonomy Logic</td> <td>OpenPLC Runtime</td> </tr> </tbody> </table> <table class=\"tablesaw tablesaw-stack\" data-tablesaw-mode=\"stack\" data-tablesaw-minimap> <thead> <tr> <th role=\"columnheader\" data-tablesaw-priority=\"persist\">1 Vulnerability</th> ",
+      "published": "Thu, 19 Nov 26 12:00:00 +0000",
+      "score": 28.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "New Unpatched Windows 0-Day FastUnlock Lets Someone Holding a Locked PC Run Programs on It",
+      "url": "https://thehackernews.com/2026/11/new-unpatched-windows-0-day-fastunlock.html",
+      "summary": "A newly disclosed unpatched zero-day technique called FastUnlock lets someone with physical access to a locked Windows computer start programs without signing in. Whoever uses it gets only a limited account, not administrator control of the machine. The method was posted yesterday by a researcher who uses the handles MSNightmare and Nightmare Eclipse, and the endpoint-security firm ThreatLocker",
+      "published": "Fri, 20 Nov 2026 11:00:01 +0530",
+      "score": 24.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "PHP Fixes 7 Critical Flaws, Including Bugs That Could Allow Remote Code Execution",
+      "url": "https://thehackernews.com/2026/11/php-fixes-7-critical-flaws-including.html",
+      "summary": "The PHP Foundation has released security updates to address multiple critical security flaws that could be exploited to achieve remote code execution on affected deployments, including CVE-2026-115560. The release of the patch follows an advance notice in which the project maintainers alerted users to multiple critical vulnerabilities affecting all supported PHP versions under specific",
+      "published": "Thu, 19 Nov 2026 20:48:07 +0530",
+      "score": 24.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "Critical VMware vCenter Zero-Day Flaw Lets Network Attackers Bypass Authentication",
+      "url": "https://thehackernews.com/2026/11/critical-vmware-vcenter-flaw-cvss-98.html",
+      "summary": "A critical flaw in VMware vCenter lets an attacker with network access bypass authentication and gain unauthorized access to the system, Broadcom, which owns VMware, said in an advisory published today. Fixed versions are out for all supported branches, and the company lists no workaround. vCenter is the central console for managing an organization's ESX hosts and virtual machines. The",
+      "published": "Thu, 19 Nov 2026 20:41:06 +0530",
+      "score": 24.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "Ruby Ships Fixes for 7 Flaws, Including Critical Ruby2Shell, Said to Hit Default Rails Apps Pre-Auth",
       "url": "https://thehackernews.com/2026/11/ruby-releases-fixes-for-7-regex-and.html",
       "summary": "Ruby contains seven memory-safety flaws in its regular expression engine and its string case-conversion code. For five of them, its maintainers say, proof-of-concept exploits, or PoCs, have shown that crafted input can run code on the machine. \"We are aware of PoCs that prove some of them can be used to trigger remote code execution,\" the maintainers said. The project released fixed versions",
       "published": "Thu, 19 Nov 2026 14:12:11 +0530",
       "score": 24.0
     },
     {
-      "source": "The Hacker News",
-      "title": "Oracle to Patch 11 Java Flaws Today as Critical OpenJDK RCE (CVE-2026-114938) Report Emerges",
-      "url": "https://thehackernews.com/2026/11/oracle-to-patch-11-java-flaws-today-as.html",
-      "summary": "Oracle is preparing to release security patches for 11 vulnerabilities in Java SE on Tuesday, November 17, 2026, all of which may be exploited remotely without authentication, as separate reports warn of a potentially critical remote code execution (RCE) flaw affecting OpenJDK. The 11 vulnerabilities carry a maximum CVSS 3.1 severity score of 8.1, according to Oracle's advance security notice.",
-      "published": "Tue, 17 Nov 2026 20:47:36 +0530",
+      "source": "BleepingComputer",
+      "title": "F5 releases emergency patches for critical BIG-IP RCE flaws",
+      "url": "https://www.bleepingcomputer.com/news/security/f5-releases-emergency-patches-for-critical-big-ip-rce-flaws/",
+      "summary": "US cybersecurity company F5 warned customers to patch five critical BIG-IP vulnerabilities that attackers can exploit to trigger denial-of-service (DoS) or gain remote code execution. [...]",
+      "published": "Fri, 20 Nov 2026 05:57:43 -0500",
+      "score": 24.0
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "Five warning signs of ransomware breach before encryption or data theft",
+      "url": "https://www.bleepingcomputer.com/news/security/five-warning-signs-of-ransomware-breach-before-encryption-or-data-theft/",
+      "summary": "Ransomware attacks often involve credential theft, lateral movement, and attempts to disable security controls long before encryption begins. Acronis examines five warning signs that can help defenders detect intrusions earlier, contain malicious activity, and protect critical systems and backups. [...]",
+      "published": "Thu, 19 Nov 2026 10:00:10 -0500",
       "score": 24.0
     },
     {
@@ -38,34 +118,10 @@
     },
     {
       "source": "The Hacker News",
-      "title": "Attackers Compromise Microsoft's Agent Framework PyPI Package to Steal Cloud Credentials",
-      "url": "https://thehackernews.com/2026/11/attackers-compromise-microsofts-agent.html",
-      "summary": "Threat actors have compromised Microsoft's agent-framework package to push a credential stealer, according to reports from Aikido, Chainguard, Endor Labs, OX Security, SafeDep, Socket, StepSecurity, and Google-owned Wiz. The malicious versions, 1.26.1 and 1.26.2, were published 33 minutes apart on November 17, 2026, and are designed to run a credential stealer on every Python start. As of",
-      "published": "Wed, 18 Nov 2026 12:15:26 +0530",
-      "score": 22.0
-    },
-    {
-      "source": "BleepingComputer",
-      "title": "Microsoft’s Agent Framework PyPI package compromised to steal credentials",
-      "url": "https://www.bleepingcomputer.com/news/security/microsofts-agent-framework-pypi-package-compromised-to-steal-credentials/",
-      "summary": "Hackers compromised Microsoft's official Agent Framework Python package on PyPI, publishing two malicious versions designed to steal cloud credentials and other sensitive information from developers' systems. [...]",
-      "published": "Wed, 18 Nov 2026 11:58:42 -0500",
-      "score": 22.0
-    },
-    {
-      "source": "The Hacker News",
       "title": "Critical Apache Roller RCE Flaw Under Active Exploitation, No Authentication Required",
       "url": "https://thehackernews.com/2026/11/critical-apache-roller-rce-flaw-under.html",
       "summary": "A critical security flaw in Apache Roller, an open-source, Java-based blogging platform, has come under active exploitation in the wild, according to the Apache Software Foundation (ASF) The vulnerability, tracked as CVE-2026-129448 (CVSS score: 9.8), is a case of unauthenticated deserialization in the XML-RPC endpoint that could lead to remote code execution. \"Deserialization of Untrusted",
       "published": "Wed, 18 Nov 2026 22:40:45 +0530",
-      "score": 21.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "CISA Urges Immediate Patching of Java4Shell Flaw That Could Allow Remote Code Execution",
-      "url": "https://thehackernews.com/2026/11/cisa-urges-immediate-patching-of.html",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has urged organizations to immediately patch a newly disclosed critical security flaw impacting Oracle Java. The flaw, tracked as CVE-2026-114938 (CVSS score: 8.1), refers to a case of out-of-bounds write that can lead to denial-of-service (DoS) or remote code execution under certain conditions. \"This critical memory-corruption",
-      "published": "Wed, 18 Nov 2026 13:54:23 +0530",
       "score": 21.0
     },
     {
@@ -74,14 +130,6 @@
       "url": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaw-warns-exploits-may-surface-quickly/",
       "summary": "The Drupal Security Team has patched a critical remote code execution vulnerability that can let attackers take over vulnerable sites. [...]",
       "published": "Thu, 19 Nov 2026 08:08:08 -0500",
-      "score": 21.0
-    },
-    {
-      "source": "BleepingComputer",
-      "title": "Critical Java4Shell flaw allows RCE attacks on major Java applications",
-      "url": "https://www.bleepingcomputer.com/news/security/critical-java4shell-flaw-allows-rce-attacks-on-major-java-applications/",
-      "summary": "A critical vulnerability dubbed Java4Shell in OpenJDK, the open-source implementation of Java, can allow unauthenticated attackers to remotely execute code on popular enterprise applications, including Jenkins, Atlassian Jira, Confluence, and Keycloak. [...]",
-      "published": "Tue, 17 Nov 2026 18:04:21 -0500",
       "score": 21.0
     },
     {
@@ -102,106 +150,58 @@
     },
     {
       "source": "SecurityWeek",
-      "title": "StepSecurity Secures $20 Million to Expand Supply Chain Protection",
-      "url": "https://www.securityweek.com/stepsecurity-secures-20-million-to-expand-supply-chain-protection/",
-      "summary": "<p>The company will use the funds to accelerate the development and distribution of its security platform.</p> <p>The post <a href=\"https://www.securityweek.com/stepsecurity-secures-20-million-to-expand-supply-chain-protection/\">StepSecurity Secures $20 Million to Expand Supply Chain Protection</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "published": "Thu, 19 Nov 2026 12:23:34 +0000",
+      "title": "Ruby Patches Ruby2Shell Vulnerability That Could Lead to RCE",
+      "url": "https://www.securityweek.com/ruby-patches-ruby2shell-vulnerability-that-could-lead-to-rce/",
+      "summary": "<p>Tracked as CVE-2026-132825, the bug is a heap-based buffer overflow that could lead to remote code execution (RCE).</p> <p>The post <a href=\"https://www.securityweek.com/ruby-patches-ruby2shell-vulnerability-that-could-lead-to-rce/\">Ruby Patches Ruby2Shell Vulnerability That Could Lead to RCE</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "published": "Fri, 20 Nov 2026 10:34:10 +0000",
       "score": 20.0
     },
     {
-      "source": "BleepingComputer",
-      "title": "Cloud keys leaked in Docker Hub images are stolen within seconds",
-      "url": "https://www.bleepingcomputer.com/news/security/cloud-keys-leaked-in-docker-hub-images-are-stolen-within-seconds/",
-      "summary": "Credentials and access secrets exposed in public Docker Hub images are being extracted and exploited by attackers within as little as eight seconds of publication. [...]",
-      "published": "Tue, 17 Nov 2026 16:27:17 -0500",
+      "source": "SecurityWeek",
+      "title": "Nvidia Responds to Gentlemen Ransomware Claim",
+      "url": "https://www.securityweek.com/nvidia-responds-to-gentlemen-ransomware-claim/",
+      "summary": "<p>Nvidia says it has found no indication that its systems were compromised after the Gentlemen ransomware group listed the company as a victim.</p> <p>The post <a href=\"https://www.securityweek.com/nvidia-responds-to-gentlemen-ransomware-claim/\">Nvidia Responds to Gentlemen Ransomware Claim</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "published": "Thu, 19 Nov 2026 14:17:32 +0000",
       "score": 19.0
     },
     {
-      "source": "The Hacker News",
-      "title": "Trigram Campaign Impersonates About 50 AI and Blockchain Brands to Target Devs with Infostealers",
-      "url": "https://thehackernews.com/2026/11/trigram-campaign-impersonates-about-50.html",
-      "summary": "Artificial intelligence (AI), blockchain, and logistics sectors across Europe and the U.S. have emerged as the target of a large-scale, industrialized campaign dubbed Trigram. \"Trigram is a large-scale campaign that impersonates about 50 brands in the blockchain and AI sectors, to trick developers into executing an infostealer themselves,\" Stormshield said in a deep-dive technical report",
-      "published": "Tue, 17 Nov 2026 20:47:28 +0530",
+      "source": "SecurityWeek",
+      "title": "N-able Blames Service Disruption on Cyberattack",
+      "url": "https://www.securityweek.com/n-able-blames-service-disruption-on-cyberattack/",
+      "summary": "<p>The incident affected Mail Assure and SpamExperts Hosted Cloud and could have led to credential theft.</p> <p>The post <a href=\"https://www.securityweek.com/n-able-blames-service-disruption-on-cyberattack/\">N-able Blames Service Disruption on Cyberattack</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "published": "Fri, 20 Nov 2026 09:08:35 +0000",
       "score": 18.0
     },
     {
-      "source": "SecurityWeek",
-      "title": "Java4Shell Exploitation Attempts Begin as Vendors Rush Out Advisories",
-      "url": "https://www.securityweek.com/java4shell-exploitation-attempts-begin-as-vendors-rush-out-advisories/",
-      "summary": "<p>GreyNoise, WatchTowr and Cloudflare report probing and exploit attempts, while Cisco, Elastic, Red Hat and Siemens detail impact.</p> <p>The post <a href=\"https://www.securityweek.com/java4shell-exploitation-attempts-begin-as-vendors-rush-out-advisories/\">Java4Shell Exploitation Attempts Begin as Vendors Rush Out Advisories</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "published": "Thu, 19 Nov 2026 09:10:58 +0000",
-      "score": 17.0
-    },
-    {
-      "source": "BleepingComputer",
-      "title": "From Deepfakes to Helpdesk Impersonation: Why Stronger Verification Matters",
-      "url": "https://www.bleepingcomputer.com/news/security/from-deepfakes-to-helpdesk-impersonation-why-stronger-verification-matters/",
-      "summary": "Attackers are using deepfakes, helpdesk impersonation, and fake IT support requests to deceive employees and gain unauthorized access to corporate systems. Specops Software examines real-world attacks and explains how stronger identity verification can help organizations prevent social engineering threats. [...]",
-      "published": "Wed, 18 Nov 2026 10:00:10 -0500",
-      "score": 16.0
-    },
-    {
-      "source": "CISA",
-      "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/11/18/cisa-adds-four-known-exploited-vulnerabilities-catalog",
-      "summary": "<div class=\"OutlineElement Ltr SCXW266414493 BCX8\"> <p>CISA has added four new vulnerabilities to its <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\"><u>Known Exploited Vulnerabilities (KEV) Catalog</u></a>, based on evidence of active exploitation.&nbsp;</p> <ul> <li><a href=\"https://www.cve.org/CVERecord?id=CVE-2024-10441\" target=\"_blank\">CVE-2024-10441 </a>Synology DiskStation Manager (DSM) Improper Encoding or Escaping of Output Vulnerability</li> <li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-40217\" target=\"_blank\">CVE-2026-40217</a> BerriAI LiteLLM Unprotected Alternate Channel Vulnerability</li> <li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-90436\" target=\"_blank\">CVE-2026-90436</a> Apache Axis Unsafe Reflection Vulnerability</li> <li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-90817\" target=\"_blank\">CVE-2026-90817</a> Vanderbilt University Research Electronic Data Capture (REDCap) Code Injection Vulnerability</li> </ul> <p>These typ",
-      "published": "Wed, 18 Nov 26 12:00:00 +0000",
+      "source": "The Hacker News",
+      "title": "Linux KVM Flaw CVE-2026-99312 Lets Guest VMs Access Host Memory on AMD Hosts",
+      "url": "https://thehackernews.com/2026/11/new-linux-kvm-flaw-cve-2026-99312-lets.html",
+      "summary": "A flaw in KVM, the hypervisor built into the Linux kernel, let researchers read about 127 GB of a cloud server's memory from inside a virtual machine of their own on DigitalOcean. On a shared server, that memory can include other customers' virtual machines. The flaw, tracked as CVE-2026-99312, affects only hosts with AMD processors and nested virtualization enabled. Fixed kernels shipped",
+      "published": "Fri, 20 Nov 2026 17:50:00 +0530",
       "score": 15.0
     },
     {
       "source": "The Hacker News",
-      "title": "Everything Is a Web Application, Including Your Firewall",
-      "url": "https://thehackernews.com/2026/11/everything-is-web-application-including.html",
-      "summary": "One of the early targets of PHP2Shell exploitation was the firewall. On October 28, Palo Alto Networks confirmed that attackers were exploiting the two PHP vulnerabilities, CVE-2026-109618 and CVE-2026-109619, against PAN-OS management interfaces exposed to the internet. Both flaws let anyone execute code on the web server without authentication. The disclosure itself went a little wrong.",
-      "published": "Thu, 19 Nov 2026 17:22:23 +0530",
+      "title": "SonicWall Warns Gen 6 Firewalls Won't Get Security Patches, Even for Critical Flaws",
+      "url": "https://thehackernews.com/2026/11/sonicwall-warns-gen-6-firewalls-wont.html",
+      "summary": "SonicWall has urged all customers still running Generation 6 firewalls to retire and replace them immediately and stop exposing the devices on the internet edge, citing security risks fueled by AI-assisted attacks. \"Attackers now use automation and AI to find and exploit unsupported edge devices faster than ever,\" SonicWall said. \"We expect internet-facing Gen 6 firewalls to be actively",
+      "published": "Fri, 20 Nov 2026 16:08:22 +0530",
       "score": 15.0
     },
     {
       "source": "The Hacker News",
-      "title": "Hackers Breach N-able Cloud Server, Disrupting Email Security Management Across 3 Regions",
-      "url": "https://thehackernews.com/2026/11/n-able-confirms-hackers-accessed-cloud.html",
-      "summary": "N-able on Wednesday disclosed that unknown threat actors gained unauthorized access to one of the servers in the Mail Assure and Spam Experts Hosted Cloud, causing it to disable management interfaces and APIs. \"We have taken steps to mitigate the threat and are continuing to harden our services to reduce the risk of recurrence,\" N-able said. \"The investigation is ongoing, but at this time we",
-      "published": "Thu, 19 Nov 2026 15:01:26 +0530",
+      "title": "Hackers Exploit Critical Cisco Expressway Flaw, Breach Four Devices and Reach Internal Network",
+      "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-cisco.html",
+      "summary": "Threat actors have been observed exploiting a recently disclosed critical security flaw in Cisco Expressway to breach a Russian organization shortly after the public release of a proof-of-concept (PoC) exploit. The activity involves the exploitation of CVE-2026-76466 (CVSS score: 9.8), a vulnerability that could allow an unauthenticated, remote attacker with network access to a Cisco Expressway",
+      "published": "Fri, 20 Nov 2026 16:02:50 +0530",
       "score": 15.0
     },
     {
       "source": "The Hacker News",
-      "title": "PHP Warns of Critical Security Flaws Affecting All Supported Versions, Fixes Coming November 19",
-      "url": "https://thehackernews.com/2026/11/php-warns-of-critical-security-flaws.html",
-      "summary": "The maintainers of the PHP programming language on Wednesday issued an advisory announcing an upcoming security release that addresses critical flaws. The release is scheduled for November 19, 2026, between 2 and 2:30 p.m. UTC. \"These releases are part of PHP's regular four-week release cycle and will address security vulnerabilities affecting all supported PHP versions,\" the maintainers said.",
-      "published": "Thu, 19 Nov 2026 10:03:46 +0530",
-      "score": 15.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "F5 Warns 6 Critical BIG-IP Flaws Can Crash Traffic in Specific Setups, May Allow RCE",
-      "url": "https://thehackernews.com/2026/11/f5-warns-6-critical-big-ip-flaws-can.html",
-      "summary": "Six critical vulnerabilities in F5 BIG-IP allow an attacker to crash the Traffic Management Microkernel (TMM) without logging in, disrupting traffic until the TMM restarts. Each flaw needs a specific setup on a virtual server: an iRule that uses a particular command, or an APM policy that includes two particular kinds of agent. F5, which makes BIG-IP, disclosed the flaws today and says they",
-      "published": "Wed, 18 Nov 2026 23:45:39 +0530",
-      "score": 15.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "Russian COLD RELIC Hackers Use Stolen Google Workspace Data to Breach Second U.S. Organization",
-      "url": "https://thehackernews.com/2026/11/russian-cold-relic-hackers-use-stolen.html",
-      "summary": "The Russia-linked cyber espionage group known as Cold Relic (formerly COLDRIVER and UNC4057) has been observed weaponizing a single cloud compromise into a launchpad for a series of linked intrusions resulting in third-party compromise. Google's Mandiant and Threat Intelligence Group (GTIG) said it investigated a 2026 compromise at a U.S.-based organization in which the adversary leveraged",
-      "published": "Wed, 18 Nov 2026 11:28:04 +0530",
-      "score": 15.0
-    },
-    {
-      "source": "BleepingComputer",
-      "title": "Microsoft tests new Edge Lockdown Mode that disables GPU APIs",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-new-edge-lockdown-mode-that-disables-gpu-apis/",
-      "summary": "Microsoft is developing a new Edge security feature to reduce the attack surface by disabling the WebGL, WebGL2, and WebGPU APIs. [...]",
-      "published": "Thu, 19 Nov 2026 06:46:00 -0500",
-      "score": 15.0
-    },
-    {
-      "source": "BleepingComputer",
-      "title": "Microsoft confirms app installation, launch issues after hotpatch",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-app-installation-launch-issues-after-hotpatch/",
-      "summary": "Microsoft has shared a workaround for installation and launch issues affecting Office and third-party applications after installing this month's Windows 11 hotpatch. [...]",
-      "published": "Thu, 19 Nov 2026 05:35:05 -0500",
+      "title": "ThreatsDay: GPT-6.2 Jailbreak Flaws, BubbleLoader PNG Malware, $500M Ransom Demands + 17 More Stories",
+      "url": "https://thehackernews.com/2026/11/threatsday-gpt-62-jailbreak-flaws.html",
+      "summary": "The easiest way to fool someone is to give them something they already expect. A job offer. A message about a service outage. A familiar app. Nothing looks strange at first. And that's the problem. This week's stories show how ordinary things are being used to steal data, spread malware, and get people to hand over access. There's another shift worth watching. AI is making some attacks easier",
+      "published": "Fri, 20 Nov 2026 00:17:58 +0530",
       "score": 15.0
     }
   ]
