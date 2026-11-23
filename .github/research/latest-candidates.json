@@ -1,24 +1,24 @@
 {
-  "generated_at_utc": "2026-11-22T12:41:43.225403+00:00",
+  "generated_at_utc": "2026-11-23T14:56:27.199872+00:00",
   "publication_enabled": false,
   "editorial_note": "Candidates require human/editorial review and original technical work before publication.",
   "feed_errors": [],
   "candidates": [
     {
       "source": "The Hacker News",
-      "title": "Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access",
-      "url": "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html",
-      "summary": "Suspected China-linked hackers used autonomous AI agents to find a previously unknown flaw in MONAI Label, an open-source medical imaging server, and gain root access to a university server, Amazon Threat Intelligence said this week. The flaw allows an attacker with no account to write files outside the server's storage folder, and it affects MONAI Label 0.8.5 and earlier in the default setup,",
-      "published": "Sat, 21 Nov 2026 16:33:17 +0530",
-      "score": 24.0
+      "title": "Hackers Exploit Critical ASP.NET Anti-CSRF Library Flaw Allowing Unauthenticated RCE",
+      "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html",
+      "summary": "Cybersecurity researchers have urged users to discontinue using a legacy ASP.NET anti-CSRF library named Idunno.AntiCsrf (\"Idunno.AntiCsrf.dll\") following the discovery of a critical vulnerability that has been exploited in the wild. The vulnerability, tracked as CVE-2026-131914, carries a CVSS score of 9.3 out of 10.0. The issue affects versions 0.9.1.0 and 0.9.1 Beta, and relates to an",
+      "published": "Mon, 23 Nov 2026 14:41:56 +0530",
+      "score": 35.0
     },
     {
       "source": "BleepingComputer",
-      "title": "Hackers use autonomous AI tool Cairn to find zero-day, take over server",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-use-autonomous-ai-tool-cairn-to-find-zero-day-take-over-server/",
-      "summary": "Threat actors used the open-source AI penetration-testing framework Cairn to find a previously unknown vulnerability in a medical imaging application. [...]",
-      "published": "Fri, 20 Nov 2026 12:30:00 -0500",
-      "score": 24.0
+      "title": "CISA flags critical Cisco RCE flaw as actively exploited in attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-critical-cisco-expressway-rce-flaw-as-actively-exploited/",
+      "summary": "The US Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies that attackers are now exploiting a recently patched critical Cisco Expressway vulnerability in the wild. [...]",
+      "published": "Mon, 23 Nov 2026 02:44:19 -0500",
+      "score": 29.0
     },
     {
       "source": "BleepingComputer",
@@ -29,22 +29,6 @@
       "score": 23.0
     },
     {
-      "source": "SecurityWeek",
-      "title": "Amazon: China-Linked Hackers’ AI Agents Exploited Medical Software Zero-Day",
-      "url": "https://www.securityweek.com/amazon-china-linked-hackers-ai-agents-exploited-medical-software-zero-day/",
-      "summary": "<p>A threat actor used autonomous Cairn AI agents to discover and exploit a critical MONAI Label vulnerability.</p> <p>The post <a href=\"https://www.securityweek.com/amazon-china-linked-hackers-ai-agents-exploited-medical-software-zero-day/\">Amazon: China-Linked Hackers&#8217; AI Agents Exploited Medical Software Zero-Day</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "published": "Sat, 21 Nov 2026 12:08:50 +0000",
-      "score": 23.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "Hackers Exploit Critical VMware, Cisco, and Apache Flaws as Espionage Attacks Emerge",
-      "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added four flaws impacting Apache Roller, Cisco Expressway, SAP NetWeaver, and Broadcom VMware vCenter to its Known Exploited Vulnerabilities (KEV), citing evidence of active exploitation. The vulnerabilities are listed below - CVE-2026-129448 (CVSS score: 9.8) - A deserialization of untrusted data vulnerability in",
-      "published": "Sat, 21 Nov 2026 14:19:13 +0530",
-      "score": 18.0
-    },
-    {
       "source": "BleepingComputer",
       "title": "BADBOX botnet returns with record-breaking 40 billion daily ad requests",
       "url": "https://www.bleepingcomputer.com/news/security/badbox-30-botnet-returns-with-record-breaking-40-billion-daily-ad-requests/",
@@ -53,43 +37,51 @@
       "score": 18.0
     },
     {
-      "source": "Google News Cybersecurity",
-      "title": "SEBON rolls out new cybersecurity rules following September’s ransomware attack - The Farsight Nepal",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQeGFjelVYcWRsbzVCVEZRSVlKMVRzdHpzNVBSdUt2UmhnZTd1Ujl0XzZXb2ZuYkREMjBLaWRPc3dHVlVjY2s5QXhBYUo3UUo4Z3VwdnNJbWxPV2hzLTU3dlFzQTJ5a1RNLXRsSlpxMWxVN0ZiSXY4enBPczA5eXZmekZ6N3FiclZKV2l0WFJKUlJ6ME5TOUpsSW9fQW0xalVGY21QUXN3UWdyaEpCVmdV?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxQeGFjelVYcWRsbzVCVEZRSVlKMVRzdHpzNVBSdUt2UmhnZTd1Ujl0XzZXb2ZuYkREMjBLaWRPc3dHVlVjY2s5QXhBYUo3UUo4Z3VwdnNJbWxPV2hzLTU3dlFzQTJ5a1RNLXRsSlpxMWxVN0ZiSXY4enBPczA5eXZmekZ6N3FiclZKV2l0WFJKUlJ6ME5TOUpsSW9fQW0xalVGY21QUXN3UWdyaEpCVmdV?oc=5\" target=\"_blank\">SEBON rolls out new cybersecurity rules following September’s ransomware attack</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Farsight Nepal</font>",
-      "published": "Sun, 22 Nov 2026 11:30:45 GMT",
-      "score": 18.0
+      "source": "SecurityWeek",
+      "title": "SAP NetWeaver, Cisco Expressway Flaws Exploited in Attacks",
+      "url": "https://www.securityweek.com/sap-netweaver-cisco-expressway-flaws-exploited-in-attacks/",
+      "summary": "<p>Threat actors could exploit them to leak or modify server information and to execute commands as root.</p> <p>The post <a href=\"https://www.securityweek.com/sap-netweaver-cisco-expressway-flaws-exploited-in-attacks/\">SAP NetWeaver, Cisco Expressway Flaws Exploited in Attacks</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "published": "Mon, 23 Nov 2026 11:35:15 +0000",
+      "score": 17.0
     },
     {
       "source": "The Hacker News",
-      "title": "A Single Malicious Webpage Let Researchers Hijack Meta Muse and Access Private Chats",
-      "url": "https://thehackernews.com/2026/11/a-single-malicious-webpage-let.html",
-      "summary": "A malicious webpage could extract a Meta Muse user's private conversations and stored memories from the assistant without triggering any approval prompt, researchers have shown. The same attack could be extended to reach the credentials Muse stores for the user's connected accounts. The work was a laboratory demonstration, not an attack on real users, and it stayed inside the individual user's",
-      "published": "Sat, 21 Nov 2026 17:23:07 +0530",
-      "score": 16.0
+      "title": "N-able Discloses Critical Mail Assure Vulnerability Found During Breach Investigation",
+      "url": "https://thehackernews.com/2026/11/n-able-discloses-critical-mail-assure.html",
+      "summary": "N-able yesterday disclosed a critical flaw it found while investigating the breach of its Mail Assure and SpamExperts Hosted Cloud, an email filtering service it runs for managed service providers. The bug, tracked as CVE-2026-134624, is a server-side request forgery (SSRF) flaw. It allowed a user with high-level API access to open connections to internal systems of the user's choosing on the",
+      "published": "Mon, 23 Nov 2026 17:58:09 +0530",
+      "score": 15.0
     },
     {
       "source": "The Hacker News",
-      "title": "Bazuka Android Malware Uses Fake Screen Overlays to Hide Credential Theft and Device Control",
-      "url": "https://thehackernews.com/2026/11/bazuka-android-malware-uses-fake-screen.html",
-      "summary": "Cybersecurity researchers have disclosed details of a previously unknown Android malware framework called Bazuka that offers large language model (LLM) integration for victim management and control at scale. Dutch mobile security company ThreatFabric said it discovered the threat in late October 2026 during an investigation into an NFC-relay banking Trojan. \"Bazuka is a full malware framework,",
-      "published": "Fri, 20 Nov 2026 22:28:16 +0530",
-      "score": 16.0
+      "title": "Hackers Exploited GL.iNet Cloud Flaw to Install Malware on Routers and KVM Devices",
+      "url": "https://thehackernews.com/2026/11/hackers-exploited-glinet-cloud-flaw-to.html",
+      "summary": "Hackers exploited a vulnerability in GL.iNet's GoodCloud remote management service to install malware on some customer routers and KVM devices, the maker of travel routers and remote-access KVM hardware said in a security notice updated today. The company identified and fixed the flaw on Friday and blocked the access the attacker used, so devices can no longer be infected through this route.",
+      "published": "Mon, 23 Nov 2026 14:34:08 +0530",
+      "score": 15.0
     },
     {
       "source": "BleepingComputer",
-      "title": "Still tracking company passwords in spreadsheets? You’re flying blind.",
-      "url": "https://www.bleepingcomputer.com/news/security/still-tracking-company-passwords-in-spreadsheets-youre-flying-blind/",
-      "summary": "Tracking company passwords in spreadsheets can leave IT administrators unaware of weak, reused, or compromised credentials stored and shared outside approved systems. NordPass explains how centralized password management can improve credential visibility, identify security risks, and simplify secure password sharing. [...]",
-      "published": "Fri, 20 Nov 2026 10:00:10 -0500",
-      "score": 16.0
+      "title": "Microsoft testing fix for Windows 11 Bluetooth audio quality drops",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-fix-for-windows-11-bluetooth-audio-quality-drops/",
+      "summary": "Microsoft is working to fix a long-standing Windows issue that has been causing significant audio quality drops for Bluetooth headphone users. [...]",
+      "published": "Mon, 23 Nov 2026 08:28:45 -0500",
+      "score": 15.0
     },
     {
-      "source": "The Hacker News",
-      "title": "WhatsApp Patches 3 Security Flaws, Including Android Bug Suspected of Use in Scams",
-      "url": "https://thehackernews.com/2026/11/whatsapp-patches-3-security-flaws.html",
-      "summary": "Meta-owned WhatsApp has addressed security vulnerabilities, including one impacting its Android app that it suspects may have been exploited in connection with scam messages. The vulnerability, tracked as CVE-2026-23871 (CVSS score: 3.5), has been described as a case of incomplete validation of external ad-reply URLs in WhatsApp for Android and WhatsApp Business for Android before 2.26.17.4.",
-      "published": "Fri, 20 Nov 2026 23:27:20 +0530",
+      "source": "BleepingComputer",
+      "title": "Microsoft confirms Windows printing issues affecting Forcepoint users",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-printing-issues-after-kb5132043-windows-hotpatch/",
+      "summary": "Microsoft confirmed printing issues on systems running Forcepoint DLP software after installing the KB5132043 November 2026 Windows 11 hotpatch. [...]",
+      "published": "Mon, 23 Nov 2026 04:11:15 -0500",
+      "score": 15.0
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "Hackers exploit GL.iNet cloud flaw to infect routers, KVM devices",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/",
+      "summary": "GL.iNet has confirmed that hackers exploited a vulnerability in its cloud remote management services to install custom malware on customers' routers and KVM devices, with some affected users reporting backdoors and reverse shells giving remote access to infected devices. [...]",
+      "published": "Sun, 22 Nov 2026 13:45:37 -0500",
       "score": 15.0
     },
     {
@@ -101,12 +93,60 @@
       "score": 15.0
     },
     {
-      "source": "BleepingComputer",
-      "title": "N-able says recent security breach led to major service outage",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/n-able-says-recent-security-breach-led-to-major-service-outage/",
-      "summary": "N-able says attackers who breached one of its servers have caused a major outage affecting Mail Assure and SpamExperts Hosted Cloud services worldwide. [...]",
-      "published": "Fri, 20 Nov 2026 08:18:36 -0500",
+      "source": "Google News Cybersecurity",
+      "title": "CrowdStrike Strikes $43.9 Billion Zscaler Deal in Cybersecurity Shake-Up - Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOalV6cWU5b2FRM242c3RGTk9xM1BVaEFrZEs4VmtjWVd3T1RfQXRsVkFDeWZOYkFKVlF2bTJwWkJVT3A1emI5UVhDbjluZENIWE9TN1g5LXNPUFFLNkhLbnpNejFhNUFNeW5jT0dMbmd3Y1pWVnUwUnVpNzF0LXNpc2wyYU5odHpXWkliblc4c2tvWjBZTWx3dkR1UUdKN1hxRkJ4UFZLUWZ3TVNQS3g2c0FGdWxyZw?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxOalV6cWU5b2FRM242c3RGTk9xM1BVaEFrZEs4VmtjWVd3T1RfQXRsVkFDeWZOYkFKVlF2bTJwWkJVT3A1emI5UVhDbjluZENIWE9TN1g5LXNPUFFLNkhLbnpNejFhNUFNeW5jT0dMbmd3Y1pWVnUwUnVpNzF0LXNpc2wyYU5odHpXWkliblc4c2tvWjBZTWx3dkR1UUdKN1hxRkJ4UFZLUWZ3TVNQS3g2c0FGdWxyZw?oc=5\" target=\"_blank\">CrowdStrike Strikes $43.9 Billion Zscaler Deal in Cybersecurity Shake-Up</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Benzinga</font>",
+      "published": "Mon, 23 Nov 2026 13:21:37 GMT",
       "score": 15.0
+    },
+    {
+      "source": "SecurityWeek",
+      "title": "GL.iNet Routers, KVMs Compromised via Remote Management Service Flaw",
+      "url": "https://www.securityweek.com/gl-inet-routers-kvms-compromised-via-remote-management-service-flaw/",
+      "summary": "<p>Attackers abused a flaw in the GoodCloud remote management service to push malware to devices, and cleaning them requires new firmware.</p> <p>The post <a href=\"https://www.securityweek.com/gl-inet-routers-kvms-compromised-via-remote-management-service-flaw/\">GL.iNet Routers, KVMs Compromised via Remote Management Service Flaw</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "published": "Mon, 23 Nov 2026 13:26:22 +0000",
+      "score": 14.0
+    },
+    {
+      "source": "Google News Cybersecurity",
+      "title": "City Council Committee Could Push for Stronger Cybersecurity Laws Following AI-Related Attacks - Pasadena Now",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNUWdjZnVEMDFIU1FJLWpRU1BHcEZfN3ZKS2ZsNmVIM3lDekxxR09PNi1UZDJsWUJtc21lV2RLdU1KeVY1Ti1Ibzdnek5LM202RHQwNGhRU0tPOTh6RlBCXzRaMjZlV3ppaElOVHE2U3Iwc1c3RHFWR0xyWlJEd0JDUldpeW1nM2NsajJmOVBubWYwQzJ4cXo5bGx2NU1zQkF5Wmx2bXcxTC1kQjU0TTNsLWZuazg1cFZoTENYZU4tV0Q?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxNUWdjZnVEMDFIU1FJLWpRU1BHcEZfN3ZKS2ZsNmVIM3lDekxxR09PNi1UZDJsWUJtc21lV2RLdU1KeVY1Ti1Ibzdnek5LM202RHQwNGhRU0tPOTh6RlBCXzRaMjZlV3ppaElOVHE2U3Iwc1c3RHFWR0xyWlJEd0JDUldpeW1nM2NsajJmOVBubWYwQzJ4cXo5bGx2NU1zQkF5Wmx2bXcxTC1kQjU0TTNsLWZuazg1cFZoTENYZU4tV0Q?oc=5\" target=\"_blank\">City Council Committee Could Push for Stronger Cybersecurity Laws Following AI-Related Attacks</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Pasadena Now</font>",
+      "published": "Mon, 23 Nov 2026 13:52:30 GMT",
+      "score": 13.0
+    },
+    {
+      "source": "Google News Cybersecurity",
+      "title": "US cybersecurity firm CrowdStrike to buy cloud security provider Zscaler for $43.9B all-stock deal - Anadolu Ajansı",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQOVlKZ0I1RWNQTFlYcV8yTmNhN2x6RTlmd1JqaVFuTk1qSXRoUTFxTXFhNEtMTnlsYlhFakl2X3RUTEktanBDUVhaTjc4V3U4cWNhT3dFQkFBaS1kcWRsbVVhVUU1a2NlRlJwVmdCRE1Dd2dKaTRPVVB5QmN6S3BsTW5jSXMyTUxkZWhQZ0NYcVRJYWoyazEtSWdlS2ZFVEJLS2ZHekdRYlhPTDRzNE9IRzRvMGZtQk53YV9heFpOcHI3Wnl6bUFNTjlJTTRGUQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMizgFBVV95cUxQOVlKZ0I1RWNQTFlYcV8yTmNhN2x6RTlmd1JqaVFuTk1qSXRoUTFxTXFhNEtMTnlsYlhFakl2X3RUTEktanBDUVhaTjc4V3U4cWNhT3dFQkFBaS1kcWRsbVVhVUU1a2NlRlJwVmdCRE1Dd2dKaTRPVVB5QmN6S3BsTW5jSXMyTUxkZWhQZ0NYcVRJYWoyazEtSWdlS2ZFVEJLS2ZHekdRYlhPTDRzNE9IRzRvMGZtQk53YV9heFpOcHI3Wnl6bUFNTjlJTTRGUQ?oc=5\" target=\"_blank\">US cybersecurity firm CrowdStrike to buy cloud security provider Zscaler for $43.9B all-stock deal</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Anadolu Ajansı</font>",
+      "published": "Mon, 23 Nov 2026 11:13:13 GMT",
+      "score": 13.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "Critical binary-parser Flaw Enables JavaScript Injection via Malicious Parser Definitions",
+      "url": "https://thehackernews.com/2026/11/critical-binary-parser-flaw-enables.html",
+      "summary": "A critical security flaw has been disclosed in the popular binary-parser library that could allow an attacker who controls parser definitions to execute arbitrary code. The vulnerability, tracked as CVE-2026-134814 (CVSS score: 9.2 / 8.1), is a case of code injection impacting binary-parser versions prior to 2.3.1. \"Binary-parser before 2.3.1 contains a code injection vulnerability that allows",
+      "published": "Mon, 23 Nov 2026 18:52:20 +0530",
+      "score": 12.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "Hackers Exploit Critical ScreenConnect Flaw to Hijack MSP Technician PCs Without Warning",
+      "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-screenconnect.html",
+      "summary": "Threat actors are exploiting a now-patched security flaw in ConnectWise ScreenConnect to target managed service provider (MSP) servers. The activity revolves around CVE-2026-84869 (CVSS score: 9.9), a critical ScreenConnect client flaw that allows a guest to transfer and execute a malicious payload on a connecting technician's host. \"On November 12, 2026, we observed one managed service",
+      "published": "Mon, 23 Nov 2026 18:11:04 +0530",
+      "score": 12.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "AI-Assisted Cyber Attacks Trigger Unauthorized Payments at Indian Banks and Fintech Firms",
+      "url": "https://thehackernews.com/2026/11/ai-assisted-cyberattacks-trigger.html",
+      "summary": "The Indian Computer Emergency Response Team (CERT-In) has warned that threat actors are carrying out artificial intelligence (AI)-assisted cyber attacks targeting information and communication technology (ICT) assets in the country. This unsanctioned activity has resulted in unauthorized financial transactions at banking and financial services entities, as well as technology service providers",
+      "published": "Mon, 23 Nov 2026 13:54:15 +0530",
+      "score": 12.0
     },
     {
       "source": "The Hacker News",
@@ -125,84 +165,44 @@
       "score": 12.0
     },
     {
-      "source": "The Hacker News",
-      "title": "GnuPG Warns Critical GPGME Flaw Could Expose App Data via Malicious OpenPGP Keys",
-      "url": "https://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html",
-      "summary": "A malicious OpenPGP key with an unusually long user ID can trigger a critical memory bug in GPGME, the standard library that programs use to work with GnuPG. The GnuPG project warned yesterday that the flaw could be used to steal data from affected applications and has released fixed versions. The bug, tracked as CVE-2026-129975, affects all software that uses GPGME before version 2.3.0,",
-      "published": "Sat, 21 Nov 2026 16:35:53 +0530",
-      "score": 12.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "Signal Blocks AI Agents From Reading Private Chats via Screenshots on Android and iOS",
-      "url": "https://thehackernews.com/2026/11/signal-blocks-ai-agents-from-reading.html",
-      "summary": "Signal has announced that it will restrict screenshots by default to stop artificial intelligence (AI) agents from reading private chats on Android and iOS devices, but conceded that the protection is \"incomplete.\" The feature applies to agentic systems built into iOS 27 and on Android versions where the encrypted messaging platform can detect an AI assistant attempting to read the Signal",
-      "published": "Sat, 21 Nov 2026 14:19:20 +0530",
+      "source": "BleepingComputer",
+      "title": "Call center operator gets 8 years for helping scam 30,000 Americans",
+      "url": "https://www.bleepingcomputer.com/news/security/call-center-operator-gets-8-years-for-helping-scam-30-000-americans/",
+      "summary": "A Peruvian call center operator was sentenced to eight years in prison for helping steal millions of dollars from over 30,000 Spanish-speaking US residents in a years-long government-impersonation fraud scheme. [...]",
+      "published": "Mon, 23 Nov 2026 07:02:23 -0500",
       "score": 12.0
     },
     {
       "source": "BleepingComputer",
-      "title": "FBI reportedly hacked again, this time targeting nationwide police database",
-      "url": "https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database/",
-      "summary": "FBI systems have reportedly been breached for the second time in two months, this time targeting the agency's National Crime Information Center (NCIC), which is used to share information between local, state, and federal law enforcement agencies. [...]",
-      "published": "Sat, 21 Nov 2026 09:26:04 -0500",
+      "title": "Cleverbridge warns hackers stole credit card numbers, CVVs in data breach",
+      "url": "https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/",
+      "summary": "E-commerce platform Cleverbridge is warning that hackers breached its systems and stole customers' payment card information, including credit card numbers and CVV security codes. [...]",
+      "published": "Sun, 22 Nov 2026 10:43:04 -0500",
       "score": 12.0
     },
     {
       "source": "BleepingComputer",
-      "title": "Bell Canada says 'agentic' hacker stole enterprise customer data",
-      "url": "https://www.bleepingcomputer.com/news/security/bell-canada-says-agentic-hacker-stole-enterprise-customer-data/",
-      "summary": "Bell Canada has confirmed that an \"agentic\" threat actor breached its systems on November 17, 2026, and stole enterprise customer data, including information from a system used to order and provision telecommunications circuits. [...]",
-      "published": "Fri, 20 Nov 2026 13:51:43 -0500",
-      "score": 12.0
-    },
-    {
-      "source": "BleepingComputer",
-      "title": "Vendor data breach exposes Chase, Visa, Mastercard customer info",
-      "url": "https://www.bleepingcomputer.com/news/security/vendor-data-breach-exposes-chase-visa-mastercard-customer-info/",
-      "summary": "J.P. Morgan Chase warned it suffered a data breach after a cyberattack at a third-party service provider exposed customers' personal information and marketing data. [...]",
-      "published": "Fri, 20 Nov 2026 10:58:06 -0500",
+      "title": "Signal to block Siri, Gemini AI from capturing chats on iOS, Android",
+      "url": "https://www.bleepingcomputer.com/news/security/signal-to-block-siri-gemini-ai-from-capturing-chats-on-ios-android/",
+      "summary": "Signal has announced new protections that block screenshots on iOS 27 and prevent AI assistants from capturing conversations on supported Android devices. [...]",
+      "published": "Sun, 22 Nov 2026 10:15:25 -0500",
       "score": 12.0
     },
     {
       "source": "SecurityWeek",
-      "title": "FBI Investigating Apparent Hack of Its Key National Criminal Justice Database, AP Source Says",
-      "url": "https://www.securityweek.com/fbi-investigating-apparent-hack-of-its-key-national-criminal-justice-database-ap-source-says/",
-      "summary": "<p>The FBI is investigating an apparent hack of a national law enforcement database that it maintains.</p> <p>The post <a href=\"https://www.securityweek.com/fbi-investigating-apparent-hack-of-its-key-national-criminal-justice-database-ap-source-says/\">FBI Investigating Apparent Hack of Its Key National Criminal Justice Database, AP Source Says</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "published": "Sun, 22 Nov 2026 00:53:02 +0000",
+      "title": "phpAfterShell Vulnerability Revives PHP2Shell’s Attack Path",
+      "url": "https://www.securityweek.com/phpaftershell-vulnerability-revives-php2shells-attack-path/",
+      "summary": "<p>If a session overwrite operation is interrupted, an attacker who controls the fresh data could trigger data deserialization and RCE.</p> <p>The post <a href=\"https://www.securityweek.com/phpaftershell-vulnerability-revives-php2shells-attack-path/\">phpAfterShell Vulnerability Revives PHP2Shell&#8217;s Attack Path</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "published": "Mon, 23 Nov 2026 13:58:07 +0000",
       "score": 11.0
     },
     {
       "source": "SecurityWeek",
-      "title": "President Trump Taps Kirsten Davies as National Cyber Director",
-      "url": "https://www.securityweek.com/president-trump-taps-kirsten-davies-as-national-cyber-director/",
-      "summary": "<p>White House says the battle-tested cyber leader will drive an America First cyber strategy.</p> <p>The post <a href=\"https://www.securityweek.com/president-trump-taps-kirsten-davies-as-national-cyber-director/\">President Trump Taps Kirsten Davies as National Cyber Director</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "published": "Sat, 21 Nov 2026 13:00:00 +0000",
+      "title": "AI Inference Providers Failed to Detect Hacking and Prompt Theft, Says Dragos",
+      "url": "https://www.securityweek.com/ai-inference-providers-failed-to-detect-hacking-and-prompt-theft-says-dragos/",
+      "summary": "<p>Dragos uncovered undetected intrusions at three AI inference providers using nearly two million prompts sent to AI services.</p> <p>The post <a href=\"https://www.securityweek.com/ai-inference-providers-failed-to-detect-hacking-and-prompt-theft-says-dragos/\">AI Inference Providers Failed to Detect Hacking and Prompt Theft, Says Dragos</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "published": "Mon, 23 Nov 2026 12:16:20 +0000",
       "score": 11.0
-    },
-    {
-      "source": "SecurityWeek",
-      "title": "WhatsApp Fixes Flaw Uncovered While Disrupting Scam Campaign",
-      "url": "https://www.securityweek.com/whatsapp-fixes-flaw-uncovered-while-disrupting-scam-campaign/",
-      "summary": "<p>Tracked as CVE-2026-23871, the vulnerability was found by WhatsApp’s security team, and it may have been used to make scam messages more credible.</p> <p>The post <a href=\"https://www.securityweek.com/whatsapp-fixes-flaw-uncovered-while-disrupting-scam-campaign/\">WhatsApp Fixes Flaw Uncovered While Disrupting Scam Campaign</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "published": "Fri, 20 Nov 2026 16:01:02 +0000",
-      "score": 11.0
-    },
-    {
-      "source": "SecurityWeek",
-      "title": "In Other News: Norwegian Energy Firm Cyberattacks, Supercomputer Hack, New Nightmare Eclipse Exploit",
-      "url": "https://www.securityweek.com/in-other-news-norwegian-energy-firm-cyberattacks-supercomputer-hack-new-nightmare-eclipse-exploit/",
-      "summary": "<p>Noteworthy stories that might have slipped under the radar: EU adds NoName057(16) to cyber sanctions list, malware targets CACs left in personal computers, Gemini agents targeted Epoch AI.</p> <p>The post <a href=\"https://www.securityweek.com/in-other-news-norwegian-energy-firm-cyberattacks-supercomputer-hack-new-nightmare-eclipse-exploit/\">In Other News: Norwegian Energy Firm Cyberattacks, Supercomputer Hack, New Nightmare Eclipse Exploit</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "published": "Fri, 20 Nov 2026 14:56:23 +0000",
-      "score": 11.0
-    },
-    {
-      "source": "Google News Cybersecurity",
-      "title": "Where Next After a Series of Headline-Grabbing Outages? - GovTech",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNLWNzQkI0OGhBc2p6SWZVWUVxOEhaUUV3dlRCeTduVE5HU25VSERhSjJrT2RsWVd3VEZSdzgtdVVHeFlwX1QyYkdvUzEwMUVvN0JfeTZmTDFvVUlsY2RhNjEtekdTekpXZ2NuSE5MUlNhX2RPQ3ByeFZUOGRqZFNvYnczQXR5bWtJdG9YQmJheEVBWms4YzhQSXZ1Qk9zMGwyYTRkQmlCRGEwNHREOF8w?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxNLWNzQkI0OGhBc2p6SWZVWUVxOEhaUUV3dlRCeTduVE5HU25VSERhSjJrT2RsWVd3VEZSdzgtdVVHeFlwX1QyYkdvUzEwMUVvN0JfeTZmTDFvVUlsY2RhNjEtekdTekpXZ2NuSE5MUlNhX2RPQ3ByeFZUOGRqZFNvYnczQXR5bWtJdG9YQmJheEVBWms4YzhQSXZ1Qk9zMGwyYTRkQmlCRGEwNHREOF8w?oc=5\" target=\"_blank\">Where Next After a Series of Headline-Grabbing Outages?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">GovTech</font>",
-      "published": "Sun, 22 Nov 2026 11:14:12 GMT",
-      "score": 10.0
     }
   ]
 }
