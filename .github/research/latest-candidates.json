@@ -1,16 +1,24 @@
 {
-  "generated_at_utc": "2026-11-26T14:01:23.035193+00:00",
+  "generated_at_utc": "2026-11-27T14:00:19.654483+00:00",
   "publication_enabled": false,
   "editorial_note": "Candidates require human/editorial review and original technical work before publication.",
   "feed_errors": [],
   "candidates": [
     {
+      "source": "The Hacker News",
+      "title": "Unpatched Cacti Zero-Day Enables RCE in Just Four HTTP Requests via Guest Access",
+      "url": "https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html",
+      "summary": "Details have emerged about a new zero-day vulnerability in Cacti, an open-source network monitoring tool, that could be exploited to achieve remote code execution. The proof-of-concept (PoC) exploit, which has yet to be assigned a CVE identifier, has been tracked as 4HTTP2SHELL and 4HTTP2ROOT. \"I found a path from a fresh, unauthenticated HTTP session to command execution as the Cacti server",
+      "published": "Fri, 27 Nov 2026 11:18:20 +0530",
+      "score": 33.0
+    },
+    {
       "source": "BleepingComputer",
-      "title": "Hackers now exploit critical Drupal RCE flaw to hijack sites",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-drupal-rce-flaw-to-hijack-sites/",
-      "summary": "The Drupal security team has confirmed that a critical vulnerability that lets attackers hijack unpatched sites has been actively exploited since at least Thursday. [...]",
-      "published": "Wed, 25 Nov 2026 05:10:20 -0500",
-      "score": 35.0
+      "title": "Remus malware steals Gmail messages via fake Google Sheets extension",
+      "url": "https://www.bleepingcomputer.com/news/security/remus-malware-steals-gmail-messages-via-fake-google-sheets-extension/",
+      "summary": "The Remus infostealer is stealing Gmail messages through a stealthy malicious Chrome extension, a capability the malware operators marketed as a zero-day exploit in Google's email service. [...]",
+      "published": "Thu, 26 Nov 2026 10:23:28 -0500",
+      "score": 30.0
     },
     {
       "source": "The Hacker News",
@@ -29,27 +37,27 @@
       "score": 26.0
     },
     {
-      "source": "BleepingComputer",
-      "title": "InfraTrust warns of exploited supply chain flaws in network appliances",
-      "url": "https://www.bleepingcomputer.com/news/security/infratrust-warns-of-exploited-supply-chain-flaws-in-network-appliances/",
-      "summary": "Eclypsium's November InfraTrust report warns that most infrastructure security advisories addressing exploited vulnerabilities over the past month involve flaws in third-party software bundled into products rather than code developed by the vendors themselves. [...]",
-      "published": "Wed, 25 Nov 2026 10:00:00 -0500",
-      "score": 24.0
-    },
-    {
-      "source": "BleepingComputer",
-      "title": "Microsoft confirms authentication issues after November updates",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-authentication-issues-after-november-updates/",
-      "summary": "Microsoft has confirmed that customers may experience authentication issues after installing November security updates that address a high-severity remote code execution vulnerability. [...]",
-      "published": "Wed, 25 Nov 2026 04:02:57 -0500",
-      "score": 24.0
-    },
-    {
       "source": "The Hacker News",
-      "title": "Drupal Fail2Install Exploit Details Emerge as Critical RCE Flaw Faces Active Exploitation",
-      "url": "https://thehackernews.com/2026/11/drupal-fail2install-exploit-details.html",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical flaw impacting Drupal to its Known Exploited Vulnerabilities (KEV) catalog, requiring federal agencies to apply the fixes by November 27, 2026. The vulnerability, tracked as CVE-2026-132165 aka Fail2Install (CVSS score: 9.8), is a case of remote code execution (RCE) impacting Drupal core. \"Drupal Core",
-      "published": "Wed, 25 Nov 2026 16:53:26 +0530",
+      "title": "Hackers Trojanize Official Q-Dir and DesktopOK Downloads to Deliver Remote Access Malware",
+      "url": "https://thehackernews.com/2026/11/hackers-trojanize-official-q-dir-and.html",
+      "summary": "Cybersecurity researchers have disclosed details of a software supply chain attack that has tampered with Q-Dir and DesktopOK installation files distributed via the official SoftwareOK website. \"Evidence indicates that malicious files were generated not only when users downloaded the programs directly from the official download page but also during the update process of previously installed",
+      "published": "Fri, 27 Nov 2026 14:59:30 +0530",
+      "score": 21.0
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "Drupal warns of new site takeover flaw exploited in attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/drupal-warns-of-new-access-bypass-flaw-exploited-in-attacks/",
+      "summary": "The Drupal security team says attackers are exploiting a second critical vulnerability that lets them breach and hijack unpatched websites. [...]",
+      "published": "Fri, 27 Nov 2026 05:10:15 -0500",
+      "score": 21.0
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "New NFS2ROOT Linux flaw can let attackers gain root privileges",
+      "url": "https://www.bleepingcomputer.com/news/security/new-nfs2root-linux-flaw-can-let-attackers-gain-root-privileges/",
+      "summary": "​A 12-year-old critical vulnerability in the Linux kernel's Network File System (NFS) server, tracked as CVE-2026-99362, allows remote attackers to gain root privileges. [...]",
+      "published": "Fri, 27 Nov 2026 03:06:58 -0500",
       "score": 21.0
     },
     {
@@ -62,10 +70,10 @@
     },
     {
       "source": "The Hacker News",
-      "title": "Iran-Aligned Volant Manticore Uses IPFS-Based KuboShell Backdoor in Espionage Campaigns",
-      "url": "https://thehackernews.com/2026/11/iran-aligned-volant-manticore-uses-ipfs.html",
-      "summary": "A previously undocumented Iran-aligned cyber espionage group called Volant Manticore has targeted telecommunications companies, airlines, and critical infrastructure in Cyprus. Central to the group's operations is a backdoor called KuboShell that uses the InterPlanetary File System (IPFS) for command-and-control (C2) and deploys Homa, a post-compromise framework that's a reimplementation of",
-      "published": "Tue, 24 Nov 2026 22:24:07 +0530",
+      "title": "Switzerland Confirms AI-Assisted Cyberattacks Breached Critical Infrastructure Operators",
+      "url": "https://thehackernews.com/2026/11/switzerland-confirms-ai-assisted.html",
+      "summary": "Attackers using AI agents have broken into computer systems at Swiss organizations in four of five confirmed attacks, the first such cases in the country, the country's cybersecurity agency said yesterday. Three of the attacks targeted critical infrastructure operators, and two of those succeeded, with no major disruptions reported. The victims have not been named, and it is not known who is",
+      "published": "Fri, 27 Nov 2026 11:34:20 +0530",
       "score": 20.0
     },
     {
@@ -78,18 +86,10 @@
     },
     {
       "source": "SecurityWeek",
-      "title": "Hackers Exploit Unpatched Flaw in Defunct Idunno AntiCsrf Library",
-      "url": "https://www.securityweek.com/hackers-exploit-unpatched-flaw-in-defunct-idunno-anticsrf-library/",
-      "summary": "<p>Attackers can exploit CVE-2026-131914 to achieve remote code execution via a single web request containing specially crafted data.</p> <p>The post <a href=\"https://www.securityweek.com/hackers-exploit-unpatched-flaw-in-defunct-idunno-anticsrf-library/\">Hackers Exploit Unpatched Flaw in Defunct Idunno AntiCsrf Library</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
-      "published": "Wed, 25 Nov 2026 09:05:13 +0000",
-      "score": 20.0
-    },
-    {
-      "source": "BleepingComputer",
-      "title": "Rackspace shuts down Spot cloud platform after security breach",
-      "url": "https://www.bleepingcomputer.com/news/security/rackspace-shuts-down-spot-cloud-platform-after-security-breach/",
-      "summary": "Rackspace is shutting down its Rackspace Spot cloud platform after a security breach allowed hackers to access customer Kubernetes clusters and secrets, giving customers until December 8 to migrate their services and download their data. [...]",
-      "published": "Tue, 24 Nov 2026 16:37:30 -0500",
+      "title": "In Other News: Tanker Cyberattacks, EU Quantum Act, New VirusTotal Capabilities",
+      "url": "https://www.securityweek.com/in-other-news-tanker-cyberattacks-eu-quantum-act-new-virustotal-capabilities/",
+      "summary": "<p>Noteworthy stories that might have slipped under the radar: RansomwareHelp accused of profiting from ransom payments, USDA payment systems breach, cybersecurity firm Radware hacked. </p> <p>The post <a href=\"https://www.securityweek.com/in-other-news-tanker-cyberattacks-eu-quantum-act-new-virustotal-capabilities/\">In Other News: Tanker Cyberattacks, EU Quantum Act, New VirusTotal Capabilities</a> appeared first on <a href=\"https://www.securityweek.com\">SecurityWeek</a>.</p>",
+      "published": "Fri, 27 Nov 2026 11:00:00 +0000",
       "score": 19.0
     },
     {
@@ -101,27 +101,35 @@
       "score": 18.0
     },
     {
-      "source": "The Hacker News",
-      "title": "Credential Remediation Is Slow When You Don’t Know What Will Break",
-      "url": "https://thehackernews.com/2026/11/credential-remediation-is-slow-when-you.html",
-      "summary": "TL;DR More than 64% still valid after four years: GitGuardian’s State of Secrets Sprawl 2026 found that most valid secrets discovered in 2022 still worked in January 2026, because teams stall on what a revoke will break. Validity-only triage misses 46% of critical secrets: Prioritize by impact instead, weighing what a credential can access and whether it leaked publicly, and update the",
-      "published": "Wed, 25 Nov 2026 17:21:48 +0530",
-      "score": 16.0
+      "source": "Google News Cybersecurity",
+      "title": "Protecting Critical Infrastructure from Cyber Threats - GLOBSEC",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNG1lSWFqZlJmUWl3Q0dsaDg2THg5MTQwRGxKVE9DbW90STNKUzBJbG1EX1JlMGtvR042NUtYSjMwb3Z6MThzZ2l3cWVuTng2ZE04cHo1RE1Kd2w3SFIteTZZWHctdnp0NGNwc0JQdndMemRKYWRQVTRfcnB5bjZ3bm0ySXVUWlluLTZZcTM0RmszRW5lejN4NmJjd2w?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxQNG1lSWFqZlJmUWl3Q0dsaDg2THg5MTQwRGxKVE9DbW90STNKUzBJbG1EX1JlMGtvR042NUtYSjMwb3Z6MThzZ2l3cWVuTng2ZE04cHo1RE1Kd2w3SFIteTZZWHctdnp0NGNwc0JQdndMemRKYWRQVTRfcnB5bjZ3bm0ySXVUWlluLTZZcTM0RmszRW5lejN4NmJjd2w?oc=5\" target=\"_blank\">Protecting Critical Infrastructure from Cyber Threats</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">GLOBSEC</font>",
+      "published": "Fri, 27 Nov 2026 10:32:31 GMT",
+      "score": 18.0
     },
     {
       "source": "BleepingComputer",
-      "title": "New Inception extortion gang launches large-scale vishing campaign",
-      "url": "https://www.bleepingcomputer.com/news/security/new-inception-extortion-gang-launches-large-scale-vishing-campaign/",
-      "summary": "A newly formed data extortion group named 'Inception' has been linked to a large-scale campaign that targets single sign-on (SSO) credentials of multiple global brands and firms. [...]",
-      "published": "Tue, 24 Nov 2026 15:21:20 -0500",
+      "title": "NordVPN Black Friday Deal: Get 78% off VPN plans in 2026",
+      "url": "https://www.bleepingcomputer.com/news/security/nordvpn-black-friday-deal-get-78-percent-off-vpn-plans-in-2026/",
+      "summary": "NordVPN's 2026 Black Friday and Cyber Monday deal is now live, offering savings of up to 78% on VPN subscriptions, plus three extra months of protection. [...]",
+      "published": "Thu, 26 Nov 2026 12:58:42 -0500",
+      "score": 17.0
+    },
+    {
+      "source": "BleepingComputer",
+      "title": "Fake paid expert interviews impersonate brands to steal Google logins",
+      "url": "https://www.bleepingcomputer.com/news/apple/fake-paid-expert-interviews-impersonate-brands-to-steal-google-logins/",
+      "summary": "An ongoing phishing campaign dubbed \"GoodGuys\" impersonates major brands, including Google, Nvidia, Accenture, and SpaceX, to steal corporate Google and Okta credentials using fake invitations to paid expert interviews and webinars. [...]",
+      "published": "Thu, 26 Nov 2026 12:15:27 -0500",
       "score": 16.0
     },
     {
-      "source": "CISA",
-      "title": "CISA Adds 10 Known Exploited Vulnerabilities to Catalog",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/11/25/cisa-adds-10-known-exploited-vulnerabilities-catalog",
-      "summary": "<div class=\"OutlineElement Ltr SCXW1462417 BCX8\"> <p>CISA has added 10 new vulnerabilities to its <a class=\"Hyperlink SCXW1462417 BCX8\" href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\" rel=\"noreferrer noopener\"><u>Known Exploited Vulnerabilities (KEV) Catalog</u></a>, based on evidence of active exploitation.</p> <ul> <li><a href=\"https://www.cve.org/CVERecord?id=CVE-2023-25914\" target=\"_blank\">CVE-2023-25914</a> Danfoss AK-SM 800A Series Path Traversal Vulnerability</li> <li><a href=\"https://www.cve.org/CVERecord?id=CVE-2023-25915\" target=\"_blank\">CVE-2023-25915</a> Danfoss AK-SM 800A Series Improper Input Validation Vulnerability&nbsp;</li> <li><a href=\"https://www.cve.org/CVERecord?id=CVE-2025-41450\" target=\"_blank\">CVE-2025-41450</a> Danfoss AK-SM 800A Series Improper Authentication Vulnerability&nbsp;</li> <li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-103406\" target=\"_blank\">CVE-2026-103406</a> Hewlett Packard Enterprise (HPE) Juniper Session Smart Cond",
-      "published": "Wed, 25 Nov 26 12:00:00 +0000",
+      "source": "The Hacker News",
+      "title": "Microsoft Store App Found Delivering Vinci RAT Capable of Remote System Control",
+      "url": "https://thehackernews.com/2026/11/microsoft-store-app-found-delivering.html",
+      "summary": "Cybersecurity researchers have disclosed details of a cyber attack in which a threat actor leveraged a Microsoft Store application to deliver a remote access trojan (RAT) called Vinci RAT. The intrusion, according to eSentire, begins with a redirection to a bogus site for a sniping tool (\"snipp.codes-team[.]com\"), from where a Microsoft-signed installer called \"Snipping-Tool.exe\" is",
+      "published": "Fri, 27 Nov 2026 17:19:34 +0530",
       "score": 15.0
     },
     {
@@ -133,59 +141,35 @@
       "score": 15.0
     },
     {
-      "source": "The Hacker News",
-      "title": "Hackers Exploit Two GeoServer Flaws as Researchers Warn of Unauthenticated RCE Chains",
-      "url": "https://thehackernews.com/2026/11/hackers-exploit-two-geoserver-flaws-as.html",
-      "summary": "Threat actors are actively exploiting two newly patched security flaws in GeoServer, according to watchTowr. The vulnerabilities in question are CVE-2026-120705 and CVE-2026-129243, details of which are below - CVE-2026-120705 (CVSS score: 8.6) - An arbitrary file read vulnerability that could enable an attacker to access local text files readable by the GeoServer process or fetch",
-      "published": "Wed, 25 Nov 2026 18:18:54 +0530",
-      "score": 15.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "Ex-OpenAI Employee Accused of Bugging Company Offices Granted $1 Million Bail",
-      "url": "https://thehackernews.com/2026/11/ex-openai-employee-accused-of-bugging.html",
-      "summary": "A former OpenAI employee accused of concealing a covert recording device at the company's San Francisco offices will be allowed to be released from jail on a $1 million bond, a San Francisco federal court judge ruled Tuesday. Abdulrahman Alfozan, a 35-year-old Saudi national, was arrested on October 9, 2026, for allegedly bugging the artificial intelligence (AI) company's offices with the aim",
-      "published": "Wed, 25 Nov 2026 16:13:07 +0530",
-      "score": 15.0
-    },
-    {
-      "source": "The Hacker News",
-      "title": "Com-Affiliated Hackers Hijack Cloud Accounts via Vishing for Data Theft and Extortion",
-      "url": "https://thehackernews.com/2026/11/com-affiliated-hackers-hijack-cloud.html",
-      "summary": "Palo Alto Networks Unit 42 has disclosed that it's tracking and has responded to \"numerous waves of vishing attacks\" orchestrated by Com-affiliated threat actors since August 2026 that have led to data theft and extortion attempts. The attacks have targeted financial services, healthcare, and legal services located in the U.S., the U.K., and Australia. Other targets include construction,",
-      "published": "Wed, 25 Nov 2026 12:07:06 +0530",
+      "source": "BleepingComputer",
+      "title": "Microsoft removes WSUS server role in Windows Server 2028",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-removes-wsus-server-role-in-windows-server-2028/",
+      "summary": "Microsoft will remove the WSUS server role from Windows Server 2028, the next major release of its server operating system. [...]",
+      "published": "Fri, 27 Nov 2026 06:18:36 -0500",
       "score": 15.0
     },
     {
       "source": "BleepingComputer",
-      "title": "Microsoft fixes Microsoft 365 bug blocking access to Office apps",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-blank-dialog-that-made-microsoft-365-office-apps-unusable/",
-      "summary": "Earlier this week, Microsoft resolved a known issue that was preventing some Microsoft 365 customers from accessing Office applications. [...]",
-      "published": "Wed, 25 Nov 2026 06:16:32 -0500",
-      "score": 15.0
-    },
-    {
-      "source": "BleepingComputer",
-      "title": "Radware discloses breach exposing customer cloud access keys",
-      "url": "https://www.bleepingcomputer.com/news/security/radware-discloses-breach-exposing-customer-cloud-access-keys/",
-      "summary": "Cybersecurity company Radware says attackers gained access to some of its customers' account details and cloud access keys through an unsecured internal Cloud WAF (Web Application Firewall) management API that was left exposed online. [...]",
-      "published": "Tue, 24 Nov 2026 12:49:05 -0500",
+      "title": "Microsoft pushes emergency hotpatch to fix Windows Server crashes",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/new-out-of-band-oob-emergency-hotpatch-fixes-windows-server-2025-crashes/",
+      "summary": "Microsoft has released an emergency hotpatch update to address Windows Server 2025 crashes triggered after installing this month's security hotpatch update (KB5131077). [...]",
+      "published": "Fri, 27 Nov 2026 04:08:16 -0500",
       "score": 15.0
     },
     {
       "source": "Google News Cybersecurity",
-      "title": "Quantum eMotion Completes C$32 Million ($22.5 Million USD) Acquisition of Cybersecurity Provider Plurilock Security - Quantum Computing Report",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOb2VLVUpwX0RmQTFHZlEtQkJfYTFDRXpWbEVGYkFaa2NTbTBRWks3RjZ6UEwyOV9iNXVUOVpGQ0pEMWNrSS15TTVxa1Z0Ull1a3NJMEdubmNNLTd3cHY0NmFPNXhMaWMtQlA1bWJiUmFTaE03bnJrNElidmdCa2J3ckhvMktpNmM5cHR1Uk1FMHctRkVsOVpQejZRRDd6ZXIxdEJwaEpUb2hqZHVqMm1HaWR5T2VpNHFNYmhPbTZkMFpzdEZuR25wbzNaMXpnTFc1MHktUE5nQndMajU0N01zZNIB5gFBVV95cUxPNU5TX3pfdGVuVnE4ZXBsNlpWdDJPX1RzRVY0TWtDaWRDdWRQN05CRHByaVpiWUhjVmdtWVFJcjBtbkphaFFmVHg4cHQ1VXhRSUFrbUNpNlZiNXp3Q0NVSzBlbVFWbFlSYTRzb25xbThScmVaallFaXdoMmxzc2FKODJFeUZDUkFwYV9hcXFpdXIzSHlQalkyck1CTG01ejZNTHNQaS1McHVwTTVFYWoxY1RkMGY3bGMwdzZJNlk1bkphWDlCTDhWNTI0RTAwTFVkbkhHcEZYTktKN2xrd2txQW1CLW1QQQ?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi4AFBVV95cUxOb2VLVUpwX0RmQTFHZlEtQkJfYTFDRXpWbEVGYkFaa2NTbTBRWks3RjZ6UEwyOV9iNXVUOVpGQ0pEMWNrSS15TTVxa1Z0Ull1a3NJMEdubmNNLTd3cHY0NmFPNXhMaWMtQlA1bWJiUmFTaE03bnJrNElidmdCa2J3ckhvMktpNmM5cHR1Uk1FMHctRkVsOVpQejZRRDd6ZXIxdEJwaEpUb2hqZHVqMm1HaWR5T2VpNHFNYmhPbTZkMFpzdEZuR25wbzNaMXpnTFc1MHktUE5nQndMajU0N01zZNIB5gFBVV95cUxPNU5TX3pfdGVuVnE4ZXBsNlpWdDJPX1RzRVY0TWtDaWRDdWRQN05CRHByaVpiWUhjVmdtWVFJcjBtbkphaFFmVHg4cHQ1VXhRSUFrbUNpNlZiNXp3Q0NVSzBlbVFWbFlSYTRzb25xbThScmVaallFaXdoMmxzc2FKODJFeUZDUkFwYV9hcXFpdXIzSHlQalkyck1CTG01ejZNTHNQaS1McHVwTTVFYWoxY1RkMGY3bGMwdzZJNlk1bkphWDlCTDhWNTI0RTAwTFVkbkhHcEZYTktKN2xrd2txQW1CLW1QQQ?oc=5\" target=\"_blank\">Quantum eMotion Completes C$32 Million ($22.5 Million USD) Acquisition of Cybersecurity Provider Plurilock Security</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Quantum Computing Report</font>",
-      "published": "Thu, 26 Nov 2026 04:59:05 GMT",
+      "title": "First line of defense: GLI Secure cybersecurity solution heads to APAC - IAG – Inside Asian Gaming",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNakZyODR4bno3Vm9fNXlWcnQxMGhoRnVaRWtScjB5SVB2a04wU3drbTZSWFJya3NzLVBmQ1ZrSmtoOWRYMTc5QkYtMENXZlZOV0tRSDBtQUh0Zl9yM1BaQV9KTXhuS0hYR1FOVDl1REUweWlaUDdMdXpxbkk5aWRMVy1WWE94MFVoMXVmQnhVWThjUFZZU05kWVpnVGYwMFI0?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxNakZyODR4bno3Vm9fNXlWcnQxMGhoRnVaRWtScjB5SVB2a04wU3drbTZSWFJya3NzLVBmQ1ZrSmtoOWRYMTc5QkYtMENXZlZOV0tRSDBtQUh0Zl9yM1BaQV9KTXhuS0hYR1FOVDl1REUweWlaUDdMdXpxbkk5aWRMVy1WWE94MFVoMXVmQnhVWThjUFZZU05kWVpnVGYwMFI0?oc=5\" target=\"_blank\">First line of defense: GLI Secure cybersecurity solution heads to APAC</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">IAG – Inside Asian Gaming</font>",
+      "published": "Fri, 27 Nov 2026 11:05:31 GMT",
       "score": 15.0
     },
     {
       "source": "Google News Cybersecurity",
-      "title": "Washington’s Good To Go! website, customer service taken offline due to cybersecurity threat - KIRO 7 News Seattle",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNaHRwX09PVTlQRTZLWlhSZkVnVi01SnV0NXN5QlI3T213Z1RTTXRCbjctNTZBSEtZVGxxZnlTZF9LMmRPRDJXQXMxd3BEekJMUWlaSlFvTzltaG1icV9SQmlhcmlyRDNQMnRMVHFKVU5IRjJ6eFc3anFleG9RVE93ZFBwLU9wcGVpNTh2d2lhOFo1aEpnTkwxUTN1Nkh2YnBrN2EtOGtpV1IxNVFmdjhPWWlGWWJTbFdEMTQ0R0VUVl96MGlhTEM1c1FGcGFGTzEtTUh4elBSQkRjQlgw0gHwAUFVX3lxTE5paFJUUXdfcGlhQ3YzckdCQjRTTE8xcjdhOTJvYUFBejNNY0dEVnZQVm1yNllpcndJVW5jYTRDNU5FTGpleG1rZWhtZXFMZnp1a1ViT0Zja0thLTBhRGFacjNoQzdBTVBsMDJqdHVMQmZaOVM0cVhvSkRyXzVXejdqcFFpZDNmUGFGZnZGMHg1eXJ5UGI1aFFOWFhjX3BQYUdTam1KQjMzOVdsRWdsT2hwRVM2QnJkVVhpTzM0VGczWF9oQWhMc0JoYTRVd1ZpU1B5amoxUlFQV3pSQzZVU25pVGpmNTEzeVFqTnlPU0tXaw?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi3AFBVV95cUxNaHRwX09PVTlQRTZLWlhSZkVnVi01SnV0NXN5QlI3T213Z1RTTXRCbjctNTZBSEtZVGxxZnlTZF9LMmRPRDJXQXMxd3BEekJMUWlaSlFvTzltaG1icV9SQmlhcmlyRDNQMnRMVHFKVU5IRjJ6eFc3anFleG9RVE93ZFBwLU9wcGVpNTh2d2lhOFo1aEpnTkwxUTN1Nkh2YnBrN2EtOGtpV1IxNVFmdjhPWWlGWWJTbFdEMTQ0R0VUVl96MGlhTEM1c1FGcGFGTzEtTUh4elBSQkRjQlgw0gHwAUFVX3lxTE5paFJUUXdfcGlhQ3YzckdCQjRTTE8xcjdhOTJvYUFBejNNY0dEVnZQVm1yNllpcndJVW5jYTRDNU5FTGpleG1rZWhtZXFMZnp1a1ViT0Zja0thLTBhRGFacjNoQzdBTVBsMDJqdHVMQmZaOVM0cVhvSkRyXzVXejdqcFFpZDNmUGFGZnZGMHg1eXJ5UGI1aFFOWFhjX3BQYUdTam1KQjMzOVdsRWdsT2hwRVM2QnJkVVhpTzM0VGczWF9oQWhMc0JoYTRVd1ZpU1B5amoxUlFQV3pSQzZVU25pVGpmNTEzeVFqTnlPU0tXaw?oc=5\" target=\"_blank\">Washington’s Good To Go! website, customer service taken offline due to cybersecurity threat</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">KIRO 7 News Seattle</font>",
-      "published": "Thu, 26 Nov 2026 11:47:56 GMT",
+      "title": "Cybersecurity expert: Avoid donating to scammers on Giving Tuesday - WRTV",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQb3Y2cF8zcE9qV3ViQWJqRE4zQ1Npclk4WjBFMkJFeWdXYzNGRWVZNDFyT0dqN19lZVpNbVhyc0FPcTR6aDdMMXlJWGcxdVluVzdNOFQtaDVRVUQ4MllPektuRHFxc0pKcjNGSVUyUDFRLVZoNTl5UE90NWUxMHo1bm1iQmVXb1F4aElpOUc4aWN6NVMyMWVvNDN3?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxQb3Y2cF8zcE9qV3ViQWJqRE4zQ1Npclk4WjBFMkJFeWdXYzNGRWVZNDFyT0dqN19lZVpNbVhyc0FPcTR6aDdMMXlJWGcxdVluVzdNOFQtaDVRVUQ4MllPektuRHFxc0pKcjNGSVUyUDFRLVZoNTl5UE90NWUxMHo1bm1iQmVXb1F4aElpOUc4aWN6NVMyMWVvNDN3?oc=5\" target=\"_blank\">Cybersecurity expert: Avoid donating to scammers on Giving Tuesday</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WRTV</font>",
+      "published": "Fri, 27 Nov 2026 00:26:00 GMT",
       "score": 15.0
     },
     {
@@ -198,10 +182,26 @@
     },
     {
       "source": "The Hacker News",
-      "title": "Most Wanted: The Phishing Kits and Techniques Getting Past Security Controls",
-      "url": "https://thehackernews.com/2026/11/most-wanted-phishing-kits-and.html",
-      "summary": "Every phishing attack has to get past email security, web filtering, and safe browsing before it reaches an employee. Some kits manage that far more often than others, and those are the kits that security teams need to know about. At Push Security, we measure this as breakthrough rate: The share of attacks that get past email security, web gateways, and safe browsing to reach the user. How an",
-      "published": "Thu, 26 Nov 2026 16:27:55 +0530",
+      "title": "How to Keep Your Security Picture Current When Attackers Move at AI Speed",
+      "url": "https://thehackernews.com/2026/11/how-to-keep-your-security-picture.html",
+      "summary": "Most security metrics are not built to be used. They are built to be shown. Somewhere between the quarterly review and the next status update, a set of numbers gets assembled that looks reassuring in a room and tells almost no one what is actually happening across the environment that week. Someone pulls them together the week before, cleans them up, and presents a picture of a program that is,",
+      "published": "Fri, 27 Nov 2026 16:02:18 +0530",
+      "score": 12.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "ThreatsDay: 10M NGINX Services at Risk, 250+ Malicious Extensions, AI Server Hijacking + 17 More Stories",
+      "url": "https://thehackernews.com/2026/11/threatsday-250-rogue-extensions-10m.html",
+      "summary": "A website can look perfectly fine to the person running it. Log out, visit the same page, and things might look different. Something similar is happening with browser extensions, where even the way you find and install one can change what it does. Checking whether software works as expected only tells you so much. Then there’s the question of who gets to use what. Stolen logins are opening",
+      "published": "Fri, 27 Nov 2026 01:09:57 +0530",
+      "score": 12.0
+    },
+    {
+      "source": "The Hacker News",
+      "title": "North Korea-Linked PolinRider Poisons Over 7,600 GitHub Repositories to Spread Malware",
+      "url": "https://thehackernews.com/2026/11/north-korea-linked-polinrider-poisons.html",
+      "summary": "The threat actors behind the PolinRider campaign have compromised over 7,600 GitHub repositories, in some cases planting a Python loader capable of delivering next-stage payloads, as evidence emerges that the activity may have started as far back as February 2025. \"These are real developers, not throwaway accounts,\" Apiiro researcher Shmulik Cohen said. \"6,541 of the 7,609 repos (86%) belong",
+      "published": "Thu, 26 Nov 2026 20:43:41 +0530",
       "score": 12.0
     }
   ]
